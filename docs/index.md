@@ -127,13 +127,13 @@ afxw内にあるこの二つは，検索ワードの履歴やコマンド出力�
     ffmpegはafxw64/installにある．
     winmerge, gnuplotは適宜ダウンロードすること
     内部の参照関係で，winmerge，gnuplotの呼び出しの場所がそれぞれ1か所だけ相対パス指定してあるので，この構造である必要がある．（ファンクションキーによる演習以外では必要ない．）
-```
-C:\bin\afxw64
-C:\bin\ffmpeg
-C:\bin\winmerge
-C:\bin\gnuplot
-```
-慣れた人は，自分の環境に合わせて設定を変えてもよい． 
+    ```
+    C:\bin\afxw64
+    C:\bin\ffmpeg
+    C:\bin\winmerge
+    C:\bin\gnuplot
+    ```
+    慣れた人は，自分の環境に合わせて設定を変えてもよい． 
 
 2. VC2013の再配布パッケージをインストール．
 

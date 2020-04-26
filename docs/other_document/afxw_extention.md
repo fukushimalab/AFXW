@@ -16,11 +16,11 @@ zでコンフィグ設定を起動して，何も設定せずに決定を押せ�
 COL_00=255
 EXT_00=exe bat lnk
 COL_01=65535
-EXT_01=lzh zip 7z cab rar tgz tar bz2 gz msi
+EXT_01=zip 7z lzh cab rar tar gz tgz bz2 xz lzma msi
 COL_02=16711935
 EXT_02=bmp ppm pgm pbm jpg jpeg jpe png gif tif tiff webp jp2 jls ico svg wmf emf eps
 COL_03=8388863
-EXT_03=ifo mp2 mpa m1a m2p m2a mpg mpeg m1v m2v mp2v mp4 divx mov qt ra rm ram rmvb rpm smi avi wmv asf mkv
+EXT_03=avi mov wmv mp4 avc 264 hevc 265 flv mpg mpeg m1v m1a mp2 m2p m2a m2v m4a divx mkv webm
 COL_04=8454016
 EXT_04=mp3 wav aac m3u
 COL_05=16749350
@@ -28,17 +28,17 @@ EXT_05=doc docx
 COL_06=65280
 EXT_06=xls xlsx csv
 COL_07=33023
-EXT_07=ppt pptx csv
-COL_08=16711935
+EXT_07=ppt pptx
+COL_08=7171437
 EXT_08=c cpp
 COL_09=12632256
 EXT_09=txt hlp h hpp md tex
 COL_10=8421376
 EXT_10=pdf xmind
 COL_11=16711680
-EXT_11=htm html url
+EXT_11=htm html url css
 COL_12=12615808
-EXT_12=ini cfg dat bkp def key
+EXT_12=ini cfg dat bkp def key mnu his
 COL_13=8388736
 EXT_13=dll sys reg inf spi sph
 COL_14=128
@@ -77,9 +77,10 @@ CRVW=65535
 # あふｗの設定
 ｚキーを押すと，あふの細かな設定ができます．  
 以下に推奨の設定を書いておきます．  
+詳細は，AFXWCFG.TXTを参照のこと．
 
 ## 各種設定（１）
-一部抜粋．何も書いてないのは好きに設定してよい．
+一部抜粋．何も書いてないのはおそらくデフォルトになっている．
 
 * あふｗをESCでも終了する（非推奨．ESC連打すると，あふが終了してしまう）
 * 疑似マウス操作モードを有効にする（チェック推奨．マウスでD&Dが簡単になる．）
@@ -161,8 +162,10 @@ SXCMD=""
 
 ### DIRの時だけshift+enterが反対の窓を開く
 拡張子判別実行（７）タブにおいて，
-<DIR>を作ってShift+enterに以下を定義
+`<DIR>`を作ってShift+enterに以下を定義
+```
 &EXCD -O"$P\$F\"
+```
 これを定義しておくとディレクトリの時だけ反対側の窓で開けるようになります．
 
 ## キー定義（８）
@@ -323,7 +326,6 @@ shift+Enterに
 &V_ARC
 ```
 
-
 # 外部ツールを導入する
 
 ## 高速な画像コピー
@@ -376,20 +378,18 @@ SJISで保存すること．デフォルトのUTF-8だと文字化けする．
 F11にnkfコマンドを割り当てているので，作ったら押すといい．
 
 ## 設定したメニューファイル
-afxsetting.mnu
-afxtest.mnu
-bookmark.mnu
-command.mnu
-compress.mnu
-control.mnu
-image_help.mnu
-launcher.mnu
-opposit_cd.mnu
-view_help.mnu
-
+* afxsetting.mnu
+* afxtest.mnu
+* bookmark.mnu
+* command.mnu
+* compress.mnu
+* compress7z.mnu
+* control.mnu
+* launcher.mnu
+* opposit_cd.mnu
 * key_menu/以下のヘルプ一覧
 
-環境変数の取得
+# 環境変数の取得方法
 サンプル
 $V"USERPROFILE"
 
