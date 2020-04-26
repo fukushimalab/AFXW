@@ -108,8 +108,6 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ-^\@[;:],./_0-9F1-12INSDELTabBSPgUpPgDn
 この説明は，自分のキーボードの位置はこれとは違うっていう，こだわりがある人に対する説明ではない．
 なお，101キーボードやHHKを使ったときに，この演習のキーバインドはかなり都合悪いのため，頑張って拡張すること．
 
-**【重要】 キー配置の押しやすさは．Caps LockとCtrlは入れ替わっている前提である．入れ替えをすることを推奨する．**
-
 ## 注意書き
 afxw内にあるこの二つは，検索ワードの履歴やコマンド出力結果の履歴が保存されている．
 * AFXW.HIS
@@ -122,13 +120,16 @@ afxw内にあるこの二つは，検索ワードの履歴やコマンド出力�
 パスワードや，外部に機密にする内容が履歴などが入っているとも限らない．
 
 # インストール
-1. bin.zipをgithubから落としてきて，（cloneしたら入っているはず．）以下に展開．  
-内部の参照関係で，winmerge，gnuplotの呼び出しの場所がそれぞれ1か所だけ相対パス指定してあるので，この構造である必要がある．  
+1. githubからcloneしたら以下に展開． 
+ffmpegはafxw64/installにある．
+winmerge, gnuplotは適宜ダウンロードすること
+内部の参照関係で，winmerge，gnuplotの呼び出しの場所がそれぞれ1か所だけ相対パス指定してあるので，この構造である必要がある．（ファンクションキーによる演習以外では必要ない．）
 ```
 C:\bin\afxw64
+C:\bin\ffmpeg
 C:\bin\winmerge
 C:\bin\gnuplot
-C:\bin\ffmpeg
+
 ```
 慣れた人は，自分の環境に合わせて設定を変えてもよい．  
 
@@ -147,8 +148,14 @@ afxw64/installフォルダにあるvcredist_x64.exeをインストール．も�
 参照を押して，自分の普段使っているエディタ（atom,visual studio code, 秀丸，サクラエディタなど）に変更すればよい．
 
 5. その他インストール
-image magickのインストール（画像からpdfへの変換ができません．）と
-tex環境のインストール（pdfcropが動きません）．
+* pnuplotのインストール（インストーラではなくzipをbin/gnuplotに展開）
+* winmergeのインストール（インストーラではなくzipをbin/winmergeに展開）
+* image magickのインストール（画像からpdfへの変換ができません．）
+* tex環境のインストール（pdfcropが動きません）．
+
+6. キーの入れ替え
+**【重要】 キー配置の押しやすさは．Caps LockとCtrlは入れ替わっている前提である．入れ替えをすることを推奨する．**
+例えば[keyswap](https://www.vector.co.jp/soft/winnt/util/se228667.html)などを使うとよい．
 
 # 導入
 ## ディレクトリの移動
