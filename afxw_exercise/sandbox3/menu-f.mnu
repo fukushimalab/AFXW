@@ -1,0 +1,4 @@
+afx key-F
+"F     インクリメンタルサーチ"	&SENDKEY 0070
+"s-F   ファイル検索"		&SENDKEY 1070
+"c-s-F grep"			&PLUGIN $~\afxgrep64.dll "$P" $IT"/S /I $khoge$K *.*"$I4"GREP (input find_string and file_pattern)"

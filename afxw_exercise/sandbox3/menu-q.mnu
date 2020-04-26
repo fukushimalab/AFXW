@@ -1,0 +1,4 @@
+afx key-Q
+"Q     終了"					&SENDKEY 0081
+"s-Q   終了（設定保存無し）"	&SENDKEY 1081
+

@@ -1,0 +1,5 @@
+afx key-G
+"G     デスクトップ（F2）"	&SENDKEY 0113
+"s-G   ダウンロード"		&SENDKEY 1113
+"c-s-G ドキュメント"		&SENDKEY 2113
+"Fのメニューを表示（a-Fと同じ）" &PMENU $~\key_menu\menu-f.mnu

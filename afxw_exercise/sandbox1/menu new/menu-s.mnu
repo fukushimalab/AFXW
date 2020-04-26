@@ -1,0 +1,6 @@
+afx key-S
+"S     ソート（メニュー：s連打でサイズソート）"	&SENDKEY 0083
+"s-S   時間昇順"		&SORT T+
+"c-s-S ファイル名昇順"	&SORT X+
+"a-S   拡張子名昇順"	&SORT E+
+"c-a-S 時間降順"		&SORT T-

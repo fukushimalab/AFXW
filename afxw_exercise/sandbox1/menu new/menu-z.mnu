@@ -1,0 +1,6 @@
+afx key-Z
+"Z     GUI設定（１）"		&SENDKEY 0090
+"s-Z   GUI設定（２）"		&SENDKEY 1090
+"c-s-Z テキストによる設定"	&SENDKEY 3090
+"a-Z   新規にあふを立ち上げ"	&SENDKEY 4090
+"s-a-Z 管理者モードで新規にあふを立ち上げ"	&SENDKEY 5090

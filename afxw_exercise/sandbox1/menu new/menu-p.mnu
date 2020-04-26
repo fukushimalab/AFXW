@@ -1,0 +1,5 @@
+afx key-P
+"P     ˆ³k"				&SENDKEY 0080
+"s-P   ŒÂ•Ê‚Éˆ³k"		&SENDKEY 1080
+"c-s-P ©‘‹‚Éˆ³k"		$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mmt=off -mx9 -mm=Deflate
+"a-P   ˆ³kƒƒjƒ…[‚ğ•\¦"	&MENU $~\compress.mnu

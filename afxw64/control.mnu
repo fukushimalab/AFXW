@@ -1,0 +1,28 @@
+AFXCONTROLPANEL
+"Open control panel (コントロールパネル)" rundll32.exe shell32.dll,Control_RunDLL
+"appwiz    (アプリケーションの追加と削除)(application)" rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl,,1
+"powercfg  (電源の管理)" rundll32.exe shell32.dll,Control_RunDLL powercfg.cpl
+"devmgmt   (デバイスマネージャー)(device)" &EXEC c:\windows\system32\devmgmt.msc
+"hotplug   (デバイスの取り外し)(eject)" rundll32.exe shell32.dll,Control_RunDLL hotplug.dll
+"fonts     (フォント)" explorer.exe c:\windows\fonts\
+"firewall  (ファイアーウォール)" rundll32.exe shell32.dll,Control_RunDLL Firewall.cpl
+"desk      (画面のデザイン)(window design)" rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,2
+"mouse     (マウス)" rundll32.exe shell32.dll,Control_RunDLL main.cpl @0
+"keybord   (キーボード)" rundll32.exe shell32.dll,Control_RunDLL main.cpl @1
+"mmsys     (マルチメディア)(multimedia)" rundll32.exe shell32.dll,Control_RunDLL mmsys.cpl,,0
+"ncpa      (ネットワーク)(network)" rundll32.exe shell32.dll,Control_RunDLL ncpa.cpl
+"printer   (プリンタ)" rundll32.exe shell32.dll,Control_RunDLL main.cpl @2
+"mmsys     (サウンド)(sound)" rundll32.exe shell32.dll,Control_RunDLL mmsys.cpl @1
+"timedate  (日付と時刻)" rundll32.exe shell32.dll,Control_RunDLL timedate.cpl
+"password  (パスワード)" rundll32.exe shell32.dll,Control_RunDLL password.cpl
+"sysdm     (システム)(system)" control sysdm.cpl
+"wscui     (セキュリティセンター)(security)" rundll32.exe shell32.dll,Control_RunDLL wscui.cpl
+"admintools    (管理者ツール)" control.exe admintools
+"userpasswords (ユーザーアカウント)"  control.exe userpasswords
+"inetcpl   (インターネット)(internet)" rundll32.exe shell32.dll,Control_RunDLL inetcpl.cpl
+"joy       (ゲームオプション)(game)" rundll32.exe shell32.dll,Control_RunDLL joy.cpl
+"access    (ユーザー補助)" rundll32.exe shell32.dll,Control_RunDLL access.cpl,,1
+"modem     (モデム)" rundll32.exe shell32.dll,Control_RunDLL modem.cpl
+"intl      (地域)" rundll32.exe shell32.dll,Control_RunDLL intl.cpl,,4
+"telephon  (テレフォニー)" rundll32.exe shell32.dll,Control_RunDLL telephon.cpl
+"#edit afxcmd3.mnu  (コントロールパネルメニュー編集)" &EDIT "$~\control.mnu"

@@ -1,0 +1,3 @@
+afx key-J
+"J    登録フォルダにジャンプ "	&SENDKEY 0074
+"s-J  指定してジャンプ "	&SENDKEY 1074

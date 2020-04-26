@@ -1,0 +1,8 @@
+﻿afx bookmark
+"C:\Users\fukushima\Desktop\"	&CD "C:\Users\fukushima\Desktop\"
+"------------------------------"
+"add/del"	afxbkmk "$~\bookmark.mnu" "$P\\"
+"edit"		&EDIT "$~\bookmark.mnu"
+
+;L="$~\launcher.mnu"
+;R="$~\afxtest.mnu"

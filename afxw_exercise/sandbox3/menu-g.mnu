@@ -1,0 +1,6 @@
+afx key-G
+"G     デスクトップ"		&SENDKEY 0113
+"s-G   ダウンロード"			&SENDKEY 1113
+"c-s-G ドキュメント"			&SENDKEY 2113
+"a-G   逆窓ジャンプのメニュー"	&SENDKEY 2113
+"Fのメニュー表示:a-Fと同じ"	&PMENU $~\key_menu\menu-f.mnu

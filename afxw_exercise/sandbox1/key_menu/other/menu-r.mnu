@@ -1,0 +1,4 @@
+afx key-R
+"R     リネーム"		&SENDKEY 0082
+"R     拡張改名"		&SENDKEY 1082
+"c-s-R コピーしてリネーム"	&SENDKEY 3082

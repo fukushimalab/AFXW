@@ -1,0 +1,56 @@
+*************************************************************************
+              Susie Plug-In for PostScript with Ghostscript
+                                Version 0.1.5
+                      Copyright(C) 1998, Kazunori Asayama
+                      Copyright(C) 2006-2009  K.Takata
+*************************************************************************
+
+1．はじめに
+
+　淺山氏による Susie Plug-In for PostScript with Ghostscript を改造した
+ものです。改造点は以下の通りです。
+
+・プレビュー付きの EPS が表示できなかったのを修正。
+・メモリー上のファイルイメージを正しく処理できていなかったのを修正。
+  （Susie 以外のアプリで動かない場合があったのが改善されるはず。）
+・設定の「Ghostscript を画像毎に初期化・終了する」が保存されないのを修正。
+・Ghostscript の DLL (gsdll32.dll) を指定していないときは、レジストリを
+  読んで DLL を探すように変更。
+・漢字の表示に Win32 API を使用できるように変更。(-dWINKANJI)
+
+
+2. 更新履歴
+
+  2006/01/27  Version 0.1.1
+    ・ソースの差分のみ公開。
+
+  2006/01/28  Version 0.1.2
+    ・Ghostscript の DLL をレジストリから探すように変更。
+      （AFPL Ghostscript のみ）
+    ・ソースの差分のみ公開。
+
+  2008/02/02  Version 0.1.3
+    ・Ghostscript の DLL をレジストリから探す際、GPL Ghostscript →
+      AFPL Ghostscript の順に探すように変更。
+    ・ソースの差分のみ公開。
+
+  2009/01/20  Version 0.1.4 （非公開）
+    ・ベースアドレスを設定。（ロードの高速化目的）
+
+  2009/03/05  Version 0.1.5
+    ・指定された DLL が存在しないときは、レジストリを読んで DLL を
+      探すように変更。
+      （Ghostscript バージョンアップ時の再設定の手間を省く目的）
+    ・漢字の表示に Win32 API を使用できるように変更。(-dWINKANJI)
+
+
+
+3. 注意事項、その他
+・本バージョンは暫定公開版です。予告無く公開を取りやめることがあります。
+・ifepsgs.diff は、オリジナル版 (Version 0.1) に対するソースの差分です。
+・src フォルダには、本改造版のソース一式が入っています。
+
+---
+K.Takata
+http://webs.to/ken/
+http://homepage3.nifty.com/k-takata/

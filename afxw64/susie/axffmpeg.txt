@@ -1,0 +1,159 @@
+----------------------------------------------------------------------------
+                       axffmpeg.spi v0.03 (2013/02/05)
+----------------------------------------------------------------------------
+                                                        2013/02/05 Yak!
+
+****************************************************************************
+ 本バージョンは proof-of-concept 版です。異常時対応などが大変甘いです。
+****************************************************************************
+
+0.目次
+
+  1.概要
+  2.内容物
+  3.動作環境
+  4.設定
+  5.動作確認環境
+  6.著作権・免責等
+  7.既知の不具合・仕様
+  8.連絡先
+  9.TODO
+  10.History
+
+1.概要
+
+  本プラグインは動画ファイルを画像書庫とみなし指定枚数、あるいは指定間隔ごとの
+  画像を展開するプラグインです。
+
+  現在のバージョンでデフォルトで対応拡張子として認識するのは、
+  .3g2/.3gp/.avi/.f4v/.flv/.m4v/.mkv/.mov/.mp4/.mpeg/.mpg/.ogg/.ogm/.webm/.wmv
+  です。これらの拡張子の全てのファイルが展開できるわけではありません。
+  なお、対応拡張子は設定で指定することができます。
+
+  画像出力は FFmpeg の外部 exe を利用します。
+
+  別途、必要なファイルがありますので「3.動作環境」の項を、また初期設定について
+  「4.設定」の項を参照ください。
+
+  現在のバージョンでは出力フォーマットは BMP のみとなっています。
+
+2.内容物
+
+  axffmpeg.spi: プラグイン本体
+  axffmepg.txt: ドキュメント(本文書)
+  source.zip:  ソースファイル一式
+
+3.動作環境
+
+  別途 FFmpeg 実行ファイルが必要です。
+  Zeranoe FFmpeg builds http://ffmpeg.zeranoe.com/builds/ 等から入手ください。
+
+4.設定
+
+  「Path of ffprobe」で ffprobe.exe のパスを指定します。
+  「Path of ffmpeg」で ffmpeg.exe のパスを指定します。
+  双方とも、右の「Browse」ボタンからファイル選択ダイアログによる指定が
+  可能です。
+
+  「Images per file」と「Interval seconds」は枚数による指定か、間隔による
+  指定かの選択です。
+
+  「Images per file」選択時に 30 と入力されていると 1 動画につき 30 枚の画像が
+  展開されます。
+  現在のバージョンでは時間の粒度が最小 1 秒となっているため、時間の短い画像だと
+  同じ位置の画像になったり均等にならなかったりします。
+
+  「Interval seconds」選択時に 30 と入力されていると 30 秒毎の画像が
+  展開されます。1分30秒の動画であれば 4 枚展開されるはずです。
+
+  「Extension」で対応拡張子を指定することができます。
+  デフォルトに戻したい場合は「Default」ボタンを押してください。
+  現在のデフォルトは、
+  *.3g2;*.3gp;*.avi;*.f4v;*.flv;*.m4v;*.mkv;*.mov;*.mp4;*.mpeg;*.mpg;*.ogg;*.ogm;*.webm;*.wmv
+  です。
+
+　設定ファイル axffmpeg.spi.ini はプラグインと同じディレクトリに作成されます。
+
+5.動作確認環境
+
+  Windows7 Professional 64bit + Core i7-2620M + NVS 4200M
+  Zeranoe FFmpeg Builds ffmpeg-20121230-git-518239c-win32-static.7z
+  あふｗ v1.56 / Leeyes v2.6.1 / Hamana v1.48 / MassiGra v0.44
+
+6.著作権・免責等
+
+　本ソフトウェアは zlib/libpng License で配布しています。
+
+  FFmpeg は本体は LGPLv2+ ですが、オプションによっては GPLv2+ となります。
+  LGPL として FFmpeg を取り込み、本ソフトウェア自体を LGPL で配布することも
+  可能ですが、GPL の回避が必要であること、FFmpeg のビルドが面倒であること、
+  から外部 exe を実行する形としています。
+  GPL FAQ の内容によれば、この形式であれば GPL/LGPL の影響を受けないと
+  考えられます。
+
+  Copyright (C) 2012,2013 Yak! / Yasutaka ATARASHI
+
+  This software is provided 'as-is', without any express or implied
+  warranty. In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+     1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+
+     2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+
+     3. This notice may not be removed or altered from any source
+     distribution.
+
+7.既知の不具合・仕様
+
+  ・まずは動作するものを、ということでメモリ効率が考慮されていません。
+  ・同様に、異常時対応が甘いです。
+  ・多数の動画が存在するフォルダを開いていくとメモリ使用量がどんどん増加
+    します。
+    場合によっては一度 Susie プラグイン使用側のアプリを終了してみる、等の対処が
+    必要かもしれません。
+  ・プラグインに対してファイルではなくメモリで渡される場合は対応していません。
+  ・現在のバージョンでは時間の粒度が最小 1 秒です。
+  ・現在のバージョンでは出力フォーマットは BMP のみとなっています。
+  ・まず間違いなくバグがあります。
+
+8.連絡先
+
+  不具合、要望、感想等は Yak! <yak_ex@mx.scn.tv>、
+  Twitter アカウント @yak_ex、掲示板 http://8904.teacup.com/yak_ex/bbs
+  github https://github.com/yak1ex/axffmpeg/issues (日本語で OK です)
+  等へお願いします。
+
+9.TODO
+
+  ・タイムスタンプ出力
+  ・出力フォーマット指定、自動選択
+  ・キャッシュ制御
+  ・秒単位より細かい粒度での処理
+
+10.History
+
+  2013/02/05 (v0.03)
+    - 出力フォーマットを BMP に変更
+      - 画像サイズのみからファイルサイズを計算可能とするための変更
+    - *.ogm をデフォルト拡張子に追加
+    - 要求されたファイルのみ実データを展開
+      - これに伴い、進捗ダイアログ表示を削除
+
+  2013/01/22 (v0.02)
+    - 展開失敗時にエラー画像を設定
+    - 進捗ダイアログの表示
+    - 対応拡張子のユーザー指定
+    - ffprobe.exe, ffmpeg.exe のパス未設定時に警告
+    - 枚数と間隔の設定分離
+
+  2013/01/01 (v0.01)
+    - 初版

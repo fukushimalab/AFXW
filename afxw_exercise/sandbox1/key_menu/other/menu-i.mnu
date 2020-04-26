@@ -1,0 +1,4 @@
+afx key-I
+"I     ファイル容量を計算"	&SENDKEY 0073
+"s-I   マークした容量の合計を計算"	&SENDKEY 1073
+"c-s-I プロパティを表示"	&PRPTY

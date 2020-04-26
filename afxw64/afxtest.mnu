@@ -1,0 +1,11 @@
+afxw debug
+"afxexec.exe" $~\afxexec.exe cmd /c ipconfig
+"VSPMV C" 	&VSPMV C
+"VSPMV P" 	&VSPMV P
+"HSPMV 100" &HSPMV 100
+"HSPMV 8" 	&HSPMV 8
+-------------
+"edit"		&EDIT "$~\afxtest.mnu"
+
+;R="$~\command.mnu"
+;L="$~\bookmark.mnu"

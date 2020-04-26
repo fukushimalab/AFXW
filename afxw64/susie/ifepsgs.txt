@@ -1,0 +1,33 @@
+*************************************************************************
+              Susie Plug-In for PostScript with Ghostscript
+                                Version 0.1
+                      Copyright(C) 1998, Kazunori Asayama
+*************************************************************************
+
+1. はじめに
+
+  グラフィックローダ Susie で PostScript ファイルを表示するための
+プラグインです。PostScript 言語の解釈には Ghostscript (Win32 DLL 版) を
+使いますのであらかじめインストールしておいてください。
+
+2. インストール
+
+以下の手順でインストールしてください。
+
+   i. Susie と同じディレクトリに ifepsgs.spi を置く。
+
+  ii. Susie を起動し直す。
+
+ iii. Susie のメニュー「設定」->「プラグイン」で「ifepsgs.spi」の
+      「設定」ボタンを押す。
+
+  iv. このプラグインの設定ダイアログがポップアップするので、
+      「Ghostscript DLL のファイル名」を設定する。
+
+以上です。
+
+---
+淺山 和典 (ASAYAMA Kazunori)
+asayama@vid.cpg.sony.co.jp
+GHF01532@niftyserve.or.jp
+TPM03937@pcvan.or.jp

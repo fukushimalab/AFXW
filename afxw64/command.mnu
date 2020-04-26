@@ -1,0 +1,11 @@
+afxw command
+"nkf" $~\afxexec.exe cmd /c $~\nkf32.exe --overwrite $F
+"pdfinfo" $~\afxexec.exe cmd /c $~\pdfinfo.exe $F
+"tree" $~\afxexec.exe cmd /c tree
+"systeminfo" $~\afxexec.exe cmd /c systeminfo.exe
+"ipconfig" $~\afxexec.exe cmd /c ipconfig
+"------------------------------"
+"edit"		&EDIT "$~\command.mnu"
+
+;R="$~\launcher.mnu"
+;L="$~\afxtest.mnu"

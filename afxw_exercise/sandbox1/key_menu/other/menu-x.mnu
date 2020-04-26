@@ -1,0 +1,4 @@
+afx key-X
+"X     ファイル実行"	&SENDKEY 0088
+"s-X   ファイル名を入力して実行"	&SENDKEY 1088
+"Zのメニューを表示" &PMENU $~\key_menu\menu-z.mnu

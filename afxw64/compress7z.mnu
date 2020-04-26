@@ -1,0 +1,12 @@
+afx compress
+"7zН≈Се"	afxexec.exe cmd /c $~\7z.exe a "$P\$W.7z" $MF -t7z -mx9
+"7z(LZMA)Н≈Се"	afxexec.exe cmd /c $~\7z.exe a "$P\$W.7z" $MF -t7z -mx9 -mm=LZMA
+"7z(LZMA2)Н≈Се"	afxexec.exe cmd /c $~\7z.exe a "$P\$W.7z" $MF -t7z -mx9 -mm=LZMA2
+"7z(PPMd)Н≈Се"	afxexec.exe cmd /c $~\7z.exe a "$P\$W.7z" $MF -t7z -mx9 -mm=PPMd
+"7z(BZip2)Н≈Се"	afxexec.exe cmd /c $~\7z.exe a "$P\$W.7z" $MF -t7z -mx9 -mm=BZip2
+"7z(deflate)Н≈Се"	afxexec.exe cmd /c $~\7z.exe a "$P\$W.7z" $MF -t7z -mx9 -mm=Deflate
+========================
+"edit"		&EDIT "$~\compress.mnu"
+
+;L="$~\compress.mnu"
+;R="$~\compress.mnu"

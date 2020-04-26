@@ -1,0 +1,6 @@
+afx key-M
+"M     逆窓に移動"			&SENDKEY 0067
+"s-M   登録フォルダに移動"		&SENDKEY 1067
+"c-s-M 逆窓にFastCopyで非同期移動"	fastcopy\fastcopy.exe /cmd=move /auto_close $MF /to="$O\"
+"a-M   履歴に移動"			&MOVEHIS
+"c-a-M フォルダを指定して移動"	&MOVETO !

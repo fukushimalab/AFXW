@@ -1,0 +1,3 @@
+afx key-L
+"L     ドライブジャンプ"	&SENDKEY 0076
+"s-L   google検索"	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe https://www.google.com/search?q=$I4"Google

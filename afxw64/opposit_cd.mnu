@@ -1,0 +1,7 @@
+afx 逆窓移動
+"g:Desktop"		&EXCD -O"$V"USERPROFILE"\Desktop\"
+"f:Download"	&EXCD -O"$V"USERPROFILE"\Downloads\"
+"h:Document"	&EXCD -O"$V"USERPROFILE"\Documents\"
+"------------------------------"
+"edit"		&EDIT "$~\opposit_cd.mnu"
+"add/delete（逆窓なので登録後要編集）"	afxbkmk "$~\opposit_cd.mnu" "$P\\"

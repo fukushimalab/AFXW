@@ -1,0 +1,13 @@
+afxw setting
+"1 AFXW.key（キー設定 ）"	&EDIT $~\AFXW.key
+"2 AFXW.ini（全体設定1）"	&EDIT $~\AFXW.ini
+"3 AFXW.def（全体設定2）"	&EDIT $~\AFXW.def
+"4 afxkview.exe（キーバインド閲覧）"&OPEN $~\afxkview.exe
+"5 AFXW.txt（閲覧）"&VIEW $~\AFXW.txt
+"6 AFXWCFG.txt（閲覧）"&VIEW $~\AFXWCFG.txt
+"7 AFXWKEY.txt（閲覧）"&VIEW $~\AFXWKEY.txt
+"8 AFXWAMS.txt（閲覧）"&VIEW $~\AFXWAMS.txt
+"9 key_menuを開く"&CD $~\key_menu\
+"0 stdout.txtをクリア"   cmd /c copy nul $~\stdout.txt
+====================================
+"Edit this"	&EDIT "$~\afxsetting.mnu"

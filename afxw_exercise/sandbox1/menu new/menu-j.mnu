@@ -1,0 +1,5 @@
+afx key-J
+"J     登録フォルダにジャンプ "				&SENDKEY 0074
+"s-J   指定してジャンプ "					&SENDKEY 1074
+"c-s-J 指定して逆窓ジャンプ（履歴が使えない）"	&EXCD -O"$I"Oppsit Window change"
+"a-J   逆窓ジャンプのメニュー"					&MENU $~\opposit_cd.mnu

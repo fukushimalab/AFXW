@@ -1,0 +1,15 @@
+afx compress
+"zip (Max)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -r -tzip -mx9 -mmt=on -mm=Deflate
+"zip (no option)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF
+"zip (5)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mmt=on-mx5
+"zip (0)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx0 -mmt=on -mm=Deflate
+"zip(Deflate64)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx9 -mmt=on -mm=Deflate64
+"zip(PPMd)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx9 -mmt=on -mm=PPMd
+"zip(LZMA)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx9 -mmt=on -mm=LZMA
+"zip (single)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mmt=off -mx9 -mm=Deflate
+"7z"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.7z" $MF -t7z -mx9
+========================
+"edit"		&EDIT "$~\compress.mnu"
+
+;L="$~\compress7z.mnu"
+;R="$~\compress7z.mnu"

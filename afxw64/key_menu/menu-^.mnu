@@ -1,0 +1,4 @@
+afx key-^
+"^     PUSH" 	&PUSHD
+"s-^   POP" 	&POPD
+

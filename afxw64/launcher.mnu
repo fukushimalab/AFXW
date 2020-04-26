@@ -1,0 +1,14 @@
+afxw ランチャ
+"Sublime Text"	&EXEC "C:\bin\sublimetext\sublime_text.exe"
+"notepad"		notepad.exe
+"cmd"			cmd.exe
+"irfanview"		&EXEC "C:\Program Files\IrfanView\i_view64.exe"
+"calc"			calc.exe
+"msinfo システム情報" msinfo32.exe
+"taskmgr.exe"	&OPEN $~\TaskManager.lnk
+"------------------------------"
+"add/del"		afxbkmk.exe "$~\launcher.mnu" -1e "$P\$F"
+"edit"			&EDIT "$~\launcher.mnu"
+
+;L=$~\command.mnu
+;R=$~\bookmark.mnu

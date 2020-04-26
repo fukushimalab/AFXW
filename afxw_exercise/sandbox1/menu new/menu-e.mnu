@@ -1,0 +1,4 @@
+afx key-E
+"E     デフォルトで開く"	&EDIT "$P\$F"
+"s-E   新規にファイルを作る"	&EDIT "$I"新規テキストの編集""
+"c-s-E notepadで開く"		notepad "$P\$F"

@@ -1,0 +1,4 @@
+afx key-
+"     "	&SENDKEY 0065
+"s-   "	&SENDKEY 1065
+"c-s- "	&SENDKEY 3065
