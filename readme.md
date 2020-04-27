@@ -11,5 +11,6 @@
 * docs/other_document/その他mdファイル．いろんなメモ．
 * afxw_exerciseディレクトリ：演習のサンドボックス環境
 
-改行コードの問題
+改行コードの問題（対応済み）
+gitにpushするときにCRLFがLFになってしまって動かない．
 https://stakiran.hatenablog.com/entry/2018/11/14/193053

@@ -6,4 +6,4 @@
 *.txt text eol=crlf
 *.mnu text eol=crlf
 *.bat text eol=crlf
-*.bat tex eol=crlf
+*.tex text eol=crlf
