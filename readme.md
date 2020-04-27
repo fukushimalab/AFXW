@@ -3,7 +3,7 @@
 設定は，かなり研究者＆画像処理エンジニア向けにカスタマイズ済み．
 
 * [演習のリンク: Github Pages](https://fukushimalab.github.io/AFXW/)
-* [演習のリンク: 上のmdファイル](index.md)
+* [演習のリンク: 上のmdファイル](docs/index.md)
 
 内容の説明
 * AFXW64: いろいろ設定したAFXWのファイル．AFXWからダウンロードしてきて設定するよりもここからcloneしたほうが早い．
