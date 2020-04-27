@@ -1,0 +1,6 @@
+afx key-C
+"C     逆窓にコピー"		&COPYTO "$O"
+"s-C   登録フォルダにコピー"	&SENDKEY 1067
+"c-s-C 逆窓にFastCopyで非同期コピー"	fastcopy\fastcopy.exe /cmd=update /auto_close $MF /to="$O\"
+"a-C   履歴にコピー" 		&COPYHIS
+"c-a-C フォルダを指定してコピー"&COPYTO !

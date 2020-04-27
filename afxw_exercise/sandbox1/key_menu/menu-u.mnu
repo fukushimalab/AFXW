@@ -1,0 +1,4 @@
+afx key-U
+"U     逆窓に展開"	&SENDKEY 0085
+"s-U   自窓に展開（shift+enterと同動作）"	&MELTTO .
+"c-s-U フォルダを作る設定を逆にして逆窓に展開"	&EXTRACT -R

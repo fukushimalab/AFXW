@@ -1,0 +1,6 @@
+afx key-X
+"X     ファイル実行"	&SENDKEY 0088
+"s-X   ファイル名を入力して実行"	&SENDKEY 1088
+"s-c-X あふで実行"	$~\afxexec.exe $IT"cmd /c $k"$I4"afxexec"
+"a-X   cmdの起動"	cmd.exe
+"Zのメニューを表示" 		&PMENU $~\key_menu\menu-z.mnu

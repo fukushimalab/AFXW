@@ -1,0 +1,5 @@
+afx key-/
+"/     DLL/SPI/SPHの情報表示" 	&SENDKEY 0191
+"s-/   コンピュータのプロパティ"&SENDKEY 2045
+"s-c-/ タスクマネージャー"	&OPEN $~\TaskManager.lnk
+"a-/ コントロールパネルメニュー"		&MENU $~\control.mnu

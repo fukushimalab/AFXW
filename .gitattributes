@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Auto detect text files and perform CRLF normalization
+* text=auto eol=crlf
+*.key text eol=crlf
+*.def text eol=crlf
+*.ini text eol=crlf
+*.txt text eol=crlf
+*.mnu text eol=crlf
+*.bat text eol=crlf
+*.bat tex eol=crlf

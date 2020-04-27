@@ -1,0 +1,3 @@
+afx key-A
+"A     ファイルを全選択"			&SENDKEY 0065
+"s-A   ディレクトリを含めて全選択"	&SENDKEY 1065

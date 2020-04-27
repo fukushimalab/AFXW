@@ -1,0 +1,3 @@
+afx key-K
+"K     フォルダの作成"					cmd /c mkdir $I4"フォルダの作成"
+"s-K   指定移動（フォルダを作って送る）"	&MOVETO !

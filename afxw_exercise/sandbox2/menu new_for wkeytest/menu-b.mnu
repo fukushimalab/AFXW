@@ -1,0 +1,6 @@
+afx key-B
+"B     ランチャを起動"		&MENU $~\launcher.mnu
+"s-B   cmdを起動"		cmd.exe $P
+"c-s-B コマンドラインツール群"	&MENU $~\command.mnu
+"a-B ブックマークを起動"	&MENU $~\bookmark.mnu
+

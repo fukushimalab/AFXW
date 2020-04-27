@@ -10,3 +10,6 @@
 * docs/afxw_exercise.md:演習のドキュメント
 * docs/other_document/その他mdファイル．いろんなメモ．
 * afxw_exerciseディレクトリ：演習のサンドボックス環境
+
+改行コードの問題
+https://stakiran.hatenablog.com/entry/2018/11/14/193053
