@@ -263,24 +263,23 @@ afxw内にあるこの二つは，検索ワードの履歴やコマンド出力�
 パスワードや，外部に機密にする内容が履歴などが入っているとも限らない．
 ___
 # インストール
-1. githubからcloneしたら以下に展開．
-
-    ffmpegはafxw64/installにある．
-    winmerge, gnuplotは適宜ダウンロードすること
-    内部の参照関係で，winmerge，gnuplotの呼び出しの場所がそれぞれ1か所だけ相対パス指定してあるので，この構造である必要がある．（ファンクションキーによる演習以外では必要ない．）
+1. githubからcloneしたら以下に展開． 
     ```
     C:\bin\afxw64
     C:\bin\ffmpeg
     C:\bin\winmerge
     C:\bin\gnuplot
     ```
-    慣れた人は，自分の環境に合わせて設定を変えてもよい． 
+    * ffmpegはafxw64/installにある．
+    * winmerge, gnuplotは適宜ダウンロードすること
+    * 内部の参照関係で，winmerge，gnuplotの呼び出しの場所がそれぞれ1か所だけ相対パス指定してあるので，この構造である必要がある．（ファンクションキーによる演習以外では必要ない．）
+    * 慣れた人は，自分の環境に合わせて設定を変えてもよい． 
 
 2. VC2013の再配布パッケージをインストール．
 
     afxw64/installフォルダにあるvcredist_x64.exeをインストール．もし，pdfの出力回りで動作しなかったらこれじゃないかも．x86が正しい気もする．（afxexecに必要）
 
-3. まずはダブルクリックして起動．そして，zキーを押して，そのタブのaboutでオートメーションサーバを登録をクリック．（afxexecに必要で登録と解除がトグル）
+3. まずはダブルクリックして起動．そして，`z`キーを押して，そのタブのaboutでオートメーションサーバを登録をクリック．（afxexecに必要で登録と解除がトグル）
 
 4. そのタブのプログラム（６）におけるエディタを自分のエディタに変更．
 
@@ -403,7 +402,7 @@ ABCDEFGHIJKLMNOPRSTUVWXYZ-^\@;:],./_0-9F2-12
 
 下のリストぐらいが，とりあえず覚えればいいもの（要検証）．
 
-============絶対に必要============
+==絶対に必要==
 * `矢印`：カーソル移動
 * `Enter`：内部で実行（AFXWによる実行）
 * `c-Enter`:関連付け実行（ダブルクリックによる実行）
@@ -418,7 +417,7 @@ ABCDEFGHIJKLMNOPRSTUVWXYZ-^\@;:],./_0-9F2-12
 * `E`：編集(Edit)
 * `Q`: 終了(Quit)
 
-===知らなくてもいいとりあえず使える===
+==知らなくても，とりあえず使える==
 * `A`：全選択（All）
 * `F`：検索(Find)
 * `S`：ソート(Sort)
@@ -426,6 +425,8 @@ ABCDEFGHIJKLMNOPRSTUVWXYZ-^\@;:],./_0-9F2-12
 * `P`：圧縮(Pack)
 * `U`：展開(Unpack)
 
+==知っているともっと効率的==
+* その他のキーやCTRL，ALT，SHIFTとの組み合わせ
 ___
 # ファイルの閲覧
 `Enter`キーを押したときに，カーソルの対象がディレクトリではなくファイルだった場合には，その対象の拡張子に応じて動作が切り替わる．
@@ -1897,8 +1898,10 @@ Unix環境ではおとなしくZshを使いましょう．
 * [touch.exe](http://akt.d.dooo.jp/)
 * [fastcopy](https://fastcopy.jp/)
 * afxkview.exe(現在の配布先不明)
-* [afx4v.exe]()
+* [afx4v.exe](http://yak3.myhome.cx:8080/afxwiki/index.php?FrontPage)
+    * 内部でテキストモードでファイルを見るためのもの．afxexecで代用したので今は使っていない． 
 * [afxtools](https://github.com/yuratomo/afxtools)
+    * コントロールパネルの設定はここを参照した．
 * [xdoc2txt](http://ebstudio.info/home/xdoc2txt.html)
 * [gnuplot](http://www.gnuplot.info/)
 * [WinMerge](https://winmerge.org/?lang=ja)
