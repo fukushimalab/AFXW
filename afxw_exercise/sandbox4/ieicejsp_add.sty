@@ -1,0 +1,64 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2012.02.28:ページ当りの図表の数を増加した．
+%------------------------------------
+
+%------------------------------------
+%   Common   Added Sekine 
+%------------------------------------
+\newcommand{\Eqn}[1]{&\hspace{-0.6em}#1\hspace{-0.6em}&}
+%------------------------------------
+%07.07.03--parameterを追加
+\newcommand{\figoneb}[8]{ %
+\begin{figure}[#1]\vspace{#4}
+\begin{center}
+\includegraphics[width=#2\linewidth,height=#3\linewidth]{#5}
+\end{center}
+\vspace{#6}
+%%\caption{{\large #7}}
+\caption{{#7}}
+\label{#5}
+\vspace{#8}
+\end{figure}}
+%------------------------------------
+\newcommand{\figminipage}[6]{ %
+\begin{minipage}{#1\linewidth}\begin{center}
+\includegraphics[width=#2\linewidth,height=#3\linewidth]{#4}\\[#5]
+{{\small #6}}
+\end{center}
+\vskip0pt
+\end{minipage}
+}
+%-------------------------------------------------
+\newcommand{\bmath}[1]{\mbox{\boldmath $#1$}}
+\newcommand{\bm}[1]{\mbox{\boldmath ${#1}$}}      %07.11.06
+\newcommand{\brm}[1]{\mbox{\boldmath ${\rm#1}$}}      %07.11.06
+\newcommand{\diag}[1]{\mbox{\/ \rm diag$\left(#1 \right)$}}
+\newcommand{\MAT}[4]{\left(\begin{array}{cc}
+       \displaystyle{#1}  & \displaystyle{#2} \\
+      \displaystyle{#3}  & \displaystyle{#4} 
+\end{array}\right)}
+\newcommand{\VEC}[2]{\left(\begin{array}{c}
+       \displaystyle{#1}  \\
+       \displaystyle{#2} 
+\end{array}\right)}
+\newcommand{\VECT}[2]{\left(\begin{array}{cc}
+       \displaystyle{#1} \displaystyle{#2} 
+\end{array}\right)}
+\newcommand{\noseplist}[1][2.5]{\usecounter{enumii} \topsep=0pt \parsep=0pt \itemindent=0zw \leftmargin=#1zw \labelwidth=#1zw \labelsep=0.5zw \itemsep=0pt}
+\newcommand{\sm}[1]{\mbox{\small ${#1}$}}
+\newcommand{\fts}[1]{\mbox{\footnotesize ${#1}$}}
+
+%-------------------------------------------------
+%96.08.21--図表の入れ方を変更（美文書作成13.5.8 p198参照）
+\setcounter{topnumber}{6}    %ページ上部の図表は2個まで(2->3)
+\def\topfraction{.98}        %ページの上7割まで図表で占めて可(.7->.98)
+\setcounter{bottomnumber}{6} %ページ下部の図表は1個まで(1->3)
+\def\bottomfraction{.98}     %ページの下3割まで図表で占めて可(.3->.98)
+\setcounter{totalnumber}{10}  %ページ当たりの図表は3個まで(3->4)
+\def\textfraction{.02}       %ページの2割は本文にする(.2->.02)
+\def\floatpagefraction{.98}  %図表だけのページは少なくとも5割を
+                               % 図表が占める(0.5->0.98)
+\setcounter{dbltopnumber}{5}
+\def\dbltopfraction{.98}
+\def\dblfloatpagefraction{.98}
+%-------------------------------------------------
