@@ -1,0 +1,5 @@
+afx key-,
+",   標準出力テキスト（stdout.txt）を表示"	&VIEW $~\stdout.txt
+"s-, コントロールパネルメニュー"		&MENU $~\control.mnu
+
+

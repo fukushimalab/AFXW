@@ -1,0 +1,101 @@
+\documentclass[twocolumn, a4paper]{./ieicejsp_tokai}
+\input{./ieicejsp_add.sty}
+%\usepackage[dvips]{graphicx}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{bm,subfigure,amsmath,float}
+\usepackage{subfig}
+\usepackage{multirow,array}
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{L}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{R}{>{\raggedright\arraybackslash}X}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%%\usepackage[dviout]{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{amsxtra}
+
+\title{{コンプレッシブバイラテラルフィルタの任意レンジカーネル拡張}
+}
+  \author{
+    %角谷　勇仁　（指導教員：福嶋　慶繁） \\ 名古屋工業大学　工学部
+  }
+
+\begin{document}
+\maketitle
+
+\section{まえがき}
+カーネルの半径に依存しない定数時間バイラテラルフィルタ (O(1) BF)のひとつであるコンプレッシブバイラテラルフィルタ (CBF)~\cite{compressiveBF}は処理が軽量で性能が高いがレンジカーネルにガウス関数しか使用できないという制約がある．本論文では，任意のレンジカーネルに拡張する方法を提案し，その性能を評価する．
+%
+\section{O(1) BF}
+通常のBFの処理は以下の式で定義される．
+\begin{align}
+\bar{I}(\bm{p}) =\frac{\sum_{\bm{q}\in N(\bm{p})}w_{s}(\bm{p},\bm{q})w_{r}(\bm{I}(\bm{p}),\bm{I}(\bm{q}))\bm{I}(\bm{q})}{\sum_{\bm{q}\in N(\bm{p})}w_{s}(\bm{p},\bm{q})w_{r}(\bm{I}(\bm{p}),\bm{I}(\bm{q}))}
+\label{eq:bailateral}
+\end{align}
+ここで，$\hat{I_p}, I_p, I_q$はそれぞれ出力画素， 注目画素，参照画素を表しており，$w_{s}(p,q)=e^{\frac{-(q-p)^{2}}{2\sigma_{s}^{2}}}$, $w_{r}(I_p,I_q)=e^{\frac{-(I_q-I_p)^{2}}{2\sigma_{r}^{2}}}$である．
+定数時間バイラテラルフィルタは，$w_{r}(\bm{a},\bm{b})\approx\sum{_{k=0}^{K-1}}\phi_{k}(\bm{a})\psi_{k}(\bm{b})$と変数分離しこれを式~\eqref{eq:bailateral}に代入し，式変形することでカーネル半径に依存しない定数時間での処理が可能となる．
+%
+\section{CBF}
+CBFでは，フーリエ級数展開によりレンジカーネルを近似し，三角関数の加法定理を用いて以下のように変数分離する．
+\begin{align}
+  w_r(a,b) \approx \alpha_{0} + 2\sum_{k=1}^{K}\alpha_{k}(\cos(w_{k}a)\cos(w_{k}b) \nonumber\\
+  +\sin(w_{k}a)\sin(w_{k}b))
+  \label{eq:cosdecomposition}
+\end{align}
+ここで，ガウシアンカーネルのフーリエ級数は$\alpha_{k} \approx \frac{2}{T}e^{-\frac{1}{2}(\frac{2\pi}{T}k\sigma_{r})^{2}}$である．これを式~\eqref{eq:bailateral}に代入して整理することにより，4K+1回の畳み込み回数での処理が可能となる.
+さらに，式\eqref{eq:bailateral}と$I_{p}$の差分をとると
+\begin{align}
+ \hat{I}_{\bm{p}}\!-\!I_{\bm{p}} = \frac{\sum_{\bm{q}\in\mathcal{S}} w_s(\bm{p},\bm{q})w_r(I_{\bm{p}},I_{\bm{q}})(I_{\bm{q}} - I_{\bm{p}})
+}{\sum_{\bm{q}\in\mathcal{S}} w_s(\bm{p},\bm{q})w_r(I_{\bm{p}},I_{\bm{q}})}
+\label{eq:bilateral-subform}
+\end{align}
+と表される．レンジカーネルはガウス関数であるので，その微分を利用すると$\sigma_{r}^{2}w'_{r}(a,b) = w_{r}(a,b)(b-a)$という式を満たし，これを式~\eqref{eq:bilateral-subform}に代入し変数分離することで畳み込み回数を2K回まで削減できる．
+%
+\section{提案手法}
+$w_r(a,b)(b-a)$は偶関数と奇関数の積であることから，奇関数であることを利用するとフーリエ正弦級数展開と三角関数の加法定理を利用することで以下のように変数分離できる．
+\begin{align}
+  w_{r}(a,b)(b-a) \approx 2\sum_{k=1}^{K}b_{k}(\sin(\omega_{k}a)\cos(\omega_{k}b) \nonumber  \\
+    -\cos(\omega_{k}a)\sin(\omega_{k}b)). \label{eq:compressive-sin-decomp}
+\end{align}
+
+これと式~\eqref{eq:cosdecomposition}を式\eqref{eq:bilateral-subform}に代入することで畳み込み回数2K回で，任意のレンジカーネルを利用することが可能となる．周期Tは，レンジカーネルとその近似値の二乗誤差が最小になるように決定する．提案手法では，二乗誤差を求める際，0 $\sim I_{range}$までの誤差を一次元ループで求め，周期Tと誤差の分布の関係から黄金分割探索法で最小値を決定することで高速な処理時間を実現する．
+%
+\section{実験}
+本実験では，提案手法 (proposed method)，特異値分解による手法 (SVD)~\cite{SVD}, 線形補間による手法 (Linear)~\cite{linear}の三つの手法を比較する．図~\ref{processing_time}，\ref{PSNR}は各手法の畳み込み回数に応じた処理時間，8枚の画像に対するPeak Signal-to-Noise Ratio (PSNR)の平均値を示している．なおレンジカーネルに$f(x)=e^{\frac{-x^{6}}{6\sigma_{r}^{6}}}$を用いたときの結果である．提案手法は，Linearと同程度の処理時間で，SVDとほぼ同じ性能を実現できた．
+%
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[scale = 0.22]{fig/processing_time.pdf}
+  \caption{各手法の処理時間}
+  \label{processing_time}
+ \end{center}
+\end{figure}
+
+\begin{figure}[H]
+ \begin{center}
+  \includegraphics[scale = 0.22]{fig/6-gauss_PSNR.pdf}
+  \caption{各手法のPSNR ($\sigma_r=40, \sigma_s=5$)}
+  \label{PSNR}
+ \end{center}
+\end{figure}
+%
+\section{むすび}
+提案手法により，CBFを任意のレンジカーネルに拡張し，Linearとほぼ同じ処理時間でSVD以上の性能を実現できた．
+{\small
+\begin{thebibliography}{9}
+\baselineskip=9.5pt
+\bibitem{compressiveBF}
+K. Sugimoto and S. Kamata, ``Compressive bilateral filtering,'' in \emph{IEEE Transactions on Image Processing}, 2015.
+
+\bibitem{SVD}
+K. Sugimoto and N. Fukushima and S. Kamata ``200 FPS Constant-Time Bilateral Filter Using SVD and Tiling Strategy,，'' in \emph{in Proc. IEEE International on Image Processing (ICIP)}, 2019.
+
+\bibitem{linear}
+Q. Yang and K.H. Tan and N. Ahuja, ``Real-time o(1) bilateral filtering, '' in \emph{IEEE Conference on Computer Vision and Pattern Recognition (CVRP)}, 2017.
+\end{thebibliography}
+}
+\end{document}
