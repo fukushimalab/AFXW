@@ -1,0 +1,17 @@
+afxw functionkey help
+"F1 ƒwƒ‹ƒv‚Ì•\¦"
+"F2 ‚È‚µ"
+"F3 ‚È‚µ"
+"F4 notepad"
+"F5 Ä“Ç‚İ‚İ"
+"F6 magick identify"
+"F7 image2pdf"
+"F8 pdfcrop"
+"F9 winmerge"
+"F10 touch"
+"F11 ‚È‚µ"
+"s-F11 nkf(SJIS)"
+"F12 gnuplot"
+
+=====================================
+"edit"		&EDIT "$~\key_menu\functionkey_help.mnu"

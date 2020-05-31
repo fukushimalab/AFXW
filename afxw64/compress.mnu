@@ -6,8 +6,11 @@ afx compress
 "zip(Deflate64)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx9 -mmt=on -mm=Deflate64
 "zip(PPMd)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx9 -mmt=on -mm=PPMd
 "zip(LZMA)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx9 -mmt=on -mm=LZMA
+"zip(MAX Timestamp Update)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx9 -mmt=on -mm=Deflate -stl
 "zip (single)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mmt=off -mx9 -mm=Deflate
 "7z"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.7z" $MF -t7z -mx9
+"zip(test)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -tzip -mx9 -mmt=on -mm=Deflate -stl -mcu=off
+"zip(password)"	$~\afxexec.exe cmd /c $~\7z.exe a "$P\$W.zip" $MF -p$I4"password" -tzip -mx9 -mmt=on -mm=Deflate -stl -mcu=off
 ========================
 "edit"		&EDIT "$~\compress.mnu"
 
