@@ -57,6 +57,8 @@ PRT_08="bin"
 DIR_08=C:\bin\
 PRT_09="wsl"
 DIR_09=\\wsl$\Ubuntu\
+PRT_10="nas"
+DIR_10=\\fukushima-nas\share\
 
 [REG_MSK]
 PRT_00="*.*"
