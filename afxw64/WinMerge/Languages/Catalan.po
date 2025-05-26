@@ -1,0 +1,5711 @@
+# This file is from WinMerge <https://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+# Translators:
+# * Jordi Vilar <jvilar at users.sourceforge.net>
+# * Pere Orga <pere at orga.cat>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues/\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pere Orga <pere@orga.cat>\n"
+"Language-Team: Catalan <winmerge-translate@lists.sourceforge.net>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../Src\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. LANGUAGE, SUBLANGUAGE
+#, c-format
+msgid "LANG_ENGLISH, SUBLANG_ENGLISH_US"
+msgstr "LANG_CATALAN, SUBLANG_DEFAULT"
+
+msgid "Copy to Middle"
+msgstr "Copia cap al mig"
+
+msgid "C&opy to Right\tAlt+Right"
+msgstr "C&opia a la dreta\tAlt+Dreta"
+
+msgid "Copy from Middle"
+msgstr "Copia del mig"
+
+msgid "Copy fro&m Right\tAlt+Shift+Left"
+msgstr "Copia des de la dret&a\tAlt+Maj+Esquerra"
+
+msgid "Cop&y to Left\tAlt+Left"
+msgstr "Copia a l'&esquerra\tAlt+Esquerra"
+
+msgid "Copy &from Left\tAlt+Shift+Right"
+msgstr "Copia des de l'es&querra\tAlt+Maj+Dreta"
+
+msgid "Copy Selected Lines to Middle"
+msgstr "Copia les línies seleccionades al mig"
+
+msgid "Copy Selected Lines to Right"
+msgstr "Copia les línies seleccionades a la dreta"
+
+msgid "Copy Selected Lines from Middle"
+msgstr "Copia les línies seleccionades del mig"
+
+msgid "Copy Selected Lines from Right"
+msgstr "Copia les línies seleccionades de la dreta"
+
+msgid "Copy Selected Lines to Left"
+msgstr "Copia les línies seleccionades a l'esquerra"
+
+msgid "Copy Selected Lines from Left"
+msgstr "Copia les línies seleccionades de l'esquerra"
+
+msgid "Copy Selected Diff (Left) to Clipboard\tCtrl+&1"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Middle) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&3"
+msgstr ""
+
+#, c-format
+msgid "Select Line &Difference\tF4"
+msgstr "Selecciona la diferència de la &línia\tF4"
+
+msgid "Add to Substitution &Filters"
+msgstr "Afegeix aquest canvi als F&iltres de substitució"
+
+msgid "Add to &Line Filters"
+msgstr "Afegeix als filtres de línia"
+
+#, c-format
+msgid "&Undo"
+msgstr "&Desfés"
+
+#, c-format
+msgid "&Redo"
+msgstr "Re&fés"
+
+#, c-format
+msgid "Cu&t"
+msgstr "Re&talla"
+
+#, c-format
+msgid "&Copy"
+msgstr "&Copia"
+
+#, c-format
+msgid "&Paste"
+msgstr "En&ganxa"
+
+#, c-format
+msgid "&Scripts"
+msgstr "&Seqüències d'ordres"
+
+#, c-format
+msgid "< Empty >"
+msgstr "< Buit >"
+
+msgid "&Go to...\tCtrl+G"
+msgstr "&Ves a...\tControl+G"
+
+msgid "Go to Moved Line Between Left and Middle\tCtrl+Shift+G"
+msgstr "Ves a la línia desplaçada entre l'esquerra i el mig\tControl+Maj+G"
+
+msgid "Go to Moved Line Between Middle and Right\tCtrl+Alt+G"
+msgstr "Ves a la línia desplaçada entre el mig i la dreta\tControl+Alt+G"
+
+#, c-format
+msgid "Op&en"
+msgstr "O&bre"
+
+msgid "With &Registered Application"
+msgstr "Amb l'aplicació &registrada"
+
+msgid "With &External Editor\tCtrl+Alt+E"
+msgstr "Amb l'editor &extern\tControl+Alt+E"
+
+msgid "&With..."
+msgstr "A&mb..."
+
+msgid "Open &Parent Folder..."
+msgstr "Obre el directori &Pare..."
+
+msgid "S&hell Menu"
+msgstr "Menú de &Sistema"
+
+msgid "Use First Line as Headers"
+msgstr "Fes servir la primera línia com a capçalera"
+
+msgid "Auto-Fit All Columns"
+msgstr "Ajusta automàticament totes les columnes"
+
+#, c-format
+msgid "View &Differences"
+msgstr "Remarca &diferències"
+
+#, c-format
+msgid "Diff &Block Size"
+msgstr "Mida del &bloc"
+
+#, c-format
+msgid "&Ignore Color Difference"
+msgstr "Ll&indar de diferència de color"
+
+msgid "Ins&ertion/Deletion Detection"
+msgstr "D&etector d'inserció/eliminació"
+
+#, c-format
+msgid "&None"
+msgstr "&Cap"
+
+msgid "&Vertical"
+msgstr "&Vertical"
+
+msgid "&Horizontal"
+msgstr "&Horitzontal"
+
+#, c-format
+msgid "&Previous Page"
+msgstr "&Pàgina anterior"
+
+#, c-format
+msgid "&Next Page"
+msgstr "Pàgina següe&nt"
+
+#, c-format
+msgid "&Active Pane"
+msgstr "Subfinestra &activa"
+
+msgid "Rotate &Right 90deg"
+msgstr "Gira a la &dreta 90 graus"
+
+msgid "Rotate &Left 90deg"
+msgstr "Gira a l'&esquerra 90 graus"
+
+msgid "Flip V&ertically"
+msgstr "Voltejar &verticalment"
+
+msgid "Flip H&orizontally"
+msgstr "Volteja &horitzontalment"
+
+#, c-format
+msgid "&Zoom"
+msgstr "&Zoom"
+
+#, c-format
+msgid "25%"
+msgstr "25%"
+
+#, c-format
+msgid "Zoom &In\tCtrl++"
+msgstr "A&propa\tControl++"
+
+#, c-format
+msgid "Zoom &Out\tCtrl+-"
+msgstr "All&unya\tControl+-"
+
+#. Zoom to normal
+#, c-format
+msgid "&Normal\tCtrl+*"
+msgstr "Zoom &Normal\tControl+*"
+
+#, c-format
+msgid "&Overlay"
+msgstr "Superp&osició"
+
+#, c-format
+msgid "&Alpha Blend"
+msgstr "&Superposició"
+
+#, c-format
+msgid "Alpha &Blend Animation"
+msgstr "Superposició &animada"
+
+#, c-format
+msgid "Dragging &Mode"
+msgstr "&Acció en arrossegar el ratolí"
+
+#, c-format
+msgid "&Move"
+msgstr "&Mou"
+
+#, c-format
+msgid "&Adjust Offset"
+msgstr "&Ajusta el desplaçament"
+
+msgid "&Vertical Wipe"
+msgstr "Superposa v&erticalment"
+
+msgid "&Horizontal Wipe"
+msgstr "Superposa h&oritzontalment"
+
+msgid "Rectangle &Select"
+msgstr "&Selecció de rectangle"
+
+#, c-format
+msgid "&Set Background Color"
+msgstr "Tria el color de fon&s"
+
+msgid "&Vector Image Scaling"
+msgstr "Escala de la imatge &vectorial"
+
+msgid "&Animation Settings"
+msgstr ""
+
+msgid "&Blink Interval"
+msgstr ""
+
+msgid "&Overlay Animation Interval"
+msgstr ""
+
+msgid "Compare Extracted &Text from Images"
+msgstr "Compara el &text extret de les imatges"
+
+msgid "Co&mpare"
+msgstr "Co&mpara"
+
+msgid "&Screenshots"
+msgstr "&Captures de pantalla"
+
+msgid "&Full Size Screenshots"
+msgstr "C&aptures de la pantalla completa"
+
+msgid "&HTMLs"
+msgstr "&HTMLs"
+
+msgid "&Texts"
+msgstr "&Textos"
+
+msgid "&Resource Trees"
+msgstr "&Arbres de recursos"
+
+msgid "&Size"
+msgstr "&Mida"
+
+msgid "Fit to Window"
+msgstr "Ajusta a la finestra"
+
+msgid "&Event Sync"
+msgstr "&Sincronització d'esdeveniments"
+
+msgid "&Enabled"
+msgstr "&Activat"
+
+msgid "&Scroll"
+msgstr "&Desplaçament"
+
+msgid "&Click"
+msgstr "&Clic"
+
+msgid "&Input"
+msgstr "&Entrada"
+
+msgid "&Go Back/Forward"
+msgstr "&Ves enrere/avança"
+
+msgid "Clear &Browsing Data"
+msgstr "&Esborra les dades de navegació"
+
+msgid "&Disk Cache"
+msgstr "Memòria cau del &disc"
+
+msgid "&Cookies"
+msgstr "&Galetes"
+
+msgid "&Browsing History"
+msgstr "&Historial de navegació"
+
+msgid "&All Profiles"
+msgstr "&Tots els perfils"
+
+#, c-format
+msgid "&File"
+msgstr "&Fitxer"
+
+#, c-format
+msgid "&New"
+msgstr "&Nou"
+
+#, c-format
+msgid "&Text"
+msgstr "&Text"
+
+msgid "T&able"
+msgstr "T&aula"
+
+#, c-format
+msgid "&Binary"
+msgstr "&Binari"
+
+#, c-format
+msgid "&Image"
+msgstr "&Imatge"
+
+msgid "&Webpage"
+msgstr "Pàgina &web"
+
+#, c-format
+msgid "New (&3 panes)"
+msgstr "Nou (&3 subfinestres)"
+
+#, c-format
+msgid "&Open...\tCtrl+O"
+msgstr "&Obre...\tControl+O"
+
+msgid "Open Conflic&t File..."
+msgstr "Obre un fitxer amb conflic&tes..."
+
+msgid "Open C&lipboard"
+msgstr "Obre el porta-reta&lls"
+
+#, c-format
+msgid "Open Pro&ject...\tCtrl+J"
+msgstr "Obre un pro&jecte...\tControl+J"
+
+#, c-format
+msgid "Sa&ve Project..."
+msgstr "Desa el p&rojecte..."
+
+#, c-format
+msgid "Recent Projects"
+msgstr "Projectes recents"
+
+#, c-format
+msgid "Recent F&iles or Folders"
+msgstr "Fitxers i &carpetes recents"
+
+msgid "E&xit\tCtrl+Q"
+msgstr "&Surt\tControl+Q"
+
+#, c-format
+msgid "&Edit"
+msgstr "E&dita"
+
+#, c-format
+msgid "&Paste\tCtrl+V"
+msgstr "Engan&xa\tControl+V"
+
+#, c-format
+msgid "&Options...\tCtrl+,"
+msgstr "O&pcions...\tControl+,"
+
+#, c-format
+msgid "&View"
+msgstr "&Visualització"
+
+#, c-format
+msgid "Ta&b Bar"
+msgstr "Barra de ta&bulacions"
+
+msgid "&View Tab Bar"
+msgstr ""
+
+msgid "&On Title Bar"
+msgstr ""
+
+#, c-format
+msgid "&Toolbar"
+msgstr "Barra d'ei&nes"
+
+#, c-format
+msgid "&Small"
+msgstr "&Petita"
+
+msgid "&Medium"
+msgstr ""
+
+#, c-format
+msgid "&Big"
+msgstr "&Gran"
+
+#, c-format
+msgid "&Huge"
+msgstr "&Immensa"
+
+msgid "Men&u Bar"
+msgstr ""
+
+msgid "&Output Pane"
+msgstr ""
+
+#, c-format
+msgid "&Status Bar"
+msgstr "Barra d'est&at"
+
+#, c-format
+msgid "&Tools"
+msgstr "&Eines"
+
+#, c-format
+msgid "&Filters..."
+msgstr "&Filtres..."
+
+#, c-format
+msgid "&Generate Patch..."
+msgstr "&Genera un pedaç..."
+
+#, c-format
+msgid "&Plugins"
+msgstr "&Connectors"
+
+#, c-format
+msgid "P&lugin Settings..."
+msgstr "Opcions dels connectors..."
+
+#, c-format
+msgid "Ma&nual Prediffer"
+msgstr "Prediferenciació &manual"
+
+#, c-format
+msgid "A&utomatic Prediffer"
+msgstr "Prediferenciació a&utomàtica"
+
+#, c-format
+msgid "&Manual Unpacking"
+msgstr "Desempaquetament &manual"
+
+#, c-format
+msgid "&Automatic Unpacking"
+msgstr "Desempaquetament &automàtic"
+
+#, c-format
+msgid "&Reload Plugins"
+msgstr "&Recarrega els connectors"
+
+#, c-format
+msgid "&Window"
+msgstr "Fi&nestra"
+
+msgid "Cl&ose\tCtrl+W"
+msgstr "&Tanca\tControl+W"
+
+#, c-format
+msgid "Clo&se All"
+msgstr "T&anca-ho tot"
+
+#, c-format
+msgid "Change &Pane\tF6"
+msgstr "Canvia de &subfinestra\tF6"
+
+#, c-format
+msgid "Tile &Horizontally"
+msgstr "Finestres en mosaic &horitzontal"
+
+#, c-format
+msgid "Tile &Vertically"
+msgstr "Finestres en mosaic &vertical"
+
+#, c-format
+msgid "&Cascade"
+msgstr "Finestres en &cascada"
+
+#, c-format
+msgid "&Help"
+msgstr "&Ajuda"
+
+#, c-format
+msgid "&WinMerge Help\tF1"
+msgstr "Ajuda del &WinMerge\tF1"
+
+#, c-format
+msgid "R&elease Notes"
+msgstr "Notes de la v&ersió"
+
+#, c-format
+msgid "&Translations"
+msgstr "&Traduccions"
+
+#, c-format
+msgid "C&onfiguration"
+msgstr "C&onfiguració"
+
+#, c-format
+msgid "&GNU General Public License"
+msgstr "Llicència &GNU General Public License"
+
+#, c-format
+msgid "&About WinMerge..."
+msgstr "&Quant al WinMerge..."
+
+#, c-format
+msgid "&Read-Only"
+msgstr "Només lectura"
+
+#, c-format
+msgid "L&eft Read-Only"
+msgstr "Fes l'es&querra de només lectura"
+
+#, c-format
+msgid "M&iddle Read-Only"
+msgstr "Fes el del mig de només lectura"
+
+#, c-format
+msgid "Ri&ght Read-Only"
+msgstr "Fes la dre&ta de només lectura"
+
+#, c-format
+msgid "&File Encoding..."
+msgstr "Codificació de caràcters del &fitxer..."
+
+#, c-format
+msgid "Select &All\tCtrl+A"
+msgstr "Selecciona-ho &tot\tControl+A"
+
+#, c-format
+msgid "Show &Identical Items"
+msgstr "Mostra els elements &idèntics"
+
+#, c-format
+msgid "Show &Different Items"
+msgstr "Mostra els elements di&ferents"
+
+#, c-format
+msgid "Show L&eft Unique Items"
+msgstr "Mostra els elements únics de l'&esquerra"
+
+#, c-format
+msgid "Show Midd&le Unique Items"
+msgstr "Mostra els elements únics del mi&g"
+
+#, c-format
+msgid "Show Ri&ght Unique Items"
+msgstr "Mostra els elements únics de la &dreta"
+
+#, c-format
+msgid "Show S&kipped Items"
+msgstr "Mostra els elements &omesos"
+
+#, c-format
+msgid "S&how Binary Files"
+msgstr "Mostra els fitxers &binaris"
+
+#, c-format
+msgid "&3-way Compare"
+msgstr "Comparació a &3 bandes"
+
+#, c-format
+msgid "Show &Left Only Different Items"
+msgstr "Mostra només els elements diferents de l'&esquerra"
+
+#, c-format
+msgid "Show &Middle Only Different Items"
+msgstr "Mostra només els elements diferents del &mig"
+
+#, c-format
+msgid "Show &Right Only Different Items"
+msgstr "Mostra només els elements diferents de la &dreta"
+
+msgid "Show L&eft Only Missing Items"
+msgstr "Mostra només els elements que falten a l'es&querra"
+
+msgid "Show Mi&ddle Only Missing Items"
+msgstr "Mostra només els elements que falten al m&ig"
+
+msgid "Show Rig&ht Only Missing Items"
+msgstr "Mostra només els elements que falten a la dre&ta"
+
+#, c-format
+msgid "Show Hidd&en Items"
+msgstr "Mostra els elements ama&gats"
+
+#, c-format
+msgid "Tree &Mode"
+msgstr "&Mode d'arbre"
+
+msgid "E&xpand Subfolders"
+msgstr "E&xpandeix les subcarpetes"
+
+msgid "&All Subfolders"
+msgstr "&Totes les subcarpetes"
+
+msgid "&Different Subfolders"
+msgstr "Subcarpetes &diferents"
+
+msgid "&Identical Subfolders"
+msgstr "Subcarpetes &idèntiques"
+
+#, c-format
+msgid "&Collapse All Subfolders"
+msgstr "&Contrau les subcarpetes"
+
+#, c-format
+msgid "Select &Font..."
+msgstr "&Tipus de lletra..."
+
+#, c-format
+msgid "Use Default Font"
+msgstr "Empra el tipus de lletra del sistema"
+
+#, c-format
+msgid "Sw&ap Panes"
+msgstr "&Intercanvia les subfinestres"
+
+msgid "Swap &1st | 2nd"
+msgstr "Intercanvia &1er | 2n"
+
+msgid "Swap &2nd | 3rd"
+msgstr "Intercanvia &2n | 3r"
+
+msgid "Swap 1st | &3rd"
+msgstr "Intercanvia 1er | &3r"
+
+#, c-format
+msgid "Com&pare Statistics..."
+msgstr "Estadístiques de &comparació..."
+
+#, c-format
+msgid "Refresh\tF5"
+msgstr "Actualit&za\tF5"
+
+#, c-format
+msgid "&Refresh Selected\tCtrl+F5"
+msgstr "Actualitza &seleccionats\tControl+F5"
+
+#, c-format
+msgid "&Merge"
+msgstr "Co&mbinació"
+
+#, c-format
+msgid "Co&mpare\tEnter"
+msgstr "&Compara\tRetorn"
+
+#, c-format
+msgid "&Next Difference\tAlt+Down"
+msgstr "Diferència se&güent\tAlt+Avall"
+
+#, c-format
+msgid "&Previous Difference\tAlt+Up"
+msgstr "Diferència a&nterior\tAlt+Amunt"
+
+#, c-format
+msgid "&First Difference\tAlt+Home"
+msgstr "Pri&mera diferència\tAlt+Inici"
+
+#, c-format
+msgid "&Current Difference\tAlt+Enter"
+msgstr "Diferència &actual\tAlt+Retorn"
+
+#, c-format
+msgid "&Last Difference\tAlt+End"
+msgstr "Da&rrera diferència\tAlt+Fi"
+
+#, c-format
+msgid "Copy to &Right\tAlt+Right"
+msgstr "Copia a la &dreta\tAlt+Dreta"
+
+#, c-format
+msgid "Copy to L&eft\tAlt+Left"
+msgstr "Copia a l'&esquerra\tAlt+Esquerra"
+
+#, c-format
+msgid "&Delete\tDel"
+msgstr "S&uprimeix\tSupr"
+
+#, c-format
+msgid "&Customize Columns..."
+msgstr "&Personalitza les columnes..."
+
+#, c-format
+msgid "Generate &Report..."
+msgstr "Gene&ra un informe..."
+
+#, c-format
+msgid "&Edit with Unpacker..."
+msgstr "&Edita amb el desempaquetador..."
+
+#, c-format
+msgid "&Save\tCtrl+S"
+msgstr "&Desa\tControl+S"
+
+#, c-format
+msgid "Sav&e"
+msgstr "D&esa"
+
+#, c-format
+msgid "Save &Left"
+msgstr "Desa l'&esquerra"
+
+#, c-format
+msgid "Save &Middle"
+msgstr "Desa el del &mig"
+
+#, c-format
+msgid "Save &Right"
+msgstr "Desa la d&reta"
+
+#, c-format
+msgid "Save &As"
+msgstr "Anomena i desa"
+
+#, c-format
+msgid "Save &Left As..."
+msgstr "Desa l'&esquerra com..."
+
+#, c-format
+msgid "Save &Middle As..."
+msgstr "Desa el del &mig com..."
+
+#, c-format
+msgid "Save &Right As..."
+msgstr "Desa la d&reta com..."
+
+msgid "&Print...\tCtrl+P"
+msgstr "&Imprimeix...\tControl+P"
+
+msgid "Page Set&up..."
+msgstr "Configuració de la pàgina..."
+
+msgid "Print Previe&w..."
+msgstr "&Visualització prèvia de la impressió..."
+
+#, c-format
+msgid "&Convert Line Endings to"
+msgstr "&Converteix retorns de línia a"
+
+#, c-format
+msgid "Mer&ge Mode\tF9"
+msgstr "&Mode de combinació\tF9"
+
+msgid "Reloa&d\tCtrl+F5"
+msgstr "Recarrega\tControl+F5"
+
+#, c-format
+msgid "Reco&mpare As"
+msgstr "Torna a comparar com"
+
+#, c-format
+msgid "&Undo\tCtrl+Z"
+msgstr "&Desfés\tControl+Z"
+
+#, c-format
+msgid "&Redo\tCtrl+Y"
+msgstr "Re&fés\tControl+Y"
+
+#, c-format
+msgid "Cu&t\tCtrl+X"
+msgstr "&Retalla\tControl+X"
+
+#, c-format
+msgid "&Copy\tCtrl+C"
+msgstr "C&opia\tControl+C"
+
+#, c-format
+msgid "F&ind...\tCtrl+F"
+msgstr "&Cerca...\tControl+F"
+
+#, c-format
+msgid "Repla&ce...\tCtrl+H"
+msgstr "Subst&itueix...\tControl+H"
+
+#, c-format
+msgid "&Marker...\tCtrl+Shift+M"
+msgstr "&Marcadors...\tControl+Maj+M"
+
+#, c-format
+msgid "Advanced"
+msgstr "Avançat"
+
+#, c-format
+msgid "&Copy With Line Numbers\tCtrl+Shift+C"
+msgstr "&Copia amb els números de línia\tControl+Maj+C"
+
+#, c-format
+msgid "&Bookmarks"
+msgstr "&Punts d'interès"
+
+#, c-format
+msgid "&Toggle Bookmark\tCtrl+F2"
+msgstr "&Activa/desactiva el punt d'interès\tControl+F2"
+
+#, c-format
+msgid "&Next Bookmark\tF2"
+msgstr "&Següent punt d'interès\tF2"
+
+#, c-format
+msgid "&Previous Bookmark\tShift+F2"
+msgstr "&Punt d'interès previ\tMaj+F2"
+
+#, c-format
+msgid "&Clear All Bookmarks"
+msgstr "&Esborra tots els punts d'interès"
+
+#, c-format
+msgid "Syntax Highlight"
+msgstr "Ressaltat de la sintaxi"
+
+#, c-format
+msgid "&Diff Context"
+msgstr "Diferències en context"
+
+#, c-format
+msgid "&All Lines"
+msgstr "&Totes les línies"
+
+#, c-format
+msgid "&0 Lines"
+msgstr "&0 línies"
+
+#, c-format
+msgid "&1 Line"
+msgstr "&1 línia"
+
+#, c-format
+msgid "&3 Lines"
+msgstr "&3 línies"
+
+#, c-format
+msgid "&5 Lines"
+msgstr "&5 línies"
+
+#, c-format
+msgid "&7 Lines"
+msgstr "&7 línies"
+
+#, c-format
+msgid "&9 Lines"
+msgstr "&9 línies"
+
+#, c-format
+msgid "&Toggle All and 0-9 Lines\tCtrl+D"
+msgstr "Intercanvia entre totes i les línies 0-9\tControl+D"
+
+msgid "&Invert (Hide Different Lines)"
+msgstr "&Inverteix (Amaga les línies diferents)"
+
+#, c-format
+msgid "&Lock Panes"
+msgstr "Bloqueja les subfinestres (multimonitor)"
+
+#, c-format
+msgid "&View Whitespace"
+msgstr "Mostra els es&pais"
+
+msgid "View E&OL"
+msgstr "Mostra els salts de línia"
+
+#, c-format
+msgid "Vie&w Line Differences"
+msgstr "Mostra les &diferències de la línia"
+
+#, c-format
+msgid "View Line &Numbers"
+msgstr "Mostra els &números de línia"
+
+#, c-format
+msgid "View &Margins"
+msgstr "Mostra els &marges"
+
+msgid "View To&p Margins"
+msgstr "Mostra els marges &superiors"
+
+#, c-format
+msgid "W&rap Lines"
+msgstr "A&justa les línies"
+
+#, c-format
+msgid "Split V&ertically"
+msgstr "Separa v&erticalment"
+
+#, c-format
+msgid "Diff &Pane"
+msgstr "Subfinest&ra de diferències"
+
+#, c-format
+msgid "Lo&cation Pane"
+msgstr "Subfinestra d'&ubicació"
+
+msgid "Output Pane"
+msgstr ""
+
+#, c-format
+msgid "Ne&xt Conflict\tAlt+Shift+Down"
+msgstr "&Conflicte següent\tAlt+Maj+Avall"
+
+#, c-format
+msgid "Pre&vious Conflict\tAlt+Shift+Up"
+msgstr "Con&flicte anterior\tAlt+Maj+Amunt"
+
+#, c-format
+msgid "A&dvanced"
+msgstr "Avançat"
+
+#, c-format
+msgid "Next Difference (Left/Middle)\tAlt+1"
+msgstr "Diferència següent entre l'esquerra i el mig\tAlt+1"
+
+#, c-format
+msgid "Previous Difference (Left/Middle)\tAlt+Shift+1"
+msgstr "Diferència anterior entre l'esquerra i el mig\tAlt+Maj+1"
+
+#, c-format
+msgid "Next Difference (Left/Right)\tAlt+2"
+msgstr "Diferència següent entre l'esquerra i la dreta\tAlt+2"
+
+#, c-format
+msgid "Previous Difference (Left/Right)\tAlt+Shift+2"
+msgstr "Diferència anterior entre l'esquerra i la dreta\tAlt+Maj+2"
+
+#, c-format
+msgid "Next Difference (Middle/Right)\tAlt+3"
+msgstr "Diferència següent entre el mig i la dreta\tAlt+3"
+
+#, c-format
+msgid "Previous Difference (Middle/Right)\tAlt+Shift+3"
+msgstr "Diferència anterior entre el mig i la dreta\tAlt+Maj+3"
+
+#, c-format
+msgid "Next Left-Only Difference\tAlt+7"
+msgstr "Diferència següent de només l'esquerra\tAlt+7"
+
+#, c-format
+msgid "Previous Left-Only Difference\tAlt+Shift+7"
+msgstr "Diferència anterior de només l'esquerra\tAlt+Maj+7"
+
+#, c-format
+msgid "Next Middle-Only Difference\tAlt+8"
+msgstr "Diferència següent de només el mig\tAlt+8"
+
+#, c-format
+msgid "Previous Middle-Only Difference\tAlt+Shift+8"
+msgstr "Diferència anterior de només el mig\tAlt+Maj+8"
+
+#, c-format
+msgid "Next Right-Only Difference\tAlt+9"
+msgstr "Diferència següent de només la dreta\tAlt+9"
+
+#, c-format
+msgid "Previous Right-Only Difference\tAlt+Shift+9"
+msgstr "Diferència anterior de només la dreta\tAlt+Maj+9"
+
+msgid "Copy from &Left to"
+msgstr "Copia de l'&esquerra a"
+
+#, c-format
+msgid "&Middle"
+msgstr "al &mig"
+
+#, c-format
+msgid "&Right"
+msgstr "la &dreta"
+
+msgid "Copy from &Middle to"
+msgstr "Copia del &mig a"
+
+#, c-format
+msgid "&Left"
+msgstr "l'&esquerra"
+
+msgid "Copy from &Right to"
+msgstr "Copia de la &dreta a"
+
+msgid "Copy Selected Lines from Le&ft to"
+msgstr "Copia les línies seleccionades de l'esquerra a"
+
+msgid "Copy Selected Lines from Mi&ddle to"
+msgstr "Copia les línies seleccionades del mig a"
+
+msgid "Copy Selected Lines from Ri&ght to"
+msgstr "Copia les línies seleccionades de la dreta a"
+
+#, c-format
+msgid "Copy from Left\tAlt+Shift+Right"
+msgstr "Copia des de l'esquerra\tAlt+Maj+Dreta"
+
+#, c-format
+msgid "Copy from Right\tAlt+Shift+Left"
+msgstr "Copia des de la dreta\tAlt+Maj+Esquerra"
+
+msgid "C&opy to Right and Advance\tCtrl+Alt+Right"
+msgstr "Copia a la dreta i a&vança\tControl+Alt+Dreta"
+
+msgid "Copy &to Left and Advance\tCtrl+Alt+Left"
+msgstr "Copia a l'esquerra i avan&ça\tControl+Alt+Esquerra"
+
+#, c-format
+msgid "Copy &All to Right"
+msgstr "Copia-ho &tot a la dreta"
+
+#, c-format
+msgid "Cop&y All to Left"
+msgstr "Copia-ho t&ot a l'esquerra"
+
+msgid "A&uto Merge\tCtrl+Alt+M"
+msgstr "Combina a&utomàticament\tControl+Alt+M"
+
+#, c-format
+msgid "Add &Synchronization Point\tAlt+S"
+msgstr "Afegei&x un punt de sincronització\tAlt+S"
+
+#, c-format
+msgid "Clear Sync&hronization Points"
+msgstr "Es&borra els punts de sincronització"
+
+msgid "Unpac&ker"
+msgstr "Desempaquetador"
+
+#, c-format
+msgid "&Prediffer"
+msgstr "&Prediferenciador"
+
+msgid "Apply Pre&differ..."
+msgstr "&Aplica el prediferenciador..."
+
+msgid "&Transform with Editor Script..."
+msgstr "Transforma amb un script de l'editor..."
+
+msgid "Scripts for &Copying"
+msgstr "Scripts per &copiar"
+
+msgid "Select &Editor Script..."
+msgstr "Selecciona l'script &editor..."
+
+#, c-format
+msgid "Sp&lit"
+msgstr "Separa"
+
+#, c-format
+msgid "Comp&are"
+msgstr "Compa&ra"
+
+msgid "Compare in New &Window"
+msgstr "Compara en una nova &finestra"
+
+msgid "Compare Non-hor&izontally..."
+msgstr "Compara no-hor&itzontalment..."
+
+#, c-format
+msgid "Compare Non-hor&izontally"
+msgstr "Compara no-hor&itzontalment"
+
+#, c-format
+msgid "First &Left with Second Left"
+msgstr "El primer element de l'&esquerra amb el segon element de l'esquerra"
+
+#, c-format
+msgid "First &Right with Second Right"
+msgstr "El primer element de la &dreta amb el segon element de la dreta"
+
+#, c-format
+msgid "&First Left with Second Right"
+msgstr "El &primer element de l'esquerra amb el segon element de la dreta"
+
+#, c-format
+msgid "&Second Left with First Right"
+msgstr "El &segon element de l'esquerra amb el primer element de la dreta"
+
+#, c-format
+msgid "Co&mpare As"
+msgstr "Compara com"
+
+#, c-format
+msgid "Left to Middle (%1 of %2)"
+msgstr "Esquerra al mig (%1 de %2)"
+
+#, c-format
+msgid "Left to Right (%1 of %2)"
+msgstr "Esquerra a dreta (%1 de %2)"
+
+#, c-format
+msgid "Left to... (%1 of %2)"
+msgstr "Esquerra a... (%1 de %2)"
+
+#, c-format
+msgid "Middle to Left (%1 of %2)"
+msgstr "Del mig a esquerra (%1 de %2)"
+
+#, c-format
+msgid "Middle to Right (%1 of %2)"
+msgstr "Del mig a dreta (%1 de %2)"
+
+#, c-format
+msgid "Middle to... (%1 of %2)"
+msgstr "Del mig a... (%1 de %2)"
+
+#, c-format
+msgid "Right to Middle (%1 of %2)"
+msgstr "Dreta al mig (%1 de %2)"
+
+#, c-format
+msgid "Right to Left (%1 of %2)"
+msgstr "Dreta a esquerra (%1 de %2)"
+
+#, c-format
+msgid "Right to... (%1 of %2)"
+msgstr "Dreta a... (%1 de %2)"
+
+#, c-format
+msgid "&Delete"
+msgstr "&Suprimeix"
+
+#, c-format
+msgid "&Both"
+msgstr "D'&ambdós costats"
+
+#, c-format
+msgid "&All"
+msgstr "Tots"
+
+#, c-format
+msgid "Re&name"
+msgstr "Canvia el &nom"
+
+#, c-format
+msgid "&Hide Items"
+msgstr "&Amaga els elements"
+
+#, c-format
+msgid "&Open Left"
+msgstr "Obre l'&esquerra"
+
+#, c-format
+msgid "Open Midd&le"
+msgstr "Obre el del mi&g"
+
+#, c-format
+msgid "O&pen Right"
+msgstr "Obre la &dreta"
+
+#, c-format
+msgid "Cop&y Paths"
+msgstr "C&opia els camins"
+
+#, c-format
+msgid "Left (%1 of %2)"
+msgstr "Esquerra (%1 de %2)"
+
+#, c-format
+msgid "Middle (%1 of %2)"
+msgstr "Mig (%1 de %2)"
+
+#, c-format
+msgid "Right (%1 of %2)"
+msgstr "Dreta (%1 de %2)"
+
+#, c-format
+msgid "Both (%1 of %2)"
+msgstr "Ambdós (%1 de %2)"
+
+#, c-format
+msgid "All (%1 of %2)"
+msgstr "Tots (%1 de %2)"
+
+#, c-format
+msgid "Copy &Filenames"
+msgstr "Co&pia els noms de fitxer"
+
+#, c-format
+msgid "Copy Items to Clip&board"
+msgstr "Copia els elements al porta-re&talls"
+
+msgid "Copy All Di&splayed Columns"
+msgstr "Copia totes les columne&s visualitzades"
+
+#, c-format
+msgid "&Zip"
+msgstr "Co&mprimeix"
+
+#, c-format
+msgid "Both to... (%1 of %2)"
+msgstr "Ambdós a... (%1 de %2)"
+
+#, c-format
+msgid "All to... (%1 of %2)"
+msgstr "Tots a... (%1 de %2)"
+
+#, c-format
+msgid "Differences to... (%1 of %2)"
+msgstr "Diferències a... (%1 de %2)"
+
+#, c-format
+msgid "Left Shell Menu"
+msgstr "Menú de sistema de l'esquerra"
+
+#, c-format
+msgid "Middle Shell Menu"
+msgstr "Menú de sistema del mig"
+
+#, c-format
+msgid "Right Shell Menu"
+msgstr "Menú de sistema de la dreta"
+
+msgid "Both Shell Menu"
+msgstr "Els dos menús de sistema"
+
+msgid "All Shell Menu"
+msgstr "Tots els menús de sistema"
+
+#, c-format
+msgid "Copy"
+msgstr "Copia"
+
+#, c-format
+msgid "&Copy Full Path"
+msgstr "&Copia el camí sencer del fitxer"
+
+#, c-format
+msgid "Copy &Filename"
+msgstr "Copia el nom del &fitxer"
+
+msgid "&Edit Caption"
+msgstr "&Edita la llegenda"
+
+msgid "&Open..."
+msgstr "&Obre..."
+
+msgid "Unpacker Settings"
+msgstr "Opcions del desempaquetador"
+
+#, c-format
+msgid "<None>"
+msgstr "<Cap>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<Automàtic>"
+
+#, c-format
+msgid "&Select..."
+msgstr "T&ria..."
+
+#, c-format
+msgid "Prediffer Settings"
+msgstr "Opcions de prediferenciació"
+
+msgid "G&o to Diff"
+msgstr "Ve&s a la diferència"
+
+#, c-format
+msgid "&No Moved Blocks"
+msgstr "Blocs &no moguts"
+
+#, c-format
+msgid "&All Moved Blocks"
+msgstr "&Tots els blocs moguts"
+
+#, c-format
+msgid "W&hitespaces"
+msgstr "Espais"
+
+#, c-format
+msgid "Com&pare"
+msgstr "Co&mpara'ls"
+
+#, c-format
+msgid "I&gnore Changes"
+msgstr "&Ignora'n els canvis"
+
+#, c-format
+msgid "Ig&nore All"
+msgstr "I&gnora'ls tots"
+
+#, c-format
+msgid "Ignore Blan&k Lines"
+msgstr "&Ignora les línies en blanc"
+
+#, c-format
+msgid "Ignore &Case"
+msgstr "Ignora &majúscules/minúscules"
+
+#, c-format
+msgid "Igno&re EOL Differences (Windows/Unix/Mac)"
+msgstr "Ignora les diferències de salts de línia (Windows/Unix/Mac)"
+
+#, c-format
+msgid "Ignore Codepage &Differences"
+msgstr "Ignora les diferències de codificació de caràcters"
+
+msgid "Ignore Num&bers"
+msgstr "Ignora els nombres"
+
+msgid "Ignore C&omment Differences"
+msgstr "Ingora les diferències en els comentaris"
+
+msgid "Ignore &Missing Trailing EOL"
+msgstr ""
+
+#, c-format
+msgid "&Include Subfolders"
+msgstr "&Inclou-hi les subcarpetes"
+
+#, c-format
+msgid "&Compare Method"
+msgstr "Mètode de &comparació"
+
+#, c-format
+msgid "Full Contents"
+msgstr "Tot el contingut"
+
+#, c-format
+msgid "Quick Contents"
+msgstr "Contingut en un cop d'ull"
+
+#, c-format
+msgid "Binary Contents"
+msgstr "Contingut binari"
+
+#, c-format
+msgid "Modified Date"
+msgstr "Data de modificació"
+
+#, c-format
+msgid "Modified Date and Size"
+msgstr "Data de modificació i mida"
+
+#, c-format
+msgid "Size"
+msgstr "Mida"
+
+#, c-format
+msgid "&Load Project..."
+msgstr "Carrega un pr&ojecte..."
+
+msgid "${*} - All Arguments"
+msgstr ""
+
+msgid "${1} - First Argument"
+msgstr ""
+
+msgid "${2} - Second Argument"
+msgstr ""
+
+msgid "${3} - Third Argument"
+msgstr ""
+
+msgid "${4} - Fourth Argument"
+msgstr ""
+
+msgid "${5} - Fifth Argument"
+msgstr ""
+
+msgid "${6} - Sixth Argument"
+msgstr ""
+
+msgid "${7} - Seventh Argument"
+msgstr ""
+
+msgid "${8} - Eighth Argument"
+msgstr ""
+
+msgid "${9} - Ninth Argument"
+msgstr ""
+
+msgid "${SRC_FILE} - Source File"
+msgstr ""
+
+msgid "${SRC_FOLDER} - Source Folder"
+msgstr ""
+
+msgid "${SRC_URL} - Source URL"
+msgstr ""
+
+msgid "${SRC_URL_PROTOCOL} - Source URL Protocol"
+msgstr ""
+
+msgid "${SRC_URL_SUFFIX} - Source URL Suffix"
+msgstr ""
+
+msgid "${DST_FILE} - Destination File"
+msgstr ""
+
+msgid "${DST_FOLDER} - Destination Folder"
+msgstr ""
+
+msgid "${DST_URL} - Destination URL"
+msgstr ""
+
+msgid "${DST_URL_PROTOCOL} - Destination URL Protocol"
+msgstr ""
+
+msgid "${DST_URL_SUFFIX} - Destination URL Suffix"
+msgstr ""
+
+msgid "${WINMERGE_HOME} - WinMerge Home Directory"
+msgstr ""
+
+msgid "${SCRIPT_FILE} - Script File"
+msgstr ""
+
+msgid "Add &Unpacker Plugin..."
+msgstr ""
+
+msgid "Add &Prediffer Plugin..."
+msgstr ""
+
+msgid "&Duplicate Plugin..."
+msgstr ""
+
+msgid "Clear &All"
+msgstr ""
+
+#, c-format
+msgid "About WinMerge"
+msgstr "Quant al WinMerge"
+
+msgid "Visit the WinMerge Homepage!"
+msgstr "Visiteu la pàgina web del WinMerge."
+
+#, c-format
+msgid "OK"
+msgstr "D'acord"
+
+#, c-format
+msgid "Contributors"
+msgstr "Col·laboradors"
+
+#, c-format
+msgid "Select Files or Folders"
+msgstr "Selecciona fitxers o directoris"
+
+#, c-format
+msgid "&1st File or Folder"
+msgstr "1er fitxer o directori"
+
+#, c-format
+msgid "Re&ad-only"
+msgstr "Només de &lectura"
+
+#, c-format
+msgid "Swap 1st | 2nd"
+msgstr "Intercanvia 1er | 2n"
+
+#, c-format
+msgid "&Browse..."
+msgstr "&Navega..."
+
+#, c-format
+msgid "&2nd File or Folder"
+msgstr "&2n fitxer o directori"
+
+#, c-format
+msgid "Rea&d-only"
+msgstr "Només de l&ectura"
+
+#, c-format
+msgid "Swap 2nd | 3rd"
+msgstr "Intercanvia 2n | 3r"
+
+#, c-format
+msgid "B&rowse..."
+msgstr "Na&vega..."
+
+#, c-format
+msgid "&3rd File or Folder (Optional)"
+msgstr "&3r fitxer o directori (Opcional)"
+
+#, c-format
+msgid "Read-o&nly"
+msgstr "Només de le&ctura"
+
+#, c-format
+msgid "Swap 1st | 3rd"
+msgstr "Intercanvia 1er | 3r"
+
+#, c-format
+msgid "Browse..."
+msgstr "Nave&ga..."
+
+#, c-format
+msgid " Folder: Filter"
+msgstr " Carpeta: Filtre"
+
+msgid "&Include subfolders"
+msgstr "&Inclou-hi les subcarpetes"
+
+msgid " File: Prediffer Plugin"
+msgstr " Fitxer: Connector Prediffer"
+
+#, c-format
+msgid " File: Unpacker Plugin"
+msgstr " Fitxer: Connector desempaquetador"
+
+#, c-format
+msgid "Se&lect..."
+msgstr "Selecciona..."
+
+#, c-format
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#, c-format
+msgid "Status:"
+msgstr "Estat:"
+
+#, c-format
+msgid "Help"
+msgstr "Ajuda"
+
+msgid "&Options..."
+msgstr "O&pcions..."
+
+#, c-format
+msgid "General"
+msgstr "General"
+
+#, c-format
+msgid "Automatically &scroll to first difference"
+msgstr "&Desplaça automàticament fins a la primera diferència"
+
+msgid "Automatically s&croll to first inline difference"
+msgstr "&Desplaça automàticament fins a la primera diferència de la línia"
+
+msgid "Cl&ose windows with 'Esc':"
+msgstr "T&anca les finestres amb 'Esc':"
+
+#, c-format
+msgid "&Automatically verify paths in Open dialog"
+msgstr "&Verifica els camins automàticament al diàleg d'obrir fitxers"
+
+msgid "Single instance mode:"
+msgstr "Mode de només una instància:"
+
+#, c-format
+msgid "As&k when closing multiple windows"
+msgstr "Pregunta abans de tancar múltiples finestres"
+
+#, c-format
+msgid "&Preserve file time in file compare"
+msgstr "Preserva la data en les comparacions de fitxers"
+
+#, c-format
+msgid "Show \"Select Files or Folders\" dialog on startup"
+msgstr "Mostra el diàlec \"Selecciona fitxers o directoris\" a l'iniciar"
+
+msgid "Close \"Select Files or Folders\" dialog on clicking Compare button"
+msgstr "Tanca el diàleg \"Selecciona fitxers o directoris\" al fer clic en comparar"
+
+#, c-format
+msgid "Op&en dialog Auto completion:"
+msgstr "Autocompletar al diàleg d'obrir:"
+
+msgid "Auto-&reload modified files:"
+msgstr "&Recarrega automàticament els fitxers modificats:"
+
+#, c-format
+msgid "Language:"
+msgstr "Idioma:"
+
+#, c-format
+msgid "Defaults"
+msgstr "Predeterminats"
+
+#, c-format
+msgid "Find"
+msgstr "Cerca"
+
+#, c-format
+msgid "Fi&nd what:"
+msgstr "Text a &cercar:"
+
+#, c-format
+msgid "Match &whole word only"
+msgstr "N&omés paraules senceres"
+
+#, c-format
+msgid "Match &case"
+msgstr "&Distingeix entre majúscules i minúscules"
+
+#, c-format
+msgid "Regular &expression"
+msgstr "&Expressió regular"
+
+#, c-format
+msgid "D&on't wrap end of file"
+msgstr "No facis la &volta al final del fitxer"
+
+#, c-format
+msgid "&Don't close this dialog"
+msgstr "No &tanquis aquesta finestra"
+
+#, c-format
+msgid "&Find Next"
+msgstr "&Següent"
+
+#, c-format
+msgid "Find &Prev"
+msgstr "&Anterior"
+
+#, c-format
+msgid "&Ok"
+msgstr "&D'acord"
+
+#, c-format
+msgid "Replace"
+msgstr "Substitueix"
+
+#, c-format
+msgid "Re&place with:"
+msgstr "Substitueix-ho p&er:"
+
+#, c-format
+msgid "&Don't wrap at end of file"
+msgstr "No facis la &volta al final del fitxer"
+
+#, c-format
+msgid "Replace in"
+msgstr "Substitueix a"
+
+#, c-format
+msgid "&Selection"
+msgstr "&Selecció"
+
+#, c-format
+msgid "Wh&ole file"
+msgstr "&Fitxer sencer"
+
+msgid "Find Pre&v"
+msgstr "Anterior"
+
+#, c-format
+msgid "&Replace"
+msgstr "S&ubstitueix-ho"
+
+#, c-format
+msgid "Replace &All"
+msgstr "Su&bstitueix-ho tot"
+
+#, c-format
+msgid "Markers"
+msgstr "Marques"
+
+#, c-format
+msgid "Enable &markers"
+msgstr "Habilita les marques"
+
+#, c-format
+msgid "New"
+msgstr "Nova"
+
+#, c-format
+msgid "&Background color:"
+msgstr "Color de fons:"
+
+#, c-format
+msgid "&Apply"
+msgstr "&Aplica"
+
+msgid "Line Filters"
+msgstr "Filtres de línia"
+
+#, c-format
+msgid "Enable Line Filters"
+msgstr "Habilita els filtres de línia"
+
+#, c-format
+msgid "Regular Expressions (one per line):"
+msgstr "Expressions &regulars (una per línia):"
+
+#, c-format
+msgid "Edit"
+msgstr "Edita"
+
+#, c-format
+msgid "Remove"
+msgstr "Suprimeix"
+
+msgid "Substitution Filters"
+msgstr "Filtres de substitució"
+
+msgid "Changes to the listed pairs below will be ignored or marked as insignificant. Patches are unaffected."
+msgstr "Els canvis que apareixen a les subfinestres com els parells llistats a continuació seran ignorats o marcats com insignificants. Els pedaços no es veuran afectats."
+
+msgid "Enable"
+msgstr "Habilita"
+
+msgid "Add"
+msgstr "Afegeix"
+
+msgid "Clear"
+msgstr "Esborra"
+
+#, c-format
+msgid "Colors"
+msgstr "Colors"
+
+msgid "Color Scheme:"
+msgstr "Esquema de colors:"
+
+#, c-format
+msgid "Background"
+msgstr "Fons"
+
+#, c-format
+msgid "Deleted"
+msgstr "Esborrat"
+
+#, c-format
+msgid "Text"
+msgstr "Text"
+
+#, c-format
+msgid "Difference:"
+msgstr "Diferència:"
+
+#, c-format
+msgid "Selected Difference:"
+msgstr "Diferència seleccionada:"
+
+#, c-format
+msgid "Ignored Difference:"
+msgstr "Diferència ignorada:"
+
+#, c-format
+msgid "Moved:"
+msgstr "Text mogut:"
+
+#, c-format
+msgid "Selected Moved:"
+msgstr "Text mogut seleccionat:"
+
+#, c-format
+msgid "Same As Next (3 panes):"
+msgstr "Igual que el següent (3 subfinestres):"
+
+#, c-format
+msgid "Same As Next (Selected):"
+msgstr "Igual que el següent (seleccionat):"
+
+#, c-format
+msgid "Word Difference:"
+msgstr "Paraula diferent:"
+
+#, c-format
+msgid "Selected Word Diff:"
+msgstr "Paraula diferent seleccionada:"
+
+#, c-format
+msgid "Dialog"
+msgstr "Diàleg"
+
+#, c-format
+msgid "Keywords:"
+msgstr "Paraules clau:"
+
+#, c-format
+msgid "Function names:"
+msgstr "Noms de funció:"
+
+#, c-format
+msgid "Comments:"
+msgstr "Comentaris:"
+
+#, c-format
+msgid "Numbers:"
+msgstr "Nombres:"
+
+#, c-format
+msgid "Operators:"
+msgstr "Operadors:"
+
+#, c-format
+msgid "Strings:"
+msgstr "Cadenes:"
+
+#, c-format
+msgid "Preprocessor:"
+msgstr "Preprocessador:"
+
+#, c-format
+msgid "User 1:"
+msgstr "Usuari 1:"
+
+#, c-format
+msgid "User 2:"
+msgstr "Usuari 2:"
+
+#, c-format
+msgid "Bold"
+msgstr "Negreta"
+
+#, c-format
+msgid "&Use customized text colors"
+msgstr "&Usa colors de text personalitzats"
+
+#, c-format
+msgid "Whitespace:"
+msgstr "Espais:"
+
+#, c-format
+msgid "Regular text:"
+msgstr "Text regular:"
+
+#, c-format
+msgid "Selection:"
+msgstr "Selecció:"
+
+#, c-format
+msgid "Margin:"
+msgstr "Marge:"
+
+#, c-format
+msgid "Search Marker:"
+msgstr "Marcador de cerca:"
+
+#, c-format
+msgid "User Defined Marker 1:"
+msgstr "Marcador definit per l'usuari1:"
+
+#, c-format
+msgid "User Defined Marker 2:"
+msgstr "Marcador definit per l'usuari2:"
+
+#, c-format
+msgid "User Defined Marker 3:"
+msgstr "Marcador definit per l'usuari3:"
+
+msgid "&Use folder compare colors"
+msgstr "&Usa colors comparació de carpetes"
+
+msgid "Items equal:"
+msgstr "Elements iguals:"
+
+msgid "Items different:"
+msgstr "Elements diferents:"
+
+msgid "Items missing:"
+msgstr "Elements que no existeixen en tots:"
+
+msgid "Items filtered:"
+msgstr "Elements filtrats:"
+
+msgid "&Use custom system colors"
+msgstr ""
+
+#, c-format
+msgid "System"
+msgstr "Sistema"
+
+#, c-format
+msgid "&Use Recycle Bin"
+msgstr "&Desa els fitxers suprimits a la Paperera de reciclatge"
+
+#, c-format
+msgid "&External editor:"
+msgstr "&Editor extern:"
+
+#, c-format
+msgid "&Filter folder:"
+msgstr "&Carpeta de filtres:"
+
+#, c-format
+msgid "Temporary files folder"
+msgstr "Carpeta temporal"
+
+#, c-format
+msgid "S&ystem temp folder"
+msgstr "Carpeta temporal del sistema"
+
+#, c-format
+msgid "C&ustom folder:"
+msgstr "Directori personalitzat:"
+
+#, c-format
+msgid "Br&owse..."
+msgstr "N&avega..."
+
+#, c-format
+msgid "Patch Generator"
+msgstr "Generador de pedaços"
+
+#, c-format
+msgid "File&1:"
+msgstr "Fitxer &1:"
+
+#, c-format
+msgid "File&2:"
+msgstr "Fitxer &2:"
+
+#, c-format
+msgid "&Swap"
+msgstr "Inter&canvia"
+
+#, c-format
+msgid "&Copy to clipboard"
+msgstr "&Copia al Porta-retalls"
+
+#, c-format
+msgid "&Append to existing file"
+msgstr "A&fegeix al final del fitxer existent"
+
+#, c-format
+msgid "&Result:"
+msgstr "&Resultat:"
+
+#, c-format
+msgid "Bro&wse..."
+msgstr "N&avega..."
+
+#, c-format
+msgid "&Format"
+msgstr "Format"
+
+#, c-format
+msgid "St&yle:"
+msgstr "E&stil:"
+
+#, c-format
+msgid "&Context:"
+msgstr "Context:"
+
+#, c-format
+msgid "Inclu&de command line"
+msgstr "Inc&lou-hi la línia d'ordres"
+
+#, c-format
+msgid "Open in e&xternal editor"
+msgstr "Obre-ho en un &editor extern"
+
+#, c-format
+msgid "Display Columns"
+msgstr "Visualització de columnes"
+
+#, c-format
+msgid "Move &Up"
+msgstr "Mou Am&unt"
+
+#, c-format
+msgid "Move &Down"
+msgstr "Mou a&vall"
+
+msgid "&Additional Properties"
+msgstr "Propietats addicionals"
+
+msgid "Additional Properties"
+msgstr "Propietats addicionals"
+
+msgid "Select Plugin"
+msgstr "Selecciona el connector"
+
+msgid "Plugin &name:"
+msgstr "Nom del connector:"
+
+msgid "&Target files:"
+msgstr ""
+
+#, c-format
+msgid "Extensions list:"
+msgstr "Llistat d'extensions:"
+
+#, c-format
+msgid "Description:"
+msgstr "&Descripció:"
+
+msgid "Default arguments:"
+msgstr "Paràmetres per defecte:"
+
+msgid "Display all plugins (Ignore extension)"
+msgstr "&Visualitza tots els connectors, sense verificar l'extensió"
+
+msgid "&Open files in same window type after unpacking"
+msgstr "Obre els fitxers al mateix tipus de finestra després de desempaquetar"
+
+msgid "&Plugin pipeline:"
+msgstr "Etapes del connector:"
+
+msgid "&Alias..."
+msgstr ""
+
+#, c-format
+msgid "Stop"
+msgstr "&Atura"
+
+#, c-format
+msgid "Pause"
+msgstr "Pausa"
+
+#, c-format
+msgid "Continue"
+msgstr "Continua"
+
+msgid "C&PU cores to use:"
+msgstr "&Nombre de nuclis CPU a utilitzar:"
+
+#, c-format
+msgid "Items total:"
+msgstr "Elements totals:"
+
+#, c-format
+msgid "Items compared:"
+msgstr "Elements comparats:"
+
+msgid "Go to"
+msgstr "Ves a"
+
+msgid "G&o to:"
+msgstr "&Ves a:"
+
+#, c-format
+msgid "File"
+msgstr "Fitxer"
+
+msgid "Go to what"
+msgstr "Anar a on"
+
+#, c-format
+msgid "Li&ne"
+msgstr "&Línia"
+
+#, c-format
+msgid "&Difference"
+msgstr "&Diferència"
+
+msgid "&Go to"
+msgstr "&Ves a"
+
+#, c-format
+msgid "Compare"
+msgstr "Comparació"
+
+#, c-format
+msgid "Whitespaces"
+msgstr "Espais en blanc"
+
+#, c-format
+msgid "&Compare"
+msgstr "Compara els &espais"
+
+#, c-format
+msgid "&Ignore change"
+msgstr "Ignora els &canvis en els espais"
+
+#, c-format
+msgid "I&gnore all"
+msgstr "Ignora t&ots els espais"
+
+msgid "Ignore blan&k lines"
+msgstr "&Ignora les línies en blanc"
+
+msgid "Ignore &case"
+msgstr "Ignora &majúscules/minúscules"
+
+msgid "Igno&re EOL differences (Windows/Unix/Mac)"
+msgstr ""
+
+msgid "Ignore num&bers"
+msgstr "Ignora els nombres"
+
+msgid "Ignore codepage &differences"
+msgstr "Ignora les diferències de codificació de caràcters"
+
+msgid "Ignore c&omment differences"
+msgstr "Ingora les diferències en els comentaris"
+
+msgid "Ignore &missing trailing EOL"
+msgstr ""
+
+#, c-format
+msgid "E&nable moved block detection"
+msgstr "&Habilita detecció de blocs desplaçats"
+
+msgid "Align &similar lines"
+msgstr "Em&parella les línies similars"
+
+msgid "Diff &algorithm:"
+msgstr "Algoritme de diferenciació:"
+
+msgid "Enable indent &heuristic"
+msgstr "Habilita la heurística de sagnat"
+
+msgid "Completely unhighlight the ignored differences"
+msgstr "No ressaltis les diferències ignorades"
+
+#, c-format
+msgid "Editor"
+msgstr "Editor"
+
+#, c-format
+msgid "&Highlight syntax"
+msgstr "&Ressalta la sintaxi"
+
+#, c-format
+msgid "&Preserve original EOL"
+msgstr "&Preserva els caràcters de salt de línia originals"
+
+#, c-format
+msgid "Tabs"
+msgstr "Tabulacions"
+
+#, c-format
+msgid "&Tab size:"
+msgstr "&Mida de les tabulacions:"
+
+#, c-format
+msgid "&Insert tabs"
+msgstr "&Insereix tabulacions"
+
+#, c-format
+msgid "Insert &spaces"
+msgstr "In&sereix espais"
+
+msgid "&Rendering mode:"
+msgstr "&Mode de renderització:"
+
+#, c-format
+msgid "&Automatic rescan"
+msgstr "Reexploració &automàtica"
+
+msgid "Copy &granularity for selected differences:"
+msgstr "Copia la &granularitat per a les diferències seleccionades:"
+
+#, c-format
+msgid "Line Difference Coloring"
+msgstr "Acoloriment de diferència de línia"
+
+#, c-format
+msgid "View line differences"
+msgstr "&Veure les diferències de la línia"
+
+#, c-format
+msgid "&Character-level"
+msgstr "Nivell de &caràcter"
+
+#, c-format
+msgid "&Word-level:"
+msgstr "Nivell de &paraula:"
+
+#, c-format
+msgid "W&ord break characters:"
+msgstr "Caràcters de separació de paraules:"
+
+msgid "Some messages can be hidden by the user. Press Reset to make all messages visible again."
+msgstr "El WinMerge permet ocultar alguns quadres de missatges comuns. Premeu el botó Reinicialitza per fer visibles tots els quadres de missatges altre cop."
+
+#, c-format
+msgid "Reset"
+msgstr "Reinicialitza"
+
+msgid "File Filters"
+msgstr "Filtres de fitxer"
+
+msgid "Test..."
+msgstr "&Prova..."
+
+#, c-format
+msgid "Install..."
+msgstr "&Instal·la..."
+
+#, c-format
+msgid "New..."
+msgstr "&Nou..."
+
+#, c-format
+msgid "Edit..."
+msgstr "&Edita..."
+
+#, c-format
+msgid "Delete..."
+msgstr "&Suprimeix..."
+
+#, c-format
+msgid "Save Modified Files?"
+msgstr "Voleu desar els fitxers modificats?"
+
+#, c-format
+msgid "Left side file"
+msgstr "Fitxer del costat esquerre"
+
+#, c-format
+msgid "&Save changes"
+msgstr "&Desa-hi els canvis"
+
+#, c-format
+msgid "&Discard changes"
+msgstr "D&escarta'n els canvis"
+
+#, c-format
+msgid "Middle side file"
+msgstr "Fitxer del Mig"
+
+#, c-format
+msgid "Sa&ve changes"
+msgstr "Desa els canvis"
+
+#, c-format
+msgid "Discard c&hanges"
+msgstr "D&escarta'n els canvis"
+
+#, c-format
+msgid "Right side file"
+msgstr "Fitxer del costat dret"
+
+#, c-format
+msgid "S&ave changes"
+msgstr "De&sa-hi els canvis"
+
+#, c-format
+msgid "Dis&card changes"
+msgstr "Des&carta'n els canvis"
+
+#, c-format
+msgid "Disca&rd All"
+msgstr "Descarta-ho tot"
+
+#, c-format
+msgid "Codepage"
+msgstr "Codificació de caràcters"
+
+#, c-format
+msgid "Default Codepage"
+msgstr "Codificació de caràcters predeterminada"
+
+#, c-format
+msgid "Select the default codepage for non-Unicode files:"
+msgstr "Selecciona la codificació de caràcters predeterminada que s'utilitzarà en carregar fitxers no-Unicode:"
+
+#, c-format
+msgid "System codepage"
+msgstr "Codificació de caràcters del sistema"
+
+#, c-format
+msgid "According to WinMerge User Interface"
+msgstr "En funció de l'idioma de l'interfície d'usuari del WinMerge"
+
+#, c-format
+msgid "Custom codepage:"
+msgstr "Codificació de caràcters personalitzada:"
+
+msgid ""
+"Detect codepage for: .html, .rc, .xml\n"
+"Restart required."
+msgstr ""
+"Detecta la codificació de caràcters en aquest tipus de fitxers: .html, .rc, .xml\n"
+"Cal reiniciar l'aplicació."
+
+msgid ""
+"Detect codepage for files with mlang.dll\n"
+"Restart required."
+msgstr ""
+"Detecta la codificació de caràcters en fitxers de text amb mlang.dll\n"
+"Cal reiniciar l'aplicació."
+
+#, c-format
+msgid "Options"
+msgstr "Opcions"
+
+#, c-format
+msgid "Import..."
+msgstr "Importa..."
+
+#, c-format
+msgid "Export..."
+msgstr "Exporta..."
+
+#, c-format
+msgid "Folder Compare Report"
+msgstr "Informe de comparació de directoris"
+
+#, c-format
+msgid "Report &file:"
+msgstr "&Fitxer d'informe:"
+
+#, c-format
+msgid "&Style:"
+msgstr "&Estil:"
+
+#, c-format
+msgid "&Include file compare report"
+msgstr "Inclou l'informa de comparació de fitxers"
+
+#, c-format
+msgid "Shared or Private Filter"
+msgstr "Filtre compartit o privat"
+
+#, c-format
+msgid "What type of filter do you want?"
+msgstr "Quina mena de filtre voleu crear?"
+
+#, c-format
+msgid "Shared Filter (for all users)"
+msgstr "Filtre compartit (per a tots els usuaris d'aquesta màquina)"
+
+#, c-format
+msgid "Private Filter (current user only)"
+msgstr "Filtre privat (només per a l'usuari actual)"
+
+#, c-format
+msgid "Archive Support"
+msgstr "Suport d'arxivament"
+
+#, c-format
+msgid "&Enable archive file support"
+msgstr "&Habilita el suport de fitxers d'arxivament"
+
+#, c-format
+msgid "&Detect archive type from file signature"
+msgstr "&Detecta el tipus d'arxiu a partir de la signatura del fitxer"
+
+msgid "Items saved to or restored from the project file:"
+msgstr "Elements desats a o restaurats del fitxer de projecte:"
+
+#, c-format
+msgid "Compare Statistics"
+msgstr "Estadístiques de comparació"
+
+#, c-format
+msgid "Folders:"
+msgstr "Carpetes:"
+
+#, c-format
+msgid "Files:"
+msgstr "Fitxers:"
+
+#, c-format
+msgid "Different"
+msgstr "Diferents"
+
+#, c-format
+msgid "Binary:"
+msgstr "Binaris:"
+
+#, c-format
+msgid "Unique"
+msgstr "Únics"
+
+#, c-format
+msgid "Left:"
+msgstr "Esquerra:"
+
+#, c-format
+msgid "Right:"
+msgstr "Dreta:"
+
+#, c-format
+msgid "Identical"
+msgstr "Idèntics"
+
+#, c-format
+msgid "Total:"
+msgstr "Elements totals:"
+
+#, c-format
+msgid "Close"
+msgstr "Tanca"
+
+#, c-format
+msgid "Middle:"
+msgstr "Mig:"
+
+#, c-format
+msgid "Missing Left:"
+msgstr "Manca a l'Esquerra:"
+
+#, c-format
+msgid "Missing Middle:"
+msgstr "Manca al Mig:"
+
+#, c-format
+msgid "Missing Right:"
+msgstr "Manca a la dreta:"
+
+#, c-format
+msgid "Affects"
+msgstr "Afectament"
+
+#, c-format
+msgid "(Affects)"
+msgstr "(Afecta)"
+
+#, c-format
+msgid "Select Codepage for"
+msgstr "Selecciona la codificació de caràcters per a"
+
+#, c-format
+msgid "&File Loading:"
+msgstr "&Càrrega de fitxers:"
+
+#, c-format
+msgid "File &Saving:"
+msgstr "&Desament de fitxers:"
+
+#, c-format
+msgid "&Use same codepage for both"
+msgstr "&Empra la mateixa codificació de caràcters a ambdós"
+
+#, c-format
+msgid "&Cancel"
+msgstr "&Cancel·la"
+
+#, c-format
+msgid "Test Filter"
+msgstr "Prova de filtre"
+
+msgid "Testing filter:"
+msgstr "Provant el filtre:"
+
+#, c-format
+msgid "&Enter text to test:"
+msgstr "&Introduïu el text a provar:"
+
+#, c-format
+msgid "&Folder Name"
+msgstr "&Nom de la carpeta"
+
+#, c-format
+msgid "Result:"
+msgstr "Resultat:"
+
+#, c-format
+msgid "&Test"
+msgstr "&Prova"
+
+#, c-format
+msgid "&Close"
+msgstr "&Tanca"
+
+msgid "Table"
+msgstr "Taula"
+
+msgid "File type"
+msgstr "Tipus de fitxers"
+
+msgid "&CSV"
+msgstr "&CSV"
+
+msgid "&TSV"
+msgstr "&TSV"
+
+msgid "Custom &Delimiter-Separated Values"
+msgstr "Valors separats amb un &delimitador personalitzat"
+
+msgid "D&elimiter character:"
+msgstr "Caràcter d&elimitador:"
+
+msgid "&Allow newlines in quotes"
+msgstr "Permet salts de línia entre cometes"
+
+msgid "&Quote character:"
+msgstr "Caràcter de cometes:"
+
+#, c-format
+msgid "Backup Files"
+msgstr "Fitxers de còpia de seguretat"
+
+#, c-format
+msgid "Create backup files for:"
+msgstr "Crea els fitxers de còpia de seguretat en:"
+
+#, c-format
+msgid "&Folder compare"
+msgstr "Comparació de &carpetes"
+
+#, c-format
+msgid "Fil&e compare"
+msgstr "Comparació de &fitxers"
+
+#, c-format
+msgid "Create backup files in:"
+msgstr "Crea els fitxers de còpia de seguretat a:"
+
+#, c-format
+msgid "&Original file's folder"
+msgstr "Carpeta del fitxer &original"
+
+#, c-format
+msgid "&Global backup folder:"
+msgstr "Carpeta de còpia de seguretat &global:"
+
+#, c-format
+msgid "Backup filename:"
+msgstr "Nom de fitxer de còpia de seguretat:"
+
+msgid "&Append .bak extension"
+msgstr "&Afegeix l'extensió .bak"
+
+#, c-format
+msgid "A&ppend timestamp"
+msgstr "A&fegeix una marca horària"
+
+#, c-format
+msgid "Confirm Copy"
+msgstr "Confirmació de còpia"
+
+#, c-format
+msgid "Are you sure you want to copy XXX items?"
+msgstr "Esteu segur que voleu copiar XXX elements?"
+
+#, c-format
+msgid "From left"
+msgstr "D'esquerra"
+
+#, c-format
+msgid "To right"
+msgstr "A dreta"
+
+#, c-format
+msgid "Don't ask this &question again."
+msgstr "No tornis a preguntar-ho."
+
+#, c-format
+msgid "Yes"
+msgstr "Sí"
+
+#, c-format
+msgid "No"
+msgstr "No"
+
+#, c-format
+msgid "Plugins"
+msgstr "&Connectors"
+
+#, c-format
+msgid "&Enable plugins"
+msgstr "&Habilita els Connectors"
+
+msgid "Plugin &type:"
+msgstr ""
+
+msgid "File filters:"
+msgstr "Filtres de fitxer:"
+
+msgid "&Plugin arguments:"
+msgstr "Paràmetres dels connectors:"
+
+msgid "Enable &automatic unpacking/prediffing"
+msgstr "Activa el desempaquetament/prediferenciació automàtica pel connector"
+
+#, c-format
+msgid "Shell Integration"
+msgstr "Integració amb el sistema"
+
+#, c-format
+msgid "Explorer"
+msgstr "Explorador de fitxers"
+
+#, c-format
+msgid "&Add to context menu"
+msgstr "Afegeix al menú contextual"
+
+#, c-format
+msgid "E&nable advanced menu"
+msgstr "Habilita el &menú avançat"
+
+msgid "Enable &Compare As menu"
+msgstr "Activa el menú &Compara com"
+
+#, c-format
+msgid "&Register Shell Extension"
+msgstr "Registra la extensió del sistema"
+
+#, c-format
+msgid "&Unregister Shell Extension"
+msgstr "Desinstal·la la extensió del sistema"
+
+msgid "Register Shell Extension for Current User &Only"
+msgstr "Registra la extensió del sistema només per a l'usuari actual"
+
+msgid "Unregister Shell Extension for Current User On&ly"
+msgstr "Desinstal·la la extensió del sistema només per a l'usuari actual"
+
+msgid "Register Shell Extension for &Windows 11"
+msgstr "Registra la extensió del sistema per a Windows 11 o posterior"
+
+msgid "Unregister Shell Extension for W&indows 11"
+msgstr "Desinstal·la la extensió del sistema per a Windows 11 o posterior"
+
+msgid "Jump List"
+msgstr "Llista de salts"
+
+msgid "Clear all recent items"
+msgstr "Esborra tots els elements recents"
+
+msgctxt "Options dialog|Categories"
+msgid "Folder"
+msgstr "Directori"
+
+msgid "&Compare method:"
+msgstr "Mètode de &comparació:"
+
+#, c-format
+msgid "S&top after first difference"
+msgstr "&Atura després de la primera diferència"
+
+#, c-format
+msgid "Ign&ore time differences less than 3 seconds"
+msgstr "Ignora diferències en l'&hora inferiors a 3 segons"
+
+msgid "Expand subfolders &after comparison:"
+msgstr "&Amplia automàticament les subcarpetes després de la comparació:"
+
+#, c-format
+msgid "Include &unique subfolders contents"
+msgstr "Inclou el contingut de les carpetes que no estan als dos costats"
+
+#, c-format
+msgid "Ignore &reparse points"
+msgstr "Ignora els punts de &reanàlisi"
+
+msgid "Switch to &quick compare when size exceeds (MB):"
+msgstr "Llindar per realitzar una comparació ràpida (MB):"
+
+msgid "Switch to &binary compare when size exceeds (MB):"
+msgstr "Llindar per realitzar una comparació binària (MB):"
+
+msgid "File patterns:"
+msgstr "Patrons de fitxer:"
+
+msgid "Custom Delimiter-Separated Values"
+msgstr "Delimitador de valors personalitzat"
+
+msgctxt "Options dialog|Categories"
+msgid "Binary"
+msgstr "Binari"
+
+#, c-format
+msgid "Binary file &patterns:"
+msgstr "Patrons de fitxer binari:"
+
+#, c-format
+msgid "Frhed settings"
+msgstr "Opcions de Frhed"
+
+#, c-format
+msgid "View &Settings..."
+msgstr "Opcions de visualització..."
+
+#, c-format
+msgid "&Binary Mode..."
+msgstr "Mode binari..."
+
+#, c-format
+msgid "&Character Set..."
+msgstr "Taula de codificació de caràcters..."
+
+msgid "Image"
+msgstr "Imatge"
+
+#, c-format
+msgid "Image file &patterns:"
+msgstr "Patrons de fitxer d'imatge:"
+
+msgid "&Enable image compare in folder compare"
+msgstr "Habilita la comparació d'imatge en la comparació de directoris"
+
+msgid "OCR result:"
+msgstr "Resultat OCR:"
+
+msgid "Webpage"
+msgstr "Pàgina web"
+
+msgid "URL pattern to &include (Regular expression):"
+msgstr "Patró d'URL a &incloure (expressió regular):"
+
+msgid "URL pattern to &exclude (Regular expression):"
+msgstr "Patró d'URL a &excloure (expressió regular):"
+
+msgid "&User data folder location:"
+msgstr "&Ubicació de la carpeta de dades de l'usuari:"
+
+msgid "&Separate user data folders for each pane"
+msgstr "&Separa les carpetes de dades d'usuari per a cada subfinestra"
+
+#, c-format
+msgid "&Hex View"
+msgstr "Vista &Hexadecimal"
+
+msgid "Edit Plugin"
+msgstr ""
+
+msgid "&Category:"
+msgstr ""
+
+msgid "&Menu caption:"
+msgstr ""
+
+msgid "&Window type:"
+msgstr ""
+
+msgid "&Unpacked file extension:"
+msgstr ""
+
+msgid "&Require arguments"
+msgstr ""
+
+msgid "&Generate editor script"
+msgstr ""
+
+msgid "Command &line:"
+msgstr ""
+
+msgid "&Script file extension:"
+msgstr ""
+
+msgid "Script &body:"
+msgstr ""
+
+#, c-format
+msgid "EXT"
+msgstr "EXT"
+
+#, c-format
+msgid "CAP"
+msgstr "CAP"
+
+#, c-format
+msgid "NUM"
+msgstr "NUM"
+
+#, c-format
+msgid "SCRL"
+msgstr "SCRL"
+
+#, c-format
+msgid "OVR"
+msgstr "OVR"
+
+#, c-format
+msgid "REC"
+msgstr "REC"
+
+#, c-format
+msgid ""
+"\n"
+"New Documents (Ctrl+N)"
+msgstr ""
+"\n"
+"Nous documents (Control+N)"
+
+#, c-format
+msgid ""
+"\n"
+"Open (Ctrl+O)"
+msgstr ""
+"\n"
+"Obre (Control+O)"
+
+#, c-format
+msgid ""
+"\n"
+"Save (Ctrl+S)"
+msgstr ""
+"\n"
+"Desa (Control+S)"
+
+msgid "Unknown error opening project file."
+msgstr "S'ha produït un error desconegut en intentar obrir un fitxer de projecte."
+
+msgid "Unknown error saving project file."
+msgstr "S'ha produït un error desconegut en intentar desar un fitxer de projecte."
+
+#, c-format
+msgid "Project file loaded."
+msgstr "El fitxer de projecte s'ha carregat correctament."
+
+#, c-format
+msgid "Project file saved."
+msgstr "El fitxer de projecte s'ha desat correctament."
+
+#, c-format
+msgid ""
+"\n"
+"Undo (Ctrl+Z)"
+msgstr ""
+"\n"
+"Desfés (Control+Z)"
+
+#, c-format
+msgid ""
+"\n"
+"Redo (Ctrl+Y)"
+msgstr ""
+"\n"
+"Refés (Control+Y)"
+
+#, c-format
+msgid ""
+"\n"
+"FileCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"WinMerge File Compare"
+msgstr ""
+"\n"
+"FileCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"WinMerge File Compare"
+
+#, c-format
+msgid ""
+"\n"
+"FolderCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"WinMerge Folder Compare"
+msgstr ""
+"\n"
+"FolderCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"WinMerge Folder Compare"
+
+#, c-format
+msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. It is free software and can be redistributed under the conditions of the GNU General Public License - see the Help menu for details."
+msgstr "El WinMerge es proporciona SENSE CAP MENA DE GARANTIA. És programari lliure i podeu redistribuir-lo sota certes circumstàncies. Consulteu la Llicència Pública General de GNU al menú d'ajuda per obtenir-ne més detalls."
+
+#, c-format
+msgid "&Abort"
+msgstr "&Avorta"
+
+#, c-format
+msgid "&Retry"
+msgstr "&Reintenta"
+
+#, c-format
+msgid "&Ignore"
+msgstr "&Ignora"
+
+#, c-format
+msgid "Ignore &all"
+msgstr "Ignora-ho &tot"
+
+#, c-format
+msgid "&Yes"
+msgstr "&Sí"
+
+#, c-format
+msgid "Yes to &all"
+msgstr "Sí a &tot"
+
+#, c-format
+msgid "&No"
+msgstr "&No"
+
+#, c-format
+msgid "No to a&ll"
+msgstr "No a t&ot"
+
+#, c-format
+msgid "&Continue"
+msgstr "&Continua"
+
+#, c-format
+msgid "&Skip"
+msgstr "&Omet"
+
+#, c-format
+msgid "Skip &all"
+msgstr "Omet-ho &tot"
+
+#, c-format
+msgid "Don't display this &message again."
+msgstr "No tornis a mostrar aquest missatge."
+
+msgid "To make this message box visible, press Reset on the Message Boxes page in Options."
+msgstr "Per fer que aquest quadre de missatge es mostri de nou, premeu el botó Reinicialitza a la secció Quadres de missatges a la finestra d'Opcions."
+
+msgid "Compare/Merge"
+msgstr "Compara/fusiona"
+
+#, c-format
+msgid "Syntax"
+msgstr "Sintaxi"
+
+msgid "Color Schemes"
+msgstr "Esquemes de colors"
+
+msgid "Folder Compare"
+msgstr "Comparació de carpetes"
+
+msgid "Project"
+msgstr "Projecte"
+
+#, c-format
+msgid "Differences"
+msgstr "Diferències"
+
+msgid "Message Boxes"
+msgstr "Quadres de missatges"
+
+#, c-format
+msgid "To:"
+msgstr "A:"
+
+#, c-format
+msgid "From left:"
+msgstr "D'esquerra:"
+
+#, c-format
+msgid "To left:"
+msgstr "A esquerra:"
+
+#, c-format
+msgid "From right:"
+msgstr "De dreta:"
+
+#, c-format
+msgid "To right:"
+msgstr "A dreta:"
+
+msgid "From middle:"
+msgstr "Del mig:"
+
+msgid "To middle:"
+msgstr "Cap al Mig:"
+
+#, c-format
+msgid "Version %1"
+msgstr "Versió %1 - Català"
+
+#, c-format
+msgid "X64"
+msgstr "X64"
+
+#, c-format
+msgid "Options (%1)"
+msgstr "Opcions (%1)"
+
+#, c-format
+msgid "All message boxes are now displayed again."
+msgstr "Ara es tornen a mostrar tots els quadres de missatges."
+
+#, c-format
+msgid "Tab size value is out of range. Please use 1 - %1."
+msgstr ""
+"El valor del camp de la mida de les tabulacions no és dins el rang que accepta el WinMerge.\n"
+"\n"
+"Useu valors entre 1 i %1."
+
+#, c-format
+msgid "Open"
+msgstr "Obre"
+
+#, c-format
+msgid "Programs|*.exe;*.bat;*.cmd|All Files (*.*)|*.*||"
+msgstr "Programes|*.exe;*.bat;*.cmd|Tots els fitxers (*.*)|*.*||"
+
+#, c-format
+msgid "All Files (*.*)|*.*||"
+msgstr "Tots els fitxers (*.*)|*.*||"
+
+#, c-format
+msgid "WinMerge Project Files (*.WinMerge)|*.WinMerge||"
+msgstr "Fitxers de projecte del WinMerge (*.WinMerge)|*.WinMerge||"
+
+#, c-format
+msgid "Options files (*.ini)|*.ini|All Files (*.*)|*.*||"
+msgstr "Fitxers d'opcions de configuració (*.ini)|*.ini|Tots els fitxers (*.*)|*.*||"
+
+#, c-format
+msgid "Text Files (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|All Files (*.*)|*.*||"
+msgstr "Fitxers de text (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|Tots els fitxers (*.*)|*.*||"
+
+#, c-format
+msgid "HTML Files (*.htm,*.html)|*.htm;*.html|All Files (*.*)|*.*||"
+msgstr "Fitxers HTML (*.htm,*.html)|*.htm;*.html|Tots els fitxers (*.*)|*.*||"
+
+#, c-format
+msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
+msgstr "Fitxers XML (*.xml)|*.xml|Tots els fitxers (*.*)|*.*||"
+
+msgid "Do not expand"
+msgstr "No expandeixis"
+
+msgid "Expand all subfolders"
+msgstr "Expandeix totes les subcarpetes"
+
+msgid "Expand different subfolders"
+msgstr "Expandeix les subcarpetes diferents"
+
+msgid "Expand identical subfolders"
+msgstr "Expandeix les subcarpetes idèntiques"
+
+msgid "File Type"
+msgstr "Tipus de fitxer"
+
+#, c-format
+msgid "Extension"
+msgstr "Extensió"
+
+msgid "Message"
+msgstr "Missatge"
+
+msgid "Answer"
+msgstr "Resposta"
+
+msgid "Item"
+msgstr "Element"
+
+msgid "Load"
+msgstr "Carrega"
+
+msgid "Save"
+msgstr "Desa"
+
+msgid "Include Subfolders"
+msgstr "Inclou les subcarpetes"
+
+msgid "Compare Options"
+msgstr "Opcions de comparació"
+
+msgid "Hidden Items"
+msgstr "Elements ocults"
+
+#, c-format
+msgid "Name"
+msgstr "Nom"
+
+#, c-format
+msgid "Location"
+msgstr "Ubicació"
+
+#, c-format
+msgid "Filters"
+msgstr "Filtres"
+
+#, c-format
+msgid "[F] "
+msgstr "[F] "
+
+#, c-format
+msgid "Description"
+msgstr "Descripció"
+
+#, c-format
+msgid "Select Filename for New Filter"
+msgstr "Selecciona un nom de fitxer per al nou filtre"
+
+#, c-format
+msgid "File Filters (*.flt)|*.flt|All Files (*.*)|*.*||"
+msgstr "Filtres de fitxer (*.flt)|*.flt|Tots els fitxers (*.*)|*.*||"
+
+#, c-format
+msgid ""
+"Cannot find filter template!\n"
+"\n"
+"Copy %1 to WinMerge/Filters Folder:\n"
+"%2."
+msgstr ""
+"No s'ha trobat el fitxer de plantilla de filtre de fitxer.\n"
+"\n"
+"Copieu el fitxer %1 a la carpeta WinMerge/Filters:\n"
+"%2."
+
+#, c-format
+msgid ""
+"Cannot copy filter template:\n"
+"%1\n"
+"\n"
+"Make sure the folder exists and is writable."
+msgstr ""
+"No es pot copiar el fitxer de plantilla de filtre a la carpeta de filtres:\n"
+"%1\n"
+"\n"
+"Verifiqueu que la carpeta existeix i s'hi pot escriure."
+
+#, c-format
+msgid ""
+"User's filter folder is not defined!\n"
+"\n"
+"Select filter folder in Options/System."
+msgstr ""
+"La carpeta de fitxers de filtre d'usuari no està definida.\n"
+"\n"
+"Seleccioneu la carpeta de filtres a Opcions/Sistema."
+
+#, c-format
+msgid ""
+"Failed to delete filter:\n"
+"%1\n"
+"\n"
+"File may be read-only."
+msgstr ""
+"No s'ha pogut esborrar el fitxer de filtre:\n"
+"%1\n"
+"\n"
+"Potser el fitxer és només de lectura?"
+
+#, c-format
+msgid "Locate Filter File to Install"
+msgstr "Localitza el fitxer de filtre a instal·lar"
+
+#, c-format
+msgid ""
+"Installing filter file failed.\n"
+"\n"
+"Could not copy new filter to folder."
+msgstr ""
+"No es pot instal·lar el fitxer de filtre.\n"
+"\n"
+"No s'ha pogut copiar el nou fitxer de filtre a la carpeta de filtres."
+
+#, c-format
+msgid "Filter file exists. Overwrite?"
+msgstr "El fitxer de filtre ja existeix. Voleu sobreescriure el filtre existent?"
+
+#, c-format
+msgid "Regular expression"
+msgstr "Expressió regular"
+
+msgid ""
+"Filters updated. Refresh all open folder compares?\n"
+"\n"
+"Select 'No' to refresh later."
+msgstr ""
+"Filtres actualitzats. Voleu tornar a analitzar totes les comparacions de directori obertes?\n"
+"\n"
+"Si no voleu tornar-los a analitzar ara, podeu seleccionar 'No' i fer-ho més tard."
+
+#, c-format
+msgid "Folder Comparison Results"
+msgstr "Resultats de la comparació dels directoris"
+
+#, c-format
+msgid "File Comparison"
+msgstr "Comparació de fitxers"
+
+#, c-format
+msgid "Untitled Left"
+msgstr "Fitxer esquerre sense títol"
+
+#, c-format
+msgid "Untitled Middle"
+msgstr "Fitxer del mig sense títol"
+
+#, c-format
+msgid "Untitled Right"
+msgstr "Fitxer dret sense títol"
+
+msgid "Base File"
+msgstr "Fitxer base"
+
+#, c-format
+msgid "Theirs File"
+msgstr "El seu fitxer"
+
+#, c-format
+msgid "Mine File"
+msgstr "El meu fitxer"
+
+msgid "Original File"
+msgstr "Fitxer original"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
+msgstr "Lïn: %s  Col: %d/%d  Car: %d/%d  EOL: %s"
+
+#, c-format
+msgid "Line: %s"
+msgstr "Línia: %s"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
+msgstr "Lin: %s  Col: %d/%d  Car: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr "  Sel: %d | %d"
+
+#, c-format
+msgid "Merge"
+msgstr "Combina"
+
+#, c-format
+msgid "Difference %1 of %2"
+msgstr "Diferència %1 de %2"
+
+#, c-format
+msgid "%1 Differences Found"
+msgstr "S'han trobat %1 diferències"
+
+#, c-format
+msgid "1 Difference Found"
+msgstr "S'ha trobat una diferència"
+
+#, c-format
+msgid "%1 Errors Found"
+msgstr ""
+
+msgid "1 Error Found"
+msgstr ""
+
+#. Abbreviation from "Read Only"
+#, c-format
+msgid "RO"
+msgstr "LE"
+
+#, c-format
+msgid "Item %1 of %2"
+msgstr "Element %1 de %2"
+
+#, c-format
+msgid "Items: %1"
+msgstr "Elements: %1"
+
+#, c-format
+msgid "Comparing items..."
+msgstr "Comparant elements..."
+
+#, c-format
+msgid "%.1f[items/sec]"
+msgstr "%.1f[elements/seg.]"
+
+msgid "Select two existing folders/files to compare."
+msgstr "Selecciona dos directoris o fitxers existents per a comparar."
+
+#, c-format
+msgid "Folder Selection"
+msgstr "Selecció de directori"
+
+#, c-format
+msgid "Select two (or three) folders/files to compare."
+msgstr "Selecciona dos (o tres) directoris o dos (o tres) fitxers per a comparar."
+
+#, c-format
+msgid "Left (1st) path is invalid!"
+msgstr "El camí de l'esquerra (1er) no és vàlid."
+
+#, c-format
+msgid "Middle (2nd) path is invalid!"
+msgstr "El camí del mig (2n) no és vàlid."
+
+#, c-format
+msgid "Right (2nd) path is invalid!"
+msgstr "El camí de la dreta (2n) no és vàlid."
+
+#, c-format
+msgid "Right (3rd) path is invalid!"
+msgstr "El camí de la dreta (3er) no és vàlid."
+
+#, c-format
+msgid "Both paths are invalid!"
+msgstr "Els dos camins no són vàlids."
+
+#, c-format
+msgid "Left (1st) and Middle (2nd) paths are invalid!"
+msgstr "Els camins de l'esquerra (1er) i del mig (2n) no són vàlids."
+
+#, c-format
+msgid "Left (1st) and Right (3rd) paths are invalid!"
+msgstr "Els camins de l'esquerra (1er) i de la dreta (3er) no són vàlids."
+
+#, c-format
+msgid "Middle (2nd) and Right (3rd) paths are invalid!"
+msgstr "Els camins del mig (2on) i de l'esquerra (3er) no són vàlids."
+
+#, c-format
+msgid "All paths are invalid!"
+msgstr "No hi ha cap camí que sigui vàlid."
+
+msgid "Only enabled for file comparisons"
+msgstr "Només activat per a comparació de fitxers"
+
+#, c-format
+msgid "Cannot compare file and folder!"
+msgstr "No es pot comparar un fitxer i un directori."
+
+#, c-format
+msgid "File not found: %1"
+msgstr "No s'ha trobat el fitxer: %1"
+
+#, c-format
+msgid "File not unpacked: %1"
+msgstr "El fitxer no s'ha desempaquetat: %1"
+
+#, c-format
+msgid ""
+"Cannot open file\n"
+"%1\n"
+"\n"
+"%2"
+msgstr ""
+"No es pot obrir el fitxer\n"
+"%1\n"
+"\n"
+"%2"
+
+#, c-format
+msgid "Failed to parse conflict file."
+msgstr "No s'ha pogut interpretar el fitxer amb conflictes."
+
+#, c-format
+msgid "The file\n%1\nis not a conflict file."
+msgstr ""
+"El fitxer\n"
+"%1\n"
+"no és un fitxer amb conflictes."
+
+msgid "Comparing large files requires significant memory.\nShow only comparison results (not file contents)?"
+msgstr ""
+"Esteu a punt de comparar fitxers molt grans.\n"
+"Mostrar el contingut dels fitxers requereix una gran quantitat de memòria.\n"
+"Preferiu mostrar només el resultat de la comparació, en comptes del contingut dels fitxers?\n"
+"\n"
+
+#, c-format
+msgid "Save As"
+msgstr "Anomena i desa"
+
+#, c-format
+msgid "Save changes to %1?"
+msgstr "Voleu desar els canvis a %1?"
+
+#, c-format
+msgid "%1 is read-only. Override? Or 'No' to save as new filename?"
+msgstr "El fitxer %1 és només de lectura. Voleu substituir el fitxer només de lectura? (Premeu no per desar amb un nom nou.)"
+
+#, c-format
+msgid "Error backing up file"
+msgstr "Hi ha hagut un error en crear una còpia de seguretat del fitxer"
+
+#, c-format
+msgid ""
+"Unable to backup original file:\n"
+"%1\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"No es pot desar una còpia de seguretat del fitxer original:\n"
+"%1\n"
+"\n"
+"Voleu continuar de totes maneres?"
+
+#, c-format
+msgid "Saving file failed.\n%1\n%2\n\t- Use different filename (OK)\n\t- Abort (Cancel)?"
+msgstr ""
+"Hi ha hagut un error en desar el fitxer.\n"
+"%1\n"
+"%2\n"
+"Voleu:\n"
+"\t- desar-lo amb un nom diferent (premeu D'acord)\n"
+"\t- avortar l'operació actual (Premeu Cancel·lar)?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to left file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"El connector «%2» no pot tornar a empaquetar els vostres canvis al fitxer de l'esquerra de nou cap a «%1».\n"
+"\n"
+"El fitxer original no es canviarà.\n"
+"\n"
+"Voleu desar la versió desempaquetada en un altre fitxer?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to middle file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"El connector «%2» no pot tornar a empaquetar els vostres canvis al fitxer del mig de nou cap a «%1».\n"
+"\n"
+"El fitxer original no es canviarà.\n"
+"\n"
+"Voleu desar la versió desempaquetada en un altre fitxer?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to right file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"El connector «%2» no pot tornar a empaquetar els vostres canvis al fitxer de la dreta de nou cap a «%1».\n"
+"\n"
+"El fitxer original no es canviarà.\n"
+"\n"
+"Voleu desar la versió desempaquetada en un altre fitxer?"
+
+#, c-format
+msgid ""
+"Another application updated\n"
+"%1\n"
+"since WinMerge loaded it.\n"
+"\n"
+"Overwrite?"
+msgstr ""
+"Alguna altra aplicació ha actualitzat el fitxer\n"
+"%1\n"
+"des que el WinMerge el va carregar.\n"
+"\n"
+"Voleu sobreescriure el fitxer?"
+
+#, c-format
+msgid ""
+"%1\n"
+"is read-only. Override?"
+msgstr ""
+"%1\n"
+"està marcat com a només de lectura. Voleu substituir l'element només de lectura?"
+
+#, c-format
+msgid "Another application updated\n%1\nsince last scan.\n\nReload?"
+msgstr ""
+"Alguna altra aplicació ha actualitzat el fitxer\n"
+"%1\n"
+"des que el WinMerge el va escanejar per últim cop.\n"
+"\n"
+"Voleu recarregar el fitxer?"
+
+#, c-format
+msgid "Save Left File As"
+msgstr "Anomena i desa el fitxer de l'esquerra"
+
+#, c-format
+msgid "Save Middle File As"
+msgstr "Anomena i desa el fitxer del mig"
+
+#, c-format
+msgid "Save Right File As"
+msgstr "Anomena i desa el fitxer de la dreta"
+
+#, c-format
+msgid ""
+"File\n"
+"%1\n"
+"not found. Save a copy to continue."
+msgstr ""
+"El fitxer\n"
+"%1\n"
+"ha desapareguit. Si us plau, deseu una còpia del fitxer abans de continuar."
+
+#, c-format
+msgid ""
+"Cannot merge unsynched documents.\n"
+"\n"
+"Refresh before continuing."
+msgstr ""
+"No es poden combinar les diferències quan el documents not estan en sincronia.\n"
+"\n"
+"Cal que refresqueu els documents abans de continuar."
+
+msgid "Break at whitespace"
+msgstr "Separa a l'espai"
+
+msgid "Break at whitespace or punctuation"
+msgstr "Separa a l'espai o puntuació"
+
+msgid "Copy to &Middle\tAlt+Right"
+msgstr "Copia al mig\tAlt+Dreta"
+
+msgid "Copy to &Middle\tAlt+Left"
+msgstr "Copia al mig\tAlt+Esquerra"
+
+msgid "Copy from Middle\tAlt+Shift+Right"
+msgstr "Copia des del mig\tAlt+Maj+Dreta"
+
+msgid "Copy from Middle\tAlt+Shift+Left"
+msgstr "Copia des del mig\tAlt+Maj+Esquerra"
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Right"
+msgstr "Copia al mig i avança\tControl+Alt+Dreta"
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Left"
+msgstr "Copia al mig i avança\tControl+Alt+Esquerra"
+
+msgid "Copy All to Middle"
+msgstr "Copia-ho tot cap al mig"
+
+#, c-format
+msgid "Right to Left (%1)"
+msgstr "Dreta a esquerra (%1)"
+
+#, c-format
+msgid "Right to Middle (%1)"
+msgstr "Esquerra cap al mig (%1)"
+
+#, c-format
+msgid "Middle to Left (%1)"
+msgstr "Mig cap a l'esquerra (%1)"
+
+#, c-format
+msgid "Middle to Right (%1)"
+msgstr "Mig cap a la dreta (%1)"
+
+#, c-format
+msgid "Left to Right (%1)"
+msgstr "Esquerra a dreta (%1)"
+
+#, c-format
+msgid "Left to Middle (%1)"
+msgstr "Dreta cap al Mig (%1)"
+
+#, c-format
+msgid "Left to... (%1)"
+msgstr "Esquerra a... (%1)"
+
+#, c-format
+msgid "Middle to... (%1)"
+msgstr "Mig cap a... (%1)"
+
+#, c-format
+msgid "Right to... (%1)"
+msgstr "Dreta a... (%1)"
+
+#, c-format
+msgid "Both to... (%1)"
+msgstr "Ambdós a... (%1)"
+
+#, c-format
+msgid "All to... (%1)"
+msgstr "Tots a... (%1)"
+
+#, c-format
+msgid "Differences to... (%1)"
+msgstr "Diferències a... (%1)"
+
+msgid "Some selected items are identical or skipped.\nCopy only items with differences?"
+msgstr ""
+
+#, c-format
+msgid "Left (%1)"
+msgstr "Esquerra (%1)"
+
+#, c-format
+msgid "Middle (%1)"
+msgstr "Mig (%1)"
+
+#, c-format
+msgid "Right (%1)"
+msgstr "Dreta (%1)"
+
+#, c-format
+msgid "Both (%1)"
+msgstr "Ambdós (%1)"
+
+#, c-format
+msgid "All (%1)"
+msgstr "Tots (%1)"
+
+#, c-format
+msgid "Left Side - Select Destination Folder:"
+msgstr "Costat esquerre - seleccioneu la carpeta de destinació:"
+
+#, c-format
+msgid "Middle Side - Select Destination Folder:"
+msgstr "Costat del mig - seleccioneu la carpeta de destinació:"
+
+#, c-format
+msgid "Right Side - Select Destination Folder:"
+msgstr "Costat dret - seleccioneu la carpeta de destinació:"
+
+#, c-format
+msgid "(%1 Files Affected)"
+msgstr "(%1 fitxers afectats)"
+
+#, c-format
+msgid "(%1 of %2 Files Affected)"
+msgstr "(%1 de %2 fitxers afectats)"
+
+#, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\n"
+"%1 ?"
+msgstr ""
+"Esteu segur que voleu suprimir\n"
+"\n"
+"%1 ?"
+
+msgid "Are you sure you want to copy?"
+msgstr "Esteu segur que voleu copiar?"
+
+#, c-format
+msgid "Are you sure you want to copy %d items?"
+msgstr "Esteu segur que voleu copiar %d elements?"
+
+#, c-format
+msgid ""
+"Operation aborted!\n"
+"\n"
+"Folder contents changed, path\n"
+"%1\n"
+"not found.\n"
+"\n"
+"Refresh the compare."
+msgstr ""
+"Operació avortada.\n"
+"\n"
+"Els continguts de la carpeta als discs han canviat, el camí\n"
+"%1\n"
+"no s'ha trobat.\n"
+"\n"
+"Actualitzeu la comparació."
+
+msgid "Are you sure you want to move?"
+msgstr "Esteu segur que voleu moure?"
+
+#, c-format
+msgid "Are you sure you want to move %d items?"
+msgstr "Esteu segur que voleu moure %d elements?"
+
+#, c-format
+msgid "Confirm Move"
+msgstr "Confirmeu l'acció de moure"
+
+#, c-format
+msgid "Close the folder comparison window?"
+msgstr "Esteu a punt de tancar la finestra que compara els directoris. Esteu segurs de tancar la finestra?"
+
+msgid "Close the folder comparison window, which took a long time?"
+msgstr "Esteu a punt de tancar la finestra de comparació de carpetes que ha trigat molt de temps. Esteu segur que voleu tancar la finestra?"
+
+msgid "The file or folder name is invalid."
+msgstr "El nom del fitxer o de la carpeta no és vàlid."
+
+#, c-format
+msgid "Failed to execute external editor: %1"
+msgstr "No s'ha pogut executar l'editor extern: %1"
+
+#, c-format
+msgid "Unknown archive format"
+msgstr "El format de l'arxiu és desconegut"
+
+msgid ""
+"Failed to extract archive.\n"
+"Compare as text file?"
+msgstr ""
+"No s'han pogut extreure els fitxers de l'arxiu.\n"
+"Voleu comparar els fitxers de l'arxiu com a fitxers de text?"
+
+#, c-format
+msgid "Filename"
+msgstr "Nom de fitxer"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Folder"
+msgstr "Directori"
+
+#, c-format
+msgid "Comparison Result"
+msgstr "Resultat de la comparació"
+
+#, c-format
+msgid "Left Date"
+msgstr "Data esquerra"
+
+#, c-format
+msgid "Right Date"
+msgstr "Data dreta"
+
+#, c-format
+msgid "Middle Date"
+msgstr "Data del Mig"
+
+#, c-format
+msgid "Left Size"
+msgstr "Mida esquerra"
+
+#, c-format
+msgid "Right Size"
+msgstr "Mida dreta"
+
+#, c-format
+msgid "Middle Size"
+msgstr "Mida del Mig"
+
+#, c-format
+msgid "Right Size (Short)"
+msgstr "Mida dreta (breu)"
+
+#, c-format
+msgid "Left Size (Short)"
+msgstr "Mida esquerra (breu)"
+
+#, c-format
+msgid "Middle Size (Short)"
+msgstr "Mida del Mig (Curta)"
+
+#, c-format
+msgid "Left Creation Time"
+msgstr "Data de creació esquerra"
+
+#, c-format
+msgid "Right Creation Time"
+msgstr "Data de creació dreta"
+
+#, c-format
+msgid "Middle Creation Time"
+msgstr "Data de creació del Mig"
+
+#, c-format
+msgid "Newer File"
+msgstr "Fitxer més nou"
+
+#, c-format
+msgid "Left File Version"
+msgstr "Versió del fitxer esquerra"
+
+#, c-format
+msgid "Right File Version"
+msgstr "Versió del fitxer dreta"
+
+#, c-format
+msgid "Middle File Version"
+msgstr "Versió del Mig"
+
+#, c-format
+msgid "Short Result"
+msgstr "Resultat breu"
+
+#, c-format
+msgid "Left Attributes"
+msgstr "Atributs esquerra"
+
+#, c-format
+msgid "Right Attributes"
+msgstr "Atributs dreta"
+
+#, c-format
+msgid "Middle Attributes"
+msgstr "Atributs del Mig"
+
+#, c-format
+msgid "Left EOL"
+msgstr "Salt de línia esquerra"
+
+#, c-format
+msgid "Middle EOL"
+msgstr "Salt de línia del Mig"
+
+#, c-format
+msgid "Right EOL"
+msgstr "Salt de línia dreta"
+
+#, c-format
+msgid "Left Encoding"
+msgstr "Codificació esquerra"
+
+#, c-format
+msgid "Right Encoding"
+msgstr "Codificació dreta"
+
+#, c-format
+msgid "Middle Encoding"
+msgstr "Codificació del Mig"
+
+msgid "Ignored Diff"
+msgstr "Diferències ignorades"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Binary"
+msgstr "Binari"
+
+#, c-format
+msgid "Unpacker"
+msgstr "Desempaquetador"
+
+#, c-format
+msgid "Prediffer"
+msgstr "Prediferenciador"
+
+msgid "Left"
+msgstr "Esquerra"
+
+msgid "Middle"
+msgstr "Mig"
+
+msgid "Right"
+msgstr "Dreta"
+
+msgid "Diff"
+msgstr "Diferència"
+
+msgid "Left Duplicate Count"
+msgstr "Duplicats de l'esquerra"
+
+msgid "Right Duplicate Count"
+msgstr "Duplicats de la dreta"
+
+msgid "Middle Duplicate Count"
+msgstr "Duplicats del Mig"
+
+msgid "Move"
+msgstr "Mou"
+
+msgid "Audio"
+msgstr "Àudio"
+
+msgid "Calendar"
+msgstr "Calendari"
+
+msgid "Communication"
+msgstr "Comunicació"
+
+msgid "Contact"
+msgstr "Contacte"
+
+msgid "Devices"
+msgstr "Dispositius"
+
+msgid "Document"
+msgstr "Document"
+
+msgid "Home"
+msgstr "Inici"
+
+msgid "Journal"
+msgstr "Diari"
+
+msgid "Link"
+msgstr "Enllaç"
+
+msgid "Media"
+msgstr "Mitjans"
+
+msgid "Music"
+msgstr "Música"
+
+msgid "Note"
+msgstr "Nota"
+
+msgid "Photo"
+msgstr "Foto"
+
+msgid "RecordedTV"
+msgstr "RecordedTV"
+
+msgid "Search"
+msgstr "Cerca"
+
+msgid "Security"
+msgstr "Seguretat"
+
+msgid "Software"
+msgstr "Aplicacions"
+
+msgid "Task"
+msgstr "Tasques"
+
+msgid "Video"
+msgstr "Vídeo"
+
+msgid "Hash"
+msgstr "Resum"
+
+#, c-format
+msgid "Unable to compare files"
+msgstr "No es pot comparar els fitxers"
+
+#, c-format
+msgid "Item aborted"
+msgstr "Element avortat"
+
+#, c-format
+msgid "File skipped"
+msgstr "Fitxer omès"
+
+#, c-format
+msgid "Folder skipped"
+msgstr "Directori omès"
+
+#, c-format
+msgid "Left only: %1"
+msgstr "Només esquerra: %1"
+
+#, c-format
+msgid "Middle only: %1"
+msgstr "Només mig: %1"
+
+#, c-format
+msgid "Right only: %1"
+msgstr "Només dreta: %1"
+
+#, c-format
+msgid "Does not exist in %1"
+msgstr "No existeix en %1"
+
+#, c-format
+msgid "Binary files are identical"
+msgstr "Els fitxers binaris són idèntics"
+
+#, c-format
+msgid "Binary files are different"
+msgstr "Els fitxers binaris són diferents"
+
+#, c-format
+msgid "Files are different"
+msgstr "Els fitxers són diferents"
+
+#, c-format
+msgid "Folders are different"
+msgstr "Els directoris són diferents"
+
+#, c-format
+msgid "Left Only"
+msgstr "Només l'esquerre"
+
+#, c-format
+msgid "Right Only"
+msgstr "Només el dret"
+
+#, c-format
+msgid "Middle Only"
+msgstr "Només el del mig"
+
+#, c-format
+msgid "No item in left"
+msgstr "Sense element a l'esquerra"
+
+#, c-format
+msgid "No item in right"
+msgstr "Sense element al mig"
+
+#, c-format
+msgid "No item in middle"
+msgstr "Sense element al mig"
+
+#, c-format
+msgid "Error"
+msgstr "Error"
+
+#, c-format
+msgid "Text files are identical"
+msgstr "Els fitxers de text són idèntics"
+
+msgid " (Middle and right are identical)"
+msgstr " (Mig i dreta són idèntics)"
+
+msgid " (Left and right are identical)"
+msgstr " (Esquerra i dreta són idèntics)"
+
+msgid " (Left and middle are identical)"
+msgstr " (Esquerra i mig són idèntics)"
+
+#, c-format
+msgid "Text files are different"
+msgstr "Els fitxers de text són diferents"
+
+msgid "Image files are identical"
+msgstr "Les imatges són idèntiques"
+
+msgid "Image files are different"
+msgstr "Les imatges són diferents"
+
+#, c-format
+msgid "Group%d"
+msgstr "Grup%d"
+
+#, c-format
+msgid "Elapsed time: %ld ms"
+msgstr "Temps transcorregut: %ld ms"
+
+#, c-format
+msgid "1 item selected"
+msgstr "1 element seleccionat"
+
+#, c-format
+msgid "%1 items selected"
+msgstr "%1 elements seleccionats"
+
+#, c-format
+msgid "Filename or folder name."
+msgstr "Nom del fitxer o directori."
+
+#, c-format
+msgid "Subfolder name when subfolders are included."
+msgstr "Nom del subdirectori quan s'incloguin els subdirectoris."
+
+#, c-format
+msgid "Comparison result, long form."
+msgstr "Resultat de la comparació, en forma llarga."
+
+#, c-format
+msgid "Left side modification date."
+msgstr "Data de modificació del costat esquerre."
+
+#, c-format
+msgid "Right side modification date."
+msgstr "Data de modificació del costat dret."
+
+#, c-format
+msgid "Middle side modification date."
+msgstr "Data de modificació del mig."
+
+#, c-format
+msgid "File's extension."
+msgstr "Extensió del fitxer."
+
+#, c-format
+msgid "Left file size in bytes."
+msgstr "Mida en bytes del fitxer esquerre."
+
+#, c-format
+msgid "Right file size in bytes."
+msgstr "Mida en bytes del fitxer dret."
+
+#, c-format
+msgid "Middle file size in bytes."
+msgstr "Mida en bytes del fitxer del mig."
+
+#, c-format
+msgid "Left file size abbreviated."
+msgstr "Mida del fitxer esquerre en format abreujat."
+
+#, c-format
+msgid "Right file size abbreviated."
+msgstr "Mida del fitxer dret en format abreujat."
+
+#, c-format
+msgid "Middle file size abbreviated."
+msgstr "Mida del fitxer del mig en format abreujat."
+
+#, c-format
+msgid "Left side creation time."
+msgstr "Data de creació del fitxer esquerre."
+
+#, c-format
+msgid "Right side creation time."
+msgstr "Data de creació del fitxer dret."
+
+#, c-format
+msgid "Middle side creation time."
+msgstr "Data de creació del fitxer del mig."
+
+#, c-format
+msgid "Tells which side has newer modification date."
+msgstr "Indica quin costat té una data de modificació més recent."
+
+msgid "Left side file version, only for some file types."
+msgstr "Versió del fitxer del costat esquerre, només per a alguns tipus de fitxer."
+
+msgid "Right side file version, only for some file types."
+msgstr "Versió del fitxer del costat dret, només per a alguns tipus de fitxer."
+
+msgid "Middle side file version, only for some file types."
+msgstr "Versió del fitxer del mig, només per a alguns tipus de fitxer."
+
+#, c-format
+msgid "Short comparison result."
+msgstr "Resultat breu de la comparació."
+
+#, c-format
+msgid "Left side attributes."
+msgstr "Atributs del costat esquerre."
+
+#, c-format
+msgid "Right side attributes."
+msgstr "Atributs del costat dret."
+
+#, c-format
+msgid "Middle side attributes."
+msgstr "Atributs del mig."
+
+msgid "Left side file EOL type."
+msgstr "Tipus de salt de línia del fitxer del costat esquerre."
+
+msgid "Right side file EOL type."
+msgstr "Tipus de salt de línia del fitxer del costat dret."
+
+msgid "Middle side file EOL type."
+msgstr "Tipus de salt de línia del fitxer del mig."
+
+#, c-format
+msgid "Left side encoding."
+msgstr "Codificació del costat esquerre."
+
+#, c-format
+msgid "Right side encoding."
+msgstr "Codificació del costat dret."
+
+#, c-format
+msgid "Middle side encoding."
+msgstr "Codificació del mig."
+
+#, c-format
+msgid "Number of ignored differences in file. Ignored and cannot be merged."
+msgstr "Nombre de diferències ignorades al fitxer. Aquestes diferències són ignorades pel WinMerge i no es poden combinar."
+
+#, c-format
+msgid "Number of differences in file (excluding ignored)."
+msgstr "Nombre de diferències al fitxer. Aquest nombre no inclou les diferències ignorades."
+
+#, c-format
+msgid "Shows an asterisk (*) if the file is binary."
+msgstr "Mostra un asterisc (*) si el fitxer és binari."
+
+msgid "Unpacker plugin name or pipeline."
+msgstr "Nom del connector desempaquetador o seqüència."
+
+msgid "Prediffer plugin name or pipeline."
+msgstr "Nom del connector de prediferenciació o seqüència."
+
+#, c-format
+msgid "Compare %1 with %2"
+msgstr "Compara %1 amb %2"
+
+#, c-format
+msgid "Compare %1 with %2 and %3"
+msgstr "Compara %1 amb %2 i %3"
+
+#, c-format
+msgid "Comma-separated list"
+msgstr "Llista delimitada per comes"
+
+#, c-format
+msgid "Tab-separated list"
+msgstr "Llista delimitada per tabulacions"
+
+#, c-format
+msgid "Simple HTML"
+msgstr "HTML simple"
+
+#, c-format
+msgid "Simple XML"
+msgstr "XML simple"
+
+#, c-format
+msgid "Report file already exists. Overwrite?"
+msgstr "El fitxer d'informe ja existeix. Voleu sobreescriure'l?"
+
+#, c-format
+msgid ""
+"Error creating the report:\n"
+"%1"
+msgstr ""
+"Hi ha hagut un error creant l'informe:\n"
+"%1"
+
+#, c-format
+msgid "Report created successfully."
+msgstr "L'informe s'ha creat satisfactòriament."
+
+msgid "Cannot add a synchronization point at this line."
+msgstr "No es pot afegir un punt de sincronització en aquesta línia."
+
+#, c-format
+msgid "Same file is opened in both panes."
+msgstr "El mateix fitxer és obert a ambdues subfinestres."
+
+#, c-format
+msgid "Selected files are identical."
+msgstr "Els fitxers seleccionats són idèntics."
+
+#, c-format
+msgid "An error occurred while comparing files."
+msgstr "S'ha produït un error en comparar els fitxers."
+
+#, c-format
+msgid "Could not create temporary files. Check your temporary path settings."
+msgstr "No s'han pogut obrir els fitxers temporals. Comproveu la configuració del directori temporal."
+
+msgid "Files use different EOL.\n\nTreat all EOL as equivalent?\n\nSet 'Ignore EOL differences (Windows/Unix/Mac)' in Compare section of Options."
+msgstr ""
+"Els fitxers tenen tipus de salt de línia de diferents.\n"
+"\n"
+"Voleu tractar tots els salts de línia com a equivalents per a aquesta comparació?\n"
+"\n"
+"Nota: Si voleu tractar els salts de línia sempre com a equivalents, especifiqueu l'opció 'Ignora les diferències de salt de línia (Windows/Unix/Mac)' a la secció Comparació de la finestra d'opcions (disponible des del menú Edita/Opcions)."
+
+#, c-format
+msgid "Selected folder is invalid."
+msgstr "La carpeta seleccionada no és vàlida."
+
+#, c-format
+msgid "Cannot open a binary file in Editor."
+msgstr "No es poden obrir fitxers binaris a l'editor."
+
+#, c-format
+msgid "Create matching folder:\n%1\non the other side and open?"
+msgstr ""
+"El directori existeix només en un costat i no es pot obrir.\n"
+"\n"
+"Voleu crear el directori corresponent del costat:\n"
+"%1\n"
+"i obrir ambdós directoris?"
+
+msgid "Copy all differences to other file?"
+msgstr "Esteu segur que voleu copiar totes les diferències a l'altre fitxer?"
+
+#, c-format
+msgid "Move to next file?"
+msgstr "Voleu anar al següent fitxer?"
+
+#, c-format
+msgid "Move to previous file?"
+msgstr "Voleu anar al fitxer anterior?"
+
+#, c-format
+msgid "Move to next page?"
+msgstr "Voleu anar a la següent pàgina?"
+
+#, c-format
+msgid "Move to previous page?"
+msgstr "Voleu anar a la pàgina anterior?"
+
+msgid "Move to first file?"
+msgstr "Voleu anar al primer fitxer?"
+
+msgid "Move to last file?"
+msgstr "Voleu anar a l'últim fitxer?"
+
+#, c-format
+msgid "Different codepages: left (cp%d), right (cp%d).\nDisplay in codepage (better display) or default Windows codepage (safer merging)?\n(Recommended: default Windows codepage)"
+msgstr ""
+"Els fitxers de l'esquerra (cp%d) i de la dreta (cp%d) no tenen la mateixa codificació de caràcters.\n"
+"Si es mostra cada fitxer en la seva codificació potser es visualitzaran millor, però la fusió/còpia serà perillosa.\n"
+"Voleu tractar ambdós fitxers com si tinguessin la codificació predeterminada del Windows (recomanat)?"
+
+#, c-format
+msgid "Information lost due to encoding errors: both files"
+msgstr "S'ha perdut informació degut a errors de codificació: ambdós fitxers"
+
+#, c-format
+msgid "Information lost due to encoding errors: first file"
+msgstr "S'ha perdut informació degut a errors de codificació: primer fitxer"
+
+#, c-format
+msgid "Information lost due to encoding errors: second file"
+msgstr "S'ha perdut informació degut a errors de codificació: segon fitxer"
+
+#, c-format
+msgid "Information lost due to encoding errors: third file"
+msgstr "S'ha perdut informació degut a errors de codificació: tercer fitxer"
+
+#, c-format
+msgid "No difference"
+msgstr "Sense diferències"
+
+#, c-format
+msgid "Line difference"
+msgstr "Diferència de línia"
+
+#, c-format
+msgid "Replaced %1 string(s)."
+msgstr "S'ha(n) substituït %1 cadena(es)."
+
+#, c-format
+msgid "Cannot find string \"%s\"."
+msgstr "No s'ha trobat la cadena \"%s\"."
+
+msgid "Entering Merge Mode. Press F9 to turn off."
+msgstr "Esteu entrant al mode de fusió. Si voleu desactivar el mode de fusió, premeu la tecla F9."
+
+#, c-format
+msgid ""
+"Automatic merges: %1\n"
+"Unresolved conflicts: %2"
+msgstr ""
+"El nombre de canvis fusionats automàticament: %1\n"
+"El nombre de conflictes no resolts: %2"
+
+msgid "Codepage change merged."
+msgstr "El canvi de codificació de caràcters s'ha fusionat."
+
+msgid "Codepage changes are conflicting."
+msgstr "Els canvis de codificació de caràcters estan en conflicte."
+
+msgid "EOL change merged."
+msgstr "El canvi en els salts de línia s'han fusionat."
+
+msgid "EOL changes are conflicting."
+msgstr "Els canvis en els salts de línia estan en conflicte."
+
+#, c-format
+msgid "Location Pane"
+msgstr "Subfinestra d'ubicació"
+
+#, c-format
+msgid "Diff Pane"
+msgstr "Subfinestra de diferències"
+
+#, c-format
+msgid "Patch file written."
+msgstr "El pedaç s'ha generat satisfactòriament."
+
+msgid "First item not found!"
+msgstr "1. No es troba l'element."
+
+msgid "Second item not found!"
+msgstr "2. No es troba l'element."
+
+#, c-format
+msgid "Patch file already exists. Overwrite?"
+msgstr "El fitxer de pedaç ja existeix. El voleu sobreescriure?"
+
+#, c-format
+msgid "[%1 files selected]"
+msgstr "[%1 fitxers seleccionats]"
+
+#, c-format
+msgid "Normal"
+msgstr "Normal"
+
+#, c-format
+msgid "Context"
+msgstr "Context"
+
+#, c-format
+msgid "Unified"
+msgstr "Unificat"
+
+#, c-format
+msgid "Could not write to file %1."
+msgstr "No s'ha pogut escriure al fitxer  %1."
+
+#, c-format
+msgid "Output path is not absolute: %1"
+msgstr "El camí de sortida especificat no és un camí absolut: %1"
+
+msgid "Specify an output file."
+msgstr "Especifiqueu un fitxer de sortida."
+
+#, c-format
+msgid "Cannot create patch from binary files."
+msgstr "No es pot crear un pedaç de fitxers binaris."
+
+#, c-format
+msgid ""
+"Save all files first.\n"
+"\n"
+"Creating a patch requires no unsaved changes."
+msgstr ""
+"Deseu tots els fitxers primer.\n"
+"\n"
+"Cal que no hi hagi cap fitxer pendent de desar per tal de crear un pedaç."
+
+#, c-format
+msgid "Folder does not exist."
+msgstr "El directori no existeix."
+
+msgid ""
+"Archive support not enabled.\n"
+"7-Zip and/or Merge7z*.dll not found.\n"
+"See manual for archive support."
+msgstr ""
+"El suport d'arxivament no està habilitat.\n"
+"No s'han pogut trobar els components necessaris (7-Zip i/o Merge7z*.dll).\n"
+"Vegeu el manual per a més informació sobre al suport per a arxivament i com habilitar-lo."
+
+#, c-format
+msgid "Select file for export"
+msgstr "Trieu el fitxer a exportar"
+
+#, c-format
+msgid "Select file for import"
+msgstr "Trieu el fitxer a importar"
+
+#, c-format
+msgid "Options imported from file."
+msgstr "S'ha importat les opcions des del fitxer."
+
+#, c-format
+msgid "Options exported to file."
+msgstr "S'ha exportat les opcions al fitxer."
+
+#, c-format
+msgid "Failed to import options from file."
+msgstr "No s'ha pogut importar les opcions del fitxer."
+
+#, c-format
+msgid "Failed to write options to file."
+msgstr "No s'ha pogut escriure les opcions al fitxer."
+
+#, c-format
+msgid ""
+"Close multiple compare windows?\n"
+"\n"
+"Continue?"
+msgstr ""
+"Esteu a punt de tancar múltiples finestres de comparació.\n"
+"\n"
+"Voleu continuar?"
+
+#, c-format
+msgid "Mixed"
+msgstr "Barrejat"
+
+msgctxt "EOL Type"
+msgid "Binary"
+msgstr "Binari"
+
+#, c-format
+msgid "None"
+msgstr "Cap"
+
+#, c-format
+msgid "Marker Color %d"
+msgstr "Color de marca %d"
+
+msgid "New Pattern"
+msgstr "Patró nou"
+
+#, c-format
+msgid "Type"
+msgstr "Tipus"
+
+#, c-format
+msgid "Editor script"
+msgstr "Editor de scripts"
+
+#, c-format
+msgid ""
+"\n"
+"Difference in Current Line (F4)"
+msgstr ""
+"\n"
+"Diferència en la línia actual (F4)"
+
+#, c-format
+msgid ""
+"\n"
+"Options"
+msgstr ""
+"\n"
+"Opcions"
+
+#, c-format
+msgid ""
+"\n"
+"Refresh (F5)"
+msgstr ""
+"\n"
+"Actualitza (F5)"
+
+#, c-format
+msgid ""
+"\n"
+"Previous Difference (Alt+Up)"
+msgstr ""
+"\n"
+"Diferència anterior (Alt+Amunt)"
+
+#, c-format
+msgid ""
+"\n"
+"Next Difference (Alt+Down)"
+msgstr ""
+"\n"
+"Diferència següent (Alt+Avall)"
+
+#, c-format
+msgid ""
+"\n"
+"Previous Conflict (Alt+Shift+Up)"
+msgstr ""
+"\n"
+"Conflicte anterior (Alt+Maj+Amunt)"
+
+#, c-format
+msgid ""
+"\n"
+"Next Conflict (Alt+Shift+Down)"
+msgstr ""
+"\n"
+"Conflicte següent (Alt+Maj+Avall)"
+
+#, c-format
+msgid ""
+"\n"
+"First Difference (Alt+Home)"
+msgstr ""
+"\n"
+"Primera diferència (Alt+Inici)"
+
+#, c-format
+msgid ""
+"\n"
+"Current Difference (Alt+Enter)"
+msgstr ""
+"\n"
+"Diferència actual (Alt+Retorn)"
+
+#, c-format
+msgid ""
+"\n"
+"Last Difference (Alt+End)"
+msgstr ""
+"\n"
+"Darrera diferència (Alt+Fi)"
+
+msgid ""
+"\n"
+"Copy to Right (Alt+Right)"
+msgstr ""
+"\n"
+"Copia a la dreta (Alt+Dreta)"
+
+msgid ""
+"\n"
+"Copy to Left (Alt+Left)"
+msgstr ""
+"\n"
+"Copia a l'esquerra (Alt+Esquerra)"
+
+msgid ""
+"\n"
+"Copy to Right and Advance (Ctrl+Alt+Right)"
+msgstr ""
+"\n"
+"Copia a la dreta i avança (Alt+Control+Dreta)"
+
+msgid ""
+"\n"
+"Copy to Left and Advance (Ctrl+Alt+Left)"
+msgstr ""
+"\n"
+"Copia a l'esquerra i avança (Alt+Control+Esquerra)"
+
+msgid ""
+"\n"
+"Copy All to Right"
+msgstr ""
+"\n"
+"Copia-ho tot a la dreta"
+
+msgid ""
+"\n"
+"Copy All to Left"
+msgstr ""
+"\n"
+"Copia-ho tot a l'esquerra"
+
+#, c-format
+msgid ""
+"\n"
+"Auto Merge (Ctrl+Alt+M)"
+msgstr ""
+"\n"
+"Fusiona automàticament (Control+Alt+M)"
+
+msgid ""
+"\n"
+"First File"
+msgstr ""
+"\n"
+"Primer fitxer"
+
+msgid ""
+"\n"
+"Next File (Ctrl+F8)"
+msgstr ""
+"\n"
+"Següent fitxer (Control+F8)"
+
+msgid ""
+"\n"
+"Last File"
+msgstr ""
+"\n"
+"Darrer fitxer"
+
+msgid ""
+"\n"
+"Previous File (Ctrl+F7)"
+msgstr ""
+"\n"
+"Fitxer anterior (Control+F7)"
+
+msgid "Adapted unpacker applied to both files (one needs extension)."
+msgstr "El desempaquetador adaptat s'aplica a ambdós fitxers (només hi cal l'extensió en un fitxer)."
+
+#, c-format
+msgid "No Prediffer (Normal)"
+msgstr "Sense prediferència (normal)"
+
+#, c-format
+msgid "Suggested Plugins"
+msgstr "Connectors suggerits"
+
+msgid "All Plugins"
+msgstr "Tots els connectors"
+
+#, c-format
+msgid "Private Build: %1"
+msgstr "Muntatge privat: %1"
+
+msgid "Your software is up to date."
+msgstr "L'aplicació està actualitzada."
+
+#, c-format
+msgid ""
+"WinMerge update available.\n"
+"%1 available (you have %2). Download now?"
+msgstr ""
+"Una nova versió del WinMerge està disponible.\n"
+"%1 està disponible (teniu la versió %2). Voleu descarregar-la ara mateix?"
+
+#, c-format
+msgid "Failed to download latest version information"
+msgstr "No s'ha pogut descarregar la informació de la versió més recent"
+
+#, c-format
+msgid "Plugin Settings"
+msgstr "Paràmetres del connector"
+
+#, c-format
+msgid "WSH not found - .sct scripts disabled"
+msgstr "No s'ha trobat el WSH - s'inhabiliten les seqüències d'ordres .sct"
+
+#, c-format
+msgid "G&o to Line %1"
+msgstr "Ves a la línia %1"
+
+msgid "Go to Moved Line\tCtrl+Shift+G"
+msgstr "Ves a la línia desplaçada\tControl+Maj+G"
+
+#, c-format
+msgid "Disabled"
+msgstr "Inhabilitat"
+
+#, c-format
+msgid "From file system"
+msgstr "Des del sistema de fitxers"
+
+#, c-format
+msgid "From Most Recently Used list"
+msgstr "Des de la llista de recents"
+
+#, c-format
+msgid "No Highlighting"
+msgstr "Sense ressaltat"
+
+#, c-format
+msgid "Batch"
+msgstr "Seqüència d'ordres"
+
+#, c-format
+msgid "Portable Object"
+msgstr "Objecte portable"
+
+#, c-format
+msgid "Resources"
+msgstr "Recursos"
+
+#, c-format
+msgid "Shell"
+msgstr "Finestra d'ordres"
+
+#, c-format
+msgid "Close &Left Tabs"
+msgstr "Tanca les pestanyes de l'esquerra"
+
+#, c-format
+msgid "Close R&ight Tabs"
+msgstr "Tanca les pestanyes de la dreta"
+
+#, c-format
+msgid "Close &Other Tabs"
+msgstr "Tanca les altres pestanyes"
+
+#, c-format
+msgid "Enable &Auto Max Width"
+msgstr "Activa l'amplada màxima automàtica"
+
+msgid "We&bpage"
+msgstr "Pàgina &web"
+
+msgid "W&rap Text"
+msgstr "&Ajusta el text"
+
+msgid "%1 is not installed."
+msgstr "L'aplicació %1 no està instal·lada."
+
+#, c-format
+msgid "%1 does not exist. Create it?"
+msgstr "No existeix %1. Voleu crear-lo?"
+
+#, c-format
+msgid "Failed to create folder."
+msgstr "No s'ha pogut crear el directori."
+
+#, c-format
+msgid ""
+"Parameters:\n"
+"$file: Current file path\n"
+"$linenum: Current cursor line number"
+msgstr ""
+"Podeu indicar els següents paràmetres al camí:\n"
+"$file: Camí del fitxer actual\\n\n"
+"$linenum: Línia de la posició actual del cursor"
+
+msgid "default"
+msgstr "per defecte"
+
+msgid "minimal"
+msgstr "mínim"
+
+msgid "patience"
+msgstr "paciència"
+
+msgid "histogram"
+msgstr "histograma"
+
+msgid "none"
+msgstr "cap"
+
+msgid "GDI"
+msgstr "GDI"
+
+msgid "DirectWrite Default"
+msgstr "DirectWrite per defecte"
+
+msgid "DirectWrite Aliased"
+msgstr "DirectWrite amb aliasing"
+
+msgid "DirectWrite GDI Classic"
+msgstr "DirectWrite GDI clàssic"
+
+msgid "DirectWrite GDI Natural"
+msgstr "DirectWrite GDI natural"
+
+msgid "DirectWrite Natural"
+msgstr "DirectWrite Natural"
+
+msgid "DirectWrite Natural Symmetric"
+msgstr "DirectWrite natural simètric"
+
+msgid "MDI child window or main window"
+msgstr "Subfinestra filla MDI o finestra principal"
+
+msgid "MDI child window only"
+msgstr "Només subfinestra filla MDI"
+
+msgid "Close main window if only one MDI child window"
+msgstr "Tanca la finestra principal si només hi ha una única subfinestra filla MDI"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Diff"
+msgstr "Diferències"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Highlight"
+msgstr "Ressalta"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Blink"
+msgstr "Parpelleja"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Size"
+msgstr "Mida del bloc"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Alpha"
+msgstr "Trans. del bloc"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "CD Threshold"
+msgstr "Llindar Dif. Col."
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Ins/Del Detection"
+msgstr "Detecció Ins/Elim"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "None"
+msgstr "Cap"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Vertical"
+msgstr "Vertical"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Horizontal"
+msgstr "Horitzontal"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Overlay"
+msgstr "Superposició"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha"
+msgstr "Grau transp."
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "XOR"
+msgstr "XOR"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Blend"
+msgstr "Superp. transp."
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Animation"
+msgstr "Superp. animada"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Zoom"
+msgstr "Zoom"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Page:"
+msgstr "Pàgina:"
+
+#, c-format
+msgid "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+msgstr "Pt: (%d, %d) RGBA: (%d, %d, %d, %d) "
+
+#, c-format
+msgid "Dist: %g  "
+msgstr "Dist: %g "
+
+#, c-format
+msgid "Dist: %g, %g  "
+msgstr "Dist: %g, %g "
+
+#, c-format
+msgid "Page: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+msgstr "Pàgina: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+
+#, c-format
+msgid "Rc: (%d, %d)  "
+msgstr "Rc: (%d, %d) "
+
+#, c-format
+msgid "Flipped: %s  "
+msgstr "Voltejat: %s "
+
+#, c-format
+msgid "Rotated: %d  "
+msgstr "Girat: %d "
+
+msgid "All pages"
+msgstr "Totes les pàgines"
+
+msgid "<Edit here>"
+msgstr "<Edita aquí>"
+
+msgid "No differences found to select"
+msgstr "No s'han trobat diferències per seleccionar"
+
+msgid "No differences found to add as substitution filter"
+msgstr "No s'han trobat diferències per afegir com a filtre de substitució"
+
+msgid "The pair is already in the Substitution Filters list"
+msgstr "La parella ja està present a la llista de filtres de substitució"
+
+msgid "Add this change to Substitution Filters?"
+msgstr "Voleu afegir aquest canvi als filtres de substitució?"
+
+msgid "Text only"
+msgstr "Només text"
+
+msgid "Line-by-line position and text"
+msgstr "Posició Línia a línia i text"
+
+msgid "Word-by-word position and text"
+msgstr "Posició paraula a paraula i text"
+
+msgid "AppData folder"
+msgstr "Carpeta AppData"
+
+msgid "Install folder"
+msgstr "Carpeta d'instal·lació"
+
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "Permet d'executar només una instància"
+
+msgid "Allow only one instance; wait for termination"
+msgstr "Permet d'executar només una instància i espera que la instància acabi"
+
+msgid "Only on window activated"
+msgstr "Només a la finestra activada"
+
+msgid "Immediately"
+msgstr "Immediatament"
+
+msgid "Al&l"
+msgstr "Tot"
+
+msgid "&Others"
+msgstr "Altres"
+
+#, c-format
+msgid "Missing plugin name in pipeline: %1"
+msgstr "Manca el nom del connector a la seqüència: %1"
+
+#, c-format
+msgid "Missing quote in plugin pipeline: %1"
+msgstr "Manca les cometes a la seqüència: %1"
+
+#, c-format
+msgid "Plugin name '%1' already exists."
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr "Especifiqueu els paràmetres del connector"
+
+#, c-format
+msgid "Plugin not found or invalid: %1"
+msgstr "El connector no s'ha trobat o no és vàlid: %1"
+
+#, c-format
+msgid "'%1' is not an unpacker plugin"
+msgstr "«%1» no és un connector desempaquetador"
+
+#, c-format
+msgid "'%1' is not a prediffer plugin"
+msgstr "«%1» no és un connector de prediferència"
+
+#, c-format
+msgid "Error prediffing '%1' with '%2'. Prediffing disabled."
+msgstr "S'ha produït un error en veure les prediferències del fitxer «%1» amb el connector «%2». La prediferència ja no s'aplica."
+
+#, c-format
+msgid "Circular reference in plugin pipeline: %1"
+msgstr ""
+
+msgid "URL Handler"
+msgstr ""
+
+msgid "File Unpacker"
+msgstr ""
+
+msgid "File or Folder Unpacker"
+msgstr ""
+
+msgid "Alias for Unpacker"
+msgstr ""
+
+msgid "Alias for Prediffer"
+msgstr ""
+
+msgid "Alias for Editor script"
+msgstr ""
+
+#, c-format
+msgid "Alias for plugin pipeline '%1'"
+msgstr ""
+
+msgid "New plugin description"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "1st"
+msgstr ""
+
+msgid "2nd"
+msgstr ""
+
+msgid "3rd"
+msgstr ""
+
+msgid "1st and 2nd"
+msgstr ""
+
+msgid "1st and 3rd"
+msgstr ""
+
+msgid "2nd and 3rd"
+msgstr ""
+
+msgid "Filter applied"
+msgstr "Filtre aplicat"
+
+#, c-format
+msgid "Clipboard at %s"
+msgstr "Porta-retalls a %s"
+
+msgid ""
+"Clipboard history disabled.\r\n"
+"Enable: Windows logo key + V, then Turn on."
+msgstr ""
+"L'historial del porta-retalls està desactivat.\r\n"
+"Per activar l'historial del porta-retalls, premeu la tecla del logotip de Windows + V i aleshores feu clic al botó Activa."
+
+msgid "This system does not support clipboard history."
+msgstr "Aquest sistema no té suport per a l'historial del porta-retalls."
+
+msgid "32-bit WinMerge does not support Clipboard Compare"
+msgstr "La versió de 32 bits del WinMerge no suporta comparar via porta-retalls"
+
+msgid "WebView2 runtime not installed. Download it?"
+msgstr "L'entorn d'execució WebView2 no està instal·lat. El voleu descarregar?"
+
+msgid "New Text Compare"
+msgstr "Nova comparació de text"
+
+msgid "New Table Compare"
+msgstr "Nova comparació de taules"
+
+msgid "New Binary Compare"
+msgstr "Nova comparació binària"
+
+msgid "New Image Compare"
+msgstr "Nova comparació d'imatges"
+
+msgid "New Webpage Compare"
+msgstr "Nova comparació de pàgines web"
+
+msgid "Clipboard Compare"
+msgstr "Comparació del porta-retalls"
+
+msgid "&Print..."
+msgstr "&Imprimeix..."
+
+msgid "Pre&v Page"
+msgstr "Pàgina &anterior"
+
+msgid "&Two Page"
+msgstr "&Dues pàgines"
+
+msgid "&One Page"
+msgstr "&Una pàgina"
+
+msgid "Zoom &In"
+msgstr "A&propa"
+
+msgid "Zoom &Out"
+msgstr "All&unya"
+
+msgid "Comparing..."
+msgstr "Comparant..."
+
+msgid "Zoom:"
+msgstr "Zoom:"
+
+msgid "Diff hunk"
+msgstr "Tros de diferència"
+
+msgid "Inline diff"
+msgstr "Diferència en línia"
+
+msgid "Line"
+msgstr "Línia"
+
+msgid "Character"
+msgstr "Caràcter"
+
+msgid "\nPrevious Difference (Alt+Up)\n(Right Button+Wheel Up)\n(Alt+Wheel Up)"
+msgstr ""
+
+msgid "\nNext Difference (Alt+Down)\n(Right Button+Wheel Down)\n(Alt+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Right (Alt+Right)\n(Right Button+Wheel Right)\n(Alt+Wheel Right)\n(Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left (Alt+Left)\n(Right Button+Wheel Left)\n(Alt+Wheel Left)\n(Alt+Shift+Wheel Up)"
+msgstr ""
+
+msgid "\nCopy to Right and Advance (Ctrl+Alt+Right)\n(Ctrl+Alt+Wheel Right)\n(Ctrl+Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left and Advance (Ctrl+Alt+Left)\n(Ctrl+Alt+Wheel Left)\n(Ctrl+Alt+Shift+Wheel Up)"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2 and %3"
+msgstr ""
+
+msgid "Comparison completed"
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2: "
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2 and %3: "
+msgstr ""
+
+msgid "File saved"
+msgstr ""
+
+msgid "Copying files..."
+msgstr ""
+
+msgid "Moving files..."
+msgstr ""
+
+msgid "Deleting files..."
+msgstr ""
+
+msgid "Recycle Bin"
+msgstr ""
+
+msgid "Permanently deleted"
+msgstr ""
+
+msgid "File operation completed successfully"
+msgstr ""
+
+msgid "File operation canceled"
+msgstr ""
+
+msgid "Prettification"
+msgstr "Embellir"
+
+msgid "Content Extraction"
+msgstr "Extracció del contingut"
+
+msgid "Preview"
+msgstr "Vista prèvia"
+
+msgid "Data Query"
+msgstr "Consulta de dades"
+
+msgid "Validation"
+msgstr "Validació"
+
+msgid "Decompilation"
+msgstr "Decompilació"
+
+msgid "URL Handling"
+msgstr "Gestió d'URLs"
+
+msgid "Decoding / Encoding"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr "Fes majúscules"
+
+msgid "Make Lowercase"
+msgstr "Fes minúscules"
+
+msgid "Remove Duplicate Lines"
+msgstr "Elimina les línies duplicades"
+
+msgid "Count Duplicate Lines"
+msgstr "Compta les línies duplicades"
+
+msgid "Sort Lines Ascending"
+msgstr "Ordena les línies ascendentment"
+
+msgid "Sort Lines Descending"
+msgstr "Ordena les línies descendentment"
+
+msgid "Reverse Columns"
+msgstr "Capgira les columnes"
+
+msgid "Reverse Lines"
+msgstr "Capgira les línies"
+
+msgid "Replace..."
+msgstr "Substitueix..."
+
+msgid "Apply Filter Command..."
+msgstr "Aplica l'ordre de filtre..."
+
+msgid "Tokenize..."
+msgstr "Tokenitzar..."
+
+msgid "Trim Spaces"
+msgstr "Retalla els espais"
+
+msgid "Select Columns..."
+msgstr "Selecciona columnes..."
+
+msgid "Select Lines..."
+msgstr "Selecciona línies..."
+
+msgid "Insert Date"
+msgstr "Insereix data"
+
+msgid "Insert Time"
+msgstr "Insereix hora"
+
+msgid "Apply Patch..."
+msgstr "Aplica el pedaç..."
+
+msgid "Ignore Columns"
+msgstr "Ignora les columnes"
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr "Ignora els comentaris (Llenguatges de la família C)"
+
+msgid "Ignore CSV Fields"
+msgstr "Ignora els camps CSV"
+
+msgid "Ignore TSV Fields"
+msgstr "Ignora els camps TSV"
+
+msgid "Ignore Leading Line Numbers"
+msgstr "Ignora els números de línia inicial"
+
+msgid "Apply Prediff Substitution Filters"
+msgstr "Aplica els filtres de substitució de la prediferenciació"
+
+msgid "Prettify HTML"
+msgstr "Embelleix HTML"
+
+msgid "Prettify JSON"
+msgstr "Embelleix JSON"
+
+msgid "Prettify XML"
+msgstr "Embelleix XML"
+
+msgid "Prettify YAML"
+msgstr "Embelleix YAML"
+
+msgid "Preview Graphviz"
+msgstr "Vista prèvia de Graphviz"
+
+msgid "Preview Markdown"
+msgstr "Vista prèvia de Markdown"
+
+msgid "Preview PlantUML"
+msgstr "Vista prèvia de PlantUML"
+
+msgid "Query CSV Data..."
+msgstr "Consulta dades en CSV..."
+
+msgid "Query TSV Data..."
+msgstr "Consulta dades en TSV..."
+
+msgid "Query JSON Data..."
+msgstr "Consulta dades en JSON..."
+
+msgid "Query YAML Data..."
+msgstr "Consulta dades en YAML..."
+
+msgid "Validate HTML"
+msgstr "Valida HTML"
+
+msgid "Disassemble JVM Bytecode"
+msgstr "Desassembla Bytecode JVM"
+
+msgid "Disassemble IL Code"
+msgstr "Desassembla codi IL"
+
+msgid "Disassemble Native Code"
+msgstr "Desassembla codi nadiu"
+
+msgid "Convert Text with AI..."
+msgstr ""
+
+msgid "Unescape Java properties files"
+msgstr ""
+
+msgid "Make characters uppercase"
+msgstr "Converteix els caràcters a majúscules"
+
+msgid "Make characters lowercase"
+msgstr "Converteix els caràcters a minúscules"
+
+msgid "Remove duplicate lines"
+msgstr "Suprimeix les línies duplicades"
+
+msgid "Count duplicate lines"
+msgstr "Compta les línies duplicades"
+
+msgid "Sort lines ascending"
+msgstr "Ordena les línies ascendentment"
+
+msgid "Sort lines descending"
+msgstr "Ordena les línies descendentment"
+
+msgid "Reverse columns"
+msgstr "Capgira les columnes"
+
+msgid "Reverse lines"
+msgstr "Capgira les línies"
+
+msgid ""
+"Replace text.\r\n"
+"Usage: Replace [-i] [-e] FIND REPLACE\r\n"
+" or: Replace -s\r\n"
+" FIND - text to find\r\n"
+" REPLACE - text to replace\r\n"
+" -i - ignore case (only for -e)\r\n"
+" -e - regex\r\n"
+" -s - use Substitution Filters"
+msgstr ""
+"Reemplaça el text amb un altre text.\r\n"
+"Ús: Replace [-i] [-e] TROBA REEMPLAÇA\r\n"
+"   o: Replace -s\r\n"
+"  TROBA    - text a cercar\r\n"
+"  REEMPLAÇA - text a reemplaçar\r\n"
+" -i - ignora majúscules/minúscules (només per a -e)\r\n"
+" -e - considera el text a cercar com una expressió regular\r\n"
+" -s - subsititueix amb patrons de filtres de substitució"
+
+#, c-format
+msgid ""
+"Apply filter. \r\n"
+"Usage: ExecFilterCommand COMMAND\r\n"
+" COMMAND - command to execute. %1 = filename."
+msgstr ""
+"Aplica l'ordre de filtre.\r\n"
+"Ús: ExecFilterCommand ORDRE\r\n"
+" ORDRE - ordre a executar. El text %1 a l'ordre es reemplaça amb el nom del fitxer."
+
+msgid ""
+"Tokenize. \r\n"
+"Usage: Tokenize PATTERNS\r\n"
+" PATTERNS - regex (e.g. [^\\w]+)"
+msgstr ""
+"Tokenitza la selecció.\r\n"
+"Ús: Tokenize PATRONS\r\n"
+" PATRONS - expressió regular per a tokenitzar. (ex. [^\\w]+)"
+
+msgid "Trim spaces"
+msgstr "Retalla els espais de l'inici i del final de cada línia"
+
+msgid ""
+"Select columns.\r\n"
+"Usage: SelectColumns RANGES\r\n"
+" or: SelectColumns [-v] [-i] [-g] -e PATTERNS\r\n"
+" RANGES - column ranges (-3,5-10,30-)\r\n"
+" PATTERNS - regex\r\n"
+" -v - select non-matching\r\n"
+" -i - ignore case\r\n"
+" -g - enable global flag\r\n"
+" -e - use PATTERNS"
+msgstr ""
+"Selecciona algunes columnes.\r\n"
+"Ús: SelectColumns RANGS\r\n"
+" o bé:  SelectColumns [-v] [-i] [-g] -e PATRONS\r\n"
+"  RANGS  - llista de rangs de columnes a seleccionar (ex. -3,5-10,30-)\r\n"
+"  PATRONS - expressió regular\r\n"
+" -v - selecciona les columnes que no coincideixen\n"
+" -i - ignora majúscules/minúscules\n"
+" -g - activa la opció global\r\n"
+" -e - utilitza PATRONS per seleccionar"
+
+msgid ""
+"Select lines.\r\n"
+"Usage: SelectLines RANGES\r\n"
+" or: SelectLines [-v] [-i] -e PATTERNS\r\n"
+" RANGES - line ranges (-3,5-10,30-)\r\n"
+" PATTERNS - regex\r\n"
+" -v - select non-matching\r\n"
+" -i - ignore case\r\n"
+" -e - use PATTERNS"
+msgstr ""
+"Selecciona algunes columnes.\n"
+"Ús: SelectLines RANGS\n"
+" o bé:  SelectLines [-v] [-i] [-g] -e PATRONS\n"
+"  RANGS  - llista de rangs de línies a seleccionar (ex. -3,5-10,30-)\n"
+"  PATRONS - expressió regular\n"
+" -v - selecciona les línies que no coincideixen\n"
+" -i - ignora majúscules/minúscules\n"
+" -e - utilitza PATRONS per seleccionar"
+
+msgid ""
+"HTML Prettier (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Embellidor de format HTML amb l'ordre tidy-html5.\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre tidy."
+
+msgid ""
+"JSON Prettier (jq).\r\n"
+"Arguments: jq filter/command line options."
+msgstr ""
+"Embellidor de format JSON amb l'ordre jq.\n"
+"Arguments: Filtre o línia d'ordres a utilitzar amb l'ordre jq."
+
+msgid ""
+"XML Prettier (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Embellidor de format XML amb l'ordre tidy-html5.\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre tidy."
+
+msgid ""
+"YAML Prettier (yq).\r\n"
+"Arguments: yq filter/command line options."
+msgstr ""
+"Embellidor de format YAML amb l'ordre yq.\n"
+"Arguments: Filtre o línia d'ordres a utilitzar amb l'ordre yq."
+
+msgid ""
+"Graphviz Previewer.\r\n"
+"Arguments: dot command line options."
+msgstr ""
+"Previsualitzador de Graphviz.\r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre dot."
+
+msgid ""
+"Markdown Previewer.\r\n"
+"Arguments: md2html command line options."
+msgstr ""
+"Previsualitzador de Markdown.\r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre md2html."
+
+msgid ""
+"PlantUML Previewer.\r\n"
+"Arguments: plantuml.jar command line options."
+msgstr ""
+"Previsualitzador de PlantUML.\r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre plantuml.jar."
+
+msgid ""
+"CSV Querier (q).\r\n"
+"Arguments: SQL statement/q comannd line options."
+msgstr ""
+"Consulta de dades en format CSV amb l'ordre q.\r\n"
+"Arguments: Sentència SQL o línia d'ordres a utilitzar amb l'ordre q."
+
+msgid ""
+"TSV Querier (q).\r\n"
+"Arguments: SQL statement/q comannd line options."
+msgstr ""
+"Consulta de dades en format TSV amb l'ordre q.\r\n"
+"Arguments: Sentència SQL o línia d'ordres a utilitzar amb l'ordre q."
+
+msgid ""
+"JSON Querier (jq).\r\n"
+"Arguments: jq filter/command line options."
+msgstr ""
+"Consulta de dades de JSON amb l'ordre jq.\r\n"
+"Arguments: Filtre o línia d'ordres a utilitzar amb l'ordre jq."
+
+msgid ""
+"YAML Querier (yq).\r\n"
+"Arguments: yq filter/command line options."
+msgstr ""
+"Consulta de dades de YAML amb l'ordre yq.\r\n"
+"Arguments: Filtre o línia d'ordres a utilitzar amb l'ordre yq."
+
+msgid ""
+"HTML Validator (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Validador HTML amb tidy-html5.\r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre tidy."
+
+msgid ""
+"JVM bytecode disassembler (javap).\r\n"
+"Arguments: javap command line options."
+msgstr ""
+"Desassemblador de bytecode JVM amb javap. \r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre javap."
+
+msgid ""
+"IL disassembler (ildasm).\r\n"
+"Arguments: ildasm command line options."
+msgstr ""
+"Desassemblador d'IL amb idlasm. \r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre ildasm."
+
+msgid ""
+"Native code disassembler (dumpbin).\r\n"
+"Arguments: dumpbin command line options."
+msgstr ""
+"Desassemblador de codi natiu amb el dumpbin. \r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre dumpbin."
+
+msgid ""
+"Content extractor (Apache Tika).\r\n"
+"Arguments: tika-app.jar command line options."
+msgstr ""
+"Extractor de contingut genèric amb Apache Tika.\r\n"
+"Arguments: Línia d'ordres a utilitzar amb tika-app.jar."
+
+msgid "Apply patch (GNU patch)"
+msgstr "Aplica el pedaç fent servir GNU patch"
+
+msgid "Display MS Excel text content"
+msgstr "Mostra el contingut de text dels fitxers de MS Excel"
+
+msgid "Display MS PowerPoint text content"
+msgstr "Mostra el contingut de text dels fitxers de MS PowerPoint"
+
+msgid "Display MS Visio text content"
+msgstr "Mostra el contingut de text dels fitxers de MS Visio"
+
+msgid "Display MS Word text content"
+msgstr "Mostra el contingut de text dels fitxers de MS Word"
+
+msgid "Ignore columns - list from plugin name/argument"
+msgstr "Ignora algunes columnes - la llista de columnes ignorades del nom del connector o dels paràmetres del connector"
+
+msgid "Ignore C, C++, PHP, and JavaScript comments (//... and /* ... */)."
+msgstr "El connector ignora els comentaris (//... i /* ... */) en fitxers de C, C++, PHP i JavaScript."
+
+msgid "Ignore fields - list from plugin name/argument"
+msgstr "Ignora alguns camps - la llista de columnes ignorades del nom del connector o dels paràmetres del connector"
+
+msgid "Ignore leading line numbers (e.g., NC, BASIC)."
+msgstr "Aquest connector ignora els números de línia inicials dels fitxers de text (per exemple, fitxers NC i BASIC)."
+
+msgid "Prediff Line Filter"
+msgstr "Filtre de línia per prediferenciació"
+
+msgid "Date and time insertion"
+msgstr ""
+
+msgid ""
+"HTTP URL Scheme Handler (curl).\r\n"
+"Arguments: curl command line options."
+msgstr ""
+"Controlador d'esquemes d'URL HTTP amb curl.\r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre curl."
+
+msgid ""
+"Windows Registry URL Scheme Handler.\r\n"
+"Arguments: reg.exe command line options."
+msgstr ""
+"Gestor d'esquemes d'URL del registre de Windows.\r\n"
+"Arguments: Línia d'ordres a utilitzar amb l'ordre reg.exe."
+
+msgid "Basic text functions"
+msgstr ""
+
+msgid "AI-assisted text conversion"
+msgstr ""
+
+msgid "Text converter (OpenAI API).\r\nUsage: AIConvertText PROMPT"
+msgstr ""
+
+msgid "Unescape and display escaped Java properties files."
+msgstr ""
+
+msgid "CompareMSExcelFiles.sct WinMerge Plugin Options"
+msgstr "Opcions del connector WinMerge CompareMSExcelFiles.sct"
+
+msgid "Extract workbook data to multiple files"
+msgstr "Extreu les dades del llibre de treball a diversos fitxers"
+
+msgid "Update external references (links)"
+msgstr "Actualitza les referències externes (enllaços)"
+
+msgid "Compare document properties"
+msgstr "Compara les propietats del document"
+
+msgid "Compare names"
+msgstr "Compara els noms"
+
+msgid "Compare cell values"
+msgstr "Compara els valors de cel·la"
+
+msgid "Compare worksheets as image (very slow)"
+msgstr "Compara els fulls de treball com a imatge (molt lent)"
+
+msgid " - Image split size: "
+msgstr " - Mida dividida de la imatge: "
+
+msgid "Compare worksheets as HTML"
+msgstr "Compara els fulls de treball com a HTML"
+
+msgid "Compare formulas"
+msgstr "Compara les fórmules"
+
+msgid "Compare texts in shapes"
+msgstr "Compara els textos en formes"
+
+msgid "Compare headers and footers"
+msgstr "Compara les capçaleres i peus de pàgina"
+
+msgid ""
+"Cannot get Macros.\r\n"
+"Enable 'Trust access to Visual Basic Project' in MS Office Macro Security."
+""
+msgstr ""
+"No s'han pogut obtenir les macros.\r\n"
+"   Per permetre que WinMerge compari macros, utilitzeu MS Office per modificar la configuració de seguretat de les macros per a l'aplicació actual.\r\n"
+"   La funció de confiar en el projecte de Visual Basic s'ha d'activar per utilitzar aquesta funció al WinMerge.\r\n"
+
+msgid "Compare VBA macros"
+msgstr "Compara les macros VBA"
+
+msgid "CompareMSWordFiles.sct WinMerge Plugin Options"
+msgstr "Opcions del connector WinMerge CompareMSPowerPointFiles.sct"
+
+msgid "Extract document data to multiple files"
+msgstr "Extreu les dades del document a diversos fitxers"
+
+msgid "Compare bookmarks"
+msgstr "Compara els marcadors"
+
+msgid "Compare text contents of documents"
+msgstr "Compara el contingut del text dels documents"
+
+msgid "Compare documents as HTML file (very slow)"
+msgstr "Compara els documents com a fitxer HTML (molt lent)"
+
+msgid "CompareMSPowerPointFiles.sct WinMerge Plugin Options"
+msgstr "Opcions del connector WinMerge CompareMSPowerPointFiles.sct"
+
+msgid "Extract slide data to multiple files"
+msgstr "Extreu dades de les diapositives a diversos fitxers"
+
+msgid "Compare slides as image (very slow)"
+msgstr "Compara les diapositives com a imatge (molt lent)"
+
+msgid "Compare texts in notes page"
+msgstr "Compara textos a la pàgina de notes"
+
+msgid "CompareMSVisioFiles.sct WinMerge Plugin Options"
+msgstr "Opcions del connector WinMerge CompareMSVisioFiles.sct"
+
+msgid "Extract page data to multiple files"
+msgstr "Extreu les dades de la pàgina a diversos fitxers"
+
+msgid "Compare pages as image (very slow)"
+msgstr "Compara les pàgines com a imatge (molt lent)"
+
+msgid "PrediffLineFilter.sct WinMerge Plugin Options"
+msgstr "Opcions del connector WinMerge PrediffLineFilter.sct"
+
+msgid "Delete"
+msgstr "Suprimeix"
+
+msgid "Enabled"
+msgstr "Activat"
+
+msgid "Ignore Case"
+msgstr "Ignora diferències entre majúscules i minúscules"
+
+msgid "Use RegExp"
+msgstr "Utilitza RegExp"
+
+msgid "Find what"
+msgstr "Cerca això"
+
+msgid "Replace with"
+msgstr "Substitueix-ho per"
+
+msgid "Settings"
+msgstr "Configuració"
+
+msgid ""
+"Column Ranges to Ignore:\n"
+"e.g.) 3,10-20,32-33\n"
+msgstr ""
+"Intervals de columnes a ignorar:\n"
+"p. ex.) 3,10-20,32-33\n"
+
+#, c-format
+msgid "Enter filename for patch '%1'"
+msgstr "Introduïu el nom del fitxer on s'alicarà el pedaç «%1»"
+
+#, c-format
+msgid "File '%1' does not exist"
+msgstr "El fitxer «%1» no existeix"
+
+msgid "Enter command line arguments for patch"
+msgstr "Introduïu els arguments de la línia d'ordres per l'ordre patch"
+
+#, c-format
+msgid "Enter folder name for patch '%1'"
+msgstr "Introduïu el nom de la carpeta on s'alicarà el pedaç «%1»"
+
+#, c-format
+msgid "Folder '%1' does not exist"
+msgstr "La carpeta «%1» no existeix"
+
+msgid "Do not use '-p0' for patch files with absolute paths"
+msgstr "No especifiqueu l'opció de línia d'ordres «-p0» per al fitxer del pedaç que inclou camins absoluts"
+
+msgid "AI.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Enter prompt"
+msgstr ""
+
+#, c-format
+msgid "Enter OpenAI API key.\r\n- Requires OpenAI registration (fees may apply).\r\n- Key stored in env var %1."
+msgstr ""
+
+msgid "Environment variable name for OpenAI API key"
+msgstr ""
+
+msgid "OpenAI API key"
+msgstr ""
+
+msgid "Temperature"
+msgstr ""
+
+msgid "Maximum length"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "OpenAI API key changed. Restart to apply."
+msgstr ""

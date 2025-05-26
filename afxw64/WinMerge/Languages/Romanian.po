@@ -1,0 +1,5040 @@
+# This file is from WinMerge <https://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+# Translators:
+# * Cristian Arghiroiu <cristi.arghiroiu at gmail.com>
+# * Daniel Dumitriu (drdcd)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues/\n"
+"POT-Creation-Date: 2023-09-08 20:55+0000\n"
+"PO-Revision-Date: 2023-11-07 16:52+0100\n"
+"Last-Translator: Daniel Dumitriu\n"
+"Language-Team: Română <winmerge-translate@lists.sourceforge.net>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../Src\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#. LANGUAGE, SUBLANGUAGE
+msgid "LANG_ENGLISH, SUBLANG_ENGLISH_US"
+msgstr "LANG_ROMANIAN, SUBLANG_DEFAULT"
+
+msgid "Copy to Middle"
+msgstr "Copiază în mijloc"
+
+msgid "C&opy to Right\tAlt+Right"
+msgstr "Copiază în &dreapta\tAlt+Right"
+
+msgid "Copy from Middle"
+msgstr "Copiază din mijloc"
+
+msgid "Copy fro&m Right\tAlt+Shift+Left"
+msgstr "Copiază din dreapta\tAlt+Shift+Left"
+
+msgid "Cop&y to Left\tAlt+Left"
+msgstr "Copiază în &stânga\tAlt+Left"
+
+msgid "Copy &from Left\tAlt+Shift+Right"
+msgstr "Copiază din stânga\tAlt+Shift+Right"
+
+msgid "Copy Selected Lines to Middle"
+msgstr "Copiază în mijloc rândurile selectate"
+
+msgid "Copy Selected Lines to Right"
+msgstr "Copiază în dreapta rândurile selectate"
+
+msgid "Copy Selected Lines from Middle"
+msgstr "Copiază din mijloc rândurile selectate"
+
+msgid "Copy Selected Lines from Right"
+msgstr "Copiază din dreapta rândurile selectate"
+
+msgid "Copy Selected Lines to Left"
+msgstr "Copiază în stânga rândurile selectate"
+
+msgid "Copy Selected Lines from Left"
+msgstr "Copiază din stânga rândurile selectate"
+
+msgid "Copy Selected Diff (Left) to Clipboard\tCtrl+&1"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Middle) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&3"
+msgstr ""
+
+msgid "Select Line &Difference\tF4"
+msgstr "Selectează &diferențele din rând\tF4"
+
+msgid "Add to Substitution &Filters"
+msgstr "Adaugă această modificare la filtrele de înlocuire"
+
+msgid "Add to &Line Filters"
+msgstr "Adaugă la filtrele de rând"
+
+msgid "&Undo"
+msgstr "An&ulează"
+
+msgid "&Redo"
+msgstr "&Refă"
+
+msgid "Cu&t"
+msgstr "&Taie"
+
+msgid "&Copy"
+msgstr "&Copiază"
+
+msgid "&Paste"
+msgstr "Li&pește"
+
+msgid "&Scripts"
+msgstr "&Script-uri"
+
+msgid "< Empty >"
+msgstr "< Gol >"
+
+msgid "&Go to...\tCtrl+G"
+msgstr "&Mergi la...\tCtrl+G"
+
+msgid "Go to Moved Line Between Left and Middle\tCtrl+Shift+G"
+msgstr "Mergi la rândul mutat între stânga și mijloc\tCtrl+Shift+G"
+
+msgid "Go to Moved Line Between Middle and Right\tCtrl+Alt+G"
+msgstr "Mergi la rândul mutat între mijloc și dreapta\tCtrl+Alt+G"
+
+msgid "Op&en"
+msgstr "D&eschide"
+
+msgid "With &Registered Application"
+msgstr "Cu aplicația în&registrată"
+
+msgid "With &External Editor\tCtrl+Alt+E"
+msgstr "Cu editorul &extern\tCtrl+Alt+E"
+
+msgid "&With..."
+msgstr "&Cu..."
+
+msgid "Open &Parent Folder..."
+msgstr "Deschide directorul &părinte..."
+
+msgid "S&hell Menu"
+msgstr "Meniul s&hell"
+
+msgid "Use First Line as Headers"
+msgstr "Folosește primul rând drept antet"
+
+msgid "Auto-Fit All Columns"
+msgstr "Ajustează automat toate coloanele"
+
+msgid "View &Differences"
+msgstr "Afișează &diferențele"
+
+msgid "Diff &Block Size"
+msgstr "Dimensiunea &blocului de diferențe"
+
+msgid "&Ignore Color Difference"
+msgstr "&Ignoră diferențele de culoare (prag de distanță culori)"
+
+msgid "Ins&ertion/Deletion Detection"
+msgstr "Detectare ins&erare/ștergere"
+
+msgid "&None"
+msgstr "&Deloc"
+
+msgid "&Vertical"
+msgstr "&Vertical"
+
+msgid "&Horizontal"
+msgstr "&Orizontal"
+
+msgid "&Previous Page"
+msgstr "Pagina &precedentă"
+
+msgid "&Next Page"
+msgstr "Pagina următoare"
+
+msgid "&Active Pane"
+msgstr "Panoul activ"
+
+msgid "Rotate &Right 90deg"
+msgstr "Rotește la dreapta cu 90°"
+
+msgid "Rotate &Left 90deg"
+msgstr "Rotește la stânga cu 90°"
+
+msgid "Flip V&ertically"
+msgstr "Reflectă &vertical"
+
+msgid "Flip H&orizontally"
+msgstr "Reflectă orizontal"
+
+msgid "&Zoom"
+msgstr "Mărime te&xt"
+
+#, c-format
+msgid "25%"
+msgstr "25%"
+
+msgid "Zoom &In\tCtrl++"
+msgstr "&Mărește\tCtrl++"
+
+msgid "Zoom &Out\tCtrl+-"
+msgstr "Micș&orează\tCtrl+-"
+
+#. Zoom to normal
+msgid "&Normal\tCtrl+*"
+msgstr "&Normal\tCtrl+*"
+
+msgid "&Overlay"
+msgstr "Suprapunere"
+
+msgid "&Alpha Blend"
+msgstr "Transparență"
+
+msgid "Alpha &Blend Animation"
+msgstr "Animație de transparență"
+
+msgid "Dragging &Mode"
+msgstr "&Mod de glisare"
+
+msgid "&Move"
+msgstr "&Mută"
+
+msgid "&Adjust Offset"
+msgstr "&Ajustează decalajul"
+
+msgid "&Vertical Wipe"
+msgstr "Ștergere &verticală"
+
+msgid "&Horizontal Wipe"
+msgstr "Ștergere &orizontală"
+
+msgid "Rectangle &Select"
+msgstr "&Selectează dreptunghi"
+
+msgid "&Set Background Color"
+msgstr "&Setează culoarea fundalului"
+
+msgid "&Vector Image Scaling"
+msgstr "Scalarea imaginii &vectoriale"
+
+msgid "&Animation Settings"
+msgstr ""
+
+msgid "&Blink Interval"
+msgstr ""
+
+msgid "&Overlay Animation Interval"
+msgstr ""
+
+msgid "Compare Extracted &Text from Images"
+msgstr "Compară &textul extras din imagini"
+
+msgid "Co&mpare"
+msgstr "Co&mpară"
+
+msgid "&Screenshots"
+msgstr "Capturi de ecran"
+
+msgid "&Full Size Screenshots"
+msgstr "Capturi de ecran în mărime completă"
+
+msgid "&HTMLs"
+msgstr "&HTML-uri"
+
+msgid "&Texts"
+msgstr "&Texte"
+
+msgid "&Resource Trees"
+msgstr "Arbori de &resurse"
+
+msgid "&Size"
+msgstr "Mărime"
+
+msgid "Fit to Window"
+msgstr "Ajustează la fereastră"
+
+msgid "&Event Sync"
+msgstr ""
+
+msgid "&Enabled"
+msgstr ""
+
+msgid "&Scroll"
+msgstr ""
+
+msgid "&Click"
+msgstr ""
+
+msgid "&Input"
+msgstr ""
+
+msgid "&Go Back/Forward"
+msgstr ""
+
+msgid "Clear &Browsing Data"
+msgstr "Șterge datele de navigare"
+
+msgid "&Disk Cache"
+msgstr "Cache de &disc"
+
+msgid "&Cookies"
+msgstr "&Cookie-uri"
+
+msgid "&Browsing History"
+msgstr "Istoricul navigării"
+
+msgid "&All Profiles"
+msgstr "Toate profilurile"
+
+msgid "&File"
+msgstr "&Fișier"
+
+msgid "&New"
+msgstr "&Nou"
+
+msgid "&Text"
+msgstr "&Text"
+
+msgid "T&able"
+msgstr "T&abel"
+
+msgid "&Binary"
+msgstr "&Binar"
+
+msgid "&Image"
+msgstr "&Imagine"
+
+msgid "&Webpage"
+msgstr "Pagină &web"
+
+msgid "New (&3 panes)"
+msgstr "Neu (&3 panouri)"
+
+msgid "&Open...\tCtrl+O"
+msgstr "D&eschide...\tCtrl+O"
+
+msgid "Open Conflic&t File..."
+msgstr "Deschide fișierul cu conflic&te..."
+
+msgid "Open C&lipboard"
+msgstr "Deschide c&lipboard"
+
+msgid "Open Pro&ject...\tCtrl+J"
+msgstr "Deschide pro&iectul...\tCtrl+J"
+
+msgid "Sa&ve Project..."
+msgstr "Sal&vează proiectul..."
+
+msgid "Recent Projects"
+msgstr "Proiecte recente"
+
+msgid "Recent F&iles or Folders"
+msgstr "F&ișiere sau directoare recente"
+
+msgid "E&xit\tCtrl+Q"
+msgstr "Ieșir&e\tCtrl+Q"
+
+msgid "&Edit"
+msgstr "&Editare"
+
+msgid "&Paste\tCtrl+V"
+msgstr "Li&pește\tCtrl+V"
+
+msgid "&Options...\tCtrl+,"
+msgstr "&Opțiuni...\tCtrl+,"
+
+msgid "&View"
+msgstr "&Vizualizare"
+
+msgid "Ta&b Bar"
+msgstr "&Bara de file"
+
+msgid "&View Tab Bar"
+msgstr ""
+
+msgid "&On Title Bar"
+msgstr ""
+
+msgid "&Toolbar"
+msgstr "Bară de unel&te"
+
+msgid "&Small"
+msgstr "&Mic"
+
+msgid "&Medium"
+msgstr ""
+
+msgid "&Big"
+msgstr "Ma&re"
+
+msgid "&Huge"
+msgstr "Uriaș"
+
+msgid "Men&u Bar"
+msgstr ""
+
+msgid "&Output Pane"
+msgstr ""
+
+msgid "&Status Bar"
+msgstr "Bară de &stare"
+
+msgid "&Tools"
+msgstr "Unel&te"
+
+msgid "&Filters..."
+msgstr "&Filtre..."
+
+msgid "&Generate Patch..."
+msgstr "&Generează petic..."
+
+msgid "&Plugins"
+msgstr "&Plugin-uri"
+
+msgid "P&lugin Settings..."
+msgstr "Setări p&lugin-uri..."
+
+msgid "Ma&nual Prediffer"
+msgstr "Precomparator ma&nual"
+
+msgid "A&utomatic Prediffer"
+msgstr "Precomparator a&utomat"
+
+msgid "&Manual Unpacking"
+msgstr "Dezarhivare &manuală"
+
+msgid "&Automatic Unpacking"
+msgstr "Dezarhivare &automată"
+
+msgid "&Reload Plugins"
+msgstr "&Reîncarcă plugin-urile"
+
+msgid "&Window"
+msgstr "Ferea&stră"
+
+msgid "Cl&ose\tCtrl+W"
+msgstr "Închi&de\tCtrl+W"
+
+msgid "Clo&se All"
+msgstr "Închid&e toate"
+
+msgid "Change &Pane\tF6"
+msgstr "Schimbă &panou\tF6"
+
+msgid "Tile &Horizontally"
+msgstr "Alătură &orizontal"
+
+msgid "Tile &Vertically"
+msgstr "Alătură &vertical"
+
+msgid "&Cascade"
+msgstr "&Cascadă"
+
+msgid "&Help"
+msgstr "A&jutor"
+
+msgid "&WinMerge Help\tF1"
+msgstr "Ajutor &WinMerge\tF1"
+
+msgid "R&elease Notes"
+msgstr "Not&e de versiune"
+
+msgid "&Translations"
+msgstr "&Traduceri"
+
+msgid "C&onfiguration"
+msgstr "C&onfigurare"
+
+msgid "&GNU General Public License"
+msgstr "Licența Publică Generală &GNU"
+
+msgid "&About WinMerge..."
+msgstr "&Despre WinMerge..."
+
+msgid "&Read-Only"
+msgstr "P&rotejat la scriere"
+
+msgid "L&eft Read-Only"
+msgstr "Protejat la scri&ere în stânga"
+
+msgid "M&iddle Read-Only"
+msgstr "Protejat la scr&iere în mijloc"
+
+msgid "Ri&ght Read-Only"
+msgstr "Protejat la scriere în dreapta"
+
+msgid "&File Encoding..."
+msgstr "Codar&e caractere fișiere..."
+
+msgid "Select &All\tCtrl+A"
+msgstr "Selecte&ază tot\tCtrl+A"
+
+msgid "Show &Identical Items"
+msgstr "Arată elementele &identice"
+
+msgid "Show &Different Items"
+msgstr "Arată elementele &diferite"
+
+msgid "Show L&eft Unique Items"
+msgstr "Arată elementele unic&e din stânga"
+
+msgid "Show Midd&le Unique Items"
+msgstr "Arată elementele unice din mij&loc"
+
+msgid "Show Ri&ght Unique Items"
+msgstr "Arată elementele unice d&in dreapta"
+
+msgid "Show S&kipped Items"
+msgstr "Arată elementele omise"
+
+msgid "S&how Binary Files"
+msgstr "Arată fișierele binare"
+
+msgid "&3-way Compare"
+msgstr "Comparare în &3"
+
+msgid "Show &Left Only Different Items"
+msgstr "Arată în stânga doar elementele diferite"
+
+msgid "Show &Middle Only Different Items"
+msgstr "Arată în mijloc doar elementele diferite"
+
+msgid "Show &Right Only Different Items"
+msgstr "Arată în dreapta doar elementele diferite"
+
+msgid "Show L&eft Only Missing Items"
+msgstr "Arată în stânga doar elementele lipsă"
+
+msgid "Show Mi&ddle Only Missing Items"
+msgstr "Arată în mijloc doar elementele lipsă"
+
+msgid "Show Rig&ht Only Missing Items"
+msgstr "Arată în dreapta doar elementele lipsă"
+
+msgid "Show Hidd&en Items"
+msgstr "Arată elementele ascunse"
+
+msgid "Tree &Mode"
+msgstr "&Mod arbore"
+
+msgid "E&xpand Subfolders"
+msgstr "E&xpandează subdirectoarele"
+
+msgid "&All Subfolders"
+msgstr "Toate subdirectoarele"
+
+msgid "&Different Subfolders"
+msgstr "Subdirectoarele &diferite"
+
+msgid "&Identical Subfolders"
+msgstr "Subdirectoarele &identice"
+
+msgid "&Collapse All Subfolders"
+msgstr "&Colapsează toate subdirectoarele"
+
+msgid "Select &Font..."
+msgstr "Selectează &font..."
+
+msgid "Use Default Font"
+msgstr "Utilizează font im&plicit"
+
+msgid "Sw&ap Panes"
+msgstr "Interschimbă p&anourile"
+
+msgid "Swap &1st | 2nd"
+msgstr "Interschimbă &1 | 2"
+
+msgid "Swap &2nd | 3rd"
+msgstr "Interschimbă &2 | 3"
+
+msgid "Swap 1st | &3rd"
+msgstr "Interschimbă &1 | 3"
+
+msgid "Com&pare Statistics..."
+msgstr "Statistici de compa&rare..."
+
+msgid "Refresh\tF5"
+msgstr "Reîmpro&spătare\tF5"
+
+msgid "&Refresh Selected\tCtrl+F5"
+msgstr "&Reîmprospătare selectate\tCtrl+F5"
+
+msgid "&Merge"
+msgstr "&Fuziune"
+
+msgid "Co&mpare\tEnter"
+msgstr "Co&mparare\tEnter"
+
+msgid "&Next Difference\tAlt+Down"
+msgstr "Difere&nța următoare\tAlt+Down"
+
+msgid "&Previous Difference\tAlt+Up"
+msgstr "Diferența precedentă\tAlt+Up"
+
+msgid "&First Difference\tAlt+Home"
+msgstr "&Prima diferență\tAlt+Home"
+
+msgid "&Current Difference\tAlt+Enter"
+msgstr "Diferența curentă\tAlt+Enter"
+
+msgid "&Last Difference\tAlt+End"
+msgstr "U&ltima diferență\tAlt+End"
+
+msgid "Copy to &Right\tAlt+Right"
+msgstr "Copiază la d&reapta\tAlt+Right"
+
+msgid "Copy to L&eft\tAlt+Left"
+msgstr "Copi&e la stânga\tAlt+Left"
+
+msgid "&Delete\tDel"
+msgstr "Ș&terge\tDel"
+
+msgid "&Customize Columns..."
+msgstr "Personalizare &coloane..."
+
+msgid "Generate &Report..."
+msgstr "Generare &raport..."
+
+msgid "&Edit with Unpacker..."
+msgstr "&Editează cu dezarhivatorul.."
+
+msgid "&Save\tCtrl+S"
+msgstr "&Salvează\tCtrl+S"
+
+msgid "Sav&e"
+msgstr "Salv&ează"
+
+msgid "Save &Left"
+msgstr "Sa&lvează stânga"
+
+msgid "Save &Middle"
+msgstr "Salvează &mijloc"
+
+msgid "Save &Right"
+msgstr "Salvează d&reapta"
+
+msgid "Save &As"
+msgstr "Salvează c&a"
+
+msgid "Save &Left As..."
+msgstr "Salvează stânga ca..."
+
+msgid "Save &Middle As..."
+msgstr "Salvează mijlocul ca..."
+
+msgid "Save &Right As..."
+msgstr "Salvează dreapta ca..."
+
+msgid "&Print...\tCtrl+P"
+msgstr "Ti&părire...\tCtrl+P"
+
+msgid "Page Set&up..."
+msgstr "Aranjare în pa&gină..."
+
+msgid "Print Previe&w..."
+msgstr "Pre&vizualizare tipărire..."
+
+msgid "&Convert Line Endings to"
+msgstr "Convertește sfârșiturile de rând la"
+
+msgid "Mer&ge Mode\tF9"
+msgstr "&Modul fuziune\tF9"
+
+msgid "Reloa&d\tCtrl+F5"
+msgstr "Reîncarcă\tCtrl+F5"
+
+msgid "Reco&mpare As"
+msgstr "Recompară ca"
+
+msgid "&Undo\tCtrl+Z"
+msgstr "An&ulează\tCtrl+Z"
+
+msgid "&Redo\tCtrl+Y"
+msgstr "&Refă\tCtrl+Y"
+
+msgid "Cu&t\tCtrl+X"
+msgstr "&Taie\tCtrl+X"
+
+msgid "&Copy\tCtrl+C"
+msgstr "&Copiază\tCtrl+C"
+
+msgid "F&ind...\tCtrl+F"
+msgstr "&Găsește...\tCtrl+F"
+
+msgid "Repla&ce...\tCtrl+H"
+msgstr "Înlo&cuiește...\tCtrl+H"
+
+msgid "&Marker...\tCtrl+Shift+M"
+msgstr "&Marcator...\tCtrl+Shift+M"
+
+msgid "Advanced"
+msgstr "Avansat"
+
+msgid "&Copy With Line Numbers\tCtrl+Shift+C"
+msgstr "&Copiază cu numărul de rând\tCtrl+Shift+C"
+
+msgid "&Bookmarks"
+msgstr "Semne de &carte"
+
+msgid "&Toggle Bookmark\tCtrl+F2"
+msgstr "Comută semn de carte\tCtrl+F2"
+
+msgid "&Next Bookmark\tF2"
+msgstr "Sem&n de carte următor\tF2"
+
+msgid "&Previous Bookmark\tShift+F2"
+msgstr "Semn de carte &precedent\tShift+F2"
+
+msgid "&Clear All Bookmarks"
+msgstr "Șterge toate semnele de &carte"
+
+msgid "Syntax Highlight"
+msgstr "Evidențiere sintaxă"
+
+msgid "&Diff Context"
+msgstr "Context de &diferențiere"
+
+msgid "&All Lines"
+msgstr "To&ate rândurile"
+
+msgid "&0 Lines"
+msgstr "&0 rânduri"
+
+msgid "&1 Line"
+msgstr "&1 rând"
+
+msgid "&3 Lines"
+msgstr "&3 rânduri"
+
+msgid "&5 Lines"
+msgstr "&5 rânduri"
+
+msgid "&7 Lines"
+msgstr "&7 rânduri"
+
+msgid "&9 Lines"
+msgstr "&9 rânduri"
+
+msgid "&Toggle All and 0-9 Lines\tCtrl+D"
+msgstr "Comu&tă între \"toate\" și \"0-9 rânduri\"\tCtrl+D"
+
+msgid "&Invert (Hide Different Lines)"
+msgstr "&Inversează (ascunde rândurile diferite)"
+
+msgid "&Lock Panes"
+msgstr "B&lochează panourile"
+
+msgid "&View Whitespace"
+msgstr "Afișează blanc&urile"
+
+msgid "View E&OL"
+msgstr "Afișează E&OL"
+
+msgid "Vie&w Line Differences"
+msgstr "Afișea&ză diferențele din rând"
+
+msgid "View Line &Numbers"
+msgstr "Afișează numărul rândului"
+
+msgid "View &Margins"
+msgstr "Afișează &marginile"
+
+msgid "View To&p Margins"
+msgstr "Afișează marginile de sus"
+
+msgid "W&rap Lines"
+msgstr "Infășoa&ră rândurile lungi"
+
+msgid "Split V&ertically"
+msgstr "Divide pe v&erticală"
+
+msgid "Diff &Pane"
+msgstr "&Panoul cu diferențe"
+
+msgid "Lo&cation Pane"
+msgstr "Panoul cu lo&cația"
+
+msgid "Output Pane"
+msgstr ""
+
+msgid "Ne&xt Conflict\tAlt+Shift+Down"
+msgstr "Conflictul următor\tAlt+Shift+Down"
+
+msgid "Pre&vious Conflict\tAlt+Shift+Up"
+msgstr "Conflictul precedent\tAlt+Shift+Up"
+
+msgid "A&dvanced"
+msgstr "Avansat"
+
+msgid "Next Difference (Left/Middle)\tAlt+1"
+msgstr "Diferența următoare între stânga și mijloc\tAlt+1"
+
+msgid "Previous Difference (Left/Middle)\tAlt+Shift+1"
+msgstr "Diferența precedentă între stânga și mijloc\tAlt+Shift+1"
+
+msgid "Next Difference (Left/Right)\tAlt+2"
+msgstr "Diferența următoare între stânga și dreapta\tAlt+2"
+
+msgid "Previous Difference (Left/Right)\tAlt+Shift+2"
+msgstr "Diferența precedentă între stânga și dreapta\tAlt+Shift+2"
+
+msgid "Next Difference (Middle/Right)\tAlt+3"
+msgstr "Diferența următoare între mijloc și dreapta\tAlt+3"
+
+msgid "Previous Difference (Middle/Right)\tAlt+Shift+3"
+msgstr "Diferența precedentă între mijloc și dreapta\tAlt+Shift+3"
+
+msgid "Next Left-Only Difference\tAlt+7"
+msgstr "Diferența următoare doar în stânga\tAlt+7"
+
+msgid "Previous Left-Only Difference\tAlt+Shift+7"
+msgstr "Diferența precedentă doar în stânga\tAlt+Shift+7"
+
+msgid "Next Middle-Only Difference\tAlt+8"
+msgstr "Diferența următoare doar în mijloc\tAlt+8"
+
+msgid "Previous Middle-Only Difference\tAlt+Shift+8"
+msgstr "Diferența precedentă doar în mijloc\tAlt+Shift+8"
+
+msgid "Next Right-Only Difference\tAlt+9"
+msgstr "Diferența următoare doar în dreapta\tAlt+9"
+
+msgid "Previous Right-Only Difference\tAlt+Shift+9"
+msgstr "Diferența precedentă doar în dreapta\tAlt+Shift+9"
+
+msgid "Copy from &Left to"
+msgstr "Copiază din stânga în"
+
+msgid "&Middle"
+msgstr "&Mijloc"
+
+msgid "&Right"
+msgstr "D&reapta"
+
+msgid "Copy from &Middle to"
+msgstr "Copiază din &mijloc în"
+
+msgid "&Left"
+msgstr "Stâ&nga"
+
+msgid "Copy from &Right to"
+msgstr "Copiază din d&reapta în"
+
+msgid "Copy Selected Lines from Le&ft to"
+msgstr "Copiază rândurile selectate din stânga în"
+
+msgid "Copy Selected Lines from Mi&ddle to"
+msgstr "Copiază rândurile selectate din mijloc în"
+
+msgid "Copy Selected Lines from Ri&ght to"
+msgstr "Copiază rândurile selectate din dreapta în"
+
+msgid "Copy from Left\tAlt+Shift+Right"
+msgstr "Copiază din stânga\tAlt+Shift+Right"
+
+msgid "Copy from Right\tAlt+Shift+Left"
+msgstr "Copiază din dreapta\tAlt+Shift+Left"
+
+msgid "C&opy to Right and Advance\tCtrl+Alt+Right"
+msgstr "C&opiază în dreapta și avansează\tCtrl+Alt+Right"
+
+msgid "Copy &to Left and Advance\tCtrl+Alt+Left"
+msgstr "Copiază în s&tânga și avansează\tCtrl+Alt+Left"
+
+msgid "Copy &All to Right"
+msgstr "Copiază tot în dre&apta"
+
+msgid "Cop&y All to Left"
+msgstr "Copia&ză tot în stânga"
+
+msgid "A&uto Merge\tCtrl+Alt+M"
+msgstr "Fuzionare a&utomată\tCtrl+Alt+M"
+
+msgid "Add &Synchronization Point\tAlt+S"
+msgstr "Adaugă punct de &sincronizare\tAlt+S"
+
+msgid "Clear Sync&hronization Points"
+msgstr "Șterge punctele de sincronizare"
+
+msgid "Unpac&ker"
+msgstr "Dezarhivator"
+
+msgid "&Prediffer"
+msgstr "&Prediferențiator"
+
+msgid "Apply Pre&differ..."
+msgstr "Aplică pre&diferențiator..."
+
+msgid "&Transform with Editor Script..."
+msgstr "&Transformă cu script editor..."
+
+msgid "Scripts for &Copying"
+msgstr ""
+
+msgid "Select &Editor Script..."
+msgstr ""
+
+msgid "Sp&lit"
+msgstr "Divide"
+
+msgid "Comp&are"
+msgstr "Comp&ară"
+
+msgid "Compare in New &Window"
+msgstr "Compară în fereastră nouă"
+
+msgid "Compare Non-hor&izontally..."
+msgstr "Compară neorizontal..."
+
+msgid "Compare Non-hor&izontally"
+msgstr "Compară neorizontal"
+
+msgid "First &Left with Second Left"
+msgstr "Primul element din stânga cu al doilea element din stânga"
+
+msgid "First &Right with Second Right"
+msgstr "Primul element din dreapta cu al doilea element din dreapta"
+
+msgid "&First Left with Second Right"
+msgstr "Primul element din stânga cu al doilea element din dreapta"
+
+msgid "&Second Left with First Right"
+msgstr "Al doile element din stânga cu primul element din dreapta"
+
+msgid "Co&mpare As"
+msgstr "Co&mpară ca"
+
+#, c-format
+msgid "Left to Middle (%1 of %2)"
+msgstr "Stânga cu mijlocul (%1 din %2)"
+
+#, c-format
+msgid "Left to Right (%1 of %2)"
+msgstr "De la stânga la dreapta (%1 din %2)"
+
+#, c-format
+msgid "Left to... (%1 of %2)"
+msgstr "Stânga la... (%1 din %2)"
+
+#, c-format
+msgid "Middle to Left (%1 of %2)"
+msgstr "Mijlocul cu stânga (%1 din %2)"
+
+#, c-format
+msgid "Middle to Right (%1 of %2)"
+msgstr "Mijlocul cu dreapta (%1 din %2)"
+
+#, c-format
+msgid "Middle to... (%1 of %2)"
+msgstr "Mijlocul cu... (%1 from %2)"
+
+#, c-format
+msgid "Right to Middle (%1 of %2)"
+msgstr "Dreapta cu mijlocul (%1 din %2)"
+
+#, c-format
+msgid "Right to Left (%1 of %2)"
+msgstr "De la dreapta la stânga (%1 din %2)"
+
+#, c-format
+msgid "Right to... (%1 of %2)"
+msgstr "Dreapta la... (%1 din %2)"
+
+msgid "&Delete"
+msgstr "Ș&terge"
+
+msgid "&Both"
+msgstr "Am&bele"
+
+msgid "&All"
+msgstr "Toate"
+
+msgid "Re&name"
+msgstr "Rede&numește"
+
+msgid "&Hide Items"
+msgstr "Ascunde e&lementele"
+
+msgid "&Open Left"
+msgstr "Deschide stâ&nga"
+
+msgid "Open Midd&le"
+msgstr "Deschide mij&loc"
+
+msgid "O&pen Right"
+msgstr "Deschide drea&pta"
+
+msgid "Cop&y Paths"
+msgstr "Cop&ie căile de fișier"
+
+#, c-format
+msgid "Left (%1 of %2)"
+msgstr "Stânga (%1 din %2)"
+
+#, c-format
+msgid "Middle (%1 of %2)"
+msgstr "Mijloc (%1 din %2)"
+
+#, c-format
+msgid "Right (%1 of %2)"
+msgstr "Dreapta (%1 din %2)"
+
+#, c-format
+msgid "Both (%1 of %2)"
+msgstr "Ambele (%1 din %2)"
+
+#, c-format
+msgid "All (%1 of %2)"
+msgstr "Toate (%1 din %2)"
+
+msgid "Copy &Filenames"
+msgstr "Copiază numele de &fișier"
+
+msgid "Copy Items to Clip&board"
+msgstr "Copiază elementele în clipboard"
+
+msgid "Copy All Di&splayed Columns"
+msgstr "Copiază toate coloanele afișate"
+
+msgid "&Zip"
+msgstr "Arhivea&ză"
+
+#, c-format
+msgid "Both to... (%1 of %2)"
+msgstr "Ambele în... (%1 din %2)"
+
+#, c-format
+msgid "All to... (%1 of %2)"
+msgstr "Toate în... (%1 of %2)"
+
+#, c-format
+msgid "Differences to... (%1 of %2)"
+msgstr "Diferențele în... (%1 din %2)"
+
+msgid "Left Shell Menu"
+msgstr "Meniul shell stânga"
+
+msgid "Middle Shell Menu"
+msgstr "Meniul shell mijloc"
+
+msgid "Right Shell Menu"
+msgstr "Meniul shell dreapta"
+
+msgid "Both Shell Menu"
+msgstr "Meniul shell ambele"
+
+msgid "All Shell Menu"
+msgstr "Meniul shell toate"
+
+msgid "Copy"
+msgstr "Copiază"
+
+msgid "&Copy Full Path"
+msgstr "&Copiază calea întreagă"
+
+msgid "Copy &Filename"
+msgstr "Copiază numele de &fișier"
+
+msgid "&Edit Caption"
+msgstr "Editează descrierea"
+
+msgid "&Open..."
+msgstr "&Deschide..."
+
+msgid "Unpacker Settings"
+msgstr "Setări dezarhivator"
+
+msgid "<None>"
+msgstr "<Deloc>"
+
+msgid "<Automatic>"
+msgstr "<Automat>"
+
+msgid "&Select..."
+msgstr "&Selectează..."
+
+msgid "Prediffer Settings"
+msgstr "Setări prediferențiator"
+
+msgid "G&o to Diff"
+msgstr "Mergi la difere&nță"
+
+msgid "&No Moved Blocks"
+msgstr "Fără blocuri &mutate"
+
+msgid "&All Moved Blocks"
+msgstr "To&ate blocurile mutate"
+
+msgid "W&hitespaces"
+msgstr "Blancur&i"
+
+msgid "Com&pare"
+msgstr "Com&pară"
+
+msgid "I&gnore Changes"
+msgstr "I&gnoră schimbări"
+
+msgid "Ig&nore All"
+msgstr "Ig&noră tot"
+
+msgid "Ignore Blan&k Lines"
+msgstr "Ignoră rânduri goale"
+
+msgid "Ignore &Case"
+msgstr "Ignoră minus&cule/majuscule"
+
+msgid "Igno&re EOL Differences (Windows/Unix/Mac)"
+msgstr "Igno&ră diferențele sfârșitului de rând (Windows/Unix/Mac)"
+
+msgid "Ignore Codepage &Differences"
+msgstr "Ignoră &diferențele de pagină de codare"
+
+msgid "Ignore Num&bers"
+msgstr "Ignoră numerele"
+
+msgid "Ignore C&omment Differences"
+msgstr "Ignoră diferențele de c&omentarii"
+
+msgid "Ignore &Missing Trailing EOL"
+msgstr ""
+
+msgid "&Include Subfolders"
+msgstr "&Include subdirectoare"
+
+msgid "&Compare Method"
+msgstr "Metoda de &comparare"
+
+msgid "Full Contents"
+msgstr "Conținut complet"
+
+msgid "Quick Contents"
+msgstr "Conținut rapid"
+
+msgid "Binary Contents"
+msgstr "Conținut binar"
+
+msgid "Modified Date"
+msgstr "Dată modificare"
+
+msgid "Modified Date and Size"
+msgstr "Dată modificare și mărime"
+
+msgid "Size"
+msgstr "Mărime"
+
+msgid "&Load Project..."
+msgstr "Încarcă proiect..."
+
+msgid "${*} - All Arguments"
+msgstr ""
+
+msgid "${1} - First Argument"
+msgstr ""
+
+msgid "${2} - Second Argument"
+msgstr ""
+
+msgid "${3} - Third Argument"
+msgstr ""
+
+msgid "${4} - Fourth Argument"
+msgstr ""
+
+msgid "${5} - Fifth Argument"
+msgstr ""
+
+msgid "${6} - Sixth Argument"
+msgstr ""
+
+msgid "${7} - Seventh Argument"
+msgstr ""
+
+msgid "${8} - Eighth Argument"
+msgstr ""
+
+msgid "${9} - Ninth Argument"
+msgstr ""
+
+msgid "${SRC_FILE} - Source File"
+msgstr ""
+
+msgid "${SRC_FOLDER} - Source Folder"
+msgstr ""
+
+msgid "${SRC_URL} - Source URL"
+msgstr ""
+
+msgid "${SRC_URL_PROTOCOL} - Source URL Protocol"
+msgstr ""
+
+msgid "${SRC_URL_SUFFIX} - Source URL Suffix"
+msgstr ""
+
+msgid "${DST_FILE} - Destination File"
+msgstr ""
+
+msgid "${DST_FOLDER} - Destination Folder"
+msgstr ""
+
+msgid "${DST_URL} - Destination URL"
+msgstr ""
+
+msgid "${DST_URL_PROTOCOL} - Destination URL Protocol"
+msgstr ""
+
+msgid "${DST_URL_SUFFIX} - Destination URL Suffix"
+msgstr ""
+
+msgid "${WINMERGE_HOME} - WinMerge Home Directory"
+msgstr ""
+
+msgid "${SCRIPT_FILE} - Script File"
+msgstr ""
+
+msgid "Add &Unpacker Plugin..."
+msgstr ""
+
+msgid "Add &Prediffer Plugin..."
+msgstr ""
+
+msgid "&Duplicate Plugin..."
+msgstr ""
+
+msgid "Clear &All"
+msgstr ""
+
+msgid "About WinMerge"
+msgstr "Despre WinMerge"
+
+msgid "Visit the WinMerge Homepage!"
+msgstr "Vizitează pagina de bază WinMerge!"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Contributors"
+msgstr "Colaboratori"
+
+msgid "Select Files or Folders"
+msgstr "Selectează fișiere sau directoare"
+
+msgid "&1st File or Folder"
+msgstr "Fișierul sau directorul 1"
+
+msgid "Re&ad-only"
+msgstr "Num&ai-citire"
+
+msgid "Swap 1st | 2nd"
+msgstr "Interschimbă 1 | 2"
+
+msgid "&Browse..."
+msgstr "Răsf&oiește..."
+
+msgid "&2nd File or Folder"
+msgstr "Fișierul sau directorul 2"
+
+msgid "Rea&d-only"
+msgstr "Protejat la scriere"
+
+msgid "Swap 2nd | 3rd"
+msgstr "Interschimbă 2 | 3"
+
+msgid "B&rowse..."
+msgstr "&Răsfoiește..."
+
+msgid "&3rd File or Folder (Optional)"
+msgstr "Fișierul sau directorul 3 (opțional)"
+
+msgid "Read-o&nly"
+msgstr "Protejat la scriere"
+
+msgid "Swap 1st | 3rd"
+msgstr "Interschimbă 1 | 3"
+
+msgid "Browse..."
+msgstr "Răsfoiește..."
+
+msgid " Folder: Filter"
+msgstr " Director: filtru"
+
+msgid "&Include subfolders"
+msgstr "&Include subdirectoare"
+
+msgid " File: Prediffer Plugin"
+msgstr " Fișier: Plugin prediferențiator"
+
+msgid " File: Unpacker Plugin"
+msgstr " Fișier: plugin dezarhivator"
+
+msgid "Se&lect..."
+msgstr "Se&lectează..."
+
+msgid "Cancel"
+msgstr "Renunță"
+
+msgid "Status:"
+msgstr "Stare:"
+
+msgid "Help"
+msgstr "Ajutor"
+
+msgid "&Options..."
+msgstr "&Opțiuni..."
+
+msgid "General"
+msgstr "General"
+
+msgid "Automatically &scroll to first difference"
+msgstr "De&sfășoară automat la prima diferență"
+
+msgid "Automatically s&croll to first inline difference"
+msgstr "Desfășoară automat la prima diferență în cadrul rândului"
+
+msgid "Cl&ose windows with 'Esc':"
+msgstr "Închide ferestrele cu tasta 'Esc':"
+
+msgid "&Automatically verify paths in Open dialog"
+msgstr "Verifică automat căile în dialogul de deschidere"
+
+msgid "Single instance mode:"
+msgstr "Mod instanță unică:"
+
+msgid "As&k when closing multiple windows"
+msgstr "Întreabă înainte de a închide fereste multiple"
+
+msgid "&Preserve file time in file compare"
+msgstr "Păstrează data și ora fișierului pentru compararea fișierelor"
+
+msgid "Show \"Select Files or Folders\" dialog on startup"
+msgstr "Afișează la start dialogul \"Selectează fișiere sau directoare\""
+
+msgid "Close \"Select Files or Folders\" dialog on clicking Compare button"
+msgstr ""
+"Închide dialogul \"Selectează fișiere sau directoare\" la apăsarea butonului "
+"Compară"
+
+msgid "Op&en dialog Auto completion:"
+msgstr "Auto-completare în dialogul de deschidere:"
+
+msgid "Auto-&reload modified files:"
+msgstr "&Reîncarcă automat fișierele modificate:"
+
+msgid "Language:"
+msgstr "Limba:"
+
+msgid "Defaults"
+msgstr "Implicite"
+
+msgid "Find"
+msgstr "Găsește"
+
+msgid "Fi&nd what:"
+msgstr "Ce a&nume:"
+
+msgid "Match &whole word only"
+msgstr "Potrivește doar cu&vinte întregi"
+
+msgid "Match &case"
+msgstr "Respectă minuscule/majuscule"
+
+msgid "Regular &expression"
+msgstr "&Expresie regulată"
+
+msgid "D&on't wrap end of file"
+msgstr "Nu relua de la începutul fișierului"
+
+msgid "&Don't close this dialog"
+msgstr "Nu închide această fereastră de dialog"
+
+msgid "&Find Next"
+msgstr "&Găsește următorul"
+
+msgid "Find &Prev"
+msgstr "Găsește precedentul"
+
+msgid "&Ok"
+msgstr "&Ok"
+
+msgid "Replace"
+msgstr "Înlocuiește"
+
+msgid "Re&place with:"
+msgstr "C&u ce:"
+
+msgid "&Don't wrap at end of file"
+msgstr "Nu relua de la începutul &fișierului"
+
+msgid "Replace in"
+msgstr "Înlocuiește în"
+
+msgid "&Selection"
+msgstr "&Selecție"
+
+msgid "Wh&ole file"
+msgstr "Între&gul fișier"
+
+msgid "Find Pre&v"
+msgstr "Găsește precedentul"
+
+msgid "&Replace"
+msgstr "Înlocuieș&te"
+
+msgid "Replace &All"
+msgstr "Înlocuiește t&ot"
+
+msgid "Markers"
+msgstr "Marcatori"
+
+msgid "Enable &markers"
+msgstr "Activează &marcatorii"
+
+msgid "New"
+msgstr "Nou"
+
+msgid "&Background color:"
+msgstr "Culoare fundal:"
+
+msgid "&Apply"
+msgstr "&Aplică"
+
+msgid "Line Filters"
+msgstr "Filtre de rând"
+
+msgid "Enable Line Filters"
+msgstr "Activează filtrele de rând"
+
+msgid "Regular Expressions (one per line):"
+msgstr "Expresii regulate (câte una pe rând):"
+
+msgid "Edit"
+msgstr "Editează"
+
+msgid "Remove"
+msgstr "Înlătură"
+
+msgid "Substitution Filters"
+msgstr "Filtre de substituție"
+
+msgid ""
+"Changes to the listed pairs below will be "
+"ignored or marked as insignificant. Patches are unaffected."
+msgstr ""
+"Modificările care apar în panouri ca perechile afișate mai jos vor fi "
+"ignorate sau marcate ca nesemnificative. Peticele nu sunt afectate."
+
+msgid "Enable"
+msgstr "Activează"
+
+msgid "Add"
+msgstr "Adaugă"
+
+msgid "Clear"
+msgstr "Șterge"
+
+msgid "Colors"
+msgstr "Culori"
+
+msgid "Color Scheme:"
+msgstr "Schemă culori:"
+
+msgid "Background"
+msgstr "Fundal"
+
+msgid "Deleted"
+msgstr "Șters"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Difference:"
+msgstr "Diferență:"
+
+msgid "Selected Difference:"
+msgstr "Diferență selectată:"
+
+msgid "Ignored Difference:"
+msgstr "Diferență ignorată:"
+
+msgid "Moved:"
+msgstr "Mutat:"
+
+msgid "Selected Moved:"
+msgstr "Selecție mutată:"
+
+msgid "Same As Next (3 panes):"
+msgstr "La fel ca următorul (3 panouri):"
+
+msgid "Same As Next (Selected):"
+msgstr "La fel ca următorul (selectate):"
+
+msgid "Word Difference:"
+msgstr "Diferență cuvânt:"
+
+msgid "Selected Word Diff:"
+msgstr "Diferență cuvânt selectată:"
+
+msgid "Dialog"
+msgstr "Dialog"
+
+msgid "Keywords:"
+msgstr "Cuvinte cheie:"
+
+msgid "Function names:"
+msgstr "Nume de funcții:"
+
+msgid "Comments:"
+msgstr "Comentarii:"
+
+msgid "Numbers:"
+msgstr "Numere:"
+
+msgid "Operators:"
+msgstr "Operatori:"
+
+msgid "Strings:"
+msgstr "Șiruri de caractere:"
+
+msgid "Preprocessor:"
+msgstr "Preprocesor:"
+
+msgid "User 1:"
+msgstr "Utilizator 1:"
+
+msgid "User 2:"
+msgstr "Utilizator 2:"
+
+msgid "Bold"
+msgstr "Aldine"
+
+msgid "&Use customized text colors"
+msgstr "Folosește c&ulori ale textului personalizate"
+
+msgid "Whitespace:"
+msgstr "Blancuri:"
+
+msgid "Regular text:"
+msgstr "Text normal:"
+
+msgid "Selection:"
+msgstr "Selecție:"
+
+msgid "Margin:"
+msgstr "Margine:"
+
+msgid "Search Marker:"
+msgstr "Marcatorul de căutare:"
+
+msgid "User Defined Marker 1:"
+msgstr "Marcatorul definit utilizator 1:"
+
+msgid "User Defined Marker 2:"
+msgstr "Marcatorul definit utilizator 2:"
+
+msgid "User Defined Marker 3:"
+msgstr "Marcatorul definit utilizator 3:"
+
+msgid "&Use folder compare colors"
+msgstr "&Utilizează culorile de comparare a directoarelor"
+
+msgid "Items equal:"
+msgstr "Elemente egale:"
+
+msgid "Items different:"
+msgstr "Elemente diferite:"
+
+msgid "Items missing:"
+msgstr "Elemente nu există toate:"
+
+msgid "Items filtered:"
+msgstr "Elemente filtrate:"
+
+msgid "&Use custom system colors"
+msgstr ""
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "&Use Recycle Bin"
+msgstr "Trimite fișierele șterse către Recycle Bin"
+
+msgid "&External editor:"
+msgstr "Editor &extern:"
+
+msgid "&Filter folder:"
+msgstr "Directorul cu &filtre:"
+
+msgid "Temporary files folder"
+msgstr "Directorul cu fișiere temporare"
+
+msgid "S&ystem temp folder"
+msgstr "Direc&torul cu fișiere temporare al sistemului"
+
+msgid "C&ustom folder:"
+msgstr "Director personali&zat:"
+
+msgid "Br&owse..."
+msgstr "Ră&sfoiește..."
+
+msgid "Patch Generator"
+msgstr "Generator petice"
+
+msgid "File&1:"
+msgstr "&Fișier 1:"
+
+msgid "File&2:"
+msgstr "F&ișier 2:"
+
+msgid "&Swap"
+msgstr "Interschim&bă"
+
+msgid "&Copy to clipboard"
+msgstr "&Copiază în memorie"
+
+msgid "&Append to existing file"
+msgstr "&Adaugă la fișier existent"
+
+msgid "&Result:"
+msgstr "&Rezultat:"
+
+msgid "Bro&wse..."
+msgstr "Răsf&oiește..."
+
+msgid "&Format"
+msgstr "&Format"
+
+msgid "St&yle:"
+msgstr "S&til:"
+
+msgid "&Context:"
+msgstr "&Context:"
+
+msgid "Inclu&de command line"
+msgstr "Inclu&de linia de comandă"
+
+msgid "Open in e&xternal editor"
+msgstr "Deschide în editor e&xtern"
+
+msgid "Display Columns"
+msgstr "Afișează coloanele"
+
+msgid "Move &Up"
+msgstr "Mută mai s&us"
+
+msgid "Move &Down"
+msgstr "Mută mai &jos"
+
+msgid "&Additional Properties"
+msgstr "Proprietăți suplimentare"
+
+msgid "Additional Properties"
+msgstr "Proprietăți suplimentare"
+
+msgid "Select Plugin"
+msgstr "Selectează plugin"
+
+msgid "Plugin &name:"
+msgstr "&Nume plugin:"
+
+msgid "&Target files:"
+msgstr ""
+
+msgid "Extensions list:"
+msgstr "Listă extensii:"
+
+msgid "Description:"
+msgstr "Descriere:"
+
+msgid "Default arguments:"
+msgstr "Argumente implicite:"
+
+msgid "Display all plugins (Ignore extension)"
+msgstr "Afișează toate plugin-urile, nu verifica extensia"
+
+msgid "&Open files in same window type after unpacking"
+msgstr "Deschide fișierele în același tip de fereastră după dezarhivare"
+
+msgid "&Plugin pipeline:"
+msgstr "Lanțul de &plugin-uri:"
+
+msgid "&Alias..."
+msgstr ""
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Pause"
+msgstr "Pauză"
+
+msgid "Continue"
+msgstr "Continuă"
+
+msgid "C&PU cores to use:"
+msgstr "&Numărul de procesoare de utilizat:"
+
+msgid "Items total:"
+msgstr "Elemente total:"
+
+msgid "Items compared:"
+msgstr "Elemente comparate:"
+
+msgid "Go to"
+msgstr "Mergi la"
+
+msgid "G&o to:"
+msgstr "&La:"
+
+msgid "File"
+msgstr "Fișier"
+
+msgid "Go to what"
+msgstr "Mergi la"
+
+msgid "Li&ne"
+msgstr "Râ&nd"
+
+msgid "&Difference"
+msgstr "&Diferență"
+
+msgid "&Go to"
+msgstr "&Mergi la"
+
+msgid "Compare"
+msgstr "Comparare"
+
+msgid "Whitespaces"
+msgstr "Blanc"
+
+msgid "&Compare"
+msgstr "&Compară"
+
+msgid "&Ignore change"
+msgstr "&Ignoră schimbare"
+
+msgid "I&gnore all"
+msgstr "I&gnoră tot"
+
+msgid "Ignore blan&k lines"
+msgstr "Ignoră rânduri goale"
+
+msgid "Ignore &case"
+msgstr "Ignoră minus&cule/majuscule"
+
+msgid "Igno&re EOL differences (Windows/Unix/Mac)"
+msgstr ""
+
+msgid "Ignore num&bers"
+msgstr "Ignoră numerele"
+
+msgid "Ignore codepage &differences"
+msgstr "Ignoră &diferențele de pagină de codare"
+
+msgid "Ignore c&omment differences"
+msgstr "Ignoră diferențele de c&omentarii"
+
+msgid "Ignore &missing trailing EOL"
+msgstr ""
+
+msgid "E&nable moved block detection"
+msgstr "Activea&ză detecție blocuri mutate"
+
+msgid "Align &similar lines"
+msgstr "Aliniază rândurile &similare"
+
+msgid "Diff &algorithm:"
+msgstr "&Algoritm de diferențiere:"
+
+msgid "Enable indent &heuristic"
+msgstr "Activează euristica de indentare"
+
+msgid "Completely unhighlight the ignored differences"
+msgstr "Demarchează complet diferențele ignorate"
+
+msgid "Editor"
+msgstr "Editor"
+
+msgid "&Highlight syntax"
+msgstr "E&vidențiere sintaxă"
+
+msgid "&Preserve original EOL"
+msgstr "&Păstrează caracterele EOL originale"
+
+msgid "Tabs"
+msgstr "File"
+
+msgid "&Tab size:"
+msgstr "Mărime &filă:"
+
+msgid "&Insert tabs"
+msgstr "&Inserează file"
+
+msgid "Insert &spaces"
+msgstr "In&serează blancuri"
+
+msgid "&Rendering mode:"
+msgstr "Mod de &randare:"
+
+msgid "&Automatic rescan"
+msgstr "Rescanare &automată"
+
+msgid "Copy &granularity for selected differences:"
+msgstr ""
+
+msgid "Line Difference Coloring"
+msgstr "Colorarea diferențelor din rând"
+
+msgid "View line differences"
+msgstr "Arată diferențele din rând"
+
+msgid "&Character-level"
+msgstr "La nivel de &caracter"
+
+msgid "&Word-level:"
+msgstr "La nivel de cu&vânt:"
+
+msgid "W&ord break characters:"
+msgstr "Caractere de despărțire cuvinte:"
+
+msgid ""
+"Some messages can be hidden by the user. Press Reset to "
+"make all messages visible again."
+msgstr ""
+"WinMerge permite ascunderea unor casete de mesaj. Apasă butonul "
+"Reinițializare pentru a afișa din nou toate căsuțele de mesaj."
+
+msgid "Reset"
+msgstr "Reinițializare"
+
+msgid "File Filters"
+msgstr "Filtre de fișiere"
+
+msgid "Test..."
+msgstr "Testează..."
+
+msgid "Install..."
+msgstr "Instalează..."
+
+msgid "New..."
+msgstr "Nou..."
+
+msgid "Edit..."
+msgstr "Editează..."
+
+msgid "Delete..."
+msgstr "Șterge..."
+
+msgid "Save Modified Files?"
+msgstr "Salvare fișiere modificate?"
+
+msgid "Left side file"
+msgstr "Fișier stânga"
+
+msgid "&Save changes"
+msgstr "&Salvează modificările"
+
+msgid "&Discard changes"
+msgstr "Renunță la mo&dificări"
+
+msgid "Middle side file"
+msgstr "Fișierul din partea de mijloc"
+
+msgid "Sa&ve changes"
+msgstr "Sal&vează modificările"
+
+msgid "Discard c&hanges"
+msgstr "Renunță la modificări"
+
+msgid "Right side file"
+msgstr "Fișier dreapta"
+
+msgid "S&ave changes"
+msgstr "S&alvează modificările"
+
+msgid "Dis&card changes"
+msgstr "Renunță la s&chimbări"
+
+msgid "Disca&rd All"
+msgstr "&Renunță la toate"
+
+msgid "Codepage"
+msgstr "Codare caractere"
+
+msgid "Default Codepage"
+msgstr "Codare caractere implicită"
+
+msgid "Select the default codepage for non-Unicode files:"
+msgstr ""
+"Selectează codarea caracterelor folosită implicit la încărcarea fișierelor "
+"non-Unicode:"
+
+msgid "System codepage"
+msgstr "Codarea sistemului"
+
+msgid "According to WinMerge User Interface"
+msgstr "Conform cu interfața WinMerge"
+
+msgid "Custom codepage:"
+msgstr "Pagină de codare particularizată:"
+
+msgid ""
+"Detect codepage for: .html, .rc, .xml\n"
+"Restart required."
+msgstr ""
+"Detectează informațiile despre pagina de codare pentru aceste tipuri de "
+"fișiere: .html, .rc, .xml\n"
+"Sesiunea trebuie restartată."
+
+msgid ""
+"Detect codepage for files with mlang.dll\n"
+"Restart required."
+msgstr ""
+"Detectează pagina de codare pentru fișiere text cu mlang.dll\n"
+"Sesiunea trebuie restartată."
+
+msgid "Options"
+msgstr "Opțiuni"
+
+msgid "Import..."
+msgstr "Importă..."
+
+msgid "Export..."
+msgstr "Exportă..."
+
+msgid "Folder Compare Report"
+msgstr "Raport comparare directoare"
+
+msgid "Report &file:"
+msgstr "&Fișier raport:"
+
+msgid "&Style:"
+msgstr "&Stil:"
+
+msgid "&Include file compare report"
+msgstr "&Include raportul de comparare fișiere"
+
+msgid "Shared or Private Filter"
+msgstr "Filtru public sau privat"
+
+msgid "What type of filter do you want?"
+msgstr "Ce tip de filtru doriți să creați?"
+
+msgid "Shared Filter (for all users)"
+msgstr "Filtru public (pentru toți utilizatorii de pe mașina curentă)"
+
+msgid "Private Filter (current user only)"
+msgstr "Filtru privat (doar pentru utilizatorul curent)"
+
+msgid "Archive Support"
+msgstr "Suport arhivare"
+
+msgid "&Enable archive file support"
+msgstr "Activ&ează suportul pentru fișierele arhivă"
+
+msgid "&Detect archive type from file signature"
+msgstr "&Detectează tipul arhivei după semnătura fișierului"
+
+msgid "Items saved to or restored from the project file:"
+msgstr "Elemente salvate sau restaurate din fișierul proiect:"
+
+msgid "Compare Statistics"
+msgstr "Statistici ale comparării"
+
+msgid "Folders:"
+msgstr "Directoare:"
+
+msgid "Files:"
+msgstr "Fișiere:"
+
+msgid "Different"
+msgstr "Diferite"
+
+msgid "Binary:"
+msgstr "Binare:"
+
+msgid "Unique"
+msgstr "Unice"
+
+msgid "Left:"
+msgstr "Stânga:"
+
+msgid "Right:"
+msgstr "Dreapta:"
+
+msgid "Identical"
+msgstr "Identice"
+
+msgid "Total:"
+msgstr "În total:"
+
+msgid "Close"
+msgstr "Închide"
+
+msgid "Middle:"
+msgstr "Mijloc:"
+
+msgid "Missing Left:"
+msgstr "Lipsă stânga:"
+
+msgid "Missing Middle:"
+msgstr "Lipsă mijloc:"
+
+msgid "Missing Right:"
+msgstr "Lipsă dreapta:"
+
+msgid "Affects"
+msgstr "Afectează"
+
+msgid "(Affects)"
+msgstr "(Afectează)"
+
+msgid "Select Codepage for"
+msgstr "Selectează codare caractere pentru"
+
+msgid "&File Loading:"
+msgstr "Încărcare &fișier:"
+
+msgid "File &Saving:"
+msgstr "&Salvare fișier:"
+
+msgid "&Use same codepage for both"
+msgstr "Aceeași codare caractere pentr&u ambele"
+
+msgid "&Cancel"
+msgstr "&Renunță"
+
+msgid "Test Filter"
+msgstr "Testează filtru"
+
+msgid "Testing filter:"
+msgstr "Testare filtru:"
+
+msgid "&Enter text to test:"
+msgstr "Introduc&eți textul pentru testare:"
+
+msgid "&Folder Name"
+msgstr "Nu&me director"
+
+msgid "Result:"
+msgstr "Rezultat:"
+
+msgid "&Test"
+msgstr "&Testează"
+
+msgid "&Close"
+msgstr "În&chide"
+
+msgid "Table"
+msgstr "Tabel"
+
+msgid "File type"
+msgstr "Tip fișier"
+
+msgid "&CSV"
+msgstr "&CSV"
+
+msgid "&TSV"
+msgstr "&TSV"
+
+msgid "Custom &Delimiter-Separated Values"
+msgstr "Valori separate cu delimitator personalizat"
+
+msgid "D&elimiter character:"
+msgstr "Caracterul d&elimitator:"
+
+msgid "&Allow newlines in quotes"
+msgstr "Permite sfârșituri de rând în ghilimele"
+
+msgid "&Quote character:"
+msgstr "Caracterul de citare:"
+
+msgid "Backup Files"
+msgstr "Copii de siguranță"
+
+msgid "Create backup files for:"
+msgstr "Crează copii de siguranță pentru:"
+
+msgid "&Folder compare"
+msgstr "Comparare &directoare"
+
+msgid "Fil&e compare"
+msgstr "Comparare fiși&ere"
+
+msgid "Create backup files in:"
+msgstr "Crează copii de siguranță în:"
+
+msgid "&Original file's folder"
+msgstr "Directorul &original al fișierului"
+
+msgid "&Global backup folder:"
+msgstr "Directorul de siguranță &global:"
+
+msgid "Backup filename:"
+msgstr "Numele fișierului de siguranță:"
+
+msgid "&Append .bak extension"
+msgstr "&Adaugă extensia .bak"
+
+msgid "A&ppend timestamp"
+msgstr "Adaugă ora"
+
+msgid "Confirm Copy"
+msgstr "Confirmă copierea"
+
+msgid "Are you sure you want to copy XXX items?"
+msgstr "Sunteți sigur că vreți să copiați XXX elemente?"
+
+msgid "From left"
+msgstr "De la stânga"
+
+msgid "To right"
+msgstr "De la dreapta"
+
+msgid "Don't ask this &question again."
+msgstr "Nu î&ntreba din nou."
+
+msgid "Yes"
+msgstr "Da"
+
+msgid "No"
+msgstr "Nu"
+
+msgid "Plugins"
+msgstr "Plugin-uri"
+
+msgid "&Enable plugins"
+msgstr "Activ&ează plugin-uri"
+
+msgid "Plugin &type:"
+msgstr ""
+
+msgid "File filters:"
+msgstr "Filtre fișiere:"
+
+msgid "&Plugin arguments:"
+msgstr "Argumente &plugin-uri:"
+
+msgid "Enable &automatic unpacking/prediffing"
+msgstr "Acrivează dezarhivarea/prediferențierea &automată pentru plugin"
+
+msgid "Shell Integration"
+msgstr "Integrare în shell"
+
+msgid "Explorer"
+msgstr "Explorer"
+
+msgid "&Add to context menu"
+msgstr "&Adaugă la meniul contextual"
+
+msgid "E&nable advanced menu"
+msgstr "Activează me&niul contextual avansat"
+
+msgid "Enable &Compare As menu"
+msgstr "Activează meniul &Compară ca"
+
+msgid "&Register Shell Extension"
+msgstr "În&registrează extensia shell"
+
+msgid "&Unregister Shell Extension"
+msgstr "Deînregistrează extensia shell"
+
+msgid "Register Shell Extension for Current User &Only"
+msgstr "Înregistrează extensia shell d&oar pentru utilizatorul curent"
+
+msgid "Unregister Shell Extension for Current User On&ly"
+msgstr "Deînregistrează extensia shell doar pentru uti&lizatorul curent"
+
+msgid "Register Shell Extension for &Windows 11"
+msgstr "Înregistrează extensia shell pentru &Windows 11 ori mai nou"
+
+msgid "Unregister Shell Extension for W&indows 11"
+msgstr "Deînregistrează extensia shell pentru W&indows 11 ori mai nou"
+
+msgid "Jump List"
+msgstr "Lista de salturi"
+
+msgid "Clear all recent items"
+msgstr "Șterge toate elementele recente"
+
+msgctxt "Options dialog|Categories"
+msgid "Folder"
+msgstr "Director"
+
+msgid "&Compare method:"
+msgstr "Metoda de &comparare:"
+
+msgid "S&top after first difference"
+msgstr "Opreș&te după prima diferență"
+
+msgid "Ign&ore time differences less than 3 seconds"
+msgstr "Ign&oră diferențe de timp mai mici de 3 secunde"
+
+msgid "Expand subfolders &after comparison:"
+msgstr "Expandează &automat subdirectoarele după comparare:"
+
+msgid "Include &unique subfolders contents"
+msgstr "Include conținutul &unic al subdirectoarelor"
+
+msgid "Ignore &reparse points"
+msgstr "Ignoră punctele de reparsare"
+
+msgid "Switch to &quick compare when size exceeds (MB):"
+msgstr "Prag pentru trecerea la compararea rapidă (MB):"
+
+msgid "Switch to &binary compare when size exceeds (MB):"
+msgstr "Prag pentru trecerea la compararea binară (MB):"
+
+msgid "File patterns:"
+msgstr "Modele de fișiere:"
+
+msgid "Custom Delimiter-Separated Values"
+msgstr "Valori separate cu delimitator personalizat"
+
+msgctxt "Options dialog|Categories"
+msgid "Binary"
+msgstr "Binar"
+
+msgid "Binary file &patterns:"
+msgstr "Modele de fișiere binare:"
+
+msgid "Frhed settings"
+msgstr "Setări Frhed"
+
+msgid "View &Settings..."
+msgstr "&Setări vizualizare..."
+
+msgid "&Binary Mode..."
+msgstr "Mod &binar..."
+
+msgid "&Character Set..."
+msgstr "Set &caractere..."
+
+msgid "Image"
+msgstr "Imagine"
+
+msgid "Image file &patterns:"
+msgstr "Modele fișiere imagine:"
+
+msgid "&Enable image compare in folder compare"
+msgstr "Activ&ează compararea imaginilor la compararea directoarelor"
+
+msgid "OCR result:"
+msgstr "Rezultat OCR:"
+
+msgid "Webpage"
+msgstr "Pagină web"
+
+msgid "URL pattern to &include (Regular expression):"
+msgstr "Model URL de &inclus (expresie regulată):"
+
+msgid "URL pattern to &exclude (Regular expression):"
+msgstr "Model URL de &exclus (expresie regulată):"
+
+msgid "&User data folder location:"
+msgstr "Locația directorului de date utilizator:"
+
+msgid "&Separate user data folders for each pane"
+msgstr "&Separă directoarele de date utilizator pentru fiecare panou"
+
+msgid "&Hex View"
+msgstr "Afișare &hexadecimală"
+
+msgid "Edit Plugin"
+msgstr ""
+
+msgid "&Category:"
+msgstr ""
+
+msgid "&Menu caption:"
+msgstr ""
+
+msgid "&Window type:"
+msgstr ""
+
+msgid "&Unpacked file extension:"
+msgstr ""
+
+msgid "&Require arguments"
+msgstr ""
+
+msgid "&Generate editor script"
+msgstr ""
+
+msgid "Command &line:"
+msgstr ""
+
+msgid "&Script file extension:"
+msgstr ""
+
+msgid "Script &body:"
+msgstr ""
+
+msgid "EXT"
+msgstr "EXT"
+
+msgid "CAP"
+msgstr "CAP"
+
+msgid "NUM"
+msgstr "NUM"
+
+msgid "SCRL"
+msgstr "SCRL"
+
+msgid "OVR"
+msgstr "OVR"
+
+msgid "REC"
+msgstr "REC"
+
+msgid ""
+"\n"
+"New Documents (Ctrl+N)"
+msgstr ""
+"\n"
+"Documente noi (Ctrl+N)"
+
+msgid ""
+"\n"
+"Open (Ctrl+O)"
+msgstr ""
+"\n"
+"Deschide (Ctrl+O)"
+
+msgid ""
+"\n"
+"Save (Ctrl+S)"
+msgstr ""
+"\n"
+"Salvează (Ctrl+S)"
+
+msgid "Unknown error opening project file."
+msgstr "Eroare necunoscută la încercarea de deschidere a fișierului proiect."
+
+msgid "Unknown error saving project file."
+msgstr "Eroare necunoscută la încercarea de salvare a fișierului proiect."
+
+msgid "Project file loaded."
+msgstr "Fișierul proiect a fost încărcat cu succes."
+
+msgid "Project file saved."
+msgstr "Fișierul proiect a fost salvat cu succes."
+
+msgid ""
+"\n"
+"Undo (Ctrl+Z)"
+msgstr ""
+"\n"
+"Anulează (Ctrl+Z)"
+
+msgid ""
+"\n"
+"Redo (Ctrl+Y)"
+msgstr ""
+"\n"
+"Refă (Ctrl+Y)"
+
+msgid ""
+"\n"
+"FileCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"WinMerge File Compare"
+msgstr ""
+"\n"
+"Comparare fișiere\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"WinMerge Comparare fișiere"
+
+msgid ""
+"\n"
+"FolderCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"WinMerge Folder Compare"
+msgstr ""
+"\n"
+"Comparare directoare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"WinMerge Comparare directoare"
+
+msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. It is free software and can be redistributed under the conditions of the GNU General Public License - see the Help menu for details."
+msgstr ""
+"WinMerge vine fără ABSOLUT NICIO GARANȚIE. Acesta este software liber și "
+"sunteți bineveniți să-l redistribuiți sub anumite circumstanțe; vedeți "
+"Licența Publică Generală GNU în meniul Ajutor pentru detalii."
+
+msgid "&Abort"
+msgstr "Re&nunță"
+
+msgid "&Retry"
+msgstr "&Reîncearcă"
+
+msgid "&Ignore"
+msgstr "&Ignoră"
+
+msgid "Ignore &all"
+msgstr "Ignoră to&ate"
+
+msgid "&Yes"
+msgstr "&Da"
+
+msgid "Yes to &all"
+msgstr "D&a la toate"
+
+msgid "&No"
+msgstr "&Nu"
+
+msgid "No to a&ll"
+msgstr "Nu la to&ate"
+
+msgid "&Continue"
+msgstr "&Continuă"
+
+msgid "&Skip"
+msgstr "O&mite"
+
+msgid "Skip &all"
+msgstr "Omite to&ate"
+
+msgid "Don't display this &message again."
+msgstr "Nu afișa acest &mesaj din nou."
+
+msgid "To make this message box visible, press Reset on the Message Boxes page in Options."
+msgstr ""
+"Pentru a face vizibilă din nou această fereastră de dialog, apăsați butonul "
+"Reinițializare din pagina Ferestre mesaj a dialogului Opțiuni."
+
+msgid "Compare/Merge"
+msgstr ""
+
+msgid "Syntax"
+msgstr "Sintaxă"
+
+msgid "Color Schemes"
+msgstr "Scheme culori"
+
+msgid "Folder Compare"
+msgstr "Comparare directoare"
+
+msgid "Project"
+msgstr "Proiect"
+
+msgid "Differences"
+msgstr "Diferențe"
+
+msgid "Message Boxes"
+msgstr "Ferestre mesaj"
+
+msgid "To:"
+msgstr "Către:"
+
+msgid "From left:"
+msgstr "De la stânga:"
+
+msgid "To left:"
+msgstr "Către stânga:"
+
+msgid "From right:"
+msgstr "De la dreapta:"
+
+msgid "To right:"
+msgstr "Către dreapta:"
+
+msgid "From middle:"
+msgstr "Din mijloc:"
+
+msgid "To middle:"
+msgstr "Către mijloc:"
+
+#, c-format
+msgid "Version %1"
+msgstr "Versiunea %1"
+
+msgid "X64"
+msgstr "X64"
+
+#, c-format
+msgid "Options (%1)"
+msgstr "Opțiuni (%1)"
+
+msgid "All message boxes are now displayed again."
+msgstr "Toate casetele de mesaj vor fi de acum afișate din nou."
+
+#, c-format
+msgid "Tab size value is out of range. Please use 1 - %1."
+msgstr ""
+"Valoarea din câmpul Mărime filă nu se încadrează în limitele acceptate de "
+"WinMerge.\n"
+"\n"
+"Vă rugăm folosiți valorile 1 - %1."
+
+msgid "Open"
+msgstr "Deschide"
+
+msgid "Programs|*.exe;*.bat;*.cmd|All Files (*.*)|*.*||"
+msgstr "Programe|*.exe;*.bat;*.cmd|Toate fișierele (*.*)|*.*||"
+
+msgid "All Files (*.*)|*.*||"
+msgstr "Toate fișierele (*.*)|*.*||"
+
+msgid "WinMerge Project Files (*.WinMerge)|*.WinMerge||"
+msgstr "Fișiere proiect WinMerge (*.WinMerge)|*.WinMerge||"
+
+msgid "Options files (*.ini)|*.ini|All Files (*.*)|*.*||"
+msgstr "Fișiere opțiuni (*.ini)|*.ini|Toate fișierele (*.*)|*.*||"
+
+msgid ""
+"Text Files (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|All Files (*.*)|"
+"*.*||"
+msgstr ""
+"Fișiere text (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|Toate "
+"fișierele (*.*)|*.*||"
+
+msgid "HTML Files (*.htm,*.html)|*.htm;*.html|All Files (*.*)|*.*||"
+msgstr "Fișiere HTML (*.htm,*.html)|*.htm;*.html|Toate fișierele (*.*)|*.*||"
+
+msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
+msgstr "Fișiere XML (*.xml)|*.xml|Toate fișierele (*.*)|*.*||"
+
+msgid "Do not expand"
+msgstr "Nu expanda"
+
+msgid "Expand all subfolders"
+msgstr "Expandează toate subdirectoarele"
+
+msgid "Expand different subfolders"
+msgstr "Expandează subdirectoarele diferite"
+
+msgid "Expand identical subfolders"
+msgstr "Expandează subdirectoarele identice"
+
+msgid "File Type"
+msgstr "Tip fișier"
+
+msgid "Extension"
+msgstr "Extensie"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Answer"
+msgstr "Răspuns"
+
+msgid "Item"
+msgstr "Element"
+
+msgid "Load"
+msgstr "Încarcă"
+
+msgid "Save"
+msgstr "Salvează"
+
+msgid "Include Subfolders"
+msgstr "Include subdirectoare"
+
+msgid "Compare Options"
+msgstr "Opțiuni comparare"
+
+msgid "Hidden Items"
+msgstr "Elemente ascunse"
+
+msgid "Name"
+msgstr "Nume"
+
+msgid "Location"
+msgstr "Locație"
+
+msgid "Filters"
+msgstr "Filtre"
+
+msgid "[F] "
+msgstr "[F] "
+
+msgid "Description"
+msgstr "Descriere"
+
+msgid "Select Filename for New Filter"
+msgstr "Selectează numele fișierului pentru noul filtru"
+
+msgid "File Filters (*.flt)|*.flt|All Files (*.*)|*.*||"
+msgstr "Fișiere filtru (*.flt)|*.flt|Toate fișierele (*.*)|*.*||"
+
+#, c-format
+msgid ""
+"Cannot find filter template!\n"
+"\n"
+"Copy %1 to WinMerge/Filters Folder:\n"
+"%2."
+msgstr ""
+"Nu s-a găsit fișierul filtru șablon!\n"
+"\n"
+"Vă rugăm copiați fișierul %1 în directorul WinMerge/Filters :\n"
+"%2."
+
+#, c-format
+msgid ""
+"Cannot copy filter template:\n"
+"%1\n"
+"\n"
+"Make sure the folder exists and is writable."
+msgstr ""
+"Nu se poate copia fișierul filtru șablon către directorul filtru:\n"
+"%1\n"
+"\n"
+"Vă rugăm verificați că fișierul există și este editabil."
+
+msgid ""
+"User's filter folder is not defined!\n"
+"\n"
+"Select filter folder in Options/System."
+msgstr ""
+"Directorul filtru al utilizatorului nu este definit!\n"
+"\n"
+"Vă rugăm selectați directorul filtru în Opțiuni.../Sistem."
+
+#, c-format
+msgid ""
+"Failed to delete filter:\n"
+"%1\n"
+"\n"
+"File may be read-only."
+msgstr ""
+"Nu s-a putut șterge fișierul filtru:\n"
+"%1\n"
+"\n"
+"Este posibil ca fișierul să fie protejat la scriere?"
+
+msgid "Locate Filter File to Install"
+msgstr "Selectați fișierul filtru pentru instalare"
+
+msgid ""
+"Installing filter file failed.\n"
+"\n"
+"Could not copy new filter to folder."
+msgstr ""
+"Instalarea fișierului filtru a eșuat.\n"
+"\n"
+"Nu s-a putut copia noul fișier filtru în directorul filtru."
+
+msgid "Filter file exists. Overwrite?"
+msgstr "Fișierul filtru deja există. Suprascrie?"
+
+msgid "Regular expression"
+msgstr "Expresie regulată"
+
+msgid "Filters updated. Refresh all open folder compares?\n\nSelect 'No' to refresh later."
+msgstr ""
+"Filtrele au fost actualizate. Doriți să reîmprospătați toate comparările de "
+"directoare deschise?\n"
+"\n"
+"Dacă nu doriți să reîmprospătați acum toate comparările, alegeți 'Nu' și "
+"reîmprospătați comparările mai târziu."
+
+msgid "Folder Comparison Results"
+msgstr "Rezultate comparare directoare"
+
+msgid "File Comparison"
+msgstr "Comparare fișiere"
+
+msgid "Untitled Left"
+msgstr "Nedenumit stânga"
+
+msgid "Untitled Middle"
+msgstr "Nedenumit mijloc"
+
+msgid "Untitled Right"
+msgstr "Nedenumit dreapta"
+
+msgid "Base File"
+msgstr "Fișierul bază"
+
+msgid "Theirs File"
+msgstr "Fișierul lor"
+
+msgid "Mine File"
+msgstr "Fișierul meu"
+
+msgid "Original File"
+msgstr "Fișierul original"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
+msgstr "Rd: %s  Col: %d/%d  Car: %d/%d  EOL: %s"
+
+#, c-format
+msgid "Line: %s"
+msgstr "Rând: %s"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
+msgstr "Rd: %s  Col: %d/%d  Car: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr "  Sel: %d | %d"
+
+msgid "Merge"
+msgstr "Fuziune"
+
+#, c-format
+msgid "Difference %1 of %2"
+msgstr "Deferența %1 din %2"
+
+#, c-format
+msgid "%1 Differences Found"
+msgstr "%1 diferențe găsite"
+
+msgid "1 Difference Found"
+msgstr "O diferență găsită"
+
+#, c-format
+msgid "%1 Errors Found"
+msgstr ""
+
+msgid "1 Error Found"
+msgstr ""
+
+#. Abbreviation from "Read Only"
+msgid "RO"
+msgstr "RO"
+
+#, c-format
+msgid "Item %1 of %2"
+msgstr "Element %1 din %2"
+
+#, c-format
+msgid "Items: %1"
+msgstr "Elemente: %1"
+
+msgid "Comparing items..."
+msgstr "Comparare elemente..."
+
+#, c-format
+msgid "%.1f[items/sec]"
+msgstr "%.1f[elem/sec]"
+
+msgid "Select two existing folders/files to compare."
+msgstr "Selectați două directoare sau fișiere existente pentru comparare."
+
+msgid "Folder Selection"
+msgstr "Selectare directoare"
+
+msgid "Select two (or three) folders/files to compare."
+msgstr ""
+"Selectați două (sau trei) directoare ori două (sau trei) fișiere pentru "
+"comparare."
+
+msgid "Left (1st) path is invalid!"
+msgstr "Calea din stânga (1) este invalidă!"
+
+msgid "Middle (2nd) path is invalid!"
+msgstr "Calea din mijloc (2) este invalidă!"
+
+msgid "Right (2nd) path is invalid!"
+msgstr "Calea din dreapta (2) este invalidă!"
+
+msgid "Right (3rd) path is invalid!"
+msgstr "Calea din dreapta (3) este invalidă!"
+
+msgid "Both paths are invalid!"
+msgstr "Ambele căi sunt nevalide!"
+
+msgid "Left (1st) and Middle (2nd) paths are invalid!"
+msgstr "Căile din stânga (1) și mijloc (2) sunt invalide!"
+
+msgid "Left (1st) and Right (3rd) paths are invalid!"
+msgstr "Căile din stânga (1) și dreapta (3) sunt invalide!"
+
+msgid "Middle (2nd) and Right (3rd) paths are invalid!"
+msgstr "Căile din mijloc (2) și dreapta (3) sunt invalide!"
+
+msgid "All paths are invalid!"
+msgstr "Toate căile sunt invalide!"
+
+msgid "Only enabled for file comparisons"
+msgstr "Activat doar pentru comparare de fișiere"
+
+msgid "Cannot compare file and folder!"
+msgstr "Nu se poate compara un fișier cu un director!"
+
+#, c-format
+msgid "File not found: %1"
+msgstr "Fișier negăsit: %1"
+
+#, c-format
+msgid "File not unpacked: %1"
+msgstr "Fișier nedezarhivat: %1"
+
+#, c-format
+msgid ""
+"Cannot open file\n"
+"%1\n"
+"\n"
+"%2"
+msgstr ""
+"Nu se poate deschide fișierul\n"
+"%1\n"
+"\n"
+"%2"
+
+msgid "Failed to parse conflict file."
+msgstr "Analizarea fișierului de conflicte a eșuat."
+
+#, c-format
+msgid "The file\n%1\nis not a conflict file."
+msgstr ""
+"Fișierul\n"
+"%1\n"
+"nu e un fișier de conflicte."
+
+msgid "Comparing large files requires significant memory.\nShow only comparison results (not file contents)?"
+msgstr ""
+"Sunteți pe cale să comparați fișiere foarte mari.\n"
+"Pentru a afișa conținutul fișierelor, e nevoie de o cantitate foarte mare de "
+"memorie.\n"
+"Doriți să arătați doar rezultatele comparării și nu conținutul fișierelor?\n"
+"\n"
+
+msgid "Save As"
+msgstr "Salvează ca"
+
+#, c-format
+msgid "Save changes to %1?"
+msgstr "Salvează schimbările în %1?"
+
+#, c-format
+msgid "%1 is read-only. Override? Or 'No' to save as new filename?"
+msgstr ""
+"%1 este marcat ca numai-citire. Doriți suprascrierea fișierului numai-"
+"citire? (Apăsați nu ca să forțați redenumirea.)"
+
+msgid "Error backing up file"
+msgstr "Eroare la salvarea copiei de siguranță a fișierului"
+
+#, c-format
+msgid ""
+"Unable to backup original file:\n"
+"%1\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"Imposibil de realizat copia de siguranță a fișierului original:\n"
+"%1\n"
+"\n"
+"Continuați oricum?"
+
+#, c-format
+msgid "Saving file failed.\n%1\n%2\n\t- Use different filename (OK)\n\t- Abort (Cancel)?"
+msgstr ""
+"Salvarea fișierului a eșuat.\n"
+"%1\n"
+"%2\n"
+"Doriți să:\n"
+"\t- folosiți un alt nume de fișier (apăsați OK)\n"
+"\t- renunțați la operația curentă (apăsați Renunță)?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to left file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"Plugin-ul '%2' nu poate arhiva schimbările fișierului din partea stângă "
+"înapoi în '%1'.\n"
+"\n"
+"Fișierul original nu va fi modificat.\n"
+"\n"
+"Doriți să salvați versiunea nearhivată în alt fișier?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to middle file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"Plugin-ul '%2' nu poate arhiva schimbările fișierului din mijloc înapoi în "
+"'%1'.\n"
+"\n"
+"Fișierul original nu va fi modificat.\n"
+"\n"
+"Doriți să salvați versiunea nearhivată în alt fișier?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to right file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"Plugin-ul '%2' nu poate arhiva schimbările fișierului din partea dreaptă "
+"înapoi în '%1'.\n"
+"\n"
+"Fișierul original nu va fi modificat.\n"
+"\n"
+"Doriți să salvați versiunea nearhivată în alt fișier?"
+
+#, c-format
+msgid ""
+"Another application updated\n"
+"%1\n"
+"since WinMerge loaded it.\n"
+"\n"
+"Overwrite?"
+msgstr ""
+"Altă aplicație a actualizat fișierul\n"
+"%1\n"
+"de la încărcarea lui de către WinMerge.\n"
+"\n"
+"Suprascrieți fișierul modificat?"
+
+#, c-format
+msgid ""
+"%1\n"
+"is read-only. Override?"
+msgstr ""
+"%1\n"
+"este marcat ca protejat la scriere. Doriți să suprascrieți elementul "
+"protejat la scriere?"
+
+#, c-format
+msgid "Another application updated\n%1\nsince last scan.\n\nReload?"
+msgstr ""
+"Altă aplicație a actualizat fișierul\n"
+"%1\n"
+"de la ultima scanare făcută de WinMerge.\n"
+"\n"
+"Doriți să reîncărcați fișierul?"
+
+msgid "Save Left File As"
+msgstr "Salvează fișierul din stânga ca"
+
+msgid "Save Middle File As"
+msgstr "Salvează fișierul din mijloc ca"
+
+msgid "Save Right File As"
+msgstr "Salvează fișierul din dreapta ca"
+
+#, c-format
+msgid ""
+"File\n"
+"%1\n"
+"not found. Save a copy to continue."
+msgstr ""
+"Fișierul\n"
+"%1\n"
+"a dispărut. Vă rog salvați o copie a fișierului pentru a continua."
+
+msgid ""
+"Cannot merge unsynched documents.\n"
+"\n"
+"Refresh before continuing."
+msgstr ""
+"Nu se pot fuziona diferențele când documentele nu sunt sincronizate.\n"
+"\n"
+"Reîmprospătați documentele înainte de a continua."
+
+msgid "Break at whitespace"
+msgstr "Întrerupe la blanc"
+
+msgid "Break at whitespace or punctuation"
+msgstr "Întrerupe la blanc sau semn de punctuație"
+
+msgid "Copy to &Middle\tAlt+Right"
+msgstr "Copiază în &mijloc\tAlt+Right"
+
+msgid "Copy to &Middle\tAlt+Left"
+msgstr "Copiază în &mijloc\tAlt+Left"
+
+msgid "Copy from Middle\tAlt+Shift+Right"
+msgstr "Copiază din mijloc\tAlt+Shift+Right"
+
+msgid "Copy from Middle\tAlt+Shift+Left"
+msgstr "Copiază din mijloc\tAlt+Shift+Left"
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Right"
+msgstr "Copiază în mijloc și avansează\tCtrl+Alt+Right"
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Left"
+msgstr "Copiază în mijloc și avansează\tCtrl+Alt+Left"
+
+msgid "Copy All to Middle"
+msgstr "Copiază tot în mijloc"
+
+#, c-format
+msgid "Right to Left (%1)"
+msgstr "Din dreapta în stânga (%1)"
+
+#, c-format
+msgid "Right to Middle (%1)"
+msgstr "Din dreapta în mijloc (%1)"
+
+#, c-format
+msgid "Middle to Left (%1)"
+msgstr "Din mijloc în stânga (%1)"
+
+#, c-format
+msgid "Middle to Right (%1)"
+msgstr "Din mijloc în dreapta (%1)"
+
+#, c-format
+msgid "Left to Right (%1)"
+msgstr "Din stânga în dreapta (%1)"
+
+#, c-format
+msgid "Left to Middle (%1)"
+msgstr "Din stânga în mijloc (%1)"
+
+#, c-format
+msgid "Left to... (%1)"
+msgstr "Din stânga în... (%1)"
+
+#, c-format
+msgid "Middle to... (%1)"
+msgstr "Din mijloc în... (%1)"
+
+#, c-format
+msgid "Right to... (%1)"
+msgstr "Din dreapta în... (%1)"
+
+#, c-format
+msgid "Both to... (%1)"
+msgstr "Ambele în... (%1)"
+
+#, c-format
+msgid "All to... (%1)"
+msgstr "Toate în... (%1)"
+
+#, c-format
+msgid "Differences to... (%1)"
+msgstr "Diferențele în... (%1)"
+
+msgid "Some selected items are identical or skipped.\nCopy only items with differences?"
+msgstr ""
+
+#, c-format
+msgid "Left (%1)"
+msgstr "Stânga (%1)"
+
+#, c-format
+msgid "Middle (%1)"
+msgstr "Mijloc (%1)"
+
+#, c-format
+msgid "Right (%1)"
+msgstr "Dreapta (%1)"
+
+#, c-format
+msgid "Both (%1)"
+msgstr "Ambele (%1)"
+
+#, c-format
+msgid "All (%1)"
+msgstr "Tot (%1)"
+
+msgid "Left Side - Select Destination Folder:"
+msgstr "Partea stângă - selectare director destinație:"
+
+msgid "Middle Side - Select Destination Folder:"
+msgstr "Partea din mijloc - selectare director destinație:"
+
+msgid "Right Side - Select Destination Folder:"
+msgstr "Partea dreaptă - selectare director destinație:"
+
+#, c-format
+msgid "(%1 Files Affected)"
+msgstr "(%1 fișiere afectate)"
+
+#, c-format
+msgid "(%1 of %2 Files Affected)"
+msgstr "(%1 din %2 fișiere afectate)"
+
+#, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\n"
+"%1 ?"
+msgstr ""
+"Sunteți sigur că vreți să ștergeți\n"
+"\n"
+"%1 ?"
+
+msgid "Are you sure you want to copy?"
+msgstr "Sunteți sigur că vreți să copiați?"
+
+#, c-format
+msgid "Are you sure you want to copy %d items?"
+msgstr "Sunteți sigur că vreți să copiați %d elemente?"
+
+#, c-format
+msgid ""
+"Operation aborted!\n"
+"\n"
+"Folder contents changed, path\n"
+"%1\n"
+"not found.\n"
+"\n"
+"Refresh the compare."
+msgstr ""
+"Operație întreruptă!\n"
+"\n"
+"Conținutul directorului s-a modificat pe disc, calea\n"
+"%1\n"
+"nu a fost găsită.\n"
+"\n"
+"Vă rugăm reîmprospătați compararea."
+
+msgid "Are you sure you want to move?"
+msgstr "Sunteți sigur că vreți să mutați?"
+
+#, c-format
+msgid "Are you sure you want to move %d items?"
+msgstr "Sunteți sigur că vreți să mutați %d elemente?"
+
+msgid "Confirm Move"
+msgstr "Confirmați mutarea"
+
+msgid "Close the folder comparison window?"
+msgstr ""
+"Sunteți pe cale să închideți fereastra care compară directoarele. Sunteți "
+"sigur?"
+
+msgid "Close the folder comparison window, which took a long time?"
+msgstr ""
+
+msgid "The file or folder name is invalid."
+msgstr "Numele fișierului sau al directorului este invalid."
+
+#, c-format
+msgid "Failed to execute external editor: %1"
+msgstr "Execuția editorului extern a eșuat: %1"
+
+msgid "Unknown archive format"
+msgstr "Format arhivă necunoscut"
+
+msgid ""
+"Failed to extract archive.\n"
+"Compare as text file?"
+msgstr ""
+"Extragerea fișierelor din arhivă a eșuat.\n"
+"Doriți să comparați arhivele ca fișiere text?"
+
+msgid "Filename"
+msgstr "Nume fișier"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Folder"
+msgstr "Director"
+
+msgid "Comparison Result"
+msgstr "Rezultat comparare"
+
+msgid "Left Date"
+msgstr "Dată stânga"
+
+msgid "Right Date"
+msgstr "Dată dreapta"
+
+msgid "Middle Date"
+msgstr "Dată mijloc"
+
+msgid "Left Size"
+msgstr "Mărime stânga"
+
+msgid "Right Size"
+msgstr "Mărime dreapta"
+
+msgid "Middle Size"
+msgstr "Mărime mijloc"
+
+msgid "Right Size (Short)"
+msgstr "Mărime dreapta (scurt)"
+
+msgid "Left Size (Short)"
+msgstr "Mărime stânga (scurt)"
+
+msgid "Middle Size (Short)"
+msgstr "Mărime mijloc (scurt)"
+
+msgid "Left Creation Time"
+msgstr "Timp creare stânga"
+
+msgid "Right Creation Time"
+msgstr "Timp creare dreapta"
+
+msgid "Middle Creation Time"
+msgstr "Timp creare mijloc"
+
+msgid "Newer File"
+msgstr "Fișier mai nou"
+
+msgid "Left File Version"
+msgstr "Versiune fișier stânga"
+
+msgid "Right File Version"
+msgstr "Versiune fișier dreapta"
+
+msgid "Middle File Version"
+msgstr "Versiune fișier mijloc"
+
+msgid "Short Result"
+msgstr "Rezultat scurt"
+
+msgid "Left Attributes"
+msgstr "Atribute stânga"
+
+msgid "Right Attributes"
+msgstr "Atribute dreapta"
+
+msgid "Middle Attributes"
+msgstr "Atribute mijloc"
+
+msgid "Left EOL"
+msgstr "EOL stânga"
+
+msgid "Middle EOL"
+msgstr "EOL mijloc"
+
+msgid "Right EOL"
+msgstr "EOL dreapta"
+
+msgid "Left Encoding"
+msgstr "Set de caractere stânga"
+
+msgid "Right Encoding"
+msgstr "Set de caractere dreapta"
+
+msgid "Middle Encoding"
+msgstr "Set de caractere mijloc"
+
+msgid "Ignored Diff"
+msgstr "Diferențe ignorate"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Binary"
+msgstr "Binar"
+
+msgid "Unpacker"
+msgstr "Dezarhivator"
+
+msgid "Prediffer"
+msgstr "Prediferențiator"
+
+msgid "Left"
+msgstr "Stânga"
+
+msgid "Middle"
+msgstr "Mijloc"
+
+msgid "Right"
+msgstr "Dreapta"
+
+msgid "Diff"
+msgstr "Diferență"
+
+msgid "Left Duplicate Count"
+msgstr "Număr duplicate stânga"
+
+msgid "Right Duplicate Count"
+msgstr "Număr duplicate dreapta"
+
+msgid "Middle Duplicate Count"
+msgstr "Număr duplicate mijloc"
+
+msgid "Move"
+msgstr "Mută"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Calendar"
+msgstr "Calendar"
+
+msgid "Communication"
+msgstr "Comunicare"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Devices"
+msgstr "Dispozitive"
+
+msgid "Document"
+msgstr "Document"
+
+msgid "Home"
+msgstr "Acasă"
+
+msgid "Journal"
+msgstr "Jurnal"
+
+msgid "Link"
+msgstr "Legătură"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "Music"
+msgstr "Muzică"
+
+msgid "Note"
+msgstr "Notă"
+
+msgid "Photo"
+msgstr "Foto"
+
+msgid "RecordedTV"
+msgstr "RecordedTV"
+
+msgid "Search"
+msgstr "Căutare"
+
+msgid "Security"
+msgstr "Securitate"
+
+msgid "Software"
+msgstr "Software"
+
+msgid "Task"
+msgstr "Sarcină"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Hash"
+msgstr "Hash"
+
+msgid "Unable to compare files"
+msgstr "Imposibil de comparat fișierele"
+
+msgid "Item aborted"
+msgstr "Element întrerupt"
+
+msgid "File skipped"
+msgstr "Fișier omis"
+
+msgid "Folder skipped"
+msgstr "Director omis"
+
+#, c-format
+msgid "Left only: %1"
+msgstr "Numai stânga: %1"
+
+#, c-format
+msgid "Middle only: %1"
+msgstr "Numai mijloc: %1"
+
+#, c-format
+msgid "Right only: %1"
+msgstr "Numai dreapta: %1"
+
+#, c-format
+msgid "Does not exist in %1"
+msgstr "Nu există în %1"
+
+msgid "Binary files are identical"
+msgstr "Fișierele binare sunt identice"
+
+msgid "Binary files are different"
+msgstr "Fișierele binare sunt diferite"
+
+msgid "Files are different"
+msgstr "Fișierele sunt diferite"
+
+msgid "Folders are different"
+msgstr "Directoarele sunt diferite"
+
+msgid "Left Only"
+msgstr "Numai stânga"
+
+msgid "Right Only"
+msgstr "Numai dreapta"
+
+msgid "Middle Only"
+msgstr "Numai mijloc"
+
+msgid "No item in left"
+msgstr "Niciun element în stânga"
+
+msgid "No item in right"
+msgstr "Niciun element în dreapta"
+
+msgid "No item in middle"
+msgstr "Niciun element în mijloc"
+
+msgid "Error"
+msgstr "Eroare"
+
+msgid "Text files are identical"
+msgstr "Fișierele text sunt identice"
+
+msgid " (Middle and right are identical)"
+msgstr " (Mijlocul și stânga sunt identice)"
+
+msgid " (Left and right are identical)"
+msgstr " (Stânga și dreapta sunt identice)"
+
+msgid " (Left and middle are identical)"
+msgstr " (Stânga și mijlocul sunt identice)"
+
+msgid "Text files are different"
+msgstr "Fișierele text sunt diferite"
+
+msgid "Image files are identical"
+msgstr "Fișierele imagine sunt identice"
+
+msgid "Image files are different"
+msgstr "Fișierele imagine sunt diferite"
+
+#, c-format
+msgid "Group%d"
+msgstr "Grup%d"
+
+#, c-format
+msgid "Elapsed time: %ld ms"
+msgstr "Timp scurs: %ld ms"
+
+msgid "1 item selected"
+msgstr "Un element selectat"
+
+#, c-format
+msgid "%1 items selected"
+msgstr "%1 elemente selectate"
+
+msgid "Filename or folder name."
+msgstr "Nume de fișier sau director."
+
+msgid "Subfolder name when subfolders are included."
+msgstr "Nume subdirector când subdirectoarele sunt incluse."
+
+msgid "Comparison result, long form."
+msgstr "Rezultate comparare, forma lungă."
+
+msgid "Left side modification date."
+msgstr "Data modificării părții stângi."
+
+msgid "Right side modification date."
+msgstr "Data modificării părții drepte."
+
+msgid "Middle side modification date."
+msgstr "Data modificării părții din mijloc."
+
+msgid "File's extension."
+msgstr "Extensia fișierului."
+
+msgid "Left file size in bytes."
+msgstr "Dimensiune fișier stânga în octeți."
+
+msgid "Right file size in bytes."
+msgstr "Dimensiune fișier dreapta în octeți."
+
+msgid "Middle file size in bytes."
+msgstr "Dimensiune fișier mijloc în octeți."
+
+msgid "Left file size abbreviated."
+msgstr "Dimensiune fișier stânga prescurtată."
+
+msgid "Right file size abbreviated."
+msgstr "Dimensiune fișier dreapta prescurtată."
+
+msgid "Middle file size abbreviated."
+msgstr "Dimensiune fișier mijloc prescurtată."
+
+msgid "Left side creation time."
+msgstr "Timp creare stânga."
+
+msgid "Right side creation time."
+msgstr "Timp creare dreapta."
+
+msgid "Middle side creation time."
+msgstr "Timp creare mijloc."
+
+msgid "Tells which side has newer modification date."
+msgstr "Raportează care parte are o dată a modificării mai recentă."
+
+msgid "Left side file version, only for some file types."
+msgstr "Versiune fișier stânga, numai pentru unele tipuri de fișiere."
+
+msgid "Right side file version, only for some file types."
+msgstr "Versiune fișier dreapta, numai pentru unele tipuri de fișiere."
+
+msgid "Middle side file version, only for some file types."
+msgstr "Versiune fișier mijloc, numai pentru unele tipuri de fișiere."
+
+msgid "Short comparison result."
+msgstr "Rezultat comparare pe scurt."
+
+msgid "Left side attributes."
+msgstr "Atribute partea stângă."
+
+msgid "Right side attributes."
+msgstr "Atribute partea dreaptă."
+
+msgid "Middle side attributes."
+msgstr "Atribute mijloc."
+
+msgid "Left side file EOL type."
+msgstr "Tip EOL fișier partea stângă."
+
+msgid "Right side file EOL type."
+msgstr "Tip EOL fișier partea dreaptă."
+
+msgid "Middle side file EOL type."
+msgstr "Tip EOL fișier mijloc."
+
+msgid "Left side encoding."
+msgstr "Set de caractere partea stângă."
+
+msgid "Right side encoding."
+msgstr "Set de caractere partea dreaptă."
+
+msgid "Middle side encoding."
+msgstr "Set de caractere mijloc."
+
+msgid "Number of ignored differences in file. Ignored and cannot be merged."
+msgstr ""
+"Număr de diferențe ignorate în fișier. Aceste diferențe sunt ignorate de "
+"WinMerge și nu pot fi fuzionate."
+
+msgid "Number of differences in file (excluding ignored)."
+msgstr ""
+"Număr de diferențe în fișier. Acest număr nu include diferențele ignorate."
+
+msgid "Shows an asterisk (*) if the file is binary."
+msgstr "Afișează un asterisc (*) dacă fișierul este binar."
+
+msgid "Unpacker plugin name or pipeline."
+msgstr "Nume sau lanț plugin dezarhivator."
+
+msgid "Prediffer plugin name or pipeline."
+msgstr "Nume sau lanț plugin prediferențiator."
+
+#, c-format
+msgid "Compare %1 with %2"
+msgstr "Compară %1 cu %2"
+
+#, c-format
+msgid "Compare %1 with %2 and %3"
+msgstr "Compară %1 cu %2 și %3"
+
+msgid "Comma-separated list"
+msgstr "Listă separată-prin-virgule"
+
+msgid "Tab-separated list"
+msgstr "Listă separată-prin-tab-uri"
+
+msgid "Simple HTML"
+msgstr "HTML simplu"
+
+msgid "Simple XML"
+msgstr "XML simplu"
+
+msgid "Report file already exists. Overwrite?"
+msgstr "Fișierul raport există deja. Doriți să suprascrieți fișierul existent?"
+
+#, c-format
+msgid ""
+"Error creating the report:\n"
+"%1"
+msgstr ""
+"Eroare la creare raport:\n"
+"%1"
+
+msgid "Report created successfully."
+msgstr "Raportul a fost creat cu succes."
+
+msgid "Cannot add a synchronization point at this line."
+msgstr "Nu se poate adăuga un punct de sincronizare la acest rând."
+
+msgid "Same file is opened in both panes."
+msgstr "Același fișier este deschis în ambele panouri."
+
+msgid "Selected files are identical."
+msgstr "Fișierele selectate sunt identice."
+
+msgid "An error occurred while comparing files."
+msgstr "A fost întâlnită o eroare în timpul comparării fișierelor."
+
+msgid ""
+"Could not create temporary files. Check your temporary path settings."
+msgstr ""
+"Fișierele temporare nu au putut fi create. Verificați setarea căii către "
+"locația temporară."
+
+msgid "Files use different EOL.\n\nTreat all EOL as equivalent?\n\nSet 'Ignore EOL differences (Windows/Unix/Mac)' in Compare section of Options."
+msgstr ""
+"Aceste fișiere folosesc caractere de sfârșit de rând (EOL) diferite.\n"
+"\n"
+"Doriți tratarea ca și echivalentă a tuturor tipurilor de caractere de "
+"sfârșit de rând pentru această comparare?\n"
+"\n"
+"Notă: Dacă întotdeauna doriți tratarea ca și echivalentă a tuturor "
+"caracterelor de sfârșit de rând (EOL), setați opțiunea 'Ignoră diferențele "
+"sfârșitului de rând (Windows/Unix/Mac)' în fila Comparare a dialogului de "
+"opțiuni (disponibilă sub meniul Editare/Opțiuni)."
+
+msgid "Selected folder is invalid."
+msgstr "Directorul selectat este invalid."
+
+msgid "Cannot open a binary file in Editor."
+msgstr "Nu se poate deschide în editor un fișier binar."
+
+#, c-format
+msgid "Create matching folder:\n%1\non the other side and open?"
+msgstr ""
+"Directorul există doar în partea cealaltă dar nu poate fi deschis.\n"
+"\n"
+"Doriți să creați un director corespondent:\n"
+"%1\n"
+"în partea cealaltă și să deschideți ambele directoare?"
+
+msgid "Copy all differences to other file?"
+msgstr ""
+"Sunteți sigur că doriți să copiați toate diferențele în celelalt fișier?"
+
+msgid "Move to next file?"
+msgstr "Doriți să treceți la fișierul următor?"
+
+msgid "Move to previous file?"
+msgstr "Doriți să treceți la fișierul precedent?"
+
+msgid "Move to next page?"
+msgstr "Doriți să treceți la pagina următoare?"
+
+msgid "Move to previous page?"
+msgstr "Doriți să treceți la pagina precedentă?"
+
+msgid "Move to first file?"
+msgstr "Doriți să treceți la primul fișier?"
+
+msgid "Move to last file?"
+msgstr "Doriți să treceți la ultimul fișier?"
+
+#, c-format
+msgid "Different codepages: left (cp%d), right (cp%d).\nDisplay in codepage (better display) or default Windows codepage (safer merging)?\n(Recommended: default Windows codepage)"
+msgstr ""
+"S-au găsit pagini de codare diferite în fișierul din partea stângă (cp%d) "
+"față de partea dreaptă (cp%d).\n"
+"Afișarea fiecărui fișier în pagina de codare proprie este mai potrivită dar "
+"fuziunea/copierea este periculoasă.\n"
+"Doriți tratarea ambelor fișiere ca și cum ar fi în pagina de codare "
+"implicită din Windows (recomandat)?"
+
+msgid "Information lost due to encoding errors: both files"
+msgstr "Pierdere de informație datorită erorilor de codificare: ambele fișiere"
+
+msgid "Information lost due to encoding errors: first file"
+msgstr "Pierdere de informație datorită erorilor de codificare: fișierul 1"
+
+msgid "Information lost due to encoding errors: second file"
+msgstr "Pierdere de informație datorită erorilor de codificare: fișierul 2"
+
+msgid "Information lost due to encoding errors: third file"
+msgstr "Pierdere de informație datorită erorilor de codificare: fișierul 3"
+
+msgid "No difference"
+msgstr "Nicio diferență"
+
+msgid "Line difference"
+msgstr "Diferență din rând"
+
+#, c-format
+msgid "Replaced %1 string(s)."
+msgstr "S-a(u) înlocuit %1 șir(uri)."
+
+#, c-format
+msgid "Cannot find string \"%s\"."
+msgstr "Nu s-a găsit șirul \"%s\"."
+
+msgid "Entering Merge Mode. Press F9 to turn off."
+msgstr ""
+"Intrați acum în modul fuziune. Dacă doriți să ieșiți din modul fuziune, "
+"apăsați tasta F9."
+
+#, c-format
+msgid ""
+"Automatic merges: %1\n"
+"Unresolved conflicts: %2"
+msgstr ""
+"Număr modificări fuzionate automat: %1\n"
+"Număr conflicte nerezolvate: %2"
+
+msgid "Codepage change merged."
+msgstr "Modificarea paginii de codare a fost fuzionată."
+
+msgid "Codepage changes are conflicting."
+msgstr "Modificările paginii de codare sunt în conflict."
+
+msgid "EOL change merged."
+msgstr "Modificarea EOL a fost fuzionată."
+
+msgid "EOL changes are conflicting."
+msgstr "Modificările EOL sunt în conflict."
+
+msgid "Location Pane"
+msgstr "Panou locație"
+
+msgid "Diff Pane"
+msgstr "Panou diferențe"
+
+msgid "Patch file written."
+msgstr "Fișierul petic a fost scris cu succes."
+
+msgid "First item not found!"
+msgstr "Elementul 1 nu a fost găsit!"
+
+msgid "Second item not found!"
+msgstr "Elementul 2 nu a fost găsit!"
+
+msgid "Patch file already exists. Overwrite?"
+msgstr "Fișierul petic deja există. Doriți suprascrierea lui?"
+
+#, c-format
+msgid "[%1 files selected]"
+msgstr "[%1 fișier(e) selectat(e)]"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Context"
+msgstr "Context"
+
+msgid "Unified"
+msgstr "Unificat"
+
+#, c-format
+msgid "Could not write to file %1."
+msgstr "Nu s-a reușit scrierea în fișierul %1."
+
+#, c-format
+msgid "Output path is not absolute: %1"
+msgstr "Calea destinație specificată nu este o cale absolută: %1"
+
+msgid "Specify an output file."
+msgstr "Specificați un fișier destinație."
+
+msgid "Cannot create patch from binary files."
+msgstr "Nu s-a reușit crearea unui fișier petic din fișiere binare."
+
+msgid ""
+"Save all files first.\n"
+"\n"
+"Creating a patch requires no unsaved changes."
+msgstr ""
+"Vă rugăm salvați întâi toate fișierele.\n"
+"\n"
+"Crearea unui petic necesită ca fișierele să nu aibă modificări nesalvate."
+
+msgid "Folder does not exist."
+msgstr "Directorul nu există."
+
+msgid "Archive support not enabled.\n7-Zip and/or Merge7z*.dll not found.\nSee manual for archive support."
+msgstr ""
+"Suportul de dezarhivare nu este activat.\n"
+"Componentele necesare (7-Zip și/sau Merge7z*.dll) pentru dezarhivare nu au "
+"fost găsite.\n"
+"Vedeți manualul pentru mai multe informații despre suportul de dezarhivare "
+"și despre cum să-l activați."
+
+msgid "Select file for export"
+msgstr "Selectați fișierul pentru export"
+
+msgid "Select file for import"
+msgstr "Selectați fișierul pentru import"
+
+msgid "Options imported from file."
+msgstr "Opțiuni importate din fișier."
+
+msgid "Options exported to file."
+msgstr "Opțiuni exportate către fișier."
+
+msgid "Failed to import options from file."
+msgstr "A eșuat importul opțiunilor din fișier."
+
+msgid "Failed to write options to file."
+msgstr "A eșuat scrierea opțiunilor către fișier."
+
+msgid ""
+"Close multiple compare windows?\n"
+"\n"
+"Continue?"
+msgstr ""
+"Sunteți pe cale să închideți câteva ferestre de comparare.\n"
+"\n"
+"Doriți să continuați?"
+
+msgid "Mixed"
+msgstr "Amestecat"
+
+msgctxt "EOL Type"
+msgid "Binary"
+msgstr "Binar"
+
+msgid "None"
+msgstr "Nici unul"
+
+#, c-format
+msgid "Marker Color %d"
+msgstr "Culoare marcator %d"
+
+msgid "New Pattern"
+msgstr "Model nou"
+
+msgid "Type"
+msgstr "Tip"
+
+msgid "Editor script"
+msgstr "Script editor"
+
+msgid ""
+"\n"
+"Difference in Current Line (F4)"
+msgstr ""
+"\n"
+"Diferențe în rândul curent (F4)"
+
+msgid ""
+"\n"
+"Options"
+msgstr ""
+"\n"
+"Opțiuni"
+
+msgid ""
+"\n"
+"Refresh (F5)"
+msgstr ""
+"\n"
+"Reîmprospătare (F5)"
+
+msgid ""
+"\n"
+"Previous Difference (Alt+Up)"
+msgstr ""
+"\n"
+"Diferența precedentă (Alt+Up)"
+
+msgid ""
+"\n"
+"Next Difference (Alt+Down)"
+msgstr ""
+"\n"
+"Diferența următoare (Alt+Down)"
+
+msgid ""
+"\n"
+"Previous Conflict (Alt+Shift+Up)"
+msgstr ""
+"\n"
+"Conflictul precedent (Alt+Shift+Up)"
+
+msgid ""
+"\n"
+"Next Conflict (Alt+Shift+Down)"
+msgstr ""
+"\n"
+"Conflictul următor (Alt+Shift+Down)"
+
+msgid ""
+"\n"
+"First Difference (Alt+Home)"
+msgstr ""
+"\n"
+"Prima diferență (Alt+Home)"
+
+msgid ""
+"\n"
+"Current Difference (Alt+Enter)"
+msgstr ""
+"\n"
+"Diferența curentă (Alt+Enter)"
+
+msgid ""
+"\n"
+"Last Difference (Alt+End)"
+msgstr ""
+"\n"
+"Ultima diferență (Alt+End)"
+
+msgid ""
+"\n"
+"Copy to Right (Alt+Right)"
+msgstr ""
+"\n"
+"Copiază în dreapta (Alt+Right)"
+
+msgid ""
+"\n"
+"Copy to Left (Alt+Left)"
+msgstr ""
+"\n"
+"Copiază în stânga (Alt+Right)"
+
+msgid ""
+"\n"
+"Copy to Right and Advance (Ctrl+Alt+Right)"
+msgstr ""
+"\n"
+"Copiază în dreapta și avansează (Ctrl+Alt+Right)"
+
+msgid ""
+"\n"
+"Copy to Left and Advance (Ctrl+Alt+Left)"
+msgstr ""
+"\n"
+"Copiază în stânga și avansează (Ctrl+Alt+Left)"
+
+msgid ""
+"\n"
+"Copy All to Right"
+msgstr ""
+"\n"
+"Copiază tot la dreapta"
+
+msgid ""
+"\n"
+"Copy All to Left"
+msgstr ""
+"\n"
+"Copiază tot la stânga"
+
+msgid ""
+"\n"
+"Auto Merge (Ctrl+Alt+M)"
+msgstr ""
+"\n"
+"Fuzionează automat (Ctrl+Alt+M)"
+
+msgid ""
+"\n"
+"First File"
+msgstr ""
+"\n"
+"Primul fișier"
+
+msgid ""
+"\n"
+"Next File (Ctrl+F8)"
+msgstr ""
+"\n"
+"Fișierul următor (Ctrl+F8)"
+
+msgid ""
+"\n"
+"Last File"
+msgstr ""
+"\n"
+"Ultimul fișier"
+
+msgid ""
+"\n"
+"Previous File (Ctrl+F7)"
+msgstr ""
+"\n"
+"Fișierul precedent (Ctrl+F7)"
+
+msgid "Adapted unpacker applied to both files (one needs extension)."
+msgstr ""
+"Dezarhivatorul potrivit este aplicat la ambele fișiere (este suficient ca "
+"doar un fișier să conțină extensie)."
+
+msgid "No Prediffer (Normal)"
+msgstr "Nu folosi prediferențiatorul (normal)"
+
+msgid "Suggested Plugins"
+msgstr "Plugin-uri sugerate"
+
+msgid "All Plugins"
+msgstr "Toate plugin-urile"
+
+#, c-format
+msgid "Private Build: %1"
+msgstr "Număr de asamblare privat: %1"
+
+msgid "Your software is up to date."
+msgstr "Software-ul dvs. este la zi."
+
+#, c-format
+msgid ""
+"WinMerge update available.\n"
+"%1 available (you have %2). Download now?"
+msgstr ""
+"Este disponibilă o nouă versiune WinMerge.\n"
+"%1 este acum disponibilă (dvs. aveți %2). Doriți să o descărcați acum?"
+
+msgid "Failed to download latest version information"
+msgstr "Descărcarea informațiilor despre ultima versiune a eșuat"
+
+msgid "Plugin Settings"
+msgstr "Setări pentru plugin-uri"
+
+msgid "WSH not found - .sct scripts disabled"
+msgstr "Nu s-a găsit WSH - scripturile .sct sunt dezactivate"
+
+#, c-format
+msgid "G&o to Line %1"
+msgstr "&Mergi la rândul %1"
+
+msgid "Go to Moved Line\tCtrl+Shift+G"
+msgstr "Mergi la rândul mutat\tCtrl+Shift+G"
+
+msgid "Disabled"
+msgstr "Inactiv"
+
+msgid "From file system"
+msgstr "Din sistemul de fișiere"
+
+msgid "From Most Recently Used list"
+msgstr "Din lista de recent utilizate"
+
+msgid "No Highlighting"
+msgstr "Fără evidențiere"
+
+msgid "Batch"
+msgstr "Batch"
+
+msgid "Portable Object"
+msgstr "Portable Object"
+
+msgid "Resources"
+msgstr "Resurse"
+
+msgid "Shell"
+msgstr "Shell"
+
+msgid "Close &Left Tabs"
+msgstr "Închide filele din stânga"
+
+msgid "Close R&ight Tabs"
+msgstr "Închide filele din dreapta"
+
+msgid "Close &Other Tabs"
+msgstr "Închide celelalte file"
+
+msgid "Enable &Auto Max Width"
+msgstr "Activează mărime maximă &automatp"
+
+msgid "We&bpage"
+msgstr "Pagină &web"
+
+msgid "W&rap Text"
+msgstr "Înfășoa&ră textul"
+
+msgid "%1 is not installed."
+msgstr "%1 nu este instalat."
+
+#, c-format
+msgid "%1 does not exist. Create it?"
+msgstr "%1 nu există. Doriți să-l creați?"
+
+msgid "Failed to create folder."
+msgstr "Eroare creare director."
+
+msgid ""
+"Parameters:\n"
+"$file: Current file path\n"
+"$linenum: Current cursor line number"
+msgstr ""
+"Puteți specifica următorii parametri pentru cale:\n"
+"$file: nNumele căii fișierului curent\n"
+"$linenum: Numărul rândului unde se află cursorul"
+
+msgid "default"
+msgstr "implicit"
+
+msgid "minimal"
+msgstr "minimal"
+
+msgid "patience"
+msgstr "patience"
+
+msgid "histogram"
+msgstr "histogram"
+
+msgid "none"
+msgstr "niciunul"
+
+msgid "GDI"
+msgstr "GDI"
+
+msgid "DirectWrite Default"
+msgstr "DirectWrite implicit"
+
+msgid "DirectWrite Aliased"
+msgstr "DirectWrite aliasat"
+
+msgid "DirectWrite GDI Classic"
+msgstr "DirectWrite GDI clasic"
+
+msgid "DirectWrite GDI Natural"
+msgstr "DirectWrite GDI natural"
+
+msgid "DirectWrite Natural"
+msgstr "DirectWrite natural"
+
+msgid "DirectWrite Natural Symmetric"
+msgstr "DirectWrite natural simetric"
+
+msgid "MDI child window or main window"
+msgstr "Fereastră copil MDI sau fereastră principală"
+
+msgid "MDI child window only"
+msgstr "Doar fereastră copil MDI"
+
+msgid "Close main window if only one MDI child window"
+msgstr "Închide fereastra principală dacă există doar o fereastră copil MDI"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Diff"
+msgstr "Diferență"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Highlight"
+msgstr "Evidențiere"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Blink"
+msgstr "Clipire"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Size"
+msgstr "Mărime bloc"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Alpha"
+msgstr "Alpha bloc"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "CD Threshold"
+msgstr "Prag CD"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Ins/Del Detection"
+msgstr "Detectare taste Ins/Del"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "None"
+msgstr "Nimic"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Vertical"
+msgstr "Vertical"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Overlay"
+msgstr "Suprapunere"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha"
+msgstr "Alpha"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "XOR"
+msgstr "XOR"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Blend"
+msgstr "Amestec Alpha"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Animation"
+msgstr "Animație Alpha"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Zoom"
+msgstr "Mărire"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Page:"
+msgstr "Pagina:"
+
+#, c-format
+msgid "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+msgstr "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+
+#, c-format
+msgid "Dist: %g  "
+msgstr "Dist: %g  "
+
+#, c-format
+msgid "Dist: %g, %g  "
+msgstr "Dist: %g, %g  "
+
+#, c-format
+msgid "Page: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+msgstr "Pagină: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+
+#, c-format
+msgid "Rc: (%d, %d)  "
+msgstr "Rc: (%d, %d)  "
+
+#, c-format
+msgid "Flipped: %s  "
+msgstr "Reflectat: %s  "
+
+#, c-format
+msgid "Rotated: %d  "
+msgstr "Rotit: %d  "
+
+msgid "All pages"
+msgstr "Toate paginile"
+
+msgid "<Edit here>"
+msgstr "<Editează aici>"
+
+msgid "No differences found to select"
+msgstr "Nu au fost găsite diferențe de selectat"
+
+msgid "No differences found to add as substitution filter"
+msgstr "Nu au fost găsite diferențe de adăugat ca filtru de substituție"
+
+msgid "The pair is already in the Substitution Filters list"
+msgstr "Perechea se află deja în lista filtrelor de substituție"
+
+msgid "Add this change to Substitution Filters?"
+msgstr "Adaug această modificare la filtrele de substituție?"
+
+msgid "Text only"
+msgstr "Doar text"
+
+msgid "Line-by-line position and text"
+msgstr "Poziție și text rând cu rând"
+
+msgid "Word-by-word position and text"
+msgstr "Poziție și text cuvânt cu cuvânt"
+
+msgid "AppData folder"
+msgstr "Directorul AppData"
+
+msgid "Install folder"
+msgstr "Directorul de instalare"
+
+msgid "Allow only one instance to run"
+msgstr "Permite rularea unei singure instanțe"
+
+msgid "Allow only one instance; wait for termination"
+msgstr ""
+"Permite rularea unei singure instanțe și așteaptă ca instanța să se termine"
+
+msgid "Only on window activated"
+msgstr "Doar în fereastră activată"
+
+msgid "Immediately"
+msgstr "Imediat"
+
+msgid "Al&l"
+msgstr "Tot"
+
+msgid "&Others"
+msgstr "Altele"
+
+#, c-format
+msgid "Missing plugin name in pipeline: %1"
+msgstr "Numele fișierului plugin lipsește în lanțul de plugin-uri: %1"
+
+#, c-format
+msgid "Missing quote in plugin pipeline: %1"
+msgstr "Ghilimele lipsă în lanțul de plugin-uri: %1"
+
+#, c-format
+msgid "Plugin name '%1' already exists."
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr "Specificați argumente plugin"
+
+#, c-format
+msgid "Plugin not found or invalid: %1"
+msgstr "Plugin inexistent sau invalid: %1"
+
+#, c-format
+msgid "'%1' is not an unpacker plugin"
+msgstr "'%1' nu este plugin dezarhivator"
+
+#, c-format
+msgid "'%1' is not a prediffer plugin"
+msgstr "'%1' nu este plugin prediferențiator"
+
+#, c-format
+msgid "Error prediffing '%1' with '%2'. Prediffing disabled."
+msgstr ""
+
+#, c-format
+msgid "Circular reference in plugin pipeline: %1"
+msgstr ""
+
+msgid "URL Handler"
+msgstr ""
+
+msgid "File Unpacker"
+msgstr ""
+
+msgid "File or Folder Unpacker"
+msgstr ""
+
+msgid "Alias for Unpacker"
+msgstr ""
+
+msgid "Alias for Prediffer"
+msgstr ""
+
+msgid "Alias for Editor script"
+msgstr ""
+
+#, c-format
+msgid "Alias for plugin pipeline '%1'"
+msgstr ""
+
+msgid "New plugin description"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "1st"
+msgstr ""
+
+msgid "2nd"
+msgstr ""
+
+msgid "3rd"
+msgstr ""
+
+msgid "1st and 2nd"
+msgstr ""
+
+msgid "1st and 3rd"
+msgstr ""
+
+msgid "2nd and 3rd"
+msgstr ""
+
+msgid "Filter applied"
+msgstr "Filtru aplicat"
+
+#, c-format
+msgid "Clipboard at %s"
+msgstr "Clipboard la %s"
+
+msgid "Clipboard history disabled.\r\nEnable: Windows logo key + V, then Turn on."
+msgstr ""
+"Istoricul clipboard-ului este deactivat.\r\n"
+"Pentru a activa istoricul clipboard-ului, apăsați tasta logo Windows + V, "
+"apoi apăsați butonul Porniți."
+
+msgid "This system does not support clipboard history."
+msgstr "Acest sistem nu suportă istoricul clipboard-ului."
+
+msgid "32-bit WinMerge does not support Clipboard Compare"
+msgstr "Versiunea pe 32 biți WinMerge nu suportă Comparare clipboard"
+
+msgid "WebView2 runtime not installed. Download it?"
+msgstr "Runtime-ul WebView2 nu este instalat. Doriți să-l descărcați?"
+
+msgid "New Text Compare"
+msgstr "Comparare text nouă"
+
+msgid "New Table Compare"
+msgstr "Comparare tabel nouă"
+
+msgid "New Binary Compare"
+msgstr "Comparare binară nouă"
+
+msgid "New Image Compare"
+msgstr "Comparare imagine nouă"
+
+msgid "New Webpage Compare"
+msgstr "Comparare pagină web nouă"
+
+msgid "Clipboard Compare"
+msgstr "Comparare clipboard"
+
+msgid "&Print..."
+msgstr ""
+
+msgid "Pre&v Page"
+msgstr ""
+
+msgid "&Two Page"
+msgstr ""
+
+msgid "&One Page"
+msgstr ""
+
+msgid "Zoom &In"
+msgstr ""
+
+msgid "Zoom &Out"
+msgstr ""
+
+msgid "Comparing..."
+msgstr ""
+
+msgid "Zoom:"
+msgstr ""
+
+msgid "Diff hunk"
+msgstr ""
+
+msgid "Inline diff"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Character"
+msgstr ""
+
+msgid "\nPrevious Difference (Alt+Up)\n(Right Button+Wheel Up)\n(Alt+Wheel Up)"
+msgstr ""
+
+msgid "\nNext Difference (Alt+Down)\n(Right Button+Wheel Down)\n(Alt+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Right (Alt+Right)\n(Right Button+Wheel Right)\n(Alt+Wheel Right)\n(Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left (Alt+Left)\n(Right Button+Wheel Left)\n(Alt+Wheel Left)\n(Alt+Shift+Wheel Up)"
+msgstr ""
+
+msgid "\nCopy to Right and Advance (Ctrl+Alt+Right)\n(Ctrl+Alt+Wheel Right)\n(Ctrl+Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left and Advance (Ctrl+Alt+Left)\n(Ctrl+Alt+Wheel Left)\n(Ctrl+Alt+Shift+Wheel Up)"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2 and %3"
+msgstr ""
+
+msgid "Comparison completed"
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2: "
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2 and %3: "
+msgstr ""
+
+msgid "File saved"
+msgstr ""
+
+msgid "Copying files..."
+msgstr ""
+
+msgid "Moving files..."
+msgstr ""
+
+msgid "Deleting files..."
+msgstr ""
+
+msgid "Recycle Bin"
+msgstr ""
+
+msgid "Permanently deleted"
+msgstr ""
+
+msgid "File operation completed successfully"
+msgstr ""
+
+msgid "File operation canceled"
+msgstr ""
+
+msgid "Prettification"
+msgstr "Înfrumusețare"
+
+msgid "Content Extraction"
+msgstr "Extragere conținut"
+
+msgid "Preview"
+msgstr "Previzualizare"
+
+msgid "Data Query"
+msgstr "Interogare date"
+
+msgid "Validation"
+msgstr "Validare"
+
+msgid "Decompilation"
+msgstr "Decompilare"
+
+msgid "URL Handling"
+msgstr "Tratare URL-urile"
+
+msgid "Decoding / Encoding"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr "Transformă în majuscule"
+
+msgid "Make Lowercase"
+msgstr "Transformă în minuscule"
+
+msgid "Remove Duplicate Lines"
+msgstr "Înlătură rândurile duplicate"
+
+msgid "Count Duplicate Lines"
+msgstr "Numără rândurile duplicate"
+
+msgid "Sort Lines Ascending"
+msgstr "Sortează rândurile crescător"
+
+msgid "Sort Lines Descending"
+msgstr "Sortează rândurile descrescător"
+
+msgid "Reverse Columns"
+msgstr "Inversează coloanele"
+
+msgid "Reverse Lines"
+msgstr "Inversează rândurile"
+
+msgid "Replace..."
+msgstr "Înlocuiește..."
+
+msgid "Apply Filter Command..."
+msgstr "Aplică comandă filtru..."
+
+msgid "Tokenize..."
+msgstr "Tokenizează..."
+
+msgid "Trim Spaces"
+msgstr "Șterge spațiile de la început și sfârșit"
+
+msgid "Select Columns..."
+msgstr "Selectează coloanele..."
+
+msgid "Select Lines..."
+msgstr "Selectează rândurile..."
+
+msgid "Insert Date"
+msgstr "Inserează data"
+
+msgid "Insert Time"
+msgstr "Inserează ora"
+
+msgid "Apply Patch..."
+msgstr "Aplică petic..."
+
+msgid "Ignore Columns"
+msgstr "Ignoră coloane"
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr "Ignoră comentarii (limbaje din familia C)"
+
+msgid "Ignore CSV Fields"
+msgstr "Ingnoră câmpurile CSV"
+
+msgid "Ignore TSV Fields"
+msgstr "Ingnoră câmpurile TSV"
+
+msgid "Ignore Leading Line Numbers"
+msgstr "Ignoră numerele de rând la început de rând"
+
+msgid "Apply Prediff Substitution Filters"
+msgstr "Aplică filtrele de substituție prediferențiator"
+
+msgid "Prettify HTML"
+msgstr "Înfrumusețează HTML"
+
+msgid "Prettify JSON"
+msgstr "Înfrumusețează JSON"
+
+msgid "Prettify XML"
+msgstr "Înfrumusețează XML"
+
+msgid "Prettify YAML"
+msgstr "Înfrumusețează YAML"
+
+msgid "Preview Graphviz"
+msgstr "Previzualizează Graphviz"
+
+msgid "Preview Markdown"
+msgstr "Previzualizează Markdown"
+
+msgid "Preview PlantUML"
+msgstr "Previzualizează PlantUML"
+
+msgid "Query CSV Data..."
+msgstr "Interoghează date CSV..."
+
+msgid "Query TSV Data..."
+msgstr "Interoghează date TSV..."
+
+msgid "Query JSON Data..."
+msgstr "Interoghează date JSON..."
+
+msgid "Query YAML Data..."
+msgstr "Interoghează date YAML..."
+
+msgid "Validate HTML"
+msgstr "Validează HTML"
+
+msgid "Disassemble JVM Bytecode"
+msgstr "Dezasamblează bytecode JVM"
+
+msgid "Disassemble IL Code"
+msgstr "Dezasamblează cod IL"
+
+msgid "Disassemble Native Code"
+msgstr "Dezasamblează cod nativ"
+
+msgid "Convert Text with AI..."
+msgstr ""
+
+msgid "Unescape Java properties files"
+msgstr ""
+
+msgid "Make characters uppercase"
+msgstr "Transformă caracterele în majuscule"
+
+msgid "Make characters lowercase"
+msgstr "Transformă caracterele în minuscule"
+
+msgid "Remove duplicate lines"
+msgstr "Înlătură rândurile duplicate"
+
+msgid "Count duplicate lines"
+msgstr "Numără rândurile duplicate"
+
+msgid "Sort lines ascending"
+msgstr "Sortează rândurile crescător"
+
+msgid "Sort lines descending"
+msgstr "Sortează rândurile descrescător"
+
+msgid "Reverse columns"
+msgstr "Inversează coloanele"
+
+msgid "Reverse lines"
+msgstr "Inversează rânduri"
+
+msgid "Replace text.\r\nUsage: Replace [-i] [-e] FIND REPLACE\r\n or: Replace -s\r\n FIND - text to find\r\n REPLACE - text to replace\r\n -i - ignore case (only for -e)\r\n -e - regex\r\n -s - use Substitution Filters"
+msgstr ""
+"Înlocuiește textul cu alt text.\r\n"
+"Uz: Replace [-i] [-e] CAUTĂ ÎNLOCUIEȘTE\r\n"
+" or: Replace -s\r\n"
+"  CAUTĂ    - textul de căutat\r\n"
+"  ÎNLOCUIEȘTE - textul de înlocuit\r\n"
+"  -i - ignoră minuscule/majuscule (doar pentru -e)\r\n"
+"  -e - tratează textul specificat ca expresie regulată\r\n"
+" -s - use Substitution Filters"
+
+#, c-format
+msgid "Apply filter. \r\nUsage: ExecFilterCommand COMMAND\r\n COMMAND - command to execute. %1 = filename."
+msgstr ""
+"Aplică comanda filtru. \r\n"
+"Uz: ExecFilterCommand COMANDĂ\r\n"
+"  COMMANDĂ - comanda de executat. %1 în comandă este înlocuit cu numele "
+"fișierului."
+
+msgid ""
+"Tokenize. \r\n"
+"Usage: Tokenize PATTERNS\r\n"
+" PATTERNS - regex (e.g. [^\\w]+)"
+msgstr ""
+"Tokenizează selecția. \r\n"
+"Uz: Tokenize MODELE\r\n"
+"  MODELE - expresia regulată pentru tokenizare. (de ex. [^\\w]+)"
+
+msgid "Trim spaces"
+msgstr "Șterge spațiile de la început și sfârșit"
+
+msgid ""
+"Select columns.\r\n"
+"Usage: SelectColumns RANGES\r\n"
+" or: SelectColumns [-v] [-i] [-g] -e PATTERNS\r\n"
+" RANGES - column ranges (-3,5-10,30-)\r\n"
+" PATTERNS - regex\r\n"
+" -v - select non-matching\r\n"
+" -i - ignore case\r\n"
+" -g - enable global flag\r\n"
+" -e - use PATTERNS"
+msgstr ""
+"Selectează unele coloane.\r\n"
+"Uz: SelectColumns INTERVALE\r\n"
+"   sau: SelectColumns [-v] [-i] [-g] -e MODELE\r\n"
+"  INTERVALE - listă cu intervale de coloane de selectat. (de ex. "
+"-3,5-10,30-)\r\n"
+"  MODELE - expresie regulate\r\n"
+"  -v - selectează coloanele care nu se potrivesc\r\n"
+"  -i - ignoră minuscule/majuscule\r\n"
+"  -g - activează stegulețul global\r\n"
+"  -e - utilizează MODELE pentru potrivire"
+
+msgid ""
+"Select lines.\r\n"
+"Usage: SelectLines RANGES\r\n"
+" or: SelectLines [-v] [-i] -e PATTERNS\r\n"
+" RANGES - line ranges (-3,5-10,30-)\r\n"
+" PATTERNS - regex\r\n"
+" -v - select non-matching\r\n"
+" -i - ignore case\r\n"
+" -e - use PATTERNS"
+msgstr ""
+"Selectează unele rânduri.\n"
+"Uz: SelectLines INTERVALE\n"
+"   sau: SelectLines [-v] [-i] -e MODELE\n"
+"  INTERVALE - listă cu intervale de rânduri de selectat. (de ex. "
+"-3,5-10,30-)\n"
+"  MODELE - expresie regulată\n"
+"  -v - selectează rândurile care nu se potrivesc\n"
+"  -i - ignoră minuscule/majuscule\n"
+" -e - use PATTERNS"
+
+msgid ""
+"HTML Prettier (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Înfrumusețator HTML cu tidy-html5. \r\n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii tidy."
+
+msgid ""
+"JSON Prettier (jq).\r\n"
+"Arguments: jq filter/command line options."
+msgstr ""
+"Înfrumusețator JSON cu comanda jq. \n"
+"Argumente: Opțiunile linie de comandă sau filtrele furnizate comenzii jq."
+
+msgid ""
+"XML Prettier (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Înfrumusețator XML cu tidy-html5. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii tidy."
+
+msgid ""
+"YAML Prettier (yq).\r\n"
+"Arguments: yq filter/command line options."
+msgstr ""
+"Înfrumusețator YAML cu comanda yq. \n"
+"Argumente: Opțiunile linie de comandă sau filtrele furnizate comenzii yq."
+
+msgid ""
+"Graphviz Previewer.\r\n"
+"Arguments: dot command line options."
+msgstr ""
+"Previzualizator Graphviz. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii dot."
+
+msgid ""
+"Markdown Previewer.\r\n"
+"Arguments: md2html command line options."
+msgstr ""
+"Previzualizator Markdown. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii md2html."
+
+msgid ""
+"PlantUML Previewer.\r\n"
+"Arguments: plantuml.jar command line options."
+msgstr ""
+"Previzualizator PlantUML. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii plantuml.jar."
+
+msgid ""
+"CSV Querier (q).\r\n"
+"Arguments: SQL statement/q comannd line options."
+msgstr ""
+"Interogator CSV cu comanda q. \r\n"
+"Argumente: Declarația SQL sau opțiunile linie de comandă furnizate comenzii "
+"q."
+
+msgid ""
+"TSV Querier (q).\r\n"
+"Arguments: SQL statement/q comannd line options."
+msgstr ""
+"Interogator TSV cu comanda q. \n"
+"Argumente: Declarația SQL sau opțiunile linie de comandă furnizate comenzii "
+"q."
+
+msgid ""
+"JSON Querier (jq).\r\n"
+"Arguments: jq filter/command line options."
+msgstr ""
+"Interogator JSON cu comanda jq. \n"
+"Argumente: Filtrele sau opțiunile linie de comandă furnizate comenzii jq."
+
+msgid ""
+"YAML Querier (yq).\r\n"
+"Arguments: yq filter/command line options."
+msgstr ""
+"Interogator YAML cu comanda yq. \n"
+"Argumente: Filtrele sau opțiunile linie de comandă furnizate comenzii yq."
+
+msgid ""
+"HTML Validator (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Validator HTML cu tidy-html5. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii tidy."
+
+msgid ""
+"JVM bytecode disassembler (javap).\r\n"
+"Arguments: javap command line options."
+msgstr ""
+"Dezasamblor de bytecode JVM cu javap. \r\n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii javap."
+
+msgid ""
+"IL disassembler (ildasm).\r\n"
+"Arguments: ildasm command line options."
+msgstr ""
+"Dezasamblor IL cu ildasm. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii ildasm."
+
+msgid ""
+"Native code disassembler (dumpbin).\r\n"
+"Arguments: dumpbin command line options."
+msgstr ""
+"Dezasamblor de cod nativ cu dumpbin. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii dumpbin."
+
+msgid ""
+"Content extractor (Apache Tika).\r\n"
+"Arguments: tika-app.jar command line options."
+msgstr ""
+"Extractor general de conținut cu Apache Tika. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii tika-app.jar."
+
+msgid "Apply patch (GNU patch)"
+msgstr "Aplică peticul utilizând GNU patch"
+
+msgid "Display MS Excel text content"
+msgstr "Afișează conținutul text al fișierelor MS Excel"
+
+msgid "Display MS PowerPoint text content"
+msgstr "Afișează conținutul text al fișierelor MS PowerPoint"
+
+msgid "Display MS Visio text content"
+msgstr "Afișează conținutul text al fișierelor MS Visio"
+
+msgid "Display MS Word text content"
+msgstr "Afișează conținutul text al fișierelor MS Word"
+
+msgid "Ignore columns - list from plugin name/argument"
+msgstr ""
+"Ignoră unele coloane - lista cu coloane ignorate din numele sau argumentul "
+"plugin-ului"
+
+msgid "Ignore C, C++, PHP, and JavaScript comments (//... and /* ... */)."
+msgstr ""
+"Plugin-ul ignoră comentarii (//... și /* ... */) în fișiere C, C++, PHP și "
+"JavaScript."
+
+msgid "Ignore fields - list from plugin name/argument"
+msgstr ""
+"Ignoră unele câmpuri - lista cu coloane ignorate din numele sau argumentul "
+"plugin-ului"
+
+msgid "Ignore leading line numbers (e.g., NC, BASIC)."
+msgstr ""
+
+msgid "Prediff Line Filter"
+msgstr "Filtru de rânduri prediferențiator"
+
+msgid "Date and time insertion"
+msgstr ""
+
+msgid ""
+"HTTP URL Scheme Handler (curl).\r\n"
+"Arguments: curl command line options."
+msgstr ""
+"Handler pentru schema URL 'HTTP' cu curl. \n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii curl."
+
+msgid ""
+"Windows Registry URL Scheme Handler.\r\n"
+"Arguments: reg.exe command line options."
+msgstr ""
+"Handler pentru schema URL 'regiștri Windows'. \r\n"
+"Argumente: Opțiunile linie de comandă furnizate comenzii reg.exe."
+
+msgid "Basic text functions"
+msgstr ""
+
+msgid "AI-assisted text conversion"
+msgstr ""
+
+msgid "Text converter (OpenAI API).\r\nUsage: AIConvertText PROMPT"
+msgstr ""
+
+msgid "Unescape and display escaped Java properties files."
+msgstr ""
+
+msgid "CompareMSExcelFiles.sct WinMerge Plugin Options"
+msgstr "Opțiuni plugin WinMerge CompareMSExcelFiles.sct"
+
+msgid "Extract workbook data to multiple files"
+msgstr "Extrage datele din mapa de lucru în mai multe fișiere"
+
+msgid "Update external references (links)"
+msgstr "Actualizează referințele externe (legături)"
+
+msgid "Compare document properties"
+msgstr "Compară proprietățile documentului"
+
+msgid "Compare names"
+msgstr "Compară nume"
+
+msgid "Compare cell values"
+msgstr "Compară valorile celulelor"
+
+msgid "Compare worksheets as image (very slow)"
+msgstr "Compară foile de lucru ca imagine (foarte lent)"
+
+msgid " - Image split size: "
+msgstr " - Mărimea divizării imaginii: "
+
+msgid "Compare worksheets as HTML"
+msgstr "Compară foile de lucru ca HTML"
+
+msgid "Compare formulas"
+msgstr "Compară formulele"
+
+msgid "Compare texts in shapes"
+msgstr "Compară textele în forme"
+
+msgid "Compare headers and footers"
+msgstr "Compară antetele și subsolurile"
+
+msgid "Cannot get Macros.\r\nEnable 'Trust access to Visual Basic Project' in MS Office Macro Security."
+msgstr ""
+
+msgid "Compare VBA macros"
+msgstr "Compară macrourile VBA"
+
+msgid "CompareMSWordFiles.sct WinMerge Plugin Options"
+msgstr "Opțiuni plugin WinMerge CompareMSWordFiles.sct"
+
+msgid "Extract document data to multiple files"
+msgstr "Extrage datele din document în mai multe fișiere"
+
+msgid "Compare bookmarks"
+msgstr "Compară semnele de carte"
+
+msgid "Compare text contents of documents"
+msgstr "Compară conținutul text al documentelor"
+
+msgid "Compare documents as HTML file (very slow)"
+msgstr "Compară documentele ca fișiere HTML (foarte lent)"
+
+msgid "CompareMSPowerPointFiles.sct WinMerge Plugin Options"
+msgstr "Opțiuni plugin WinMerge CompareMSPowerPointFiles.sct"
+
+msgid "Extract slide data to multiple files"
+msgstr "Extrage datele din folii în mai multe fișiere"
+
+msgid "Compare slides as image (very slow)"
+msgstr "Compară foliile ca imagini (foarte lent)"
+
+msgid "Compare texts in notes page"
+msgstr "Compară textele în paginile de note"
+
+msgid "CompareMSVisioFiles.sct WinMerge Plugin Options"
+msgstr "Opțiuni plugin WinMerge CompareMSVisioFiles.sct"
+
+msgid "Extract page data to multiple files"
+msgstr "Extrage datele din pagină în mai multe fișiere"
+
+msgid "Compare pages as image (very slow)"
+msgstr "Compară paginile ca imagini (foarte lent)"
+
+msgid "PrediffLineFilter.sct WinMerge Plugin Options"
+msgstr "Opțiuni plugin WinMerge PrediffLineFilter.sct"
+
+msgid "Delete"
+msgstr "Șterge"
+
+msgid "Enabled"
+msgstr "Activat"
+
+msgid "Ignore Case"
+msgstr "Ignoră minuscule/majuscule"
+
+msgid "Use RegExp"
+msgstr "Uitlizează expresii regulate"
+
+msgid "Find what"
+msgstr "Ce anume"
+
+msgid "Replace with"
+msgstr "Înlocuiește cu"
+
+msgid "Settings"
+msgstr "Setări"
+
+msgid ""
+"Column Ranges to Ignore:\n"
+"e.g.) 3,10-20,32-33\n"
+msgstr ""
+"Intervale coloane de ignorat:\n"
+"de ex.)  3,10-20,32-33\n"
+
+#, c-format
+msgid "Enter filename for patch '%1'"
+msgstr "Introduceți numele fișierului asupra căruia va fi aplicat peticul '%1'"
+
+#, c-format
+msgid "File '%1' does not exist"
+msgstr "Fișierul '%1' nu există"
+
+msgid "Enter command line arguments for patch"
+msgstr "Introduceți argumentele linie de comandă pentru comanda patch"
+
+#, c-format
+msgid "Enter folder name for patch '%1'"
+msgstr ""
+"Introduceți numele directorului asupra căruia va fi aplicat peticul '%1'"
+
+#, c-format
+msgid "Folder '%1' does not exist"
+msgstr "Directorul '%1' nu există"
+
+msgid "Do not use '-p0' for patch files with absolute paths"
+msgstr ""
+
+msgid "AI.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Enter prompt"
+msgstr ""
+
+#, c-format
+msgid "Enter OpenAI API key.\r\n- Requires OpenAI registration (fees may apply).\r\n- Key stored in env var %1."
+msgstr ""
+
+msgid "Environment variable name for OpenAI API key"
+msgstr ""
+
+msgid "OpenAI API key"
+msgstr ""
+
+msgid "Temperature"
+msgstr ""
+
+msgid "Maximum length"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "OpenAI API key changed. Restart to apply."
+msgstr ""

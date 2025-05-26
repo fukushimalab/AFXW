@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<plugins>
+  <plugin name="HandleSchemeHTTP">
+    <event value="URL_PACK_UNPACK" />
+    <description value="HTTP URL Scheme Handler (curl).&#xD;&#xA;Arguments: curl command line options." />
+    <file-filters value="^http://.*$;^https://.*$" />
+    <extended-properties value="ProcessType=URL Handling" />
+    <is-automatic value="true" />
+    <arguments value="--fail -L " />
+    <unpack-file>
+      <command>curl ${*} -o "${DST_FILE}" "${SRC_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="HandleSchemeReg">
+    <event value="URL_PACK_UNPACK" />
+    <description value="Windows Registry URL Scheme Handler.&#xD;&#xA;Arguments: reg.exe command line options." />
+    <file-filters value="^reg:.*$" />
+    <extended-properties value="ProcessType=URL Handling" />
+    <is-automatic value="true" />
+    <unpacked-file-extension value=".reg" />
+    <arguments value="" />
+    <unpack-file>
+      <command>reg.exe export "${SRC_URL_SUFFIX}" "${DST_FILE}" /y ${*}</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="PrettifyHTML">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="HTML Prettier (tidy-html5).&#xD;&#xA;Arguments: tidy command line options." />
+    <file-filters value="\.html$;\.htm$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".html" />
+    <extended-properties value="ProcessType=Prettification;MenuCaption=Prettify HTML;GenerateEditorScript" />
+    <arguments value="--tidy-mark no -indent --indent-attributes yes --tab-size 4 --indent-spaces 4 -wrap 0 --sort-attributes alpha " />
+    <unpack-file>
+      <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\tidy-html5\tidy.exe" ${*} --force-output yes -o "${DST_FILE}" | exit 0</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="PrettifyXML">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="XML Prettier (tidy-html5).&#xD;&#xA;Arguments: tidy command line options." />
+    <file-filters value="\.xml$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".xml" />
+    <extended-properties value="ProcessType=Prettification;MenuCaption=Prettify XML;GenerateEditorScript" />
+    <arguments value="-xml -indent --indent-attributes yes --tab-size 4 --indent-spaces 4 -wrap 0 --sort-attributes alpha" />
+    <unpack-file>
+      <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\tidy-html5\tidy.exe" ${*} --force-output yes -o "${DST_FILE}" | exit 0</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="PrettifyJSON">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="JSON Prettier (jq).&#xD;&#xA;Arguments: jq filter/command line options." />
+    <file-filters value="\.json$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".json" />
+    <extended-properties value="ProcessType=Prettification;MenuCaption=Prettify JSON;GenerateEditorScript" />
+    <arguments value="&quot;.&quot;" />
+    <unpack-file>
+    <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\jq\jq.exe" ${*} &gt; "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="PrettifyYAML">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="YAML Prettier (yq).&#xD;&#xA;Arguments: yq filter/command line options." />
+    <file-filters value="\.yaml$;\.yml$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".yaml" />
+    <extended-properties value="ProcessType=Prettification;MenuCaption=Prettify YAML;GenerateEditorScript" />
+    <arguments value="-P e" />
+    <unpack-file>
+    <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\yq\yq.bat" ${*} &gt; "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="QueryCSV">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="CSV Querier (q).&#xD;&#xA;Arguments: SQL statement/q comannd line options." />
+    <file-filters value="\.csv$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".csv" />
+    <extended-properties value="ProcessType=Data Query;MenuCaption=Query CSV Data...;ArgumentsRequired" />
+    <arguments value="&quot;SELECT * FROM -&quot;" />
+    <unpack-file>
+      <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\q\q.bat" -d , ${*} &gt; "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="QueryTSV">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="TSV Querier (q).&#xD;&#xA;Arguments: SQL statement/q comannd line options." />
+    <file-filters value="\.tsv$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".tsv" />
+    <extended-properties value="ProcessType=Data Query;MenuCaption=Query TSV Data...;ArgumentsRequired" />
+    <arguments value="&quot;SELECT * FROM -&quot;" />
+    <unpack-file>
+      <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\q\q.bat" -t ${*} &gt; "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="QueryJSON">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="JSON Querier (jq).&#xD;&#xA;Arguments: jq filter/command line options." />
+    <file-filters value="\.json$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".json" />
+    <extended-properties value="ProcessType=Data Query;MenuCaption=Query JSON Data...;ArgumentsRequired" />
+    <arguments value="&quot;.&quot;" />
+    <unpack-file>
+      <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\jq\jq.exe" ${*} &gt; "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="QueryYAML">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="YAML Querier (yq).&#xD;&#xA;Arguments: yq filter/command line options." />
+    <file-filters value="\.yaml$;\.yml$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".yaml" />
+    <extended-properties value="ProcessType=Data Query;MenuCaption=Query YAML Data...;ArgumentsRequired" />
+    <arguments value="e &quot;.&quot; -" />
+    <unpack-file>
+      <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\yq\yq.bat" ${*} &gt; "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="ValidateHTML">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="HTML Validator (tidy-html5).&#xD;&#xA;Arguments: tidy command line options." />
+    <file-filters value="\.html$;\.htm$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".html" />
+    <extended-properties value="ProcessType=Validation;MenuCaption=Validate HTML" />
+    <arguments value="-e" />
+    <unpack-file>
+      <command>cmd /c type "${SRC_FILE}" | "${WINMERGE_HOME}\Commands\tidy-html5\tidy.exe" ${*} 2> "${DST_FILE}" | exit 0</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="PreviewGraphviz">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="Graphviz Previewer.&#xD;&#xA;Arguments: dot command line options." />
+    <file-filters value="\.gv;$\.dot$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".png" />
+    <extended-properties value="ProcessType=Preview;MenuCaption=Preview Graphviz;PreferredWindowType=Image" />
+    <arguments value="-Tpng" />
+    <unpack-file>
+      <command>dot.exe ${*} -o"${DST_FILE}" "${SRC_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="PreviewMarkdown">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="Markdown Previewer.&#xD;&#xA;Arguments: md2html command line options." />
+    <file-filters value="\.md$;\.markdown$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".html" />
+    <extended-properties value="ProcessType=Preview;MenuCaption=Preview Markdown;PreferredWindowType=Webpage" />
+    <arguments value="--ftables --ftasklists" />
+    <unpack-file>
+      <command>"${WINMERGE_HOME}\Commands\md4c\md2html.bat" "${SRC_FILE}" ${*} &gt; "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="PreviewPlantUML">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="PlantUML Previewer.&#xD;&#xA;Arguments: plantuml.jar command line options." />
+    <file-filters value="\.pu$;\.puml$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".png" />
+    <extended-properties value="ProcessType=Preview;MenuCaption=Preview PlantUML;PreferredWindowType=Image" />
+    <arguments value="-tpng" />
+    <unpack-file>
+      <command>"${WINMERGE_HOME}\Commands\PlantUML\plantuml.bat" "${SRC_FILE}" "${DST_FILE}" ${*}</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="ApacheTika">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="Content extractor (Apache Tika).&#xD;&#xA;Arguments: tika-app.jar command line options." />
+    <file-filters value="\.*$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".txt" />
+    <extended-properties value="ProcessType=Content Extraction;MenuCaption=Apache Tika;GenerateEditorScript" />
+    <arguments value="-eUTF-8 -t" />
+    <unpack-file>
+      <command>"${WINMERGE_HOME}\Commands\apache-tika\tika.bat" "${SRC_FILE}" "${DST_FILE}" ${*}</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="DisassembleJVM">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="JVM bytecode disassembler (javap).&#xD;&#xA;Arguments: javap command line options." />
+    <file-filters value="\.class$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".txt" />
+    <extended-properties value="ProcessType=Decompilation;MenuCaption=Disassemble JVM Bytecode" />
+    <arguments value="-c -p" />
+    <unpack-file>
+      <command>cmd /c javap ${*} "${SRC_FILE}" > "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="DisassembleIL">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="IL disassembler (ildasm).&#xD;&#xA;Arguments: ildasm command line options." />
+    <file-filters value="\.obj$;\.lib$;\.winmd$;\.exe$;\.dll$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".asm" />
+    <extended-properties value="ProcessType=Decompilation;MenuCaption=Disassemble IL Code" />
+    <arguments value="/text" />
+    <unpack-file>
+      <command>"${WINMERGE_HOME}\Commands\ildasm\ildasm.bat" ${*} "${SRC_FILE}" > "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <plugin name="DisassembleNative">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="Native code disassembler (dumpbin).&#xD;&#xA;Arguments: dumpbin command line options." />
+    <file-filters value="\.obj$;\.lib$;\.exe$;\.dll$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".asm" />
+    <extended-properties value="ProcessType=Decompilation;MenuCaption=Disassemble Native Code" />
+    <arguments value="/disasm:nobytes" />
+    <unpack-file>
+      <command>"${WINMERGE_HOME}\Commands\dumpbin\dumpbin.bat" ${*} "${SRC_FILE}" > "${DST_FILE}"</command>
+    </unpack-file>
+  </plugin>
+  <!--
+  <plugin name="JScript-test">
+    <event value="FILE_PACK_UNPACK" />
+    <description value="JScript test" />
+    <file-filters value="\.nomatch$" />
+    <is-automatic value="false" />
+    <unpacked-file-extension value=".txt" />
+    <unpack-file>
+      <command>cmd /c cscript //nologo "${SCRIPT_FILE}" "${SRC_FILE}" > "${DST_FILE}"</command>
+      <script fileExtension=".js">
+WScript.StdOut.WriteLine("Hello World!");
+WScript.StdOut.WriteLine(WScript.Arguments.Item(0));
+      </script>
+    </unpack-file>
+    <pack-file>
+      <command>cmd /c cscript //nologo "${SCRIPT_FILE}" "${SRC_FILE}" > "${DST_FILE}"</command>
+      <script fileExtension=".js">
+WScript.StdOut.WriteLine("!dlroW olleH");
+WScript.StdOut.WriteLine(WScript.Arguments.Item(0));
+      </script>
+    </pack-file>
+  </plugin>
+  <plugin name="URL-handler-test">
+    <event value="URL_PACK_UNPACK" />
+    <description value="test scheme handler" />
+    <file-filters value="^test://.*$" />
+    <is-automatic value="true" />
+    <is-folder>
+      <command>cmd /c echo ${SRC_FILE} | findstr folder</command>
+    </is-folder>
+    <unpack-file>
+      <command>cmd /c echo file > "${DST_FILE}"</command>
+    </unpack-file>
+    <unpack-folder>
+      <command>cmd /c echo folder > "${DST_FOLDER}\test.txt"</command>
+    </unpack-folder>
+  </plugin>
+  -->
+</plugins>

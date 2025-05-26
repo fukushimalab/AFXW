@@ -1,0 +1,484 @@
+<scriptlet>
+<implements type="Automation" id="dispatcher">
+  <property name="PluginEvent">
+    <get/>
+  </property>
+  <property name="PluginDescription">
+    <get/>
+  </property>
+  <property name="PluginFileFilters">
+    <get/>
+  </property>
+  <property name="PluginIsAutomatic">
+    <get/>
+  </property>
+  <property name="PluginExtendedProperties">
+    <get/>
+  </property>
+  <method name="PluginOnEvent"/>
+  <method name="PrediffBufferW"/>
+  <method name="ShowSettingsDialog"/>
+</implements>
+
+<script language="JScript">
+
+/*
+    This is a plugin for WinMerge.
+    It does almost the same thing as Substitution filters.
+    Copyright (C) 2018-2024 Takashi Sawanaka
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*/
+
+var REGKEY_PATH = "Plugins\\PrediffLineFilter.sct/";
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var wsh = new ActiveXObject("WScript.Shell");
+var mergeApp;
+
+function regRead(Key, DefaultValue) {
+  return mergeApp.GetOption(Key, DefaultValue);
+}
+
+function regWrite(Key, Value, TypeNm) {
+  mergeApp.SaveOption(Key, (TypeNm === "REG_DWORD") ? parseInt(Value, 10) : String(Value));
+}
+
+function get_PluginEvent() {
+  return "BUFFER_PREDIFF";
+}
+
+function get_PluginDescription() {
+  return "Prediff Line Filter";
+}
+
+function get_PluginFileFilters() {
+  return "\\.nomatch(\\..*)?$";
+}
+
+function get_PluginIsAutomatic() {
+  return true;
+}
+
+function get_PluginExtendedProperties() {
+  return "MenuCaption=Apply Prediff Substitution Filters";
+}
+
+function PluginOnEvent(eventType, obj) {
+  mergeApp = obj;
+}
+
+function PrediffBufferW(pText, pSize, pbChanged) {
+  if (pText == "") {
+    var result = new ActiveXObject("Scripting.Dictionary");
+    result.Add(0, true);
+    result.Add(1, "");
+    result.Add(2, 0);
+    result.Add(3, false);
+    return result.Items();
+  }
+  var pattern, replaceText, ignoreCase;
+  var lines = pText.split("\n");
+  var count = regRead(REGKEY_PATH + "Count", 0);
+  for (var i = 1; i <= count; i++) {
+    if (regRead(REGKEY_PATH + "Enabled" + i, true)) {
+      pattern = regRead(REGKEY_PATH + "Pattern" + i, "");
+      ignoreCase = regRead(REGKEY_PATH + "IgnoreCase" + i, false);
+      replaceText = regRead(REGKEY_PATH + "ReplaceText" + i, "");
+      if (regRead(REGKEY_PATH + "UseRegExp" + i, true)) {
+        try {
+          var re = new RegExp(pattern, ignoreCase ? "gi" : "g");
+          for (var j = 0; j < lines.length; j++) {
+            lines[j] = lines[j].replace(re, unescape(replaceText));
+          }
+        } catch (e) {
+          mergeApp.MsgBox("RegExp Pattern" + i + ": " + pattern + " error: " + e.message, 16, "PrediffLineFilter plugin");
+        }
+      } else {
+        for (var j = 0; j < lines.length; j++) {
+          lines[j] = replacei(lines[j], pattern, replaceText, ignoreCase);
+        }
+      }
+    }
+  }
+  pbChanged = true;
+  var result = new ActiveXObject("Scripting.Dictionary");
+  pText = lines.join("\n");
+  pSize = pText.length;
+  result.Add(0, true);
+  result.Add(1, pText);
+  result.Add(2, pSize);
+  result.Add(3, pbChanged);
+  return result.Items();
+}
+
+function replacei(text, find, replace, ignorecase) {
+  if (!ignorecase)
+    return text.split(find).join(replace);
+  var textLower = text.toLowerCase();
+  var findLower = find.toLowerCase();
+  var pos = textLower.length;
+  while (pos >= 0 && (pos = textLower.lastIndexOf(findLower, pos)) >= 0) {
+    text = text.substr(0, pos) + replace + text.substr(pos + findLower.length);
+    pos--;
+  }
+  return text;
+}
+
+function unescape(text) {
+  var result = "";
+  var textLen = text.length;
+  var i = 0;
+  while (i < textLen) {
+    var ch = text.charAt(i);
+    switch (ch) {
+    case "\\":
+      if (i < textLen - 1) {
+        i++;
+        ch = text.charAt(i);
+        switch (ch) {
+        case "a":
+          result += String.fromCharCode(0x07);
+          break;
+        case "b":
+          result += "\b";
+          break;
+        case "t":
+          result += "\t";
+          break;
+        case "n":
+          result += "\n";
+          break;
+        case "v":
+          result += String.fromCharCode(0x0b);
+          break;
+        case "f":
+          result += "\f";
+          break;
+        case "r":
+          result += "\r";
+          break;
+        case "\\":
+          result += "\\";
+          break;
+        case "x":
+          if (i + 2 < textLen) {
+            var hexValue = text.substring(i + 1, i + 3);
+            try {
+              var intValue = parseInt(hexValue, 16);
+              result += String.fromCharCode(intValue);
+              i += 2;
+            } catch (e) {
+              result += "\\x";
+            }
+          } else {
+            result += "\\x";
+          }
+          break;
+        default:
+          if (!isNaN(ch)) {
+            if (ch !== '0') {
+              result += '$' + ch;
+            } else {
+              result += '$&';
+            }
+          } else {
+            result += '\\' + ch;
+          }
+          break;
+        }
+      } else {
+        result += ch;
+      }
+      break;
+    default:
+      result += ch;
+      break;
+    }
+    i++;
+  }
+  return result;
+}
+
+function translate(text) {
+  var re = /\${([^}]+)}/g;
+  var matches;
+  while ((matches = re.exec(text)) != null) {
+    text = text.replace(matches[0], mergeApp.Translate(matches[1]));
+  }
+  return text;
+}
+
+function ShowSettingsDialog() {
+  var tname = fso.BuildPath(fso.GetSpecialFolder(2), fso.GetTempName() + ".hta");
+  var xmlfile = fso.BuildPath(fso.GetSpecialFolder(2), fso.GetTempName() + ".xml");
+  var tfile = fso.CreateTextFile(tname, true, true);
+  tfile.Write(translate(getResource("dialog1")));
+  tfile.Close();
+  exportSettingsToXMLFile(xmlfile);
+  var mshta = wsh.ExpandEnvironmentStrings("%SystemRoot%\\System32\\mshta.exe");
+  if (!fso.FileExists(mshta)) {
+    mshta = wsh.ExpandEnvironmentStrings("%SystemRoot%\\SysWOW64\\mshta.exe");
+  }
+  run(wsh, "\"" + mshta + "\" \"" + tname + "\"  \"" + xmlfile + "\"");
+  importSettingsFromXMLFile(xmlfile);
+  fso.DeleteFile(tname);
+  fso.DeleteFile(xmlfile);
+}
+
+function run(sh, cmd) {
+  sh.Run(cmd, 1, true);
+}
+
+function exportSettingsToXMLFile(filepath) {
+  var key_defvalues = {"Count" : 0};
+  var count = regRead(REGKEY_PATH + "Count", 0);
+  for (var i = 1; i < count + 1; i++) {
+    key_defvalues["Enabled" + i] = true;
+    key_defvalues["IgnoreCase" + i] = false;
+    key_defvalues["UseRegExp" + i] = false;
+    key_defvalues["Pattern" + i] = "";
+    key_defvalues["ReplaceText" + i] = "";
+  }
+  var doc = new ActiveXObject("MSXML2.DOMDocument");
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+  var ts = fso.OpenTextFile(filepath, 2, true, -1);
+  var root = doc.createElement("properties");
+  for (var key in key_defvalues) {
+    var el = doc.createElement("property");
+    var val = regRead(REGKEY_PATH + key, key_defvalues[key]);
+    var cdata = doc.createCDATASection(val);
+    el.appendChild(cdata);
+    el.setAttribute("name", REGKEY_PATH + key);
+    el.setAttribute("type", typeof val);
+    root.appendChild(el);
+  }
+  doc.appendChild(root);
+  ts.Write(doc.xml);
+  ts.Close();
+}
+
+function importSettingsFromXMLFile(filepath) {
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+  var ts = fso.OpenTextFile(filepath, 1, true, -1);
+  var xml = ts.ReadAll();
+  var doc = new ActiveXObject("MSXML2.DOMDocument");
+  doc.async = false;
+  doc.loadXML(xml);
+  ts.Close();
+  var nodes = doc.documentElement.childNodes;
+  for (var i = 0; i < nodes.length; i++) {
+    regWrite(nodes[i].getAttribute("name"), nodes[i].text, (nodes[i].getAttribute("type") === "string") ? "REG_SZ" : "REG_DWORD");
+  }
+}
+
+</script>
+
+<resource id="dialog1">
+<![CDATA[
+<!DOCTYPE html>
+<html>
+  <head>
+    <HTA:APPLICATION ID="objHTA">
+    <title>${PrediffLineFilter.sct WinMerge Plugin Options}</title>
+    <meta content="text/html" charset="UTF-16">
+    <style>
+    body { background-color: #f2f2f2; font-family: Arial, sans-serif; }
+    .container { margin: 2em; }
+    ul { list-style-type: none; margin: 0; padding: 0; }
+    li ul li { padding-left: 2em }
+    .btn-container-top { margin-bottom: 0.5em; text-align: left; }
+    .btn-container { margin-top: 1.5em; text-align: right; }
+    input[type="button"] { border: none; padding: 0.6em 2em; height: 2.5em; text-align: center; }
+    .btn { color: #fff; background-color: #0c5; }
+    .btn:hover { background-color: #0b4; }
+    .btn-ok { color: #fff; background-color: #05c; }
+    .btn-ok:hover { background-color: #04b; }
+    .btn-cancel { color: #333; background-color: #ddd; }
+    .btn-cancel:hover { background-color: #ccc; }
+    #table1 { border-collapse: collapse; border: 1px solid #ccc; }
+    </style>
+    <script type="text/javascript">
+      var REGKEY_PATH = "Plugins\\PrediffLineFilter.sct/";
+      var xmlFilePath;
+      var settings = {};
+
+      function regRead(key, defaultValue) {
+        return settings.hasOwnProperty(key) ? settings[key] : defaultValue;
+      }
+
+      function regWrite(key, value, type) {
+        settings[key] = (type === "REG_DWORD") ? Number(value) : String(value);
+      }
+
+      function loadSettingsFromXMLFile(filepath) {
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        var ts = fso.OpenTextFile(filepath, 1, true, -1);
+        var xml = ts.ReadAll();
+        var doc = new ActiveXObject("MSXML2.DOMDocument");
+        doc.async = false;
+        doc.loadXML(xml);
+        ts.Close();
+        var nodes = doc.documentElement.childNodes;
+        for (var i = 0; i < nodes.length; i++) {
+          regWrite(nodes[i].getAttribute("name"), nodes[i].text, (nodes[i].getAttribute("type") === "string") ? "REG_SZ" : "REG_DWORD");
+        }
+        return settings;
+      }
+
+      function saveSettingsToXMLFile(filepath, settings) {
+        var doc = new ActiveXObject("MSXML2.DOMDocument");
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        var ts = fso.OpenTextFile(filepath, 2, true, -1);
+        var root = doc.createElement("properties");
+        for (var key in settings) {
+          if (settings.hasOwnProperty(key)) {
+            var el = doc.createElement("property");
+            var val = settings[key];
+            var cdata = doc.createCDATASection(val);
+            el.appendChild(cdata);
+            el.setAttribute("name", key);
+            el.setAttribute("type", typeof val);
+            root.appendChild(el);
+          }
+        }
+        doc.appendChild(root);
+        ts.Write(doc.xml);
+        ts.Close();
+      }
+
+      function insertRow(r) {
+        if (r == -1) {
+          r = table1.rows.length;
+        }
+        var newRow = table1.insertRow(r);
+        newRow.insertCell(-1).innerHTML = '<input type="checkbox" name="chkEnabled" ' + (regRead(REGKEY_PATH + "Enabled" + r, true) ? 'checked' : '') + ' />';
+        newRow.insertCell(-1).innerHTML = '<input type="checkbox" name="chkIgnoreCase" ' + (regRead(REGKEY_PATH + "IgnoreCase" + r, false) ? 'checked' : '') + ' />';
+        newRow.insertCell(-1).innerHTML = '<input type="checkbox" name="chkUseRegExp" ' + (regRead(REGKEY_PATH + "UseRegExp" + r, false) ? 'checked' : '') + ' />';
+        newRow.insertCell(-1).innerHTML = '<input class="textbox" type="text" name="txtPattern" value="" />'
+        newRow.insertCell(-1).innerHTML = '<input class="textbox" type="text" name="txtReplaceText" value="" />'
+        newRow.cells[3].childNodes[0].value = regRead(REGKEY_PATH + "Pattern" + r,  "");
+        newRow.cells[4].childNodes[0].value = regRead(REGKEY_PATH + "ReplaceText" + r,  "");
+      }
+
+      function deleteRow(r) {
+        if (table1.rows.length > 2) {
+          table1.deleteRow(r);
+        }
+      }
+
+      function checkRegExp() {
+        var msg = "";
+        for (var i = 0; i < table1.rows.length - 1; i++) {
+          if (document.getElementsByName("chkUseRegExp")[i].checked) {
+            try {
+              var re = new RegExp(document.getElementsByName("txtPattern")[i].value);
+            } catch (e) {
+              msg += "RegExp Pattern" + (i + 1) + ": error: " + e.message + "\r\n"; 
+            }
+          }
+        }
+        if (msg !== "") {
+          throw msg;
+        }
+      }
+
+      function onload() {
+        xmlFilePath = objHTA.commandLine.split('"')[3];
+        settings = loadSettingsFromXMLFile(xmlFilePath);
+
+        var dpi = window.screen.deviceXDPI;
+        var w = 800 * dpi / 96, h = 600 * dpi / 96;
+        window.resizeTo(w, h);
+        window.moveTo((screen.width - w) / 2, (screen.height - h) / 2);
+
+        var count = regRead(REGKEY_PATH + "Count", 1);
+        for (var i = 0; i < count; i++) {
+          insertRow(-1);
+        }
+      }
+
+      function btnOk_onclick() {
+        try {
+          checkRegExp();
+        } catch (e) {
+          alert(e);
+          return;
+        }
+        regWrite(REGKEY_PATH + "Count", table1.rows.length - 1, "REG_DWORD");
+        for (var i = 0; i < table1.rows.length - 1; i++) {
+          regWrite(REGKEY_PATH + "Enabled" + (i + 1), document.getElementsByName("chkEnabled")[i].checked, "REG_DWORD");
+          regWrite(REGKEY_PATH + "IgnoreCase" + (i + 1), document.getElementsByName("chkIgnoreCase")[i].checked, "REG_DWORD");
+          regWrite(REGKEY_PATH + "UseRegExp" + (i + 1), document.getElementsByName("chkUseRegExp")[i].checked, "REG_DWORD");
+          regWrite(REGKEY_PATH + "Pattern" + (i + 1), document.getElementsByName("txtPattern")[i].value, "REG_SZ");
+          regWrite(REGKEY_PATH + "ReplaceText" + (i + 1), document.getElementsByName("txtReplaceText")[i].value, "REG_SZ");
+        }
+
+        saveSettingsToXMLFile(xmlFilePath, settings);
+
+        window.close();
+      }
+
+      function btnCancel_onclick() {
+        saveSettingsToXMLFile(xmlFilePath, {});
+
+        window.close();
+      }
+
+    </script>
+  </head>
+  <body onload="onload();">
+    <div class="container">
+      <div class="btn-container-top">
+        <ul>
+          <li>
+            <input type="button" class="btn" value="${Add}" onclick="insertRow(-1)" />
+            <input type="button" class="btn" value="${Delete}" onclick="deleteRow(-1)" />
+          </li>
+        </ul>
+      </div>
+      <ul>
+        <li>
+          <table id="table1" border="1">
+            <tr>
+              <th>
+                <label>${Enabled}</label>
+              </th>
+              <th>
+                <label>${Ignore Case}</label>
+              </th>
+              <th>
+                <label>${Use RegExp}</label>
+              </th>
+              <th>
+                <label>${Find what}</label>
+              </th>
+              <th>
+                <label>${Replace with}</label>
+              </th>
+            </tr>
+          </table>
+        </li>
+      </ul>
+      <div class="btn-container">
+        <input type="button" class="btn-ok" onclick="btnOk_onclick();" value="${OK}" />
+        <input type="button" class="btn-cancel" onclick="btnCancel_onclick();" value="${Cancel}" />
+      </div>
+    </div>
+  </body>
+</html>
+]]>
+</resource>
+
+</scriptlet>

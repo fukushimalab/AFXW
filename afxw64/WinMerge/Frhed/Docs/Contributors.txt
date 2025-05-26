@@ -1,0 +1,57 @@
+People who have contributed to Frhed
+====================================
+
+Original developer:
+Raihan Kibria <raihan@kibria.de>
+
+Maintainer on GitHub:
+Takashi Sawanaka (GitHub@sdottaka, 2014 and after)
+And other contributors: https://github.com/WinMerge/frhed/graphs/contributors
+
+Localization:
+
+* Dutch:
+  Thomas De Rocker <thomasderocker@yahoo.com>
+
+* French:
+  Frédéric Dectot
+  Lolo S.
+  Need74
+
+* Galician
+  Luis A. Martínez <luis.martinez.sobrino at gmail.com> (GitHub@qosobrin)
+
+* German
+  Tim Gerundt <gerundt@users.sourceforge.net>
+  Mr-Update (GitHub@Mr-Update)
+
+* Japanese
+  Takashi Sawanaka
+
+* Polish
+  Mirosław Żylewicz (GitHub@miroslaw-zylewicz)
+
+* Slovak
+  Jozef Matta <jozef.m923@gmail.com>
+
+* Slovenian
+  Jadran Rudec <***@***.***>
+
+Other contributors (heksedit versions):
+Jochen Tucht (@jtuc in history, 2017)
+Jochen Neubeck (admin@jochen in history, 2013)
+Kimmo Varis <kimmov@winmerge.org>
+Tim Gerundt <gerundt@users.sourceforge.net>
+Martin Hughes <martinhughes@users.sourceforge.net>
+
+Other contributors (pre-heksedit versions):
+Dario Bagnoli - bug reports and beta testing
+Tom Foth - suggestions
+Bo Wannerberg - Win2000 opening bugfix
+Pabs <pabs3@zip.to> - Edit/Fill selection with command and other features
+Gerson Kurz <not@p-nand-q.com> - Harddisk access stuff and other features
+Mike Funduc - selection command line parameters and a toolbar
+nas - improved the window creation
+The Starman reviewed frhed, provides tutorials on using frhed in a practical
+  context and reported bugs in the import hexdump command & other features.
+Harry reviewed frhed.

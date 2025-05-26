@@ -1,0 +1,5451 @@
+# This file is from WinMerge <https://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+# Translators:
+# * Abolfazl Rostamzadeh <a.rostamzadeh at gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues/\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-15 19:11+0330\n"
+"Last-Translator: Abolfazl Rostamzadeh Khorasani <a.rostamzadeh@yahoo.com>\n"
+"Language-Team: Persian <winmerge-translate@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../Src/\n"
+"Language: fa\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. LANGUAGE, SUBLANGUAGE
+#, c-format
+msgid "LANG_ENGLISH, SUBLANG_ENGLISH_US"
+msgstr "LANG_FARSI, SUBLANG_DEFAULT"
+
+msgid "Copy to Middle"
+msgstr ""
+
+msgid "C&opy to Right\tAlt+Right"
+msgstr "&o رونوشت برداري به سمت راست \tAlt+Right"
+
+msgid "Copy from Middle"
+msgstr ""
+
+msgid "Copy fro&m Right\tAlt+Shift+Left"
+msgstr ""
+
+msgid "Cop&y to Left\tAlt+Left"
+msgstr "&y رونوشت برداري به سمت چپ \tAlt+Left"
+
+msgid "Copy &from Left\tAlt+Shift+Right"
+msgstr ""
+
+msgid "Copy Selected Lines to Middle"
+msgstr ""
+
+msgid "Copy Selected Lines to Right"
+msgstr ""
+
+msgid "Copy Selected Lines from Middle"
+msgstr ""
+
+msgid "Copy Selected Lines from Right"
+msgstr ""
+
+msgid "Copy Selected Lines to Left"
+msgstr ""
+
+msgid "Copy Selected Lines from Left"
+msgstr ""
+
+msgid "Copy Selected Diff (Left) to Clipboard\tCtrl+&1"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Middle) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&3"
+msgstr ""
+
+#, c-format
+msgid "Select Line &Difference\tF4"
+msgstr "&D انتخاب خط تفاوت \tF4"
+
+msgid "Add to Substitution &Filters"
+msgstr ""
+
+msgid "Add to &Line Filters"
+msgstr ""
+
+#, c-format
+msgid "&Undo"
+msgstr "&U بي اثر شدن آخرين دستور "
+
+#, c-format
+msgid "&Redo"
+msgstr "&R تکرار آخرين دستور "
+
+#, c-format
+msgid "Cu&t"
+msgstr "&t برش "
+
+#, c-format
+msgid "&Copy"
+msgstr "&C رونوشت برداري "
+
+#, c-format
+msgid "&Paste"
+msgstr "&P چسباندن "
+
+#, c-format
+msgid "&Scripts"
+msgstr "&S دست نويسها "
+
+#, c-format
+msgid "< Empty >"
+msgstr "<خالي>"
+
+msgid "&Go to...\tCtrl+G"
+msgstr "&G برو به ... \tCtrl+G"
+
+msgid "Go to Moved Line Between Left and Middle\tCtrl+Shift+G"
+msgstr ""
+
+msgid "Go to Moved Line Between Middle and Right\tCtrl+Alt+G"
+msgstr ""
+
+#, c-format
+msgid "Op&en"
+msgstr "&e باز "
+
+msgid "With &Registered Application"
+msgstr "&R با برنامه کاربردي رسمي "
+
+msgid "With &External Editor\tCtrl+Alt+E"
+msgstr ""
+
+msgid "&With..."
+msgstr "&w با ..."
+
+msgid "Open &Parent Folder..."
+msgstr ""
+
+msgid "S&hell Menu"
+msgstr ""
+
+msgid "Use First Line as Headers"
+msgstr ""
+
+msgid "Auto-Fit All Columns"
+msgstr ""
+
+#, c-format
+msgid "View &Differences"
+msgstr ""
+
+#, c-format
+msgid "Diff &Block Size"
+msgstr ""
+
+#, c-format
+msgid "&Ignore Color Difference"
+msgstr ""
+
+msgid "Ins&ertion/Deletion Detection"
+msgstr ""
+
+#, c-format
+msgid "&None"
+msgstr "&N هيچکدام "
+
+msgid "&Vertical"
+msgstr ""
+
+msgid "&Horizontal"
+msgstr ""
+
+#, c-format
+msgid "&Previous Page"
+msgstr ""
+
+#, c-format
+msgid "&Next Page"
+msgstr ""
+
+#, c-format
+msgid "&Active Pane"
+msgstr ""
+
+msgid "Rotate &Right 90deg"
+msgstr ""
+
+msgid "Rotate &Left 90deg"
+msgstr ""
+
+msgid "Flip V&ertically"
+msgstr ""
+
+msgid "Flip H&orizontally"
+msgstr ""
+
+#, c-format
+msgid "&Zoom"
+msgstr "&Z بزرگنمايي "
+
+#, c-format
+msgid "25%"
+msgstr ""
+
+#, c-format
+msgid "Zoom &In\tCtrl++"
+msgstr "&I بزرگ نمايي \tCtrl++"
+
+#, c-format
+msgid "Zoom &Out\tCtrl+-"
+msgstr "&O کوچک نمايي \tCtrl+-"
+
+#. Zoom to normal
+#, c-format
+msgid "&Normal\tCtrl+*"
+msgstr "&N معمولي \tCtrl+*"
+
+#, c-format
+msgid "&Overlay"
+msgstr ""
+
+#, c-format
+msgid "&Alpha Blend"
+msgstr ""
+
+#, c-format
+msgid "Alpha &Blend Animation"
+msgstr ""
+
+#, c-format
+msgid "Dragging &Mode"
+msgstr ""
+
+#, c-format
+msgid "&Move"
+msgstr "&M جابجا کردن "
+
+#, c-format
+msgid "&Adjust Offset"
+msgstr ""
+
+msgid "&Vertical Wipe"
+msgstr ""
+
+msgid "&Horizontal Wipe"
+msgstr ""
+
+msgid "Rectangle &Select"
+msgstr ""
+
+#, c-format
+msgid "&Set Background Color"
+msgstr ""
+
+msgid "&Vector Image Scaling"
+msgstr ""
+
+msgid "&Animation Settings"
+msgstr ""
+
+msgid "&Blink Interval"
+msgstr ""
+
+msgid "&Overlay Animation Interval"
+msgstr ""
+
+msgid "Compare Extracted &Text from Images"
+msgstr ""
+
+msgid "Co&mpare"
+msgstr ""
+
+msgid "&Screenshots"
+msgstr ""
+
+msgid "&Full Size Screenshots"
+msgstr ""
+
+msgid "&HTMLs"
+msgstr ""
+
+msgid "&Texts"
+msgstr ""
+
+msgid "&Resource Trees"
+msgstr ""
+
+msgid "&Size"
+msgstr ""
+
+msgid "Fit to Window"
+msgstr ""
+
+msgid "&Event Sync"
+msgstr ""
+
+msgid "&Enabled"
+msgstr ""
+
+msgid "&Scroll"
+msgstr ""
+
+msgid "&Click"
+msgstr ""
+
+msgid "&Input"
+msgstr ""
+
+msgid "&Go Back/Forward"
+msgstr ""
+
+msgid "Clear &Browsing Data"
+msgstr ""
+
+msgid "&Disk Cache"
+msgstr ""
+
+msgid "&Cookies"
+msgstr ""
+
+msgid "&Browsing History"
+msgstr ""
+
+msgid "&All Profiles"
+msgstr ""
+
+#, c-format
+msgid "&File"
+msgstr "&F پرونده "
+
+#, c-format
+msgid "&New"
+msgstr "&N جديد \tCtl+N"
+
+#, c-format
+msgid "&Text"
+msgstr ""
+
+msgid "T&able"
+msgstr ""
+
+#, c-format
+msgid "&Binary"
+msgstr "&B دودويي"
+
+#, c-format
+msgid "&Image"
+msgstr ""
+
+msgid "&Webpage"
+msgstr ""
+
+#, c-format
+msgid "New (&3 panes)"
+msgstr ""
+
+#, c-format
+msgid "&Open...\tCtrl+O"
+msgstr "&O باز کردن ... \tCtrl+O"
+
+msgid "Open Conflic&t File..."
+msgstr "&t باز کردن پرونده تعارض ... "
+
+msgid "Open C&lipboard"
+msgstr ""
+
+#, c-format
+msgid "Open Pro&ject...\tCtrl+J"
+msgstr "&j باز کردن (پروژه) طرح ... \tCtrl+J"
+
+#, c-format
+msgid "Sa&ve Project..."
+msgstr "&v ذخيره (پروژه) طرح ...  "
+
+#, c-format
+msgid "Recent Projects"
+msgstr " پروژه هاي) طرحهاي اخير) "
+
+#, c-format
+msgid "Recent F&iles or Folders"
+msgstr ""
+
+msgid "E&xit\tCtrl+Q"
+msgstr "&x خروج \tCtrl+Q"
+
+#, c-format
+msgid "&Edit"
+msgstr "&E ويرايش "
+
+#, c-format
+msgid "&Paste\tCtrl+V"
+msgstr "&P چسباندن \tCtrl+V"
+
+#, c-format
+msgid "&Options...\tCtrl+,"
+msgstr "&O خيارات ... \tCtrl+,"
+
+#, c-format
+msgid "&View"
+msgstr "&V نما "
+
+#, c-format
+msgid "Ta&b Bar"
+msgstr "&b ميله جهش "
+
+msgid "&View Tab Bar"
+msgstr ""
+
+msgid "&On Title Bar"
+msgstr ""
+
+#, c-format
+msgid "&Toolbar"
+msgstr "&T ميله ابزار "
+
+#, c-format
+msgid "&Small"
+msgstr "&S کوچک "
+
+msgid "&Medium"
+msgstr ""
+
+#, c-format
+msgid "&Big"
+msgstr "&B بزرگ"
+
+#, c-format
+msgid "&Huge"
+msgstr ""
+
+msgid "Men&u Bar"
+msgstr ""
+
+msgid "&Output Pane"
+msgstr ""
+
+#, c-format
+msgid "&Status Bar"
+msgstr "&S ميله وضعيت "
+
+#, c-format
+msgid "&Tools"
+msgstr "&T ابزارها "
+
+#, c-format
+msgid "&Filters..."
+msgstr "&F صافيها ..."
+
+#, c-format
+msgid "&Generate Patch..."
+msgstr "&G توليد وصله ... "
+
+#, c-format
+msgid "&Plugins"
+msgstr "&P افزايه ها "
+
+#, c-format
+msgid "P&lugin Settings..."
+msgstr ""
+
+#, c-format
+msgid "Ma&nual Prediffer"
+msgstr "&a پيش متفاوت به طور دستي"
+
+#, c-format
+msgid "A&utomatic Prediffer"
+msgstr "&u پيش متفاوت به طور خودکار"
+
+#, c-format
+msgid "&Manual Unpacking"
+msgstr "&M بازکردن بسته بطور دستي "
+
+#, c-format
+msgid "&Automatic Unpacking"
+msgstr "&A بازکردن بسته بطور خودکار "
+
+#, c-format
+msgid "&Reload Plugins"
+msgstr "&R بارگذاري دوباره افزايه ها "
+
+#, c-format
+msgid "&Window"
+msgstr "&W پنجره "
+
+msgid "Cl&ose\tCtrl+W"
+msgstr "&o بستن \tCtrl+W"
+
+#, c-format
+msgid "Clo&se All"
+msgstr "&s بستن همگي "
+
+#, c-format
+msgid "Change &Pane\tF6"
+msgstr "&P تغيير چهارگوش \tF6"
+
+#, c-format
+msgid "Tile &Horizontally"
+msgstr "&H چيدن افقي "
+
+#, c-format
+msgid "Tile &Vertically"
+msgstr "&V چيدن عمودي "
+
+#, c-format
+msgid "&Cascade"
+msgstr "&C آبشاري "
+
+#, c-format
+msgid "&Help"
+msgstr "&H راهنما "
+
+#, c-format
+msgid "&WinMerge Help\tF1"
+msgstr "&W راهنماي وينمرج \tF1"
+
+#, c-format
+msgid "R&elease Notes"
+msgstr "&e يادداشتهاي نشر "
+
+#, c-format
+msgid "&Translations"
+msgstr "&T ترجمه ها "
+
+#, c-format
+msgid "C&onfiguration"
+msgstr "&o پيکربندي "
+
+#, c-format
+msgid "&GNU General Public License"
+msgstr "&G  مجوز عمومي کلي جي ان يو "
+
+#, c-format
+msgid "&About WinMerge..."
+msgstr "&A درباره وينمرج ... "
+
+#, c-format
+msgid "&Read-Only"
+msgstr ""
+
+#, c-format
+msgid "L&eft Read-Only"
+msgstr "&e طرف چپ فقط خواندني "
+
+#, c-format
+msgid "M&iddle Read-Only"
+msgstr ""
+
+#, c-format
+msgid "Ri&ght Read-Only"
+msgstr "&g طرف راست فقط خواندني "
+
+#, c-format
+msgid "&File Encoding..."
+msgstr "&F کدبندي پرونده ... "
+
+#, c-format
+msgid "Select &All\tCtrl+A"
+msgstr "&A انتخاب همگي \tCtrl+A"
+
+#, c-format
+msgid "Show &Identical Items"
+msgstr "&I نمايش موارد  يکسان "
+
+#, c-format
+msgid "Show &Different Items"
+msgstr "&D نمايش موارد متفاوت "
+
+#, c-format
+msgid "Show L&eft Unique Items"
+msgstr "&e نمايش موارد بيمانند چپ "
+
+#, c-format
+msgid "Show Midd&le Unique Items"
+msgstr ""
+
+#, c-format
+msgid "Show Ri&ght Unique Items"
+msgstr "&g نمايش موارد  بيمانند راست  "
+
+#, c-format
+msgid "Show S&kipped Items"
+msgstr "&k نمايش موارد مقايسه نشده "
+
+#, c-format
+msgid "S&how Binary Files"
+msgstr "&h نمايش پرونده هاي دودويي "
+
+#, c-format
+msgid "&3-way Compare"
+msgstr ""
+
+#, c-format
+msgid "Show &Left Only Different Items"
+msgstr ""
+
+#, c-format
+msgid "Show &Middle Only Different Items"
+msgstr ""
+
+#, c-format
+msgid "Show &Right Only Different Items"
+msgstr ""
+
+msgid "Show L&eft Only Missing Items"
+msgstr ""
+
+msgid "Show Mi&ddle Only Missing Items"
+msgstr ""
+
+msgid "Show Rig&ht Only Missing Items"
+msgstr ""
+
+#, c-format
+msgid "Show Hidd&en Items"
+msgstr "&e نمايش موارد پنهان "
+
+#, c-format
+msgid "Tree &Mode"
+msgstr "&M سبک شاخسار "
+
+msgid "E&xpand Subfolders"
+msgstr ""
+
+msgid "&All Subfolders"
+msgstr ""
+
+msgid "&Different Subfolders"
+msgstr ""
+
+msgid "&Identical Subfolders"
+msgstr ""
+
+#, c-format
+msgid "&Collapse All Subfolders"
+msgstr "&C فروپاشي همه زير پوشه ها "
+
+#, c-format
+msgid "Select &Font..."
+msgstr "&F انتخاب قلم  "
+
+#, c-format
+msgid "Use Default Font"
+msgstr "&o استفاده از قلم پيش فرض "
+
+#, c-format
+msgid "Sw&ap Panes"
+msgstr "&a تعويض چهارگوشها "
+
+msgid "Swap &1st | 2nd"
+msgstr ""
+
+msgid "Swap &2nd | 3rd"
+msgstr ""
+
+msgid "Swap 1st | &3rd"
+msgstr ""
+
+#, c-format
+msgid "Com&pare Statistics..."
+msgstr "&r مقايسه آمارها ... "
+
+#, c-format
+msgid "Refresh\tF5"
+msgstr "&s بازسازي \tF5"
+
+#, c-format
+msgid "&Refresh Selected\tCtrl+F5"
+msgstr "&R بازسازي انتخاب \tCtrl+F5"
+
+#, c-format
+msgid "&Merge"
+msgstr "&M پيوند زدن  "
+
+#, c-format
+msgid "Co&mpare\tEnter"
+msgstr "&m همسنجي \tEnter"
+
+#, c-format
+msgid "&Next Difference\tAlt+Down"
+msgstr "&N تفاوت بعدي \tAlt+Down"
+
+#, c-format
+msgid "&Previous Difference\tAlt+Up"
+msgstr "&P تفاوت قبلي \tAlt+Up"
+
+#, c-format
+msgid "&First Difference\tAlt+Home"
+msgstr "&F نخستين تفاوت \tAlt+Home"
+
+#, c-format
+msgid "&Current Difference\tAlt+Enter"
+msgstr "&C تفاوت جاري \tAlt+Enter"
+
+#, c-format
+msgid "&Last Difference\tAlt+End"
+msgstr "&L آخرين تفاوت \tAlt+End"
+
+#, c-format
+msgid "Copy to &Right\tAlt+Right"
+msgstr "&R نسخه برداري به راست \tAlt+Right"
+
+#, c-format
+msgid "Copy to L&eft\tAlt+Left"
+msgstr "&e نسخه برداري به چپ \tAlt+Left"
+
+#, c-format
+msgid "&Delete\tDel"
+msgstr "&D حذف \tDel"
+
+#, c-format
+msgid "&Customize Columns..."
+msgstr "&C سفارشي کردن ستونها ... "
+
+#, c-format
+msgid "Generate &Report..."
+msgstr "&R توليد گزارش ... "
+
+#, c-format
+msgid "&Edit with Unpacker..."
+msgstr ""
+
+#, c-format
+msgid "&Save\tCtrl+S"
+msgstr "&S ذخيره \tCtrl+S"
+
+#, c-format
+msgid "Sav&e"
+msgstr ""
+
+#, c-format
+msgid "Save &Left"
+msgstr "&L ذخيره سمت چپي "
+
+#, c-format
+msgid "Save &Middle"
+msgstr ""
+
+#, c-format
+msgid "Save &Right"
+msgstr "&R ذخيره سمت راستي "
+
+#, c-format
+msgid "Save &As"
+msgstr ""
+
+#, c-format
+msgid "Save &Left As..."
+msgstr ""
+
+#, c-format
+msgid "Save &Middle As..."
+msgstr ""
+
+#, c-format
+msgid "Save &Right As..."
+msgstr ""
+
+msgid "&Print...\tCtrl+P"
+msgstr "&P چاپ ...\tCtrl+P"
+
+msgid "Page Set&up..."
+msgstr "&u تنظيم صفحه ..."
+
+msgid "Print Previe&w..."
+msgstr "&w پيش نمايش چاپ ..."
+
+#, c-format
+msgid "&Convert Line Endings to"
+msgstr "&C تبديل پايان خط به "
+
+#, c-format
+msgid "Mer&ge Mode\tF9"
+msgstr "&M سبک پيوند \tF9"
+
+msgid "Reloa&d\tCtrl+F5"
+msgstr ""
+
+#, c-format
+msgid "Reco&mpare As"
+msgstr ""
+
+#, c-format
+msgid "&Undo\tCtrl+Z"
+msgstr "&U بي اثر شدن آخرين دستور \tCtrl+Z"
+
+#, c-format
+msgid "&Redo\tCtrl+Y"
+msgstr "&R تکرار آخرين دستور \tCtrl+Y"
+
+#, c-format
+msgid "Cu&t\tCtrl+X"
+msgstr "&t برش \tCtrl+X"
+
+#, c-format
+msgid "&Copy\tCtrl+C"
+msgstr "&C رونوشت برداري \tCtrl+C"
+
+#, c-format
+msgid "F&ind...\tCtrl+F"
+msgstr "&i يافتن  ...  \tCtrl+F"
+
+#, c-format
+msgid "Repla&ce...\tCtrl+H"
+msgstr "&c جايگزيني ... \tCtrl+H"
+
+#, c-format
+msgid "&Marker...\tCtrl+Shift+M"
+msgstr ""
+
+#, c-format
+msgid "Advanced"
+msgstr " پيشرفته "
+
+#, c-format
+msgid "&Copy With Line Numbers\tCtrl+Shift+C"
+msgstr "&C رونوشت برداري با شماره هاي خط \tCtrl+Shift+C"
+
+#, c-format
+msgid "&Bookmarks"
+msgstr "&B نشانه ها "
+
+#, c-format
+msgid "&Toggle Bookmark\tCtrl+F2"
+msgstr "&T تغيير وضعيت چوب الف \tCtrl+F2"
+
+#, c-format
+msgid "&Next Bookmark\tF2"
+msgstr "&N چوب الف بعدي \tF2"
+
+#, c-format
+msgid "&Previous Bookmark\tShift+F2"
+msgstr "&P چوب الف قبلي \tShift+F2"
+
+#, c-format
+msgid "&Clear All Bookmarks"
+msgstr "&C پاک کردن تمام نشانها "
+
+#, c-format
+msgid "Syntax Highlight"
+msgstr " مشخص نمودن نحو "
+
+#, c-format
+msgid "&Diff Context"
+msgstr ""
+
+#, c-format
+msgid "&All Lines"
+msgstr ""
+
+#, c-format
+msgid "&0 Lines"
+msgstr ""
+
+#, c-format
+msgid "&1 Line"
+msgstr ""
+
+#, c-format
+msgid "&3 Lines"
+msgstr ""
+
+#, c-format
+msgid "&5 Lines"
+msgstr ""
+
+#, c-format
+msgid "&7 Lines"
+msgstr ""
+
+#, c-format
+msgid "&9 Lines"
+msgstr ""
+
+#, c-format
+msgid "&Toggle All and 0-9 Lines\tCtrl+D"
+msgstr ""
+
+msgid "&Invert (Hide Different Lines)"
+msgstr ""
+
+#, c-format
+msgid "&Lock Panes"
+msgstr "&L قفل کردن چهارگوشها "
+
+#, c-format
+msgid "&View Whitespace"
+msgstr "&V مشاهده فاصله سفيد "
+
+msgid "View E&OL"
+msgstr ""
+
+#, c-format
+msgid "Vie&w Line Differences"
+msgstr "&w مشاهده خطوط متفاوت "
+
+#, c-format
+msgid "View Line &Numbers"
+msgstr "&N مشاهده شماره خطوط "
+
+#, c-format
+msgid "View &Margins"
+msgstr "&M مشاهده کناره ها "
+
+msgid "View To&p Margins"
+msgstr ""
+
+#, c-format
+msgid "W&rap Lines"
+msgstr "&r سطر بندي خطوط "
+
+#, c-format
+msgid "Split V&ertically"
+msgstr ""
+
+#, c-format
+msgid "Diff &Pane"
+msgstr "&P چهارگوش تفاوت "
+
+#, c-format
+msgid "Lo&cation Pane"
+msgstr "&c چهارگوش مکان يابي "
+
+msgid "Output Pane"
+msgstr ""
+
+#, c-format
+msgid "Ne&xt Conflict\tAlt+Shift+Down"
+msgstr ""
+
+#, c-format
+msgid "Pre&vious Conflict\tAlt+Shift+Up"
+msgstr ""
+
+#, c-format
+msgid "A&dvanced"
+msgstr ""
+
+#, c-format
+msgid "Next Difference (Left/Middle)\tAlt+1"
+msgstr ""
+
+#, c-format
+msgid "Previous Difference (Left/Middle)\tAlt+Shift+1"
+msgstr ""
+
+#, c-format
+msgid "Next Difference (Left/Right)\tAlt+2"
+msgstr ""
+
+#, c-format
+msgid "Previous Difference (Left/Right)\tAlt+Shift+2"
+msgstr ""
+
+#, c-format
+msgid "Next Difference (Middle/Right)\tAlt+3"
+msgstr ""
+
+#, c-format
+msgid "Previous Difference (Middle/Right)\tAlt+Shift+3"
+msgstr ""
+
+#, c-format
+msgid "Next Left-Only Difference\tAlt+7"
+msgstr ""
+
+#, c-format
+msgid "Previous Left-Only Difference\tAlt+Shift+7"
+msgstr ""
+
+#, c-format
+msgid "Next Middle-Only Difference\tAlt+8"
+msgstr ""
+
+#, c-format
+msgid "Previous Middle-Only Difference\tAlt+Shift+8"
+msgstr ""
+
+#, c-format
+msgid "Next Right-Only Difference\tAlt+9"
+msgstr ""
+
+#, c-format
+msgid "Previous Right-Only Difference\tAlt+Shift+9"
+msgstr ""
+
+msgid "Copy from &Left to"
+msgstr ""
+
+#, c-format
+msgid "&Middle"
+msgstr ""
+
+#, c-format
+msgid "&Right"
+msgstr "&R راست "
+
+msgid "Copy from &Middle to"
+msgstr ""
+
+#, c-format
+msgid "&Left"
+msgstr "&L چپ "
+
+msgid "Copy from &Right to"
+msgstr ""
+
+msgid "Copy Selected Lines from Le&ft to"
+msgstr ""
+
+msgid "Copy Selected Lines from Mi&ddle to"
+msgstr ""
+
+msgid "Copy Selected Lines from Ri&ght to"
+msgstr ""
+
+#, c-format
+msgid "Copy from Left\tAlt+Shift+Right"
+msgstr ""
+
+#, c-format
+msgid "Copy from Right\tAlt+Shift+Left"
+msgstr ""
+
+msgid "C&opy to Right and Advance\tCtrl+Alt+Right"
+msgstr "&o  به راست رونوشت برداري کرده و ادامه بده \tCtrl+Alt+Right..."
+
+msgid "Copy &to Left and Advance\tCtrl+Alt+Left"
+msgstr "&t  به چپ رونوشت برداري کرده و ادامه بده \tCtrl+Alt+Left"
+
+#, c-format
+msgid "Copy &All to Right"
+msgstr "&A رونوشت برداري همه به راست "
+
+#, c-format
+msgid "Cop&y All to Left"
+msgstr "&y رونوشت برداري همه به چپ "
+
+msgid "A&uto Merge\tCtrl+Alt+M"
+msgstr ""
+
+#, c-format
+msgid "Add &Synchronization Point\tAlt+S"
+msgstr ""
+
+#, c-format
+msgid "Clear Sync&hronization Points"
+msgstr ""
+
+msgid "Unpac&ker"
+msgstr ""
+
+#, c-format
+msgid "&Prediffer"
+msgstr "&P پيش فرق گذار "
+
+msgid "Apply Pre&differ..."
+msgstr ""
+
+msgid "&Transform with Editor Script..."
+msgstr ""
+
+msgid "Scripts for &Copying"
+msgstr ""
+
+msgid "Select &Editor Script..."
+msgstr ""
+
+#, c-format
+msgid "Sp&lit"
+msgstr ""
+
+#, c-format
+msgid "Comp&are"
+msgstr "&a همسنجي "
+
+msgid "Compare in New &Window"
+msgstr ""
+
+msgid "Compare Non-hor&izontally..."
+msgstr ""
+
+#, c-format
+msgid "Compare Non-hor&izontally"
+msgstr ""
+
+#, c-format
+msgid "First &Left with Second Left"
+msgstr ""
+
+#, c-format
+msgid "First &Right with Second Right"
+msgstr ""
+
+#, c-format
+msgid "&First Left with Second Right"
+msgstr ""
+
+#, c-format
+msgid "&Second Left with First Right"
+msgstr ""
+
+#, c-format
+msgid "Co&mpare As"
+msgstr "&m  همسنجي به صورت "
+
+#, c-format
+msgid "Left to Middle (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Left to Right (%1 of %2)"
+msgstr "  چپ به راست - %1 از %2 "
+
+#, c-format
+msgid "Left to... (%1 of %2)"
+msgstr "  چپ به ... - %1 از %2 "
+
+#, c-format
+msgid "Middle to Left (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Middle to Right (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Middle to... (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Right to Middle (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Right to Left (%1 of %2)"
+msgstr "  راست  به چپ - %1 از %2 "
+
+#, c-format
+msgid "Right to... (%1 of %2)"
+msgstr "  راست به ... - %1 از %2 "
+
+#, c-format
+msgid "&Delete"
+msgstr "&D حذف "
+
+#, c-format
+msgid "&Both"
+msgstr "&B هر دو "
+
+#, c-format
+msgid "&All"
+msgstr ""
+
+#, c-format
+msgid "Re&name"
+msgstr "&n تغيير نام "
+
+#, c-format
+msgid "&Hide Items"
+msgstr "&H پنهان کردن موارد  "
+
+#, c-format
+msgid "&Open Left"
+msgstr "&O بازکردن سمت چپي "
+
+#, c-format
+msgid "Open Midd&le"
+msgstr ""
+
+#, c-format
+msgid "O&pen Right"
+msgstr "&p بازکردن سمت راستي "
+
+#, c-format
+msgid "Cop&y Paths"
+msgstr "&y رونوشت برداري از نام مسيرها "
+
+#, c-format
+msgid "Left (%1 of %2)"
+msgstr " چپ - %1 از %2"
+
+#, c-format
+msgid "Middle (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Right (%1 of %2)"
+msgstr " راست - %1 از %2"
+
+#, c-format
+msgid "Both (%1 of %2)"
+msgstr " هر دو سمت - %1 از %2"
+
+#, c-format
+msgid "All (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Copy &Filenames"
+msgstr "&F رونوشت برداري از نام پرونده ها "
+
+#, c-format
+msgid "Copy Items to Clip&board"
+msgstr ""
+
+msgid "Copy All Di&splayed Columns"
+msgstr ""
+
+#, c-format
+msgid "&Zip"
+msgstr "&Z فشرده سازي "
+
+#, c-format
+msgid "Both to... (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "All to... (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Differences to... (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Left Shell Menu"
+msgstr " گزينگان / فهرست پوسته چپ "
+
+#, c-format
+msgid "Middle Shell Menu"
+msgstr ""
+
+#, c-format
+msgid "Right Shell Menu"
+msgstr " گزينگان / فهرست پوسته راست "
+
+msgid "Both Shell Menu"
+msgstr ""
+
+msgid "All Shell Menu"
+msgstr ""
+
+#, c-format
+msgid "Copy"
+msgstr ""
+
+#, c-format
+msgid "&Copy Full Path"
+msgstr "&C رونوشت برداري کل مسير "
+
+#, c-format
+msgid "Copy &Filename"
+msgstr "&F رونوشت برداري نام پرونده"
+
+msgid "&Edit Caption"
+msgstr ""
+
+msgid "&Open..."
+msgstr ""
+
+msgid "Unpacker Settings"
+msgstr ""
+
+#, c-format
+msgid "<None>"
+msgstr "<هيچکدام>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<خودکار>"
+
+#, c-format
+msgid "&Select..."
+msgstr "&S انتخاب ... "
+
+#, c-format
+msgid "Prediffer Settings"
+msgstr " تنظيمهاي پيش فرق گذار  "
+
+msgid "G&o to Diff"
+msgstr "&o برو به محل تفاوت "
+
+#, c-format
+msgid "&No Moved Blocks"
+msgstr "&N هيچ قطعه جابجا شده "
+
+#, c-format
+msgid "&All Moved Blocks"
+msgstr "&A همه قطعه هاي جابجا شده "
+
+#, c-format
+msgid "W&hitespaces"
+msgstr "&h فاصله هاي سفيد "
+
+#, c-format
+msgid "Com&pare"
+msgstr "&p همسنجي "
+
+#, c-format
+msgid "I&gnore Changes"
+msgstr "&g چشم پوشي از تغييرات "
+
+#, c-format
+msgid "Ig&nore All"
+msgstr "&n چشم پوشي از همه "
+
+#, c-format
+msgid "Ignore Blan&k Lines"
+msgstr "&k چشم پوشي از خطوط خالي "
+
+#, c-format
+msgid "Ignore &Case"
+msgstr "&c چشم پوشي از اندازه حروف "
+
+#, c-format
+msgid "Igno&re EOL Differences (Windows/Unix/Mac)"
+msgstr "&r چشم پوشي از تفاوت علامت بازگشت به سر سطر  (Windows/Unix/Mac)"
+
+#, c-format
+msgid "Ignore Codepage &Differences"
+msgstr ""
+
+msgid "Ignore Num&bers"
+msgstr ""
+
+msgid "Ignore C&omment Differences"
+msgstr ""
+
+msgid "Ignore &Missing Trailing EOL"
+msgstr ""
+
+#, c-format
+msgid "&Include Subfolders"
+msgstr "&I شامل زيرپوشه ها "
+
+#, c-format
+msgid "&Compare Method"
+msgstr "&C روش همسنجي"
+
+#, c-format
+msgid "Full Contents"
+msgstr " محتويات مشروح "
+
+#, c-format
+msgid "Quick Contents"
+msgstr " محتويات کوتاه  "
+
+#, c-format
+msgid "Binary Contents"
+msgstr ""
+
+#, c-format
+msgid "Modified Date"
+msgstr " تاريخ اصلاح شده "
+
+#, c-format
+msgid "Modified Date and Size"
+msgstr " تاريخ و اندازه اصلاح شده "
+
+#, c-format
+msgid "Size"
+msgstr " اندازه "
+
+#, c-format
+msgid "&Load Project..."
+msgstr ""
+
+msgid "${*} - All Arguments"
+msgstr ""
+
+msgid "${1} - First Argument"
+msgstr ""
+
+msgid "${2} - Second Argument"
+msgstr ""
+
+msgid "${3} - Third Argument"
+msgstr ""
+
+msgid "${4} - Fourth Argument"
+msgstr ""
+
+msgid "${5} - Fifth Argument"
+msgstr ""
+
+msgid "${6} - Sixth Argument"
+msgstr ""
+
+msgid "${7} - Seventh Argument"
+msgstr ""
+
+msgid "${8} - Eighth Argument"
+msgstr ""
+
+msgid "${9} - Ninth Argument"
+msgstr ""
+
+msgid "${SRC_FILE} - Source File"
+msgstr ""
+
+msgid "${SRC_FOLDER} - Source Folder"
+msgstr ""
+
+msgid "${SRC_URL} - Source URL"
+msgstr ""
+
+msgid "${SRC_URL_PROTOCOL} - Source URL Protocol"
+msgstr ""
+
+msgid "${SRC_URL_SUFFIX} - Source URL Suffix"
+msgstr ""
+
+msgid "${DST_FILE} - Destination File"
+msgstr ""
+
+msgid "${DST_FOLDER} - Destination Folder"
+msgstr ""
+
+msgid "${DST_URL} - Destination URL"
+msgstr ""
+
+msgid "${DST_URL_PROTOCOL} - Destination URL Protocol"
+msgstr ""
+
+msgid "${DST_URL_SUFFIX} - Destination URL Suffix"
+msgstr ""
+
+msgid "${WINMERGE_HOME} - WinMerge Home Directory"
+msgstr ""
+
+msgid "${SCRIPT_FILE} - Script File"
+msgstr ""
+
+msgid "Add &Unpacker Plugin..."
+msgstr ""
+
+msgid "Add &Prediffer Plugin..."
+msgstr ""
+
+msgid "&Duplicate Plugin..."
+msgstr ""
+
+msgid "Clear &All"
+msgstr ""
+
+#, c-format
+msgid "About WinMerge"
+msgstr " درباره وينمرج "
+
+msgid "Visit the WinMerge Homepage!"
+msgstr " بازديد صفحه خانگي وينمرج ! "
+
+#, c-format
+msgid "OK"
+msgstr " تاييد "
+
+#, c-format
+msgid "Contributors"
+msgstr " شرکت کننده ها "
+
+#, c-format
+msgid "Select Files or Folders"
+msgstr " انتخاب پرونده ها يا پوشه ها "
+
+#, c-format
+msgid "&1st File or Folder"
+msgstr ""
+
+#, c-format
+msgid "Re&ad-only"
+msgstr "&a فقط خواندني "
+
+#, c-format
+msgid "Swap 1st | 2nd"
+msgstr ""
+
+#, c-format
+msgid "&Browse..."
+msgstr "&B مرور "
+
+#, c-format
+msgid "&2nd File or Folder"
+msgstr ""
+
+#, c-format
+msgid "Rea&d-only"
+msgstr ""
+
+#, c-format
+msgid "Swap 2nd | 3rd"
+msgstr ""
+
+#, c-format
+msgid "B&rowse..."
+msgstr "&r مرور ... "
+
+#, c-format
+msgid "&3rd File or Folder (Optional)"
+msgstr ""
+
+#, c-format
+msgid "Read-o&nly"
+msgstr ""
+
+#, c-format
+msgid "Swap 1st | 3rd"
+msgstr ""
+
+#, c-format
+msgid "Browse..."
+msgstr " مرور ... "
+
+#, c-format
+msgid " Folder: Filter"
+msgstr ""
+
+msgid "&Include subfolders"
+msgstr "&I شامل زيرپوشه ها "
+
+msgid " File: Prediffer Plugin"
+msgstr ""
+
+#, c-format
+msgid " File: Unpacker Plugin"
+msgstr ""
+
+#, c-format
+msgid "Se&lect..."
+msgstr ""
+
+#, c-format
+msgid "Cancel"
+msgstr " لغو "
+
+#, c-format
+msgid "Status:"
+msgstr " وضعيت : "
+
+#, c-format
+msgid "Help"
+msgstr " راهنما "
+
+msgid "&Options..."
+msgstr "&O خيارات ... "
+
+#, c-format
+msgid "General"
+msgstr " عمومي "
+
+#, c-format
+msgid "Automatically &scroll to first difference"
+msgstr "&s بطور خودکار به نخستين تفاوت منتقل شود "
+
+msgid "Automatically s&croll to first inline difference"
+msgstr ""
+
+msgid "Cl&ose windows with 'Esc':"
+msgstr "&o   'Esc' بستن پنجره ها با کليد :"
+
+#, c-format
+msgid "&Automatically verify paths in Open dialog"
+msgstr "&A بطور خودکار مسيرها در پنجره محاوره - باز کردن - وارسي شود "
+
+msgid "Single instance mode:"
+msgstr ""
+
+#, c-format
+msgid "As&k when closing multiple windows"
+msgstr "&k بپرس، وقتي که داري چند تا پنجره را مي بندي "
+
+#, c-format
+msgid "&Preserve file time in file compare"
+msgstr "&P  در مقايسه پرونده ها زمان پرونده را حفظ کن "
+
+#, c-format
+msgid "Show \"Select Files or Folders\" dialog on startup"
+msgstr ""
+" پنجره محاوره \"انتخاب پرونده ها يا پوشه ها\" به هنگام شروع کار نرم افزار "
+"نمايش داده شود "
+
+msgid "Close \"Select Files or Folders\" dialog on clicking Compare button"
+msgstr ""
+
+#, c-format
+msgid "Op&en dialog Auto completion:"
+msgstr "&p بازکردن پنجره محاوره اتمام خودکار "
+
+msgid "Auto-&reload modified files:"
+msgstr ""
+
+#, c-format
+msgid "Language:"
+msgstr ""
+
+#, c-format
+msgid "Defaults"
+msgstr " پيش فرضها "
+
+#, c-format
+msgid "Find"
+msgstr " يافتن "
+
+#, c-format
+msgid "Fi&nd what:"
+msgstr "&n پيدا کردن چه : "
+
+#, c-format
+msgid "Match &whole word only"
+msgstr "&w فقط تمام کلمه تطبيق داده شود "
+
+#, c-format
+msgid "Match &case"
+msgstr "&c تطبيق اندازه حروف "
+
+#, c-format
+msgid "Regular &expression"
+msgstr "&e عبارت قاعده مند "
+
+#, c-format
+msgid "D&on't wrap end of file"
+msgstr "&o پايان پرونده را سطربندي نکن "
+
+#, c-format
+msgid "&Don't close this dialog"
+msgstr ""
+
+#, c-format
+msgid "&Find Next"
+msgstr "&F يافتن بعدي "
+
+#, c-format
+msgid "Find &Prev"
+msgstr ""
+
+#, c-format
+msgid "&Ok"
+msgstr "&O تاييد "
+
+#, c-format
+msgid "Replace"
+msgstr " جايگزيني "
+
+#, c-format
+msgid "Re&place with:"
+msgstr "&p جايگزيني با : "
+
+#, c-format
+msgid "&Don't wrap at end of file"
+msgstr "&D پايان پرونده را سطربندي نکن "
+
+#, c-format
+msgid "Replace in"
+msgstr " جايگزيني در "
+
+#, c-format
+msgid "&Selection"
+msgstr "&S گزينش "
+
+#, c-format
+msgid "Wh&ole file"
+msgstr "&o تمام پرونده "
+
+msgid "Find Pre&v"
+msgstr ""
+
+#, c-format
+msgid "&Replace"
+msgstr "&R جايگزيني "
+
+#, c-format
+msgid "Replace &All"
+msgstr "&A جايگزيني همگي"
+
+#, c-format
+msgid "Markers"
+msgstr ""
+
+#, c-format
+msgid "Enable &markers"
+msgstr ""
+
+#, c-format
+msgid "New"
+msgstr " جديد "
+
+#, c-format
+msgid "&Background color:"
+msgstr ""
+
+#, c-format
+msgid "&Apply"
+msgstr "&A به کار بستن "
+
+msgid "Line Filters"
+msgstr ""
+
+#, c-format
+msgid "Enable Line Filters"
+msgstr " فعال نمودن صافيهاي خط "
+
+#, c-format
+msgid "Regular Expressions (one per line):"
+msgstr " عبارات قاعده مند - هر خط يکي : "
+
+#, c-format
+msgid "Edit"
+msgstr " ويرايش "
+
+#, c-format
+msgid "Remove"
+msgstr " برداشتن "
+
+msgid "Substitution Filters"
+msgstr ""
+
+msgid "Changes to the listed pairs below will be ignored or marked as insignificant. Patches are unaffected."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+#, c-format
+msgid "Colors"
+msgstr " رنگها "
+
+msgid "Color Scheme:"
+msgstr ""
+
+#, c-format
+msgid "Background"
+msgstr " پس زمينه "
+
+#, c-format
+msgid "Deleted"
+msgstr " حذف شد "
+
+#, c-format
+msgid "Text"
+msgstr " متن "
+
+#, c-format
+msgid "Difference:"
+msgstr " تفاوت : "
+
+#, c-format
+msgid "Selected Difference:"
+msgstr " تفاوت انتخاب شده : "
+
+#, c-format
+msgid "Ignored Difference:"
+msgstr " تفاوت چشم پوشي شده "
+
+#, c-format
+msgid "Moved:"
+msgstr " جابجا شده : "
+
+#, c-format
+msgid "Selected Moved:"
+msgstr " جابجايي انتخاب شده : "
+
+#, c-format
+msgid "Same As Next (3 panes):"
+msgstr ""
+
+#, c-format
+msgid "Same As Next (Selected):"
+msgstr ""
+
+#, c-format
+msgid "Word Difference:"
+msgstr " تفاوت واژه : "
+
+#, c-format
+msgid "Selected Word Diff:"
+msgstr " تفاوت واژه انتخابي : "
+
+#, c-format
+msgid "Dialog"
+msgstr "پنجره محاوره  "
+
+#, c-format
+msgid "Keywords:"
+msgstr " کليدواژه ها : "
+
+#, c-format
+msgid "Function names:"
+msgstr " نام کليدکارها : "
+
+#, c-format
+msgid "Comments:"
+msgstr " توضيحات : "
+
+#, c-format
+msgid "Numbers:"
+msgstr " شماره ها : "
+
+#, c-format
+msgid "Operators:"
+msgstr " عملگرها : "
+
+#, c-format
+msgid "Strings:"
+msgstr " رشته ها : "
+
+#, c-format
+msgid "Preprocessor:"
+msgstr " پيش پرداز : "
+
+#, c-format
+msgid "User 1:"
+msgstr " کاربر 1 : "
+
+#, c-format
+msgid "User 2:"
+msgstr " کاربر 2 : "
+
+#, c-format
+msgid "Bold"
+msgstr " تيره "
+
+#, c-format
+msgid "&Use customized text colors"
+msgstr "&U  استفاده از رنگهاي متن سفارشي "
+
+#, c-format
+msgid "Whitespace:"
+msgstr " فاصله سفيد : "
+
+#, c-format
+msgid "Regular text:"
+msgstr " متن منظم : "
+
+#, c-format
+msgid "Selection:"
+msgstr " انتخاب : "
+
+#, c-format
+msgid "Margin:"
+msgstr ""
+
+#, c-format
+msgid "Search Marker:"
+msgstr ""
+
+#, c-format
+msgid "User Defined Marker 1:"
+msgstr ""
+
+#, c-format
+msgid "User Defined Marker 2:"
+msgstr ""
+
+#, c-format
+msgid "User Defined Marker 3:"
+msgstr ""
+
+msgid "&Use folder compare colors"
+msgstr ""
+
+msgid "Items equal:"
+msgstr ""
+
+msgid "Items different:"
+msgstr ""
+
+msgid "Items missing:"
+msgstr ""
+
+msgid "Items filtered:"
+msgstr ""
+
+msgid "&Use custom system colors"
+msgstr ""
+
+#, c-format
+msgid "System"
+msgstr "سامانه"
+
+#, c-format
+msgid "&Use Recycle Bin"
+msgstr "&S ارسال پرونده هاي حذف شده به سطل بازيافت "
+
+#, c-format
+msgid "&External editor:"
+msgstr "&E ويراستار خارجي : "
+
+#, c-format
+msgid "&Filter folder:"
+msgstr "&F پوشه صافي : "
+
+#, c-format
+msgid "Temporary files folder"
+msgstr " پوشه پرونده هاي موقتي "
+
+#, c-format
+msgid "S&ystem temp folder"
+msgstr "&y پوشه موقتي سيستم "
+
+#, c-format
+msgid "C&ustom folder:"
+msgstr "&u  پوشه سفارشي : "
+
+#, c-format
+msgid "Br&owse..."
+msgstr "&o مرور ... "
+
+#, c-format
+msgid "Patch Generator"
+msgstr " توليد کننده  وصله  "
+
+#, c-format
+msgid "File&1:"
+msgstr "&1 پرونده  : "
+
+#, c-format
+msgid "File&2:"
+msgstr "&2 پرونده  : "
+
+#, c-format
+msgid "&Swap"
+msgstr "&S معاوضه "
+
+#, c-format
+msgid "&Copy to clipboard"
+msgstr "&C رونوشت برداري به حافظه يادداشت / کليپ بورد "
+
+#, c-format
+msgid "&Append to existing file"
+msgstr "&A پيوند زدن به پرونده موجود "
+
+#, c-format
+msgid "&Result:"
+msgstr "&R نتيجه : "
+
+#, c-format
+msgid "Bro&wse..."
+msgstr "&w مرور "
+
+#, c-format
+msgid "&Format"
+msgstr "&F قالب بندي "
+
+#, c-format
+msgid "St&yle:"
+msgstr "&y سبک : "
+
+#, c-format
+msgid "&Context:"
+msgstr "&C متن : "
+
+#, c-format
+msgid "Inclu&de command line"
+msgstr "&d شامل خط فرمان "
+
+#, c-format
+msgid "Open in e&xternal editor"
+msgstr "&x بازکردن با ويراستار خارجي "
+
+#, c-format
+msgid "Display Columns"
+msgstr " نمايش ستون ها "
+
+#, c-format
+msgid "Move &Up"
+msgstr "&U جابجايي به بالا "
+
+#, c-format
+msgid "Move &Down"
+msgstr " جابجايي به پايين "
+
+msgid "&Additional Properties"
+msgstr ""
+
+msgid "Additional Properties"
+msgstr ""
+
+msgid "Select Plugin"
+msgstr ""
+
+msgid "Plugin &name:"
+msgstr ""
+
+msgid "&Target files:"
+msgstr ""
+
+#, c-format
+msgid "Extensions list:"
+msgstr " فهرست توسعه ها : "
+
+#, c-format
+msgid "Description:"
+msgstr " توصيف : "
+
+msgid "Default arguments:"
+msgstr ""
+
+msgid "Display all plugins (Ignore extension)"
+msgstr ""
+
+msgid "&Open files in same window type after unpacking"
+msgstr ""
+
+msgid "&Plugin pipeline:"
+msgstr ""
+
+msgid "&Alias..."
+msgstr ""
+
+#, c-format
+msgid "Stop"
+msgstr " ايست "
+
+#, c-format
+msgid "Pause"
+msgstr ""
+
+#, c-format
+msgid "Continue"
+msgstr ""
+
+msgid "C&PU cores to use:"
+msgstr ""
+
+#, c-format
+msgid "Items total:"
+msgstr " کل موارد : "
+
+#, c-format
+msgid "Items compared:"
+msgstr " موارد مقايسه شده : "
+
+msgid "Go to"
+msgstr " برو به "
+
+msgid "G&o to:"
+msgstr "&o بروربه : "
+
+#, c-format
+msgid "File"
+msgstr " پرونده "
+
+msgid "Go to what"
+msgstr " برو به چه "
+
+#, c-format
+msgid "Li&ne"
+msgstr "&n خط "
+
+#, c-format
+msgid "&Difference"
+msgstr "&D تفاوت "
+
+msgid "&Go to"
+msgstr "&G برو به "
+
+#, c-format
+msgid "Compare"
+msgstr " مقايسه کردن "
+
+#, c-format
+msgid "Whitespaces"
+msgstr " فاصله سفيد "
+
+#, c-format
+msgid "&Compare"
+msgstr "&C همسنجي / مقايسه کردن "
+
+#, c-format
+msgid "&Ignore change"
+msgstr "&I چشم پوشي از تغيير "
+
+#, c-format
+msgid "I&gnore all"
+msgstr "&g چشم پوشي از همگي "
+
+msgid "Ignore blan&k lines"
+msgstr "&k چشم پوشي از خطوط خالي "
+
+msgid "Ignore &case"
+msgstr "&c چشم پوشي از اندازه حروف "
+
+msgid "Igno&re EOL differences (Windows/Unix/Mac)"
+msgstr ""
+
+msgid "Ignore num&bers"
+msgstr ""
+
+msgid "Ignore codepage &differences"
+msgstr ""
+
+msgid "Ignore c&omment differences"
+msgstr ""
+
+msgid "Ignore &missing trailing EOL"
+msgstr ""
+
+#, c-format
+msgid "E&nable moved block detection"
+msgstr "&n فعال کردن تشخيص قطعه جابجا شده "
+
+msgid "Align &similar lines"
+msgstr ""
+
+msgid "Diff &algorithm:"
+msgstr ""
+
+msgid "Enable indent &heuristic"
+msgstr ""
+
+msgid "Completely unhighlight the ignored differences"
+msgstr ""
+
+#, c-format
+msgid "Editor"
+msgstr "  ويراستار  "
+
+#, c-format
+msgid "&Highlight syntax"
+msgstr "&H برجسته نمايي ترکيب "
+
+#, c-format
+msgid "&Preserve original EOL"
+msgstr "&P اصلي  EOL نگاهداشت حروف "
+
+#, c-format
+msgid "Tabs"
+msgstr " جهشها / تب ها "
+
+#, c-format
+msgid "&Tab size:"
+msgstr "&T اندازه کليد جهش / تب : "
+
+#, c-format
+msgid "&Insert tabs"
+msgstr "&I درج جهشها / تب ها  "
+
+#, c-format
+msgid "Insert &spaces"
+msgstr "&S درج فاصله "
+
+msgid "&Rendering mode:"
+msgstr ""
+
+#, c-format
+msgid "&Automatic rescan"
+msgstr "&A پويش مجدد خودکار"
+
+msgid "Copy &granularity for selected differences:"
+msgstr ""
+
+#, c-format
+msgid "Line Difference Coloring"
+msgstr " رنگ آميزي خطوط متفاوت "
+
+#, c-format
+msgid "View line differences"
+msgstr " نمايش تفاوتهاي خط "
+
+#, c-format
+msgid "&Character-level"
+msgstr "&C  در سطح دخشه / کارکتر / حرف "
+
+#, c-format
+msgid "&Word-level:"
+msgstr "&W در سطح کلمه : "
+
+#, c-format
+msgid "W&ord break characters:"
+msgstr ""
+
+msgid "Some messages can be hidden by the user. Press Reset to make all messages visible again."
+msgstr ""
+" وينمرج به شما اجازه مي دهد تا بعضي از جعبه پيام معمولي را پنهان نماييد. "
+"کليد بازنشاني / ريست را بفشاريد تا تمام جعبه پيام دوباره آشکار شوند "
+
+#, c-format
+msgid "Reset"
+msgstr " بازنشاني "
+
+msgid "File Filters"
+msgstr ""
+
+msgid "Test..."
+msgstr " آزمايش ..."
+
+#, c-format
+msgid "Install..."
+msgstr " نصب ... "
+
+#, c-format
+msgid "New..."
+msgstr " جديد ... "
+
+#, c-format
+msgid "Edit..."
+msgstr " ويرايش ... "
+
+#, c-format
+msgid "Delete..."
+msgstr " حذف ... "
+
+#, c-format
+msgid "Save Modified Files?"
+msgstr " آيا پرونده هاي اصلاح شده ذخيره شوند؟ "
+
+#, c-format
+msgid "Left side file"
+msgstr " پرونده سمت چپي "
+
+#, c-format
+msgid "&Save changes"
+msgstr "&S ذخيره تغييرات "
+
+#, c-format
+msgid "&Discard changes"
+msgstr "&D دورانداختن تغييرات "
+
+#, c-format
+msgid "Middle side file"
+msgstr ""
+
+#, c-format
+msgid "Sa&ve changes"
+msgstr ""
+
+#, c-format
+msgid "Discard c&hanges"
+msgstr ""
+
+#, c-format
+msgid "Right side file"
+msgstr " پرونده سمت راستي "
+
+#, c-format
+msgid "S&ave changes"
+msgstr "&a ذخيره تغييرات "
+
+#, c-format
+msgid "Dis&card changes"
+msgstr "&c دورانداختن تغييرات "
+
+#, c-format
+msgid "Disca&rd All"
+msgstr ""
+
+#, c-format
+msgid "Codepage"
+msgstr " صفحه کد "
+
+#, c-format
+msgid "Default Codepage"
+msgstr " صفحه کد پيش فرض "
+
+#, c-format
+msgid "Select the default codepage for non-Unicode files:"
+msgstr ""
+" موقعي که پرونده هاي غير يوني کد بارگيري مي شوند، انتخاب صفحه کد پيش فرض در "
+"نظر گرفته مي شود : "
+
+#, c-format
+msgid "System codepage"
+msgstr " صفحه کد سيستم "
+
+#, c-format
+msgid "According to WinMerge User Interface"
+msgstr " مطابق با رابط کاربر وينمرج "
+
+#, c-format
+msgid "Custom codepage:"
+msgstr " صفحه کد سفارشي : "
+
+msgid "Detect codepage for: .html, .rc, .xml\nRestart required."
+msgstr ""
+" تشخيص اطلاعات صفحه کد براي اين پرونده ها : .html, .rc, .xml\n"
+" نيازمند جلسه شروع دوباره /  بازآغازي "
+
+msgid "Detect codepage for files with mlang.dll\nRestart required."
+msgstr ""
+
+#, c-format
+msgid "Options"
+msgstr " خيارات  "
+
+#, c-format
+msgid "Import..."
+msgstr " ورود ... "
+
+#, c-format
+msgid "Export..."
+msgstr " صدور ... "
+
+#, c-format
+msgid "Folder Compare Report"
+msgstr " گزارش همسنجي پوشه "
+
+#, c-format
+msgid "Report &file:"
+msgstr " گزارش دادن پرونده : "
+
+#, c-format
+msgid "&Style:"
+msgstr "&S سبک "
+
+#, c-format
+msgid "&Include file compare report"
+msgstr ""
+
+#, c-format
+msgid "Shared or Private Filter"
+msgstr " صافي شخصي يا اشتراکي "
+
+#, c-format
+msgid "What type of filter do you want?"
+msgstr " کدام نوع صافي را مي خواهيد ايجاد نماييد؟ "
+
+#, c-format
+msgid "Shared Filter (for all users)"
+msgstr " صافي اشتراکي - براي تمام کاربران روي اين دستگاه"
+
+#, c-format
+msgid "Private Filter (current user only)"
+msgstr "  صافي شخصي - فقط براي کاربر فعلي "
+
+#, c-format
+msgid "Archive Support"
+msgstr " پشتيباني از بايگاني "
+
+#, c-format
+msgid "&Enable archive file support"
+msgstr "&E فعال نمودن پشتيباني از پرونده بايگاني شده "
+
+#, c-format
+msgid "&Detect archive type from file signature"
+msgstr "&D شناسايي نوع بايگاني از روي امضاء پرونده  "
+
+msgid "Items saved to or restored from the project file:"
+msgstr ""
+
+#, c-format
+msgid "Compare Statistics"
+msgstr " آمار همسنجي / قياس "
+
+#, c-format
+msgid "Folders:"
+msgstr " پوشه ها : "
+
+#, c-format
+msgid "Files:"
+msgstr " پرونده ها : "
+
+#, c-format
+msgid "Different"
+msgstr " متمايز"
+
+#, c-format
+msgid "Binary:"
+msgstr " دودويي "
+
+#, c-format
+msgid "Unique"
+msgstr " يکتا "
+
+#, c-format
+msgid "Left:"
+msgstr " چپ : "
+
+#, c-format
+msgid "Right:"
+msgstr " راست : "
+
+#, c-format
+msgid "Identical"
+msgstr " يکسان "
+
+#, c-format
+msgid "Total:"
+msgstr " سرجمع : "
+
+#, c-format
+msgid "Close"
+msgstr " بستن "
+
+#, c-format
+msgid "Middle:"
+msgstr ""
+
+#, c-format
+msgid "Missing Left:"
+msgstr ""
+
+#, c-format
+msgid "Missing Middle:"
+msgstr ""
+
+#, c-format
+msgid "Missing Right:"
+msgstr ""
+
+#, c-format
+msgid "Affects"
+msgstr " آثار / نتايج "
+
+#, c-format
+msgid "(Affects)"
+msgstr " - آثار / نتايج - "
+
+#, c-format
+msgid "Select Codepage for"
+msgstr " انتخاب صفحه کد براي "
+
+#, c-format
+msgid "&File Loading:"
+msgstr "&F بارگذاري پرونده : "
+
+#, c-format
+msgid "File &Saving:"
+msgstr "&S ذخيره پرونده : "
+
+#, c-format
+msgid "&Use same codepage for both"
+msgstr "&U استفاده از صفحه کد يکسان براي هر دو "
+
+#, c-format
+msgid "&Cancel"
+msgstr "&C لغو "
+
+#, c-format
+msgid "Test Filter"
+msgstr " آزمايش صافي "
+
+msgid "Testing filter:"
+msgstr " آزمايش صافي: "
+
+#, c-format
+msgid "&Enter text to test:"
+msgstr "&E متن را وارد نماييد تا آزمايش شود : "
+
+#, c-format
+msgid "&Folder Name"
+msgstr "&F نام پوشه "
+
+#, c-format
+msgid "Result:"
+msgstr " نتيجه : "
+
+#, c-format
+msgid "&Test"
+msgstr "&T آزمايش "
+
+#, c-format
+msgid "&Close"
+msgstr "&C بستن "
+
+msgid "Table"
+msgstr ""
+
+msgid "File type"
+msgstr ""
+
+msgid "&CSV"
+msgstr ""
+
+msgid "&TSV"
+msgstr ""
+
+msgid "Custom &Delimiter-Separated Values"
+msgstr ""
+
+msgid "D&elimiter character:"
+msgstr ""
+
+msgid "&Allow newlines in quotes"
+msgstr ""
+
+msgid "&Quote character:"
+msgstr ""
+
+#, c-format
+msgid "Backup Files"
+msgstr "پرونده هاي پشتيبان "
+
+#, c-format
+msgid "Create backup files for:"
+msgstr " ايجاد پرونده هاي پشتيبان در : "
+
+#, c-format
+msgid "&Folder compare"
+msgstr "&F مقايسه پوشه "
+
+#, c-format
+msgid "Fil&e compare"
+msgstr "&e مقايسه پرونده "
+
+#, c-format
+msgid "Create backup files in:"
+msgstr " ايجاد پرونده هاي پشتيبان داخل : "
+
+#, c-format
+msgid "&Original file's folder"
+msgstr "&O پوشه پرونده اصلي "
+
+#, c-format
+msgid "&Global backup folder:"
+msgstr "&G پوشه پشتيبان سراسري :  "
+
+#, c-format
+msgid "Backup filename:"
+msgstr " نام پرونده پشتيبان : "
+
+msgid "&Append .bak extension"
+msgstr "&A  پيوست کردن توسعه   .bak "
+
+#, c-format
+msgid "A&ppend timestamp"
+msgstr "&p پيوند مهر زمان "
+
+#, c-format
+msgid "Confirm Copy"
+msgstr " تاييد رونوشت برداري "
+
+#, c-format
+msgid "Are you sure you want to copy XXX items?"
+msgstr " مورد رونوشت برداري شود؟ XXX "
+
+#, c-format
+msgid "From left"
+msgstr " از چپ "
+
+#, c-format
+msgid "To right"
+msgstr " به راست "
+
+#, c-format
+msgid "Don't ask this &question again."
+msgstr "&q دوباره اين پرسش را نپرس "
+
+#, c-format
+msgid "Yes"
+msgstr " آري "
+
+#, c-format
+msgid "No"
+msgstr " خير "
+
+#, c-format
+msgid "Plugins"
+msgstr " افزايه ها"
+
+#, c-format
+msgid "&Enable plugins"
+msgstr "&E فعال سازي افزايه ها "
+
+msgid "Plugin &type:"
+msgstr ""
+
+msgid "File filters:"
+msgstr ""
+
+msgid "&Plugin arguments:"
+msgstr ""
+
+msgid "Enable &automatic unpacking/prediffing"
+msgstr ""
+
+#, c-format
+msgid "Shell Integration"
+msgstr " يکپارچه سازي پوسته "
+
+#, c-format
+msgid "Explorer"
+msgstr " جستجوگر "
+
+#, c-format
+msgid "&Add to context menu"
+msgstr "&A افزودن به گزينگان / فهرست متن"
+
+#, c-format
+msgid "E&nable advanced menu"
+msgstr "&n فعال کردن گزينگان / فهرست پيشرفته "
+
+msgid "Enable &Compare As menu"
+msgstr ""
+
+#, c-format
+msgid "&Register Shell Extension"
+msgstr ""
+
+#, c-format
+msgid "&Unregister Shell Extension"
+msgstr ""
+
+msgid "Register Shell Extension for Current User &Only"
+msgstr ""
+
+msgid "Unregister Shell Extension for Current User On&ly"
+msgstr ""
+
+msgid "Register Shell Extension for &Windows 11"
+msgstr ""
+
+msgid "Unregister Shell Extension for W&indows 11"
+msgstr ""
+
+msgid "Jump List"
+msgstr ""
+
+msgid "Clear all recent items"
+msgstr ""
+
+msgctxt "Options dialog|Categories"
+msgid "Folder"
+msgstr " پوشه "
+
+msgid "&Compare method:"
+msgstr "&C روش همسنجي"
+
+#, c-format
+msgid "S&top after first difference"
+msgstr "&t توقف پس از نخستين تفاوت"
+
+#, c-format
+msgid "Ign&ore time differences less than 3 seconds"
+msgstr "&o  چشم پوشي از تفاوت زماني کمتر از 3 ثانيه "
+
+msgid "Expand subfolders &after comparison:"
+msgstr ""
+
+#, c-format
+msgid "Include &unique subfolders contents"
+msgstr ""
+
+#, c-format
+msgid "Ignore &reparse points"
+msgstr ""
+
+msgid "Switch to &quick compare when size exceeds (MB):"
+msgstr ""
+
+msgid "Switch to &binary compare when size exceeds (MB):"
+msgstr ""
+
+msgid "File patterns:"
+msgstr ""
+
+msgid "Custom Delimiter-Separated Values"
+msgstr ""
+
+msgctxt "Options dialog|Categories"
+msgid "Binary"
+msgstr " دودويي "
+
+#, c-format
+msgid "Binary file &patterns:"
+msgstr ""
+
+#, c-format
+msgid "Frhed settings"
+msgstr ""
+
+#, c-format
+msgid "View &Settings..."
+msgstr ""
+
+#, c-format
+msgid "&Binary Mode..."
+msgstr ""
+
+#, c-format
+msgid "&Character Set..."
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+#, c-format
+msgid "Image file &patterns:"
+msgstr ""
+
+msgid "&Enable image compare in folder compare"
+msgstr ""
+
+msgid "OCR result:"
+msgstr ""
+
+msgid "Webpage"
+msgstr ""
+
+msgid "URL pattern to &include (Regular expression):"
+msgstr ""
+
+msgid "URL pattern to &exclude (Regular expression):"
+msgstr ""
+
+msgid "&User data folder location:"
+msgstr ""
+
+msgid "&Separate user data folders for each pane"
+msgstr ""
+
+#, c-format
+msgid "&Hex View"
+msgstr ""
+
+msgid "Edit Plugin"
+msgstr ""
+
+msgid "&Category:"
+msgstr ""
+
+msgid "&Menu caption:"
+msgstr ""
+
+msgid "&Window type:"
+msgstr ""
+
+msgid "&Unpacked file extension:"
+msgstr ""
+
+msgid "&Require arguments"
+msgstr ""
+
+msgid "&Generate editor script"
+msgstr ""
+
+msgid "Command &line:"
+msgstr ""
+
+msgid "&Script file extension:"
+msgstr ""
+
+msgid "Script &body:"
+msgstr ""
+
+#, c-format
+msgid "EXT"
+msgstr "EXT"
+
+#, c-format
+msgid "CAP"
+msgstr "CAP"
+
+#, c-format
+msgid "NUM"
+msgstr "NUM"
+
+#, c-format
+msgid "SCRL"
+msgstr "SCRL"
+
+#, c-format
+msgid "OVR"
+msgstr "OVR"
+
+#, c-format
+msgid "REC"
+msgstr "REC"
+
+#, c-format
+msgid "\nNew Documents (Ctrl+N)"
+msgstr ""
+
+#, c-format
+msgid "\nOpen (Ctrl+O)"
+msgstr ""
+
+#, c-format
+msgid "\nSave (Ctrl+S)"
+msgstr ""
+
+msgid "Unknown error opening project file."
+msgstr " مشاهده خطاي نامشخص هنگام مبادرت به بازکردن پرونده پروژه / طرح "
+
+msgid "Unknown error saving project file."
+msgstr " مشاهده خطاي نامشخص هنگام مبادرت به ذخيره کردن پرونده پروژه / طرح "
+
+#, c-format
+msgid "Project file loaded."
+msgstr " پرونده پروژه / طرح باموفقيت بار شد "
+
+#, c-format
+msgid "Project file saved."
+msgstr " پرونده پروژه / طرح باموفقيت ذخيره شد "
+
+#, c-format
+msgid "\nUndo (Ctrl+Z)"
+msgstr ""
+
+#, c-format
+msgid "\nRedo (Ctrl+Y)"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"FileCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"WinMerge File Compare"
+msgstr ""
+"\n"
+" همسنجي پرونده \n"
+"\n"
+"\n"
+"\n"
+" وينمرج.مقايسه پرونده\n"
+" مقايسه پرونده وينمرج"
+
+#, c-format
+msgid ""
+"\n"
+"FolderCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"WinMerge Folder Compare"
+msgstr ""
+"\n"
+" همسنجي پوشه \n"
+"\n"
+"\n"
+"\n"
+" وينمرج.مقايسه پوشه\n"
+" مقايسه پوشه وينمرج"
+
+#, c-format
+msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. It is free software and can be redistributed under the conditions of the GNU General Public License - see the Help menu for details."
+msgstr ""
+" وينمرج بکلي بدون هيچ ضمانتي عرضه مي شود. اين يک نرم افزار رايگان است و شما "
+"تحت برخي شرايط صاحب اختيار در نشر آن هستيد. براي جزئيات مجوز عمومي کلي   جي "
+"ان يو   را در گزينگان / فهرست راهنما ببينيد "
+
+#, c-format
+msgid "&Abort"
+msgstr "&A لغو "
+
+#, c-format
+msgid "&Retry"
+msgstr "&R کوشش دوباره "
+
+#, c-format
+msgid "&Ignore"
+msgstr "&I چشم پوشي "
+
+#, c-format
+msgid "Ignore &all"
+msgstr "&a چشم پوشي از همه "
+
+#, c-format
+msgid "&Yes"
+msgstr "&Y بله "
+
+#, c-format
+msgid "Yes to &all"
+msgstr "&a همگي آري "
+
+#, c-format
+msgid "&No"
+msgstr "&N خير "
+
+#, c-format
+msgid "No to a&ll"
+msgstr "&l همگي خير "
+
+#, c-format
+msgid "&Continue"
+msgstr "&C ادامه "
+
+#, c-format
+msgid "&Skip"
+msgstr "&S پرش "
+
+#, c-format
+msgid "Skip &all"
+msgstr "&a پرش از همگي "
+
+#, c-format
+msgid "Don't display this &message again."
+msgstr "&m دوباره اين پيام را نمايش نده "
+
+msgid "To make this message box visible, press Reset on the Message Boxes page in Options."
+msgstr ""
+
+msgid "Compare/Merge"
+msgstr ""
+
+#, c-format
+msgid "Syntax"
+msgstr "نحو"
+
+msgid "Color Schemes"
+msgstr ""
+
+msgid "Folder Compare"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+#, c-format
+msgid "Differences"
+msgstr " تفاوتها "
+
+msgid "Message Boxes"
+msgstr ""
+
+#, c-format
+msgid "To:"
+msgstr " به : "
+
+#, c-format
+msgid "From left:"
+msgstr " از چپ : "
+
+#, c-format
+msgid "To left:"
+msgstr " به چپ : "
+
+#, c-format
+msgid "From right:"
+msgstr " از راست : "
+
+#, c-format
+msgid "To right:"
+msgstr " به راست : "
+
+msgid "From middle:"
+msgstr ""
+
+msgid "To middle:"
+msgstr ""
+
+#, c-format
+msgid "Version %1"
+msgstr " نسخه %1"
+
+#, c-format
+msgid "X64"
+msgstr "X64"
+
+#, c-format
+msgid "Options (%1)"
+msgstr "(%1) خيارات "
+
+#, c-format
+msgid "All message boxes are now displayed again."
+msgstr " هم اکنون تمام جعبه هاي پيام دوباره نمايش داده ميشود. "
+
+#, c-format
+msgid "Tab size value is out of range. Please use 1 - %1."
+msgstr ""
+" عدد موجود در بخش  اندازه جهش  در گستره اي که براي وينمرج قابل قبول باشد، "
+"نيست \n"
+" 1 - %1 لطفا مقادير روبرو استفاده شود : "
+
+#, c-format
+msgid "Open"
+msgstr " باز "
+
+#, c-format
+msgid "Programs|*.exe;*.bat;*.cmd|All Files (*.*)|*.*||"
+msgstr "برنامه ها |*.exe;*.bat;*.cmd|همه پرونده ها  (*.*)|*.*||"
+
+#, c-format
+msgid "All Files (*.*)|*.*||"
+msgstr " همه پرونده ها  (*.*)|*.*||"
+
+#, c-format
+msgid "WinMerge Project Files (*.WinMerge)|*.WinMerge||"
+msgstr " پرونده هاي پروژه وينمرج  (*.WinMerge)|*.WinMerge||"
+
+#, c-format
+msgid "Options files (*.ini)|*.ini|All Files (*.*)|*.*||"
+msgstr " پرونده هاي خيارات  (*.ini)|*.ini|همه پرونده ها  (*.*)|*.*||"
+
+#, c-format
+msgid ""
+"Text Files (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|All Files (*.*)|"
+"*.*||"
+msgstr ""
+" پرونده هاي متني  (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|همه "
+"پرونده ها  (*.*)|*.*||"
+
+#, c-format
+msgid "HTML Files (*.htm,*.html)|*.htm;*.html|All Files (*.*)|*.*||"
+msgstr ""
+"HTML  پرونده هاي  (*.htm,*.html)|*.htm;*.html|همه پرونده ها  (*.*)|*.*||"
+
+#, c-format
+msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
+msgstr "XML  پرونده هاي  (*.xml)|*.xml|همه پرونده ها  (*.*)|*.*||"
+
+msgid "Do not expand"
+msgstr ""
+
+msgid "Expand all subfolders"
+msgstr ""
+
+msgid "Expand different subfolders"
+msgstr ""
+
+msgid "Expand identical subfolders"
+msgstr ""
+
+msgid "File Type"
+msgstr ""
+
+#, c-format
+msgid "Extension"
+msgstr " توسعه "
+
+msgid "Message"
+msgstr ""
+
+msgid "Answer"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Include Subfolders"
+msgstr ""
+
+msgid "Compare Options"
+msgstr ""
+
+msgid "Hidden Items"
+msgstr ""
+
+#, c-format
+msgid "Name"
+msgstr " نام "
+
+#, c-format
+msgid "Location"
+msgstr " محل "
+
+#, c-format
+msgid "Filters"
+msgstr " صافيها "
+
+#, c-format
+msgid "[F] "
+msgstr "[F] "
+
+#, c-format
+msgid "Description"
+msgstr " شرح "
+
+#, c-format
+msgid "Select Filename for New Filter"
+msgstr " انتخاب نام پرونده براي صافي جديد "
+
+#, c-format
+msgid "File Filters (*.flt)|*.flt|All Files (*.*)|*.*||"
+msgstr " پرونده صافيها  (*.flt)|*.flt|همه پرونده ها  (*.*)|*.*||"
+
+#, c-format
+msgid "Cannot find filter template!\n\nCopy %1 to WinMerge/Filters Folder:\n%2."
+msgstr ""
+" نمي توان پرونده قالب صافي را يافت ! \n"
+"\n"
+" لطفا پرونده روبرو به پوشه صافيهاي وينمرج (زير) رونوشت برداري شود : %1 \n"
+"%2"
+
+#, c-format
+msgid ""
+"Cannot copy filter template:\n"
+"%1\n"
+"\n"
+"Make sure the folder exists and is writable."
+msgstr ""
+" نمي توان پرونده قالب صافي را به پوشه صافي (زير) رونوشت برداري نمود :  \n"
+"%1\n"
+" لطفا اطمينان حاصل شود که پوشه وجود دارد و قابل نوشتن است "
+
+#, c-format
+msgid ""
+"User's filter folder is not defined!\n"
+"\n"
+"Select filter folder in Options/System."
+msgstr ""
+" پوشه پرونده صافي کاربر تعريف نشده است ! \n"
+"\n"
+" لطفا در خيارات > سيستم  پوشه صافي را انتخاب نماييد "
+
+#, c-format
+msgid ""
+"Failed to delete filter:\n"
+"%1\n"
+"\n"
+"File may be read-only."
+msgstr ""
+" حذف ناموفق پرونده صافي : \n"
+"%1\n"
+"\n"
+"ممکن است که پرونده   فقط خواندني   باشد؟ "
+
+#, c-format
+msgid "Locate Filter File to Install"
+msgstr " تعيين پرونده صافي براي نصب "
+
+#, c-format
+msgid ""
+"Installing filter file failed.\n"
+"\n"
+"Could not copy new filter to folder."
+msgstr ""
+" نصب پرونده صافي ناموفق بود \n"
+"\n"
+" نمي توان پرونده صافي جديد را به پوشه صافي رونوشت برداري نمود "
+
+#, c-format
+msgid "Filter file exists. Overwrite?"
+msgstr " پرونده صافي پيش از اين وجود دارد. آيا صافي موجود دوباره نويسي شود؟ "
+
+#, c-format
+msgid "Regular expression"
+msgstr " عبارت منظم / قاعده مند "
+
+msgid "Filters updated. Refresh all open folder compares?\n\nSelect 'No' to refresh later."
+msgstr ""
+" صافي ها   به هنگام   شدند. آيا مي خواهيد تا تمام همسنجيهاي پوشه باز، دوباره "
+"انجام شود؟ \n"
+"\n"
+"  اگر نمي خواهيد تمام همسنجيهاي بازسازي شود، مي توانيد خير را انتخاب کرده و "
+"همسنجيها را بعدا بازسازي نماييد "
+
+#, c-format
+msgid "Folder Comparison Results"
+msgstr " نتايج همسنجي پوشه ها "
+
+#, c-format
+msgid "File Comparison"
+msgstr " همسنجي پرونده "
+
+#, c-format
+msgid "Untitled Left"
+msgstr " چپ بدون عنوان "
+
+#, c-format
+msgid "Untitled Middle"
+msgstr ""
+
+#, c-format
+msgid "Untitled Right"
+msgstr " راست بدون عنوان "
+
+msgid "Base File"
+msgstr ""
+
+#, c-format
+msgid "Theirs File"
+msgstr " پرونده ديگران "
+
+#, c-format
+msgid "Mine File"
+msgstr " پرونده خودم "
+
+msgid "Original File"
+msgstr ""
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
+msgstr "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
+
+#, c-format
+msgid "Line: %s"
+msgstr " خط : %s"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
+msgstr "Ln: %s  Col: %d/%d  Ch: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr ""
+
+#, c-format
+msgid "Merge"
+msgstr " پيوند زدن  "
+
+#, c-format
+msgid "Difference %1 of %2"
+msgstr " تفاوت %1 از %2"
+
+#, c-format
+msgid "%1 Differences Found"
+msgstr " تفاوتهاي پيدا شده = %1"
+
+#, c-format
+msgid "1 Difference Found"
+msgstr " يک تفاوت پيدا شد "
+
+#, c-format
+msgid "%1 Errors Found"
+msgstr ""
+
+msgid "1 Error Found"
+msgstr ""
+
+#. Abbreviation from "Read Only"
+#, c-format
+msgid "RO"
+msgstr "RO"
+
+#, c-format
+msgid "Item %1 of %2"
+msgstr "  مورد %1 از %2"
+
+#, c-format
+msgid "Items: %1"
+msgstr " موارد : %1"
+
+#, c-format
+msgid "Comparing items..."
+msgstr " همسنجي موارد  ... "
+
+#, c-format
+msgid "%.1f[items/sec]"
+msgstr ""
+
+msgid "Select two existing folders/files to compare."
+msgstr " انتخاب دو پوشه يا پرونده موجود براي مقايسه؟ "
+
+#, c-format
+msgid "Folder Selection"
+msgstr " انتخاب پوشه "
+
+#, c-format
+msgid "Select two (or three) folders/files to compare."
+msgstr ""
+
+#, c-format
+msgid "Left (1st) path is invalid!"
+msgstr ""
+
+#, c-format
+msgid "Middle (2nd) path is invalid!"
+msgstr ""
+
+#, c-format
+msgid "Right (2nd) path is invalid!"
+msgstr ""
+
+#, c-format
+msgid "Right (3rd) path is invalid!"
+msgstr ""
+
+#, c-format
+msgid "Both paths are invalid!"
+msgstr " هر دو مسير وجود ندارند ! "
+
+#, c-format
+msgid "Left (1st) and Middle (2nd) paths are invalid!"
+msgstr ""
+
+#, c-format
+msgid "Left (1st) and Right (3rd) paths are invalid!"
+msgstr ""
+
+#, c-format
+msgid "Middle (2nd) and Right (3rd) paths are invalid!"
+msgstr ""
+
+#, c-format
+msgid "All paths are invalid!"
+msgstr ""
+
+msgid "Only enabled for file comparisons"
+msgstr ""
+
+#, c-format
+msgid "Cannot compare file and folder!"
+msgstr " نميتوان پوشه و پرونده را مقايسه کرد ! "
+
+#, c-format
+msgid "File not found: %1"
+msgstr " پرونده روبرو پيدا نشد : %1"
+
+#, c-format
+msgid "File not unpacked: %1"
+msgstr " بسته پرونده روبرو باز نشد : %1"
+
+#, c-format
+msgid ""
+"Cannot open file\n"
+"%1\n"
+"\n"
+"%2"
+msgstr ""
+" نمي توان پرونده را باز نمود \n"
+"%1\n"
+"\n"
+"%2"
+
+#, c-format
+msgid "Failed to parse conflict file."
+msgstr " ناموفق بودن تجزيه و تحليل پرونده تعارض "
+
+#, c-format
+msgid "The file\n%1\nis not a conflict file."
+msgstr ""
+" پرونده \n"
+"%1\n"
+"يک پرونده تعارض، نمي باشد "
+
+msgid "Comparing large files requires significant memory.\nShow only comparison results (not file contents)?"
+msgstr ""
+
+#, c-format
+msgid "Save As"
+msgstr " ذخيره کردن به صورت "
+
+#, c-format
+msgid "Save changes to %1?"
+msgstr " آيا تغييرات در %1 ذخيره شود؟"
+
+#, c-format
+msgid "%1 is read-only. Override? Or 'No' to save as new filename?"
+msgstr ""
+"پرونده  %1 بصورت فقط خواندني علامت زده شده است. آيا مايل هستيد   پرونده فقط "
+"خواندني   باطل گردد؟ - با نام جديد ذخيره نگردد "
+
+#, c-format
+msgid "Error backing up file"
+msgstr " خطا در تهيه پرونده پشتيبان "
+
+#, c-format
+msgid ""
+"Unable to backup original file:\n"
+"%1\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+" قادر به تهيه پشتيبان از پرونده اصلي نمي باشد : \n"
+"%1\n"
+"\n"
+" به هر حال کار ادامه يابد؟ "
+
+#, c-format
+msgid "Saving file failed.\n%1\n%2\n\t- Use different filename (OK)\n\t- Abort (Cancel)?"
+msgstr ""
+" ذخيره پرونده ناموفق بود \n"
+"%1\n"
+"%2\n"
+" آيا مي خواهيد که : \n"
+"\t- يک نام پرونده متفاوت استفاده کنيد - تاييد را بفشاريد \n"
+"\t- عمل جاري لغو شود - لغو را بفشاريد ؟"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to left file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+" افزايه '%2' نمي تواند تغييرات شما روي پرونده سمت چپ را به '%1' بصورت بسته "
+"بندي، پشت نويسي نمايد \n"
+"\n"
+" پرونده اصلي تغيير نخواهد کرد \n"
+"\n"
+" آيا مي خواهيد که نسخه با بسته بازشده به صورت پرونده ديگري ذخيره شود؟ "
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to middle file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to right file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+" افزايه '%2' نمي تواند تغييرات شما روي پرونده سمت راست را به '%1' بصورت بسته "
+"بندي، پشت نويسي نمايد \n"
+"\n"
+" پرونده اصلي تغيير نخواهد کرد \n"
+"\n"
+" آيا مي خواهيد که نسخه با بسته بازشده به صورت پرونده ديگري ذخيره شود؟ "
+
+#, c-format
+msgid ""
+"Another application updated\n"
+"%1\n"
+"since WinMerge loaded it.\n"
+"\n"
+"Overwrite?"
+msgstr ""
+" برنامه کاربردي ديگري پرونده  \n"
+"%1\n"
+" را از آخرين وقتي که وينمرج آن را بارگيري است، بهنگام درآورده است.\n"
+"\n"
+"  پرونده تغيير يافته دوباره نويسي شود؟"
+
+#, c-format
+msgid ""
+"%1\n"
+"is read-only. Override?"
+msgstr ""
+"%1\n"
+" بصورت فقط خواندني علامت دار شده است. آيا مايل هستيد که مورد فقط خواندني "
+"باطل گردد؟ "
+
+#, c-format
+msgid "Another application updated\n%1\nsince last scan.\n\nReload?"
+msgstr ""
+" برنامه کاربردي ديگري پرونده  \n"
+"%1\n"
+" را از آخرين وقتي که وينمرج آن را پوييده است، بهنگام درآورده است.\n"
+"\n"
+" آيا مايل هستيد که پرونده دوباره بارگيري شود؟"
+
+#, c-format
+msgid "Save Left File As"
+msgstr " ذخيره پرونده چپ به صورت "
+
+#, c-format
+msgid "Save Middle File As"
+msgstr ""
+
+#, c-format
+msgid "Save Right File As"
+msgstr " ذخيره پرونده راست به صورت "
+
+#, c-format
+msgid ""
+"File\n"
+"%1\n"
+"not found. Save a copy to continue."
+msgstr ""
+" پرونده \n"
+"%1\n"
+" ناپديد شده است. لطفا يک رونوشت از پرونده را ذخيره نماييد تا کار ادامه يابد "
+
+#, c-format
+msgid ""
+"Cannot merge unsynched documents.\n"
+"\n"
+"Refresh before continuing."
+msgstr ""
+"موقعي که اسناد همگام نيستند، نمي توان تفاوتها را  پيوند زد \n"
+"\n"
+" اسناد قبل از ادامه کار بازسازي / تازه شوند "
+
+msgid "Break at whitespace"
+msgstr " توقف در فاصله سفيد"
+
+msgid "Break at whitespace or punctuation"
+msgstr "توقف در فاصله سفيد يا نقطه / نشان گذارى   "
+
+msgid "Copy to &Middle\tAlt+Right"
+msgstr ""
+
+msgid "Copy to &Middle\tAlt+Left"
+msgstr ""
+
+msgid "Copy from Middle\tAlt+Shift+Right"
+msgstr ""
+
+msgid "Copy from Middle\tAlt+Shift+Left"
+msgstr ""
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Right"
+msgstr ""
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Left"
+msgstr ""
+
+msgid "Copy All to Middle"
+msgstr ""
+
+#, c-format
+msgid "Right to Left (%1)"
+msgstr " راست به چپ - %1"
+
+#, c-format
+msgid "Right to Middle (%1)"
+msgstr ""
+
+#, c-format
+msgid "Middle to Left (%1)"
+msgstr ""
+
+#, c-format
+msgid "Middle to Right (%1)"
+msgstr ""
+
+#, c-format
+msgid "Left to Right (%1)"
+msgstr " چپ به راست - %1"
+
+#, c-format
+msgid "Left to Middle (%1)"
+msgstr ""
+
+#, c-format
+msgid "Left to... (%1)"
+msgstr " چپ به ... - %1"
+
+#, c-format
+msgid "Middle to... (%1)"
+msgstr ""
+
+#, c-format
+msgid "Right to... (%1)"
+msgstr " راست به ... - %1"
+
+#, c-format
+msgid "Both to... (%1)"
+msgstr ""
+
+#, c-format
+msgid "All to... (%1)"
+msgstr ""
+
+#, c-format
+msgid "Differences to... (%1)"
+msgstr ""
+
+msgid "Some selected items are identical or skipped.\nCopy only items with differences?"
+msgstr ""
+
+#, c-format
+msgid "Left (%1)"
+msgstr " چپ - %1"
+
+#, c-format
+msgid "Middle (%1)"
+msgstr ""
+
+#, c-format
+msgid "Right (%1)"
+msgstr " راست - %1"
+
+#, c-format
+msgid "Both (%1)"
+msgstr " هر دو سمت - %1"
+
+#, c-format
+msgid "All (%1)"
+msgstr ""
+
+#, c-format
+msgid "Left Side - Select Destination Folder:"
+msgstr " طرف چپ - انتخاب پوشه مقصد : "
+
+#, c-format
+msgid "Middle Side - Select Destination Folder:"
+msgstr ""
+
+#, c-format
+msgid "Right Side - Select Destination Folder:"
+msgstr " طرف راست - انتخاب پوشه مقصد : "
+
+#, c-format
+msgid "(%1 Files Affected)"
+msgstr "{  پرونده هاي تحت تاثير واقع شده:  %1 }"
+
+#, c-format
+msgid "(%1 of %2 Files Affected)"
+msgstr "{  پرونده هاي تحت تاثير واقع شده: %1 از %2  }"
+
+#, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\n"
+"%1 ?"
+msgstr ""
+" آيا مطمئن هستيد که مي خواهيد \n"
+"\n"
+" را حذف نماييد %1 ?"
+
+msgid "Are you sure you want to copy?"
+msgstr " آيا مطمئن هستيد که ميخواهيد رونوشت برداري نماييد از؟  "
+
+#, c-format
+msgid "Are you sure you want to copy %d items?"
+msgstr " فقره رونوشت برداري شود؟ %d آيا مطمئن هستيد که مي خواهيد از "
+
+#, c-format
+msgid ""
+"Operation aborted!\n"
+"\n"
+"Folder contents changed, path\n"
+"%1\n"
+"not found.\n"
+"\n"
+"Refresh the compare."
+msgstr ""
+" عمل لغو گرديد ! \n"
+"\n"
+"محتواي پوشه در ديسکها / گرده ها تغيير يافته است، مسير \n"
+"%1\n"
+" پيدا نشد \n"
+" لطفا مقايسه را تجديد نماييد "
+
+msgid "Are you sure you want to move?"
+msgstr " آيا مطمئن هستيد که ميخواهيد اين را جابجا نماييد؟"
+
+#, c-format
+msgid "Are you sure you want to move %d items?"
+msgstr " مورد جابجا شود؟ %d"
+
+#, c-format
+msgid "Confirm Move"
+msgstr " تاييد جابجايي "
+
+#, c-format
+msgid "Close the folder comparison window?"
+msgstr ""
+
+msgid "Close the folder comparison window, which took a long time?"
+msgstr ""
+
+msgid "The file or folder name is invalid."
+msgstr ""
+
+#, c-format
+msgid "Failed to execute external editor: %1"
+msgstr " اجراي ناموفق ويراستار خارجي : %1"
+
+#, c-format
+msgid "Unknown archive format"
+msgstr " بايگاني با قالب بندي ناشناس "
+
+msgid "Failed to extract archive.\nCompare as text file?"
+msgstr ""
+
+#, c-format
+msgid "Filename"
+msgstr " نام پرونده "
+
+msgctxt "DirView|ColumnHeader"
+msgid "Folder"
+msgstr " پوشه "
+
+#, c-format
+msgid "Comparison Result"
+msgstr " نتيجه مقايسه "
+
+#, c-format
+msgid "Left Date"
+msgstr " تاريخ چپ "
+
+#, c-format
+msgid "Right Date"
+msgstr " تاريخ راست "
+
+#, c-format
+msgid "Middle Date"
+msgstr ""
+
+#, c-format
+msgid "Left Size"
+msgstr " اندازه چپ "
+
+#, c-format
+msgid "Right Size"
+msgstr " اندازه راست "
+
+#, c-format
+msgid "Middle Size"
+msgstr ""
+
+#, c-format
+msgid "Right Size (Short)"
+msgstr " سمت راست - مختصر "
+
+#, c-format
+msgid "Left Size (Short)"
+msgstr " سمت چپ - مختصر "
+
+#, c-format
+msgid "Middle Size (Short)"
+msgstr ""
+
+#, c-format
+msgid "Left Creation Time"
+msgstr " زمان ايجاد چپي "
+
+#, c-format
+msgid "Right Creation Time"
+msgstr " زمان ايجاد راستي "
+
+#, c-format
+msgid "Middle Creation Time"
+msgstr ""
+
+#, c-format
+msgid "Newer File"
+msgstr " پرونده جديدتر "
+
+#, c-format
+msgid "Left File Version"
+msgstr " نسخه پرونده چپ "
+
+#, c-format
+msgid "Right File Version"
+msgstr " نسخه پرونده راست "
+
+#, c-format
+msgid "Middle File Version"
+msgstr ""
+
+#, c-format
+msgid "Short Result"
+msgstr " نتيجه کوتاه "
+
+#, c-format
+msgid "Left Attributes"
+msgstr " خصيصه هاي چپي "
+
+#, c-format
+msgid "Right Attributes"
+msgstr " خصيصه هاي راستي "
+
+#, c-format
+msgid "Middle Attributes"
+msgstr ""
+
+#, c-format
+msgid "Left EOL"
+msgstr "آخر خط چپ چين"
+
+#, c-format
+msgid "Middle EOL"
+msgstr ""
+
+#, c-format
+msgid "Right EOL"
+msgstr "آخر خط راست چين"
+
+#, c-format
+msgid "Left Encoding"
+msgstr " کدبندي چپ "
+
+#, c-format
+msgid "Right Encoding"
+msgstr " کدبندي راست "
+
+#, c-format
+msgid "Middle Encoding"
+msgstr ""
+
+msgid "Ignored Diff"
+msgstr " تفاوت چشم پوشي شده "
+
+msgctxt "DirView|ColumnHeader"
+msgid "Binary"
+msgstr " دودويي "
+
+#, c-format
+msgid "Unpacker"
+msgstr " باز کننده بسته "
+
+#, c-format
+msgid "Prediffer"
+msgstr " پيش فرق گذار "
+
+msgid "Left"
+msgstr ""
+
+msgid "Middle"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Diff"
+msgstr ""
+
+msgid "Left Duplicate Count"
+msgstr ""
+
+msgid "Right Duplicate Count"
+msgstr ""
+
+msgid "Middle Duplicate Count"
+msgstr ""
+
+msgid "Move"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
+msgid "Communication"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid "Document"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Journal"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Media"
+msgstr ""
+
+msgid "Music"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "Photo"
+msgstr ""
+
+msgid "RecordedTV"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Software"
+msgstr ""
+
+msgid "Task"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Hash"
+msgstr ""
+
+#, c-format
+msgid "Unable to compare files"
+msgstr " ناتوان از همسنجي پرونده هاست"
+
+#, c-format
+msgid "Item aborted"
+msgstr " مورد انصرافي "
+
+#, c-format
+msgid "File skipped"
+msgstr " پرونده از قلم افتاده "
+
+#, c-format
+msgid "Folder skipped"
+msgstr " پوشه از قلم افتاده "
+
+#, c-format
+msgid "Left only: %1"
+msgstr " فقط چپ : %1"
+
+#, c-format
+msgid "Middle only: %1"
+msgstr ""
+
+#, c-format
+msgid "Right only: %1"
+msgstr " فقط راست : %1"
+
+#, c-format
+msgid "Does not exist in %1"
+msgstr ""
+
+#, c-format
+msgid "Binary files are identical"
+msgstr " پرونده هاي دودويي همسان هستند "
+
+#, c-format
+msgid "Binary files are different"
+msgstr " پرونده هاي دودويي متفاوت هستند "
+
+#, c-format
+msgid "Files are different"
+msgstr " پرونده ها متفاوت هستند "
+
+#, c-format
+msgid "Folders are different"
+msgstr " پوشه ها متفاوت هستند "
+
+#, c-format
+msgid "Left Only"
+msgstr " فقط چپ "
+
+#, c-format
+msgid "Right Only"
+msgstr " فقط راست "
+
+#, c-format
+msgid "Middle Only"
+msgstr ""
+
+#, c-format
+msgid "No item in left"
+msgstr ""
+
+#, c-format
+msgid "No item in right"
+msgstr ""
+
+#, c-format
+msgid "No item in middle"
+msgstr ""
+
+#, c-format
+msgid "Error"
+msgstr " خطا "
+
+#, c-format
+msgid "Text files are identical"
+msgstr " پرونده هاي متني همسان هستند "
+
+msgid " (Middle and right are identical)"
+msgstr ""
+
+msgid " (Left and right are identical)"
+msgstr ""
+
+msgid " (Left and middle are identical)"
+msgstr ""
+
+#, c-format
+msgid "Text files are different"
+msgstr " پرونده هاي متني متفاوت هستند "
+
+msgid "Image files are identical"
+msgstr ""
+
+msgid "Image files are different"
+msgstr ""
+
+#, c-format
+msgid "Group%d"
+msgstr ""
+
+#, c-format
+msgid "Elapsed time: %ld ms"
+msgstr " زمان سپري شده - ميلي ثانيه : %ld"
+
+#, c-format
+msgid "1 item selected"
+msgstr " يک مورد انتخاب شد "
+
+#, c-format
+msgid "%1 items selected"
+msgstr "موارد انتخاب شده = %1"
+
+#, c-format
+msgid "Filename or folder name."
+msgstr " نام پرونده يا پوشه "
+
+#, c-format
+msgid "Subfolder name when subfolders are included."
+msgstr " نام زيرپوشه موقعي که زيرپوشه ها شامل هستند "
+
+#, c-format
+msgid "Comparison result, long form."
+msgstr " شکل مبسوط نتايج همسنجي / مقايسه "
+
+#, c-format
+msgid "Left side modification date."
+msgstr " تاريخ تغيير سمت چپي "
+
+#, c-format
+msgid "Right side modification date."
+msgstr " تاريخ تغيير سمت راستي "
+
+#, c-format
+msgid "Middle side modification date."
+msgstr ""
+
+#, c-format
+msgid "File's extension."
+msgstr " توسعه پرونده "
+
+#, c-format
+msgid "Left file size in bytes."
+msgstr " اندازه پرونده چپ به بايت "
+
+#, c-format
+msgid "Right file size in bytes."
+msgstr " اندازه پرونده راست به بايت "
+
+#, c-format
+msgid "Middle file size in bytes."
+msgstr ""
+
+#, c-format
+msgid "Left file size abbreviated."
+msgstr " اندازه پرونده سمت چپ بصورت مختصر نمايش داده مي شود "
+
+#, c-format
+msgid "Right file size abbreviated."
+msgstr " اندازه پرونده سمت راست بصورت مختصر نمايش داده مي شود "
+
+#, c-format
+msgid "Middle file size abbreviated."
+msgstr ""
+
+#, c-format
+msgid "Left side creation time."
+msgstr " زمان ايجاد طرف چپ "
+
+#, c-format
+msgid "Right side creation time."
+msgstr " زمان ايجاد طرف راست "
+
+#, c-format
+msgid "Middle side creation time."
+msgstr ""
+
+#, c-format
+msgid "Tells which side has newer modification date."
+msgstr " مي گويد که تاريخ تغيير کدام سمت جديدتر است "
+
+msgid "Left side file version, only for some file types."
+msgstr " نگارش پرونده سمت چپ، فقط براي برخي از انواع پرونده ها "
+
+msgid "Right side file version, only for some file types."
+msgstr " نگارش پرونده سمت راست، فقط براي برخي از انواع پرونده ها "
+
+msgid "Middle side file version, only for some file types."
+msgstr ""
+
+#, c-format
+msgid "Short comparison result."
+msgstr " نتيجه همسنجي بطور کوتاه "
+
+#, c-format
+msgid "Left side attributes."
+msgstr " خصيصه هاي سمت چپ "
+
+#, c-format
+msgid "Right side attributes."
+msgstr " خصيصه هاي سمت راست "
+
+#, c-format
+msgid "Middle side attributes."
+msgstr ""
+
+msgid "Left side file EOL type."
+msgstr " نوع انتهاي خط در پرونده سمت چپ"
+
+msgid "Right side file EOL type."
+msgstr " نوع انتهاي خط در پزونده سمت راست"
+
+msgid "Middle side file EOL type."
+msgstr ""
+
+#, c-format
+msgid "Left side encoding."
+msgstr " کدبندي سمت چپ "
+
+#, c-format
+msgid "Right side encoding."
+msgstr " کدبندي سمت راست "
+
+#, c-format
+msgid "Middle side encoding."
+msgstr ""
+
+#, c-format
+msgid "Number of ignored differences in file. Ignored and cannot be merged."
+msgstr ""
+" شماره تفاوتهاي چشم پوشي شده در پرونده. اين تفاوتها توسط وينمرج چشم پوشي شده "
+"است و قابل پيوند زدن نيست "
+
+#, c-format
+msgid "Number of differences in file (excluding ignored)."
+msgstr ""
+" شماره تفاوتها در پرونده. اين شماره شامل تفاوتهاي چشم پوشي شده نمي شود "
+
+#, c-format
+msgid "Shows an asterisk (*) if the file is binary."
+msgstr " نمايش يک ستاره * در صورتيکه پرونده دودويي باشد "
+
+msgid "Unpacker plugin name or pipeline."
+msgstr ""
+
+msgid "Prediffer plugin name or pipeline."
+msgstr ""
+
+#, c-format
+msgid "Compare %1 with %2"
+msgstr " همسنجي  %1 با  %2"
+
+#, c-format
+msgid "Compare %1 with %2 and %3"
+msgstr ""
+
+#, c-format
+msgid "Comma-separated list"
+msgstr " فهرستي که با کاما جدا شده باشد "
+
+#, c-format
+msgid "Tab-separated list"
+msgstr " فهرست جداشده با کليد جهش "
+
+#, c-format
+msgid "Simple HTML"
+msgstr " ساده اچ تي ام ال"
+
+#, c-format
+msgid "Simple XML"
+msgstr " ساده ايکس ام ال "
+
+#, c-format
+msgid "Report file already exists. Overwrite?"
+msgstr ""
+" پيش از اين، پرونده گزارش وجود داشته است. آيا مايليد که پرونده جايگزين شود ؟ "
+
+#, c-format
+msgid ""
+"Error creating the report:\n"
+"%1"
+msgstr ""
+" خطا در ايجاد گزارش : \n"
+"%1"
+
+#, c-format
+msgid "Report created successfully."
+msgstr " گزارش با موفقيت ايجاد شده است  "
+
+msgid "Cannot add a synchronization point at this line."
+msgstr ""
+
+#, c-format
+msgid "Same file is opened in both panes."
+msgstr "  يک  پرونده در هر دو تابلو باز شده است"
+
+#, c-format
+msgid "Selected files are identical."
+msgstr " پرونده هاي انتخاب شده همسان هستند  "
+
+#, c-format
+msgid "An error occurred while comparing files."
+msgstr " به هنگام همسنجي پرونده ها خطايي رخ داد "
+
+#, c-format
+msgid ""
+"Could not create temporary files. Check your temporary path settings."
+msgstr ""
+" پرونده هاي موقتي را نمي توان ايجاد نمود. تنظيمات مسير موقت بررسي گردد "
+
+msgid "Files use different EOL.\n\nTreat all EOL as equivalent?\n\nSet 'Ignore EOL differences (Windows/Unix/Mac)' in Compare section of Options."
+msgstr ""
+" اين پرونده ها از نوع متفاوتي از علامت بازگشت به سر سطر استفاده مي نمايند \n"
+"\n"
+" آيا مايل هستيد که در اين مقايسه  همه اين علامتها به صورت يکسان در نظر گرفته "
+"شوند؟ \n"
+"\n"
+"توجه: در صورتيکه مي خواهيد براي هميشه تمام انواع علامتهاي بازگشت به سر سطر "
+"يکسان در نظر گرفته شوند، انتخاب \"ناديده گرفتن تفاوت علامتهاي بازگشت به سر "
+"سطر ...\" در بخش مقايسه / همسنجي پنجره محاوره خيارات {موجود زير "
+"ويرايش>خيارات} علامت زده شود "
+
+#, c-format
+msgid "Selected folder is invalid."
+msgstr " پوشه انتخاب شده وجود ندارد  "
+
+#, c-format
+msgid "Cannot open a binary file in Editor."
+msgstr " نمي تواند پرونده دودويي را در ويراستار باز نمايد "
+
+#, c-format
+msgid "Create matching folder:\n%1\non the other side and open?"
+msgstr ""
+" پوشه مورد نظر تنها در سمت ديگر وجود دارد و نمي توان آن را بازکرد \n"
+"\n"
+" آيا مايل هستيد که يک پوشه تطبيقي ايجاد نماييد؟ \n"
+"%1\n"
+"به سمت ديگر و بازشدن اين پوشه ها ؟ "
+
+msgid "Copy all differences to other file?"
+msgstr ""
+
+#, c-format
+msgid "Move to next file?"
+msgstr ""
+
+#, c-format
+msgid "Move to previous file?"
+msgstr ""
+
+#, c-format
+msgid "Move to next page?"
+msgstr ""
+
+#, c-format
+msgid "Move to previous page?"
+msgstr ""
+
+msgid "Move to first file?"
+msgstr ""
+
+msgid "Move to last file?"
+msgstr ""
+
+#, c-format
+msgid "Different codepages: left (cp%d), right (cp%d).\nDisplay in codepage (better display) or default Windows codepage (safer merging)?\n(Recommended: default Windows codepage)"
+msgstr ""
+" در پرونده هاي راست  و چپ صفحه کدهاي متفاوتي پيدا شد  cp%d و  cp%d \n"
+" نمايش هر پرونده در صفحه کد خودش جلوه بهتري دارد اما رونوشت برداري / پيوند "
+"زني خطرناک خواهد بود \n"
+" آيا مايل هستيد تا با هر دو پرونده به شکلي که در صفحه کد پيش فرض ويندوز مي "
+"باشد، کار شود - اينگونه توصيه ميشود - ؟"
+
+#, c-format
+msgid "Information lost due to encoding errors: both files"
+msgstr "  اطلاعات به دليل خطاهاي کدبندي از دست رفت : در پرونده هر دو سمت "
+
+#, c-format
+msgid "Information lost due to encoding errors: first file"
+msgstr ""
+
+#, c-format
+msgid "Information lost due to encoding errors: second file"
+msgstr ""
+
+#, c-format
+msgid "Information lost due to encoding errors: third file"
+msgstr ""
+
+#, c-format
+msgid "No difference"
+msgstr " بدون فرق"
+
+#, c-format
+msgid "Line difference"
+msgstr " تفاوت خط به خط "
+
+#, c-format
+msgid "Replaced %1 string(s)."
+msgstr "  رشته {هاي} جايگزين شده : %1"
+
+#, c-format
+msgid "Cannot find string \"%s\"."
+msgstr " نمي توان رشته روبرو را پيدا کرد :  \"%s\""
+
+msgid "Entering Merge Mode. Press F9 to turn off."
+msgstr ""
+
+#, c-format
+msgid "Automatic merges: %1\nUnresolved conflicts: %2"
+msgstr ""
+
+msgid "Codepage change merged."
+msgstr ""
+
+msgid "Codepage changes are conflicting."
+msgstr ""
+
+msgid "EOL change merged."
+msgstr ""
+
+msgid "EOL changes are conflicting."
+msgstr ""
+
+#, c-format
+msgid "Location Pane"
+msgstr " چهارگوش مکان "
+
+#, c-format
+msgid "Diff Pane"
+msgstr " چهارگوش تفاوت "
+
+#, c-format
+msgid "Patch file written."
+msgstr " پرونده وصله  با موفقيت نوشته شد "
+
+msgid "First item not found!"
+msgstr ""
+
+msgid "Second item not found!"
+msgstr ""
+
+#, c-format
+msgid "Patch file already exists. Overwrite?"
+msgstr ""
+" پرونده وصله در حال حاضر موجود مي باشد. آيا مي خواهيد تا بازنويسي شود؟ "
+
+#, c-format
+msgid "[%1 files selected]"
+msgstr "{  پرونده هاي انتخاب شده:   %1 }"
+
+#, c-format
+msgid "Normal"
+msgstr " عادي "
+
+#, c-format
+msgid "Context"
+msgstr " متن "
+
+#, c-format
+msgid "Unified"
+msgstr " يکپارچه شده "
+
+#, c-format
+msgid "Could not write to file %1."
+msgstr "نمي تواند در پرونده 1%  بنويسد "
+
+#, c-format
+msgid "Output path is not absolute: %1"
+msgstr " مسير خروجي مشخص شده يک مسير مطلق نمي باشد : %1"
+
+msgid "Specify an output file."
+msgstr " يک پرونده خروجي را مشخص نماييد "
+
+#, c-format
+msgid "Cannot create patch from binary files."
+msgstr " نمي توان يک وصله پرونده از پرونده هاي دودويي تهيه نمود "
+
+#, c-format
+msgid ""
+"Save all files first.\n"
+"\n"
+"Creating a patch requires no unsaved changes."
+msgstr ""
+" لطفا نخست تمام پرونده ها را ذخيره نماييد \n"
+"\n"
+"ايجاد يک وصله نيازمند اينست که هيچ تغيير ذخيره نشده اي در پرونده ها وجود "
+"نداشته باشد "
+
+#, c-format
+msgid "Folder does not exist."
+msgstr " پوشه وجود ندارد "
+
+msgid "Archive support not enabled.\n7-Zip and/or Merge7z*.dll not found.\nSee manual for archive support."
+msgstr ""
+"  پشتيباني از بايگاني فعال نشده است \n"
+" تمام اجزاء مورد نياز  براي پشتيباني از بايگاني را نمي توان يافت - Merge7z*."
+"dll &/ 7-Zip   - \n"
+" براي اطلاع بيشتر از پشتيباني بايگاني و چگونگي فعالسازي آن، کتابچه راهنما را "
+"ببينيد"
+
+#, c-format
+msgid "Select file for export"
+msgstr " انتخاب پرونده براي صدور "
+
+#, c-format
+msgid "Select file for import"
+msgstr " انتخاب پرونده براي ورود "
+
+#, c-format
+msgid "Options imported from file."
+msgstr " خيارات از پرونده وارد شد "
+
+#, c-format
+msgid "Options exported to file."
+msgstr " خيارات به پرونده صادر شد "
+
+#, c-format
+msgid "Failed to import options from file."
+msgstr " ورود خيارات از پرونده ناموفق بود "
+
+#, c-format
+msgid "Failed to write options to file."
+msgstr " نگارش خيارات در پرونده ناموفق بود "
+
+#, c-format
+msgid ""
+"Close multiple compare windows?\n"
+"\n"
+"Continue?"
+msgstr ""
+" شما در حال بستن چندين پنجره مقايسه / همسنجي هستيد \n"
+"\n"
+"آيا مايل به ادامه هستيد ؟ "
+
+#, c-format
+msgid "Mixed"
+msgstr " مخلوط "
+
+msgctxt "EOL Type"
+msgid "Binary"
+msgstr ""
+
+#, c-format
+msgid "None"
+msgstr " هيچيک "
+
+#, c-format
+msgid "Marker Color %d"
+msgstr ""
+
+msgid "New Pattern"
+msgstr ""
+
+#, c-format
+msgid "Type"
+msgstr " نوع "
+
+#, c-format
+msgid "Editor script"
+msgstr "دست نوشته براي ويراستار   "
+
+#, c-format
+msgid "\nDifference in Current Line (F4)"
+msgstr ""
+
+#, c-format
+msgid "\nOptions"
+msgstr ""
+
+#, c-format
+msgid "\nRefresh (F5)"
+msgstr ""
+
+#, c-format
+msgid "\nPrevious Difference (Alt+Up)"
+msgstr ""
+
+#, c-format
+msgid "\nNext Difference (Alt+Down)"
+msgstr ""
+
+#, c-format
+msgid "\nPrevious Conflict (Alt+Shift+Up)"
+msgstr ""
+
+#, c-format
+msgid "\nNext Conflict (Alt+Shift+Down)"
+msgstr ""
+
+#, c-format
+msgid "\nFirst Difference (Alt+Home)"
+msgstr ""
+
+#, c-format
+msgid "\nCurrent Difference (Alt+Enter)"
+msgstr ""
+
+#, c-format
+msgid "\nLast Difference (Alt+End)"
+msgstr ""
+
+msgid "\nCopy to Right (Alt+Right)"
+msgstr ""
+
+msgid "\nCopy to Left (Alt+Left)"
+msgstr ""
+
+msgid "\nCopy to Right and Advance (Ctrl+Alt+Right)"
+msgstr ""
+
+msgid "\nCopy to Left and Advance (Ctrl+Alt+Left)"
+msgstr ""
+
+msgid "\nCopy All to Right"
+msgstr "\nرونوشت برداري همه به راست"
+
+msgid "\nCopy All to Left"
+msgstr "\nرونوشت برداري همه به چپ"
+
+#, c-format
+msgid "\nAuto Merge (Ctrl+Alt+M)"
+msgstr ""
+
+msgid "\nFirst File"
+msgstr ""
+
+msgid "\nNext File (Ctrl+F8)"
+msgstr ""
+
+msgid "\nLast File"
+msgstr ""
+
+msgid "\nPrevious File (Ctrl+F7)"
+msgstr ""
+
+msgid "Adapted unpacker applied to both files (one needs extension)."
+msgstr " بازکننده بسته تطبيق داده شده روي هر دو پرونده ها بکار بسته مي شود "
+
+#, c-format
+msgid "No Prediffer (Normal)"
+msgstr " بدون پيش فرق گذار - عادي "
+
+#, c-format
+msgid "Suggested Plugins"
+msgstr " افزايه هاي پيشنهادي "
+
+msgid "All Plugins"
+msgstr ""
+
+#, c-format
+msgid "Private Build: %1"
+msgstr " ساخت شخصي : %1 "
+
+msgid "Your software is up to date."
+msgstr ""
+
+#, c-format
+msgid "WinMerge update available.\n%1 available (you have %2). Download now?"
+msgstr ""
+
+#, c-format
+msgid "Failed to download latest version information"
+msgstr ""
+
+#, c-format
+msgid "Plugin Settings"
+msgstr " قرارگاههاي افزايه ها"
+
+#, c-format
+msgid "WSH not found - .sct scripts disabled"
+msgstr " .sct پيدا نشد -  دست نوشته ها غير فعال شد WSH  "
+
+#, c-format
+msgid "G&o to Line %1"
+msgstr "&G   برو به خط  %1 "
+
+msgid "Go to Moved Line\tCtrl+Shift+G"
+msgstr ""
+
+#, c-format
+msgid "Disabled"
+msgstr " غير فعال "
+
+#, c-format
+msgid "From file system"
+msgstr " از دستگاه (سيستم) پرونده ها  "
+
+#, c-format
+msgid "From Most Recently Used list"
+msgstr " از فهرست آخرين پرونده ها "
+
+#, c-format
+msgid "No Highlighting"
+msgstr " برجسته نکردن "
+
+#, c-format
+msgid "Batch"
+msgstr " دسته "
+
+#, c-format
+msgid "Portable Object"
+msgstr " شيئ حمل شدني "
+
+#, c-format
+msgid "Resources"
+msgstr " منابع "
+
+#, c-format
+msgid "Shell"
+msgstr " پوسته "
+
+#, c-format
+msgid "Close &Left Tabs"
+msgstr ""
+
+#, c-format
+msgid "Close R&ight Tabs"
+msgstr ""
+
+#, c-format
+msgid "Close &Other Tabs"
+msgstr ""
+
+#, c-format
+msgid "Enable &Auto Max Width"
+msgstr ""
+
+msgid "We&bpage"
+msgstr ""
+
+msgid "W&rap Text"
+msgstr ""
+
+msgid "%1 is not installed."
+msgstr ""
+
+#, c-format
+msgid "%1 does not exist. Create it?"
+msgstr ""
+
+#, c-format
+msgid "Failed to create folder."
+msgstr ""
+
+#, c-format
+msgid "Parameters:\n$file: Current file path\n$linenum: Current cursor line number"
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "minimal"
+msgstr ""
+
+msgid "patience"
+msgstr ""
+
+msgid "histogram"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "GDI"
+msgstr ""
+
+msgid "DirectWrite Default"
+msgstr ""
+
+msgid "DirectWrite Aliased"
+msgstr ""
+
+msgid "DirectWrite GDI Classic"
+msgstr ""
+
+msgid "DirectWrite GDI Natural"
+msgstr ""
+
+msgid "DirectWrite Natural"
+msgstr ""
+
+msgid "DirectWrite Natural Symmetric"
+msgstr ""
+
+msgid "MDI child window or main window"
+msgstr ""
+
+msgid "MDI child window only"
+msgstr ""
+
+msgid "Close main window if only one MDI child window"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Diff"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Blink"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Size"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Alpha"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "CD Threshold"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Ins/Del Detection"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "None"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Vertical"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Horizontal"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Overlay"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "XOR"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Blend"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Animation"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Zoom"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Page:"
+msgstr ""
+
+#, c-format
+msgid "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+msgstr ""
+
+#, c-format
+msgid "Dist: %g  "
+msgstr ""
+
+#, c-format
+msgid "Dist: %g, %g  "
+msgstr ""
+
+#, c-format
+msgid "Page: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+msgstr ""
+
+#, c-format
+msgid "Rc: (%d, %d)  "
+msgstr ""
+
+#, c-format
+msgid "Flipped: %s  "
+msgstr ""
+
+#, c-format
+msgid "Rotated: %d  "
+msgstr ""
+
+msgid "All pages"
+msgstr ""
+
+msgid "<Edit here>"
+msgstr ""
+
+msgid "No differences found to select"
+msgstr ""
+
+msgid "No differences found to add as substitution filter"
+msgstr ""
+
+msgid "The pair is already in the Substitution Filters list"
+msgstr ""
+
+msgid "Add this change to Substitution Filters?"
+msgstr ""
+
+msgid "Text only"
+msgstr ""
+
+msgid "Line-by-line position and text"
+msgstr ""
+
+msgid "Word-by-word position and text"
+msgstr ""
+
+msgid "AppData folder"
+msgstr ""
+
+msgid "Install folder"
+msgstr ""
+
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "اجازه اجراي همزمان تنها يک نسخه از نرم افزار  "
+
+msgid "Allow only one instance; wait for termination"
+msgstr ""
+
+msgid "Only on window activated"
+msgstr ""
+
+msgid "Immediately"
+msgstr ""
+
+msgid "Al&l"
+msgstr ""
+
+msgid "&Others"
+msgstr ""
+
+#, c-format
+msgid "Missing plugin name in pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing quote in plugin pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Plugin name '%1' already exists."
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr ""
+
+#, c-format
+msgid "Plugin not found or invalid: %1"
+msgstr ""
+
+#, c-format
+msgid "'%1' is not an unpacker plugin"
+msgstr ""
+
+#, c-format
+msgid "'%1' is not a prediffer plugin"
+msgstr ""
+
+#, c-format
+msgid "Error prediffing '%1' with '%2'. Prediffing disabled."
+msgstr ""
+
+#, c-format
+msgid "Circular reference in plugin pipeline: %1"
+msgstr ""
+
+msgid "URL Handler"
+msgstr ""
+
+msgid "File Unpacker"
+msgstr ""
+
+msgid "File or Folder Unpacker"
+msgstr ""
+
+msgid "Alias for Unpacker"
+msgstr ""
+
+msgid "Alias for Prediffer"
+msgstr ""
+
+msgid "Alias for Editor script"
+msgstr ""
+
+#, c-format
+msgid "Alias for plugin pipeline '%1'"
+msgstr ""
+
+msgid "New plugin description"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "1st"
+msgstr ""
+
+msgid "2nd"
+msgstr ""
+
+msgid "3rd"
+msgstr ""
+
+msgid "1st and 2nd"
+msgstr ""
+
+msgid "1st and 3rd"
+msgstr ""
+
+msgid "2nd and 3rd"
+msgstr ""
+
+msgid "Filter applied"
+msgstr ""
+
+#, c-format
+msgid "Clipboard at %s"
+msgstr ""
+
+msgid "Clipboard history disabled.\r\nEnable: Windows logo key + V, then Turn on."
+msgstr ""
+
+msgid "This system does not support clipboard history."
+msgstr ""
+
+msgid "32-bit WinMerge does not support Clipboard Compare"
+msgstr ""
+
+msgid "WebView2 runtime not installed. Download it?"
+msgstr ""
+
+msgid "New Text Compare"
+msgstr ""
+
+msgid "New Table Compare"
+msgstr ""
+
+msgid "New Binary Compare"
+msgstr ""
+
+msgid "New Image Compare"
+msgstr ""
+
+msgid "New Webpage Compare"
+msgstr ""
+
+msgid "Clipboard Compare"
+msgstr ""
+
+msgid "&Print..."
+msgstr ""
+
+msgid "Pre&v Page"
+msgstr ""
+
+msgid "&Two Page"
+msgstr ""
+
+msgid "&One Page"
+msgstr ""
+
+msgid "Zoom &In"
+msgstr ""
+
+msgid "Zoom &Out"
+msgstr ""
+
+msgid "Comparing..."
+msgstr ""
+
+msgid "Zoom:"
+msgstr ""
+
+msgid "Diff hunk"
+msgstr ""
+
+msgid "Inline diff"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Character"
+msgstr ""
+
+msgid "\nPrevious Difference (Alt+Up)\n(Right Button+Wheel Up)\n(Alt+Wheel Up)"
+msgstr ""
+
+msgid "\nNext Difference (Alt+Down)\n(Right Button+Wheel Down)\n(Alt+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Right (Alt+Right)\n(Right Button+Wheel Right)\n(Alt+Wheel Right)\n(Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left (Alt+Left)\n(Right Button+Wheel Left)\n(Alt+Wheel Left)\n(Alt+Shift+Wheel Up)"
+msgstr ""
+
+msgid "\nCopy to Right and Advance (Ctrl+Alt+Right)\n(Ctrl+Alt+Wheel Right)\n(Ctrl+Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left and Advance (Ctrl+Alt+Left)\n(Ctrl+Alt+Wheel Left)\n(Ctrl+Alt+Shift+Wheel Up)"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2 and %3"
+msgstr ""
+
+msgid "Comparison completed"
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2: "
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2 and %3: "
+msgstr ""
+
+msgid "File saved"
+msgstr ""
+
+msgid "Copying files..."
+msgstr ""
+
+msgid "Moving files..."
+msgstr ""
+
+msgid "Deleting files..."
+msgstr ""
+
+msgid "Recycle Bin"
+msgstr ""
+
+msgid "Permanently deleted"
+msgstr ""
+
+msgid "File operation completed successfully"
+msgstr ""
+
+msgid "File operation canceled"
+msgstr ""
+
+msgid "Prettification"
+msgstr ""
+
+msgid "Content Extraction"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Data Query"
+msgstr ""
+
+msgid "Validation"
+msgstr ""
+
+msgid "Decompilation"
+msgstr ""
+
+msgid "URL Handling"
+msgstr ""
+
+msgid "Decoding / Encoding"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr ""
+
+msgid "Make Lowercase"
+msgstr ""
+
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+msgid "Count Duplicate Lines"
+msgstr ""
+
+msgid "Sort Lines Ascending"
+msgstr ""
+
+msgid "Sort Lines Descending"
+msgstr ""
+
+msgid "Reverse Columns"
+msgstr ""
+
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr ""
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr ""
+
+msgid "Select Columns..."
+msgstr ""
+
+msgid "Select Lines..."
+msgstr ""
+
+msgid "Insert Date"
+msgstr ""
+
+msgid "Insert Time"
+msgstr ""
+
+msgid "Apply Patch..."
+msgstr ""
+
+msgid "Ignore Columns"
+msgstr ""
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr ""
+
+msgid "Ignore CSV Fields"
+msgstr ""
+
+msgid "Ignore TSV Fields"
+msgstr ""
+
+msgid "Ignore Leading Line Numbers"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr ""
+
+msgid "Prettify HTML"
+msgstr ""
+
+msgid "Prettify JSON"
+msgstr ""
+
+msgid "Prettify XML"
+msgstr ""
+
+msgid "Prettify YAML"
+msgstr ""
+
+msgid "Preview Graphviz"
+msgstr ""
+
+msgid "Preview Markdown"
+msgstr ""
+
+msgid "Preview PlantUML"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr ""
+
+msgid "Query TSV Data..."
+msgstr ""
+
+msgid "Query JSON Data..."
+msgstr ""
+
+msgid "Query YAML Data..."
+msgstr ""
+
+msgid "Validate HTML"
+msgstr ""
+
+msgid "Disassemble JVM Bytecode"
+msgstr ""
+
+msgid "Disassemble IL Code"
+msgstr ""
+
+msgid "Disassemble Native Code"
+msgstr ""
+
+msgid "Convert Text with AI..."
+msgstr ""
+
+msgid "Unescape Java properties files"
+msgstr ""
+
+msgid "Make characters uppercase"
+msgstr ""
+
+msgid "Make characters lowercase"
+msgstr ""
+
+msgid "Remove duplicate lines"
+msgstr ""
+
+msgid "Count duplicate lines"
+msgstr ""
+
+msgid "Sort lines ascending"
+msgstr ""
+
+msgid "Sort lines descending"
+msgstr ""
+
+msgid "Reverse columns"
+msgstr ""
+
+msgid "Reverse lines"
+msgstr ""
+
+msgid "Replace text.\r\nUsage: Replace [-i] [-e] FIND REPLACE\r\n or: Replace -s\r\n FIND - text to find\r\n REPLACE - text to replace\r\n -i - ignore case (only for -e)\r\n -e - regex\r\n -s - use Substitution Filters"
+msgstr ""
+
+#, c-format
+msgid "Apply filter. \r\nUsage: ExecFilterCommand COMMAND\r\n COMMAND - command to execute. %1 = filename."
+msgstr ""
+
+msgid "Tokenize. \r\nUsage: Tokenize PATTERNS\r\n PATTERNS - regex (e.g. [^\\w]+)"
+msgstr ""
+
+msgid "Trim spaces"
+msgstr ""
+
+msgid "Select columns.\r\nUsage: SelectColumns RANGES\r\n or: SelectColumns [-v] [-i] [-g] -e PATTERNS\r\n RANGES - column ranges (-3,5-10,30-)\r\n PATTERNS - regex\r\n -v - select non-matching\r\n -i - ignore case\r\n -g - enable global flag\r\n -e - use PATTERNS"
+msgstr ""
+
+msgid "Select lines.\r\nUsage: SelectLines RANGES\r\n or: SelectLines [-v] [-i] -e PATTERNS\r\n RANGES - line ranges (-3,5-10,30-)\r\n PATTERNS - regex\r\n -v - select non-matching\r\n -i - ignore case\r\n -e - use PATTERNS"
+msgstr ""
+
+msgid "HTML Prettier (tidy-html5).\r\nArguments: tidy command line options."
+msgstr ""
+
+msgid "JSON Prettier (jq).\r\nArguments: jq filter/command line options."
+msgstr ""
+
+msgid "XML Prettier (tidy-html5).\r\nArguments: tidy command line options."
+msgstr ""
+
+msgid "YAML Prettier (yq).\r\nArguments: yq filter/command line options."
+msgstr ""
+
+msgid "Graphviz Previewer.\r\nArguments: dot command line options."
+msgstr ""
+
+msgid "Markdown Previewer.\r\nArguments: md2html command line options."
+msgstr ""
+
+msgid "PlantUML Previewer.\r\nArguments: plantuml.jar command line options."
+msgstr ""
+
+msgid "CSV Querier (q).\r\nArguments: SQL statement/q comannd line options."
+msgstr ""
+
+msgid "TSV Querier (q).\r\nArguments: SQL statement/q comannd line options."
+msgstr ""
+
+msgid "JSON Querier (jq).\r\nArguments: jq filter/command line options."
+msgstr ""
+
+msgid "YAML Querier (yq).\r\nArguments: yq filter/command line options."
+msgstr ""
+
+msgid "HTML Validator (tidy-html5).\r\nArguments: tidy command line options."
+msgstr ""
+
+msgid "JVM bytecode disassembler (javap).\r\nArguments: javap command line options."
+msgstr ""
+
+msgid "IL disassembler (ildasm).\r\nArguments: ildasm command line options."
+msgstr ""
+
+msgid "Native code disassembler (dumpbin).\r\nArguments: dumpbin command line options."
+msgstr ""
+
+msgid "Content extractor (Apache Tika).\r\nArguments: tika-app.jar command line options."
+msgstr ""
+
+msgid "Apply patch (GNU patch)"
+msgstr ""
+
+msgid "Display MS Excel text content"
+msgstr ""
+
+msgid "Display MS PowerPoint text content"
+msgstr ""
+
+msgid "Display MS Visio text content"
+msgstr ""
+
+msgid "Display MS Word text content"
+msgstr ""
+
+msgid "Ignore columns - list from plugin name/argument"
+msgstr ""
+
+msgid "Ignore C, C++, PHP, and JavaScript comments (//... and /* ... */)."
+msgstr ""
+
+msgid "Ignore fields - list from plugin name/argument"
+msgstr ""
+
+msgid "Ignore leading line numbers (e.g., NC, BASIC)."
+msgstr ""
+
+msgid "Prediff Line Filter"
+msgstr ""
+
+msgid "Date and time insertion"
+msgstr ""
+
+msgid "HTTP URL Scheme Handler (curl).\r\nArguments: curl command line options."
+msgstr ""
+
+msgid "Windows Registry URL Scheme Handler.\r\nArguments: reg.exe command line options."
+msgstr ""
+
+msgid "Basic text functions"
+msgstr ""
+
+msgid "AI-assisted text conversion"
+msgstr ""
+
+msgid "Text converter (OpenAI API).\r\nUsage: AIConvertText PROMPT"
+msgstr ""
+
+msgid "Unescape and display escaped Java properties files."
+msgstr ""
+
+msgid "CompareMSExcelFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract workbook data to multiple files"
+msgstr ""
+
+msgid "Update external references (links)"
+msgstr ""
+
+msgid "Compare document properties"
+msgstr ""
+
+msgid "Compare names"
+msgstr ""
+
+msgid "Compare cell values"
+msgstr ""
+
+msgid "Compare worksheets as image (very slow)"
+msgstr ""
+
+msgid " - Image split size: "
+msgstr ""
+
+msgid "Compare worksheets as HTML"
+msgstr ""
+
+msgid "Compare formulas"
+msgstr ""
+
+msgid "Compare texts in shapes"
+msgstr ""
+
+msgid "Compare headers and footers"
+msgstr ""
+
+msgid "Cannot get Macros.\r\nEnable 'Trust access to Visual Basic Project' in MS Office Macro Security."
+msgstr ""
+
+msgid "Compare VBA macros"
+msgstr ""
+
+msgid "CompareMSWordFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract document data to multiple files"
+msgstr ""
+
+msgid "Compare bookmarks"
+msgstr ""
+
+msgid "Compare text contents of documents"
+msgstr ""
+
+msgid "Compare documents as HTML file (very slow)"
+msgstr ""
+
+msgid "CompareMSPowerPointFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract slide data to multiple files"
+msgstr ""
+
+msgid "Compare slides as image (very slow)"
+msgstr ""
+
+msgid "Compare texts in notes page"
+msgstr ""
+
+msgid "CompareMSVisioFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract page data to multiple files"
+msgstr ""
+
+msgid "Compare pages as image (very slow)"
+msgstr ""
+
+msgid "PrediffLineFilter.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Ignore Case"
+msgstr ""
+
+msgid "Use RegExp"
+msgstr ""
+
+msgid "Find what"
+msgstr ""
+
+msgid "Replace with"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Column Ranges to Ignore:\ne.g.) 3,10-20,32-33\n"
+msgstr ""
+
+#, c-format
+msgid "Enter filename for patch '%1'"
+msgstr ""
+
+#, c-format
+msgid "File '%1' does not exist"
+msgstr ""
+
+msgid "Enter command line arguments for patch"
+msgstr ""
+
+#, c-format
+msgid "Enter folder name for patch '%1'"
+msgstr ""
+
+#, c-format
+msgid "Folder '%1' does not exist"
+msgstr ""
+
+msgid "Do not use '-p0' for patch files with absolute paths"
+msgstr ""
+
+msgid "AI.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Enter prompt"
+msgstr ""
+
+#, c-format
+msgid "Enter OpenAI API key.\r\n- Requires OpenAI registration (fees may apply).\r\n- Key stored in env var %1."
+msgstr ""
+
+msgid "Environment variable name for OpenAI API key"
+msgstr ""
+
+msgid "OpenAI API key"
+msgstr ""
+
+msgid "Temperature"
+msgstr ""
+
+msgid "Maximum length"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "OpenAI API key changed. Restart to apply."
+msgstr ""

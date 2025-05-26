@@ -1,0 +1,73 @@
+# This file is from WinMerge <https://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+# Translators:
+# * Afyonlu <afyonlu@users.sourceforge.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge Shell Extension\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues\n"
+"POT-Creation-Date: 2023-02-19 00:07+0000\n"
+"PO-Revision-Date: 2023-07-06 08:38+0300\n"
+"Last-Translator: Kaya Zeren <translator@zeron.net>\n"
+"Language-Team: Turkish <winmerge-translate@lists.sourceforge.net>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../ShellExtension/Languages\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. AFX_TARG_*
+#: ShellExtension.rc:19
+#, c-format
+msgid "AFX_TARG_ENU"
+msgstr "AFX_TARG_TRK"
+
+#. LANGUAGE, SUBLANGUAGE
+#: ShellExtension.rc:20
+#, c-format
+msgid "LANG_ENGLISH, SUBLANG_ENGLISH_US"
+msgstr "LANG_TURKISH, SUBLANG_DEFAULT"
+
+#: ShellExtension.rc:111
+#, c-format
+msgid "ShellExtension"
+msgstr "KabukEklentisi"
+
+#: ShellExtension.rc:112
+#, c-format
+msgid "Win&Merge"
+msgstr "&WinMerge"
+
+#: ShellExtension.rc:113
+#, c-format
+msgid "Compare &As"
+msgstr "Şu &olarak karşılaştır"
+
+#: ShellExtension.rc:114
+#, c-format
+msgid "&Compare"
+msgstr "&Karşılaştır"
+
+#: ShellExtension.rc:115
+#, c-format
+msgid "Compare&..."
+msgstr "Karşılaştı&r..."
+
+#: ShellExtension.rc:116
+#, c-format
+msgid "Select &Left"
+msgstr "So&lu seç"
+
+#: ShellExtension.rc:117
+#, c-format
+msgid "Select &Middle"
+msgstr "&Ortayı seç"
+
+#: ShellExtension.rc:118
+#, c-format
+msgid "Re-select &Left"
+msgstr "So&lu yeniden seç"

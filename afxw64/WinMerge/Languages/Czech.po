@@ -1,0 +1,5357 @@
+# This file is from WinMerge <https://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+# Translators:
+# * Jiri Tax <jt at taxoft.cz>
+# * Jan Hryz <janhryz at users.sourceforge.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues/\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Czech <winmerge-translate@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../Src/\n"
+
+#. LANGUAGE, SUBLANGUAGE
+#, c-format
+msgid "LANG_ENGLISH, SUBLANG_ENGLISH_US"
+msgstr "LANG_CZECH, SUBLANG_DEFAULT"
+
+msgid "Copy to Middle"
+msgstr ""
+
+msgid "C&opy to Right\tAlt+Right"
+msgstr "Kopírovat dop&rava\tAlt+Right"
+
+msgid "Copy from Middle"
+msgstr ""
+
+msgid "Copy fro&m Right\tAlt+Shift+Left"
+msgstr ""
+
+msgid "Cop&y to Left\tAlt+Left"
+msgstr "Kopírovat do&leva\tAlt+Left"
+
+msgid "Copy &from Left\tAlt+Shift+Right"
+msgstr ""
+
+msgid "Copy Selected Lines to Middle"
+msgstr ""
+
+msgid "Copy Selected Lines to Right"
+msgstr ""
+
+msgid "Copy Selected Lines from Middle"
+msgstr ""
+
+msgid "Copy Selected Lines from Right"
+msgstr ""
+
+msgid "Copy Selected Lines to Left"
+msgstr ""
+
+msgid "Copy Selected Lines from Left"
+msgstr ""
+
+msgid "Copy Selected Diff (Left) to Clipboard\tCtrl+&1"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Middle) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&3"
+msgstr ""
+
+#, c-format
+msgid "Select Line &Difference\tF4"
+msgstr "Vybrat roz&díl v řádku\tF4"
+
+msgid "Add to Substitution &Filters"
+msgstr ""
+
+msgid "Add to &Line Filters"
+msgstr ""
+
+#, c-format
+msgid "&Undo"
+msgstr "&Zpět"
+
+#, c-format
+msgid "&Redo"
+msgstr "Znov&u"
+
+#, c-format
+msgid "Cu&t"
+msgstr "Vyj&mout"
+
+#, c-format
+msgid "&Copy"
+msgstr "&Kopírovat"
+
+#, c-format
+msgid "&Paste"
+msgstr "&Vložit"
+
+#, c-format
+msgid "&Scripts"
+msgstr "Skrip&ty"
+
+#, c-format
+msgid "< Empty >"
+msgstr "< žádné >"
+
+msgid "&Go to...\tCtrl+G"
+msgstr "Př&ejít na...\tCtrl+G"
+
+msgid "Go to Moved Line Between Left and Middle\tCtrl+Shift+G"
+msgstr ""
+
+msgid "Go to Moved Line Between Middle and Right\tCtrl+Alt+G"
+msgstr ""
+
+#, c-format
+msgid "Op&en"
+msgstr "&Otevřít"
+
+msgid "With &Registered Application"
+msgstr "Přidruženou &aplikací"
+
+msgid "With &External Editor\tCtrl+Alt+E"
+msgstr "Externím &editorem\tCtrl+Alt+E"
+
+msgid "&With..."
+msgstr "&Zvolit..."
+
+msgid "Open &Parent Folder..."
+msgstr ""
+
+msgid "S&hell Menu"
+msgstr ""
+
+msgid "Use First Line as Headers"
+msgstr ""
+
+msgid "Auto-Fit All Columns"
+msgstr ""
+
+#, c-format
+msgid "View &Differences"
+msgstr ""
+
+#, c-format
+msgid "Diff &Block Size"
+msgstr ""
+
+#, c-format
+msgid "&Ignore Color Difference"
+msgstr ""
+
+msgid "Ins&ertion/Deletion Detection"
+msgstr ""
+
+#, c-format
+msgid "&None"
+msgstr "&Skrýt"
+
+msgid "&Vertical"
+msgstr ""
+
+msgid "&Horizontal"
+msgstr ""
+
+#, c-format
+msgid "&Previous Page"
+msgstr ""
+
+#, c-format
+msgid "&Next Page"
+msgstr ""
+
+#, c-format
+msgid "&Active Pane"
+msgstr ""
+
+msgid "Rotate &Right 90deg"
+msgstr ""
+
+msgid "Rotate &Left 90deg"
+msgstr ""
+
+msgid "Flip V&ertically"
+msgstr ""
+
+msgid "Flip H&orizontally"
+msgstr ""
+
+#, c-format
+msgid "&Zoom"
+msgstr "&Velikost písma"
+
+#, c-format
+msgid "25%"
+msgstr ""
+
+#, c-format
+msgid "Zoom &In\tCtrl++"
+msgstr "Z&většit\tCtrl++"
+
+#, c-format
+msgid "Zoom &Out\tCtrl+-"
+msgstr "Z&menšit\tCtrl+-"
+
+#. Zoom to normal
+#, c-format
+msgid "&Normal\tCtrl+*"
+msgstr "&Normální\tCtrl+*"
+
+#, c-format
+msgid "&Overlay"
+msgstr ""
+
+#, c-format
+msgid "&Alpha Blend"
+msgstr ""
+
+#, c-format
+msgid "Alpha &Blend Animation"
+msgstr ""
+
+#, c-format
+msgid "Dragging &Mode"
+msgstr ""
+
+#, c-format
+msgid "&Move"
+msgstr "Př&esunout"
+
+#, c-format
+msgid "&Adjust Offset"
+msgstr ""
+
+msgid "&Vertical Wipe"
+msgstr ""
+
+msgid "&Horizontal Wipe"
+msgstr ""
+
+msgid "Rectangle &Select"
+msgstr ""
+
+#, c-format
+msgid "&Set Background Color"
+msgstr ""
+
+msgid "&Vector Image Scaling"
+msgstr ""
+
+msgid "&Animation Settings"
+msgstr ""
+
+msgid "&Blink Interval"
+msgstr ""
+
+msgid "&Overlay Animation Interval"
+msgstr ""
+
+msgid "Compare Extracted &Text from Images"
+msgstr ""
+
+msgid "Co&mpare"
+msgstr ""
+
+msgid "&Screenshots"
+msgstr ""
+
+msgid "&Full Size Screenshots"
+msgstr ""
+
+msgid "&HTMLs"
+msgstr ""
+
+msgid "&Texts"
+msgstr ""
+
+msgid "&Resource Trees"
+msgstr ""
+
+msgid "&Size"
+msgstr ""
+
+msgid "Fit to Window"
+msgstr ""
+
+msgid "&Event Sync"
+msgstr ""
+
+msgid "&Enabled"
+msgstr ""
+
+msgid "&Scroll"
+msgstr ""
+
+msgid "&Click"
+msgstr ""
+
+msgid "&Input"
+msgstr ""
+
+msgid "&Go Back/Forward"
+msgstr ""
+
+msgid "Clear &Browsing Data"
+msgstr ""
+
+msgid "&Disk Cache"
+msgstr ""
+
+msgid "&Cookies"
+msgstr ""
+
+msgid "&Browsing History"
+msgstr ""
+
+msgid "&All Profiles"
+msgstr ""
+
+#, c-format
+msgid "&File"
+msgstr "&Soubor"
+
+#, c-format
+msgid "&New"
+msgstr "&Nové"
+
+#, c-format
+msgid "&Text"
+msgstr ""
+
+msgid "T&able"
+msgstr ""
+
+#, c-format
+msgid "&Binary"
+msgstr ""
+
+#, c-format
+msgid "&Image"
+msgstr ""
+
+msgid "&Webpage"
+msgstr ""
+
+#, c-format
+msgid "New (&3 panes)"
+msgstr ""
+
+#, c-format
+msgid "&Open...\tCtrl+O"
+msgstr "&Otevřít...\tCtrl+O"
+
+msgid "Open Conflic&t File..."
+msgstr ""
+
+msgid "Open C&lipboard"
+msgstr ""
+
+#, c-format
+msgid "Open Pro&ject...\tCtrl+J"
+msgstr "Otevřít pro&jekt...\tCtrl+J"
+
+#, c-format
+msgid "Sa&ve Project..."
+msgstr "Uložit &projekt..."
+
+#, c-format
+msgid "Recent Projects"
+msgstr "Naposledy použité"
+
+#, c-format
+msgid "Recent F&iles or Folders"
+msgstr ""
+
+msgid "E&xit\tCtrl+Q"
+msgstr "&Konec\tCtrl+Q"
+
+#, c-format
+msgid "&Edit"
+msgstr "Úpr&avy"
+
+#, c-format
+msgid "&Paste\tCtrl+V"
+msgstr "&Vložit\tCtrl+V"
+
+#, c-format
+msgid "&Options...\tCtrl+,"
+msgstr "Možnost&i...\tCtrl+,"
+
+#, c-format
+msgid "&View"
+msgstr "&Zobrazit"
+
+#, c-format
+msgid "Ta&b Bar"
+msgstr "Panel &záložek"
+
+msgid "&View Tab Bar"
+msgstr ""
+
+msgid "&On Title Bar"
+msgstr ""
+
+#, c-format
+msgid "&Toolbar"
+msgstr "Panel &nástrojů"
+
+#, c-format
+msgid "&Small"
+msgstr "&Malý"
+
+msgid "&Medium"
+msgstr ""
+
+#, c-format
+msgid "&Big"
+msgstr "&Velký"
+
+#, c-format
+msgid "&Huge"
+msgstr ""
+
+msgid "Men&u Bar"
+msgstr ""
+
+msgid "&Output Pane"
+msgstr ""
+
+#, c-format
+msgid "&Status Bar"
+msgstr "&Stavový řádek"
+
+#, c-format
+msgid "&Tools"
+msgstr "&Nástroje"
+
+#, c-format
+msgid "&Filters..."
+msgstr "&Filtry..."
+
+#, c-format
+msgid "&Generate Patch..."
+msgstr "&Opravný soubor..."
+
+#, c-format
+msgid "&Plugins"
+msgstr "&Pluginy"
+
+#, c-format
+msgid "P&lugin Settings..."
+msgstr ""
+
+#, c-format
+msgid "Ma&nual Prediffer"
+msgstr ""
+
+#, c-format
+msgid "A&utomatic Prediffer"
+msgstr ""
+
+#, c-format
+msgid "&Manual Unpacking"
+msgstr "Převádět &ručně"
+
+#, c-format
+msgid "&Automatic Unpacking"
+msgstr "Převádět &automaticky"
+
+#, c-format
+msgid "&Reload Plugins"
+msgstr "Znovu &načíst"
+
+#, c-format
+msgid "&Window"
+msgstr "&Okno"
+
+msgid "Cl&ose\tCtrl+W"
+msgstr "&Zavřít\tCtrl+W"
+
+#, c-format
+msgid "Clo&se All"
+msgstr "Z&avřít vše"
+
+#, c-format
+msgid "Change &Pane\tF6"
+msgstr "Z&měnit panel\tF6"
+
+#, c-format
+msgid "Tile &Horizontally"
+msgstr "Vedle sebe &vodorovně"
+
+#, c-format
+msgid "Tile &Vertically"
+msgstr "Vedle sebe &svisle"
+
+#, c-format
+msgid "&Cascade"
+msgstr "&Na sebe"
+
+#, c-format
+msgid "&Help"
+msgstr "Nápo&věda"
+
+#, c-format
+msgid "&WinMerge Help\tF1"
+msgstr "&Obsah a rejstřík\tF1"
+
+#, c-format
+msgid "R&elease Notes"
+msgstr ""
+
+#, c-format
+msgid "&Translations"
+msgstr ""
+
+#, c-format
+msgid "C&onfiguration"
+msgstr "&Nastavení"
+
+#, c-format
+msgid "&GNU General Public License"
+msgstr "Obecná veřejná licence &GNU"
+
+#, c-format
+msgid "&About WinMerge..."
+msgstr "O &aplikaci WinMerge..."
+
+#, c-format
+msgid "&Read-Only"
+msgstr ""
+
+#, c-format
+msgid "L&eft Read-Only"
+msgstr "L&evý pouze pro čtení"
+
+#, c-format
+msgid "M&iddle Read-Only"
+msgstr ""
+
+#, c-format
+msgid "Ri&ght Read-Only"
+msgstr "Pr&avý pouze pro čtení"
+
+#, c-format
+msgid "&File Encoding..."
+msgstr "Kódo&vání souborů"
+
+#, c-format
+msgid "Select &All\tCtrl+A"
+msgstr "Vybr&at vše\tCtrl+A"
+
+#, c-format
+msgid "Show &Identical Items"
+msgstr "Ukázat s&hodné položky"
+
+#, c-format
+msgid "Show &Different Items"
+msgstr "Ukázat roz&dílné položky"
+
+#, c-format
+msgid "Show L&eft Unique Items"
+msgstr "Ukázat &levé jedinečné položky"
+
+#, c-format
+msgid "Show Midd&le Unique Items"
+msgstr ""
+
+#, c-format
+msgid "Show Ri&ght Unique Items"
+msgstr "Ukázat p&ravé jedinečné položky"
+
+#, c-format
+msgid "Show S&kipped Items"
+msgstr "Ukázat př&eskočené položky"
+
+#, c-format
+msgid "S&how Binary Files"
+msgstr "Ukázat &binární soubory"
+
+#, c-format
+msgid "&3-way Compare"
+msgstr ""
+
+#, c-format
+msgid "Show &Left Only Different Items"
+msgstr ""
+
+#, c-format
+msgid "Show &Middle Only Different Items"
+msgstr ""
+
+#, c-format
+msgid "Show &Right Only Different Items"
+msgstr ""
+
+msgid "Show L&eft Only Missing Items"
+msgstr ""
+
+msgid "Show Mi&ddle Only Missing Items"
+msgstr ""
+
+msgid "Show Rig&ht Only Missing Items"
+msgstr ""
+
+#, c-format
+msgid "Show Hidd&en Items"
+msgstr "Ukázat s&kryté položky"
+
+#, c-format
+msgid "Tree &Mode"
+msgstr "Stro&mová struktura"
+
+msgid "E&xpand Subfolders"
+msgstr ""
+
+msgid "&All Subfolders"
+msgstr ""
+
+msgid "&Different Subfolders"
+msgstr ""
+
+msgid "&Identical Subfolders"
+msgstr ""
+
+#, c-format
+msgid "&Collapse All Subfolders"
+msgstr "Sbali&t všechny podsložky"
+
+#, c-format
+msgid "Select &Font..."
+msgstr "Vybrat písmo..."
+
+#, c-format
+msgid "Use Default Font"
+msgstr "Použít výchozí písmo"
+
+#, c-format
+msgid "Sw&ap Panes"
+msgstr "Z&aměnit panely"
+
+msgid "Swap &1st | 2nd"
+msgstr ""
+
+msgid "Swap &2nd | 3rd"
+msgstr ""
+
+msgid "Swap 1st | &3rd"
+msgstr ""
+
+#, c-format
+msgid "Com&pare Statistics..."
+msgstr "St&atistika porovnání..."
+
+#, c-format
+msgid "Refresh\tF5"
+msgstr "&Obnovit\tF5"
+
+#, c-format
+msgid "&Refresh Selected\tCtrl+F5"
+msgstr "Obnovit &vybrané\tCtrl+F5"
+
+#, c-format
+msgid "&Merge"
+msgstr "Slo&učit"
+
+#, c-format
+msgid "Co&mpare\tEnter"
+msgstr "Porov&nat\tEnter"
+
+#, c-format
+msgid "&Next Difference\tAlt+Down"
+msgstr "&Další rozdíl\tAlt+Down"
+
+#, c-format
+msgid "&Previous Difference\tAlt+Up"
+msgstr "&Předchozí rozdíl\tAlt+Up"
+
+#, c-format
+msgid "&First Difference\tAlt+Home"
+msgstr "Pr&vní rozdíl\tAlt+Home"
+
+#, c-format
+msgid "&Current Difference\tAlt+Enter"
+msgstr "Ak&tuální rozdíl\tAlt+Enter"
+
+#, c-format
+msgid "&Last Difference\tAlt+End"
+msgstr "Po&slední rozdíl\tAlt+End"
+
+#, c-format
+msgid "Copy to &Right\tAlt+Right"
+msgstr "Kopírovat dop&rava\tAlt+Right"
+
+#, c-format
+msgid "Copy to L&eft\tAlt+Left"
+msgstr "Kopírovat do&leva\tAlt+Left"
+
+#, c-format
+msgid "&Delete\tDel"
+msgstr "Odstran&it\tDel"
+
+#, c-format
+msgid "&Customize Columns..."
+msgstr "Vlastní &sloupce..."
+
+#, c-format
+msgid "Generate &Report..."
+msgstr "&Protokol porovnání..."
+
+#, c-format
+msgid "&Edit with Unpacker..."
+msgstr ""
+
+#, c-format
+msgid "&Save\tCtrl+S"
+msgstr "&Uložit\tCtrl+S"
+
+#, c-format
+msgid "Sav&e"
+msgstr ""
+
+#, c-format
+msgid "Save &Left"
+msgstr "Uložit &levý"
+
+#, c-format
+msgid "Save &Middle"
+msgstr ""
+
+#, c-format
+msgid "Save &Right"
+msgstr "Uložit p&ravý"
+
+#, c-format
+msgid "Save &As"
+msgstr ""
+
+#, c-format
+msgid "Save &Left As..."
+msgstr ""
+
+#, c-format
+msgid "Save &Middle As..."
+msgstr ""
+
+#, c-format
+msgid "Save &Right As..."
+msgstr ""
+
+msgid "&Print...\tCtrl+P"
+msgstr "&Tisk...\tCtrl+P"
+
+msgid "Page Set&up..."
+msgstr "V&zhled stránky..."
+
+msgid "Print Previe&w..."
+msgstr "Ná&hled..."
+
+#, c-format
+msgid "&Convert Line Endings to"
+msgstr "Převést konce řá&dků"
+
+#, c-format
+msgid "Mer&ge Mode\tF9"
+msgstr "Režim sl&učování\tF9"
+
+msgid "Reloa&d\tCtrl+F5"
+msgstr ""
+
+#, c-format
+msgid "Reco&mpare As"
+msgstr ""
+
+#, c-format
+msgid "&Undo\tCtrl+Z"
+msgstr "&Zpět\tCtrl+Z"
+
+#, c-format
+msgid "&Redo\tCtrl+Y"
+msgstr "Znov&u\tCtrl+Y"
+
+#, c-format
+msgid "Cu&t\tCtrl+X"
+msgstr "Vyj&mout\tCtrl+X"
+
+#, c-format
+msgid "&Copy\tCtrl+C"
+msgstr "&Kopírovat\tCtrl+C"
+
+#, c-format
+msgid "F&ind...\tCtrl+F"
+msgstr "&Najít...\tCtrl+F"
+
+#, c-format
+msgid "Repla&ce...\tCtrl+H"
+msgstr "Na&hradit...\tCtrl+H"
+
+#, c-format
+msgid "&Marker...\tCtrl+Shift+M"
+msgstr ""
+
+#, c-format
+msgid "Advanced"
+msgstr "&Rozšířené"
+
+#, c-format
+msgid "&Copy With Line Numbers\tCtrl+Shift+C"
+msgstr "&Kopírovat s čísly řádků\tCtrl+Shift+C"
+
+#, c-format
+msgid "&Bookmarks"
+msgstr "Zá&ložky"
+
+#, c-format
+msgid "&Toggle Bookmark\tCtrl+F2"
+msgstr "Přepnout &záložku\tCtrl+F2"
+
+#, c-format
+msgid "&Next Bookmark\tF2"
+msgstr "&Další záložka\tF2"
+
+#, c-format
+msgid "&Previous Bookmark\tShift+F2"
+msgstr "&Předchozí záložka\tShift+F2"
+
+#, c-format
+msgid "&Clear All Bookmarks"
+msgstr "Zrušit &všechny záložky"
+
+#, c-format
+msgid "Syntax Highlight"
+msgstr "Zvýraznění syntaxe"
+
+#, c-format
+msgid "&Diff Context"
+msgstr ""
+
+#, c-format
+msgid "&All Lines"
+msgstr ""
+
+#, c-format
+msgid "&0 Lines"
+msgstr ""
+
+#, c-format
+msgid "&1 Line"
+msgstr ""
+
+#, c-format
+msgid "&3 Lines"
+msgstr ""
+
+#, c-format
+msgid "&5 Lines"
+msgstr ""
+
+#, c-format
+msgid "&7 Lines"
+msgstr ""
+
+#, c-format
+msgid "&9 Lines"
+msgstr ""
+
+#, c-format
+msgid "&Toggle All and 0-9 Lines\tCtrl+D"
+msgstr ""
+
+msgid "&Invert (Hide Different Lines)"
+msgstr ""
+
+#, c-format
+msgid "&Lock Panes"
+msgstr "&Uzamknout panely"
+
+#, c-format
+msgid "&View Whitespace"
+msgstr "Zobrazit ne&tisknutelné znaky"
+
+msgid "View E&OL"
+msgstr ""
+
+#, c-format
+msgid "Vie&w Line Differences"
+msgstr "Zobrazit rozdíly v řá&dcích"
+
+#, c-format
+msgid "View Line &Numbers"
+msgstr "Zobrazit čísla řád&ků"
+
+#, c-format
+msgid "View &Margins"
+msgstr "Zobrazit &levé okraje"
+
+msgid "View To&p Margins"
+msgstr ""
+
+#, c-format
+msgid "W&rap Lines"
+msgstr "Zala&movat řádky"
+
+#, c-format
+msgid "Split V&ertically"
+msgstr ""
+
+#, c-format
+msgid "Diff &Pane"
+msgstr "&Rozdílový panel"
+
+#, c-format
+msgid "Lo&cation Pane"
+msgstr "&Polohový panel"
+
+msgid "Output Pane"
+msgstr ""
+
+#, c-format
+msgid "Ne&xt Conflict\tAlt+Shift+Down"
+msgstr ""
+
+#, c-format
+msgid "Pre&vious Conflict\tAlt+Shift+Up"
+msgstr ""
+
+#, c-format
+msgid "A&dvanced"
+msgstr ""
+
+#, c-format
+msgid "Next Difference (Left/Middle)\tAlt+1"
+msgstr ""
+
+#, c-format
+msgid "Previous Difference (Left/Middle)\tAlt+Shift+1"
+msgstr ""
+
+#, c-format
+msgid "Next Difference (Left/Right)\tAlt+2"
+msgstr ""
+
+#, c-format
+msgid "Previous Difference (Left/Right)\tAlt+Shift+2"
+msgstr ""
+
+#, c-format
+msgid "Next Difference (Middle/Right)\tAlt+3"
+msgstr ""
+
+#, c-format
+msgid "Previous Difference (Middle/Right)\tAlt+Shift+3"
+msgstr ""
+
+#, c-format
+msgid "Next Left-Only Difference\tAlt+7"
+msgstr ""
+
+#, c-format
+msgid "Previous Left-Only Difference\tAlt+Shift+7"
+msgstr ""
+
+#, c-format
+msgid "Next Middle-Only Difference\tAlt+8"
+msgstr ""
+
+#, c-format
+msgid "Previous Middle-Only Difference\tAlt+Shift+8"
+msgstr ""
+
+#, c-format
+msgid "Next Right-Only Difference\tAlt+9"
+msgstr ""
+
+#, c-format
+msgid "Previous Right-Only Difference\tAlt+Shift+9"
+msgstr ""
+
+msgid "Copy from &Left to"
+msgstr ""
+
+#, c-format
+msgid "&Middle"
+msgstr ""
+
+#, c-format
+msgid "&Right"
+msgstr "P&ravé"
+
+msgid "Copy from &Middle to"
+msgstr ""
+
+#, c-format
+msgid "&Left"
+msgstr "&Levé"
+
+msgid "Copy from &Right to"
+msgstr ""
+
+msgid "Copy Selected Lines from Le&ft to"
+msgstr ""
+
+msgid "Copy Selected Lines from Mi&ddle to"
+msgstr ""
+
+msgid "Copy Selected Lines from Ri&ght to"
+msgstr ""
+
+#, c-format
+msgid "Copy from Left\tAlt+Shift+Right"
+msgstr ""
+
+#, c-format
+msgid "Copy from Right\tAlt+Shift+Left"
+msgstr ""
+
+msgid "C&opy to Right and Advance\tCtrl+Alt+Right"
+msgstr "Kopírovat dopr&ava a na další\tCtrl+Alt+Right"
+
+msgid "Copy &to Left and Advance\tCtrl+Alt+Left"
+msgstr "Kopírovat dol&eva a na další\tCtrl+Alt+Left"
+
+#, c-format
+msgid "Copy &All to Right"
+msgstr "&Kopírovat vše doprava"
+
+#, c-format
+msgid "Cop&y All to Left"
+msgstr "K&opírovat vše doleva"
+
+msgid "A&uto Merge\tCtrl+Alt+M"
+msgstr ""
+
+#, c-format
+msgid "Add &Synchronization Point\tAlt+S"
+msgstr ""
+
+#, c-format
+msgid "Clear Sync&hronization Points"
+msgstr ""
+
+msgid "Unpac&ker"
+msgstr ""
+
+#, c-format
+msgid "&Prediffer"
+msgstr ""
+
+msgid "Apply Pre&differ..."
+msgstr ""
+
+msgid "&Transform with Editor Script..."
+msgstr ""
+
+msgid "Scripts for &Copying"
+msgstr ""
+
+msgid "Select &Editor Script..."
+msgstr ""
+
+#, c-format
+msgid "Sp&lit"
+msgstr ""
+
+#, c-format
+msgid "Comp&are"
+msgstr "&Porovnat"
+
+msgid "Compare in New &Window"
+msgstr ""
+
+msgid "Compare Non-hor&izontally..."
+msgstr ""
+
+#, c-format
+msgid "Compare Non-hor&izontally"
+msgstr ""
+
+#, c-format
+msgid "First &Left with Second Left"
+msgstr ""
+
+#, c-format
+msgid "First &Right with Second Right"
+msgstr ""
+
+#, c-format
+msgid "&First Left with Second Right"
+msgstr ""
+
+#, c-format
+msgid "&Second Left with First Right"
+msgstr ""
+
+#, c-format
+msgid "Co&mpare As"
+msgstr ""
+
+#, c-format
+msgid "Left to Middle (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Left to Right (%1 of %2)"
+msgstr "&Levé doprava (%1 z %2)"
+
+#, c-format
+msgid "Left to... (%1 of %2)"
+msgstr "L&evé do... (%1 z %2)"
+
+#, c-format
+msgid "Middle to Left (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Middle to Right (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Middle to... (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Right to Middle (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Right to Left (%1 of %2)"
+msgstr "P&ravé doleva (%1 z %2)"
+
+#, c-format
+msgid "Right to... (%1 of %2)"
+msgstr "Pr&avé do... (%1 z %2)"
+
+#, c-format
+msgid "&Delete"
+msgstr "Odstran&it"
+
+#, c-format
+msgid "&Both"
+msgstr "O&boje"
+
+#, c-format
+msgid "&All"
+msgstr ""
+
+#, c-format
+msgid "Re&name"
+msgstr "Přej&menovat"
+
+#, c-format
+msgid "&Hide Items"
+msgstr "&Skrýt položky"
+
+#, c-format
+msgid "&Open Left"
+msgstr "Otevřít &levé"
+
+#, c-format
+msgid "Open Midd&le"
+msgstr ""
+
+#, c-format
+msgid "O&pen Right"
+msgstr "Otevřít p&ravé"
+
+#, c-format
+msgid "Cop&y Paths"
+msgstr "Kopírovat &umístění souborů"
+
+#, c-format
+msgid "Left (%1 of %2)"
+msgstr "&Levé (%1 z %2)"
+
+#, c-format
+msgid "Middle (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Right (%1 of %2)"
+msgstr "P&ravé (%1 z %2)"
+
+#, c-format
+msgid "Both (%1 of %2)"
+msgstr "O&boje (%1 z %2)"
+
+#, c-format
+msgid "All (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Copy &Filenames"
+msgstr "Kopírovat &název souboru"
+
+#, c-format
+msgid "Copy Items to Clip&board"
+msgstr ""
+
+msgid "Copy All Di&splayed Columns"
+msgstr ""
+
+#, c-format
+msgid "&Zip"
+msgstr "&Archivovat"
+
+#, c-format
+msgid "Both to... (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "All to... (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Differences to... (%1 of %2)"
+msgstr ""
+
+#, c-format
+msgid "Left Shell Menu"
+msgstr "Levá systémová nabídka"
+
+#, c-format
+msgid "Middle Shell Menu"
+msgstr ""
+
+#, c-format
+msgid "Right Shell Menu"
+msgstr "Pravá systémová nabídka"
+
+msgid "Both Shell Menu"
+msgstr ""
+
+msgid "All Shell Menu"
+msgstr ""
+
+#, c-format
+msgid "Copy"
+msgstr ""
+
+#, c-format
+msgid "&Copy Full Path"
+msgstr "Kopírovat celé &umístění"
+
+#, c-format
+msgid "Copy &Filename"
+msgstr "Kopírovat &název souboru"
+
+msgid "&Edit Caption"
+msgstr ""
+
+msgid "&Open..."
+msgstr ""
+
+msgid "Unpacker Settings"
+msgstr ""
+
+#, c-format
+msgid "<None>"
+msgstr "<žádný>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<automaticky>"
+
+#, c-format
+msgid "&Select..."
+msgstr "Vy&brat..."
+
+#, c-format
+msgid "Prediffer Settings"
+msgstr ""
+
+msgid "G&o to Diff"
+msgstr "&Přejít na řádek"
+
+#, c-format
+msgid "&No Moved Blocks"
+msgstr "&Nezobrazovat přesunuté bloky"
+
+#, c-format
+msgid "&All Moved Blocks"
+msgstr "&Všechny přesunuté bloky"
+
+#, c-format
+msgid "W&hitespaces"
+msgstr "Prázdná místa"
+
+#, c-format
+msgid "Com&pare"
+msgstr "P&orovnávat"
+
+#, c-format
+msgid "I&gnore Changes"
+msgstr "Ignorovat &změny"
+
+#, c-format
+msgid "Ig&nore All"
+msgstr "Ignorovat &všechny"
+
+#, c-format
+msgid "Ignore Blan&k Lines"
+msgstr "Ignorovat prázdné řá&dky"
+
+#, c-format
+msgid "Ignore &Case"
+msgstr "Ignorovat &malá a velká písmena"
+
+#, c-format
+msgid "Igno&re EOL Differences (Windows/Unix/Mac)"
+msgstr "Ignorovat rozdíly v &koncích řádků (Windows/Unix/Mac)"
+
+#, c-format
+msgid "Ignore Codepage &Differences"
+msgstr ""
+
+msgid "Ignore Num&bers"
+msgstr ""
+
+msgid "Ignore C&omment Differences"
+msgstr ""
+
+msgid "Ignore &Missing Trailing EOL"
+msgstr ""
+
+#, c-format
+msgid "&Include Subfolders"
+msgstr "Včetně pod&složek"
+
+#, c-format
+msgid "&Compare Method"
+msgstr "&Způsob porovnání"
+
+#, c-format
+msgid "Full Contents"
+msgstr "Plný obsah"
+
+#, c-format
+msgid "Quick Contents"
+msgstr "Rychlý obsah"
+
+#, c-format
+msgid "Binary Contents"
+msgstr ""
+
+#, c-format
+msgid "Modified Date"
+msgstr "Datum změny"
+
+#, c-format
+msgid "Modified Date and Size"
+msgstr "Datum změny a velikost"
+
+#, c-format
+msgid "Size"
+msgstr "Velikost"
+
+#, c-format
+msgid "&Load Project..."
+msgstr ""
+
+msgid "${*} - All Arguments"
+msgstr ""
+
+msgid "${1} - First Argument"
+msgstr ""
+
+msgid "${2} - Second Argument"
+msgstr ""
+
+msgid "${3} - Third Argument"
+msgstr ""
+
+msgid "${4} - Fourth Argument"
+msgstr ""
+
+msgid "${5} - Fifth Argument"
+msgstr ""
+
+msgid "${6} - Sixth Argument"
+msgstr ""
+
+msgid "${7} - Seventh Argument"
+msgstr ""
+
+msgid "${8} - Eighth Argument"
+msgstr ""
+
+msgid "${9} - Ninth Argument"
+msgstr ""
+
+msgid "${SRC_FILE} - Source File"
+msgstr ""
+
+msgid "${SRC_FOLDER} - Source Folder"
+msgstr ""
+
+msgid "${SRC_URL} - Source URL"
+msgstr ""
+
+msgid "${SRC_URL_PROTOCOL} - Source URL Protocol"
+msgstr ""
+
+msgid "${SRC_URL_SUFFIX} - Source URL Suffix"
+msgstr ""
+
+msgid "${DST_FILE} - Destination File"
+msgstr ""
+
+msgid "${DST_FOLDER} - Destination Folder"
+msgstr ""
+
+msgid "${DST_URL} - Destination URL"
+msgstr ""
+
+msgid "${DST_URL_PROTOCOL} - Destination URL Protocol"
+msgstr ""
+
+msgid "${DST_URL_SUFFIX} - Destination URL Suffix"
+msgstr ""
+
+msgid "${WINMERGE_HOME} - WinMerge Home Directory"
+msgstr ""
+
+msgid "${SCRIPT_FILE} - Script File"
+msgstr ""
+
+msgid "Add &Unpacker Plugin..."
+msgstr ""
+
+msgid "Add &Prediffer Plugin..."
+msgstr ""
+
+msgid "&Duplicate Plugin..."
+msgstr ""
+
+msgid "Clear &All"
+msgstr ""
+
+#, c-format
+msgid "About WinMerge"
+msgstr "O aplikaci WinMerge"
+
+msgid "Visit the WinMerge Homepage!"
+msgstr "Navštivte domovskou stránku WinMerge!"
+
+#, c-format
+msgid "OK"
+msgstr ""
+
+#, c-format
+msgid "Contributors"
+msgstr "Přispěvatelé"
+
+#, c-format
+msgid "Select Files or Folders"
+msgstr "Vybrat soubory nebo složky..."
+
+#, c-format
+msgid "&1st File or Folder"
+msgstr ""
+
+#, c-format
+msgid "Re&ad-only"
+msgstr "Pouze pro čt&ení"
+
+#, c-format
+msgid "Swap 1st | 2nd"
+msgstr ""
+
+#, c-format
+msgid "&Browse..."
+msgstr "&Procházet..."
+
+#, c-format
+msgid "&2nd File or Folder"
+msgstr ""
+
+#, c-format
+msgid "Rea&d-only"
+msgstr ""
+
+#, c-format
+msgid "Swap 2nd | 3rd"
+msgstr ""
+
+#, c-format
+msgid "B&rowse..."
+msgstr "Pr&ocházet..."
+
+#, c-format
+msgid "&3rd File or Folder (Optional)"
+msgstr ""
+
+#, c-format
+msgid "Read-o&nly"
+msgstr ""
+
+#, c-format
+msgid "Swap 1st | 3rd"
+msgstr ""
+
+#, c-format
+msgid "Browse..."
+msgstr "Pr&ocházet..."
+
+#, c-format
+msgid " Folder: Filter"
+msgstr ""
+
+msgid "&Include subfolders"
+msgstr "Včetně pod&složek"
+
+msgid " File: Prediffer Plugin"
+msgstr ""
+
+#, c-format
+msgid " File: Unpacker Plugin"
+msgstr ""
+
+#, c-format
+msgid "Se&lect..."
+msgstr ""
+
+#, c-format
+msgid "Cancel"
+msgstr "Storno"
+
+#, c-format
+msgid "Status:"
+msgstr ""
+
+#, c-format
+msgid "Help"
+msgstr "Nápověda"
+
+msgid "&Options..."
+msgstr "Možnost&i..."
+
+#, c-format
+msgid "General"
+msgstr "Obecné"
+
+#, c-format
+msgid "Automatically &scroll to first difference"
+msgstr "Automaticky posunout na pr&vní rozdíl"
+
+msgid "Automatically s&croll to first inline difference"
+msgstr ""
+
+msgid "Cl&ose windows with 'Esc':"
+msgstr "Zavírat okna klávesou '&Esc':"
+
+#, c-format
+msgid "&Automatically verify paths in Open dialog"
+msgstr "Automaticky &ověřovat cesty v dialogu Otevřít"
+
+msgid "Single instance mode:"
+msgstr ""
+
+#, c-format
+msgid "As&k when closing multiple windows"
+msgstr "Dotázat se na &zavření více oken"
+
+#, c-format
+msgid "&Preserve file time in file compare"
+msgstr "Z&achovávat původní čas souboru"
+
+#, c-format
+msgid "Show \"Select Files or Folders\" dialog on startup"
+msgstr "&Po spuštění vybrat soubory nebo složky"
+
+msgid "Close \"Select Files or Folders\" dialog on clicking Compare button"
+msgstr ""
+
+#, c-format
+msgid "Op&en dialog Auto completion:"
+msgstr "Automatické &dokončování:"
+
+msgid "Auto-&reload modified files:"
+msgstr ""
+
+#, c-format
+msgid "Language:"
+msgstr ""
+
+#, c-format
+msgid "Defaults"
+msgstr "&Původní"
+
+#, c-format
+msgid "Find"
+msgstr "Najít"
+
+#, c-format
+msgid "Fi&nd what:"
+msgstr "C&o hledat:"
+
+#, c-format
+msgid "Match &whole word only"
+msgstr "Pouze &celá slova"
+
+#, c-format
+msgid "Match &case"
+msgstr "&Rozlišovat malá a velká písmena"
+
+#, c-format
+msgid "Regular &expression"
+msgstr "R&egulérní výraz"
+
+#, c-format
+msgid "D&on't wrap end of file"
+msgstr "Zastavit na &konci souboru"
+
+#, c-format
+msgid "&Don't close this dialog"
+msgstr ""
+
+#, c-format
+msgid "&Find Next"
+msgstr "&Najít další"
+
+#, c-format
+msgid "Find &Prev"
+msgstr ""
+
+#, c-format
+msgid "&Ok"
+msgstr "&OK"
+
+#, c-format
+msgid "Replace"
+msgstr "Nahradit"
+
+#, c-format
+msgid "Re&place with:"
+msgstr "Čí&m nahradit:"
+
+#, c-format
+msgid "&Don't wrap at end of file"
+msgstr "Zastavit na &konci souboru"
+
+#, c-format
+msgid "Replace in"
+msgstr "Nahrazovat"
+
+#, c-format
+msgid "&Selection"
+msgstr "ve vý&běru"
+
+#, c-format
+msgid "Wh&ole file"
+msgstr "v ce&lém souboru"
+
+msgid "Find Pre&v"
+msgstr ""
+
+#, c-format
+msgid "&Replace"
+msgstr "Na&hradit"
+
+#, c-format
+msgid "Replace &All"
+msgstr "Nahradit &vše"
+
+#, c-format
+msgid "Markers"
+msgstr ""
+
+#, c-format
+msgid "Enable &markers"
+msgstr ""
+
+#, c-format
+msgid "New"
+msgstr "&Nový"
+
+#, c-format
+msgid "&Background color:"
+msgstr ""
+
+#, c-format
+msgid "&Apply"
+msgstr "P&oužít"
+
+msgid "Line Filters"
+msgstr ""
+
+#, c-format
+msgid "Enable Line Filters"
+msgstr "Povolit filtrování řádků"
+
+#, c-format
+msgid "Regular Expressions (one per line):"
+msgstr "Regulérní výrazy (jeden na řádek):"
+
+#, c-format
+msgid "Edit"
+msgstr "Upr&avit"
+
+#, c-format
+msgid "Remove"
+msgstr "O&dstranit"
+
+msgid "Substitution Filters"
+msgstr ""
+
+msgid "Changes to the listed pairs below will be ignored or marked as insignificant. Patches are unaffected."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+#, c-format
+msgid "Colors"
+msgstr "Barvy"
+
+msgid "Color Scheme:"
+msgstr ""
+
+#, c-format
+msgid "Background"
+msgstr "Pozadí"
+
+#, c-format
+msgid "Deleted"
+msgstr "Chybějící"
+
+#, c-format
+msgid "Text"
+msgstr "Text"
+
+#, c-format
+msgid "Difference:"
+msgstr "Rozdíl:"
+
+#, c-format
+msgid "Selected Difference:"
+msgstr "Vybraný rozdíl:"
+
+#, c-format
+msgid "Ignored Difference:"
+msgstr "Ignorovaný rozdíl:"
+
+#, c-format
+msgid "Moved:"
+msgstr "Přesunutý blok:"
+
+#, c-format
+msgid "Selected Moved:"
+msgstr "Vybraný přesunutý blok:"
+
+#, c-format
+msgid "Same As Next (3 panes):"
+msgstr ""
+
+#, c-format
+msgid "Same As Next (Selected):"
+msgstr ""
+
+#, c-format
+msgid "Word Difference:"
+msgstr "Rozdílné slovo:"
+
+#, c-format
+msgid "Selected Word Diff:"
+msgstr "Vybrané rozdílné slovo:"
+
+#, c-format
+msgid "Dialog"
+msgstr "Syntaxe"
+
+#, c-format
+msgid "Keywords:"
+msgstr "Klíčová slova:"
+
+#, c-format
+msgid "Function names:"
+msgstr "Názvy funkcí:"
+
+#, c-format
+msgid "Comments:"
+msgstr "Komentáře:"
+
+#, c-format
+msgid "Numbers:"
+msgstr "Čísla:"
+
+#, c-format
+msgid "Operators:"
+msgstr "Operátory:"
+
+#, c-format
+msgid "Strings:"
+msgstr "Řetězce:"
+
+#, c-format
+msgid "Preprocessor:"
+msgstr "Preprocesor:"
+
+#, c-format
+msgid "User 1:"
+msgstr "Uživatelská 1:"
+
+#, c-format
+msgid "User 2:"
+msgstr "Uživatelská 2:"
+
+#, c-format
+msgid "Bold"
+msgstr "Tučné"
+
+#, c-format
+msgid "&Use customized text colors"
+msgstr "Po&užít vlastní barvy textu"
+
+#, c-format
+msgid "Whitespace:"
+msgstr "Okolí textu:"
+
+#, c-format
+msgid "Regular text:"
+msgstr "Řádný text:"
+
+#, c-format
+msgid "Selection:"
+msgstr "Výběr:"
+
+#, c-format
+msgid "Margin:"
+msgstr ""
+
+#, c-format
+msgid "Search Marker:"
+msgstr ""
+
+#, c-format
+msgid "User Defined Marker 1:"
+msgstr ""
+
+#, c-format
+msgid "User Defined Marker 2:"
+msgstr ""
+
+#, c-format
+msgid "User Defined Marker 3:"
+msgstr ""
+
+msgid "&Use folder compare colors"
+msgstr ""
+
+msgid "Items equal:"
+msgstr ""
+
+msgid "Items different:"
+msgstr ""
+
+msgid "Items missing:"
+msgstr ""
+
+msgid "Items filtered:"
+msgstr ""
+
+msgid "&Use custom system colors"
+msgstr ""
+
+#, c-format
+msgid "System"
+msgstr "Systém"
+
+#, c-format
+msgid "&Use Recycle Bin"
+msgstr "Odeslat odstraněné soubory do &koše"
+
+#, c-format
+msgid "&External editor:"
+msgstr "&Externí editor:"
+
+#, c-format
+msgid "&Filter folder:"
+msgstr "Složka vlastních &filtrů:"
+
+#, c-format
+msgid "Temporary files folder"
+msgstr "Složka &dočasných souborů"
+
+#, c-format
+msgid "S&ystem temp folder"
+msgstr "Sys&témová složka dočasných souborů"
+
+#, c-format
+msgid "C&ustom folder:"
+msgstr "&Vlastní složka:"
+
+#, c-format
+msgid "Br&owse..."
+msgstr "Procházet..."
+
+#, c-format
+msgid "Patch Generator"
+msgstr "Vytvoření opravného souboru"
+
+#, c-format
+msgid "File&1:"
+msgstr "Soubor &1:"
+
+#, c-format
+msgid "File&2:"
+msgstr "Soubor &2:"
+
+#, c-format
+msgid "&Swap"
+msgstr "Z&aměnit"
+
+#, c-format
+msgid "&Copy to clipboard"
+msgstr "&Kopírovat do schránky"
+
+#, c-format
+msgid "&Append to existing file"
+msgstr "Př&ipojit ke stávajícímu souboru"
+
+#, c-format
+msgid "&Result:"
+msgstr "Vý&sledek:"
+
+#, c-format
+msgid "Bro&wse..."
+msgstr "Pr&ocházet..."
+
+#, c-format
+msgid "&Format"
+msgstr "Formát"
+
+#, c-format
+msgid "St&yle:"
+msgstr "Me&toda:"
+
+#, c-format
+msgid "&Context:"
+msgstr "O&bsah:"
+
+#, c-format
+msgid "Inclu&de command line"
+msgstr "Vložit pří&kazový řádek"
+
+#, c-format
+msgid "Open in e&xternal editor"
+msgstr "Otevřít v &externím editoru"
+
+#, c-format
+msgid "Display Columns"
+msgstr "Zobrazit sloupce"
+
+#, c-format
+msgid "Move &Up"
+msgstr "&Nahoru"
+
+#, c-format
+msgid "Move &Down"
+msgstr "&Dolů"
+
+msgid "&Additional Properties"
+msgstr ""
+
+msgid "Additional Properties"
+msgstr ""
+
+msgid "Select Plugin"
+msgstr ""
+
+msgid "Plugin &name:"
+msgstr ""
+
+msgid "&Target files:"
+msgstr ""
+
+#, c-format
+msgid "Extensions list:"
+msgstr "Seznam přípon:"
+
+#, c-format
+msgid "Description:"
+msgstr "Popis:"
+
+msgid "Default arguments:"
+msgstr ""
+
+msgid "Display all plugins (Ignore extension)"
+msgstr ""
+
+msgid "&Open files in same window type after unpacking"
+msgstr ""
+
+msgid "&Plugin pipeline:"
+msgstr ""
+
+msgid "&Alias..."
+msgstr ""
+
+#, c-format
+msgid "Stop"
+msgstr "Zastavit"
+
+#, c-format
+msgid "Pause"
+msgstr ""
+
+#, c-format
+msgid "Continue"
+msgstr ""
+
+msgid "C&PU cores to use:"
+msgstr ""
+
+#, c-format
+msgid "Items total:"
+msgstr "Celkem:"
+
+#, c-format
+msgid "Items compared:"
+msgstr "Porovnáno:"
+
+msgid "Go to"
+msgstr "Přejít"
+
+msgid "G&o to:"
+msgstr "Přejít &na:"
+
+#, c-format
+msgid "File"
+msgstr "Soubor"
+
+msgid "Go to what"
+msgstr "Přejít na co"
+
+#, c-format
+msgid "Li&ne"
+msgstr "Řá&dek"
+
+#, c-format
+msgid "&Difference"
+msgstr "Ro&zdíl"
+
+msgid "&Go to"
+msgstr "&Přejít"
+
+#, c-format
+msgid "Compare"
+msgstr "Porovnávání"
+
+#, c-format
+msgid "Whitespaces"
+msgstr "Prázdná místa"
+
+#, c-format
+msgid "&Compare"
+msgstr "P&orovnávat"
+
+#, c-format
+msgid "&Ignore change"
+msgstr "Ignorovat &změny"
+
+#, c-format
+msgid "I&gnore all"
+msgstr "Ignorovat &všechny"
+
+msgid "Ignore blan&k lines"
+msgstr "Ignorovat prázdné řá&dky"
+
+msgid "Ignore &case"
+msgstr "Ignorovat &malá a velká písmena"
+
+msgid "Igno&re EOL differences (Windows/Unix/Mac)"
+msgstr ""
+
+msgid "Ignore num&bers"
+msgstr ""
+
+msgid "Ignore codepage &differences"
+msgstr ""
+
+msgid "Ignore c&omment differences"
+msgstr ""
+
+msgid "Ignore &missing trailing EOL"
+msgstr ""
+
+#, c-format
+msgid "E&nable moved block detection"
+msgstr "Povolit zjišťování přesunutých &bloků"
+
+msgid "Align &similar lines"
+msgstr ""
+
+msgid "Diff &algorithm:"
+msgstr ""
+
+msgid "Enable indent &heuristic"
+msgstr ""
+
+msgid "Completely unhighlight the ignored differences"
+msgstr ""
+
+#, c-format
+msgid "Editor"
+msgstr ""
+
+#, c-format
+msgid "&Highlight syntax"
+msgstr "Zvýraznit sy&ntaxi"
+
+#, c-format
+msgid "&Preserve original EOL"
+msgstr "Zachovat původní znaky na &koncích řádků"
+
+#, c-format
+msgid "Tabs"
+msgstr "Tabelátory"
+
+#, c-format
+msgid "&Tab size:"
+msgstr "&Velikost:"
+
+#, c-format
+msgid "&Insert tabs"
+msgstr "Vkládat &tabelátory"
+
+#, c-format
+msgid "Insert &spaces"
+msgstr "Vkládat &mezery"
+
+msgid "&Rendering mode:"
+msgstr ""
+
+#, c-format
+msgid "&Automatic rescan"
+msgstr "Automaticky &opětovně porovnávat"
+
+msgid "Copy &granularity for selected differences:"
+msgstr ""
+
+#, c-format
+msgid "Line Difference Coloring"
+msgstr "Obarvit rozdíly v řádku"
+
+#, c-format
+msgid "View line differences"
+msgstr "Zobrazit rozdíly v řá&dku"
+
+#, c-format
+msgid "&Character-level"
+msgstr "Na úrovni &znaků"
+
+#, c-format
+msgid "&Word-level:"
+msgstr "Na úrovni &slov:"
+
+#, c-format
+msgid "W&ord break characters:"
+msgstr "Zn&aky oddělující slova:"
+
+msgid "Some messages can be hidden by the user. Press Reset to make all messages visible again."
+msgstr ""
+"Některá obecná okna se zprávami je možno skrýt.\n"
+"Po stisknutí tlačítka Vrátit se všechna tato okna opět budou objevovat."
+
+#, c-format
+msgid "Reset"
+msgstr "V&rátit"
+
+msgid "File Filters"
+msgstr ""
+
+msgid "Test..."
+msgstr "Z&kouška..."
+
+#, c-format
+msgid "Install..."
+msgstr "&Instalovat..."
+
+#, c-format
+msgid "New..."
+msgstr "&Nový..."
+
+#, c-format
+msgid "Edit..."
+msgstr "&Upravit..."
+
+#, c-format
+msgid "Delete..."
+msgstr "O&dstranit..."
+
+#, c-format
+msgid "Save Modified Files?"
+msgstr "Uložit změněné soubory?"
+
+#, c-format
+msgid "Left side file"
+msgstr "Soubor na levé straně"
+
+#, c-format
+msgid "&Save changes"
+msgstr "Ulož&it změny"
+
+#, c-format
+msgid "&Discard changes"
+msgstr "&Zrušit změny"
+
+#, c-format
+msgid "Middle side file"
+msgstr ""
+
+#, c-format
+msgid "Sa&ve changes"
+msgstr ""
+
+#, c-format
+msgid "Discard c&hanges"
+msgstr ""
+
+#, c-format
+msgid "Right side file"
+msgstr "Soubor na pravé straně"
+
+#, c-format
+msgid "S&ave changes"
+msgstr "Ul&ožit změny"
+
+#, c-format
+msgid "Dis&card changes"
+msgstr "Zr&ušit změny"
+
+#, c-format
+msgid "Disca&rd All"
+msgstr "Zrušit &vše"
+
+#, c-format
+msgid "Codepage"
+msgstr "Kódování"
+
+#, c-format
+msgid "Default Codepage"
+msgstr "Výchozí kódování"
+
+#, c-format
+msgid "Select the default codepage for non-Unicode files:"
+msgstr "Zvolte výchozí znakovou stránku, která se použije v případě načtení souborů, které nejsou v kódování Unicode:"
+
+#, c-format
+msgid "System codepage"
+msgstr "&Systémové kódování"
+
+#, c-format
+msgid "According to WinMerge User Interface"
+msgstr "&Podle uživatelského prostředí WinMerge"
+
+#, c-format
+msgid "Custom codepage:"
+msgstr "&Vlastní znaková stránka:"
+
+msgid "Detect codepage for: .html, .rc, .xml\nRestart required."
+msgstr "&Zjistit informaci o kódování u těchto souborů: .html, .rc, .xml\n(vyžaduje opětovné spuštění programu)."
+
+msgid "Detect codepage for files with mlang.dll\nRestart required."
+msgstr ""
+
+#, c-format
+msgid "Options"
+msgstr "Možnosti"
+
+#, c-format
+msgid "Import..."
+msgstr "&Načíst..."
+
+#, c-format
+msgid "Export..."
+msgstr "&Uložit..."
+
+#, c-format
+msgid "Folder Compare Report"
+msgstr "Protokol o porovnání složek"
+
+#, c-format
+msgid "Report &file:"
+msgstr "&Soubor protokolu:"
+
+#, c-format
+msgid "&Style:"
+msgstr "Uložit jako &typ:"
+
+#, c-format
+msgid "&Include file compare report"
+msgstr ""
+
+#, c-format
+msgid "Shared or Private Filter"
+msgstr "Typ filtru"
+
+#, c-format
+msgid "What type of filter do you want?"
+msgstr "Jaký typ filtru chcete vytvořit?"
+
+#, c-format
+msgid "Shared Filter (for all users)"
+msgstr "Společný filtr (pro všechny uživatele tohoto počítače)"
+
+#, c-format
+msgid "Private Filter (current user only)"
+msgstr "Vlastní filtr (pouze pro současného uživatele)"
+
+#, c-format
+msgid "Archive Support"
+msgstr "Podpora archivace"
+
+#, c-format
+msgid "&Enable archive file support"
+msgstr "&Zapnout podporu archivních souborů"
+
+#, c-format
+msgid "&Detect archive type from file signature"
+msgstr "Zjistit &automaticky typ archivu"
+
+msgid "Items saved to or restored from the project file:"
+msgstr ""
+
+#, c-format
+msgid "Compare Statistics"
+msgstr "Statistika porovnání"
+
+#, c-format
+msgid "Folders:"
+msgstr "Složky:"
+
+#, c-format
+msgid "Files:"
+msgstr "Soubory:"
+
+#, c-format
+msgid "Different"
+msgstr "Rozdílné"
+
+#, c-format
+msgid "Binary:"
+msgstr "Binární:"
+
+#, c-format
+msgid "Unique"
+msgstr "Jedinečné"
+
+#, c-format
+msgid "Left:"
+msgstr "Vlevo:"
+
+#, c-format
+msgid "Right:"
+msgstr "Vpravo:"
+
+#, c-format
+msgid "Identical"
+msgstr "Shodné"
+
+#, c-format
+msgid "Total:"
+msgstr "Celkem:"
+
+#, c-format
+msgid "Close"
+msgstr "Zavřít"
+
+#, c-format
+msgid "Middle:"
+msgstr ""
+
+#, c-format
+msgid "Missing Left:"
+msgstr ""
+
+#, c-format
+msgid "Missing Middle:"
+msgstr ""
+
+#, c-format
+msgid "Missing Right:"
+msgstr ""
+
+#, c-format
+msgid "Affects"
+msgstr "Vliv"
+
+#, c-format
+msgid "(Affects)"
+msgstr "(ovlivněno)"
+
+#, c-format
+msgid "Select Codepage for"
+msgstr "Zvolte kódování pro"
+
+#, c-format
+msgid "&File Loading:"
+msgstr "&Načtení souboru:"
+
+#, c-format
+msgid "File &Saving:"
+msgstr "&Uložení souboru:"
+
+#, c-format
+msgid "&Use same codepage for both"
+msgstr "Použít &stejnou znakovou stránku pro oba"
+
+#, c-format
+msgid "&Cancel"
+msgstr "Storno"
+
+#, c-format
+msgid "Test Filter"
+msgstr "Zkouška filtru"
+
+msgid "Testing filter:"
+msgstr "Zkouška filtru:"
+
+#, c-format
+msgid "&Enter text to test:"
+msgstr "&Vložte text ke zkoušce:"
+
+#, c-format
+msgid "&Folder Name"
+msgstr "&Název složky"
+
+#, c-format
+msgid "Result:"
+msgstr "Výsledek:"
+
+#, c-format
+msgid "&Test"
+msgstr "Z&kusit"
+
+#, c-format
+msgid "&Close"
+msgstr "&Zavřít"
+
+msgid "Table"
+msgstr ""
+
+msgid "File type"
+msgstr ""
+
+msgid "&CSV"
+msgstr ""
+
+msgid "&TSV"
+msgstr ""
+
+msgid "Custom &Delimiter-Separated Values"
+msgstr ""
+
+msgid "D&elimiter character:"
+msgstr ""
+
+msgid "&Allow newlines in quotes"
+msgstr ""
+
+msgid "&Quote character:"
+msgstr ""
+
+#, c-format
+msgid "Backup Files"
+msgstr "Zálohování souborů"
+
+#, c-format
+msgid "Create backup files for:"
+msgstr "Vytvářet záložní soubory pro:"
+
+#, c-format
+msgid "&Folder compare"
+msgstr "s&ložek"
+
+#, c-format
+msgid "Fil&e compare"
+msgstr "&souborů"
+
+#, c-format
+msgid "Create backup files in:"
+msgstr "Umístění záložních souborů:"
+
+#, c-format
+msgid "&Original file's folder"
+msgstr "&Původní složka souborů"
+
+#, c-format
+msgid "&Global backup folder:"
+msgstr "&Jednotná záložní složka:"
+
+#, c-format
+msgid "Backup filename:"
+msgstr "Název záložního souboru:"
+
+msgid "&Append .bak extension"
+msgstr "Připojit příponu .&bak"
+
+#, c-format
+msgid "A&ppend timestamp"
+msgstr "Připojit č&asové razítko"
+
+#, c-format
+msgid "Confirm Copy"
+msgstr "Potvrdit kopírování"
+
+#, c-format
+msgid "Are you sure you want to copy XXX items?"
+msgstr "Opravdu chcete zkopírovat XXX položek?"
+
+#, c-format
+msgid "From left"
+msgstr "Zleva"
+
+#, c-format
+msgid "To right"
+msgstr "Doprava"
+
+#, c-format
+msgid "Don't ask this &question again."
+msgstr "Na t&uto otázku se již příště nedotazovat."
+
+#, c-format
+msgid "Yes"
+msgstr "Ano"
+
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#, c-format
+msgid "Plugins"
+msgstr "Pluginy"
+
+#, c-format
+msgid "&Enable plugins"
+msgstr "&Povolit pluginy"
+
+msgid "Plugin &type:"
+msgstr ""
+
+msgid "File filters:"
+msgstr ""
+
+msgid "&Plugin arguments:"
+msgstr ""
+
+msgid "Enable &automatic unpacking/prediffing"
+msgstr ""
+
+#, c-format
+msgid "Shell Integration"
+msgstr "Systémová integrace"
+
+#, c-format
+msgid "Explorer"
+msgstr "Průzkumník"
+
+#, c-format
+msgid "&Add to context menu"
+msgstr "Přidat do &systémové místní nabídky"
+
+#, c-format
+msgid "E&nable advanced menu"
+msgstr "Povolit &rozšířenou nabídku"
+
+msgid "Enable &Compare As menu"
+msgstr ""
+
+#, c-format
+msgid "&Register Shell Extension"
+msgstr ""
+
+#, c-format
+msgid "&Unregister Shell Extension"
+msgstr ""
+
+msgid "Register Shell Extension for Current User &Only"
+msgstr ""
+
+msgid "Unregister Shell Extension for Current User On&ly"
+msgstr ""
+
+msgid "Register Shell Extension for &Windows 11"
+msgstr ""
+
+msgid "Unregister Shell Extension for W&indows 11"
+msgstr ""
+
+msgid "Jump List"
+msgstr ""
+
+msgid "Clear all recent items"
+msgstr ""
+
+msgctxt "Options dialog|Categories"
+msgid "Folder"
+msgstr "Složky"
+
+msgid "&Compare method:"
+msgstr "&Způsob porovnání:"
+
+#, c-format
+msgid "S&top after first difference"
+msgstr "Zastavit po prvním &rozdílu"
+
+#, c-format
+msgid "Ign&ore time differences less than 3 seconds"
+msgstr "&Ignorovat časové rozdíly menší než 3 sekundy"
+
+msgid "Expand subfolders &after comparison:"
+msgstr ""
+
+#, c-format
+msgid "Include &unique subfolders contents"
+msgstr "Zahrnout obsah jedinečných podsložek"
+
+#, c-format
+msgid "Ignore &reparse points"
+msgstr ""
+
+msgid "Switch to &quick compare when size exceeds (MB):"
+msgstr ""
+
+msgid "Switch to &binary compare when size exceeds (MB):"
+msgstr ""
+
+msgid "File patterns:"
+msgstr ""
+
+msgid "Custom Delimiter-Separated Values"
+msgstr ""
+
+msgctxt "Options dialog|Categories"
+msgid "Binary"
+msgstr "Binární"
+
+#, c-format
+msgid "Binary file &patterns:"
+msgstr ""
+
+#, c-format
+msgid "Frhed settings"
+msgstr ""
+
+#, c-format
+msgid "View &Settings..."
+msgstr ""
+
+#, c-format
+msgid "&Binary Mode..."
+msgstr ""
+
+#, c-format
+msgid "&Character Set..."
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+#, c-format
+msgid "Image file &patterns:"
+msgstr ""
+
+msgid "&Enable image compare in folder compare"
+msgstr ""
+
+msgid "OCR result:"
+msgstr ""
+
+msgid "Webpage"
+msgstr ""
+
+msgid "URL pattern to &include (Regular expression):"
+msgstr ""
+
+msgid "URL pattern to &exclude (Regular expression):"
+msgstr ""
+
+msgid "&User data folder location:"
+msgstr ""
+
+msgid "&Separate user data folders for each pane"
+msgstr ""
+
+#, c-format
+msgid "&Hex View"
+msgstr ""
+
+msgid "Edit Plugin"
+msgstr ""
+
+msgid "&Category:"
+msgstr ""
+
+msgid "&Menu caption:"
+msgstr ""
+
+msgid "&Window type:"
+msgstr ""
+
+msgid "&Unpacked file extension:"
+msgstr ""
+
+msgid "&Require arguments"
+msgstr ""
+
+msgid "&Generate editor script"
+msgstr ""
+
+msgid "Command &line:"
+msgstr ""
+
+msgid "&Script file extension:"
+msgstr ""
+
+msgid "Script &body:"
+msgstr ""
+
+#, c-format
+msgid "EXT"
+msgstr ""
+
+#, c-format
+msgid "CAP"
+msgstr ""
+
+#, c-format
+msgid "NUM"
+msgstr ""
+
+#, c-format
+msgid "SCRL"
+msgstr ""
+
+#, c-format
+msgid "OVR"
+msgstr ""
+
+#, c-format
+msgid "REC"
+msgstr ""
+
+#, c-format
+msgid "\nNew Documents (Ctrl+N)"
+msgstr ""
+
+#, c-format
+msgid "\nOpen (Ctrl+O)"
+msgstr ""
+
+#, c-format
+msgid "\nSave (Ctrl+S)"
+msgstr ""
+
+msgid "Unknown error opening project file."
+msgstr "Neznámá chyba při pokusu o otevření souboru projektu."
+
+msgid "Unknown error saving project file."
+msgstr "Neznámá chyba při pokusu o uložení souboru projektu."
+
+#, c-format
+msgid "Project file loaded."
+msgstr "Soubor s projektem byl úspěšně načten."
+
+#, c-format
+msgid "Project file saved."
+msgstr "Soubor s projektem byl úspěšně uložen."
+
+#, c-format
+msgid "\nUndo (Ctrl+Z)"
+msgstr ""
+
+#, c-format
+msgid "\nRedo (Ctrl+Y)"
+msgstr ""
+
+#, c-format
+msgid "\nFileCompare\n\n\n\nWinMerge.FileCompare\nWinMerge File Compare"
+msgstr ""
+
+#, c-format
+msgid "\nFolderCompare\n\n\n\nWinMerge.FolderCompare\nWinMerge Folder Compare"
+msgstr ""
+
+#, c-format
+msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. It is free software and can be redistributed under the conditions of the GNU General Public License - see the Help menu for details."
+msgstr ""
+
+#, c-format
+msgid "&Abort"
+msgstr "&Přerušit"
+
+#, c-format
+msgid "&Retry"
+msgstr "&Zkusit znovu"
+
+#, c-format
+msgid "&Ignore"
+msgstr "&Ignorovat"
+
+#, c-format
+msgid "Ignore &all"
+msgstr "I&gnorovat vše"
+
+#, c-format
+msgid "&Yes"
+msgstr "&Ano"
+
+#, c-format
+msgid "Yes to &all"
+msgstr "Ano &všem"
+
+#, c-format
+msgid "&No"
+msgstr "&Ne"
+
+#, c-format
+msgid "No to a&ll"
+msgstr "Ne vš&em"
+
+#, c-format
+msgid "&Continue"
+msgstr "Pok&račovat"
+
+#, c-format
+msgid "&Skip"
+msgstr "Pře&skočit"
+
+#, c-format
+msgid "Skip &all"
+msgstr "Přes&kočit vše"
+
+#, c-format
+msgid "Don't display this &message again."
+msgstr "T&uto zprávu již příště nezobrazovat."
+
+msgid "To make this message box visible, press Reset on the Message Boxes page in Options."
+msgstr ""
+
+msgid "Compare/Merge"
+msgstr ""
+
+#, c-format
+msgid "Syntax"
+msgstr "Syntaxe"
+
+msgid "Color Schemes"
+msgstr ""
+
+msgid "Folder Compare"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+#, c-format
+msgid "Differences"
+msgstr "Rozdíly"
+
+msgid "Message Boxes"
+msgstr ""
+
+#, c-format
+msgid "To:"
+msgstr "Do:"
+
+#, c-format
+msgid "From left:"
+msgstr "Zleva:"
+
+#, c-format
+msgid "To left:"
+msgstr "Doleva:"
+
+#, c-format
+msgid "From right:"
+msgstr "Zprava:"
+
+#, c-format
+msgid "To right:"
+msgstr "Doprava:"
+
+msgid "From middle:"
+msgstr ""
+
+msgid "To middle:"
+msgstr ""
+
+#, c-format
+msgid "Version %1"
+msgstr "Verze %1 - Česky"
+
+#, c-format
+msgid "X64"
+msgstr ""
+
+#, c-format
+msgid "Options (%1)"
+msgstr "Možnosti (%1)"
+
+#, c-format
+msgid "All message boxes are now displayed again."
+msgstr "Všechna okna se zprávami budou nyní opět zobrazována."
+
+#, c-format
+msgid "Tab size value is out of range. Please use 1 - %1."
+msgstr ""
+"Hodnota v poli Tabelátor je mimo povolený rozsah.\n"
+"\n"
+"Použijte prosím hodnoty mezi 1 - %1."
+
+#, c-format
+msgid "Open"
+msgstr "Otevřít"
+
+#, c-format
+msgid "Programs|*.exe;*.bat;*.cmd|All Files (*.*)|*.*||"
+msgstr "Programy|*.exe;*.bat;*.cmd|Všechny soubory (*.*)|*.*||"
+
+#, c-format
+msgid "All Files (*.*)|*.*||"
+msgstr "Všechny soubory (*.*)|*.*||"
+
+#, c-format
+msgid "WinMerge Project Files (*.WinMerge)|*.WinMerge||"
+msgstr "Projekty WinMerge (*.WinMerge)|*.WinMerge||"
+
+#, c-format
+msgid "Options files (*.ini)|*.ini|All Files (*.*)|*.*||"
+msgstr "Soubory nastavení (*.ini)|*.ini|Všechny soubory (*.*)|*.*||"
+
+#, c-format
+msgid "Text Files (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|All Files (*.*)|*.*||"
+msgstr "Textové soubory (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|Všechny soubory (*.*)|*.*||"
+
+#, c-format
+msgid "HTML Files (*.htm,*.html)|*.htm;*.html|All Files (*.*)|*.*||"
+msgstr "Soubory HTML (*.htm,*.html)|*.htm;*.html|Všechny soubory (*.*)|*.*||"
+
+#, c-format
+msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
+msgstr "Soubory XML (*.xml)|*.xml|Všechny soubory (*.*)|*.*||"
+
+msgid "Do not expand"
+msgstr ""
+
+msgid "Expand all subfolders"
+msgstr ""
+
+msgid "Expand different subfolders"
+msgstr ""
+
+msgid "Expand identical subfolders"
+msgstr ""
+
+msgid "File Type"
+msgstr ""
+
+#, c-format
+msgid "Extension"
+msgstr "Přípona"
+
+msgid "Message"
+msgstr ""
+
+msgid "Answer"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Include Subfolders"
+msgstr ""
+
+msgid "Compare Options"
+msgstr ""
+
+msgid "Hidden Items"
+msgstr ""
+
+#, c-format
+msgid "Name"
+msgstr "Název"
+
+#, c-format
+msgid "Location"
+msgstr "Umístění"
+
+#, c-format
+msgid "Filters"
+msgstr "Filtry"
+
+#, c-format
+msgid "[F] "
+msgstr ""
+
+#, c-format
+msgid "Description"
+msgstr "Popis"
+
+#, c-format
+msgid "Select Filename for New Filter"
+msgstr "Zvolte název souboru pro nový filtr"
+
+#, c-format
+msgid "File Filters (*.flt)|*.flt|All Files (*.*)|*.*||"
+msgstr "Filtry (*.flt)|*.flt|Všechny soubory (*.*)|*.*||"
+
+#, c-format
+msgid "Cannot find filter template!\n\nCopy %1 to WinMerge/Filters Folder:\n%2."
+msgstr "Nelze nalézt soubor s filtrem!\n\nZkopírujte prosím soubor %1 do složky s filtry pro aplikaci WinMerge:\n%2."
+
+#, c-format
+msgid ""
+"Cannot copy filter template:\n"
+"%1\n"
+"\n"
+"Make sure the folder exists and is writable."
+msgstr ""
+"Nelze zkopírovat soubor s filtrem do složky filtrů:\n"
+"%1\n"
+"\n"
+"Ujistěte se prosím, že složka existuje a je možné do ní zapisovat."
+
+#, c-format
+msgid ""
+"User's filter folder is not defined!\n"
+"\n"
+"Select filter folder in Options/System."
+msgstr ""
+"Vlastní složka filtrů nebyla zadána!\n"
+"\n"
+"Zvolte prosím složku v dialogovém okně Možnosti, v kategorii Systém."
+
+#, c-format
+msgid ""
+"Failed to delete filter:\n"
+"%1\n"
+"\n"
+"File may be read-only."
+msgstr ""
+"Chyba při odstranění souboru s filtrem:\n"
+"%1\n"
+"\n"
+"Možná je soubor označen pouze pro čtení?"
+
+#, c-format
+msgid "Locate Filter File to Install"
+msgstr "Vyhledat soubor s filtrem k instalaci"
+
+#, c-format
+msgid ""
+"Installing filter file failed.\n"
+"\n"
+"Could not copy new filter to folder."
+msgstr ""
+"Chyba při instalaci souboru s filtrem.\n"
+"\n"
+"Nový soubor nelze zkopírovat do složky filtrů."
+
+#, c-format
+msgid "Filter file exists. Overwrite?"
+msgstr "Soubor s filtrem již existuje. Chcete nahradit stávající filtr?"
+
+#, c-format
+msgid "Regular expression"
+msgstr "Regulérní výraz"
+
+msgid "Filters updated. Refresh all open folder compares?\n\nSelect 'No' to refresh later."
+msgstr "Filtry byly aktualizovány. Chcete obnovit všechna porovnání složek?\n\nPokud nechcete obnovit všechna porovnání teď, zvolte 'Ne' a obnovte porovnání později."
+
+#, c-format
+msgid "Folder Comparison Results"
+msgstr "Výsledky porovnání složek"
+
+#, c-format
+msgid "File Comparison"
+msgstr "Porovnání souborů"
+
+#, c-format
+msgid "Untitled Left"
+msgstr "Bez názvu vlevo"
+
+#, c-format
+msgid "Untitled Middle"
+msgstr ""
+
+#, c-format
+msgid "Untitled Right"
+msgstr "Bez názvu vpravo"
+
+msgid "Base File"
+msgstr ""
+
+#, c-format
+msgid "Theirs File"
+msgstr ""
+
+#, c-format
+msgid "Mine File"
+msgstr ""
+
+msgid "Original File"
+msgstr ""
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
+msgstr ""
+
+#, c-format
+msgid "Line: %s"
+msgstr "Řádek: %s"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
+msgstr ""
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr ""
+
+#, c-format
+msgid "Merge"
+msgstr "Sloučit"
+
+#, c-format
+msgid "Difference %1 of %2"
+msgstr "Rozdíl %1 z %2"
+
+#, c-format
+msgid "%1 Differences Found"
+msgstr "Nalezeno %1 rozdílů"
+
+#, c-format
+msgid "1 Difference Found"
+msgstr "Nalezen 1 rozdíl"
+
+#, c-format
+msgid "%1 Errors Found"
+msgstr ""
+
+msgid "1 Error Found"
+msgstr ""
+
+#. Abbreviation from "Read Only"
+#, c-format
+msgid "RO"
+msgstr "Pro čtení"
+
+#, c-format
+msgid "Item %1 of %2"
+msgstr "Položka %1 z %2"
+
+#, c-format
+msgid "Items: %1"
+msgstr "Položek: %1"
+
+#, c-format
+msgid "Comparing items..."
+msgstr "Porovnávají se položky..."
+
+#, c-format
+msgid "%.1f[items/sec]"
+msgstr ""
+
+msgid "Select two existing folders/files to compare."
+msgstr "Vyberte dvě existující složky nebo soubory k porovnání."
+
+#, c-format
+msgid "Folder Selection"
+msgstr "Vybrat složku"
+
+#, c-format
+msgid "Select two (or three) folders/files to compare."
+msgstr ""
+
+#, c-format
+msgid "Left (1st) path is invalid!"
+msgstr ""
+
+#, c-format
+msgid "Middle (2nd) path is invalid!"
+msgstr ""
+
+#, c-format
+msgid "Right (2nd) path is invalid!"
+msgstr ""
+
+#, c-format
+msgid "Right (3rd) path is invalid!"
+msgstr ""
+
+#, c-format
+msgid "Both paths are invalid!"
+msgstr "Obě cesty jsou chybné!"
+
+#, c-format
+msgid "Left (1st) and Middle (2nd) paths are invalid!"
+msgstr ""
+
+#, c-format
+msgid "Left (1st) and Right (3rd) paths are invalid!"
+msgstr ""
+
+#, c-format
+msgid "Middle (2nd) and Right (3rd) paths are invalid!"
+msgstr ""
+
+#, c-format
+msgid "All paths are invalid!"
+msgstr ""
+
+msgid "Only enabled for file comparisons"
+msgstr ""
+
+#, c-format
+msgid "Cannot compare file and folder!"
+msgstr "Nelze porovnat soubor a složku!"
+
+#, c-format
+msgid "File not found: %1"
+msgstr "Soubor nebyl nalezen: %1"
+
+#, c-format
+msgid "File not unpacked: %1"
+msgstr "Soubor nebyl převeden: %1"
+
+#, c-format
+msgid ""
+"Cannot open file\n"
+"%1\n"
+"\n"
+"%2"
+msgstr ""
+"Nelze otevřít soubor\n"
+"%1\n"
+"\n"
+"%2"
+
+#, c-format
+msgid "Failed to parse conflict file."
+msgstr ""
+
+#, c-format
+msgid "The file\n%1\nis not a conflict file."
+msgstr ""
+
+msgid "Comparing large files requires significant memory.\nShow only comparison results (not file contents)?"
+msgstr ""
+
+#, c-format
+msgid "Save As"
+msgstr "Uložit jako"
+
+#, c-format
+msgid "Save changes to %1?"
+msgstr "Uložit změny do %1?"
+
+#, c-format
+msgid "%1 is read-only. Override? Or 'No' to save as new filename?"
+msgstr "%1 je označen pouze pro čtení. Chcete nahradit tento soubor? (Neukládat pod novým názvem.)"
+
+#, c-format
+msgid "Error backing up file"
+msgstr "Chyba při zálohování souboru"
+
+#, c-format
+msgid ""
+"Unable to backup original file:\n"
+"%1\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"Nelze zálohovat původní soubor:\n"
+"%1\n"
+"\n"
+"Chcete pokračovat?"
+
+#, c-format
+msgid "Saving file failed.\n%1\n%2\n\t- Use different filename (OK)\n\t- Abort (Cancel)?"
+msgstr ""
+"Ukládání souboru selhalo.\n"
+"%1\n"
+"%2\n"
+"Co chcete nyní udělat?\n"
+"\t- použít jiný název souboru (stiskněte OK)\n"
+"\t- přerušit současnou operaci (stiskněte Storno)"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to left file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"Plugin '%2' nemůže převést vaše změny v levém souboru zpět do '%1'.\n"
+"\n"
+"Původní soubor nebude změněn.\n"
+"\n"
+"Chcete uložit převedenou verzi do jiného souboru?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to middle file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to right file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"Plugin '%2' nemůže převést vaše změny v pravém souboru zpět do '%1'.\n"
+"\n"
+"Původní soubor nebude změněn.\n"
+"\n"
+"Chcete uložit převedenou verzi do jiného souboru?"
+
+#, c-format
+msgid ""
+"Another application updated\n"
+"%1\n"
+"since WinMerge loaded it.\n"
+"\n"
+"Overwrite?"
+msgstr ""
+"Jiná aplikace provedla změny v souboru\n"
+"%1\n"
+"od jeho posledního načtení aplikací WinMerge.\n"
+"\n"
+"Přepsat změněný soubor?"
+
+#, c-format
+msgid ""
+"%1\n"
+"is read-only. Override?"
+msgstr ""
+"%1\n"
+"je označen pouze pro čtení. Chcete nahradit tuto položku?"
+
+#, c-format
+msgid "Another application updated\n%1\nsince last scan.\n\nReload?"
+msgstr "Jiná aplikace provedla změny v souboru\n%1\nod jeho posledního prozkoumání aplikací WinMerge.\n\nChcete soubor načíst znovu?"
+
+#, c-format
+msgid "Save Left File As"
+msgstr "Uložit levý soubor jako"
+
+#, c-format
+msgid "Save Middle File As"
+msgstr ""
+
+#, c-format
+msgid "Save Right File As"
+msgstr "Uložit pravý soubor jako"
+
+#, c-format
+msgid "File\n%1\nnot found. Save a copy to continue."
+msgstr "Soubor\n%1\nse ztratil. Pro pokračování prosím uložte kopii souboru."
+
+#, c-format
+msgid ""
+"Cannot merge unsynched documents.\n"
+"\n"
+"Refresh before continuing."
+msgstr ""
+"Rozdíly nelze sloučit, dokud dokumenty nebudou synchronizovány.\n"
+"\n"
+"Před dalším pokračováním dokumenty obnovte."
+
+msgid "Break at whitespace"
+msgstr "Přerušit v mezerách"
+
+msgid "Break at whitespace or punctuation"
+msgstr "Přerušit v mezerách nebo v interpunkci"
+
+msgid "Copy to &Middle\tAlt+Right"
+msgstr ""
+
+msgid "Copy to &Middle\tAlt+Left"
+msgstr ""
+
+msgid "Copy from Middle\tAlt+Shift+Right"
+msgstr ""
+
+msgid "Copy from Middle\tAlt+Shift+Left"
+msgstr ""
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Right"
+msgstr ""
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Left"
+msgstr ""
+
+msgid "Copy All to Middle"
+msgstr ""
+
+#, c-format
+msgid "Right to Left (%1)"
+msgstr "P&ravé doleva (%1)"
+
+#, c-format
+msgid "Right to Middle (%1)"
+msgstr ""
+
+#, c-format
+msgid "Middle to Left (%1)"
+msgstr ""
+
+#, c-format
+msgid "Middle to Right (%1)"
+msgstr ""
+
+#, c-format
+msgid "Left to Right (%1)"
+msgstr "&Levé doprava (%1)"
+
+#, c-format
+msgid "Left to Middle (%1)"
+msgstr ""
+
+#, c-format
+msgid "Left to... (%1)"
+msgstr "L&evé do... (%1)"
+
+#, c-format
+msgid "Middle to... (%1)"
+msgstr ""
+
+#, c-format
+msgid "Right to... (%1)"
+msgstr "Pr&avé do... (%1)"
+
+#, c-format
+msgid "Both to... (%1)"
+msgstr ""
+
+#, c-format
+msgid "All to... (%1)"
+msgstr ""
+
+#, c-format
+msgid "Differences to... (%1)"
+msgstr ""
+
+msgid "Some selected items are identical or skipped.\nCopy only items with differences?"
+msgstr ""
+
+#, c-format
+msgid "Left (%1)"
+msgstr "&Levé (%1)"
+
+#, c-format
+msgid "Middle (%1)"
+msgstr ""
+
+#, c-format
+msgid "Right (%1)"
+msgstr "P&ravé (%1)"
+
+#, c-format
+msgid "Both (%1)"
+msgstr "O&boje (%1)"
+
+#, c-format
+msgid "All (%1)"
+msgstr ""
+
+#, c-format
+msgid "Left Side - Select Destination Folder:"
+msgstr "Zvolte cílovou složku pro položky z levé strany:"
+
+#, c-format
+msgid "Middle Side - Select Destination Folder:"
+msgstr ""
+
+#, c-format
+msgid "Right Side - Select Destination Folder:"
+msgstr "Zvolte cílovou složku pro položky z pravé strany:"
+
+#, c-format
+msgid "(%1 Files Affected)"
+msgstr "(ovlivněno souborů: %1)"
+
+#, c-format
+msgid "(%1 of %2 Files Affected)"
+msgstr "(ovlivněno souborů: %1 z %2)"
+
+#, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\n"
+"%1 ?"
+msgstr ""
+"Opravdu chcete odstranit\n"
+"\n"
+"%1 ?"
+
+msgid "Are you sure you want to copy?"
+msgstr "Opravdu chcete zkopírovat?"
+
+#, c-format
+msgid "Are you sure you want to copy %d items?"
+msgstr "Opravdu chcete zkopírovat %d položek?"
+
+#, c-format
+msgid ""
+"Operation aborted!\n"
+"\n"
+"Folder contents changed, path\n"
+"%1\n"
+"not found.\n"
+"\n"
+"Refresh the compare."
+msgstr ""
+"Operace přerušena!\n"
+"\n"
+"Obsah složek na disku se změnil, cesta\n"
+"%1\n"
+"nebyla nalezena.\n"
+"\n"
+"Obnovte prosím porovnání."
+
+msgid "Are you sure you want to move?"
+msgstr "Opravdu chcete přesunout?"
+
+#, c-format
+msgid "Are you sure you want to move %d items?"
+msgstr "Opravdu chcete přesunout %d položek?"
+
+#, c-format
+msgid "Confirm Move"
+msgstr "Potvrdit přesunutí"
+
+#, c-format
+msgid "Close the folder comparison window?"
+msgstr ""
+
+msgid "Close the folder comparison window, which took a long time?"
+msgstr ""
+
+msgid "The file or folder name is invalid."
+msgstr ""
+
+#, c-format
+msgid "Failed to execute external editor: %1"
+msgstr "Nelze spustit externí editor: %1"
+
+#, c-format
+msgid "Unknown archive format"
+msgstr "Neznámý formát archivu"
+
+msgid "Failed to extract archive.\nCompare as text file?"
+msgstr ""
+
+#, c-format
+msgid "Filename"
+msgstr "Název souboru"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Folder"
+msgstr "Složky"
+
+#, c-format
+msgid "Comparison Result"
+msgstr "Výsledek porovnání"
+
+#, c-format
+msgid "Left Date"
+msgstr "Datum vlevo"
+
+#, c-format
+msgid "Right Date"
+msgstr "Datum vpravo"
+
+#, c-format
+msgid "Middle Date"
+msgstr ""
+
+#, c-format
+msgid "Left Size"
+msgstr "Velikost vlevo"
+
+#, c-format
+msgid "Right Size"
+msgstr "Velikost vpravo"
+
+#, c-format
+msgid "Middle Size"
+msgstr ""
+
+#, c-format
+msgid "Right Size (Short)"
+msgstr "Velikost vpravo (krátce)"
+
+#, c-format
+msgid "Left Size (Short)"
+msgstr "Velikost vlevo (krátce)"
+
+#, c-format
+msgid "Middle Size (Short)"
+msgstr ""
+
+#, c-format
+msgid "Left Creation Time"
+msgstr "Datum vytvoření vlevo"
+
+#, c-format
+msgid "Right Creation Time"
+msgstr "Datum vytvoření vpravo"
+
+#, c-format
+msgid "Middle Creation Time"
+msgstr ""
+
+#, c-format
+msgid "Newer File"
+msgstr "Novější soubor"
+
+#, c-format
+msgid "Left File Version"
+msgstr "Verze souboru vlevo"
+
+#, c-format
+msgid "Right File Version"
+msgstr "Verze souboru vpravo"
+
+#, c-format
+msgid "Middle File Version"
+msgstr ""
+
+#, c-format
+msgid "Short Result"
+msgstr "Stručný výsledek"
+
+#, c-format
+msgid "Left Attributes"
+msgstr "Atributy vlevo"
+
+#, c-format
+msgid "Right Attributes"
+msgstr "Atributy vpravo"
+
+#, c-format
+msgid "Middle Attributes"
+msgstr ""
+
+#, c-format
+msgid "Left EOL"
+msgstr "Konce řádků vlevo"
+
+#, c-format
+msgid "Middle EOL"
+msgstr ""
+
+#, c-format
+msgid "Right EOL"
+msgstr "Konce řádků vpravo"
+
+#, c-format
+msgid "Left Encoding"
+msgstr "Kódování vlevo"
+
+#, c-format
+msgid "Right Encoding"
+msgstr "Kódování vpravo"
+
+#, c-format
+msgid "Middle Encoding"
+msgstr ""
+
+msgid "Ignored Diff"
+msgstr "Ignor. rozdílů"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Binary"
+msgstr "Binární"
+
+#, c-format
+msgid "Unpacker"
+msgstr "Převaděč"
+
+#, c-format
+msgid "Prediffer"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Middle"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Diff"
+msgstr ""
+
+msgid "Left Duplicate Count"
+msgstr ""
+
+msgid "Right Duplicate Count"
+msgstr ""
+
+msgid "Middle Duplicate Count"
+msgstr ""
+
+msgid "Move"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
+msgid "Communication"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid "Document"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Journal"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Media"
+msgstr ""
+
+msgid "Music"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "Photo"
+msgstr ""
+
+msgid "RecordedTV"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Software"
+msgstr ""
+
+msgid "Task"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Hash"
+msgstr ""
+
+#, c-format
+msgid "Unable to compare files"
+msgstr "Soubory nelze porovnat"
+
+#, c-format
+msgid "Item aborted"
+msgstr "Přerušeno"
+
+#, c-format
+msgid "File skipped"
+msgstr "Soubor přeskočen"
+
+#, c-format
+msgid "Folder skipped"
+msgstr "Složka přeskočena"
+
+#, c-format
+msgid "Left only: %1"
+msgstr "Pouze vlevo: %1"
+
+#, c-format
+msgid "Middle only: %1"
+msgstr ""
+
+#, c-format
+msgid "Right only: %1"
+msgstr "Pouze vpravo: %1"
+
+#, c-format
+msgid "Does not exist in %1"
+msgstr ""
+
+#, c-format
+msgid "Binary files are identical"
+msgstr "Binární soubory jsou shodné"
+
+#, c-format
+msgid "Binary files are different"
+msgstr "Binární soubory jsou rozdílné"
+
+#, c-format
+msgid "Files are different"
+msgstr "Soubory jsou rozdílné"
+
+#, c-format
+msgid "Folders are different"
+msgstr "Složky jsou rozdílné"
+
+#, c-format
+msgid "Left Only"
+msgstr "Pouze vlevo"
+
+#, c-format
+msgid "Right Only"
+msgstr "Pouze vpravo"
+
+#, c-format
+msgid "Middle Only"
+msgstr ""
+
+#, c-format
+msgid "No item in left"
+msgstr ""
+
+#, c-format
+msgid "No item in right"
+msgstr ""
+
+#, c-format
+msgid "No item in middle"
+msgstr ""
+
+#, c-format
+msgid "Error"
+msgstr "Chyba"
+
+#, c-format
+msgid "Text files are identical"
+msgstr "Textové soubory jsou shodné"
+
+msgid " (Middle and right are identical)"
+msgstr ""
+
+msgid " (Left and right are identical)"
+msgstr ""
+
+msgid " (Left and middle are identical)"
+msgstr ""
+
+#, c-format
+msgid "Text files are different"
+msgstr "Textové soubory jsou rozdílné"
+
+msgid "Image files are identical"
+msgstr ""
+
+msgid "Image files are different"
+msgstr ""
+
+#, c-format
+msgid "Group%d"
+msgstr ""
+
+#, c-format
+msgid "Elapsed time: %ld ms"
+msgstr "Uplynulý čas: %ld ms"
+
+#, c-format
+msgid "1 item selected"
+msgstr "Vybrána 1 položka"
+
+#, c-format
+msgid "%1 items selected"
+msgstr "Vybráno %1 položek"
+
+#, c-format
+msgid "Filename or folder name."
+msgstr "Název souboru nebo složky"
+
+#, c-format
+msgid "Subfolder name when subfolders are included."
+msgstr "Název podsložky, pokud jsou porovnávány i soubory v podsložkách"
+
+#, c-format
+msgid "Comparison result, long form."
+msgstr "Výsledek porovnání, dlouhý popis"
+
+#, c-format
+msgid "Left side modification date."
+msgstr "Datum změny souboru na levé straně"
+
+#, c-format
+msgid "Right side modification date."
+msgstr "Datum změny souboru na pravé straně"
+
+#, c-format
+msgid "Middle side modification date."
+msgstr ""
+
+#, c-format
+msgid "File's extension."
+msgstr "Přípona souboru"
+
+#, c-format
+msgid "Left file size in bytes."
+msgstr "Velikost souboru na levé straně v bytech"
+
+#, c-format
+msgid "Right file size in bytes."
+msgstr "Velikost souboru na pravé straně v bytech"
+
+#, c-format
+msgid "Middle file size in bytes."
+msgstr ""
+
+#, c-format
+msgid "Left file size abbreviated."
+msgstr "Velikost souboru na levé straně zkráceně"
+
+#, c-format
+msgid "Right file size abbreviated."
+msgstr "Velikost souboru na pravé straně zkráceně"
+
+#, c-format
+msgid "Middle file size abbreviated."
+msgstr ""
+
+#, c-format
+msgid "Left side creation time."
+msgstr "Datum vytvoření souboru na levé straně"
+
+#, c-format
+msgid "Right side creation time."
+msgstr "Datum vytvoření souboru na pravé straně"
+
+#, c-format
+msgid "Middle side creation time."
+msgstr ""
+
+#, c-format
+msgid "Tells which side has newer modification date."
+msgstr "Ukáže, na které straně je novější datum změny"
+
+msgid "Left side file version, only for some file types."
+msgstr "Verze souboru na levé straně, pouze pro některé typy souborů"
+
+msgid "Right side file version, only for some file types."
+msgstr "Verze souboru na pravé straně, pouze pro některé typy souborů"
+
+msgid "Middle side file version, only for some file types."
+msgstr ""
+
+#, c-format
+msgid "Short comparison result."
+msgstr "Stručný výsledek porovnání"
+
+#, c-format
+msgid "Left side attributes."
+msgstr "Atributy souboru na levé straně"
+
+#, c-format
+msgid "Right side attributes."
+msgstr "Atributy souboru na pravé straně"
+
+#, c-format
+msgid "Middle side attributes."
+msgstr ""
+
+msgid "Left side file EOL type."
+msgstr "Typ konce řádků v souboru na levé straně."
+
+msgid "Right side file EOL type."
+msgstr "Typ konce řádků v souboru na pravé straně."
+
+msgid "Middle side file EOL type."
+msgstr ""
+
+#, c-format
+msgid "Left side encoding."
+msgstr "Kódování souboru na levé straně"
+
+#, c-format
+msgid "Right side encoding."
+msgstr "Kódování souboru na pravé straně"
+
+#, c-format
+msgid "Middle side encoding."
+msgstr ""
+
+#, c-format
+msgid "Number of ignored differences in file. Ignored and cannot be merged."
+msgstr "Počet ignorovaných rozdílů v souboru. Tyto rozdíly nelze sloučit."
+
+#, c-format
+msgid "Number of differences in file (excluding ignored)."
+msgstr "Počet rozdílů v souboru. Neobsahuje ignorované rozdíly."
+
+#, c-format
+msgid "Shows an asterisk (*) if the file is binary."
+msgstr "Ukáže hvězdičku (*), pokud je soubor binární"
+
+msgid "Unpacker plugin name or pipeline."
+msgstr ""
+
+msgid "Prediffer plugin name or pipeline."
+msgstr ""
+
+#, c-format
+msgid "Compare %1 with %2"
+msgstr "Porovnání %1 s %2"
+
+#, c-format
+msgid "Compare %1 with %2 and %3"
+msgstr ""
+
+#, c-format
+msgid "Comma-separated list"
+msgstr "Seznam oddělený čárkami"
+
+#, c-format
+msgid "Tab-separated list"
+msgstr "Seznam oddělený tabelátory"
+
+#, c-format
+msgid "Simple HTML"
+msgstr "Soubor HTML"
+
+#, c-format
+msgid "Simple XML"
+msgstr "Soubor XML"
+
+#, c-format
+msgid "Report file already exists. Overwrite?"
+msgstr "Soubor protokolu již existuje. Chcete ho přepsat?"
+
+#, c-format
+msgid ""
+"Error creating the report:\n"
+"%1"
+msgstr ""
+"Chyba při vytváření protokolu:\n"
+"%1"
+
+#, c-format
+msgid "Report created successfully."
+msgstr "Protokol byl úspěšně vytvořen."
+
+msgid "Cannot add a synchronization point at this line."
+msgstr ""
+
+#, c-format
+msgid "Same file is opened in both panes."
+msgstr "V obou panelech je otevřen stejný soubor."
+
+#, c-format
+msgid "Selected files are identical."
+msgstr "Vybrané soubory jsou shodné."
+
+#, c-format
+msgid "An error occurred while comparing files."
+msgstr "Během porovnání souborů se vyskytla chyba."
+
+#, c-format
+msgid "Could not create temporary files. Check your temporary path settings."
+msgstr "Nelze vytvořit dočasné soubory. Zkontrolujte nastavení cesty k dočasným souborům."
+
+msgid "Files use different EOL.\n\nTreat all EOL as equivalent?\n\nSet 'Ignore EOL differences (Windows/Unix/Mac)' in Compare section of Options."
+msgstr ""
+
+#, c-format
+msgid "Selected folder is invalid."
+msgstr "Zvolená složka je chybná."
+
+#, c-format
+msgid "Cannot open a binary file in Editor."
+msgstr "Binární soubor nelze otevřít pro úpravy."
+
+#, c-format
+msgid "Create matching folder:\n%1\non the other side and open?"
+msgstr "Složka existuje pouze na jedné straně a nelze ji otevřít.\n\nChcete vytvořit odpovídající složku na druhé straně a otevřít ji?"
+
+msgid "Copy all differences to other file?"
+msgstr ""
+
+#, c-format
+msgid "Move to next file?"
+msgstr ""
+
+#, c-format
+msgid "Move to previous file?"
+msgstr ""
+
+#, c-format
+msgid "Move to next page?"
+msgstr ""
+
+#, c-format
+msgid "Move to previous page?"
+msgstr ""
+
+msgid "Move to first file?"
+msgstr ""
+
+msgid "Move to last file?"
+msgstr ""
+
+#, c-format
+msgid "Different codepages: left (cp%d), right (cp%d).\nDisplay in codepage (better display) or default Windows codepage (safer merging)?\n(Recommended: default Windows codepage)"
+msgstr ""
+"V souborech vlevo (cp%d) a vpravo (cp%d) bylo nalezeno rozdílné kódování.\n"
+"Zobrazení každého souboru v jeho znakové stránce poskytne lepší náhled, ale slučování nebo kopírování bude nebezpečné.\n"
+"Chcete kódování u obou souborů upravit na výchozí znakovou stránku Windows (doporučeno)?"
+
+#, c-format
+msgid "Information lost due to encoding errors: both files"
+msgstr "Došlo ke ztrátě informací způsobené chybami kódování u obou souborů."
+
+#, c-format
+msgid "Information lost due to encoding errors: first file"
+msgstr ""
+
+#, c-format
+msgid "Information lost due to encoding errors: second file"
+msgstr ""
+
+#, c-format
+msgid "Information lost due to encoding errors: third file"
+msgstr ""
+
+#, c-format
+msgid "No difference"
+msgstr "Žádný rozdíl"
+
+#, c-format
+msgid "Line difference"
+msgstr "Rozdíl v řádku"
+
+#, c-format
+msgid "Replaced %1 string(s)."
+msgstr "Nahrazeno %1 řetězců."
+
+#, c-format
+msgid "Cannot find string \"%s\"."
+msgstr "Nelze najít řetězec \"%s\"."
+
+msgid "Entering Merge Mode. Press F9 to turn off."
+msgstr ""
+
+#, c-format
+msgid "Automatic merges: %1\nUnresolved conflicts: %2"
+msgstr ""
+
+msgid "Codepage change merged."
+msgstr ""
+
+msgid "Codepage changes are conflicting."
+msgstr ""
+
+msgid "EOL change merged."
+msgstr ""
+
+msgid "EOL changes are conflicting."
+msgstr ""
+
+#, c-format
+msgid "Location Pane"
+msgstr "Poloha"
+
+#, c-format
+msgid "Diff Pane"
+msgstr "Rozdíly"
+
+#, c-format
+msgid "Patch file written."
+msgstr "Opravný soubor byl úspěšně vytvořen."
+
+msgid "First item not found!"
+msgstr ""
+
+msgid "Second item not found!"
+msgstr ""
+
+#, c-format
+msgid "Patch file already exists. Overwrite?"
+msgstr "Opravný soubor již existuje. Chcete ho přepsat?"
+
+#, c-format
+msgid "[%1 files selected]"
+msgstr "[vybráno %1 souborů]"
+
+#, c-format
+msgid "Normal"
+msgstr ""
+
+#, c-format
+msgid "Context"
+msgstr ""
+
+#, c-format
+msgid "Unified"
+msgstr ""
+
+#, c-format
+msgid "Could not write to file %1."
+msgstr "Nelze zapisovat do souboru %1."
+
+#, c-format
+msgid "Output path is not absolute: %1"
+msgstr "Zadaná cesta pro výstup není cesta k souboru: %1"
+
+msgid "Specify an output file."
+msgstr "Zadejte výstupní soubor."
+
+#, c-format
+msgid "Cannot create patch from binary files."
+msgstr "Nelze vytvořit opravný soubor z binárních souborů."
+
+#, c-format
+msgid ""
+"Save all files first.\n"
+"\n"
+"Creating a patch requires no unsaved changes."
+msgstr ""
+"Nejdříve prosím uložte všechny soubory.\n"
+"\n"
+"Vytvoření opravného souboru vyžaduje, aby v souborech nebyly žádné neuložené změny."
+
+#, c-format
+msgid "Folder does not exist."
+msgstr "Složka neexistuje."
+
+msgid "Archive support not enabled.\n7-Zip and/or Merge7z*.dll not found.\nSee manual for archive support."
+msgstr ""
+"Podpora archivace není dostupná.\n"
+" \n"
+"Nelze nalézt všechny potřebné součásti (7-Zip anebo Merge7z*.dll).\n"
+"Podívejte se do uživatelské příručky, kde najdete další informace o podpoře archivace a jak ji zpřístupnit."
+
+#, c-format
+msgid "Select file for export"
+msgstr "Uložit nastavení"
+
+#, c-format
+msgid "Select file for import"
+msgstr "Načíst nastavení"
+
+#, c-format
+msgid "Options imported from file."
+msgstr "Nastavení bylo načteno ze souboru."
+
+#, c-format
+msgid "Options exported to file."
+msgstr "Nastavení bylo uloženo do souboru."
+
+#, c-format
+msgid "Failed to import options from file."
+msgstr "Načtení nastavení ze souboru se nezdařilo."
+
+#, c-format
+msgid "Failed to write options to file."
+msgstr "Uložení nastavení do souboru se nezdařilo."
+
+#, c-format
+msgid ""
+"Close multiple compare windows?\n"
+"\n"
+"Continue?"
+msgstr ""
+"Chystáte se zavřít několik oken.\n"
+"\n"
+"Chcete pokračovat?"
+
+#, c-format
+msgid "Mixed"
+msgstr "Různé"
+
+msgctxt "EOL Type"
+msgid "Binary"
+msgstr "Binární"
+
+#, c-format
+msgid "None"
+msgstr "Žádný"
+
+#, c-format
+msgid "Marker Color %d"
+msgstr ""
+
+msgid "New Pattern"
+msgstr ""
+
+#, c-format
+msgid "Type"
+msgstr "Typ"
+
+#, c-format
+msgid "Editor script"
+msgstr ""
+
+#, c-format
+msgid "\nDifference in Current Line (F4)"
+msgstr ""
+
+#, c-format
+msgid "\nOptions"
+msgstr ""
+
+#, c-format
+msgid "\nRefresh (F5)"
+msgstr ""
+
+#, c-format
+msgid "\nPrevious Difference (Alt+Up)"
+msgstr ""
+
+#, c-format
+msgid "\nNext Difference (Alt+Down)"
+msgstr ""
+
+#, c-format
+msgid "\nPrevious Conflict (Alt+Shift+Up)"
+msgstr ""
+
+#, c-format
+msgid "\nNext Conflict (Alt+Shift+Down)"
+msgstr ""
+
+#, c-format
+msgid "\nFirst Difference (Alt+Home)"
+msgstr ""
+
+#, c-format
+msgid "\nCurrent Difference (Alt+Enter)"
+msgstr ""
+
+#, c-format
+msgid "\nLast Difference (Alt+End)"
+msgstr ""
+
+msgid "\nCopy to Right (Alt+Right)"
+msgstr ""
+
+msgid "\nCopy to Left (Alt+Left)"
+msgstr ""
+
+msgid "\nCopy to Right and Advance (Ctrl+Alt+Right)"
+msgstr ""
+
+msgid "\nCopy to Left and Advance (Ctrl+Alt+Left)"
+msgstr ""
+
+msgid "\nCopy All to Right"
+msgstr "\nKopírovat vše doprava"
+
+msgid "\nCopy All to Left"
+msgstr "\nKopírovat vše doleva"
+
+#, c-format
+msgid "\nAuto Merge (Ctrl+Alt+M)"
+msgstr ""
+
+msgid "\nFirst File"
+msgstr ""
+
+msgid "\nNext File (Ctrl+F8)"
+msgstr ""
+
+msgid "\nLast File"
+msgstr ""
+
+msgid "\nPrevious File (Ctrl+F7)"
+msgstr ""
+
+msgid "Adapted unpacker applied to both files (one needs extension)."
+msgstr "Přizpůsobený převaděč bude použit pro oba soubory (podle přípony jednoho ze souborů)."
+
+#, c-format
+msgid "No Prediffer (Normal)"
+msgstr ""
+
+#, c-format
+msgid "Suggested Plugins"
+msgstr "Navržené pluginy"
+
+msgid "All Plugins"
+msgstr ""
+
+#, c-format
+msgid "Private Build: %1"
+msgstr ""
+
+msgid "Your software is up to date."
+msgstr ""
+
+#, c-format
+msgid "WinMerge update available.\n%1 available (you have %2). Download now?"
+msgstr ""
+
+#, c-format
+msgid "Failed to download latest version information"
+msgstr ""
+
+#, c-format
+msgid "Plugin Settings"
+msgstr "Nastavení pluginů"
+
+#, c-format
+msgid "WSH not found - .sct scripts disabled"
+msgstr "Program Windows Script Host nebyl nalezen - skripty .sct jsou vypnuté"
+
+#, c-format
+msgid "G&o to Line %1"
+msgstr "&Přejít na řádek %1"
+
+msgid "Go to Moved Line\tCtrl+Shift+G"
+msgstr ""
+
+#, c-format
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#, c-format
+msgid "From file system"
+msgstr "Systém souborů"
+
+#, c-format
+msgid "From Most Recently Used list"
+msgstr "Naposledy použité"
+
+#, c-format
+msgid "No Highlighting"
+msgstr "Žádné zvýraznění"
+
+#, c-format
+msgid "Batch"
+msgstr ""
+
+#, c-format
+msgid "Portable Object"
+msgstr ""
+
+#, c-format
+msgid "Resources"
+msgstr ""
+
+#, c-format
+msgid "Shell"
+msgstr ""
+
+#, c-format
+msgid "Close &Left Tabs"
+msgstr ""
+
+#, c-format
+msgid "Close R&ight Tabs"
+msgstr ""
+
+#, c-format
+msgid "Close &Other Tabs"
+msgstr ""
+
+#, c-format
+msgid "Enable &Auto Max Width"
+msgstr ""
+
+msgid "We&bpage"
+msgstr ""
+
+msgid "W&rap Text"
+msgstr ""
+
+msgid "%1 is not installed."
+msgstr ""
+
+#, c-format
+msgid "%1 does not exist. Create it?"
+msgstr ""
+
+#, c-format
+msgid "Failed to create folder."
+msgstr ""
+
+#, c-format
+msgid "Parameters:\n$file: Current file path\n$linenum: Current cursor line number"
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "minimal"
+msgstr ""
+
+msgid "patience"
+msgstr ""
+
+msgid "histogram"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "GDI"
+msgstr ""
+
+msgid "DirectWrite Default"
+msgstr ""
+
+msgid "DirectWrite Aliased"
+msgstr ""
+
+msgid "DirectWrite GDI Classic"
+msgstr ""
+
+msgid "DirectWrite GDI Natural"
+msgstr ""
+
+msgid "DirectWrite Natural"
+msgstr ""
+
+msgid "DirectWrite Natural Symmetric"
+msgstr ""
+
+msgid "MDI child window or main window"
+msgstr ""
+
+msgid "MDI child window only"
+msgstr ""
+
+msgid "Close main window if only one MDI child window"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Diff"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Blink"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Size"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Alpha"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "CD Threshold"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Ins/Del Detection"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "None"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Vertical"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Horizontal"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Overlay"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "XOR"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Blend"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Animation"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Zoom"
+msgstr ""
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Page:"
+msgstr ""
+
+#, c-format
+msgid "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+msgstr ""
+
+#, c-format
+msgid "Dist: %g  "
+msgstr ""
+
+#, c-format
+msgid "Dist: %g, %g  "
+msgstr ""
+
+#, c-format
+msgid "Page: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+msgstr ""
+
+#, c-format
+msgid "Rc: (%d, %d)  "
+msgstr ""
+
+#, c-format
+msgid "Flipped: %s  "
+msgstr ""
+
+#, c-format
+msgid "Rotated: %d  "
+msgstr ""
+
+msgid "All pages"
+msgstr ""
+
+msgid "<Edit here>"
+msgstr ""
+
+msgid "No differences found to select"
+msgstr ""
+
+msgid "No differences found to add as substitution filter"
+msgstr ""
+
+msgid "The pair is already in the Substitution Filters list"
+msgstr ""
+
+msgid "Add this change to Substitution Filters?"
+msgstr ""
+
+msgid "Text only"
+msgstr ""
+
+msgid "Line-by-line position and text"
+msgstr ""
+
+msgid "Word-by-word position and text"
+msgstr ""
+
+msgid "AppData folder"
+msgstr ""
+
+msgid "Install folder"
+msgstr ""
+
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "Povolit pouze jedno hlavní okno aplikace"
+
+msgid "Allow only one instance; wait for termination"
+msgstr ""
+
+msgid "Only on window activated"
+msgstr ""
+
+msgid "Immediately"
+msgstr ""
+
+msgid "Al&l"
+msgstr ""
+
+msgid "&Others"
+msgstr ""
+
+#, c-format
+msgid "Missing plugin name in pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing quote in plugin pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Plugin name '%1' already exists."
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr ""
+
+#, c-format
+msgid "Plugin not found or invalid: %1"
+msgstr ""
+
+#, c-format
+msgid "'%1' is not an unpacker plugin"
+msgstr ""
+
+#, c-format
+msgid "'%1' is not a prediffer plugin"
+msgstr ""
+
+#, c-format
+msgid "Error prediffing '%1' with '%2'. Prediffing disabled."
+msgstr ""
+
+#, c-format
+msgid "Circular reference in plugin pipeline: %1"
+msgstr ""
+
+msgid "URL Handler"
+msgstr ""
+
+msgid "File Unpacker"
+msgstr ""
+
+msgid "File or Folder Unpacker"
+msgstr ""
+
+msgid "Alias for Unpacker"
+msgstr ""
+
+msgid "Alias for Prediffer"
+msgstr ""
+
+msgid "Alias for Editor script"
+msgstr ""
+
+#, c-format
+msgid "Alias for plugin pipeline '%1'"
+msgstr ""
+
+msgid "New plugin description"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "1st"
+msgstr ""
+
+msgid "2nd"
+msgstr ""
+
+msgid "3rd"
+msgstr ""
+
+msgid "1st and 2nd"
+msgstr ""
+
+msgid "1st and 3rd"
+msgstr ""
+
+msgid "2nd and 3rd"
+msgstr ""
+
+msgid "Filter applied"
+msgstr ""
+
+#, c-format
+msgid "Clipboard at %s"
+msgstr ""
+
+msgid "Clipboard history disabled.\r\nEnable: Windows logo key + V, then Turn on."
+msgstr ""
+
+msgid "This system does not support clipboard history."
+msgstr ""
+
+msgid "32-bit WinMerge does not support Clipboard Compare"
+msgstr ""
+
+msgid "WebView2 runtime not installed. Download it?"
+msgstr ""
+
+msgid "New Text Compare"
+msgstr ""
+
+msgid "New Table Compare"
+msgstr ""
+
+msgid "New Binary Compare"
+msgstr ""
+
+msgid "New Image Compare"
+msgstr ""
+
+msgid "New Webpage Compare"
+msgstr ""
+
+msgid "Clipboard Compare"
+msgstr ""
+
+msgid "&Print..."
+msgstr ""
+
+msgid "Pre&v Page"
+msgstr ""
+
+msgid "&Two Page"
+msgstr ""
+
+msgid "&One Page"
+msgstr ""
+
+msgid "Zoom &In"
+msgstr ""
+
+msgid "Zoom &Out"
+msgstr ""
+
+msgid "Comparing..."
+msgstr ""
+
+msgid "Zoom:"
+msgstr ""
+
+msgid "Diff hunk"
+msgstr ""
+
+msgid "Inline diff"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Character"
+msgstr ""
+
+msgid "\nPrevious Difference (Alt+Up)\n(Right Button+Wheel Up)\n(Alt+Wheel Up)"
+msgstr ""
+
+msgid "\nNext Difference (Alt+Down)\n(Right Button+Wheel Down)\n(Alt+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Right (Alt+Right)\n(Right Button+Wheel Right)\n(Alt+Wheel Right)\n(Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left (Alt+Left)\n(Right Button+Wheel Left)\n(Alt+Wheel Left)\n(Alt+Shift+Wheel Up)"
+msgstr ""
+
+msgid "\nCopy to Right and Advance (Ctrl+Alt+Right)\n(Ctrl+Alt+Wheel Right)\n(Ctrl+Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left and Advance (Ctrl+Alt+Left)\n(Ctrl+Alt+Wheel Left)\n(Ctrl+Alt+Shift+Wheel Up)"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2 and %3"
+msgstr ""
+
+msgid "Comparison completed"
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2: "
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2 and %3: "
+msgstr ""
+
+msgid "File saved"
+msgstr ""
+
+msgid "Copying files..."
+msgstr ""
+
+msgid "Moving files..."
+msgstr ""
+
+msgid "Deleting files..."
+msgstr ""
+
+msgid "Recycle Bin"
+msgstr ""
+
+msgid "Permanently deleted"
+msgstr ""
+
+msgid "File operation completed successfully"
+msgstr ""
+
+msgid "File operation canceled"
+msgstr ""
+
+msgid "Prettification"
+msgstr ""
+
+msgid "Content Extraction"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Data Query"
+msgstr ""
+
+msgid "Validation"
+msgstr ""
+
+msgid "Decompilation"
+msgstr ""
+
+msgid "URL Handling"
+msgstr ""
+
+msgid "Decoding / Encoding"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr ""
+
+msgid "Make Lowercase"
+msgstr ""
+
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+msgid "Count Duplicate Lines"
+msgstr ""
+
+msgid "Sort Lines Ascending"
+msgstr ""
+
+msgid "Sort Lines Descending"
+msgstr ""
+
+msgid "Reverse Columns"
+msgstr ""
+
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr ""
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr ""
+
+msgid "Select Columns..."
+msgstr ""
+
+msgid "Select Lines..."
+msgstr ""
+
+msgid "Insert Date"
+msgstr ""
+
+msgid "Insert Time"
+msgstr ""
+
+msgid "Apply Patch..."
+msgstr ""
+
+msgid "Ignore Columns"
+msgstr ""
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr ""
+
+msgid "Ignore CSV Fields"
+msgstr ""
+
+msgid "Ignore TSV Fields"
+msgstr ""
+
+msgid "Ignore Leading Line Numbers"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr ""
+
+msgid "Prettify HTML"
+msgstr ""
+
+msgid "Prettify JSON"
+msgstr ""
+
+msgid "Prettify XML"
+msgstr ""
+
+msgid "Prettify YAML"
+msgstr ""
+
+msgid "Preview Graphviz"
+msgstr ""
+
+msgid "Preview Markdown"
+msgstr ""
+
+msgid "Preview PlantUML"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr ""
+
+msgid "Query TSV Data..."
+msgstr ""
+
+msgid "Query JSON Data..."
+msgstr ""
+
+msgid "Query YAML Data..."
+msgstr ""
+
+msgid "Validate HTML"
+msgstr ""
+
+msgid "Disassemble JVM Bytecode"
+msgstr ""
+
+msgid "Disassemble IL Code"
+msgstr ""
+
+msgid "Disassemble Native Code"
+msgstr ""
+
+msgid "Convert Text with AI..."
+msgstr ""
+
+msgid "Unescape Java properties files"
+msgstr ""
+
+msgid "Make characters uppercase"
+msgstr ""
+
+msgid "Make characters lowercase"
+msgstr ""
+
+msgid "Remove duplicate lines"
+msgstr ""
+
+msgid "Count duplicate lines"
+msgstr ""
+
+msgid "Sort lines ascending"
+msgstr ""
+
+msgid "Sort lines descending"
+msgstr ""
+
+msgid "Reverse columns"
+msgstr ""
+
+msgid "Reverse lines"
+msgstr ""
+
+msgid "Replace text.\r\nUsage: Replace [-i] [-e] FIND REPLACE\r\n or: Replace -s\r\n FIND - text to find\r\n REPLACE - text to replace\r\n -i - ignore case (only for -e)\r\n -e - regex\r\n -s - use Substitution Filters"
+msgstr ""
+
+#, c-format
+msgid "Apply filter. \r\nUsage: ExecFilterCommand COMMAND\r\n COMMAND - command to execute. %1 = filename."
+msgstr ""
+
+msgid "Tokenize. \r\nUsage: Tokenize PATTERNS\r\n PATTERNS - regex (e.g. [^\\w]+)"
+msgstr ""
+
+msgid "Trim spaces"
+msgstr ""
+
+msgid "Select columns.\r\nUsage: SelectColumns RANGES\r\n or: SelectColumns [-v] [-i] [-g] -e PATTERNS\r\n RANGES - column ranges (-3,5-10,30-)\r\n PATTERNS - regex\r\n -v - select non-matching\r\n -i - ignore case\r\n -g - enable global flag\r\n -e - use PATTERNS"
+msgstr ""
+
+msgid "Select lines.\r\nUsage: SelectLines RANGES\r\n or: SelectLines [-v] [-i] -e PATTERNS\r\n RANGES - line ranges (-3,5-10,30-)\r\n PATTERNS - regex\r\n -v - select non-matching\r\n -i - ignore case\r\n -e - use PATTERNS"
+msgstr ""
+
+msgid "HTML Prettier (tidy-html5).\r\nArguments: tidy command line options."
+msgstr ""
+
+msgid "JSON Prettier (jq).\r\nArguments: jq filter/command line options."
+msgstr ""
+
+msgid "XML Prettier (tidy-html5).\r\nArguments: tidy command line options."
+msgstr ""
+
+msgid "YAML Prettier (yq).\r\nArguments: yq filter/command line options."
+msgstr ""
+
+msgid "Graphviz Previewer.\r\nArguments: dot command line options."
+msgstr ""
+
+msgid "Markdown Previewer.\r\nArguments: md2html command line options."
+msgstr ""
+
+msgid "PlantUML Previewer.\r\nArguments: plantuml.jar command line options."
+msgstr ""
+
+msgid "CSV Querier (q).\r\nArguments: SQL statement/q comannd line options."
+msgstr ""
+
+msgid "TSV Querier (q).\r\nArguments: SQL statement/q comannd line options."
+msgstr ""
+
+msgid "JSON Querier (jq).\r\nArguments: jq filter/command line options."
+msgstr ""
+
+msgid "YAML Querier (yq).\r\nArguments: yq filter/command line options."
+msgstr ""
+
+msgid "HTML Validator (tidy-html5).\r\nArguments: tidy command line options."
+msgstr ""
+
+msgid "JVM bytecode disassembler (javap).\r\nArguments: javap command line options."
+msgstr ""
+
+msgid "IL disassembler (ildasm).\r\nArguments: ildasm command line options."
+msgstr ""
+
+msgid "Native code disassembler (dumpbin).\r\nArguments: dumpbin command line options."
+msgstr ""
+
+msgid "Content extractor (Apache Tika).\r\nArguments: tika-app.jar command line options."
+msgstr ""
+
+msgid "Apply patch (GNU patch)"
+msgstr ""
+
+msgid "Display MS Excel text content"
+msgstr ""
+
+msgid "Display MS PowerPoint text content"
+msgstr ""
+
+msgid "Display MS Visio text content"
+msgstr ""
+
+msgid "Display MS Word text content"
+msgstr ""
+
+msgid "Ignore columns - list from plugin name/argument"
+msgstr ""
+
+msgid "Ignore C, C++, PHP, and JavaScript comments (//... and /* ... */)."
+msgstr ""
+
+msgid "Ignore fields - list from plugin name/argument"
+msgstr ""
+
+msgid "Ignore leading line numbers (e.g., NC, BASIC)."
+msgstr ""
+
+msgid "Prediff Line Filter"
+msgstr ""
+
+msgid "Date and time insertion"
+msgstr ""
+
+msgid "HTTP URL Scheme Handler (curl).\r\nArguments: curl command line options."
+msgstr ""
+
+msgid "Windows Registry URL Scheme Handler.\r\nArguments: reg.exe command line options."
+msgstr ""
+
+msgid "Basic text functions"
+msgstr ""
+
+msgid "AI-assisted text conversion"
+msgstr ""
+
+msgid "Text converter (OpenAI API).\r\nUsage: AIConvertText PROMPT"
+msgstr ""
+
+msgid "Unescape and display escaped Java properties files."
+msgstr ""
+
+msgid "CompareMSExcelFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract workbook data to multiple files"
+msgstr ""
+
+msgid "Update external references (links)"
+msgstr ""
+
+msgid "Compare document properties"
+msgstr ""
+
+msgid "Compare names"
+msgstr ""
+
+msgid "Compare cell values"
+msgstr ""
+
+msgid "Compare worksheets as image (very slow)"
+msgstr ""
+
+msgid " - Image split size: "
+msgstr ""
+
+msgid "Compare worksheets as HTML"
+msgstr ""
+
+msgid "Compare formulas"
+msgstr ""
+
+msgid "Compare texts in shapes"
+msgstr ""
+
+msgid "Compare headers and footers"
+msgstr ""
+
+msgid "Cannot get Macros.\r\nEnable 'Trust access to Visual Basic Project' in MS Office Macro Security."
+msgstr ""
+
+msgid "Compare VBA macros"
+msgstr ""
+
+msgid "CompareMSWordFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract document data to multiple files"
+msgstr ""
+
+msgid "Compare bookmarks"
+msgstr ""
+
+msgid "Compare text contents of documents"
+msgstr ""
+
+msgid "Compare documents as HTML file (very slow)"
+msgstr ""
+
+msgid "CompareMSPowerPointFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract slide data to multiple files"
+msgstr ""
+
+msgid "Compare slides as image (very slow)"
+msgstr ""
+
+msgid "Compare texts in notes page"
+msgstr ""
+
+msgid "CompareMSVisioFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract page data to multiple files"
+msgstr ""
+
+msgid "Compare pages as image (very slow)"
+msgstr ""
+
+msgid "PrediffLineFilter.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Ignore Case"
+msgstr ""
+
+msgid "Use RegExp"
+msgstr ""
+
+msgid "Find what"
+msgstr ""
+
+msgid "Replace with"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Column Ranges to Ignore:\ne.g.) 3,10-20,32-33\n"
+msgstr ""
+
+#, c-format
+msgid "Enter filename for patch '%1'"
+msgstr ""
+
+#, c-format
+msgid "File '%1' does not exist"
+msgstr ""
+
+msgid "Enter command line arguments for patch"
+msgstr ""
+
+#, c-format
+msgid "Enter folder name for patch '%1'"
+msgstr ""
+
+#, c-format
+msgid "Folder '%1' does not exist"
+msgstr ""
+
+msgid "Do not use '-p0' for patch files with absolute paths"
+msgstr ""
+
+msgid "AI.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Enter prompt"
+msgstr ""
+
+#, c-format
+msgid "Enter OpenAI API key.\r\n- Requires OpenAI registration (fees may apply).\r\n- Key stored in env var %1."
+msgstr ""
+
+msgid "Environment variable name for OpenAI API key"
+msgstr ""
+
+msgid "OpenAI API key"
+msgstr ""
+
+msgid "Temperature"
+msgstr ""
+
+msgid "Maximum length"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "OpenAI API key changed. Restart to apply."
+msgstr ""

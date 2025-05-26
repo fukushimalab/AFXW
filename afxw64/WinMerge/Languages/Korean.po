@@ -1,0 +1,5783 @@
+# This file is from WinMerge <https://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+# Translators:
+# * VenusGirl <VenusGirl at https://github.com/VenusGirl>
+# * Hwang Sukjoon <bbcool at gmail.com>
+# * Lee Jae-Hong <pyrasis at users.sourceforge.net>
+# * Sushizang <sushizang at empal.com>
+# * sheppaul <sheppaul at gmail.com>
+# * teamzamong <teamzamong at gmail.com>
+# * BrainS <29201475+BraINstinct0 at users.noreply.github.com>
+# * cynilyn <cynilyn at gmail.com>
+# * gro00 <gheong.ro at gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues/\n"
+"POT-Creation-Date: 2022-01-22 21:51+0000\n"
+"PO-Revision-Date: 2025-01-25 00:09+0900\n"
+"Last-Translator: VenusGirl <https://github.com/VenusGirl>\n"
+"Language-Team: VenusGirl: https://venusgirls.tistory.com/\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../Src\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Bookmarks: 308,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#. LANGUAGE, SUBLANGUAGE
+#, c-format
+msgid "LANG_ENGLISH, SUBLANG_ENGLISH_US"
+msgstr "LANG_KOREAN, SUBLANG_DEFAULT"
+
+msgid "Copy to Middle"
+msgstr "가운데로 복사"
+
+msgid "C&opy to Right\tAlt+Right"
+msgstr "오른쪽으로 복사(&O)\tAlt+Right"
+
+msgid "Copy from Middle"
+msgstr "가운데에서 복사"
+
+msgid "Copy fro&m Right\tAlt+Shift+Left"
+msgstr "오른쪽에서 복사(&M)\tAlt+Shift+Left"
+
+msgid "Cop&y to Left\tAlt+Left"
+msgstr "왼쪽으로 복사(&Y)\tAlt+Left"
+
+msgid "Copy &from Left\tAlt+Shift+Right"
+msgstr "왼쪽에서 복사(&F)\tAlt+Shift+Right"
+
+msgid "Copy Selected Lines to Middle"
+msgstr "선택한 줄을 가운데로 복사"
+
+msgid "Copy Selected Lines to Right"
+msgstr "선택한 줄을 오른쪽으로 복사"
+
+msgid "Copy Selected Lines from Middle"
+msgstr "가운데에서 선택한 줄 복사"
+
+msgid "Copy Selected Lines from Right"
+msgstr "오른쪽에서 선택한 줄 복사"
+
+msgid "Copy Selected Lines to Left"
+msgstr "선택한 줄을 왼쪽으로 복사"
+
+msgid "Copy Selected Lines from Left"
+msgstr "왼쪽에서 선택한 줄 복사"
+
+msgid "Copy Selected Diff (Left) to Clipboard\tCtrl+&1"
+msgstr "선택한 차이점 (왼쪽)을 클립보드에 복사\tCtrl+&1"
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&2"
+msgstr "선택한 차이점 (오른쪽)을 클립보드로 복사\tCtrl+&2"
+
+msgid "Copy Selected Diff (Middle) to Clipboard\tCtrl+&2"
+msgstr "선택한 차이점 (가운데)을 클립보드로 복사\tCtrl+&2"
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&3"
+msgstr "선택한 차이점 (오른쪽)을 클립보드로 복사\tCtrl+&3"
+
+#, c-format
+msgid "Select Line &Difference\tF4"
+msgstr "다음 차이점 선택(&D)\tF4"
+
+msgid "Add to Substitution &Filters"
+msgstr "대체 필터에 이 변경 사항 추가(&F)"
+
+msgid "Add to &Line Filters"
+msgstr "줄 필터에 추가(&L)"
+
+#, c-format
+msgid "&Undo"
+msgstr "실행 취소(&U)"
+
+#, c-format
+msgid "&Redo"
+msgstr "다시 실행(&R)"
+
+#, c-format
+msgid "Cu&t"
+msgstr "잘라내기(&T)"
+
+#, c-format
+msgid "&Copy"
+msgstr "복사(&C)"
+
+#, c-format
+msgid "&Paste"
+msgstr "붙여넣기(&P)"
+
+#, c-format
+msgid "&Scripts"
+msgstr "스크립트(&S)"
+
+#, c-format
+msgid "< Empty >"
+msgstr "< 비어 있음 >"
+
+msgid "&Go to...\tCtrl+G"
+msgstr "이동(&G)...\tCtrl+G"
+
+msgid "Go to Moved Line Between Left and Middle\tCtrl+Shift+G"
+msgstr "왼쪽과 가운데 사이 이동된 줄로 이동\tCtrl+Shift+G"
+
+msgid "Go to Moved Line Between Middle and Right\tCtrl+Alt+G"
+msgstr "가운데와 오른쪽 사이 이동된 줄로 이동\tCtrl+Alt+G"
+
+#, c-format
+msgid "Op&en"
+msgstr "열기(&E)"
+
+msgid "With &Registered Application"
+msgstr "등록된 응용 프로그램 사용(&R)"
+
+msgid "With &External Editor\tCtrl+Alt+E"
+msgstr "외부 편집기 사용(&E)\tCtrl+Alt+E"
+
+msgid "&With..."
+msgstr "프로그램 선택(&W)..."
+
+msgid "Open &Parent Folder..."
+msgstr "상위 폴더 열기(&P)"
+
+msgid "S&hell Menu"
+msgstr "셸 메뉴(&H)"
+
+msgid "Use First Line as Headers"
+msgstr "첫 번째 줄을 머리글로 사용"
+
+msgid "Auto-Fit All Columns"
+msgstr "모든 열 자동 맞춤"
+
+#, c-format
+msgid "View &Differences"
+msgstr "차이점 보기(&D)"
+
+#, c-format
+msgid "Diff &Block Size"
+msgstr "차이점 블럭 크기(&B)"
+
+#, c-format
+msgid "&Ignore Color Difference"
+msgstr "색상 차이 무시 (색상 거리 임계값)(&I)"
+
+msgid "Ins&ertion/Deletion Detection"
+msgstr "삽입/삭제 감지(&E)"
+
+#, c-format
+msgid "&None"
+msgstr "없음(&N)"
+
+msgid "&Vertical"
+msgstr "수직(&V)"
+
+msgid "&Horizontal"
+msgstr "수평(&H)"
+
+#, c-format
+msgid "&Previous Page"
+msgstr "이전 페이지(&P)"
+
+#, c-format
+msgid "&Next Page"
+msgstr "다음 페이지(&N)"
+
+#, c-format
+msgid "&Active Pane"
+msgstr "활성 패널(&A)"
+
+msgid "Rotate &Right 90deg"
+msgstr "오른쪽으로 90도 회전(&R)"
+
+msgid "Rotate &Left 90deg"
+msgstr "왼쪽으로 90도 회전(&L)"
+
+msgid "Flip V&ertically"
+msgstr "수직으로 뒤집기(&E)"
+
+msgid "Flip H&orizontally"
+msgstr "수평으로 뒤집기(&O)"
+
+#, c-format
+msgid "&Zoom"
+msgstr "확대/축소(&Z)"
+
+#, c-format
+msgid "25%"
+msgstr "25%"
+
+#, c-format
+msgid "Zoom &In\tCtrl++"
+msgstr "확대(&I)\tCtrl++"
+
+#, c-format
+msgid "Zoom &Out\tCtrl+-"
+msgstr "축소(&O)\tCtrl+-"
+
+#. Zoom to normal
+#, c-format
+msgid "&Normal\tCtrl+*"
+msgstr "정상(&N)\tCtrl+*"
+
+#, c-format
+msgid "&Overlay"
+msgstr "오버레이(&O)"
+
+#, c-format
+msgid "&Alpha Blend"
+msgstr "알파 블렌드(&A)"
+
+#, c-format
+msgid "Alpha &Blend Animation"
+msgstr "알파 블렌드 애니메이션(&B)"
+
+#, c-format
+msgid "Dragging &Mode"
+msgstr "끌기 모드(&M)"
+
+#, c-format
+msgid "&Move"
+msgstr "이동(&M)"
+
+#, c-format
+msgid "&Adjust Offset"
+msgstr "오프셋 조정(&A)"
+
+msgid "&Vertical Wipe"
+msgstr "수직 지우기(&V)"
+
+msgid "&Horizontal Wipe"
+msgstr "수평 지우기(&H)"
+
+msgid "Rectangle &Select"
+msgstr "직사각형 영역 선택(&S)"
+
+#, c-format
+msgid "&Set Background Color"
+msgstr "배경색 설정(&S)"
+
+msgid "&Vector Image Scaling"
+msgstr "벡터 이미지 확대/축소(&V)"
+
+msgid "&Animation Settings"
+msgstr "애니메이션 설정(&A)"
+
+msgid "&Blink Interval"
+msgstr "깜박임 간격(&B)"
+
+msgid "&Overlay Animation Interval"
+msgstr "오버레이 애니메이션 간격(&O)"
+
+msgid "Compare Extracted &Text from Images"
+msgstr "이미지에서 추출한 텍스트 비교(&T)"
+
+msgid "Co&mpare"
+msgstr "비교(&M)"
+
+msgid "&Screenshots"
+msgstr "스크린샷(&S)"
+
+msgid "&Full Size Screenshots"
+msgstr "전체 크기 스크린샷(&F)"
+
+msgid "&HTMLs"
+msgstr "HTML(&H)"
+
+msgid "&Texts"
+msgstr "텍스트(&T)"
+
+msgid "&Resource Trees"
+msgstr "리소스 트리(&R)"
+
+msgid "&Size"
+msgstr "크기(&S)"
+
+msgid "Fit to Window"
+msgstr "창에 맞춤"
+
+msgid "&Event Sync"
+msgstr "이벤트 동기화(&E)"
+
+msgid "&Enabled"
+msgstr "사용함(&E)"
+
+msgid "&Scroll"
+msgstr "스크롤(&S)"
+
+msgid "&Click"
+msgstr "클릭(&C)"
+
+msgid "&Input"
+msgstr "입력(&I)"
+
+msgid "&Go Back/Forward"
+msgstr "뒤로 이동/앞으로(&G)"
+
+msgid "Clear &Browsing Data"
+msgstr "검색 데이터 지우기(&B)"
+
+msgid "&Disk Cache"
+msgstr "디스크 캐시(&D)"
+
+msgid "&Cookies"
+msgstr "쿠키(&C)"
+
+msgid "&Browsing History"
+msgstr "검색 기록(&B)"
+
+msgid "&All Profiles"
+msgstr "모든 프로필(&A)"
+
+#, c-format
+msgid "&File"
+msgstr "파일(&F)"
+
+#, c-format
+msgid "&New"
+msgstr "새로 만들기(&N)"
+
+#, c-format
+msgid "&Text"
+msgstr "텍스트(&T)"
+
+msgid "T&able"
+msgstr "테이블(&A)"
+
+#, c-format
+msgid "&Binary"
+msgstr "바이너리(&B)"
+
+#, c-format
+msgid "&Image"
+msgstr "이미지(&I)"
+
+msgid "&Webpage"
+msgstr "웹페이지(&W)"
+
+#, c-format
+msgid "New (&3 panes)"
+msgstr "새로 만들기 (3개 패널)(&3)"
+
+#, c-format
+msgid "&Open...\tCtrl+O"
+msgstr "열기(&O)...\tCtrl+O"
+
+msgid "Open Conflic&t File..."
+msgstr "충돌 파일 열기(&T)..."
+
+msgid "Open C&lipboard"
+msgstr "클립보드 열기(&L)"
+
+#, c-format
+msgid "Open Pro&ject...\tCtrl+J"
+msgstr "프로젝트 열기(&J)...\tCtrl+J"
+
+#, c-format
+msgid "Sa&ve Project..."
+msgstr "프로젝트 저장(&V)..."
+
+#, c-format
+msgid "Recent Projects"
+msgstr "최근 프로젝트"
+
+#, c-format
+msgid "Recent F&iles or Folders"
+msgstr "최근 파일/폴더(&I)"
+
+msgid "E&xit\tCtrl+Q"
+msgstr "종료(&X)\tCtrl+Q"
+
+#, c-format
+msgid "&Edit"
+msgstr "편집(&E)"
+
+#, c-format
+msgid "&Paste\tCtrl+V"
+msgstr "붙여넣기(&P)\tCtrl+V"
+
+#, c-format
+msgid "&Options...\tCtrl+,"
+msgstr "옵션(&O)...\tCtrl+,"
+
+#, c-format
+msgid "&View"
+msgstr "보기(&V)"
+
+#, c-format
+msgid "Ta&b Bar"
+msgstr "탭 표시줄(&B)"
+
+msgid "&View Tab Bar"
+msgstr "보기 탭 표시줄(&V)"
+
+msgid "&On Title Bar"
+msgstr "제목 표시줄에(&O)"
+
+#, c-format
+msgid "&Toolbar"
+msgstr "도구 모음(&T)"
+
+#, c-format
+msgid "&Small"
+msgstr "작게(&S)"
+
+msgid "&Medium"
+msgstr "중간(&M)"
+
+#, c-format
+msgid "&Big"
+msgstr "크게(&B)"
+
+#, c-format
+msgid "&Huge"
+msgstr "매우 크게(&H)"
+
+msgid "Men&u Bar"
+msgstr "메뉴 표시줄(&U)"
+
+msgid "&Output Pane"
+msgstr ""
+
+#, c-format
+msgid "&Status Bar"
+msgstr "상태 표시줄(&S)"
+
+#, c-format
+msgid "&Tools"
+msgstr "도구(&T)"
+
+#, c-format
+msgid "&Filters..."
+msgstr "필터(&F)..."
+
+#, c-format
+msgid "&Generate Patch..."
+msgstr "패치 생성(&G)..."
+
+#, c-format
+msgid "&Plugins"
+msgstr "플러그인(&P)"
+
+#, c-format
+msgid "P&lugin Settings..."
+msgstr "플러그인 설정(&L)..."
+
+#, c-format
+msgid "Ma&nual Prediffer"
+msgstr "수동 사전 차이(&N)"
+
+#, c-format
+msgid "A&utomatic Prediffer"
+msgstr "자동 사전 차이(&U)"
+
+#, c-format
+msgid "&Manual Unpacking"
+msgstr "수동 압축 풀기(&M)"
+
+#, c-format
+msgid "&Automatic Unpacking"
+msgstr "자동 압축 풀기(&A)"
+
+#, c-format
+msgid "&Reload Plugins"
+msgstr "플러그인 다시 불러오기(&R)"
+
+#, c-format
+msgid "&Window"
+msgstr "창(&W)"
+
+msgid "Cl&ose\tCtrl+W"
+msgstr "닫기(&O)\tCtrl+W"
+
+#, c-format
+msgid "Clo&se All"
+msgstr "모두 닫기(&S)"
+
+#, c-format
+msgid "Change &Pane\tF6"
+msgstr "패널 전환(&P)\tF6"
+
+#, c-format
+msgid "Tile &Horizontally"
+msgstr "수평 배열(&H)"
+
+#, c-format
+msgid "Tile &Vertically"
+msgstr "수직 배열(&V)"
+
+#, c-format
+msgid "&Cascade"
+msgstr "계단식(&C)"
+
+#, c-format
+msgid "&Help"
+msgstr "도움말(&H)"
+
+#, c-format
+msgid "&WinMerge Help\tF1"
+msgstr "WinMerge 도움말(&W)\tF1"
+
+#, c-format
+msgid "R&elease Notes"
+msgstr "릴리즈 노트(&E)"
+
+#, c-format
+msgid "&Translations"
+msgstr "번역(&T)"
+
+#, c-format
+msgid "C&onfiguration"
+msgstr "구성(&O)"
+
+#, c-format
+msgid "&GNU General Public License"
+msgstr "GNU 일반 공용 라이선스(&G)"
+
+#, c-format
+msgid "&About WinMerge..."
+msgstr "WinMerge 정보(&A)..."
+
+#, c-format
+msgid "&Read-Only"
+msgstr "읽기 전용(&R)"
+
+#, c-format
+msgid "L&eft Read-Only"
+msgstr "왼쪽 읽기 전용(&E)"
+
+#, c-format
+msgid "M&iddle Read-Only"
+msgstr "가운데 읽기 전용(&I)"
+
+#, c-format
+msgid "Ri&ght Read-Only"
+msgstr "오른쪽 읽기 전용(&G)"
+
+#, c-format
+msgid "&File Encoding..."
+msgstr "파일 인코딩(&F)..."
+
+#, c-format
+msgid "Select &All\tCtrl+A"
+msgstr "전체 선택(&A)\tCtrl+A"
+
+#, c-format
+msgid "Show &Identical Items"
+msgstr "같은 항목 표시(&I)"
+
+#, c-format
+msgid "Show &Different Items"
+msgstr "다른 항목 표시(&D)"
+
+#, c-format
+msgid "Show L&eft Unique Items"
+msgstr "왼쪽에만 있는 항목 표시(&E)"
+
+#, c-format
+msgid "Show Midd&le Unique Items"
+msgstr "가운데에만 있는 항목 표시(&L)"
+
+#, c-format
+msgid "Show Ri&ght Unique Items"
+msgstr "오른쪽에만 있는 항목 표시(&G)"
+
+#, c-format
+msgid "Show S&kipped Items"
+msgstr "건너뛴 항목 표시(&K)"
+
+#, c-format
+msgid "S&how Binary Files"
+msgstr "바이너리 파일 표시(&H)"
+
+#, c-format
+msgid "&3-way Compare"
+msgstr "3 방향 비교(&3)"
+
+#, c-format
+msgid "Show &Left Only Different Items"
+msgstr "왼쪽만 다른 항목 표시(&L)"
+
+#, c-format
+msgid "Show &Middle Only Different Items"
+msgstr "가운데만 다른 항목 표시(&M)"
+
+#, c-format
+msgid "Show &Right Only Different Items"
+msgstr "오른쪽만 다른 항목 표시(&R)"
+
+msgid "Show L&eft Only Missing Items"
+msgstr "왼쪽만 없는 항목 표시(&E)"
+
+msgid "Show Mi&ddle Only Missing Items"
+msgstr "가운데만 없는 항목 표시(&D)"
+
+msgid "Show Rig&ht Only Missing Items"
+msgstr "오른쪽만 없는 항목 표시(&H)"
+
+#, c-format
+msgid "Show Hidd&en Items"
+msgstr "숨김 파일 표시(&E)"
+
+#, c-format
+msgid "Tree &Mode"
+msgstr "트리 모드(&M)"
+
+msgid "E&xpand Subfolders"
+msgstr "하위 폴더 확장(&X)"
+
+msgid "&All Subfolders"
+msgstr "모든 하위 폴더(&A)"
+
+msgid "&Different Subfolders"
+msgstr "다른 하위 폴더(&D)"
+
+msgid "&Identical Subfolders"
+msgstr "같은 하위 폴더(&I)"
+
+#, c-format
+msgid "&Collapse All Subfolders"
+msgstr "모든 하위 폴더 접기(&C)"
+
+#, c-format
+msgid "Select &Font..."
+msgstr "글꼴 선택(&F)..."
+
+#, c-format
+msgid "Use Default Font"
+msgstr "기본 글꼴 사용"
+
+#, c-format
+msgid "Sw&ap Panes"
+msgstr "패널 맞바꾸기(&A)"
+
+msgid "Swap &1st | 2nd"
+msgstr "첫 번째와 두 번째 맞바꾸기(&1)"
+
+msgid "Swap &2nd | 3rd"
+msgstr "두 번째와 세 번째 맞바꾸기(&2)"
+
+msgid "Swap 1st | &3rd"
+msgstr "첫 번째와 세 번째 맞바꾸기(&3)"
+
+#, c-format
+msgid "Com&pare Statistics..."
+msgstr "통계 비교(&P)..."
+
+#, c-format
+msgid "Refresh\tF5"
+msgstr "새로 고침\tF5"
+
+#, c-format
+msgid "&Refresh Selected\tCtrl+F5"
+msgstr "선택 영역 새로 고침(&R)\tCtrl+F5"
+
+#, c-format
+msgid "&Merge"
+msgstr "병합(&M)"
+
+#, c-format
+msgid "Co&mpare\tEnter"
+msgstr "비교(&M)\tEnter"
+
+#, c-format
+msgid "&Next Difference\tAlt+Down"
+msgstr "다음 차이점(&N)\tAlt+Down"
+
+#, c-format
+msgid "&Previous Difference\tAlt+Up"
+msgstr "이전 차이점(&P)\tAlt+Up"
+
+#, c-format
+msgid "&First Difference\tAlt+Home"
+msgstr "처음 차이점(&F)\tAlt+Home"
+
+#, c-format
+msgid "&Current Difference\tAlt+Enter"
+msgstr "현재 차이점(&C)\tAlt+Enter"
+
+#, c-format
+msgid "&Last Difference\tAlt+End"
+msgstr "마지막 차이점(&L)\tAlt+End"
+
+#, c-format
+msgid "Copy to &Right\tAlt+Right"
+msgstr "오른쪽으로 복사(&R)\tAlt+Right"
+
+#, c-format
+msgid "Copy to L&eft\tAlt+Left"
+msgstr "왼쪽으로 복사(&E)\tAlt+Left"
+
+#, c-format
+msgid "&Delete\tDel"
+msgstr "삭제(&D)\tDel"
+
+#, c-format
+msgid "&Customize Columns..."
+msgstr "열 사용자 정의(&C)..."
+
+#, c-format
+msgid "Generate &Report..."
+msgstr "보고서 생성(&R)..."
+
+#, c-format
+msgid "&Edit with Unpacker..."
+msgstr "압축을 풀어 편집(&E)..."
+
+#, c-format
+msgid "&Save\tCtrl+S"
+msgstr "저장(&S)\tCtrl+S"
+
+#, c-format
+msgid "Sav&e"
+msgstr "저장(&E)"
+
+#, c-format
+msgid "Save &Left"
+msgstr "왼쪽 저장(&L)"
+
+#, c-format
+msgid "Save &Middle"
+msgstr "가운데 저장(&M)"
+
+#, c-format
+msgid "Save &Right"
+msgstr "오른쪽 저장(&R)"
+
+#, c-format
+msgid "Save &As"
+msgstr "다른 이름으로(&A)"
+
+#, c-format
+msgid "Save &Left As..."
+msgstr "왼쪽 저장(&L)..."
+
+#, c-format
+msgid "Save &Middle As..."
+msgstr "가운데 저장(&M)..."
+
+#, c-format
+msgid "Save &Right As..."
+msgstr "오른쪽 저장(&R)..."
+
+msgid "&Print...\tCtrl+P"
+msgstr "인쇄(&P)...\tCtrl+P"
+
+msgid "Page Set&up..."
+msgstr "페이지 설정(&U)..."
+
+msgid "Print Previe&w..."
+msgstr "인쇄 미리보기(&W)..."
+
+#, c-format
+msgid "&Convert Line Endings to"
+msgstr "줄 끝 변환(&C)"
+
+#, c-format
+msgid "Mer&ge Mode\tF9"
+msgstr "병합 모드(&G)\tF9"
+
+msgid "Reloa&d\tCtrl+F5"
+msgstr "다시불러오기(&D)\tCtrl+F5"
+
+#, c-format
+msgid "Reco&mpare As"
+msgstr "다시 비교(&M)"
+
+#, c-format
+msgid "&Undo\tCtrl+Z"
+msgstr "실행 취소(&U)\tCtrl+Z"
+
+#, c-format
+msgid "&Redo\tCtrl+Y"
+msgstr "다시 실행(&R)\tCtrl+Y"
+
+#, c-format
+msgid "Cu&t\tCtrl+X"
+msgstr "잘라내기(&T)\tCtrl+X"
+
+#, c-format
+msgid "&Copy\tCtrl+C"
+msgstr "복사(&C)\tCtrl+C"
+
+#, c-format
+msgid "F&ind...\tCtrl+F"
+msgstr "찾기(&I)...\tCtrl+F"
+
+#, c-format
+msgid "Repla&ce...\tCtrl+H"
+msgstr "바꾸기(&C)...\tCtrl+H"
+
+#, c-format
+msgid "&Marker...\tCtrl+Shift+M"
+msgstr "마커(&M)...\tCtrl+Shift+M"
+
+#, c-format
+msgid "Advanced"
+msgstr "고급"
+
+#, c-format
+msgid "&Copy With Line Numbers\tCtrl+Shift+C"
+msgstr "줄 번호 포함 복사(&C)\tCtrl+Shift+C"
+
+#, c-format
+msgid "&Bookmarks"
+msgstr "책갈피(&B)"
+
+#, c-format
+msgid "&Toggle Bookmark\tCtrl+F2"
+msgstr "책갈피 전환(&T)\tCtrl+F2"
+
+#, c-format
+msgid "&Next Bookmark\tF2"
+msgstr "다음 책갈피(&N)\tF2"
+
+#, c-format
+msgid "&Previous Bookmark\tShift+F2"
+msgstr "이전 책갈피(&P)\tShift+F2"
+
+#, c-format
+msgid "&Clear All Bookmarks"
+msgstr "전체 책갈피 지우기(&C)"
+
+#, c-format
+msgid "Syntax Highlight"
+msgstr "구문 강조"
+
+#, c-format
+msgid "&Diff Context"
+msgstr "문맥 차이(&D)"
+
+#, c-format
+msgid "&All Lines"
+msgstr "모든 줄(&A)"
+
+#, c-format
+msgid "&0 Lines"
+msgstr "&0 줄"
+
+#, c-format
+msgid "&1 Line"
+msgstr "&1 줄"
+
+#, c-format
+msgid "&3 Lines"
+msgstr "&3 줄"
+
+#, c-format
+msgid "&5 Lines"
+msgstr "&5 줄"
+
+#, c-format
+msgid "&7 Lines"
+msgstr "&7 줄"
+
+#, c-format
+msgid "&9 Lines"
+msgstr "&9 줄"
+
+#, c-format
+msgid "&Toggle All and 0-9 Lines\tCtrl+D"
+msgstr "모든 및 0-9 줄 전환(&T)\tCtrl+D"
+
+msgid "&Invert (Hide Different Lines)"
+msgstr "반전 (다른 줄 숨기기)(&I)"
+
+#, c-format
+msgid "&Lock Panes"
+msgstr "패널 잠금(&L)"
+
+#, c-format
+msgid "&View Whitespace"
+msgstr "공백 보기(&V)"
+
+msgid "View E&OL"
+msgstr "EOL 보기(&O)"
+
+#, c-format
+msgid "Vie&w Line Differences"
+msgstr "줄 차이점 보기(&W)"
+
+#, c-format
+msgid "View Line &Numbers"
+msgstr "줄 번호 보기(&N)"
+
+#, c-format
+msgid "View &Margins"
+msgstr "여백 보기(&M)"
+
+msgid "View To&p Margins"
+msgstr "상단 여백 보기(&P)"
+
+#, c-format
+msgid "W&rap Lines"
+msgstr "자동 줄 바꿈(&R)"
+
+#, c-format
+msgid "Split V&ertically"
+msgstr "수직 분할(&E)"
+
+#, c-format
+msgid "Diff &Pane"
+msgstr "차이점 패널(&P)"
+
+#, c-format
+msgid "Lo&cation Pane"
+msgstr "위치 패널(&C)"
+
+msgid "Output Pane"
+msgstr ""
+
+#, c-format
+msgid "Ne&xt Conflict\tAlt+Shift+Down"
+msgstr "다음 충돌(&X)\tAlt+Shift+Down"
+
+#, c-format
+msgid "Pre&vious Conflict\tAlt+Shift+Up"
+msgstr "이전 충돌(&V)\tAlt+Shift+Up"
+
+#, c-format
+msgid "A&dvanced"
+msgstr "고급(&D)"
+
+#, c-format
+msgid "Next Difference (Left/Middle)\tAlt+1"
+msgstr "다음 차이점: 왼쪽과 가운데 사이\tAlt+1"
+
+#, c-format
+msgid "Previous Difference (Left/Middle)\tAlt+Shift+1"
+msgstr "이전 차이점: 왼쪽과 가운데 사이\tAlt+Shift+1"
+
+#, c-format
+msgid "Next Difference (Left/Right)\tAlt+2"
+msgstr "다음 차이점: 왼쪽과 오른쪽 사이\tAlt+2"
+
+#, c-format
+msgid "Previous Difference (Left/Right)\tAlt+Shift+2"
+msgstr "이천 차이점: 왼쪽과 오른쪽 사이\tAlt+Shift+2"
+
+#, c-format
+msgid "Next Difference (Middle/Right)\tAlt+3"
+msgstr "다음 차이점: 가운데와 오른쪽 사이\tAlt+3"
+
+#, c-format
+msgid "Previous Difference (Middle/Right)\tAlt+Shift+3"
+msgstr "이전 차이점: 가운데와 오른쪽 사이\tAlt+Shift+3"
+
+#, c-format
+msgid "Next Left-Only Difference\tAlt+7"
+msgstr "다음 차이점: 왼쪽만\tAlt+7"
+
+#, c-format
+msgid "Previous Left-Only Difference\tAlt+Shift+7"
+msgstr "이전 차이점: 왼쪽만\tAlt+Shift+7"
+
+#, c-format
+msgid "Next Middle-Only Difference\tAlt+8"
+msgstr "다음 차이점: 가운데만\tAlt+8"
+
+#, c-format
+msgid "Previous Middle-Only Difference\tAlt+Shift+8"
+msgstr "이전 차이점: 가운데만\tAlt+Shift+8"
+
+#, c-format
+msgid "Next Right-Only Difference\tAlt+9"
+msgstr "다음 차이점: 오른쪽만\tAlt+9"
+
+#, c-format
+msgid "Previous Right-Only Difference\tAlt+Shift+9"
+msgstr "이전 차이점: 오른쪽만\tAlt+Shift+9"
+
+msgid "Copy from &Left to"
+msgstr "왼쪽에서 복사(&L)"
+
+#, c-format
+msgid "&Middle"
+msgstr "가운데(&M)"
+
+#, c-format
+msgid "&Right"
+msgstr "오른쪽(&R)"
+
+msgid "Copy from &Middle to"
+msgstr "가운데에서 복사(&M)"
+
+#, c-format
+msgid "&Left"
+msgstr "왼쪽(&L)"
+
+msgid "Copy from &Right to"
+msgstr "오른쪽에서 복사(&R)"
+
+msgid "Copy Selected Lines from Le&ft to"
+msgstr "왼쪽에서 선택한 줄을 복사(&F)"
+
+msgid "Copy Selected Lines from Mi&ddle to"
+msgstr "가운데에서 선택한 줄을 복사(&D)"
+
+msgid "Copy Selected Lines from Ri&ght to"
+msgstr "오른쪽에서 선택한 줄을 복사(&G)"
+
+#, c-format
+msgid "Copy from Left\tAlt+Shift+Right"
+msgstr "왼쪽에서 복사\tAlt+Shift+Right"
+
+#, c-format
+msgid "Copy from Right\tAlt+Shift+Left"
+msgstr "오른쪽에서 복사\tAlt+Shift+Left"
+
+msgid "C&opy to Right and Advance\tCtrl+Alt+Right"
+msgstr "오른쪽으로 복사 후 진행(&O)\tCtrl+Alt+Right"
+
+msgid "Copy &to Left and Advance\tCtrl+Alt+Left"
+msgstr "왼쪽으로 복사 후 진행(&T)\tCtrl+Alt+Left"
+
+#, c-format
+msgid "Copy &All to Right"
+msgstr "모두 오른쪽으로 복사(&A)"
+
+#, c-format
+msgid "Cop&y All to Left"
+msgstr "모두 왼쪽으로 복사(&Y)"
+
+msgid "A&uto Merge\tCtrl+Alt+M"
+msgstr "자동 병합(&U)\tCtrl+Alt+M"
+
+#, c-format
+msgid "Add &Synchronization Point\tAlt+S"
+msgstr "동기화 지점 추가(&S)\tAlt+S"
+
+#, c-format
+msgid "Clear Sync&hronization Points"
+msgstr "동기화 지점 지우기(&H)"
+
+msgid "Unpac&ker"
+msgstr "압축 풀기(&K)"
+
+#, c-format
+msgid "&Prediffer"
+msgstr "사전 차이(&P)"
+
+msgid "Apply Pre&differ..."
+msgstr "사전 차이 적용(&D)..."
+
+msgid "&Transform with Editor Script..."
+msgstr "편집기 스크립트로 변환(&T)..."
+
+msgid "Scripts for &Copying"
+msgstr "복사할 때 스크립트(&C)"
+
+msgid "Select &Editor Script..."
+msgstr "편집기 스크립트 선택(&E)..."
+
+#, c-format
+msgid "Sp&lit"
+msgstr "분할(&L)"
+
+#, c-format
+msgid "Comp&are"
+msgstr "비교(&A)"
+
+msgid "Compare in New &Window"
+msgstr "새 창에서 비교(&W)"
+
+msgid "Compare Non-hor&izontally..."
+msgstr "수평이 아닌 방식으로 비교(&I)..."
+
+#, c-format
+msgid "Compare Non-hor&izontally"
+msgstr "수평이 아닌 방식으로 비교(&I)"
+
+#, c-format
+msgid "First &Left with Second Left"
+msgstr "첫 번째 왼쪽 항목을 두 번째 왼쪽 항목으로(&L)"
+
+#, c-format
+msgid "First &Right with Second Right"
+msgstr "첫 번째 오른쪽 항목을 두 번째 오른쪽 항목으로(&R)"
+
+#, c-format
+msgid "&First Left with Second Right"
+msgstr "첫 번째 왼쪽 항목을 두 번째 오른쪽 항목으로(&F)"
+
+#, c-format
+msgid "&Second Left with First Right"
+msgstr "두 번째 왼쪽 항목을 첫 번째 오른쪽 항목으로(&S)"
+
+#, c-format
+msgid "Co&mpare As"
+msgstr "다른 방식으로 비교(&M)"
+
+#, c-format
+msgid "Left to Middle (%1 of %2)"
+msgstr "왼쪽에서 가운데로 (%1 / %2)"
+
+#, c-format
+msgid "Left to Right (%1 of %2)"
+msgstr "왼쪽에서 오른쪽으로 (%1 / %2)"
+
+#, c-format
+msgid "Left to... (%1 of %2)"
+msgstr "왼쪽에서... (%1 / %2)"
+
+#, c-format
+msgid "Middle to Left (%1 of %2)"
+msgstr "가운데에서 왼쪽으로 (%1 / %2)"
+
+#, c-format
+msgid "Middle to Right (%1 of %2)"
+msgstr "가운데에서 오른쪽으로 (%1 / %2)"
+
+#, c-format
+msgid "Middle to... (%1 of %2)"
+msgstr "가운데에서... (%1 / %2)"
+
+#, c-format
+msgid "Right to Middle (%1 of %2)"
+msgstr "오른쪽에서 가운데로 (%1 / %2)"
+
+#, c-format
+msgid "Right to Left (%1 of %2)"
+msgstr "오른쪽에서 왼쪽으로 (%1 / %2)"
+
+#, c-format
+msgid "Right to... (%1 of %2)"
+msgstr "오른쪽에서... (%1 / %2)"
+
+#, c-format
+msgid "&Delete"
+msgstr "삭제(&D)"
+
+#, c-format
+msgid "&Both"
+msgstr "양쪽(&B)"
+
+#, c-format
+msgid "&All"
+msgstr "전체(&A)"
+
+#, c-format
+msgid "Re&name"
+msgstr "이름 바꾸기(&N)"
+
+#, c-format
+msgid "&Hide Items"
+msgstr "항목 숨기기(&H)"
+
+#, c-format
+msgid "&Open Left"
+msgstr "왼쪽 열기(&O)"
+
+#, c-format
+msgid "Open Midd&le"
+msgstr "가운데 열기(&L)"
+
+#, c-format
+msgid "O&pen Right"
+msgstr "오른쪽 열기(&P)"
+
+#, c-format
+msgid "Cop&y Paths"
+msgstr "경로 복사(&Y)"
+
+#, c-format
+msgid "Left (%1 of %2)"
+msgstr "왼쪽 (%1 / %2)"
+
+#, c-format
+msgid "Middle (%1 of %2)"
+msgstr "가운데 (%1 / %2)"
+
+#, c-format
+msgid "Right (%1 of %2)"
+msgstr "오른쪽 (%1 / %2)"
+
+#, c-format
+msgid "Both (%1 of %2)"
+msgstr "양쪽 (%1 / %2)"
+
+#, c-format
+msgid "All (%1 of %2)"
+msgstr "전체 (%1 / %2)"
+
+#, c-format
+msgid "Copy &Filenames"
+msgstr "파일 이름들 복사(&F)"
+
+#, c-format
+msgid "Copy Items to Clip&board"
+msgstr "항목을 클립보드로 복사(&B)"
+
+msgid "Copy All Di&splayed Columns"
+msgstr "표시된 모든 열 복사(&S)"
+
+#, c-format
+msgid "&Zip"
+msgstr "Zip 압축(&Z)"
+
+#, c-format
+msgid "Both to... (%1 of %2)"
+msgstr "양쪽... (%1 / %2)"
+
+#, c-format
+msgid "All to... (%1 of %2)"
+msgstr "모두... (%1 / %2)"
+
+#, c-format
+msgid "Differences to... (%1 of %2)"
+msgstr "차이점... (%1 / %2)"
+
+#, c-format
+msgid "Left Shell Menu"
+msgstr "왼쪽 셸 메뉴"
+
+#, c-format
+msgid "Middle Shell Menu"
+msgstr "가운데 셸 메뉴"
+
+#, c-format
+msgid "Right Shell Menu"
+msgstr "오른쪽 셸 메뉴"
+
+msgid "Both Shell Menu"
+msgstr "두 셀 메뉴"
+
+msgid "All Shell Menu"
+msgstr "모든 쉘 메뉴"
+
+#, c-format
+msgid "Copy"
+msgstr "복사"
+
+#, c-format
+msgid "&Copy Full Path"
+msgstr "전체 경로 복사(&C)"
+
+#, c-format
+msgid "Copy &Filename"
+msgstr "파일 이름 복사(&F)"
+
+msgid "&Edit Caption"
+msgstr "캡션 편집(&E)"
+
+msgid "&Open..."
+msgstr "열기(&O)..."
+
+msgid "Unpacker Settings"
+msgstr "압축 풀기 설정"
+
+#, c-format
+msgid "<None>"
+msgstr "<없음>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<자동>"
+
+#, c-format
+msgid "&Select..."
+msgstr "선택(&S)..."
+
+#, c-format
+msgid "Prediffer Settings"
+msgstr "사전 차이 설정"
+
+msgid "G&o to Diff"
+msgstr "차이점으로 이동(&O)"
+
+#, c-format
+msgid "&No Moved Blocks"
+msgstr "이동된 블럭 없음(&N)"
+
+#, c-format
+msgid "&All Moved Blocks"
+msgstr "모든 이동된 블럭(&A)"
+
+#, c-format
+msgid "W&hitespaces"
+msgstr "공백 문자(&H)"
+
+#, c-format
+msgid "Com&pare"
+msgstr "비교(&P)"
+
+#, c-format
+msgid "I&gnore Changes"
+msgstr "변경사항 무시(&G)"
+
+#, c-format
+msgid "Ig&nore All"
+msgstr "모두 무시(&N)"
+
+#, c-format
+msgid "Ignore Blan&k Lines"
+msgstr "공백 줄 무시(&K)"
+
+#, c-format
+msgid "Ignore &Case"
+msgstr "대소문자 무시(&C)"
+
+#, c-format
+msgid "Igno&re EOL Differences (Windows/Unix/Mac)"
+msgstr "케리지 리턴 차이 무시 (Windows/Unix/Mac)(&R)"
+
+#, c-format
+msgid "Ignore Codepage &Differences"
+msgstr "코드페이지 차이 무시(&D)"
+
+msgid "Ignore Num&bers"
+msgstr "숫자 무시(&B)"
+
+msgid "Ignore C&omment Differences"
+msgstr "주석 차이 무시(&O)"
+
+msgid "Ignore &Missing Trailing EOL"
+msgstr "누락된 후행 EOL 무시(&M)"
+
+#, c-format
+msgid "&Include Subfolders"
+msgstr "하위 폴더 포함(&I)"
+
+#, c-format
+msgid "&Compare Method"
+msgstr "비교 방법(&C)"
+
+#, c-format
+msgid "Full Contents"
+msgstr "전체 내용"
+
+#, c-format
+msgid "Quick Contents"
+msgstr "빠른 내용"
+
+#, c-format
+msgid "Binary Contents"
+msgstr "바이너리 내용"
+
+#, c-format
+msgid "Modified Date"
+msgstr "변경된 날짜"
+
+#, c-format
+msgid "Modified Date and Size"
+msgstr "변경된 날짜 및 크기"
+
+#, c-format
+msgid "Size"
+msgstr "크기"
+
+#, c-format
+msgid "&Load Project..."
+msgstr "프로젝트 불러오기(&L)..."
+
+msgid "${*} - All Arguments"
+msgstr "${*} - 모든 인수"
+
+msgid "${1} - First Argument"
+msgstr "${1} - 첫 번째 인수"
+
+msgid "${2} - Second Argument"
+msgstr "${2} - 두 번째 인수"
+
+msgid "${3} - Third Argument"
+msgstr "${3} - 세 번째 인수"
+
+msgid "${4} - Fourth Argument"
+msgstr "${4} - 네 번째 인수"
+
+msgid "${5} - Fifth Argument"
+msgstr "${5} - 다섯 번쩨 인수"
+
+msgid "${6} - Sixth Argument"
+msgstr "${6} - 여섯 번째 인수"
+
+msgid "${7} - Seventh Argument"
+msgstr "${7} - 일곱 번째 인수"
+
+msgid "${8} - Eighth Argument"
+msgstr "${8} - 여덟 번째 인수"
+
+msgid "${9} - Ninth Argument"
+msgstr "${9} - 아홉 번째 인수"
+
+msgid "${SRC_FILE} - Source File"
+msgstr "${SRC_FILE} - 소스 파일"
+
+msgid "${SRC_FOLDER} - Source Folder"
+msgstr "${SRC_FOLDER} - 소스 폴더"
+
+msgid "${SRC_URL} - Source URL"
+msgstr "${SRC_URL} - 소스 URL"
+
+msgid "${SRC_URL_PROTOCOL} - Source URL Protocol"
+msgstr "${SRC_URL_PROTOCOL} - 소스 URL 프로토콜"
+
+msgid "${SRC_URL_SUFFIX} - Source URL Suffix"
+msgstr "${SRC_URL_SUFFIX} - 소스 URL 접미사"
+
+msgid "${DST_FILE} - Destination File"
+msgstr "${DST_FILE} - 대상 파일"
+
+msgid "${DST_FOLDER} - Destination Folder"
+msgstr "${DST_FOLDER} - 대상 폴더"
+
+msgid "${DST_URL} - Destination URL"
+msgstr "${DST_URL} - 대상 URL"
+
+msgid "${DST_URL_PROTOCOL} - Destination URL Protocol"
+msgstr "${DST_URL_PROTOCOL} - 대상 URL 프로토콜"
+
+msgid "${DST_URL_SUFFIX} - Destination URL Suffix"
+msgstr "${DST_URL_SUFFIX} - 대상 URL 접미사"
+
+msgid "${WINMERGE_HOME} - WinMerge Home Directory"
+msgstr "${WINMERGE_HOME} - WinMerge 홈 디렉터리"
+
+msgid "${SCRIPT_FILE} - Script File"
+msgstr "${SCRIPT_FILE} - 스크립트 파일"
+
+msgid "Add &Unpacker Plugin..."
+msgstr "압축해제 플러그인 추가(&U)..."
+
+msgid "Add &Prediffer Plugin..."
+msgstr "사전 차이점 플러그인 추가(&P)..."
+
+msgid "&Duplicate Plugin..."
+msgstr "중복 플러그인(&D)..."
+
+msgid "Clear &All"
+msgstr ""
+
+#, c-format
+msgid "About WinMerge"
+msgstr "WinMerge 정보"
+
+msgid "Visit the WinMerge Homepage!"
+msgstr "WinMerge 홈페이지 방문!"
+
+#, c-format
+msgid "OK"
+msgstr "확인"
+
+#, c-format
+msgid "Contributors"
+msgstr "기여자"
+
+#, c-format
+msgid "Select Files or Folders"
+msgstr "파일 또는 폴더 선택"
+
+#, c-format
+msgid "&1st File or Folder"
+msgstr "첫 번째 파일 또는 폴더(&1)"
+
+#, c-format
+msgid "Re&ad-only"
+msgstr "읽기 전용(&A)"
+
+#, c-format
+msgid "Swap 1st | 2nd"
+msgstr "첫 번째와 두 번째 맞바꾸기"
+
+#, c-format
+msgid "&Browse..."
+msgstr "찾아보기(&B)..."
+
+#, c-format
+msgid "&2nd File or Folder"
+msgstr "두 번째 파일 또는 폴더(&2)"
+
+#, c-format
+msgid "Rea&d-only"
+msgstr "읽기 전용(&D)"
+
+#, c-format
+msgid "Swap 2nd | 3rd"
+msgstr "두 번째와 세 번째 맞바꾸기"
+
+#, c-format
+msgid "B&rowse..."
+msgstr "찾아보기(&R)..."
+
+#, c-format
+msgid "&3rd File or Folder (Optional)"
+msgstr "세 번째 파일 또는 폴더 (선택 사항)(&3)"
+
+#, c-format
+msgid "Read-o&nly"
+msgstr "읽기 전용(&N)"
+
+#, c-format
+msgid "Swap 1st | 3rd"
+msgstr "첫 번째와 세 번째 맞바꾸기"
+
+#, c-format
+msgid "Browse..."
+msgstr "찾아보기..."
+
+#, c-format
+msgid " Folder: Filter"
+msgstr " 폴더: 필터"
+
+msgid "&Include subfolders"
+msgstr "하위 폴더 포함(&I)"
+
+msgid " File: Prediffer Plugin"
+msgstr " 파일: 사전 차이 플러그인"
+
+#, c-format
+msgid " File: Unpacker Plugin"
+msgstr " 파일: 압축 풀기 플러그인"
+
+#, c-format
+msgid "Se&lect..."
+msgstr "선택(&L)..."
+
+#, c-format
+msgid "Cancel"
+msgstr "취소"
+
+#, c-format
+msgid "Status:"
+msgstr "상태:"
+
+#, c-format
+msgid "Help"
+msgstr "도움말"
+
+msgid "&Options..."
+msgstr "옵션(&O)..."
+
+#, c-format
+msgid "General"
+msgstr "일반"
+
+#, c-format
+msgid "Automatically &scroll to first difference"
+msgstr "첫 번째 차이로 자동 스크롤(&S)"
+
+msgid "Automatically s&croll to first inline difference"
+msgstr "-> <NWY> 나란히 있는 첫 번째 차이로 자동 스크롤(&C)"
+
+msgid "Cl&ose windows with 'Esc':"
+msgstr "'Esc'로 창 닫기(&O):"
+
+#, c-format
+msgid "&Automatically verify paths in Open dialog"
+msgstr "열기 대화 상자에서 경로 자동 확인(&A)"
+
+msgid "Single instance mode:"
+msgstr "중복 실행 금지 모드:"
+
+#, c-format
+msgid "As&k when closing multiple windows"
+msgstr "여러 창을 닫을 때 물어보기(&K)"
+
+#, c-format
+msgid "&Preserve file time in file compare"
+msgstr "파일 비교시 파일 시간 보존(&P)"
+
+#, c-format
+msgid "Show \"Select Files or Folders\" dialog on startup"
+msgstr "시작 시 \"파일 또는 폴더 선택\" 대화 상자 표시"
+
+msgid "Close \"Select Files or Folders\" dialog on clicking Compare button"
+msgstr "비교 버튼 누를 때 \"파일 또는 폴더 선택\" 대화 상자 닫기"
+
+#, c-format
+msgid "Op&en dialog Auto completion:"
+msgstr "열기 대화 상자 자동 완성(&E):"
+
+msgid "Auto-&reload modified files:"
+msgstr "수정된 파일 자동 다시 불러오기(&R:"
+
+#, c-format
+msgid "Language:"
+msgstr "언어:"
+
+#, c-format
+msgid "Defaults"
+msgstr "기본값"
+
+#, c-format
+msgid "Find"
+msgstr "찾기"
+
+#, c-format
+msgid "Fi&nd what:"
+msgstr "찾을 내용(&N) :"
+
+#, c-format
+msgid "Match &whole word only"
+msgstr "전체 단어만 일치(&W)"
+
+#, c-format
+msgid "Match &case"
+msgstr "대소문자 구분(&C)"
+
+#, c-format
+msgid "Regular &expression"
+msgstr "정규식 사용(&E)"
+
+#, c-format
+msgid "D&on't wrap end of file"
+msgstr "파일 끝을 줄 바꾸지 않음(&O)"
+
+#, c-format
+msgid "&Don't close this dialog"
+msgstr "이 대화 상자를 닫지 않음(&D)"
+
+#, c-format
+msgid "&Find Next"
+msgstr "다음 찾기(&F)"
+
+#, c-format
+msgid "Find &Prev"
+msgstr "이전 찾기(&P)"
+
+#, c-format
+msgid "&Ok"
+msgstr "확인(&O)"
+
+#, c-format
+msgid "Replace"
+msgstr "바꾸기"
+
+#, c-format
+msgid "Re&place with:"
+msgstr "바꿀 내용(&P):"
+
+#, c-format
+msgid "&Don't wrap at end of file"
+msgstr "파일 끝을 줄 바꾸지 않음(&D)"
+
+#, c-format
+msgid "Replace in"
+msgstr "적용 범위"
+
+#, c-format
+msgid "&Selection"
+msgstr "선택(&S)"
+
+#, c-format
+msgid "Wh&ole file"
+msgstr "전체 파일(&O)"
+
+msgid "Find Pre&v"
+msgstr "이전 찾기(&V)"
+
+#, c-format
+msgid "&Replace"
+msgstr "바꾸기(&R)"
+
+#, c-format
+msgid "Replace &All"
+msgstr "모두 바꿈(&A)"
+
+#, c-format
+msgid "Markers"
+msgstr "마커"
+
+#, c-format
+msgid "Enable &markers"
+msgstr "마커 활성화(&M)"
+
+#, c-format
+msgid "New"
+msgstr "새로 만들기"
+
+#, c-format
+msgid "&Background color:"
+msgstr "배경 색상(&B):"
+
+#, c-format
+msgid "&Apply"
+msgstr "적용(&A)"
+
+msgid "Line Filters"
+msgstr "줄 필터"
+
+#, c-format
+msgid "Enable Line Filters"
+msgstr "줄 필터 활성화"
+
+#, c-format
+msgid "Regular Expressions (one per line):"
+msgstr "정규식 (매 줄마다 적용):"
+
+#, c-format
+msgid "Edit"
+msgstr "편집"
+
+#, c-format
+msgid "Remove"
+msgstr "제거"
+
+msgid "Substitution Filters"
+msgstr "대체 필터"
+
+msgid "Changes to the listed pairs below will be ignored or marked as insignificant. Patches are unaffected."
+msgstr "아래 나열된 쌍으로 패널에 나타나는 변경 사항은 무시되거나 중요하지 않은 것으로 표시됩니다. 패치는 영향을 받지 않습니다."
+
+msgid "Enable"
+msgstr "활성화"
+
+msgid "Add"
+msgstr "추가"
+
+msgid "Clear"
+msgstr "지우기"
+
+#, c-format
+msgid "Colors"
+msgstr "색상"
+
+msgid "Color Scheme:"
+msgstr "색 구성표:"
+
+#, c-format
+msgid "Background"
+msgstr "배경색"
+
+#, c-format
+msgid "Deleted"
+msgstr "삭제됨"
+
+#, c-format
+msgid "Text"
+msgstr "텍스트"
+
+#, c-format
+msgid "Difference:"
+msgstr "차이점:"
+
+#, c-format
+msgid "Selected Difference:"
+msgstr "선택된 차이점:"
+
+#, c-format
+msgid "Ignored Difference:"
+msgstr "무시된 차이점:"
+
+#, c-format
+msgid "Moved:"
+msgstr "이동:"
+
+#, c-format
+msgid "Selected Moved:"
+msgstr "선택된 이동:"
+
+#, c-format
+msgid "Same As Next (3 panes):"
+msgstr "다음과 같음 (3개 패널):"
+
+#, c-format
+msgid "Same As Next (Selected):"
+msgstr "다음과 같음 (선택):"
+
+#, c-format
+msgid "Word Difference:"
+msgstr "단어 차이점:"
+
+#, c-format
+msgid "Selected Word Diff:"
+msgstr "선택된 단어 차이점:"
+
+#, c-format
+msgid "Dialog"
+msgstr "대화 상자"
+
+#, c-format
+msgid "Keywords:"
+msgstr "키워드:"
+
+#, c-format
+msgid "Function names:"
+msgstr "함수 이름:"
+
+#, c-format
+msgid "Comments:"
+msgstr "주석:"
+
+#, c-format
+msgid "Numbers:"
+msgstr "숫자:"
+
+#, c-format
+msgid "Operators:"
+msgstr "연산자:"
+
+#, c-format
+msgid "Strings:"
+msgstr "문자열:"
+
+#, c-format
+msgid "Preprocessor:"
+msgstr "전처리기:"
+
+#, c-format
+msgid "User 1:"
+msgstr "사용자 1:"
+
+#, c-format
+msgid "User 2:"
+msgstr "사용자 2:"
+
+#, c-format
+msgid "Bold"
+msgstr "굵게"
+
+#, c-format
+msgid "&Use customized text colors"
+msgstr "사용자 지정 텍스트 색상 사용(&U)"
+
+#, c-format
+msgid "Whitespace:"
+msgstr "공백 문자:"
+
+#, c-format
+msgid "Regular text:"
+msgstr "일반 텍스트:"
+
+#, c-format
+msgid "Selection:"
+msgstr "선택:"
+
+#, c-format
+msgid "Margin:"
+msgstr "여백:"
+
+#, c-format
+msgid "Search Marker:"
+msgstr "마커 검색:"
+
+#, c-format
+msgid "User Defined Marker 1:"
+msgstr "사용자 정의 마커1:"
+
+#, c-format
+msgid "User Defined Marker 2:"
+msgstr "사용자 정의 마커2:"
+
+#, c-format
+msgid "User Defined Marker 3:"
+msgstr "사용자 정의 마커3:"
+
+msgid "&Use folder compare colors"
+msgstr "폴더 비교 색상 사용(&U)"
+
+msgid "Items equal:"
+msgstr "같은 항목:"
+
+msgid "Items different:"
+msgstr "다른 항목:"
+
+msgid "Items missing:"
+msgstr "존재하지 않는 항목:"
+
+msgid "Items filtered:"
+msgstr "필터된 항목:"
+
+msgid "&Use custom system colors"
+msgstr "사용자 지정 시스템 색상 사용 (일부 UI 요소는 적용되지 않을 수 있습니다)"
+
+#, c-format
+msgid "System"
+msgstr "시스템"
+
+#, c-format
+msgid "&Use Recycle Bin"
+msgstr "삭제한 파일은 휴지통으로 보내기(&S)"
+
+#, c-format
+msgid "&External editor:"
+msgstr "외부 편집기(&E):"
+
+#, c-format
+msgid "&Filter folder:"
+msgstr "필터 폴더(&F):"
+
+#, c-format
+msgid "Temporary files folder"
+msgstr "임시 파일 폴더"
+
+#, c-format
+msgid "S&ystem temp folder"
+msgstr "시스템 임시 폴더(&Y)"
+
+#, c-format
+msgid "C&ustom folder:"
+msgstr "사용자 지정 폴더(&U):"
+
+#, c-format
+msgid "Br&owse..."
+msgstr "찾아보기(&O)..."
+
+#, c-format
+msgid "Patch Generator"
+msgstr "패치 생성기"
+
+#, c-format
+msgid "File&1:"
+msgstr "파일&1:"
+
+#, c-format
+msgid "File&2:"
+msgstr "파일&2:"
+
+#, c-format
+msgid "&Swap"
+msgstr "맞바꾸기(&S)"
+
+#, c-format
+msgid "&Copy to clipboard"
+msgstr "클립보드로 복사(&C)"
+
+#, c-format
+msgid "&Append to existing file"
+msgstr "기존 파일에 추가(&A)"
+
+#, c-format
+msgid "&Result:"
+msgstr "결과(&R):"
+
+#, c-format
+msgid "Bro&wse..."
+msgstr "찾아보기(&W)..."
+
+#, c-format
+msgid "&Format"
+msgstr "형식(&F)"
+
+#, c-format
+msgid "St&yle:"
+msgstr "스타일(&Y):"
+
+#, c-format
+msgid "&Context:"
+msgstr "문맥(&C)"
+
+#, c-format
+msgid "Inclu&de command line"
+msgstr "명령행 포함(&D)"
+
+#, c-format
+msgid "Open in e&xternal editor"
+msgstr "외부 편집기로 열기(&X)"
+
+#, c-format
+msgid "Display Columns"
+msgstr "열 표시"
+
+#, c-format
+msgid "Move &Up"
+msgstr "위로 이동(&U)"
+
+#, c-format
+msgid "Move &Down"
+msgstr "아래로 이동(&D)"
+
+msgid "&Additional Properties"
+msgstr "추가 속성(&A)"
+
+msgid "Additional Properties"
+msgstr "추가 속성"
+
+msgid "Select Plugin"
+msgstr "플러그인 선택"
+
+msgid "Plugin &name:"
+msgstr "플러그인 이름(&N):"
+
+msgid "&Target files:"
+msgstr "대상 파일(&T):"
+
+#, c-format
+msgid "Extensions list:"
+msgstr "확장자 목록:"
+
+#, c-format
+msgid "Description:"
+msgstr "설명:"
+
+msgid "Default arguments:"
+msgstr "기본 인수:"
+
+msgid "Display all plugins (Ignore extension)"
+msgstr "모든 플러그인을 표시하고, 확장을 확인하지 않음"
+
+msgid "&Open files in same window type after unpacking"
+msgstr "압축을 푼 후 동일한 창 유형의 파일 열기(&O)"
+
+msgid "&Plugin pipeline:"
+msgstr "플러그인 파이프라인(&P):"
+
+msgid "&Alias..."
+msgstr "별칭(&A)..."
+
+#, c-format
+msgid "Stop"
+msgstr "중지"
+
+#, c-format
+msgid "Pause"
+msgstr "일시 중지"
+
+#, c-format
+msgid "Continue"
+msgstr "계속"
+
+msgid "C&PU cores to use:"
+msgstr "사용할 CPU 코어 수(&N):"
+
+#, c-format
+msgid "Items total:"
+msgstr "전체 항목:"
+
+#, c-format
+msgid "Items compared:"
+msgstr "비교된 항목:"
+
+msgid "Go to"
+msgstr "이동"
+
+msgid "G&o to:"
+msgstr "이동(&O):"
+
+#, c-format
+msgid "File"
+msgstr "파일"
+
+msgid "Go to what"
+msgstr "이동 위치"
+
+#, c-format
+msgid "Li&ne"
+msgstr "줄(&N)"
+
+#, c-format
+msgid "&Difference"
+msgstr "차이점(&D)"
+
+msgid "&Go to"
+msgstr "이동(&G)"
+
+#, c-format
+msgid "Compare"
+msgstr "비교"
+
+#, c-format
+msgid "Whitespaces"
+msgstr "공백 문자"
+
+#, c-format
+msgid "&Compare"
+msgstr "비교(&C)"
+
+#, c-format
+msgid "&Ignore change"
+msgstr "변경사항 무시(&I)"
+
+#, c-format
+msgid "I&gnore all"
+msgstr "모두 무시(&G)"
+
+msgid "Ignore blan&k lines"
+msgstr "공백 줄 무시(&K)"
+
+msgid "Ignore &case"
+msgstr "대소문자 무시(&C)"
+
+msgid "Igno&re EOL differences (Windows/Unix/Mac)"
+msgstr ""
+
+msgid "Ignore num&bers"
+msgstr "숫자 무시(&B)"
+
+msgid "Ignore codepage &differences"
+msgstr "코드페이지 차이 무시(&D)"
+
+msgid "Ignore c&omment differences"
+msgstr "주석 차이 무시(&O)"
+
+msgid "Ignore &missing trailing EOL"
+msgstr "누락된 후행 EOL 무시(&M)"
+
+#, c-format
+msgid "E&nable moved block detection"
+msgstr "이동된 블럭 감지 활성화(&N)"
+
+msgid "Align &similar lines"
+msgstr "유사한 줄 정렬(&S)"
+
+msgid "Diff &algorithm:"
+msgstr "비교 알고리즘(&A)"
+
+msgid "Enable indent &heuristic"
+msgstr "들여쓰기 휴리스틱 활성화(&H)"
+
+msgid "Completely unhighlight the ignored differences"
+msgstr "무시된 차이점 강조하지 않음"
+
+#, c-format
+msgid "Editor"
+msgstr "편집기"
+
+#, c-format
+msgid "&Highlight syntax"
+msgstr "구문 강조 표시(&H)"
+
+#, c-format
+msgid "&Preserve original EOL"
+msgstr "원래 EOL 문자 유지(&P)"
+
+#, c-format
+msgid "Tabs"
+msgstr "탭"
+
+#, c-format
+msgid "&Tab size:"
+msgstr "탭 크기(&T):"
+
+#, c-format
+msgid "&Insert tabs"
+msgstr "탭 삽입(&I)"
+
+#, c-format
+msgid "Insert &spaces"
+msgstr "공백 삽입(&S)"
+
+msgid "&Rendering mode:"
+msgstr "렌더링 모드(&R)"
+
+#, c-format
+msgid "&Automatic rescan"
+msgstr "자동으로 다시 검색(&A)"
+
+msgid "Copy &granularity for selected differences:"
+msgstr "선택한 차이점에 대한 세분화 복사(G):"
+
+#, c-format
+msgid "Line Difference Coloring"
+msgstr "줄 차이점 채색"
+
+#, c-format
+msgid "View line differences"
+msgstr "줄 차이점 보기"
+
+#, c-format
+msgid "&Character-level"
+msgstr "문자 단위(&C)"
+
+#, c-format
+msgid "&Word-level:"
+msgstr "단어 단위(&W):"
+
+#, c-format
+msgid "W&ord break characters:"
+msgstr "단어 분리 문자(&O):"
+
+msgid "Some messages can be hidden by the user. Press Reset to make all messages visible again."
+msgstr "WinMerge를 사용하면 몇 가지 일반 메시지 상자를 숨길 수 있습니다. 모든 메시지 상자를 다시 표시하려면 재설정 버튼을 누릅니다."
+
+#, c-format
+msgid "Reset"
+msgstr "재설정"
+
+msgid "File Filters"
+msgstr "파일 필터"
+
+msgid "Test..."
+msgstr "테스트..."
+
+#, c-format
+msgid "Install..."
+msgstr "설치..."
+
+#, c-format
+msgid "New..."
+msgstr "새로 만들기..."
+
+#, c-format
+msgid "Edit..."
+msgstr "편집..."
+
+#, c-format
+msgid "Delete..."
+msgstr "삭제..."
+
+#, c-format
+msgid "Save Modified Files?"
+msgstr "수정된 파일을 저장하시겠습니까?"
+
+#, c-format
+msgid "Left side file"
+msgstr "왼쪽 파일"
+
+#, c-format
+msgid "&Save changes"
+msgstr "변경사항 저장(&S)"
+
+#, c-format
+msgid "&Discard changes"
+msgstr "변경사항 취소(&D)"
+
+#, c-format
+msgid "Middle side file"
+msgstr "가운데 파일"
+
+#, c-format
+msgid "Sa&ve changes"
+msgstr "변경사항 저장(&V)"
+
+#, c-format
+msgid "Discard c&hanges"
+msgstr "변경사항 취소(&H)"
+
+#, c-format
+msgid "Right side file"
+msgstr "오른쪽 파일"
+
+#, c-format
+msgid "S&ave changes"
+msgstr "변경사항 저장(&A)"
+
+#, c-format
+msgid "Dis&card changes"
+msgstr "변경사항 취소(&C)"
+
+#, c-format
+msgid "Disca&rd All"
+msgstr "모두 취소(&R)"
+
+#, c-format
+msgid "Codepage"
+msgstr "코드페이지"
+
+#, c-format
+msgid "Default Codepage"
+msgstr "기본 코드페이지"
+
+#, c-format
+msgid "Select the default codepage for non-Unicode files:"
+msgstr "비유니코드 파일 열 때 사용할 기본 코드페이지:"
+
+#, c-format
+msgid "System codepage"
+msgstr "시스템 코드페이지"
+
+#, c-format
+msgid "According to WinMerge User Interface"
+msgstr "WinMerge 사용자 인터페이스를 따름"
+
+#, c-format
+msgid "Custom codepage:"
+msgstr "사용자 지정 코드페이지:"
+
+msgid ""
+"Detect codepage for: .html, .rc, .xml\n"
+"Restart required."
+msgstr ""
+"다음 파일 유형에 대한 코드페이지 정보 탐지: .html, .rc, .xml\n"
+"세션을 다시 시작해야 합니다."
+
+msgid ""
+"Detect codepage for files with mlang.dll\n"
+"Restart required."
+msgstr ""
+"Mlang.dll을 이용해 텍스트 파일의 코드페이지 감지\n"
+"세션을 다시 시작해야 합니다."
+
+#, c-format
+msgid "Options"
+msgstr "옵션"
+
+#, c-format
+msgid "Import..."
+msgstr "가져오기..."
+
+#, c-format
+msgid "Export..."
+msgstr "내보내기..."
+
+#, c-format
+msgid "Folder Compare Report"
+msgstr "폴더 비교 보고서"
+
+#, c-format
+msgid "Report &file:"
+msgstr "보고서 파일(&F):"
+
+#, c-format
+msgid "&Style:"
+msgstr "스타일(&S):"
+
+#, c-format
+msgid "&Include file compare report"
+msgstr "파일 비교 보고서 포함(&I)"
+
+#, c-format
+msgid "Shared or Private Filter"
+msgstr "공유/개인 필터"
+
+#, c-format
+msgid "What type of filter do you want?"
+msgstr "어떤 유형의 필터를 만드시겠습니까?"
+
+#, c-format
+msgid "Shared Filter (for all users)"
+msgstr "공유 필터 (모든 사용자용)"
+
+#, c-format
+msgid "Private Filter (current user only)"
+msgstr "개인 필터 (현재 사용자만)"
+
+#, c-format
+msgid "Archive Support"
+msgstr "압축 지원"
+
+#, c-format
+msgid "&Enable archive file support"
+msgstr "압축 파일 지원 활성화(&E)"
+
+#, c-format
+msgid "&Detect archive type from file signature"
+msgstr "파일 서명에서 압축 형식 감지(&D)"
+
+msgid "Items saved to or restored from the project file:"
+msgstr "프로젝트 파일에 저장되거나 복원된 항목:"
+
+#, c-format
+msgid "Compare Statistics"
+msgstr "통계 비교"
+
+#, c-format
+msgid "Folders:"
+msgstr "폴더:"
+
+#, c-format
+msgid "Files:"
+msgstr "파일:"
+
+#, c-format
+msgid "Different"
+msgstr "다름"
+
+#, c-format
+msgid "Binary:"
+msgstr "바이너리:"
+
+#, c-format
+msgid "Unique"
+msgstr "고유한"
+
+#, c-format
+msgid "Left:"
+msgstr "왼쪽:"
+
+#, c-format
+msgid "Right:"
+msgstr "오른쪽:"
+
+#, c-format
+msgid "Identical"
+msgstr "동일"
+
+#, c-format
+msgid "Total:"
+msgstr "전체:"
+
+#, c-format
+msgid "Close"
+msgstr "닫기"
+
+#, c-format
+msgid "Middle:"
+msgstr "가운데:"
+
+#, c-format
+msgid "Missing Left:"
+msgstr "왼쪽 없음:"
+
+#, c-format
+msgid "Missing Middle:"
+msgstr "가운데 없음:"
+
+#, c-format
+msgid "Missing Right:"
+msgstr "오른쪽 없음:"
+
+#, c-format
+msgid "Affects"
+msgstr "적용"
+
+#, c-format
+msgid "(Affects)"
+msgstr "(적용)"
+
+#, c-format
+msgid "Select Codepage for"
+msgstr "코드페이지 선택"
+
+#, c-format
+msgid "&File Loading:"
+msgstr "파일 불러오기(&F):"
+
+#, c-format
+msgid "File &Saving:"
+msgstr "파일 저장(&S):"
+
+#, c-format
+msgid "&Use same codepage for both"
+msgstr "양쪽에 같은 코드페이지 사용(&U)"
+
+#, c-format
+msgid "&Cancel"
+msgstr "취소(&C)"
+
+#, c-format
+msgid "Test Filter"
+msgstr "필터 테스트"
+
+msgid "Testing filter:"
+msgstr "필터 테스트 중:"
+
+#, c-format
+msgid "&Enter text to test:"
+msgstr "시험할 텍스트 입력(&E)"
+
+#, c-format
+msgid "&Folder Name"
+msgstr "폴더 이름(&F)"
+
+#, c-format
+msgid "Result:"
+msgstr "결과:"
+
+#, c-format
+msgid "&Test"
+msgstr "테스트(&T)"
+
+#, c-format
+msgid "&Close"
+msgstr "닫기(&C)"
+
+msgid "Table"
+msgstr "테이블"
+
+msgid "File type"
+msgstr "파일 종류"
+
+msgid "&CSV"
+msgstr "&CSV"
+
+msgid "&TSV"
+msgstr "&TSV"
+
+msgid "Custom &Delimiter-Separated Values"
+msgstr "사용자 지정 구분 기호로 구분된 값(&D)"
+
+msgid "D&elimiter character:"
+msgstr "구분 기호(&E)"
+
+msgid "&Allow newlines in quotes"
+msgstr "따옴표에 새 줄 허용(&A)"
+
+msgid "&Quote character:"
+msgstr "따옴표 기호(&Q)"
+
+#, c-format
+msgid "Backup Files"
+msgstr "파일 백업"
+
+#, c-format
+msgid "Create backup files for:"
+msgstr "다음 위치에 백업 파일 만들기:"
+
+#, c-format
+msgid "&Folder compare"
+msgstr "폴더 비교(&F)"
+
+#, c-format
+msgid "Fil&e compare"
+msgstr "파일 비교(&E)"
+
+#, c-format
+msgid "Create backup files in:"
+msgstr "백업 파일 만들기 위치:"
+
+#, c-format
+msgid "&Original file's folder"
+msgstr "원본 파일의 폴더(&O)"
+
+#, c-format
+msgid "&Global backup folder:"
+msgstr "전역 백업 폴더(&G):"
+
+#, c-format
+msgid "Backup filename:"
+msgstr "백업 파일 이름:"
+
+msgid "&Append .bak extension"
+msgstr ".bak 확장자 추가(&A)"
+
+#, c-format
+msgid "A&ppend timestamp"
+msgstr "타임스탬프 추가(&P)"
+
+#, c-format
+msgid "Confirm Copy"
+msgstr "복사 확인"
+
+#, c-format
+msgid "Are you sure you want to copy XXX items?"
+msgstr "XXX 항목을 복사하시겠습니까?"
+
+#, c-format
+msgid "From left"
+msgstr "왼쪽에서"
+
+#, c-format
+msgid "To right"
+msgstr "오른쪽으로"
+
+#, c-format
+msgid "Don't ask this &question again."
+msgstr "다시 묻지 않음.(&Q)"
+
+#, c-format
+msgid "Yes"
+msgstr "예"
+
+#, c-format
+msgid "No"
+msgstr "아니오"
+
+#, c-format
+msgid "Plugins"
+msgstr "플러그인"
+
+#, c-format
+msgid "&Enable plugins"
+msgstr "플러그인 활성화(&E)"
+
+msgid "Plugin &type:"
+msgstr "플러그인(&T):"
+
+msgid "File filters:"
+msgstr "파일 필터:"
+
+msgid "&Plugin arguments:"
+msgstr "플러그인 인수(&P):"
+
+msgid "Enable &automatic unpacking/prediffing"
+msgstr "플러그인의 자동 압축 풀기/사전 차이 활성화(&A)"
+
+#, c-format
+msgid "Shell Integration"
+msgstr "셸 통합"
+
+#, c-format
+msgid "Explorer"
+msgstr "탐색기"
+
+#, c-format
+msgid "&Add to context menu"
+msgstr "상황에 맞는 메뉴에 추가(&A)"
+
+#, c-format
+msgid "E&nable advanced menu"
+msgstr "고급 메뉴 사용(&N)"
+
+msgid "Enable &Compare As menu"
+msgstr "다른 이름으로 비교 메뉴 사용(&C)"
+
+#, c-format
+msgid "&Register Shell Extension"
+msgstr "셸 확장 등록(&R)"
+
+#, c-format
+msgid "&Unregister Shell Extension"
+msgstr "셸 확장 등록 해제(&U)"
+
+msgid "Register Shell Extension for Current User &Only"
+msgstr "현재 사용자만 셸 확장 등록(&O)"
+
+msgid "Unregister Shell Extension for Current User On&ly"
+msgstr "현재 사용자만 셸 확장 등록 해제(&L)"
+
+msgid "Register Shell Extension for &Windows 11"
+msgstr "Windows 11 이상에서 셸 확장 등록(&W)"
+
+msgid "Unregister Shell Extension for W&indows 11"
+msgstr "Windows 11 이상에서 셸 확장 등록 해제(&I)"
+
+msgid "Jump List"
+msgstr "점프 목록"
+
+msgid "Clear all recent items"
+msgstr "최근 항목 모두 지우기"
+
+msgctxt "Options dialog|Categories"
+msgid "Folder"
+msgstr "폴더"
+
+msgid "&Compare method:"
+msgstr "비교 방법(&C):"
+
+#, c-format
+msgid "S&top after first difference"
+msgstr "첫 차이점 이후 중지(&T)"
+
+#, c-format
+msgid "Ign&ore time differences less than 3 seconds"
+msgstr "3초 이내의 시간 차이 무시(&O)"
+
+msgid "Expand subfolders &after comparison:"
+msgstr "비교 후 하위 폴더 자동 확장(&A):"
+
+#, c-format
+msgid "Include &unique subfolders contents"
+msgstr "이름이 같은 하위 폴더 내용 포함(&U)"
+
+#, c-format
+msgid "Ignore &reparse points"
+msgstr "재분석 지점 무시(&R)"
+
+msgid "Switch to &quick compare when size exceeds (MB):"
+msgstr "빠른 비교로 전환하기 위한 임계값 (MB)(&Q):"
+
+msgid "Switch to &binary compare when size exceeds (MB):"
+msgstr "바이너리 비교로 전환하기 위한 임계값 (MB)(&B):"
+
+msgid "File patterns:"
+msgstr "파일 패턴:"
+
+msgid "Custom Delimiter-Separated Values"
+msgstr "사용자 설정 구분 기호"
+
+msgctxt "Options dialog|Categories"
+msgid "Binary"
+msgstr "바이너리"
+
+#, c-format
+msgid "Binary file &patterns:"
+msgstr "바이너리 파일 패턴(&P):"
+
+#, c-format
+msgid "Frhed settings"
+msgstr "무료 헥사 편집기 설정"
+
+#, c-format
+msgid "View &Settings..."
+msgstr "보기 설정(&S)..."
+
+#, c-format
+msgid "&Binary Mode..."
+msgstr "바이너리 모드(&B)..."
+
+#, c-format
+msgid "&Character Set..."
+msgstr "문자셋(&C)..."
+
+msgid "Image"
+msgstr "이미지"
+
+#, c-format
+msgid "Image file &patterns:"
+msgstr "이미지 파일 패턴(&P):"
+
+msgid "&Enable image compare in folder compare"
+msgstr "폴더 비교시 이미지 비교 활성화(&E)"
+
+msgid "OCR result:"
+msgstr "OCR 결과:"
+
+msgid "Webpage"
+msgstr "웹페이지"
+
+msgid "URL pattern to &include (Regular expression):"
+msgstr "포함할 URL 패턴 (정규식)(&I):"
+
+msgid "URL pattern to &exclude (Regular expression):"
+msgstr "제외할 URL 패턴 (정규식)(&E):"
+
+msgid "&User data folder location:"
+msgstr "사용자 데이터 폴더 위치(&U):"
+
+msgid "&Separate user data folders for each pane"
+msgstr "각 창에 대해 별도의 사용자 데이터 폴더(&S)"
+
+#, c-format
+msgid "&Hex View"
+msgstr "16진수 보기(&H)"
+
+msgid "Edit Plugin"
+msgstr "편집 플러그인"
+
+msgid "&Category:"
+msgstr "범주(&C):"
+
+msgid "&Menu caption:"
+msgstr "메뉴 캡션(&M):"
+
+msgid "&Window type:"
+msgstr "창 유형(&W)"
+
+msgid "&Unpacked file extension:"
+msgstr "압축되지 않은 파일 확장자(&U):"
+
+msgid "&Require arguments"
+msgstr "인수 필요(&R)"
+
+msgid "&Generate editor script"
+msgstr "편집기 스크립트 생성(&G)"
+
+msgid "Command &line:"
+msgstr "명령줄((&L):"
+
+msgid "&Script file extension:"
+msgstr "스크립트 파일 확장자(&S):"
+
+msgid "Script &body:"
+msgstr "스크립트 본문(&B:"
+
+#, c-format
+msgid "EXT"
+msgstr "EXT"
+
+#, c-format
+msgid "CAP"
+msgstr "CAP"
+
+#, c-format
+msgid "NUM"
+msgstr "NUM"
+
+#, c-format
+msgid "SCRL"
+msgstr "SCRL"
+
+#, c-format
+msgid "OVR"
+msgstr "OVR"
+
+#, c-format
+msgid "REC"
+msgstr "REC"
+
+#, c-format
+msgid ""
+"\n"
+"New Documents (Ctrl+N)"
+msgstr ""
+"\n"
+"새 문서 (Ctrl+N)"
+
+#, c-format
+msgid ""
+"\n"
+"Open (Ctrl+O)"
+msgstr ""
+"\n"
+"열기 (Ctrl+O)"
+
+#, c-format
+msgid ""
+"\n"
+"Save (Ctrl+S)"
+msgstr ""
+"\n"
+"저장 (Ctrl+S)"
+
+msgid "Unknown error opening project file."
+msgstr "프로젝트를 여는 중 알 수 없는 오류가 발생했습니다."
+
+msgid "Unknown error saving project file."
+msgstr "프로젝트를 저장하는 중 알 수 없는 오류가 발생했습니다."
+
+#, c-format
+msgid "Project file loaded."
+msgstr "프로젝트 파일을 성공적으로 불러왔습니다."
+
+#, c-format
+msgid "Project file saved."
+msgstr "프로젝트 파일을 성공적으로 저장했습니다."
+
+#, c-format
+msgid ""
+"\n"
+"Undo (Ctrl+Z)"
+msgstr ""
+"\n"
+"실행 취소 (Ctrl+Z)"
+
+#, c-format
+msgid ""
+"\n"
+"Redo (Ctrl+Y)"
+msgstr ""
+"\n"
+"다시 실행 (Ctrl+Y)"
+
+#, c-format
+msgid ""
+"\n"
+"FileCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"WinMerge File Compare"
+msgstr ""
+"\n"
+"파일 비교\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"WinMerge 파일 비교"
+
+#, c-format
+msgid ""
+"\n"
+"FolderCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"WinMerge Folder Compare"
+msgstr ""
+"\n"
+"폴더 비교\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"WinMerge 폴더 비교"
+
+#, c-format
+msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. It is free software and can be redistributed under the conditions of the GNU General Public License - see the Help menu for details."
+msgstr "WinMerge는 절대로 보증 없이 제공됩니다. 이 소프트웨어는 무료이며, 특정 상황에서 재배포는 환영합니다; 자세한 내용은 도움말 메뉴의 GNU 일반 공중 라이선스를 확인하세요."
+
+#, c-format
+msgid "&Abort"
+msgstr "취소(&A)"
+
+#, c-format
+msgid "&Retry"
+msgstr "재시도(&R)"
+
+#, c-format
+msgid "&Ignore"
+msgstr "무시(&I)"
+
+#, c-format
+msgid "Ignore &all"
+msgstr "모두 무시(&A)"
+
+#, c-format
+msgid "&Yes"
+msgstr "예(&Y)"
+
+#, c-format
+msgid "Yes to &all"
+msgstr "모두 예(&A)"
+
+#, c-format
+msgid "&No"
+msgstr "아니오(&N)"
+
+#, c-format
+msgid "No to a&ll"
+msgstr "모두 아니오(&L)"
+
+#, c-format
+msgid "&Continue"
+msgstr "계속(&C)"
+
+#, c-format
+msgid "&Skip"
+msgstr "건너뛰기(&S)"
+
+#, c-format
+msgid "Skip &all"
+msgstr "모두 건너뛰기(&A)"
+
+#, c-format
+msgid "Don't display this &message again."
+msgstr "이 메시지를 다시 표시하지 않음(&M)"
+
+msgid "To make this message box visible, press Reset on the Message Boxes page in Options."
+msgstr "이 메시지 상자를 다시 표시하려면 옵션 대화 상자의 메시지 상자 페이지에서 재설정 버튼을 누르십시오."
+
+msgid "Compare/Merge"
+msgstr "비교/병합"
+
+#, c-format
+msgid "Syntax"
+msgstr "구문"
+
+msgid "Color Schemes"
+msgstr "색상 테마"
+
+msgid "Folder Compare"
+msgstr "폴더 비교"
+
+msgid "Project"
+msgstr "프로젝트"
+
+#, c-format
+msgid "Differences"
+msgstr "차이점"
+
+msgid "Message Boxes"
+msgstr "대화 상자"
+
+#, c-format
+msgid "To:"
+msgstr "대상:"
+
+#, c-format
+msgid "From left:"
+msgstr "왼쪽에서:"
+
+#, c-format
+msgid "To left:"
+msgstr "왼쪽으로:"
+
+#, c-format
+msgid "From right:"
+msgstr "오른쪽에서:"
+
+#, c-format
+msgid "To right:"
+msgstr "오른쪽으로:"
+
+msgid "From middle:"
+msgstr "가운데에서:"
+
+msgid "To middle:"
+msgstr "가운데로:"
+
+#, c-format
+msgid "Version %1"
+msgstr "버전 %1"
+
+#, c-format
+msgid "X64"
+msgstr "X64"
+
+#, c-format
+msgid "Options (%1)"
+msgstr "옵션 (%1)"
+
+#, c-format
+msgid "All message boxes are now displayed again."
+msgstr "이제 모든 메시지 박스를 다시 표시합니다."
+
+#, c-format
+msgid "Tab size value is out of range. Please use 1 - %1."
+msgstr ""
+"탭 크기 값이 WinMerge의 허용 범위에 있지 않습니다.\n"
+"\n"
+"1 - %1의 값을 사용하세요."
+
+#, c-format
+msgid "Open"
+msgstr "열기"
+
+#, c-format
+msgid "Programs|*.exe;*.bat;*.cmd|All Files (*.*)|*.*||"
+msgstr "프로그램|*.exe;*.bat;*.cmd|모든 파일 (*.*)|*.*||"
+
+#, c-format
+msgid "All Files (*.*)|*.*||"
+msgstr "모든 파일 (*.*)|*.*||"
+
+#, c-format
+msgid "WinMerge Project Files (*.WinMerge)|*.WinMerge||"
+msgstr "WinMerge 프로젝트 파일 (*.WinMerge)|*.WinMerge||"
+
+#, c-format
+msgid "Options files (*.ini)|*.ini|All Files (*.*)|*.*||"
+msgstr "옵션 파일 (*.ini)|*.ini|모든 파일 (*.*)|*.*||"
+
+#, c-format
+msgid "Text Files (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|All Files (*.*)|*.*||"
+msgstr "텍스트 파일 (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|모든 파일 (*.*)|*.*||"
+
+#, c-format
+msgid "HTML Files (*.htm,*.html)|*.htm;*.html|All Files (*.*)|*.*||"
+msgstr "HTML 파일 (*.htm,*.html)|*.htm;*.html|모든 파일 (*.*)|*.*||"
+
+#, c-format
+msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
+msgstr "XML 파일 (*.xml)|*.xml|모든 파일 (*.*)|*.*||"
+
+msgid "Do not expand"
+msgstr "확장 안 함"
+
+msgid "Expand all subfolders"
+msgstr "모든 하위 폴더 확장"
+
+msgid "Expand different subfolders"
+msgstr "다른 하위 폴더 확장"
+
+msgid "Expand identical subfolders"
+msgstr "같은 하위 폴더 확장"
+
+msgid "File Type"
+msgstr "파일 유형"
+
+#, c-format
+msgid "Extension"
+msgstr "확장자"
+
+msgid "Message"
+msgstr "메시지"
+
+msgid "Answer"
+msgstr "응답"
+
+msgid "Item"
+msgstr "항목"
+
+msgid "Load"
+msgstr "불러오기"
+
+msgid "Save"
+msgstr "저장"
+
+msgid "Include Subfolders"
+msgstr "하위 폴더 포함"
+
+msgid "Compare Options"
+msgstr "옵션 비교"
+
+msgid "Hidden Items"
+msgstr "숨겨진 항목"
+
+#, c-format
+msgid "Name"
+msgstr "이름"
+
+#, c-format
+msgid "Location"
+msgstr "위치"
+
+#, c-format
+msgid "Filters"
+msgstr "필터"
+
+#, c-format
+msgid "[F] "
+msgstr "[F] "
+
+#, c-format
+msgid "Description"
+msgstr "설명"
+
+#, c-format
+msgid "Select Filename for New Filter"
+msgstr "새 필터의 파일 이름 선택"
+
+#, c-format
+msgid "File Filters (*.flt)|*.flt|All Files (*.*)|*.*||"
+msgstr "파일 필터 (*.flt)|*.flt|모든 필터 (*.*)|*.*||"
+
+#, c-format
+msgid ""
+"Cannot find filter template!\n"
+"\n"
+"Copy %1 to WinMerge/Filters Folder:\n"
+"%2."
+msgstr ""
+"필터 템플릿 파일을 찾을 수 없습니다!\n"
+"\n"
+"%1 파일을 다음 WinMerge/Filters 폴더에 복사하십시오:\n"
+"%2."
+
+#, c-format
+msgid ""
+"Cannot copy filter template:\n"
+"%1\n"
+"\n"
+"Make sure the folder exists and is writable."
+msgstr ""
+"필터 템플릿 파일을 필터 폴더에 복사할 수 없습니다:\n"
+"%1\n"
+"\n"
+"폴더가 존재하고 쓰기 가능한지 확인하십시오."
+
+#, c-format
+msgid ""
+"User's filter folder is not defined!\n"
+"\n"
+"Select filter folder in Options/System."
+msgstr ""
+"사용자의 필터 파일 폴더가 정의되지 않았습니다!\n"
+"\n"
+"옵션/시스템에서 필터 폴더를 선택하십시오."
+
+#, c-format
+msgid ""
+"Failed to delete filter:\n"
+"%1\n"
+"\n"
+"File may be read-only."
+msgstr ""
+"필터 파일 삭제 실패:\n"
+"%1\n"
+"\n"
+"혹시 파일이 읽기 전용인가요?"
+
+#, c-format
+msgid "Locate Filter File to Install"
+msgstr "설치할 필터 파일 위치"
+
+#, c-format
+msgid ""
+"Installing filter file failed.\n"
+"\n"
+"Could not copy new filter to folder."
+msgstr ""
+"필터 파일 설치에 실패했습니다.\n"
+"\n"
+"새 필터 파일을 필터 폴더에 복사할 수 없습니다."
+
+#, c-format
+msgid "Filter file exists. Overwrite?"
+msgstr "필터 파일이 이미 있습니다. 기존 필터를 덮어쓰시겠습니까?"
+
+#, c-format
+msgid "Regular expression"
+msgstr "정규식"
+
+msgid ""
+"Filters updated. Refresh all open folder compares?\n"
+"\n"
+"Select 'No' to refresh later."
+msgstr ""
+"필터가 업데이트되었습니다. 열려 있는 모든 폴더 비교를 새로 고치시겠습니까?\n"
+"\n"
+"모든 비교를 새로 고치지 않으려면 지금 '아니오'를 선택하고 나중에 비교를 새로 고치면 됩니다."
+
+#, c-format
+msgid "Folder Comparison Results"
+msgstr "폴더 비교 결과"
+
+#, c-format
+msgid "File Comparison"
+msgstr "파일 비교"
+
+#, c-format
+msgid "Untitled Left"
+msgstr "왼쪽 제목 없음"
+
+#, c-format
+msgid "Untitled Middle"
+msgstr "가운데 제목 없음"
+
+#, c-format
+msgid "Untitled Right"
+msgstr "오른쪽 제목 없음"
+
+msgid "Base File"
+msgstr "기본 파일"
+
+#, c-format
+msgid "Theirs File"
+msgstr "그 파일"
+
+#, c-format
+msgid "Mine File"
+msgstr "내 파일"
+
+msgid "Original File"
+msgstr "원본 파일"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
+msgstr "줄: %s  열: %d/%d  문자: %d/%d  줄끝: %s"
+
+#, c-format
+msgid "Line: %s"
+msgstr "줄: %s"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
+msgstr "줄: %s  열: %d/%d  문자: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr "  선택됨: %d | %d"
+
+#, c-format
+msgid "Merge"
+msgstr "병합"
+
+#, c-format
+msgid "Difference %1 of %2"
+msgstr "차이점 %1 / %2"
+
+#, c-format
+msgid "%1 Differences Found"
+msgstr "%1개 차이점 발견"
+
+#, c-format
+msgid "1 Difference Found"
+msgstr "1개 차이점 발견"
+
+#, c-format
+msgid "%1 Errors Found"
+msgstr ""
+
+msgid "1 Error Found"
+msgstr ""
+
+#. Abbreviation from "Read Only"
+#, c-format
+msgid "RO"
+msgstr "RO"
+
+#, c-format
+msgid "Item %1 of %2"
+msgstr "항목 %1 / %2"
+
+#, c-format
+msgid "Items: %1"
+msgstr "항목: %1"
+
+#, c-format
+msgid "Comparing items..."
+msgstr "항목 비교 중..."
+
+#, c-format
+msgid "%.1f[items/sec]"
+msgstr "%.1f[항목/초]"
+
+msgid "Select two existing folders/files to compare."
+msgstr "비교할 기존의 폴더나 파일 두 개를 선택하세요."
+
+#, c-format
+msgid "Folder Selection"
+msgstr "폴더 선택"
+
+#, c-format
+msgid "Select two (or three) folders/files to compare."
+msgstr "비교할 2-3개의 폴더 또는 파일을 선택하세요."
+
+#, c-format
+msgid "Left (1st) path is invalid!"
+msgstr "왼쪽 (첫 번째) 경로가 잘못되었습니다!"
+
+#, c-format
+msgid "Middle (2nd) path is invalid!"
+msgstr "가운데 (두 번째) 경로가 잘못되었습니다!"
+
+#, c-format
+msgid "Right (2nd) path is invalid!"
+msgstr "오른쪽 (두 번째) 경로가 잘못되었습니다!"
+
+#, c-format
+msgid "Right (3rd) path is invalid!"
+msgstr "오른쪽 (세 번째) 경로가 잘못되었습니다!"
+
+#, c-format
+msgid "Both paths are invalid!"
+msgstr "양쪽 모두 잘못된 경로입니다!"
+
+#, c-format
+msgid "Left (1st) and Middle (2nd) paths are invalid!"
+msgstr "왼쪽 (첫 번째)와 가운데 (두 번째) 경로가 잘못되었습니다!"
+
+#, c-format
+msgid "Left (1st) and Right (3rd) paths are invalid!"
+msgstr "왼쪽 (첫 번째)와 오른쪽 (세 번째) 경로가 잘못되었습니다!"
+
+msgid "Middle (2nd) and Right (3rd) paths are invalid!"
+msgstr "가운데 (두 번째)와 오른쪽 (세 번째) 경로가 잘못되었습니다!"
+
+#, c-format
+msgid "All paths are invalid!"
+msgstr "모든 경로가 잘못되었습니다!"
+
+msgid "Only enabled for file comparisons"
+msgstr "파일 비교에만 사용"
+
+#, c-format
+msgid "Cannot compare file and folder!"
+msgstr "파일 및 폴더를 비교할 수 없습니다!"
+
+#, c-format
+msgid "File not found: %1"
+msgstr "파일을 찾을 수 없습니다: %1"
+
+#, c-format
+msgid "File not unpacked: %1"
+msgstr "파일의 자료 변환을 하지 않았습니다: %1"
+
+#, c-format
+msgid ""
+"Cannot open file\n"
+"%1\n"
+"\n"
+"%2"
+msgstr ""
+"다음 파일을 열 수 없습니다\n"
+"%1\n"
+"\n"
+"%2"
+
+#, c-format
+msgid "Failed to parse conflict file."
+msgstr "불일치 파일 분석에 실패함."
+
+#, c-format
+msgid "The file\n%1\nis not a conflict file."
+msgstr ""
+"다음\n"
+"%1\n"
+"파일은 충돌 파일이 아닙니다."
+
+msgid "Comparing large files requires significant memory.\nShow only comparison results (not file contents)?"
+msgstr ""
+"매우 큰 파일을 비교하려고 합니다.\n"
+"파일 내용을 표시하려면 매우 많은 메모리가 필요합니다.\n"
+"파일 내용이 아닌 비교 결과만 표시하시겠습니까?\n"
+"\n"
+
+#, c-format
+msgid "Save As"
+msgstr "다른 이름으로 저장"
+
+#, c-format
+msgid "Save changes to %1?"
+msgstr "변경 내용을 %1에 저장하시겠습니까?"
+
+#, c-format
+msgid "%1 is read-only. Override? Or 'No' to save as new filename?"
+msgstr "%1은 읽기 전용으로 표시됩니다. 읽기 전용 파일을 재정의하시겠습니까? (새 파일 이름으로 저장하려면 \"아니오\"입니다"
+
+#, c-format
+msgid "Error backing up file"
+msgstr "파일 백업 중 오류"
+
+#, c-format
+msgid ""
+"Unable to backup original file:\n"
+"%1\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"원본 파일을 백업할 수 없습니다:\n"
+"%1\n"
+"\n"
+"그래도 계속하시겠습니까?"
+
+#, c-format
+msgid "Saving file failed.\n%1\n%2\n\t- Use different filename (OK)\n\t- Abort (Cancel)?"
+msgstr ""
+"파일 저장에 실패했습니다.\n"
+"%1\n"
+"%2\n"
+"수행할 작업:\n"
+"\t- 다른 파일 이름 사용 (확인 누르기)\n"
+"\t- 현재 작업 중단 (취소 누르기)"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to left file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"플러그인 '%2'에서 왼쪽 파일에 대한 변경 내용을 '%1'에 다시 압축할 수 없습니다.\n"
+"\n"
+"원본 파일은 변경되지 않습니다.\n"
+"\n"
+"압축을 푼 버전을 다른 파일에 저장하시겠습니까?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to middle file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"플러그인 '%2'이(가) 중간 파일에 대한 변경 내용을 '%1'에 다시 압축할 수 없습니다.\n"
+"\n"
+"원본 파일은 변경되지 않습니다.\n"
+"\n"
+"압축을 푼 버전을 다른 파일에 저장하시겠습니까?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to right file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"플러그인 '%2'이(가) 올바른 파일에 대한 변경 내용을 '%1'에 다시 압축할 수 없습니다.\n"
+"\n"
+"원본 파일은 변경되지 않습니다.\n"
+"\n"
+"압축을 푼 버전을 다른 파일에 저장하시겠습니까?"
+
+#, c-format
+msgid ""
+"Another application updated\n"
+"%1\n"
+"since WinMerge loaded it.\n"
+"\n"
+"Overwrite?"
+msgstr ""
+"WinMerge에서 불러와서 사용 중인\n"
+"%1\n"
+"파일을 다른 프로그램에서 업데이트했습니다.\n"
+"\n"
+"변경된 파일을 덮어쓰시겠습니까?"
+
+#, c-format
+msgid ""
+"%1\n"
+"is read-only. Override?"
+msgstr ""
+"%1\n"
+"읽기 전용으로 표시됩니다. 읽기 전용 항목을 재정의하시겠습니까?"
+
+#, c-format
+msgid "Another application updated\n%1\nsince last scan.\n\nReload?"
+msgstr ""
+"WinMerge가 마지막으로 검색한 이후\n"
+"%1\n"
+"파일을 다른 응용 프로그램에서 업데이트했습니다.\n"
+"\n"
+"파일을 다시 불러오시겠습니까?"
+
+#, c-format
+msgid "Save Left File As"
+msgstr "왼쪽 파일 다른 이름으로 저장"
+
+#, c-format
+msgid "Save Middle File As"
+msgstr "가운데 파일 다른 이름으로 저장"
+
+#, c-format
+msgid "Save Right File As"
+msgstr "오른쪽 파일 다른 이름으로 저장"
+
+#, c-format
+msgid ""
+"File\n"
+"%1\n"
+"not found. Save a copy to continue."
+msgstr ""
+"파일\n"
+"%1\n"
+"이 사라졌습니다. 계속하려면 이 파일의 사본을 저장하세요."
+
+#, c-format
+msgid ""
+"Cannot merge unsynched documents.\n"
+"\n"
+"Refresh before continuing."
+msgstr ""
+"문서가 동기화되지 않으면 차이점을 병합할 수 없습니다.\n"
+"\n"
+"계속하기 전에 문서를 갱신하세요."
+
+msgid "Break at whitespace"
+msgstr "공백에서 멈춤"
+
+msgid "Break at whitespace or punctuation"
+msgstr "공백 또는 구두점에서 멈춤"
+
+msgid "Copy to &Middle\tAlt+Right"
+msgstr "가운데로 복사(&M)\tAlt+Right"
+
+msgid "Copy to &Middle\tAlt+Left"
+msgstr "가운데로 복사(&M)\tAlt+Left"
+
+msgid "Copy from Middle\tAlt+Shift+Right"
+msgstr "가운데에서 복사\tAlt+Shift+Right"
+
+msgid "Copy from Middle\tAlt+Shift+Left"
+msgstr "가운데에서 복사\tAlt+Shift+Left"
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Right"
+msgstr "가운데로 복사 후 진행\tCtrl+Alt+Right"
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Left"
+msgstr "가운데로 복사 후 진행\tCtrl+Alt+Left"
+
+msgid "Copy All to Middle"
+msgstr "모두 가운데로 복사"
+
+#, c-format
+msgid "Right to Left (%1)"
+msgstr "오른쪽에서 왼쪽으로 (%1)"
+
+#, c-format
+msgid "Right to Middle (%1)"
+msgstr "오른쪽에서 가운데로 (%1)"
+
+#, c-format
+msgid "Middle to Left (%1)"
+msgstr "가운데에서 왼쪽으로 (%1)"
+
+#, c-format
+msgid "Middle to Right (%1)"
+msgstr "가운데에서 오른쪽으로 (%1)"
+
+#, c-format
+msgid "Left to Right (%1)"
+msgstr "왼쪽에서 오른쪽으로 (%1)"
+
+#, c-format
+msgid "Left to Middle (%1)"
+msgstr "왼쪽에서 가운데로 (%1)"
+
+#, c-format
+msgid "Left to... (%1)"
+msgstr "왼쪽에서... (%1)"
+
+#, c-format
+msgid "Middle to... (%1)"
+msgstr "가운데에서... (%1)"
+
+#, c-format
+msgid "Right to... (%1)"
+msgstr "오른쪽에서... (%1)"
+
+#, c-format
+msgid "Both to... (%1)"
+msgstr "양쪽... (%1)"
+
+#, c-format
+msgid "All to... (%1)"
+msgstr "모두... (%1)"
+
+#, c-format
+msgid "Differences to... (%1)"
+msgstr "차이점... (%1)"
+
+msgid ""
+"Some selected items are identical or skipped.\n"
+"Copy only items with differences?"
+msgstr ""
+"일부 선택된 항목은 동일하거나 건너뛸 수 있습니다.\n"
+"차이점이 있는 항목만 복사하시겠습니까?"
+
+#, c-format
+msgid "Left (%1)"
+msgstr "왼쪽 (%1)"
+
+#, c-format
+msgid "Middle (%1)"
+msgstr "가운데 (%1)"
+
+#, c-format
+msgid "Right (%1)"
+msgstr "오른쪽 (%1)"
+
+#, c-format
+msgid "Both (%1)"
+msgstr "양쪽 (%1)"
+
+#, c-format
+msgid "All (%1)"
+msgstr "전체 (%1)"
+
+#, c-format
+msgid "Left Side - Select Destination Folder:"
+msgstr "왼쪽 - 대상 폴더를 선택하세요:"
+
+#, c-format
+msgid "Middle Side - Select Destination Folder:"
+msgstr "가운데 - 대상 폴더를 선택하세요:"
+
+#, c-format
+msgid "Right Side - Select Destination Folder:"
+msgstr "오른쪽 - 대상 폴더를 선택하세요:"
+
+#, c-format
+msgid "(%1 Files Affected)"
+msgstr "(%1 파일 변경됨)"
+
+#, c-format
+msgid "(%1 of %2 Files Affected)"
+msgstr "(%1 / %2 파일 변경됨)"
+
+#, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\n"
+"%1 ?"
+msgstr ""
+"%1\n"
+"\n"
+"위 내용을 정말 삭제하시겠습니까?"
+
+msgid "Are you sure you want to copy?"
+msgstr "복사하시겠습니까?"
+
+#, c-format
+msgid "Are you sure you want to copy %d items?"
+msgstr "%d개의 항목을 복사하시겠습니까?"
+
+#, c-format
+msgid ""
+"Operation aborted!\n"
+"\n"
+"Folder contents changed, path\n"
+"%1\n"
+"not found.\n"
+"\n"
+"Refresh the compare."
+msgstr ""
+"작업을 취소했습니다!\n"
+"\n"
+"디스크의 폴더 내용이 변경되었습니다, 경로\n"
+"%1\n"
+"을 찾을 수 없습니다.\n"
+"비교를 새로 고침하세요."
+
+msgid "Are you sure you want to move?"
+msgstr "정말로 이동하시겠습니까?"
+
+#, c-format
+msgid "Are you sure you want to move %d items?"
+msgstr "%d개 항목을 이동하시겠습니까?"
+
+#, c-format
+msgid "Confirm Move"
+msgstr "이동 확인"
+
+#, c-format
+msgid "Close the folder comparison window?"
+msgstr "폴더를 비교하는 창을 닫으려고 합니다. 창을 닫으시겠습니까?"
+
+msgid "Close the folder comparison window, which took a long time?"
+msgstr "시간이 많이 걸린 폴더 비교 창을 닫으려고 합니다. 창을 닫으시겠습니까?"
+
+msgid "The file or folder name is invalid."
+msgstr "파일 또는 폴더 이름이 잘못되었습니다."
+
+#, c-format
+msgid "Failed to execute external editor: %1"
+msgstr "외부 편집기 실행 실패: %1"
+
+#, c-format
+msgid "Unknown archive format"
+msgstr "알 수 없는 압축 형식"
+
+msgid ""
+"Failed to extract archive.\n"
+"Compare as text file?"
+msgstr ""
+"압축 파일을 추출하지 못했습니다.\n"
+"압축 파일을 텍스트 파일로 비교하시겠습니까?"
+
+#, c-format
+msgid "Filename"
+msgstr "파일 이름"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Folder"
+msgstr "폴더"
+
+#, c-format
+msgid "Comparison Result"
+msgstr "비교 결과"
+
+#, c-format
+msgid "Left Date"
+msgstr "왼쪽 날짜"
+
+#, c-format
+msgid "Right Date"
+msgstr "오른쪽 날짜"
+
+#, c-format
+msgid "Middle Date"
+msgstr "가운데 날짜"
+
+#, c-format
+msgid "Left Size"
+msgstr "왼쪽 크기"
+
+#, c-format
+msgid "Right Size"
+msgstr "오른쪽 크기"
+
+#, c-format
+msgid "Middle Size"
+msgstr "가운데 크기"
+
+#, c-format
+msgid "Right Size (Short)"
+msgstr "오른쪽 크기 (짧게)"
+
+#, c-format
+msgid "Left Size (Short)"
+msgstr "왼쪽 크기 (짧게)"
+
+#, c-format
+msgid "Middle Size (Short)"
+msgstr "가운데 크기 (짧게)"
+
+#, c-format
+msgid "Left Creation Time"
+msgstr "왼쪽 생성 시간"
+
+#, c-format
+msgid "Right Creation Time"
+msgstr "오른쪽 생성 시간"
+
+#, c-format
+msgid "Middle Creation Time"
+msgstr "가운데 생성 시간"
+
+#, c-format
+msgid "Newer File"
+msgstr "최신 파일"
+
+#, c-format
+msgid "Left File Version"
+msgstr "왼쪽 파일 버전"
+
+#, c-format
+msgid "Right File Version"
+msgstr "오른쪽 파일 버전"
+
+#, c-format
+msgid "Middle File Version"
+msgstr "가운데 파일 버전"
+
+#, c-format
+msgid "Short Result"
+msgstr "짧은 결과"
+
+#, c-format
+msgid "Left Attributes"
+msgstr "왼쪽 속성"
+
+#, c-format
+msgid "Right Attributes"
+msgstr "오른쪽 속성"
+
+#, c-format
+msgid "Middle Attributes"
+msgstr "가운데 속성"
+
+#, c-format
+msgid "Left EOL"
+msgstr "왼쪽 줄끝"
+
+#, c-format
+msgid "Middle EOL"
+msgstr "가운데 줄끝"
+
+#, c-format
+msgid "Right EOL"
+msgstr "오른쪽 줄끝"
+
+#, c-format
+msgid "Left Encoding"
+msgstr "왼쪽 인코딩"
+
+#, c-format
+msgid "Right Encoding"
+msgstr "오른쪽 인코딩"
+
+#, c-format
+msgid "Middle Encoding"
+msgstr "가운데 인코딩"
+
+msgid "Ignored Diff"
+msgstr "무시된 차이점"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Binary"
+msgstr "바이너리"
+
+#, c-format
+msgid "Unpacker"
+msgstr "압축 풀기"
+
+#, c-format
+msgid "Prediffer"
+msgstr "사전 차이"
+
+msgid "Left"
+msgstr "왼쪽"
+
+msgid "Middle"
+msgstr "가운데"
+
+msgid "Right"
+msgstr "오른쪽"
+
+msgid "Diff"
+msgstr "차이점"
+
+msgid "Left Duplicate Count"
+msgstr "왼쪽 중복 개수"
+
+msgid "Right Duplicate Count"
+msgstr "오른쪽 중복 개수"
+
+msgid "Middle Duplicate Count"
+msgstr "가운데 중복 개수"
+
+msgid "Move"
+msgstr "이동"
+
+msgid "Audio"
+msgstr "오디오"
+
+msgid "Calendar"
+msgstr "캘린더"
+
+msgid "Communication"
+msgstr "대화"
+
+msgid "Contact"
+msgstr "연락처"
+
+msgid "Devices"
+msgstr "장치"
+
+msgid "Document"
+msgstr "문서"
+
+msgid "Home"
+msgstr "홈"
+
+msgid "Journal"
+msgstr "저널"
+
+msgid "Link"
+msgstr "링크"
+
+msgid "Media"
+msgstr "미디어"
+
+msgid "Music"
+msgstr "음악"
+
+msgid "Note"
+msgstr "메모"
+
+msgid "Photo"
+msgstr "사진"
+
+msgid "RecordedTV"
+msgstr "녹회된 TV"
+
+msgid "Search"
+msgstr "검색"
+
+msgid "Security"
+msgstr "보안"
+
+msgid "Software"
+msgstr "소프트웨어"
+
+msgid "Task"
+msgstr "작업"
+
+msgid "Video"
+msgstr "비디오"
+
+msgid "Hash"
+msgstr "해쉬"
+
+#, c-format
+msgid "Unable to compare files"
+msgstr "파일을 비교할 수 없습니다"
+
+#, c-format
+msgid "Item aborted"
+msgstr "취소된 항목"
+
+#, c-format
+msgid "File skipped"
+msgstr "파일을 건너뛰었습니다"
+
+#, c-format
+msgid "Folder skipped"
+msgstr "건너뛴 폴더"
+
+#, c-format
+msgid "Left only: %1"
+msgstr "왼쪽만: %1"
+
+#, c-format
+msgid "Middle only: %1"
+msgstr "가운데만: %1"
+
+#, c-format
+msgid "Right only: %1"
+msgstr "오른쪽만: %1"
+
+#, c-format
+msgid "Does not exist in %1"
+msgstr "%1에 존재하지 않습니다"
+
+#, c-format
+msgid "Binary files are identical"
+msgstr "바이너리 파일이 동일합니다"
+
+#, c-format
+msgid "Binary files are different"
+msgstr "바이너리 파일이 다릅니다"
+
+#, c-format
+msgid "Files are different"
+msgstr "파일이 서로 다릅니다"
+
+#, c-format
+msgid "Folders are different"
+msgstr "폴더가 다릅니다"
+
+#, c-format
+msgid "Left Only"
+msgstr "왼쪽만"
+
+#, c-format
+msgid "Right Only"
+msgstr "오른쪽만"
+
+#, c-format
+msgid "Middle Only"
+msgstr "가운데만"
+
+#, c-format
+msgid "No item in left"
+msgstr "왼쪽에 항목 없음"
+
+#, c-format
+msgid "No item in right"
+msgstr "오른쪽에 항목 없음"
+
+#, c-format
+msgid "No item in middle"
+msgstr "가운데에 항목 없음"
+
+#, c-format
+msgid "Error"
+msgstr "오류"
+
+#, c-format
+msgid "Text files are identical"
+msgstr "텍스트 파일이 같습니다"
+
+msgid " (Middle and right are identical)"
+msgstr " (가운데와 오른쪽은 동일합니다)"
+
+msgid " (Left and right are identical)"
+msgstr " (왼쪽과 오른쪽은 동일합니다)"
+
+msgid " (Left and middle are identical)"
+msgstr " (왼쪽과 가운데는 동일합니다)"
+
+#, c-format
+msgid "Text files are different"
+msgstr "텍스트 파일이 다릅니다"
+
+msgid "Image files are identical"
+msgstr "이미지 파일이 동일합니다"
+
+msgid "Image files are different"
+msgstr "이미지 파일이 다릅니다"
+
+#, c-format
+msgid "Group%d"
+msgstr "그룹%d"
+
+#, c-format
+msgid "Elapsed time: %ld ms"
+msgstr "경과 시간: %ld ms"
+
+#, c-format
+msgid "1 item selected"
+msgstr "1개 항목 선택"
+
+#, c-format
+msgid "%1 items selected"
+msgstr "%1개 항목 선택"
+
+#, c-format
+msgid "Filename or folder name."
+msgstr "파일 이름 또는 폴더 이름."
+
+#, c-format
+msgid "Subfolder name when subfolders are included."
+msgstr "하위 폴더를 포함할 때 하위 폴더 이름."
+
+#, c-format
+msgid "Comparison result, long form."
+msgstr "비교 결과 세부 내역."
+
+#, c-format
+msgid "Left side modification date."
+msgstr "왼쪽 변경 날짜."
+
+#, c-format
+msgid "Right side modification date."
+msgstr "오른쪽 변경 날짜."
+
+#, c-format
+msgid "Middle side modification date."
+msgstr "가운데 변경 날짜."
+
+#, c-format
+msgid "File's extension."
+msgstr "파일 확장자."
+
+#, c-format
+msgid "Left file size in bytes."
+msgstr "왼쪽 파일 크기를 바이트로."
+
+#, c-format
+msgid "Right file size in bytes."
+msgstr "오른쪽 파일 크기를 바이트로."
+
+#, c-format
+msgid "Middle file size in bytes."
+msgstr "가운데 파일 크기를 바이트로."
+
+#, c-format
+msgid "Left file size abbreviated."
+msgstr "축약된 왼쪽 파일 크기."
+
+#, c-format
+msgid "Right file size abbreviated."
+msgstr "축약된 오른쪽 파일 크기."
+
+#, c-format
+msgid "Middle file size abbreviated."
+msgstr "축약된 가운데 파일 크기."
+
+#, c-format
+msgid "Left side creation time."
+msgstr "왼쪽 파일 만든 날짜."
+
+#, c-format
+msgid "Right side creation time."
+msgstr "오른쪽 파일 만든 날짜."
+
+#, c-format
+msgid "Middle side creation time."
+msgstr "가운데 파일 만든 날짜."
+
+#, c-format
+msgid "Tells which side has newer modification date."
+msgstr "어느 쪽이 더 최근에 수정되었는지 알려줍니다."
+
+msgid "Left side file version, only for some file types."
+msgstr "왼쪽 파일 버전, 몇몇 파일 형식만."
+
+msgid "Right side file version, only for some file types."
+msgstr "오른쪽 파일 버전, 몇몇 파일 형식만."
+
+msgid "Middle side file version, only for some file types."
+msgstr "가운데 파일 버전, 몇몇 파일 형식만."
+
+#, c-format
+msgid "Short comparison result."
+msgstr "짧은 비교 결과."
+
+#, c-format
+msgid "Left side attributes."
+msgstr "왼쪽 속성."
+
+#, c-format
+msgid "Right side attributes."
+msgstr "오른쪽 속성."
+
+#, c-format
+msgid "Middle side attributes."
+msgstr "가운데 속성."
+
+msgid "Left side file EOL type."
+msgstr "왼쪽 파일 줄끝 형식."
+
+msgid "Right side file EOL type."
+msgstr "오른쪽 파일 줄끝 형식."
+
+msgid "Middle side file EOL type."
+msgstr "가운데 파일 줄끝 형식."
+
+#, c-format
+msgid "Left side encoding."
+msgstr "왼쪽 인코딩."
+
+#, c-format
+msgid "Right side encoding."
+msgstr "오른쪽 인코딩."
+
+#, c-format
+msgid "Middle side encoding."
+msgstr "가운데 인코딩."
+
+#, c-format
+msgid "Number of ignored differences in file. Ignored and cannot be merged."
+msgstr "파일 내 무시된 차이점 개수. WinMerge에서 무시된 이 차이점들은 병합할 수 없습니다."
+
+#, c-format
+msgid "Number of differences in file (excluding ignored)."
+msgstr "파일 내 차이점의 개수. 이 숫자는 무시된 차이점을 포함하지 않습니다."
+
+#, c-format
+msgid "Shows an asterisk (*) if the file is binary."
+msgstr "바이너리 파일이면 * 표시를 보입니다."
+
+msgid "Unpacker plugin name or pipeline."
+msgstr "압축 풀기 플러그인 이름 또는 파이프라인입니다."
+
+msgid "Prediffer plugin name or pipeline."
+msgstr "사전 차이 플러그인 이름 또는 파이프라인입니다."
+
+#, c-format
+msgid "Compare %1 with %2"
+msgstr "%1을 %2와 비교"
+
+#, c-format
+msgid "Compare %1 with %2 and %3"
+msgstr "%1을 %2 및 %3과(와) 비교"
+
+#, c-format
+msgid "Comma-separated list"
+msgstr "쉼표로 분리된 목록"
+
+#, c-format
+msgid "Tab-separated list"
+msgstr "탭으로 분리된 목록"
+
+#, c-format
+msgid "Simple HTML"
+msgstr "단순한 HTML"
+
+#, c-format
+msgid "Simple XML"
+msgstr "단순한 XML"
+
+#, c-format
+msgid "Report file already exists. Overwrite?"
+msgstr "보고서 파일이 이미 있습니다. 기존 파일을 덮어쓰시겠습니까?"
+
+#, c-format
+msgid ""
+"Error creating the report:\n"
+"%1"
+msgstr ""
+"보고서 작성 오류:\n"
+"%1"
+
+#, c-format
+msgid "Report created successfully."
+msgstr "보고서를 성공적으로 만들었습니다."
+
+msgid "Cannot add a synchronization point at this line."
+msgstr "이 줄에 동기화 지점을 추가할 수 없습니다."
+
+#, c-format
+msgid "Same file is opened in both panes."
+msgstr "같은 파일을 양쪽 패널에 열었습니다."
+
+#, c-format
+msgid "Selected files are identical."
+msgstr "선택한 파일들은 동일합니다."
+
+#, c-format
+msgid "An error occurred while comparing files."
+msgstr "파일 비교 중 오류가 발생했습니다."
+
+#, c-format
+msgid "Could not create temporary files. Check your temporary path settings."
+msgstr "임시 파일을 만들 수 없습니다. 임시 경로 설정을 확인하세요."
+
+msgid "Files use different EOL.\n\nTreat all EOL as equivalent?\n\nSet 'Ignore EOL differences (Windows/Unix/Mac)' in Compare section of Options."
+msgstr ""
+"이러한 파일은 서로 다른 캐리지 반환 형식을 사용합니다.\n"
+"\n"
+"이 비교에 대해 모든 캐리지 리턴 유형을 동등하게 취급하시겠습니까?\n"
+"\n"
+"참고: 모든 캐리지 리턴을 항상 동등하게 처리하려면, 편집 메뉴 -> 옵션 대화상자의 비교 탭에서 '케리지 리턴 차이 무시 (윈도우/유닉스/맥)' 옵션을 설정하면 됩니다."
+
+#, c-format
+msgid "Selected folder is invalid."
+msgstr "선택한 폴더는 무효합니다."
+
+#, c-format
+msgid "Cannot open a binary file in Editor."
+msgstr "바이너리 파일은 편집기로 열 수 없습니다."
+
+#, c-format
+msgid "Create matching folder:\n%1\non the other side and open?"
+msgstr ""
+"폴더가 다른 쪽에만 존재하며 열 수 없습니다.\n"
+"\n"
+"일치하는 폴더:\n"
+"%1\n"
+"을(를) 다른 쪽에 만들고 이 폴더를 여시겠습니까?"
+
+msgid "Copy all differences to other file?"
+msgstr "모든 차이점을 다른 파일에 복사하시겠습니까?"
+
+#, c-format
+msgid "Move to next file?"
+msgstr "다음 파일로 이동하시겠습니까?"
+
+#, c-format
+msgid "Move to previous file?"
+msgstr "이전 파일로 이동하시겠습니까?"
+
+#, c-format
+msgid "Move to next page?"
+msgstr "다음 페이지로 이동하시겠습니까?"
+
+#, c-format
+msgid "Move to previous page?"
+msgstr "이전 페이지로 이동하시겠습니까?"
+
+msgid "Move to first file?"
+msgstr "첫 번째 파일로 이동하시겠습니까?"
+
+msgid "Move to last file?"
+msgstr "마지막 파일로 이동하시겠습니까?"
+
+#, c-format
+msgid "Different codepages: left (cp%d), right (cp%d).\nDisplay in codepage (better display) or default Windows codepage (safer merging)?\n(Recommended: default Windows codepage)"
+msgstr ""
+"왼쪽 (cp%d) 및 오른쪽 (cp%d) 파일에서 서로 다른 코드페이지가 발견되었습니다.\n"
+"각 파일을 코드페이지에 표시하면 더 잘 표시되지만 병합/복사는 위험할 수 있습니다.\n"
+"두 파일을 모두 기본 Windows 코드페이지에 있는 것으로 처리하시겠습니까 (권장)?"
+
+#, c-format
+msgid "Information lost due to encoding errors: both files"
+msgstr "인코딩 오류로 인해 손실된 정보: 두 파일 모두"
+
+#, c-format
+msgid "Information lost due to encoding errors: first file"
+msgstr "인코딩 오류로 인해 손실된 정보: 첫 번째 파일"
+
+#, c-format
+msgid "Information lost due to encoding errors: second file"
+msgstr "인코딩 오류로 인해 손실된 정보: 두 번째 파일"
+
+#, c-format
+msgid "Information lost due to encoding errors: third file"
+msgstr "인코딩 오류로 인해 손실된 정보: 세 번째 파일"
+
+#, c-format
+msgid "No difference"
+msgstr "차이점 없음"
+
+#, c-format
+msgid "Line difference"
+msgstr "줄 차이점"
+
+#, c-format
+msgid "Replaced %1 string(s)."
+msgstr "%1개 문자열을 바꿨습니다."
+
+#, c-format
+msgid "Cannot find string \"%s\"."
+msgstr "다음 문자열을 찾을 수 없습니다: \"%s\"."
+
+msgid "Entering Merge Mode. Press F9 to turn off."
+msgstr "지금 병합 모드에 진입 중입니다. 병합 모드를 끄고 싶으면 F9 키를 누르세요."
+
+#, c-format
+msgid ""
+"Automatic merges: %1\n"
+"Unresolved conflicts: %2"
+msgstr ""
+"자동 병합된 변경사항 개수: %1\n"
+"미해결 충돌 개수: %2"
+
+msgid "Codepage change merged."
+msgstr "코드페이지 변경사항을 병합했습니다."
+
+msgid "Codepage changes are conflicting."
+msgstr "코드페이지 변경사항이 충돌하고 있습니다."
+
+msgid "EOL change merged."
+msgstr "줄끝 변경사항을 병합했습니다."
+
+msgid "EOL changes are conflicting."
+msgstr "줄끝 변경사항이 충돌하고 있습니다."
+
+#, c-format
+msgid "Location Pane"
+msgstr "위치 패널"
+
+#, c-format
+msgid "Diff Pane"
+msgstr "차이점 패널"
+
+#, c-format
+msgid "Patch file written."
+msgstr "패치 파일을 성공적으로 기록했습니다."
+
+msgid "First item not found!"
+msgstr "1. 항목을 찾을 수 없습니다!"
+
+msgid "Second item not found!"
+msgstr "2. 항목을 찾을 수 없습니다!"
+
+#, c-format
+msgid "Patch file already exists. Overwrite?"
+msgstr "패치 파일이 이미 존재합니다. 덮어쓰시겠습니까?"
+
+#, c-format
+msgid "[%1 files selected]"
+msgstr "[%1 개의 파일 선택됨]"
+
+#, c-format
+msgid "Normal"
+msgstr "보통"
+
+#, c-format
+msgid "Context"
+msgstr "문맥"
+
+#, c-format
+msgid "Unified"
+msgstr "통합"
+
+#, c-format
+msgid "Could not write to file %1."
+msgstr "%1 파일에 쓸 수 없습니다."
+
+#, c-format
+msgid "Output path is not absolute: %1"
+msgstr "지정한 출력 경로는 절대 경로가 아닙니다: %1"
+
+msgid "Specify an output file."
+msgstr "출력 파일 지정."
+
+#, c-format
+msgid "Cannot create patch from binary files."
+msgstr "바이너리 파일에서는 패치 파일을 만들 수 없습니다."
+
+#, c-format
+msgid ""
+"Save all files first.\n"
+"\n"
+"Creating a patch requires no unsaved changes."
+msgstr ""
+"먼저 모든 파일을 저장하십시오.\n"
+"\n"
+"패치를 만들려면 파일에 저장되지 않은 변경 사항이 없어야 합니다."
+
+#, c-format
+msgid "Folder does not exist."
+msgstr "폴더가 존재하지 않습니다."
+
+msgid ""
+"Archive support not enabled.\n"
+"7-Zip and/or Merge7z*.dll not found.\n"
+"See manual for archive support."
+msgstr ""
+"압축 지원이 꺼져 있습니다.\n"
+"압축 지원에 필요한 컴포넌트(7-Zip and/or Merge7z*.dll)를 찾을 수 없습니다.\n"
+"압축 지원에 대한 추가 정보와 사용법은 매뉴얼을 참조하세요."
+
+#, c-format
+msgid "Select file for export"
+msgstr "내보낼 파일을 선택하세요"
+
+#, c-format
+msgid "Select file for import"
+msgstr "가져올 파일을 선택하세요"
+
+#, c-format
+msgid "Options imported from file."
+msgstr "파일에서 가져온 옵션입니다."
+
+#, c-format
+msgid "Options exported to file."
+msgstr "파일로 내보낸 옵션입니다."
+
+#, c-format
+msgid "Failed to import options from file."
+msgstr "파일에서 옵션을 가져오지 못했습니다."
+
+#, c-format
+msgid "Failed to write options to file."
+msgstr "파일에 옵션을 쓰지 못했습니다."
+
+#, c-format
+msgid ""
+"Close multiple compare windows?\n"
+"\n"
+"Continue?"
+msgstr ""
+"여러 비교 창을 닫으려고 합니다.\n"
+"\n"
+"계속하시겠습니까?"
+
+#, c-format
+msgid "Mixed"
+msgstr "혼합됨"
+
+msgctxt "EOL Type"
+msgid "Binary"
+msgstr "바이너리"
+
+#, c-format
+msgid "None"
+msgstr "없음"
+
+#, c-format
+msgid "Marker Color %d"
+msgstr "마커 색상 %d"
+
+msgid "New Pattern"
+msgstr "새 패턴"
+
+#, c-format
+msgid "Type"
+msgstr "형식"
+
+#, c-format
+msgid "Editor script"
+msgstr "편집기 스크립트"
+
+#, c-format
+msgid ""
+"\n"
+"Difference in Current Line (F4)"
+msgstr ""
+"\n"
+"현재 줄의 차이점 (F4)"
+
+#, c-format
+msgid ""
+"\n"
+"Options"
+msgstr ""
+"\n"
+"옵션"
+
+#, c-format
+msgid ""
+"\n"
+"Refresh (F5)"
+msgstr ""
+"\n"
+"새로 고침 (F5)"
+
+#, c-format
+msgid ""
+"\n"
+"Previous Difference (Alt+Up)"
+msgstr ""
+"\n"
+"이전 차이점 (Alt+Up)"
+
+#, c-format
+msgid ""
+"\n"
+"Next Difference (Alt+Down)"
+msgstr ""
+"\n"
+"다음 차이점 (Alt+Down)"
+
+#, c-format
+msgid ""
+"\n"
+"Previous Conflict (Alt+Shift+Up)"
+msgstr ""
+"\n"
+"이전 충돌 (Alt+Shift+Up)"
+
+#, c-format
+msgid ""
+"\n"
+"Next Conflict (Alt+Shift+Down)"
+msgstr ""
+"\n"
+"다음 충돌 (Alt+Shift+Down)"
+
+#, c-format
+msgid ""
+"\n"
+"First Difference (Alt+Home)"
+msgstr ""
+"\n"
+"첫 차이점 (Alt+Home)"
+
+#, c-format
+msgid ""
+"\n"
+"Current Difference (Alt+Enter)"
+msgstr ""
+"\n"
+"현재 차이점 (Alt+Enter)"
+
+#, c-format
+msgid ""
+"\n"
+"Last Difference (Alt+End)"
+msgstr ""
+"\n"
+"마지막 차이점 (Alt+End)"
+
+msgid ""
+"\n"
+"Copy to Right (Alt+Right)"
+msgstr ""
+"\n"
+"오른쪽으로 복사 (Alt+Right)"
+
+msgid ""
+"\n"
+"Copy to Left (Alt+Left)"
+msgstr ""
+"\n"
+"왼쪽으로 복사 (Alt+Left)"
+
+msgid ""
+"\n"
+"Copy to Right and Advance (Ctrl+Alt+Right)"
+msgstr ""
+"\n"
+"오른쪽으로 복사 후 진행 (Ctrl+Alt+Right)"
+
+msgid ""
+"\n"
+"Copy to Left and Advance (Ctrl+Alt+Left)"
+msgstr ""
+"\n"
+"왼쪽으로 복사 후 진행 (Ctrl+Alt+Left)"
+
+msgid ""
+"\n"
+"Copy All to Right"
+msgstr ""
+"\n"
+"모두 오른쪽으로 복사"
+
+msgid ""
+"\n"
+"Copy All to Left"
+msgstr ""
+"\n"
+"모두 왼쪽으로 복사"
+
+#, c-format
+msgid ""
+"\n"
+"Auto Merge (Ctrl+Alt+M)"
+msgstr ""
+"\n"
+"자동 병합 (Ctrl+Alt+M)"
+
+msgid ""
+"\n"
+"First File"
+msgstr ""
+"\n"
+"첫 파일"
+
+msgid ""
+"\n"
+"Next File (Ctrl+F8)"
+msgstr ""
+"\n"
+"다음 파일 (Ctrl+F8)"
+
+msgid ""
+"\n"
+"Last File"
+msgstr ""
+"\n"
+" 마지막 파일"
+
+msgid ""
+"\n"
+"Previous File (Ctrl+F7)"
+msgstr ""
+"\n"
+"이전 파일 (Ctrl+F7)"
+
+msgid "Adapted unpacker applied to both files (one needs extension)."
+msgstr "적용된 압푹축 풀기는 두 파일 모두에 적용됩니다 한 파일만 확장자가 필요함)."
+
+#, c-format
+msgid "No Prediffer (Normal)"
+msgstr "사전 차이 없음 (보통)"
+
+#, c-format
+msgid "Suggested Plugins"
+msgstr "추천 플러그인"
+
+msgid "All Plugins"
+msgstr "모든 플러그인"
+
+#, c-format
+msgid "Private Build: %1"
+msgstr "개인 빌드: %1"
+
+msgid "Your software is up to date."
+msgstr "최신 버전을 사용 중입니다."
+
+#, c-format
+msgid ""
+"WinMerge update available.\n"
+"%1 available (you have %2). Download now?"
+msgstr ""
+"새 버전의 WinMerge를 사용할 수 있습니다.\n"
+"%1을(를) 사용할 수 있습니다 (%2를 가지고 있습니다). 지금 다운로드하시겠습니까?"
+
+#, c-format
+msgid "Failed to download latest version information"
+msgstr "최신 버전 정보 다운로드 실패"
+
+#, c-format
+msgid "Plugin Settings"
+msgstr "플러그인 설정"
+
+#, c-format
+msgid "WSH not found - .sct scripts disabled"
+msgstr "WSH이 없습니다 - .sct 스크립트 비활성화"
+
+#, c-format
+msgid "G&o to Line %1"
+msgstr "%1줄로 이동(&O)"
+
+msgid "Go to Moved Line\tCtrl+Shift+G"
+msgstr "이동된 줄로 이동\tCtrl+Shift+G"
+
+#, c-format
+msgid "Disabled"
+msgstr "사용 안 함"
+
+#, c-format
+msgid "From file system"
+msgstr "파일 시스템에서"
+
+#, c-format
+msgid "From Most Recently Used list"
+msgstr "최근 목록에서"
+
+#, c-format
+msgid "No Highlighting"
+msgstr "강조 표시 없음"
+
+#, c-format
+msgid "Batch"
+msgstr "Batch"
+
+#, c-format
+msgid "Portable Object"
+msgstr "휴대용 개체"
+
+#, c-format
+msgid "Resources"
+msgstr "리소스"
+
+#, c-format
+msgid "Shell"
+msgstr "쉘"
+
+#, c-format
+msgid "Close &Left Tabs"
+msgstr "왼쪽 탭 닫기(&L)"
+
+#, c-format
+msgid "Close R&ight Tabs"
+msgstr "오른쪽 탭 닫기(&I)"
+
+#, c-format
+msgid "Close &Other Tabs"
+msgstr "다른 탭 닫기(&O)"
+
+#, c-format
+msgid "Enable &Auto Max Width"
+msgstr "자동 최대 너비 사용(&A)"
+
+msgid "We&bpage"
+msgstr "웹페이지(&B)"
+
+msgid "W&rap Text"
+msgstr "텍스트 줄 바꿈(&R)"
+
+msgid "%1 is not installed."
+msgstr "%1가 설치되지 않았습니다."
+
+#, c-format
+msgid "%1 does not exist. Create it?"
+msgstr "%1이(가) 존재하지 않습니다. 생성하시겠습니까?"
+
+#, c-format
+msgid "Failed to create folder."
+msgstr "폴더 생성에 실패했습니다."
+
+#, c-format
+msgid ""
+"Parameters:\n"
+"$file: Current file path\n"
+"$linenum: Current cursor line number"
+msgstr ""
+"경로에 다음 매개 변수를 지정할 수 있습니다:\n"
+"$file: 현재 파일의 경로명\n"
+"$linenum: 현재 커서 위치의 줄 번호"
+
+msgid "default"
+msgstr "기본"
+
+msgid "minimal"
+msgstr "최소화"
+
+msgid "patience"
+msgstr "페이션스"
+
+msgid "histogram"
+msgstr "히스토그램"
+
+msgid "none"
+msgstr "없음"
+
+msgid "GDI"
+msgstr "GDI"
+
+msgid "DirectWrite Default"
+msgstr "DirectWrite 기본"
+
+msgid "DirectWrite Aliased"
+msgstr "DirectWrite Aliased"
+
+msgid "DirectWrite GDI Classic"
+msgstr "DirectWrite GDI Classic"
+
+msgid "DirectWrite GDI Natural"
+msgstr "DirectWrite GDI Natural"
+
+msgid "DirectWrite Natural"
+msgstr "DirectWrite Natural"
+
+msgid "DirectWrite Natural Symmetric"
+msgstr "DirectWrite Natural Symmetric"
+
+msgid "MDI child window or main window"
+msgstr "MDI 하위 창 또는 기본 창"
+
+msgid "MDI child window only"
+msgstr "MDI 하위 창만"
+
+msgid "Close main window if only one MDI child window"
+msgstr "MDI 하위 창이 하나만 있는 경우 기본 창 닫기"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Diff"
+msgstr "차이"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Highlight"
+msgstr "강조 표시"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Blink"
+msgstr "깜박임"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Size"
+msgstr "블록 크기"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Alpha"
+msgstr "블록 알파"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "CD Threshold"
+msgstr "CD 임계값"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Ins/Del Detection"
+msgstr "삽입/삭제 감지"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "None"
+msgstr "없음"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Vertical"
+msgstr "수직"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Horizontal"
+msgstr "수평"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Overlay"
+msgstr "오버레이"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha"
+msgstr "알파"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "XOR"
+msgstr "XOR"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Blend"
+msgstr "알파 혼합"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Animation"
+msgstr "알파 애니메이션"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Zoom"
+msgstr "확대/축소"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Page:"
+msgstr "페이지:"
+
+#, c-format
+msgid "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+msgstr "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+
+#, c-format
+msgid "Dist: %g  "
+msgstr "치수: %g  "
+
+#, c-format
+msgid "Dist: %g, %g  "
+msgstr "치수: %g, %g  "
+
+#, c-format
+msgid "Page: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+msgstr "페이지: %d/%d  줌: %d%%  %dx%dpx  %dbpp  "
+
+#, c-format
+msgid "Rc: (%d, %d)  "
+msgstr "Rc: (%d, %d)  "
+
+#, c-format
+msgid "Flipped: %s  "
+msgstr "뒤집음: %s  "
+
+#, c-format
+msgid "Rotated: %d  "
+msgstr "회전됨: %d  "
+
+msgid "All pages"
+msgstr "모든 페이지"
+
+msgid "<Edit here>"
+msgstr "<여기서 편집>"
+
+msgid "No differences found to select"
+msgstr "선택할 차이점을 찾을 수 없습니다"
+
+msgid "No differences found to add as substitution filter"
+msgstr "대체 필터로 추가할 차이를 찾을 수 없습니다"
+
+msgid "The pair is already in the Substitution Filters list"
+msgstr "쌍이 이미 대체 필터 목록에 있습니다"
+
+msgid "Add this change to Substitution Filters?"
+msgstr "대체 필터에 이 변경 사항을 추가하시겠습니까?"
+
+msgid "Text only"
+msgstr "텍스트만"
+
+msgid "Line-by-line position and text"
+msgstr "줄별 위치 및 텍스트"
+
+msgid "Word-by-word position and text"
+msgstr "단어별 위치 및 텍스트"
+
+msgid "AppData folder"
+msgstr "AppData 폴더"
+
+msgid "Install folder"
+msgstr "설치 폴더"
+
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "하나의 인스턴스만 실행 허용"
+
+msgid "Allow only one instance; wait for termination"
+msgstr "하나의 인스턴스만 실행하고 인스턴스가 종료될 때까지 대기"
+
+msgid "Only on window activated"
+msgstr "창에서만 활성화됨"
+
+msgid "Immediately"
+msgstr "즉시"
+
+msgid "Al&l"
+msgstr "모두(&L)"
+
+msgid "&Others"
+msgstr "기타(&O)"
+
+#, c-format
+msgid "Missing plugin name in pipeline: %1"
+msgstr "플러그인 파이프라인에 누락된 플러그인 이름: %1"
+
+#, c-format
+msgid "Missing quote in plugin pipeline: %1"
+msgstr "플러그인 파이프라인에 따옴표가 없습니다: %1"
+
+#, c-format
+msgid "Plugin name '%1' already exists."
+msgstr "플러그인 이름 '%1'이(가) 이미 있습니다."
+
+msgid "Specify plugin arguments"
+msgstr "플러그인 인수 지정"
+
+#, c-format
+msgid "Plugin not found or invalid: %1"
+msgstr "플러그인을 찾을 수 없거나 잘못되었습니다: %1"
+
+#, c-format
+msgid "'%1' is not an unpacker plugin"
+msgstr "'%1'은(는) 압축 풀기 플러그인이 아닙니다"
+
+#, c-format
+msgid "'%1' is not a prediffer plugin"
+msgstr "'%1'은(는) 사전 차이 플러그인이 아닙니다"
+
+#, c-format
+msgid "Error prediffing '%1' with '%2'. Prediffing disabled."
+msgstr "'%1' 파일을 '%2' 플러그인과 미리 비교하는 동안 오류가 발생했습니다. 미리 비교은 더 이상 적용되지 않습니다."
+
+#, c-format
+msgid "Circular reference in plugin pipeline: %1"
+msgstr "플러그인 파이프라인의 순환 참조: %1"
+
+msgid "URL Handler"
+msgstr "URL 처리기"
+
+msgid "File Unpacker"
+msgstr "파일 압축 풀기"
+
+msgid "File or Folder Unpacker"
+msgstr "파일 또는 폴더 압축 풀기"
+
+msgid "Alias for Unpacker"
+msgstr "압축 풀기의 별칭"
+
+msgid "Alias for Prediffer"
+msgstr "사전 차이의 별칭"
+
+msgid "Alias for Editor script"
+msgstr "편집기 스크립트의 별칭"
+
+#, c-format
+msgid "Alias for plugin pipeline '%1'"
+msgstr "플러그인 파이프라인 '%1'의 별칭"
+
+msgid "New plugin description"
+msgstr "새 플러그인 설명"
+
+msgid "All"
+msgstr "모두"
+
+msgid "1st"
+msgstr "첫 번째"
+
+msgid "2nd"
+msgstr "두 번째"
+
+msgid "3rd"
+msgstr "세 번째"
+
+msgid "1st and 2nd"
+msgstr "첫 번째 및 두 번쩨"
+
+msgid "1st and 3rd"
+msgstr "척 번째 및 세번째"
+
+msgid "2nd and 3rd"
+msgstr "두 번째 및 세번째"
+
+msgid "Filter applied"
+msgstr "필터 적용됨"
+
+#, c-format
+msgid "Clipboard at %s"
+msgstr "%s의 클립보드"
+
+msgid ""
+"Clipboard history disabled.\r\n"
+"Enable: Windows logo key + V, then Turn on."
+msgstr ""
+"클립보드 히스토리를 사용할 수 없습니다.\r\n"
+"클립보드 히스토리를 활성화하려면 Windows 로고 키 + V를 누른 다음 켜기 버튼을 클릭하세요."
+
+msgid "This system does not support clipboard history."
+msgstr "이 시스템은 클립보드 히스토리를 지원하지 않습니다."
+
+msgid "32-bit WinMerge does not support Clipboard Compare"
+msgstr "32비트 버전의 WinMerge는 클립보드 비교를 지원하지 않습니다"
+
+msgid "WebView2 runtime not installed. Download it?"
+msgstr "WebView2 런타임이 설치되지 않았습니다. 다운로드하시겠습니까?"
+
+msgid "New Text Compare"
+msgstr "새 텍스트 비교"
+
+msgid "New Table Compare"
+msgstr "새 테이블 비교"
+
+msgid "New Binary Compare"
+msgstr "새 바이너리 비교"
+
+msgid "New Image Compare"
+msgstr "새 이미지 비교"
+
+msgid "New Webpage Compare"
+msgstr "새 웹 페이지 비교"
+
+msgid "Clipboard Compare"
+msgstr "클립보드 비교"
+
+msgid "&Print..."
+msgstr "인쇄(&P)..."
+
+msgid "Pre&v Page"
+msgstr "이전 페이지(&V)"
+
+msgid "&Two Page"
+msgstr "2 페이지(&T)"
+
+msgid "&One Page"
+msgstr "1 페이지(&O)"
+
+msgid "Zoom &In"
+msgstr "확대(&I)"
+
+msgid "Zoom &Out"
+msgstr "축소(&O)"
+
+msgid "Comparing..."
+msgstr "비교 중..."
+
+msgid "Zoom:"
+msgstr "확대/축소:"
+
+msgid "Diff hunk"
+msgstr "차이 덩어리"
+
+msgid "Inline diff"
+msgstr "인라인 차이"
+
+msgid "Line"
+msgstr "줄"
+
+msgid "Character"
+msgstr "문자"
+
+msgid ""
+"\n"
+"Previous Difference (Alt+Up)\n"
+"(Right Button+Wheel Up)\n"
+"(Alt+Wheel Up)"
+msgstr ""
+"\n"
+"이전 차이점 (Alt+⭡)\n"
+"(오른쪽 버튼+휠 ⭡ )\n"
+"(Alt+휠 ⭡)"
+
+msgid ""
+"\n"
+"Next Difference (Alt+Down)\n"
+"(Right Button+Wheel Down)\n"
+"(Alt+Wheel Down)"
+msgstr ""
+"\n"
+"다음 차이점 (Alt+⭣)\n"
+"(오른쪽 버튼+휠 ⭣)\n"
+"(Alt+휠 ⭣)"
+
+msgid ""
+"\n"
+"Copy to Right (Alt+Right)\n"
+"(Right Button+Wheel Right)\n"
+"(Alt+Wheel Right)\n"
+"(Alt+Shift+Wheel Down)"
+msgstr ""
+"\n"
+"오른쪽으로 복사 (Alt+⭢)\n"
+"(오른쪽 버튼+휠 ⭢)\n"
+"(Alt+휠 ⭢)\n"
+"(Alt+Shift+휠 ⭣)"
+
+msgid ""
+"\n"
+"Copy to Left (Alt+Left)\n"
+"(Right Button+Wheel Left)\n"
+"(Alt+Wheel Left)\n"
+"(Alt+Shift+Wheel Up)"
+msgstr ""
+"\n"
+"왼쪽으로 복사 (Alt+⭠)\n"
+"(오른쪽 버튼+휠 ⭠)\n"
+"(Alt+휠 ⭠)\n"
+"(Alt+Shift+휠 ⭡)"
+
+msgid ""
+"\n"
+"Copy to Right and Advance (Ctrl+Alt+Right)\n"
+"(Ctrl+Alt+Wheel Right)\n"
+"(Ctrl+Alt+Shift+Wheel Down)"
+msgstr ""
+"\n"
+"오른쪽으로 복사 및 진행 (Ctrl+Alt+⭢)\n"
+"(Ctrl+Alt+휠 ⭢)\n"
+"(Ctrl+Alt+Shift+휠 ⭣)"
+
+msgid ""
+"\n"
+"Copy to Left and Advance (Ctrl+Alt+Left)\n"
+"(Ctrl+Alt+Wheel Left)\n"
+"(Ctrl+Alt+Shift+Wheel Up)"
+msgstr ""
+"\n"
+"왼쪽으로 복사 및 진행 (Ctrl+Alt+⭠)\n"
+"(Ctrl+Alt+휠 ⭠)\n"
+"(Ctrl+Alt+Shift+휠 ⭡)"
+
+#, c-format
+msgid "Comparing %1 with %2"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2 and %3"
+msgstr ""
+
+msgid "Comparison completed"
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2: "
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2 and %3: "
+msgstr ""
+
+msgid "File saved"
+msgstr ""
+
+msgid "Copying files..."
+msgstr ""
+
+msgid "Moving files..."
+msgstr ""
+
+msgid "Deleting files..."
+msgstr ""
+
+msgid "Recycle Bin"
+msgstr ""
+
+msgid "Permanently deleted"
+msgstr ""
+
+msgid "File operation completed successfully"
+msgstr ""
+
+msgid "File operation canceled"
+msgstr ""
+
+msgid "Prettification"
+msgstr "꾸미기"
+
+msgid "Content Extraction"
+msgstr "내용 추출"
+
+msgid "Preview"
+msgstr "미리보기"
+
+msgid "Data Query"
+msgstr "데이터 쿼리"
+
+msgid "Validation"
+msgstr "검증"
+
+msgid "Decompilation"
+msgstr "디컴파일"
+
+msgid "URL Handling"
+msgstr "URL 처리"
+
+msgid "Decoding / Encoding"
+msgstr "디코딩/인코딩"
+
+msgid "Make Uppercase"
+msgstr "대문자로 변환"
+
+msgid "Make Lowercase"
+msgstr "소문자로 변환"
+
+msgid "Remove Duplicate Lines"
+msgstr "중복된 줄 제거"
+
+msgid "Count Duplicate Lines"
+msgstr "중복된 줄 수 세기"
+
+msgid "Sort Lines Ascending"
+msgstr "오름차순 정렬"
+
+msgid "Sort Lines Descending"
+msgstr "내림차순 정렬"
+
+msgid "Reverse Columns"
+msgstr "열 뒤집기"
+
+msgid "Reverse Lines"
+msgstr "행 뒤집기"
+
+msgid "Replace..."
+msgstr "바꾸기..."
+
+msgid "Apply Filter Command..."
+msgstr "필터 명령 적용..."
+
+msgid "Tokenize..."
+msgstr "토큰화..."
+
+msgid "Trim Spaces"
+msgstr "공백 손질"
+
+msgid "Select Columns..."
+msgstr "열 선택..."
+
+msgid "Select Lines..."
+msgstr "줄 선택..."
+
+msgid "Insert Date"
+msgstr "날짜 삽입"
+
+msgid "Insert Time"
+msgstr "시간 삽입"
+
+msgid "Apply Patch..."
+msgstr "패치 적용..."
+
+msgid "Ignore Columns"
+msgstr "열 무시"
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr "주석 무시 C-계열 언어)"
+
+msgid "Ignore CSV Fields"
+msgstr "CSV 입력란 무시"
+
+msgid "Ignore TSV Fields"
+msgstr "TSV 입력란 무시"
+
+msgid "Ignore Leading Line Numbers"
+msgstr "선행 줄 번호 무시"
+
+msgid "Apply Prediff Substitution Filters"
+msgstr "미리 비교 대체 필터 적용"
+
+msgid "Prettify HTML"
+msgstr "HTML 꾸미기"
+
+msgid "Prettify JSON"
+msgstr "JSON 꾸미기"
+
+msgid "Prettify XML"
+msgstr "XML 꾸미기"
+
+msgid "Prettify YAML"
+msgstr "YAML 꾸미기"
+
+msgid "Preview Graphviz"
+msgstr "Graphviz 미리보기"
+
+msgid "Preview Markdown"
+msgstr "Markdown 미리보기"
+
+msgid "Preview PlantUML"
+msgstr "PlantUML 미리보기"
+
+msgid "Query CSV Data..."
+msgstr "CSV 데이터 쿼리..."
+
+msgid "Query TSV Data..."
+msgstr "TSV 데이터 쿼리..."
+
+msgid "Query JSON Data..."
+msgstr "JSON 데이터 쿼리..."
+
+msgid "Query YAML Data..."
+msgstr "YAML 데이터 쿼리..."
+
+msgid "Validate HTML"
+msgstr "HTML 유효성 검사"
+
+msgid "Disassemble JVM Bytecode"
+msgstr "JVM 바이트코드 분해"
+
+msgid "Disassemble IL Code"
+msgstr "IL 코드 분해"
+
+msgid "Disassemble Native Code"
+msgstr "네이티브 코드 분해"
+
+msgid "Convert Text with AI..."
+msgstr "AI로 텍스트 변환..."
+
+msgid "Unescape Java properties files"
+msgstr "Java 속성 파일 이스케이프 해제"
+
+msgid "Make characters uppercase"
+msgstr "문자를 대문자로 만들기"
+
+msgid "Make characters lowercase"
+msgstr "문자를 소문자로 만들기"
+
+msgid "Remove duplicate lines"
+msgstr "중복 줄 제거"
+
+msgid "Count duplicate lines"
+msgstr "중복 줄 계산"
+
+msgid "Sort lines ascending"
+msgstr "오름차순으로 줄 정렬"
+
+msgid "Sort lines descending"
+msgstr "내림차순으로 줄 정렬"
+
+msgid "Reverse columns"
+msgstr "열 반전"
+
+msgid "Reverse lines"
+msgstr "줄 반전"
+
+msgid ""
+"Replace text.\r\n"
+"Usage: Replace [-i] [-e] FIND REPLACE\r\n"
+" or: Replace -s\r\n"
+" FIND - text to find\r\n"
+" REPLACE - text to replace\r\n"
+" -i - ignore case (only for -e)\r\n"
+" -e - regex\r\n"
+" -s - use Substitution Filters"
+msgstr ""
+"텍스트를 다른 텍스트로 바꿉니다.\r\n"
+"사용법: Replace [-i] [-e] FIND REPLACE\r\n"
+" or: Replace -s\r\n"
+"  FIND    - 찾을 텍스트\r\n"
+"  REPLACE - 바꿀 텍스트\r\n"
+"  -i - 대소문자 무시(-e의 경우에만)\r\n"
+"  -e - 지정된 텍스트를 정규식으로 취급\r\n"
+" -s - use Substitution Filters"
+
+#, c-format
+msgid ""
+"Apply filter. \r\n"
+"Usage: ExecFilterCommand COMMAND\r\n"
+" COMMAND - command to execute. %1 = filename."
+msgstr ""
+"필터 명령을 적용합니다.\r\n"
+"사용법: ExecFilterCommand COMMAND\r\n"
+"  COMMAND - 실행할 명령. 명령의 %1은(는) 파일 이름으로 바뀜."
+
+msgid ""
+"Tokenize. \r\n"
+"Usage: Tokenize PATTERNS\r\n"
+" PATTERNS - regex (e.g. [^\\w]+)"
+msgstr ""
+"선택을 토큰화 합니다. \r\n"
+"사용법: Tokenize PATTERNS\r\n"
+"  PATTERNS - 토큰화를 위한 정규식. (예: [^\\w]+)"
+
+msgid "Trim spaces"
+msgstr "공백 손질"
+
+msgid ""
+"Select columns.\r\n"
+"Usage: SelectColumns RANGES\r\n"
+" or: SelectColumns [-v] [-i] [-g] -e PATTERNS\r\n"
+" RANGES - column ranges (-3,5-10,30-)\r\n"
+" PATTERNS - regex\r\n"
+" -v - select non-matching\r\n"
+" -i - ignore case\r\n"
+" -g - enable global flag\r\n"
+" -e - use PATTERNS"
+msgstr ""
+"일부 열을 선택합니다.\r\n"
+"사용법: SelectColumns RANGES\r\n"
+"   또는: SelectColumns [-v] [-i] [-g] -e PATTERNS\r\n"
+"  RANGES   - 선택할 열 범위의 목록. (예: -3,5-10,30-)\r\n"
+"  PATTERNS - 정규식\r\n"
+"  -v - 일치하지 않는 열 선택\r\n"
+"  -i - 대소문자 무시\r\n"
+"  -g - 전역 플래그 활성화\r\n"
+"  -e - 일치에 PATTERNS 사용"
+
+msgid ""
+"Select lines.\r\n"
+"Usage: SelectLines RANGES\r\n"
+" or: SelectLines [-v] [-i] -e PATTERNS\r\n"
+" RANGES - line ranges (-3,5-10,30-)\r\n"
+" PATTERNS - regex\r\n"
+" -v - select non-matching\r\n"
+" -i - ignore case\r\n"
+" -e - use PATTERNS"
+msgstr ""
+"일부 줄을 선택합니다.\r\n"
+"사용법: SelectLines RANGES\r\n"
+"   또는: SelectLines [-v] [-i] -e PATTERNS\r\n"
+"  RANGES   - 선택할 줄 범위의 목록. (예: -3,5-10,30-)\r\n"
+"  PATTERNS - 정규식\r\n"
+"  -v - 일치하지 않는 행 선택\r\n"
+"  -i - 대소문자 무시\r\n"
+"  -e - 일치에 PATTERNS 사용"
+
+msgid ""
+"HTML Prettier (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Tidy-html5를 사용하여 HTML 꾸미기입니다. \r\n"
+"인수: 정리 명령에 전달된 명령줄 옵션입니다."
+
+msgid ""
+"JSON Prettier (jq).\r\n"
+"Arguments: jq filter/command line options."
+msgstr ""
+"'jq command'를 사용하여 JSON 꾸미기입니다. \r\n"
+"인수: jq 명령에 전달된 필터 또는 명령줄 옵션입니다."
+
+msgid ""
+"XML Prettier (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Tidy-html5를 사용하여 XML을 꾸미기입니다. \r\n"
+"인수: tidy 명령에 전달된 명령줄 옵션입니다."
+
+msgid ""
+"YAML Prettier (yq).\r\n"
+"Arguments: yq filter/command line options."
+msgstr ""
+"'yq command'를 사용하여 YAML 꾸미기입니다. \r\n"
+"인수: yq 명령에 전달된 필터 또는 명령줄 옵션입니다."
+
+msgid ""
+"Graphviz Previewer.\r\n"
+"Arguments: dot command line options."
+msgstr ""
+"Graphviz 미리보기입니다. \r\n"
+"인수: dot 명령에 전달된 명령줄 옵션입니다."
+
+msgid ""
+"Markdown Previewer.\r\n"
+"Arguments: md2html command line options."
+msgstr ""
+"마크다운 미리보기입니다.\r\n"
+"인수: md2html 명령에 전달된 명령줄 옵션입니다."
+
+msgid ""
+"PlantUML Previewer.\r\n"
+"Arguments: plantuml.jar command line options."
+msgstr ""
+"PlantUML 미리보기입니다.\r\n"
+"인수: plantuml.jar 명령에 전달된 명령줄 옵션입니다."
+
+msgid ""
+"CSV Querier (q).\r\n"
+"Arguments: SQL statement/q comannd line options."
+msgstr ""
+"q 명령을 사용하는 CSV 쿼리어입니다. \r\n"
+"인수: q 명령에 전달된 SQL문 또는 명령줄 옵션입니다."
+
+msgid ""
+"TSV Querier (q).\r\n"
+"Arguments: SQL statement/q comannd line options."
+msgstr ""
+"q 명령을 사용하는 TSV 쿼리어입니다. \n"
+"인수: q 명령에 전달된 SQL문 또는 명령줄 옵션입니다."
+
+msgid ""
+"JSON Querier (jq).\r\n"
+"Arguments: jq filter/command line options."
+msgstr ""
+"'jq command'를 사용하여 JSON 쿼리어입니다. \r\n"
+"인수: jq 명령에 전달된 필터 또는 명령줄 옵션입니다."
+
+msgid ""
+"YAML Querier (yq).\r\n"
+"Arguments: yq filter/command line options."
+msgstr ""
+"'yq command'를 사용하여 YAML 쿼리어입니다. \r\n"
+"인수: yq 명령에 전달된 필터 또는 명령줄 옵션입니다."
+
+msgid ""
+"HTML Validator (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Tidy-html5를 사용하여 HTML 유효성 검사입니다. \r\n"
+"인수: tidy 명령에 전달된 명령줄 옵션입니다."
+
+msgid ""
+"JVM bytecode disassembler (javap).\r\n"
+"Arguments: javap command line options."
+msgstr ""
+"'javap'를 사용하는 JVM 바이트코드 디스어셈블러. \r\n"
+"인수: javap 명령에 전달된 명령행 옵션입니다."
+
+msgid ""
+"IL disassembler (ildasm).\r\n"
+"Arguments: ildasm command line options."
+msgstr ""
+"'ildasm'을 사용하는 IL 디스어셈블러. \r\n"
+"인수: ildasm 명령에 전달된 명령줄 옵션입니다."
+
+msgid ""
+"Native code disassembler (dumpbin).\r\n"
+"Arguments: dumpbin command line options."
+msgstr ""
+"'dumpbin'을 사용하는 네이티브 코드 디스어셈블러. \r\n"
+"인수: dumpbin command에 전달할 명령줄 옵션."
+
+msgid ""
+"Content extractor (Apache Tika).\r\n"
+"Arguments: tika-app.jar command line options."
+msgstr ""
+"Apache Tika를 사용하는 일반 콘텐츠 추출기. \r\n"
+"인수: tika-app.jar에 전달할 명령줄 옵션."
+
+msgid "Apply patch (GNU patch)"
+msgstr "GNU 패치를 사용하여 패치 적용"
+
+msgid "Display MS Excel text content"
+msgstr "MS Excel 파일의 텍스트 내용 표시"
+
+msgid "Display MS PowerPoint text content"
+msgstr "MS PowerPoint 파일의 텍스트 내용 표시"
+
+msgid "Display MS Visio text content"
+msgstr "MS Visio 파일의 텍스트 내용 표시"
+
+msgid "Display MS Word text content"
+msgstr "MS Word 파일의 텍스트 내용 표시"
+
+msgid "Ignore columns - list from plugin name/argument"
+msgstr "일부 열 무시 - 플러그인 이름 또는 플러그인 인수에서 무시된 열 목록"
+
+msgid "Ignore C, C++, PHP, and JavaScript comments (//... and /* ... */)."
+msgstr "플러그인은 C, C++, PHP 및 JavaScript 파일의 주석 (//... 및 /* ... */)을 무시합니다."
+
+msgid "Ignore fields - list from plugin name/argument"
+msgstr "일부 필드 무시 - 플러그인 이름 또는 플러그인 인수에서 무시된 필드 목록"
+
+msgid "Ignore leading line numbers (e.g., NC, BASIC)."
+msgstr "이 플러그인은 텍스트 파일 (예: NC 및 BASIC 파일)의 선행 라인 번호를 무시합니다."
+
+msgid "Prediff Line Filter"
+msgstr "사전 차이 필터"
+
+msgid "Date and time insertion"
+msgstr "날짜 및 시간 삽입 기능"
+
+msgid ""
+"HTTP URL Scheme Handler (curl).\r\n"
+"Arguments: curl command line options."
+msgstr ""
+"curl이 있는 HTTP URL 구성표 처리기입니다.\n"
+"인수: curl 명령에 전달된 명령줄 옵션입니다."
+
+msgid ""
+"Windows Registry URL Scheme Handler.\r\n"
+"Arguments: reg.exe command line options."
+msgstr ""
+"Windows 레지스트리 URL 구성표 처리기입니다.\n"
+"인수: reg.exe 명령에 전달된 명령줄 옵션입니다."
+
+msgid "Basic text functions"
+msgstr "기본 텍스트 기능"
+
+msgid "AI-assisted text conversion"
+msgstr "AI 지원 텍스트 변환 기능"
+
+msgid ""
+"Text converter (OpenAI API).\r\n"
+"Usage: AIConvertText PROMPT"
+msgstr ""
+"OpenAI API를 사용하는 텍스트 변환기.\r\n"
+"사용법: AIConvertText 프롬프트"
+
+msgid "Unescape and display escaped Java properties files."
+msgstr "이스케이프 처리된 Java 속성 파일을 이스케이프 해제하고 표시합니다."
+
+msgid "CompareMSExcelFiles.sct WinMerge Plugin Options"
+msgstr "CompareMSExcelFiles.sct WinMerge 플러그인 옵션"
+
+msgid "Extract workbook data to multiple files"
+msgstr "워크북 데이터를 여러 파일로 추출"
+
+msgid "Update external references (links)"
+msgstr "외부 참조 (링크) 업데이트"
+
+msgid "Compare document properties"
+msgstr "문서 속성 비교"
+
+msgid "Compare names"
+msgstr "이름 비교"
+
+msgid "Compare cell values"
+msgstr "셀 값 비교"
+
+msgid "Compare worksheets as image (very slow)"
+msgstr "워크시트를 이미지로 비교 (매우 느림)"
+
+msgid " - Image split size: "
+msgstr " - 이미지 분할 크기: "
+
+msgid "Compare worksheets as HTML"
+msgstr "워크시트를 HTML로 비교"
+
+msgid "Compare formulas"
+msgstr "공식 비교"
+
+msgid "Compare texts in shapes"
+msgstr "도형의 텍스트 비교"
+
+msgid "Compare headers and footers"
+msgstr "머리글과 바닥글 비교"
+
+msgid ""
+"Cannot get Macros.\r\n"
+"Enable 'Trust access to Visual Basic Project' in MS Office Macro Security."
+""
+msgstr ""
+"매크로를 가져올 수 없습니다.\r\n"
+" WinMerge가 매크로를 비교할 수 있도록 하려면 MS Office를 사용하여 현재 응용 프로그램의 매크로 보안 설정을 변경합니다.\r\n"
+" WinMerge에서 이 기능을 사용하려면 Visual Basic Project 기능에 대한 신뢰 액세스를 설정해야 합니다.\r\n"
+
+msgid "Compare VBA macros"
+msgstr "VBA 매크로 비교"
+
+msgid "CompareMSWordFiles.sct WinMerge Plugin Options"
+msgstr "CompareMSWordFiles.sct WinMerge 플러그인 옵션"
+
+msgid "Extract document data to multiple files"
+msgstr "문서 데이터를 여러 파일로 추출"
+
+msgid "Compare bookmarks"
+msgstr "북마크 비교"
+
+msgid "Compare text contents of documents"
+msgstr "문서의 텍스트 내용 비교"
+
+msgid "Compare documents as HTML file (very slow)"
+msgstr "문서를 HTML 파일로 비교 (매우 느림)"
+
+msgid "CompareMSPowerPointFiles.sct WinMerge Plugin Options"
+msgstr "CompareMSPowerPointFiles.sct WinMerge 플러그인 옵션"
+
+msgid "Extract slide data to multiple files"
+msgstr "슬라이드 데이터를 여러 파일로 추출"
+
+msgid "Compare slides as image (very slow)"
+msgstr "슬라이드를 이미지로 비교 (매우 느림)"
+
+msgid "Compare texts in notes page"
+msgstr "참조 페이지의 텍스트 비교"
+
+msgid "CompareMSVisioFiles.sct WinMerge Plugin Options"
+msgstr "MSVisioFiles.sct WinMerge 플러그인 옵션 비교"
+
+msgid "Extract page data to multiple files"
+msgstr "페이지 데이터를 여러 파일로 추출"
+
+msgid "Compare pages as image (very slow)"
+msgstr "페이지를 이미지로 비교 (매우 느림)"
+
+msgid "PrediffLineFilter.sct WinMerge Plugin Options"
+msgstr "PrediffLineFilter.sct WinMerge 플러그인 옵션"
+
+msgid "Delete"
+msgstr "삭제"
+
+msgid "Enabled"
+msgstr "사용함"
+
+msgid "Ignore Case"
+msgstr "대소문자 무시"
+
+msgid "Use RegExp"
+msgstr "정규식 사용"
+
+msgid "Find what"
+msgstr "찾을 내용"
+
+msgid "Replace with"
+msgstr "바꿀 대상"
+
+msgid "Settings"
+msgstr "설정"
+
+msgid ""
+"Column Ranges to Ignore:\n"
+"e.g.) 3,10-20,32-33\n"
+msgstr ""
+"무시할 열 범위:\n"
+"예:)  3,10-20,32-33\n"
+
+#, c-format
+msgid "Enter filename for patch '%1'"
+msgstr "'%1' 패치가 적용될 파일의 이름을 입력하세요"
+
+#, c-format
+msgid "File '%1' does not exist"
+msgstr "파일 '%1'이(가) 존재하지 않습니다"
+
+msgid "Enter command line arguments for patch"
+msgstr "패치 명령에 대한 명령줄 인수 입력"
+
+#, c-format
+msgid "Enter folder name for patch '%1'"
+msgstr "'%1' 패치가 적용될 폴더의 이름 입력"
+
+#, c-format
+msgid "Folder '%1' does not exist"
+msgstr "'%1' 폴더가 없습니다"
+
+msgid "Do not use '-p0' for patch files with absolute paths"
+msgstr "절대 경로가 포함된 패치 파일에 대해 '-p0' 명령줄 옵션을 지정하지 않음"
+
+msgid "AI.sct WinMerge Plugin Options"
+msgstr "AI.sct WinMerge 플러그인 옵션"
+
+msgid "Enter prompt"
+msgstr "프롬프트 입력"
+
+#, c-format
+msgid ""
+"Enter OpenAI API key.\r\n"
+"- Requires OpenAI registration (fees may apply).\r\n"
+"- Key stored in env var %1."
+msgstr ""
+"OpenAI API 키를 입력합니다.\r\n"
+" - 이 플러그인을 사용하려면 OpenAI에 등록해야 하며 수수료가 발생합니다..\r\n"
+" - API 키는 환경 변수 %1에 저장됩니다."
+
+msgid "Environment variable name for OpenAI API key"
+msgstr "OpenAI API 키의 환경 변수 이름"
+
+msgid "OpenAI API key"
+msgstr "OpenAI API 키"
+
+msgid "Temperature"
+msgstr "온도"
+
+msgid "Maximum length"
+msgstr "최대 길이"
+
+msgid "Model"
+msgstr "모델"
+
+msgid "OpenAI API key changed. Restart to apply."
+msgstr "OpenAI API 키가 변경되었습니다. 변경 사항을 적용하려면 WinMerge를 다시 시작하세요."

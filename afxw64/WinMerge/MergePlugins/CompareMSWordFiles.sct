@@ -1,0 +1,603 @@
+<scriptlet>
+<implements type="Automation" id="dispatcher">
+  <property name="PluginEvent">
+    <get/>
+  </property>
+  <property name="PluginDescription">
+    <get/>
+  </property>
+  <property name="PluginFileFilters">
+    <get/>
+  </property>
+  <property name="PluginIsAutomatic">
+    <get/>
+  </property>
+  <property name="PluginExtendedProperties">
+    <get/>
+  </property>
+  <method name="PluginOnEvent"/>
+  <method name="UnpackFile"/>
+  <method name="PackFile"/>
+  <method name="IsFolder"/>
+  <method name="UnpackFolder"/>
+  <method name="PackFolder"/>
+  <method name="ShowSettingsDialog"/>
+</implements>
+
+<script language="JScript">
+
+/*
+    This is a plugin for WinMerge.
+    It will display the text content of MS Word files.
+    Copyright (C) 2008-2024 Takashi Sawanaka
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*/
+
+
+var REGKEY_PATH = "Plugins\\CompareMSWordFiles.sct/";
+var MsgCannotGetMacros = "${Cannot get Macros.\r\n" + 
+  "Enable 'Trust access to Visual Basic Project' in MS Office Macro Security.}";
+var wdFormatFilteredHTML = 10;
+var pbGroup = 6;
+
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var wsh = new ActiveXObject("WScript.Shell");
+var mergeApp;
+
+function isAccessibleVBAProject(doc) {
+  try {
+    return (doc.VBProject.VBComponents.Count >= 0);
+  } catch (e) {
+    return false;
+  }
+}
+
+function regRead(Key, DefaultValue) {
+  return mergeApp.GetOption(Key, DefaultValue);
+}
+
+function regWrite(Key, Value, TypeNm) {
+  mergeApp.SaveOption(Key, (TypeNm === "REG_DWORD") ? parseInt(Value, 10) : String(Value));
+}
+
+function toString(val) {
+  switch (typeof val) {
+  case "string":
+    return val;
+  case "number":
+    return val.toString();
+  case "date":
+    var d = new Date(val);
+    if (d.getHours() == 0 && d.getMinutes() == 0 && d.getSeconds() == 0 && d.getMilliseconds() == 0) {
+        return d.toLocaleDateString();
+    }
+    return d.toLocaleString();
+  case "undefined":
+    return "";
+  default:
+    return String(val);
+  }
+}
+
+function writeObjectProperties(fo, items) {
+  try {
+    for (var it = new Enumerator(items); !it.atEnd(); it.moveNext()) {
+      try {
+      var o = it.item();
+        fo.WriteLine(o.Name + ": " + toString(o.Value));
+      } catch (e) {}
+    }
+  } catch (e) {}
+}
+
+function writeBookmarks(fo, items) {
+  try {
+    for (var it = new Enumerator(items); !it.atEnd(); it.moveNext()) {
+      var o = it.item();
+      fo.WriteLine(o.Name + ": " + o.Start);
+    }
+  } catch (e) {}
+}
+
+function ungroupShapes(doc) {
+  try {
+    var cnt;
+    do {
+      cnt = doc.Shapes.Count;
+      for (var it = new Enumerator(doc.Shapes); !it.atEnd(); it.moveNext()) {
+        try {
+          var shp = it.item();
+          if (shp.Type === pbGroup) {
+            shp.Ungroup();
+          }
+        } catch (e) {}
+      }
+    } while (cnt !== doc.Shapes.Count);
+  } catch (e) {}
+}
+
+function writeTextsInShapes(fo, doc) {
+  try {
+    for (var it = new Enumerator(doc.Shapes); !it.atEnd(); it.moveNext()) {
+      try {
+        var shp = it.item();
+        fo.WriteLine(shp.Name + ": " + shp.TextFrame.TextRange.Text);
+      } catch (e) {}
+    }
+  } catch (e) {}
+}
+
+function getModuleExtension(cmp) {
+  switch (cmp.Type) {
+  case 2:
+    return ".cls";
+  case 3:
+    return ".frm";
+  default:
+    return ".bas";
+  }
+}
+
+function get_PluginEvent() {
+  return "FILE_FOLDER_PACK_UNPACK";
+}
+
+function get_PluginDescription() {
+  return "Display MS Word text content";
+}
+
+function get_PluginFileFilters() {
+  return  "\\.doc(\\..*)?$;\\.dot(\\..*)?$;\\.docx(\\..*)?$;\\.docm(\\..*)?$;\\.dotx(\\..*)?$;\\.dotm(\\..*)?$";
+}
+
+function get_PluginIsAutomatic() {
+  return true;
+}
+
+function get_PluginExtendedProperties() {
+  return "ProcessType=Content Extraction;FileType=MS-Word;MenuCaption=MS-Word";
+}
+
+function PluginOnEvent(eventType, obj) {
+  mergeApp = obj;
+}
+
+function UnpackFile(fileSrc, fileDst, pbChanged, pSubcode) {
+  var fo = fso.CreateTextFile(fileDst, true, true);
+  var wd;
+  try {
+    wd = new ActiveXObject("Word.Application");
+  } catch (e) {}
+  if (!wd) {
+    throw new Error(30001, translate("${%1 is not installed.}").replace("%1", "Word"));
+  }
+  wd.DisplayAlerts = false;
+
+  var fileSrc2 = fileSrc;
+  if (fso.GetExtensionName(fileSrc2) === "lnk") {
+    fileSrc2 = wsh.CreateShortcut(fileSrc2).TargetPath;
+    if (!fso.FileExists(fileSrc2)) {
+      throw new Error(30001, "CompareMSWordFiles.sct: " + fileSrc + ": Target file '" + fileSrc2 + "' not found");
+    } 
+  }
+  var doc = wd.Documents.Open(fileSrc2, 0, -1);
+
+  if (regRead(REGKEY_PATH + "CompareDocumentProperties", false)) {
+    fo.WriteLine("[Document Properties]");
+    writeObjectProperties(fo, doc.BuiltinDocumentProperties);
+    fo.WriteLine("");
+  }
+
+  if (regRead(REGKEY_PATH + "CompareBookmarks", true)) {
+    fo.WriteLine("[Bookmarks]");
+    writeBookmarks(fo, doc.Bookmarks);
+    fo.WriteLine("");
+  }
+
+  if (regRead(REGKEY_PATH + "CompareTextContents", true)) {
+    fo.WriteLine("[Text Contents]");
+    fo.Write(doc.Content.Text);
+    fo.WriteLine("");
+  }
+
+  if (regRead(REGKEY_PATH + "CompareTextsInShapes", true)) {
+    fo.WriteLine("[Shapes]");
+    ungroupShapes(doc);
+    writeTextsInShapes(fo, doc);
+    fo.WriteLine("");
+  }
+
+  if (regRead(REGKEY_PATH + "CompareVBAMacros", true)) {
+    if (!isAccessibleVBAProject(doc)) {
+      fo.WriteLine(translate(MsgCannotGetMacros));
+    } else {
+      for (var it = new Enumerator(doc.VBProject.VBComponents); !it.atEnd(); it.moveNext()) {
+        var cmp = it.item();
+        fo.WriteLine("[CodeModule." + cmp.Name + "]");
+        if (cmp.CodeModule.CountOfLines > 0) {
+          fo.WriteLine(cmp.CodeModule.Lines(1, cmp.CodeModule.CountOfLines));
+        }
+        fo.WriteLine("");
+      }
+    }
+  }
+
+  doc.Saved = true;
+  doc.Close();
+  doc = null;
+  wd.Quit();
+  wd = null;
+
+  fo.Close();
+  fo = null;
+
+  pbChanged = true;
+  pSubcode = 0;
+  
+  CollectGarbage();
+
+  var result = new ActiveXObject("Scripting.Dictionary");
+  result.Add(0, true);
+  result.Add(1, pbChanged);
+  result.Add(2, pSubcode);
+  return result.Items();
+}
+
+function PackFile(fileSrc, fileDst, pbChanged, pSubcode) {
+  return false;
+}
+
+function IsFolder(file) {
+  return regRead(REGKEY_PATH + "UnpackToFolder", false);
+}
+
+function UnpackFolder(fileSrc, folderDst, pbChanged, pSubcode) {
+  if (!fso.FolderExists(folderDst)) { fso.CreateFolder(folderDst); }
+  var wd;
+  try {
+    wd = new ActiveXObject("Word.Application");
+  } catch (e) {}
+  if (!wd) {
+    throw new Error(30001, translate("${%1 is not installed.}").replace("%1", "Word"));
+  }
+  wd.DisplayAlerts = false;
+
+  var fileSrc2 = fileSrc;
+  if (fso.GetExtensionName(fileSrc2) === "lnk") {
+    fileSrc2 = wsh.CreateShortcut(fileSrc2).TargetPath;
+    if (!fso.FileExists(fileSrc2)) {
+      throw new Error(30001, "CompareMSWordFiles.sct: " + fileSrc + ": Target file '" + fileSrc2 + "' not found");
+    } 
+  }
+  var doc = wd.Documents.Open(fileSrc2, 0, -1);
+
+  if (regRead(REGKEY_PATH + "CompareDocumentProperties", false)) {
+    var fo = fso.CreateTextFile(fso.BuildPath(folderDst, "(0)DocumentProperties.txt"), true, true);
+    writeObjectProperties(fo, doc.BuiltinDocumentProperties);
+    fo.Close();
+    fo = null;
+  }
+
+  if (regRead(REGKEY_PATH + "CompareBookmarks", true)) {
+    var fo = fso.CreateTextFile(fso.BuildPath(folderDst, "(0)Bookmarks.txt"), true, true);
+    writeBookmarks(fo, doc.Bookmarks);
+    fo.Close();
+    fo = null;
+  }
+
+  if (regRead(REGKEY_PATH + "CompareTextContents", true)) {
+    var fo = fso.CreateTextFile(fso.BuildPath(folderDst, "Document.txt"), true, true);
+    fo.Write(doc.Content.Text);
+    fo.Close();
+    fo = null;
+  }
+
+  if (regRead(REGKEY_PATH + "CompareTextsInShapes", true)) {
+    var fo = fso.CreateTextFile(fso.BuildPath(folderDst, "Shapes.txt"), true, true);
+    ungroupShapes(doc);
+    writeTextsInShapes(fo, doc);
+    fo.Close();
+    fo = null;
+  }
+
+  if (regRead(REGKEY_PATH + "CompareDocumentsAsHTML", true)) {
+    doc.SaveAs(fso.BuildPath(folderDst, "Document.htm"), wdFormatFilteredHTML);
+  }
+  if (regRead(REGKEY_PATH + "CompareVBAMacros", true)) {
+    if (!isAccessibleVBAProject(doc)) {
+      var fo = fso.CreateTextFile(fso.BuildPath(folderDst, "CannotGetMacros.bas"), true, true);
+      fo.WriteLine(translate(MsgCannotGetMacros));
+      fo.Close();
+      fo = null;
+    } else {
+      for (var it = new Enumerator(doc.VBProject.VBComponents); !it.atEnd(); it.moveNext()) {
+        var cmp = it.item();
+        cmp.Export(fso.BuildPath(folderDst, cmp.Name + getModuleExtension(cmp)));
+        cmp = null;
+      }
+    }
+  }
+
+  doc.Saved = true;
+  doc.Close();
+  doc = null;
+  wd.Quit();
+  wd = null;
+
+  pbChanged = true;
+  pSubcode = 0;
+
+  CollectGarbage();
+
+  var result = new ActiveXObject("Scripting.Dictionary");
+  result.Add(0, true);
+  result.Add(1, pbChanged);
+  result.Add(2, pSubcode);
+  return result.Items();
+}
+
+function PackFolder(folderSrc, fileDst, pbChanged, pSubcode) {
+  return false;
+}
+
+function translate(text) {
+  var re = /\${([^}]+)}/g;
+  var matches;
+  while ((matches = re.exec(text)) != null) {
+    text = text.replace(matches[0], mergeApp.Translate(matches[1]));
+  }
+  return text;
+}
+
+function ShowSettingsDialog() {
+  var tname = fso.BuildPath(fso.GetSpecialFolder(2), fso.GetTempName() + ".hta");
+  var xmlfile = fso.BuildPath(fso.GetSpecialFolder(2), fso.GetTempName() + ".xml");
+  var tfile = fso.CreateTextFile(tname, true, true);
+  tfile.Write(translate(getResource("dialog1")));
+  tfile.Close();
+  exportSettingsToXMLFile(xmlfile);
+  var mshta = wsh.ExpandEnvironmentStrings("%SystemRoot%\\System32\\mshta.exe");
+  if (!fso.FileExists(mshta)) {
+    mshta = wsh.ExpandEnvironmentStrings("%SystemRoot%\\SysWOW64\\mshta.exe");
+  }
+  run(wsh, "\"" + mshta + "\" \"" + tname + "\"  \"" + xmlfile + "\"");
+  importSettingsFromXMLFile(xmlfile);
+  fso.DeleteFile(tname);
+  fso.DeleteFile(xmlfile);
+}
+
+function run(sh, cmd) {
+  sh.Run(cmd, 1, true);
+}
+
+function exportSettingsToXMLFile(filepath) {
+  var key_defvalues = {
+    "UnpackToFolder" : false,
+    "CompareDocumentProperties" : false,
+    "CompareBookmarks" : true,
+    "CompareTextContents" : true,
+    "CompareDocumentsAsHTML" : true,
+    "CompareTextsInShapes" : true,
+    "CompareVBAMacros" : true
+  };
+  var doc = new ActiveXObject("MSXML2.DOMDocument");
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+  var ts = fso.OpenTextFile(filepath, 2, true, -1);
+  var root = doc.createElement("properties");
+  for (var key in key_defvalues) {
+    var el = doc.createElement("property");
+    var val = regRead(REGKEY_PATH + key, key_defvalues[key]);
+    var cdata = doc.createCDATASection(val);
+    el.appendChild(cdata);
+    el.setAttribute("name", REGKEY_PATH + key);
+    el.setAttribute("type", typeof val);
+    root.appendChild(el);
+  }
+  doc.appendChild(root);
+  ts.Write(doc.xml);
+  ts.Close();
+}
+
+function importSettingsFromXMLFile(filepath) {
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+  var ts = fso.OpenTextFile(filepath, 1, true, -1);
+  var xml = ts.ReadAll();
+  var doc = new ActiveXObject("MSXML2.DOMDocument");
+  doc.async = false;
+  doc.loadXML(xml);
+  ts.Close();
+  var nodes = doc.documentElement.childNodes;
+  for (var i = 0; i < nodes.length; i++) {
+    regWrite(nodes[i].getAttribute("name"), nodes[i].text, (nodes[i].getAttribute("type") === "string") ? "REG_SZ" : "REG_DWORD");
+  }
+}
+
+</script>
+
+<resource id="dialog1">
+<![CDATA[
+<!DOCTYPE html>
+<html>
+  <head>
+    <HTA:APPLICATION ID="objHTA">
+    <title>${CompareMSWordFiles.sct WinMerge Plugin Options}</title>
+    <meta content="text/html" charset="UTF-16">
+    <style>
+    body { background-color: #f2f2f2; font-family: Arial, sans-serif; }
+    .container { margin: 2em; }
+    ul { list-style-type: none; margin: 0; padding: 0; }
+    li ul li { padding-left: 2em }
+    .btn-container { margin-top: 1.5em; text-align: right; }
+    input[type="button"] { border: none; padding: 0.6em 2em; height: 2.5em; text-align: center; }
+    .btn-ok { color: #fff; background-color: #05c; }
+    .btn-ok:hover { background-color: #04b; }
+    .btn-cancel { color: #333; background-color: #ddd; }
+    .btn-cancel:hover { background-color: #ccc; }
+    </style>
+    <script type="text/javascript">
+      var REGKEY_PATH = "Plugins\\CompareMSWordFiles.sct/";
+      var xmlFilePath;
+      var settings = {};
+
+      function regRead(key, defaultValue) {
+        return settings.hasOwnProperty(key) ? settings[key] : defaultValue;
+      }
+
+      function regWrite(key, value, type) {
+        settings[key] = (type === "REG_DWORD") ? Number(value) : String(value);
+      }
+
+      function loadSettingsFromXMLFile(filepath) {
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        var ts = fso.OpenTextFile(filepath, 1, true, -1);
+        var xml = ts.ReadAll();
+        var doc = new ActiveXObject("MSXML2.DOMDocument");
+        doc.async = false;
+        doc.loadXML(xml);
+        ts.Close();
+        var nodes = doc.documentElement.childNodes;
+        for (var i = 0; i < nodes.length; i++) {
+          regWrite(nodes[i].getAttribute("name"), nodes[i].text, (nodes[i].getAttribute("type") === "string") ? "REG_SZ" : "REG_DWORD");
+        }
+        return settings;
+      }
+
+      function saveSettingsToXMLFile(filepath, settings) {
+        var doc = new ActiveXObject("MSXML2.DOMDocument");
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        var ts = fso.OpenTextFile(filepath, 2, true, -1);
+        var root = doc.createElement("properties");
+        for (var key in settings) {
+          if (settings.hasOwnProperty(key)) {
+            var el = doc.createElement("property");
+            var val = settings[key];
+            var cdata = doc.createCDATASection(val);
+            el.appendChild(cdata);
+            el.setAttribute("name", key);
+            el.setAttribute("type", typeof val);
+            root.appendChild(el);
+          }
+        }
+        doc.appendChild(root);
+        ts.Write(doc.xml);
+        ts.Close();
+      }
+
+      function onload() {
+        xmlFilePath = objHTA.commandLine.split('"')[3];
+        settings = loadSettingsFromXMLFile(xmlFilePath);
+
+        var dpi = window.screen.deviceXDPI;
+        var w = 600 * dpi / 96, h = 400 * dpi / 96;
+        window.resizeTo(w, h);
+        window.moveTo((screen.width - w) / 2, (screen.height - h) / 2);
+
+        chkUnpackToFolder.checked = regRead(REGKEY_PATH + "UnpackToFolder", false);
+        chkCompareDocumentProperties.checked = regRead(REGKEY_PATH + "CompareDocumentProperties", false);
+        chkCompareBookmarks.checked = regRead(REGKEY_PATH + "CompareBookmarks", true);
+        chkCompareTextContents.checked = regRead(REGKEY_PATH + "CompareTextContents", true);
+        chkCompareDocumentsAsHTML.checked = regRead(REGKEY_PATH + "CompareDocumentsAsHTML", true);
+        chkCompareTextsInShapes.checked = regRead(REGKEY_PATH + "CompareTextsInShapes", true);
+        chkCompareVBAMacros.checked = regRead(REGKEY_PATH + "CompareVBAMacros", true);
+        chkUnpackToFolder_onclick();
+        chkCompareDocumentsAsHTML_onclick();
+        document.onkeydown = onkeydown;
+      }
+
+      function onkeydown() {
+        var k = event.keyCode;
+        if (k == 13/*Enter*/) {
+          btnOk_onclick();
+        } else if (k == 27/*Escape*/) {
+          btnCancel_onclick();
+        }
+      }
+
+      function chkUnpackToFolder_onclick() {
+        if (!chkUnpackToFolder.checked)
+          chkCompareDocumentsAsHTML.checked = false;
+      }
+
+      function chkCompareDocumentsAsHTML_onclick() {
+        if (chkCompareDocumentsAsHTML.checked)
+          chkUnpackToFolder.checked = true;
+      }
+
+      function btnOk_onclick() {
+        regWrite(REGKEY_PATH + "UnpackToFolder", chkUnpackToFolder.checked, "REG_DWORD");
+        regWrite(REGKEY_PATH + "CompareDocumentProperties", chkCompareDocumentProperties.checked, "REG_DWORD");
+        regWrite(REGKEY_PATH + "CompareBookmarks", chkCompareBookmarks.checked, "REG_DWORD");
+        regWrite(REGKEY_PATH + "CompareTextContents", chkCompareTextContents.checked, "REG_DWORD");
+        regWrite(REGKEY_PATH + "CompareDocumentsAsHTML", chkCompareDocumentsAsHTML.checked, "REG_DWORD");
+        regWrite(REGKEY_PATH + "CompareTextsInShapes", chkCompareTextsInShapes.checked, "REG_DWORD");
+        regWrite(REGKEY_PATH + "CompareVBAMacros", chkCompareVBAMacros.checked, "REG_DWORD"); window.close();
+
+        saveSettingsToXMLFile(xmlFilePath, settings);
+
+        window.close();
+      }
+
+      function btnCancel_onclick() {
+        saveSettingsToXMLFile(xmlFilePath, {});
+
+        window.close();
+      }
+
+    </script>
+  </head>
+  <body onload="onload();">
+    <div class="container">
+      <ul>
+        <li>
+          <input id="chkUnpackToFolder" type="checkbox" onclick="chkUnpackToFolder_onclick();"/>
+          <label for="chkUnpackToFolder">${Extract document data to multiple files}</label>
+        </li>
+        <li>
+          <input id="chkCompareDocumentProperties" type="checkbox" />
+          <label for="chkCompareDocumentProperties">${Compare document properties}</label>
+        </li>
+        <li>
+          <input id="chkCompareBookmarks" type="checkbox" />
+          <label for="chkCompareBookmarks">${Compare bookmarks}</label>
+        </li>
+        <li>
+          <input id="chkCompareTextContents" type="checkbox" />
+          <label for="chkCompareTextContents">${Compare text contents of documents}</label>
+        </li>
+        <li>
+          <input id="chkCompareDocumentsAsHTML" type="checkbox" onclick="chkCompareDocumentsAsHTML_onclick();"/>
+          <label for="chkCompareDocumentsAsHTML">${Compare documents as HTML file (very slow)}</label>
+        </li>
+        <li>
+          <input id="chkCompareTextsInShapes" type="checkbox" />
+          <label for="chkCompareTextsInShapes">${Compare texts in shapes}</label>
+        </li>
+        <li>
+          <input id="chkCompareVBAMacros" type="checkbox" />
+          <label for="chkCompareVBAMacros">${Compare VBA macros}</label>
+        </li>
+      </ul>
+      <div class="btn-container">
+        <input type="button" class="btn-ok" onclick="btnOk_onclick();" value="${OK}" />
+        <input type="button" class="btn-cancel" onclick="btnCancel_onclick();" value="${Cancel}" />
+      </div>
+    </div>
+  </body>
+</html>
+]]>
+</resource>
+
+</scriptlet>

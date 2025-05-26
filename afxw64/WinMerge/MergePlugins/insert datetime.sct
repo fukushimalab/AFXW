@@ -1,0 +1,48 @@
+<scriptlet>
+
+<implements type="Automation" id="dispatcher">
+	<property name="PluginEvent">
+		<get/>
+	</property>
+	<property name="PluginDescription">
+		<get/>
+	</property>
+	<property name="PluginExtendedProperties">
+		<get/>
+	</property>
+	<property name="PluginFileFilters">
+		<get/>
+	</property>
+	<method name="InsertDate"/>
+	<method name="InsertTime"/>
+</implements>
+
+<script language="JScript">
+
+function get_PluginEvent() {
+	return "EDITOR_SCRIPT";
+}
+
+function get_PluginDescription() {
+	return "Date and time insertion";
+}
+
+function get_PluginFileFilters() {
+	return ".*";
+}
+
+function get_PluginExtendedProperties() {
+	return "InsertDate.MenuCaption=Insert Date;InsertTime.MenuCaption=Insert Time";
+}
+
+// transformation functions
+function InsertDate(Text) {
+	return Text + (new Date()).toLocaleDateString();
+}
+
+function InsertTime(Text) {
+	return Text + (new Date()).toLocaleTimeString();
+}
+
+</script>
+</scriptlet>

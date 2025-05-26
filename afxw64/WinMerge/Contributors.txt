@@ -1,0 +1,348 @@
+
+People who have contributed to WinMerge
+---------------------------------------
+
+Original developer, project admin:
+* Dean Grimm <grimmdp@yahoo.com>
+
+Project lead:
+* Christian List <list1974@hotmail.com>
+
+Developers:
+* Denis Bradford <denisbradford@users.sourceforge.net>
+* Tim Gerundt <tim@gerundt.de>
+* Marcel Gosselin <marcelgosselin@users.sourceforge.net>
+* Gal Hammer <galh@users.sourceforge.net>
+* Takashi Sawanaka <sdottaka@users.sourceforge.net>
+* Alexander Skinner (Graphic Design) <neonapple@users.sourceforge.net>
+* Jochen Tucht <jtuc@users.sourceforge.net>
+
+Inactive/past developers:
+* Laurent Ganier
+* Dennis Limm
+* Chris Mumford
+* Perry Rapp
+* Christian "Seier" Blackburn (Installer)
+* Kimmo Varis <kimmov@winmerge.org>
+
+Localization:
+* Arabic:
+  Downzen team <https://downzen.com>
+
+* Basque:
+  Xabier Aramendi <Azpidatziak@gmail.com>  
+
+* Bulgarian:
+  Sld <sld|mail.bg>
+  tigertron <ivg_18@yahoo.com>
+  Yanko Yankov <yankonik70 at hotmail.com>
+  Стоян <stoyan от гмаил>
+
+* Catalan:
+  Jordi Vilar <jvilar@users.sourceforge.net>
+  Domènec <domenec72 at gmail.com>
+  Josep Maria Antolín Segura 
+  Pere Orga <pere at orga.cat>
+
+* Simplified Chinese:
+  Liaobin <liaobin@jite. net>
+  xmpdhml <xmpdhml at users.sourceforge.net>
+  MaysWind <i at mayswind.net>
+  YFdyh000 <yfdyh000 at gmail.com>
+  CharlesMengCA <CharlesMeng at outlook.com>
+  Yin Gang <zenith.yin at gmail.com>
+
+* Traditional Chinese:
+  Koko <kokokoko@giga.net.tw>
+  Calvin Lin <ylin77 at gmail.com>
+  SiderealArt <admin at siderealart.me>
+  abc0922001
+
+* Corsican:
+  Patriccollu di Santa Maria è Sichè
+
+* Croatian:
+  Hasan Osmanagiæ <hasan.osmanagic@public.carnet.hr>
+
+* Czech:
+  Jiri Tax <jt@taxoft.cz>
+  Jan Hryz <janhryz@users.sourceforge.net>
+
+* Danish:
+  Rolf Egmose
+  Christian List <list1974@hotmail.com>
+
+* Dutch:
+  Michel Coene
+  Thomas De Rocker <thomasderocker@yahoo.com>
+  Ronald Schaap <ronald@schaap.demon.nl>
+
+* Finnish:
+  Veikko Muurikainen <veikko.muurikainen at kolumbus.fi>
+
+* French:
+  Jean-F Jolin <jean-f-j@users.sourceforge.net>
+  Gil Andre <gil_andre@compuserve.com>
+  Laurent Ganier <ccganier@club-internet.fr>
+  Dominique Saussereau <redguff@users.sourceforge.net>
+  Matthieu Pupat
+  gandf
+  Lolo S. <slolo2000 at hotmail.com>
+  Need74
+
+* Galician:
+  Medulio
+  Luis A. Martínez Sobrino <luis.martinez.sobrino at gmail.com>
+  P0rsche-911
+
+* German:
+  Tim Gerundt <tim@gerundt.de>
+  Winfried Peter <winfried.peter@omicron.at>
+  Joerg Schneider <tonda@users.sourceforge.net>
+  Mr-Update
+  uliahn
+
+* Greek:
+  Polyvios J. Simopoulos <polyvios.j.simopoulos@gmail.com>
+
+* Hebrew:
+  Y-Ploni
+
+* Hungarian:
+  Márton Balázs <documan@users.sourceforge.net>
+  Mihalicza József <jmihalicza@gmail.com>
+  Egyed Ferenc <efi99 at freemail.hu>
+  boglarkla
+
+* Italian:
+  Andrea Decorte <deco1985@hotmail.com>
+  Antonio Angelo <antonio.angelo@gmail.com>
+  Michele Merega <michele.merega@ifminfomaster.com>
+  Michele Locati <michele@locati.it>
+  bovirus
+  Massimiliano Caniparoli
+  Simone Saviolo
+
+* Japanese:
+  Takashi Sawanaka <sdottaka@users.sourceforge.net>
+  Rukoto Luther <rukotolucies at hotmail.com>
+
+* Korean:
+  Sukjoon <bbcool@gmail.com>
+  Lee Jae-Hong <pyrasis@users.sourceforge.net>
+  Sushizang <sushizang@empal.com>
+  sheppaul <sheppaul at gmail.com>
+  teamzamong <teamzamong at gmail.com>
+  BrainS <29201475+BraINstinct0 at users.noreply.github.com>
+  cynilyn <cynilyn at gmail.com>
+  gro00 <gheong.ro at gmail.com>
+  VenusGirl <https://github.com/VenusGirl>
+
+* Lithuanian:
+  Dalius Guzauskas (aka Tichij) <tichij AT mail DOT com>
+
+* Norwegian:
+  Hans Fredrik Nordhaug <hansfn@users.sourceforge.net>
+  FTno
+
+* Persian:
+  Abolfazl Rostamzadeh <a.rostamzadeh at gmail.com>
+
+* Polish:
+  M.T <mtrz@users.sourceforge.net>
+  Skiff <skiffatsf@users.sourceforge.net>
+  Pawel Wawrzysko <traduc@kki.pl>
+  Mirosław Żylewicz
+  Michał Lipok
+
+* Portuguese (Brazilian):
+  Wender Firmino <wender@pta.com.br>
+  Felipe Periard Lopes <felipefpl@ig.com.br>
+  Igor Rückert
+  jota11
+  Gabriel Camargo Fukushima
+  Marcello-mco
+
+* Portuguese (Portugal):
+  Nelson Simão
+  Lippe35
+  Hugo Carvalho <hugokarvalho@hotmail.com>
+
+* Romanian:
+  Cristian Arghiroiu <cristi.arghiroiu@gmail.com>
+  Daniel Dumitriu
+
+* Russian:
+  Dmitriy S. Aleshkowskiy <wwarlock@mail.ru>
+  Timon34
+  wvxwxvw
+  Den1704
+
+* Serbian:
+  Ozzii <ivanstar61@gmail.com>
+
+* Sinhala:
+  T G E Perera
+
+* Slovak:
+  Majvan <vancojur@decef.elf.stuba.sk>
+  Ivan Masár <helix84@centrum.sk>
+  Jozef Matta <jozef.m923@gmail.com>
+
+* Slovenian:
+  Iztok Osredkar <iztok.osredkar@institut-oko.si>
+  Filip Komar <filip.komar@gmail.com>
+  Jadran Rudec <jrudec@gmail.com>
+
+* Spanish:
+  Dean Grimm <grimmdp@yahoo.com>
+  Jesús M. Delgado 'MacK' <nncsoft@yahoo.com>
+  Mario Angel <marioangel70@gmail.com>
+  Nelson Ariza <njarizas@hotmail.com>
+  borjafg
+  Mauricio Gracia Gutierrez
+  P0rsche-911
+
+* Swedish:
+  Hans Eriksson <hans.ericson@bredband.net>
+  Göran Håkansson <goran.x.hakansson@telia.com>
+  pgert <pgert at yahoo.se>
+  Timmy Almroth <timmy.almroth at tim-international.net>
+
+* Tamil:
+  தமிழ்நேரம் <https://TamilNeram.github.io>
+
+* Turkish:
+  Afyonlu <afyonlu@users.sourceforge.net>
+  Ozkan UNVER <turquaz37915@users.sourceforge.net>
+  Kaya Zeren <kaya.zeren at zeron.net>
+  iLyax
+
+* Ukranian
+  Vitaliy Stopchans'kyy <stopcha@gmail.com>
+  Warrior <warr11r@rambler.ru>
+  Vlad
+  Serhii Romashko
+
+Other Contributors (code, ideas, testing..):
+* James Abbatiello <abbeyj@users.sourceforge.net>
+* Andre Arpin
+* Steve Beaudoin
+* bulklodd <bulklodd@users.sourceforge.net>
+* Adam Carrivick
+* Hern Chen
+* Jeremy Dewey
+* Jim Fougeron
+* Marvin Gouw
+* Robert Grange
+* black hero <black-hero@users.sourceforge.net>
+* Jan Hryz
+* jwdevel
+* Ed_K
+* Alberto Kalb
+* Joe Kidd <cassiusdrow@sourceforge.net>
+* Robert Knienider
+* Ferenc Kubatovics
+* René Leonhardt
+* Vladimir Lukianov
+* LynX <devlynx@users.sourceforge.net>
+* David Maisonave
+* Dmitry Maslov
+* Denis Matiukha
+* Matthias Mayer
+* Harry Mckame
+* Oliver Mellet
+* Andreas Morsing
+* Ryan Mott
+* Tim Musschoot
+* Marco De Paoli
+* Paul <pavel_kv@users.sourceforge.net>
+* Chris Paulse <christo_p@users.sourceforge.net>
+* Dan Pidcock
+* Vincent Osele
+* Scott Rasmussen
+* Michael Richter
+* Markus Rollmann
+* saitaman <saitaman@users.sourceforge.net>
+* Philippe Verdy
+* Vikrant
+* Gilbert Wellisch
+* Paul Welter
+* Lars Wittenburg
+* Etienne Faisant
+* Bill Gord
+* H.Saido
+* Flaviu_
+* Jun Tajima
+* EugeneLaptev
+* ranjwarrior
+* elsonwei
+* evoc
+* devmynote
+* Michał Lipok
+* Samuel Plentz
+* Herman Semenov
+* stonee-K
+* yuanshouyan1823
+* Mauricio Gracia Gutierrez
+* HaroldPetersInskipp (Midnight color scheme)
+* srgank
+* baka0815
+* Yurii Hordiienko 
+* wiera987
+* wilfzim
+* Mavaddat Javid
+* Yutaka-Sawada
+* myss
+* vlakoff
+* Tuomas Hietanen
+* Dirk Stolle
+* lededev
+* petacreepers23
+* libraplanet
+* Steve Lambillion
+* Rob Kodey (VS Dark color scheme)
+
+WinMerge includes code from:
+* Jared Breland <jbreland@legroom.net> (Installer's modpath script)
+* Brent Corkum (BCMenu)
+* Paul DiLascia (CStaticLink) 
+* Michael Dunn (CShellFileOp)
+* Francis Irving (original conflict file parser)
+* Michael P. Mehl (CMessageBoxDialog)
+* Cristi Posea (CSizingControlBar)
+* Ferdinand Prantl (Crystal Edit syntax rules)
+* Keith Rule (CMemDC - memory DC)
+* Paul Senzee (String formatting)
+* Henry Spencer (CRegExp)
+* Andrei Stcherbatchenko (Author of Crystal Edit)
+* Sven Wiegand (Crystal Edit)
+
+External components used by WinMerge
+
+* POCO (BSL-1.0) (https://pocoproject.org/)
+* boost (BSL-1.0) (https://www.boost.org/)
+* frhed (GPL-2.0) (https://frhed.sourceforge.net/)
+* WinIMerge (GPL-2.0) (https://github.com/WinMerge/winimerge/)
+  * freeimage (GPL-2.0) (https://freeimage.sourceforge.io/)
+  * LibXDiff (LGPL-2.1) (https://github.com/git/git/tree/master/xdiff)
+* WinWebDiff (BSD-3-Clause) (https://github.com/WinMerge/winwebdiff/)
+  * WebView2 (BSD-3-Clause) (https://learn.microsoft.com/ja-jp/microsoft-edge/webview2/)
+  * wil (MIT) (https://github.com/microsoft/wil)
+  * rapidjson (MIT) (https://rapidjson.org/)
+  * LibXDiff (LGPL-2.1) (https://github.com/git/git/tree/master/xdiff)
+* Google C++ Testing Framework (BSD-3-Clause) (http://google.github.io/googletest/)
+* GNU patch (msys2 package) (GPL-3.0) (https://savannah.gnu.org/projects/patch/, https://github.com/msys2/MSYS2-packages/tree/master/patch)
+* 7-zip (LGPL) (https://www.7-zip.org/)
+* LibXDiff (LGPL-2.1) (https://github.com/git/git/tree/master/xdiff)
+* html-tidy5 (https://github.com/htacg/tidy-html5/blob/next/README/LICENSE.md) (http://www.html-tidy.org/)
+* jq (MIT) (https://stedolan.github.io/jq/)
+* wil (MIT) (https://github.com/microsoft/wil)
+* md4c (MIT) (https://github.com/mity/md4c)
+* Inno Setup (https://jrsoftware.org/files/is/license.txt) (https://jrsoftware.org/isinfo.php)
+
+*** NOTE ***
+If your name is missing please let us know (or create a pull request).
+https://github.com/WinMerge/winmerge
+
+Thanks!

@@ -1,0 +1,4934 @@
+# This file is from WinMerge <https://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+# Translators:
+# * majvan <vancojur at decef.elf.stuba.sk>
+# * Ivan Masár <helix84 at centrum.sk>, 2007, 2008, 2009.
+# * Jozef Matta <jozef.m923@gmail.com>, 2020
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues/\n"
+"POT-Creation-Date: 2020-10-18 17:28+0000\n"
+"PO-Revision-Date: 2022-02-17 15:42+0100\n"
+"Last-Translator: Jozef Matta <jozef.m923@gmail.com>\n"
+"Language-Team: Slovak <winmerge-translate@lists.sourceforge.net>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../Src\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. LANGUAGE, SUBLANGUAGE
+msgid "LANG_ENGLISH, SUBLANG_ENGLISH_US"
+msgstr "LANG_SLOVAK, SUBLANG_DEFAULT"
+
+msgid "Copy to Middle"
+msgstr "Kopírovať do stredu"
+
+msgid "C&opy to Right\tAlt+Right"
+msgstr "Kopírovať vpravo\tAlt+→"
+
+msgid "Copy from Middle"
+msgstr "Kopírovať zo stredu"
+
+msgid "Copy fro&m Right\tAlt+Shift+Left"
+msgstr "Kopírovať &sprava\tAlt+Shift+←"
+
+msgid "Cop&y to Left\tAlt+Left"
+msgstr "Kopírovať vľavo\tAlt+←"
+
+msgid "Copy &from Left\tAlt+Shift+Right"
+msgstr "Kopírovať &zľava\tAlt+Shift+→"
+
+msgid "Copy Selected Lines to Middle"
+msgstr "Kopíruje vybrané riadky do stredu"
+
+msgid "Copy Selected Lines to Right"
+msgstr "Kopíruje vybrané riadky doprava"
+
+msgid "Copy Selected Lines from Middle"
+msgstr "Kopíruje vybrané riadky zo stredu"
+
+msgid "Copy Selected Lines from Right"
+msgstr "Kopíruje vybrané riadky sprava"
+
+msgid "Copy Selected Lines to Left"
+msgstr "Kopíruje vybrané riadky doľava"
+
+msgid "Copy Selected Lines from Left"
+msgstr "Kopíruje vybrané riadky zľava"
+
+msgid "Copy Selected Diff (Left) to Clipboard\tCtrl+&1"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Middle) to Clipboard\tCtrl+&2"
+msgstr ""
+
+msgid "Copy Selected Diff (Right) to Clipboard\tCtrl+&3"
+msgstr ""
+
+msgid "Select Line &Difference\tF4"
+msgstr "Vybrať riadky roz&dielov\tF4"
+
+msgid "Add to Substitution &Filters"
+msgstr "Pridá túto zmenu do položky &Filtre nahradenia"
+
+msgid "Add to &Line Filters"
+msgstr ""
+
+msgid "&Undo"
+msgstr "&Späť"
+
+msgid "&Redo"
+msgstr "&Vpred"
+
+msgid "Cu&t"
+msgstr "V&ystrihnúť"
+
+msgid "&Copy"
+msgstr "&Kopírovať"
+
+msgid "&Paste"
+msgstr "&Prilepiť"
+
+msgid "&Scripts"
+msgstr "&Skripty"
+
+msgid "< Empty >"
+msgstr "< Prázdne >"
+
+msgid "&Go to...\tCtrl+G"
+msgstr "&Prejsť na...\tCtrl+G"
+
+msgid "Go to Moved Line Between Left and Middle\tCtrl+Shift+G"
+msgstr "Prejsť na presunutý riadok medzi ľavým a stredným\tCtrl+Shift+G"
+
+msgid "Go to Moved Line Between Middle and Right\tCtrl+Alt+G"
+msgstr "Prejsť na presunutý riadok medzi stredným a pravým\tCtrl+Alt+G"
+
+msgid "Op&en"
+msgstr "&Otvoriť"
+
+msgid "With &Registered Application"
+msgstr "&Registrovanou aplikáciou"
+
+msgid "With &External Editor\tCtrl+Alt+E"
+msgstr "&Externým editorom\tCtrl+Alt+E"
+
+msgid "&With..."
+msgstr "Čí&m..."
+
+msgid "Open &Parent Folder..."
+msgstr "Otvoriť &nadradený priečinok..."
+
+msgid "S&hell Menu"
+msgstr "&Vzhľad ponuky"
+
+msgid "Use First Line as Headers"
+msgstr ""
+
+msgid "Auto-Fit All Columns"
+msgstr ""
+
+msgid "View &Differences"
+msgstr "Zobraziť &rozdiely"
+
+msgid "Diff &Block Size"
+msgstr "Veľkosť rozdielneho &bloku"
+
+msgid "&Ignore Color Difference"
+msgstr "&Ignorovať rozdiel farieb (prahová hodnota vzdialenosti farieb)"
+
+msgid "Ins&ertion/Deletion Detection"
+msgstr "Detekcia vloženia/odstránenia"
+
+msgid "&None"
+msgstr "Žiad&na"
+
+msgid "&Vertical"
+msgstr "&Vertikálne"
+
+msgid "&Horizontal"
+msgstr "&Horizontálne"
+
+msgid "&Previous Page"
+msgstr "&Predošlá stránka"
+
+msgid "&Next Page"
+msgstr "Ď&alšia stránka"
+
+msgid "&Active Pane"
+msgstr "&Aktívny panel"
+
+msgid "Rotate &Right 90deg"
+msgstr "Otočiť v&pravo o 90 stupňov"
+
+msgid "Rotate &Left 90deg"
+msgstr "Otočiť v&ľavo o 90 stupňov"
+
+msgid "Flip V&ertically"
+msgstr "Preklopiť v&ertikálne"
+
+msgid "Flip H&orizontally"
+msgstr "Preklopiť h&orizontálne"
+
+msgid "&Zoom"
+msgstr "&Priblíženie"
+
+#, c-format
+msgid "25%"
+msgstr "25%"
+
+msgid "Zoom &In\tCtrl++"
+msgstr "&Priblížiť\tCtrl++"
+
+msgid "Zoom &Out\tCtrl+-"
+msgstr "&Oddialiť\tCtrl+-"
+
+#. Zoom to normal
+msgid "&Normal\tCtrl+*"
+msgstr "&Normálna veľkosť\tCtrl+*"
+
+msgid "&Overlay"
+msgstr "Pre&krytie"
+
+msgid "&Alpha Blend"
+msgstr "&Alfa zmiešavanie"
+
+msgid "Alpha &Blend Animation"
+msgstr "Animácia al&fa zmiešavania"
+
+msgid "Dragging &Mode"
+msgstr "Režim pre&tiahnutie"
+
+msgid "&Move"
+msgstr "&Presunúť"
+
+msgid "&Adjust Offset"
+msgstr "&Upraviť posuv"
+
+msgid "&Vertical Wipe"
+msgstr "&Vertikálne stieranie"
+
+msgid "&Horizontal Wipe"
+msgstr "&Horizontálne stieranie"
+
+msgid "Rectangle &Select"
+msgstr "&Vybrať obdĺžnik"
+
+msgid "&Set Background Color"
+msgstr "Nastaviť farbu &pozadia"
+
+msgid "&Vector Image Scaling"
+msgstr "Zmena mierky &vektorového obrázka"
+
+msgid "&Animation Settings"
+msgstr ""
+
+msgid "&Blink Interval"
+msgstr ""
+
+msgid "&Overlay Animation Interval"
+msgstr ""
+
+msgid "Compare Extracted &Text from Images"
+msgstr "Porovnať extrahovaný &text z obrázka"
+
+msgid "Co&mpare"
+msgstr "Po&rovnať"
+
+msgid "&Screenshots"
+msgstr ""
+
+msgid "&Full Size Screenshots"
+msgstr ""
+
+msgid "&HTMLs"
+msgstr ""
+
+msgid "&Texts"
+msgstr ""
+
+msgid "&Resource Trees"
+msgstr ""
+
+msgid "&Size"
+msgstr ""
+
+msgid "Fit to Window"
+msgstr ""
+
+msgid "&Event Sync"
+msgstr ""
+
+msgid "&Enabled"
+msgstr ""
+
+msgid "&Scroll"
+msgstr ""
+
+msgid "&Click"
+msgstr ""
+
+msgid "&Input"
+msgstr ""
+
+msgid "&Go Back/Forward"
+msgstr ""
+
+msgid "Clear &Browsing Data"
+msgstr ""
+
+msgid "&Disk Cache"
+msgstr ""
+
+msgid "&Cookies"
+msgstr ""
+
+msgid "&Browsing History"
+msgstr ""
+
+msgid "&All Profiles"
+msgstr ""
+
+msgid "&File"
+msgstr "&Súbor"
+
+msgid "&New"
+msgstr "&Nový"
+
+msgid "&Text"
+msgstr "&Text"
+
+msgid "T&able"
+msgstr "&Karta"
+
+msgid "&Binary"
+msgstr "&Binárne"
+
+msgid "&Image"
+msgstr "&Obrázok"
+
+msgid "&Webpage"
+msgstr ""
+
+msgid "New (&3 panes)"
+msgstr "Nový (&3 panely)"
+
+msgid "&Open...\tCtrl+O"
+msgstr "&Otvoriť...\tCtrl+O"
+
+msgid "Open Conflic&t File..."
+msgstr "Otvoriť kon&fliktný súbor..."
+
+msgid "Open C&lipboard"
+msgstr "Otvoriť &schránku"
+
+msgid "Open Pro&ject...\tCtrl+J"
+msgstr "O&tvoriť projekt...\tCtrl+J"
+
+msgid "Sa&ve Project..."
+msgstr "Uložiť &projekt..."
+
+msgid "Recent Projects"
+msgstr "Naposledy otvorené projekty"
+
+msgid "Recent F&iles or Folders"
+msgstr "Naposledy otvorené sú&bory alebo projekty"
+
+msgid "E&xit\tCtrl+Q"
+msgstr "&Koniec\tCtrl+Q"
+
+msgid "&Edit"
+msgstr "&Upraviť"
+
+msgid "&Paste\tCtrl+V"
+msgstr "&Prilepiť\tCtrl+V"
+
+msgid "&Options...\tCtrl+,"
+msgstr "&Nastavenia...\tCtrl+,"
+
+msgid "&View"
+msgstr "&Zobraziť"
+
+msgid "Ta&b Bar"
+msgstr "Lišta &záložiek"
+
+msgid "&View Tab Bar"
+msgstr ""
+
+msgid "&On Title Bar"
+msgstr ""
+
+msgid "&Toolbar"
+msgstr "Lišta &nástrojov"
+
+msgid "&Small"
+msgstr "&Malá"
+
+msgid "&Medium"
+msgstr ""
+
+msgid "&Big"
+msgstr "&Veľká"
+
+msgid "&Huge"
+msgstr "&Obrovská"
+
+msgid "Men&u Bar"
+msgstr ""
+
+msgid "&Output Pane"
+msgstr ""
+
+msgid "&Status Bar"
+msgstr "&Stavový riadok"
+
+msgid "&Tools"
+msgstr "&Nástroje"
+
+msgid "&Filters..."
+msgstr "&Filtre..."
+
+msgid "&Generate Patch..."
+msgstr "&Vygenerovať opravnú záplatu..."
+
+msgid "&Plugins"
+msgstr "&Rozšírenia"
+
+msgid "P&lugin Settings..."
+msgstr "&Nastavenia rozšírení..."
+
+msgid "Ma&nual Prediffer"
+msgstr "Ma&nuálny predbežný spracovateľ rozdielov"
+
+msgid "A&utomatic Prediffer"
+msgstr "A&utomatický predbežný spracovateľ rozdielov"
+
+msgid "&Manual Unpacking"
+msgstr "&Manuálne rozbalenie"
+
+msgid "&Automatic Unpacking"
+msgstr "&Automatické rozbalenie"
+
+msgid "&Reload Plugins"
+msgstr "&Znovu načítať rozšírenia"
+
+msgid "&Window"
+msgstr "&Okno"
+
+msgid "Cl&ose\tCtrl+W"
+msgstr "&Zatvoriť\tCtrl+W"
+
+msgid "Clo&se All"
+msgstr "Zatvoriť &všetky"
+
+msgid "Change &Pane\tF6"
+msgstr "Zmeniť &panel\tF6"
+
+msgid "Tile &Horizontally"
+msgstr "Dlaždice &horizontálne"
+
+msgid "Tile &Vertically"
+msgstr "Dlaždice &vertikálne"
+
+msgid "&Cascade"
+msgstr "&Kaskáda"
+
+msgid "&Help"
+msgstr "&Pomoc"
+
+msgid "&WinMerge Help\tF1"
+msgstr "Pomocník &WinMerge\tF1"
+
+msgid "R&elease Notes"
+msgstr "&Poznámky k vydaniu"
+
+msgid "&Translations"
+msgstr "&Preklady"
+
+msgid "C&onfiguration"
+msgstr "K&onfigurácia"
+
+msgid "&GNU General Public License"
+msgstr "&GNU General Public License"
+
+msgid "&About WinMerge..."
+msgstr "&O aplikácii WinMerge..."
+
+msgid "&Read-Only"
+msgstr "&Len na čítanie"
+
+msgid "L&eft Read-Only"
+msgstr "Ľ&avý len na čítanie"
+
+msgid "M&iddle Read-Only"
+msgstr "&Stredný len na čítanie"
+
+msgid "Ri&ght Read-Only"
+msgstr "&Pravý len na čítanie"
+
+msgid "&File Encoding..."
+msgstr "&Kódovanie súboru..."
+
+msgid "Select &All\tCtrl+A"
+msgstr "Vybr&ať všetko\tCtrl+A"
+
+msgid "Show &Identical Items"
+msgstr "Zobraziť &zhodné položky"
+
+msgid "Show &Different Items"
+msgstr "Zobraziť &rozdielne položky"
+
+msgid "Show L&eft Unique Items"
+msgstr "Zobraziť jedinečné položky &vľavo"
+
+msgid "Show Midd&le Unique Items"
+msgstr "Zobraziť jedinečné položky v &strede"
+
+msgid "Show Ri&ght Unique Items"
+msgstr "Zobraziť jedinečné položky vp&ravo"
+
+msgid "Show S&kipped Items"
+msgstr "Zobraziť pres&kočené položky"
+
+msgid "S&how Binary Files"
+msgstr "Z&obraziť binárne súbory"
+
+msgid "&3-way Compare"
+msgstr "&3-cestné porovnanie"
+
+msgid "Show &Left Only Different Items"
+msgstr "Zobraziť &vľavo len rozdielne položky"
+
+msgid "Show &Middle Only Different Items"
+msgstr "Zobraziť v &strede len rozdielne položky"
+
+msgid "Show &Right Only Different Items"
+msgstr "Zobraziť vp&ravo len rozdielne položky"
+
+msgid "Show L&eft Only Missing Items"
+msgstr "Zobraziť vľ&avo len chýbajúce položky"
+
+msgid "Show Mi&ddle Only Missing Items"
+msgstr "Zobraziť v s&trede len chýbajúce položky"
+
+msgid "Show Rig&ht Only Missing Items"
+msgstr "Zobraziť vprav&o len chýbajúce položky"
+
+msgid "Show Hidd&en Items"
+msgstr "Zobraziť &skryté položky"
+
+msgid "Tree &Mode"
+msgstr "Režim &stromu"
+
+msgid "E&xpand Subfolders"
+msgstr ""
+
+msgid "&All Subfolders"
+msgstr ""
+
+msgid "&Different Subfolders"
+msgstr ""
+
+msgid "&Identical Subfolders"
+msgstr ""
+
+msgid "&Collapse All Subfolders"
+msgstr "&Zvinúť všetky podpriečinky"
+
+msgid "Select &Font..."
+msgstr "Vybrať &písmo..."
+
+msgid "Use Default Font"
+msgstr "Použiť &predvolené písmo"
+
+msgid "Sw&ap Panes"
+msgstr "&Prehodiť panely"
+
+msgid "Swap &1st | 2nd"
+msgstr "Prehodiť &1. | 2."
+
+msgid "Swap &2nd | 3rd"
+msgstr "Prehodiť &2. | 3."
+
+msgid "Swap 1st | &3rd"
+msgstr "Prehodiť 1. | &3."
+
+msgid "Com&pare Statistics..."
+msgstr "Štatistika po&rovnania..."
+
+msgid "Refresh\tF5"
+msgstr "&Obnoviť\tF5"
+
+msgid "&Refresh Selected\tCtrl+F5"
+msgstr "O&bnoviť vybrané\tCtrl+F5"
+
+msgid "&Merge"
+msgstr "&Zlúčiť"
+
+msgid "Co&mpare\tEnter"
+msgstr "Po&rovnať\tEnter"
+
+msgid "&Next Difference\tAlt+Down"
+msgstr "&Nasledujúci rozdiel\tAlt+↓"
+
+msgid "&Previous Difference\tAlt+Up"
+msgstr "&Predchádzajúci rozdiel\tAlt+↑"
+
+msgid "&First Difference\tAlt+Home"
+msgstr "Pr&vý rozdiel\tAlt+Home"
+
+msgid "&Current Difference\tAlt+Enter"
+msgstr "&Aktuány rozdiel\tAlt+Enter"
+
+msgid "&Last Difference\tAlt+End"
+msgstr "Posledný &rozdiel\tAlt+End"
+
+msgid "Copy to &Right\tAlt+Right"
+msgstr "Skopírovať v&pravo\tAlt+→"
+
+msgid "Copy to L&eft\tAlt+Left"
+msgstr "Skopírovať &vľavo\tAlt+←"
+
+msgid "&Delete\tDel"
+msgstr "&Odstrániť\tDel"
+
+msgid "&Customize Columns..."
+msgstr "&Vlastné stĺpce..."
+
+msgid "Generate &Report..."
+msgstr "Vystvoriť &správu..."
+
+msgid "&Edit with Unpacker..."
+msgstr "&Upraviť program Unpacker..."
+
+msgid "&Save\tCtrl+S"
+msgstr "&Uložiť\tCtrl+S"
+
+msgid "Sav&e"
+msgstr "U&ložiť"
+
+msgid "Save &Left"
+msgstr "Uložiť ľ&avý"
+
+msgid "Save &Middle"
+msgstr "Uložiť &stredný"
+
+msgid "Save &Right"
+msgstr "Uložiť &pravý"
+
+msgid "Save &As"
+msgstr "Uložiť &ako"
+
+msgid "Save &Left As..."
+msgstr "Uložiť ľa&vý ako..."
+
+msgid "Save &Middle As..."
+msgstr "Uložiť s&tredný ako..."
+
+msgid "Save &Right As..."
+msgstr "Uložiť p&ravý ako..."
+
+msgid "&Print...\tCtrl+P"
+msgstr "&Tlačiť...\tCtrl+P"
+
+msgid "Page Set&up..."
+msgstr "Nastavenie s&tránky..."
+
+msgid "Print Previe&w..."
+msgstr "Náhľad p&red tlačou..."
+
+msgid "&Convert Line Endings to"
+msgstr "&Konvertovať konce riadkov na"
+
+msgid "Mer&ge Mode\tF9"
+msgstr "Režim &zlučenia\tF9"
+
+msgid "Reloa&d\tCtrl+F5"
+msgstr "Znovanačítať\tCtrl+F5"
+
+msgid "Reco&mpare As"
+msgstr "&Znovu porovnať ako"
+
+msgid "&Undo\tCtrl+Z"
+msgstr "&Späť\tCtrl+Z"
+
+msgid "&Redo\tCtrl+Y"
+msgstr "&Vpred\tCtrl+Y"
+
+msgid "Cu&t\tCtrl+X"
+msgstr "Vy&strihnúť\tCtrl+X"
+
+msgid "&Copy\tCtrl+C"
+msgstr "&Kopírovať\tCtrl+C"
+
+msgid "F&ind...\tCtrl+F"
+msgstr "&Hľadať...\tCtrl+F"
+
+msgid "Repla&ce...\tCtrl+H"
+msgstr "&Nahradiť...\tCtrl+H"
+
+msgid "&Marker...\tCtrl+Shift+M"
+msgstr "&Značka ...\tCtrl+Shift+M"
+
+msgid "Advanced"
+msgstr "Rozšírené"
+
+msgid "&Copy With Line Numbers\tCtrl+Shift+C"
+msgstr "&Kopírovať s číslami riadkov\tCtrl+Shift+C"
+
+msgid "&Bookmarks"
+msgstr "&Záložky"
+
+msgid "&Toggle Bookmark\tCtrl+F2"
+msgstr "&Prepnúť záložku\tCtrl+F2"
+
+msgid "&Next Bookmark\tF2"
+msgstr "&Ďalšia záložka\tF2"
+
+msgid "&Previous Bookmark\tShift+F2"
+msgstr "&Predošlá záložka\tShift+F2"
+
+msgid "&Clear All Bookmarks"
+msgstr "&Zmazať všetky záložky"
+
+msgid "Syntax Highlight"
+msgstr "Zvýrazňovanie syntaxe"
+
+msgid "&Diff Context"
+msgstr "Súvislosť &rozdielov"
+
+msgid "&All Lines"
+msgstr "&Všetky riadky"
+
+msgid "&0 Lines"
+msgstr "&0 riadkov"
+
+msgid "&1 Line"
+msgstr "&1 riadok"
+
+msgid "&3 Lines"
+msgstr "&3 riadky"
+
+msgid "&5 Lines"
+msgstr "&5 riadkov"
+
+msgid "&7 Lines"
+msgstr "&7 riadkov"
+
+msgid "&9 Lines"
+msgstr "&9 riadkov"
+
+msgid "&Toggle All and 0-9 Lines\tCtrl+D"
+msgstr "&Prepnúť všetky a 0-9 riadkov\tCtrl+D"
+
+msgid "&Invert (Hide Different Lines)"
+msgstr "&Invertovať (Skryť rozdielne riadky)"
+
+msgid "&Lock Panes"
+msgstr "&Zamknúť panely"
+
+msgid "&View Whitespace"
+msgstr "&Zobraziť prázdne miesto"
+
+msgid "View E&OL"
+msgstr "Zobraziť znak konca riadkov &EOL"
+
+msgid "Vie&w Line Differences"
+msgstr "Zobraz&iť riadky rozdielov"
+
+msgid "View Line &Numbers"
+msgstr "Zobraziť čísla &riadkov"
+
+msgid "View &Margins"
+msgstr "Zobraziť &okraje"
+
+msgid "View To&p Margins"
+msgstr ""
+
+msgid "W&rap Lines"
+msgstr "&Zvinúť riadky"
+
+msgid "Split V&ertically"
+msgstr "Oddeliť &vertikálne"
+
+msgid "Diff &Pane"
+msgstr "&Panel rozdielov"
+
+msgid "Lo&cation Pane"
+msgstr "Panel &polohy"
+
+msgid "Output Pane"
+msgstr ""
+
+msgid "Ne&xt Conflict\tAlt+Shift+Down"
+msgstr "Ďa&lší konflikt\tAlt+Shift+↓"
+
+msgid "Pre&vious Conflict\tAlt+Shift+Up"
+msgstr "Pre&došlý konflikt\tAlt+Shift+↑"
+
+msgid "A&dvanced"
+msgstr "Po&kročilé"
+
+msgid "Next Difference (Left/Middle)\tAlt+1"
+msgstr "Ďalší rozdiel medzi ľavým a stredným\tAlt+1"
+
+msgid "Previous Difference (Left/Middle)\tAlt+Shift+1"
+msgstr "Predošlý rozdiel medzi ľavým a stredným\tAlt+1"
+
+msgid "Next Difference (Left/Right)\tAlt+2"
+msgstr "Ďalší rozdiel medzi ľavým a pravým\tAlt+2"
+
+msgid "Previous Difference (Left/Right)\tAlt+Shift+2"
+msgstr "Predošlý rozdiel medzi ľavým a pravým\tAlt+1"
+
+msgid "Next Difference (Middle/Right)\tAlt+3"
+msgstr "Ďalší rozdiel medzi stredným a pravým\tAlt+3"
+
+msgid "Previous Difference (Middle/Right)\tAlt+Shift+3"
+msgstr "Predošlý rozdiel medzi stredným a pravým\tAlt+Shift+3"
+
+msgid "Next Left-Only Difference\tAlt+7"
+msgstr "Ďalší rozdiel len ľavý\tAlt+7"
+
+msgid "Previous Left-Only Difference\tAlt+Shift+7"
+msgstr "Predošlý rozdiel len ľavý\tAlt+7"
+
+msgid "Next Middle-Only Difference\tAlt+8"
+msgstr "Ďalší rozdiel len stredný\tAlt+8"
+
+msgid "Previous Middle-Only Difference\tAlt+Shift+8"
+msgstr "Predošlý rozdiel len stredný\tAlt+Shift+8"
+
+msgid "Next Right-Only Difference\tAlt+9"
+msgstr "Ďalší rozdiel len pravý\tAlt+9"
+
+msgid "Previous Right-Only Difference\tAlt+Shift+9"
+msgstr "Predošlý rozdiel len pravý\tAlt+Shift+9"
+
+msgid "Copy from &Left to"
+msgstr "Kopírovať z &ľava do"
+
+msgid "&Middle"
+msgstr "&stredného"
+
+msgid "&Right"
+msgstr "&pravého"
+
+msgid "Copy from &Middle to"
+msgstr "Kopírovať z &stredného do"
+
+msgid "&Left"
+msgstr "&ľavého"
+
+msgid "Copy from &Right to"
+msgstr "Kopírovať z &prava do"
+
+msgid "Copy Selected Lines from Le&ft to"
+msgstr "Kopíruje vybrané riadky z ľa&vého do"
+
+msgid "Copy Selected Lines from Mi&ddle to"
+msgstr "Kopíruje vybrané riadky zo stred&ného do"
+
+msgid "Copy Selected Lines from Ri&ght to"
+msgstr "Kopíruje vybrané riadky z p&ravého do"
+
+msgid "Copy from Left\tAlt+Shift+Right"
+msgstr "Kopírovať zľava\tAlt+Shift+→"
+
+msgid "Copy from Right\tAlt+Shift+Left"
+msgstr "Kopírovať sprava\tAlt+Shift+←"
+
+msgid "C&opy to Right and Advance\tCtrl+Alt+Right"
+msgstr "Kopírovať vpravo a ísť ďalej\tCtrl+Alt+→"
+
+msgid "Copy &to Left and Advance\tCtrl+Alt+Left"
+msgstr "Kopírovať vľavo a ísť ďalej\tCtrl+Alt+←"
+
+msgid "Copy &All to Right"
+msgstr "Kopírovať všetko v&pravo"
+
+msgid "Cop&y All to Left"
+msgstr "Kopírovať všetko vľ&avo"
+
+msgid "A&uto Merge\tCtrl+Alt+M"
+msgstr "&Automaticky zlúčiť\tCtrl+Alt+M"
+
+msgid "Add &Synchronization Point\tAlt+S"
+msgstr "Pridať &synchronizačný bod\tAlt+S"
+
+msgid "Clear Sync&hronization Points"
+msgstr "Vymazať sync&hronizačné body"
+
+msgid "Unpac&ker"
+msgstr "&Rozbaľovač"
+
+msgid "&Prediffer"
+msgstr "&Predbežný spracovateľ rozdielov"
+
+msgid "Apply Pre&differ..."
+msgstr "Použiť pre&dbežného spracovateľa rozdielov..."
+
+msgid "&Transform with Editor Script..."
+msgstr "&Transformovať so skriptom editora..."
+
+msgid "Scripts for &Copying"
+msgstr ""
+
+msgid "Select &Editor Script..."
+msgstr ""
+
+msgid "Sp&lit"
+msgstr "Od&deliť"
+
+msgid "Comp&are"
+msgstr "Porovn&ať"
+
+msgid "Compare in New &Window"
+msgstr "Porovnať v novom &okne"
+
+msgid "Compare Non-hor&izontally..."
+msgstr "Porovnať ne&horizontálne..."
+
+msgid "Compare Non-hor&izontally"
+msgstr "Porovnať ne&horizontálne"
+
+msgid "First &Left with Second Left"
+msgstr "Prvá ľ&avá položka s druhou ľavou položkou"
+
+msgid "First &Right with Second Right"
+msgstr "Prvá p&ravá položka s druhou pravou položkou"
+
+msgid "&First Left with Second Right"
+msgstr "&Prvá ľavá položka s druhou pravou položkou"
+
+msgid "&Second Left with First Right"
+msgstr "&Druhá ľavá položka s prvou pravou položkou"
+
+msgid "Co&mpare As"
+msgstr "Po&rovnať ako"
+
+#, c-format
+msgid "Left to Middle (%1 of %2)"
+msgstr "Ľavý do stredu (%1 z %2)"
+
+#, c-format
+msgid "Left to Right (%1 of %2)"
+msgstr "Ľavý vpravo (%1 z %2)"
+
+#, c-format
+msgid "Left to... (%1 of %2)"
+msgstr "Ľavý do... (%1 z %2)"
+
+#, c-format
+msgid "Middle to Left (%1 of %2)"
+msgstr "Stredný vľavo (%1 z %2)"
+
+#, c-format
+msgid "Middle to Right (%1 of %2)"
+msgstr "Stredný vpravo (%1 z %2)"
+
+#, c-format
+msgid "Middle to... (%1 of %2)"
+msgstr "Stredný do... (%1 z %2)"
+
+#, c-format
+msgid "Right to Middle (%1 of %2)"
+msgstr "Pravý do stredu (%1 z %2)"
+
+#, c-format
+msgid "Right to Left (%1 of %2)"
+msgstr "Pravý vľavo (%1 z %2)"
+
+#, c-format
+msgid "Right to... (%1 of %2)"
+msgstr "Pravý do... (%1 z %2)"
+
+msgid "&Delete"
+msgstr "&Odstrániť"
+
+msgid "&Both"
+msgstr "&Oba"
+
+msgid "&All"
+msgstr "&Všetky"
+
+msgid "Re&name"
+msgstr "Pre&menovať"
+
+msgid "&Hide Items"
+msgstr "&Skryť položky"
+
+msgid "&Open Left"
+msgstr "&Otvoriť ľavý"
+
+msgid "Open Midd&le"
+msgstr "Otvoriť &stredný"
+
+msgid "O&pen Right"
+msgstr "Otvoriť &pravý"
+
+msgid "Cop&y Paths"
+msgstr "Kopírovať názvy &ciest"
+
+#, c-format
+msgid "Left (%1 of %2)"
+msgstr "Ľavý (%1 z %2)"
+
+#, c-format
+msgid "Middle (%1 of %2)"
+msgstr "Stredný (%1 z %2)"
+
+#, c-format
+msgid "Right (%1 of %2)"
+msgstr "Pravý (%1 z %2)"
+
+#, c-format
+msgid "Both (%1 of %2)"
+msgstr "Oba (%1 z %2)"
+
+#, c-format
+msgid "All (%1 of %2)"
+msgstr "Všetky (%1 z %2)"
+
+msgid "Copy &Filenames"
+msgstr "Kopírovať názvy &súborov"
+
+msgid "Copy Items to Clip&board"
+msgstr "Kopírovať položky do &schránky"
+
+msgid "Copy All Di&splayed Columns"
+msgstr ""
+
+msgid "&Zip"
+msgstr "&Zbaliť ZIP"
+
+#, c-format
+msgid "Both to... (%1 of %2)"
+msgstr "Oba do... (%1 z %2)"
+
+#, c-format
+msgid "All to... (%1 of %2)"
+msgstr "Všetky do... (%1 z %2)"
+
+#, c-format
+msgid "Differences to... (%1 of %2)"
+msgstr "Rozdiely do... (%1 z %2)"
+
+msgid "Left Shell Menu"
+msgstr "Vzhľad ľavej ponuky"
+
+msgid "Middle Shell Menu"
+msgstr "Vzhľad strednej ponuky"
+
+msgid "Right Shell Menu"
+msgstr "Vzhľad pravej ponuky"
+
+msgid "Both Shell Menu"
+msgstr ""
+
+msgid "All Shell Menu"
+msgstr ""
+
+msgid "Copy"
+msgstr "Kopírovať"
+
+msgid "&Copy Full Path"
+msgstr "&Kopírovať plnú cestu"
+
+msgid "Copy &Filename"
+msgstr "Kopírovať názov &súboru"
+
+msgid "&Edit Caption"
+msgstr ""
+
+msgid "&Open..."
+msgstr ""
+
+msgid "Unpacker Settings"
+msgstr "Nastavenia rozbaľovača"
+
+msgid "<None>"
+msgstr "<Žiadny>"
+
+msgid "<Automatic>"
+msgstr "<Automatické>"
+
+msgid "&Select..."
+msgstr "&Vybrať..."
+
+msgid "Prediffer Settings"
+msgstr "Nastavenia predbežného spracovateľa rozdielov"
+
+msgid "G&o to Diff"
+msgstr "Ch&oď na rozdiel"
+
+msgid "&No Moved Blocks"
+msgstr "&Nepresúvať bloky"
+
+msgid "&All Moved Blocks"
+msgstr "Presunúť &všetky bloky"
+
+msgid "W&hitespaces"
+msgstr "&Netlačiteľné znaky"
+
+msgid "Com&pare"
+msgstr "&Porovnať"
+
+msgid "I&gnore Changes"
+msgstr "I&gnorovať zmeny"
+
+msgid "Ig&nore All"
+msgstr "Ig&norovať všetko"
+
+msgid "Ignore Blan&k Lines"
+msgstr "Ignorovať prázdne riad&ky"
+
+msgid "Ignore &Case"
+msgstr "Ignorovať m&alé/VEĽKÉ"
+
+msgid "Igno&re EOL Differences (Windows/Unix/Mac)"
+msgstr "Igno&rovať rozdiely v zakončení riadkov (Windows/Unix/Mac)"
+
+msgid "Ignore Codepage &Differences"
+msgstr "Ignorovať rozdiely kódových stránok"
+
+msgid "Ignore Num&bers"
+msgstr "Ignorovať čí&sla"
+
+msgid "Ignore C&omment Differences"
+msgstr "Ignorovať rozdielne &komentáre"
+
+msgid "Ignore &Missing Trailing EOL"
+msgstr ""
+
+msgid "&Include Subfolders"
+msgstr "&Zahrnúť podpriečinky"
+
+msgid "&Compare Method"
+msgstr "Metóda &porovnania"
+
+msgid "Full Contents"
+msgstr "Plný obsah"
+
+msgid "Quick Contents"
+msgstr "Rýchly obsah"
+
+msgid "Binary Contents"
+msgstr "Binárny obsah"
+
+msgid "Modified Date"
+msgstr "Dátum zmeny"
+
+msgid "Modified Date and Size"
+msgstr "Dátum zmeny a veľkosť"
+
+msgid "Size"
+msgstr "Veľkosť"
+
+msgid "&Load Project..."
+msgstr "&Načítať projekt..."
+
+msgid "${*} - All Arguments"
+msgstr ""
+
+msgid "${1} - First Argument"
+msgstr ""
+
+msgid "${2} - Second Argument"
+msgstr ""
+
+msgid "${3} - Third Argument"
+msgstr ""
+
+msgid "${4} - Fourth Argument"
+msgstr ""
+
+msgid "${5} - Fifth Argument"
+msgstr ""
+
+msgid "${6} - Sixth Argument"
+msgstr ""
+
+msgid "${7} - Seventh Argument"
+msgstr ""
+
+msgid "${8} - Eighth Argument"
+msgstr ""
+
+msgid "${9} - Ninth Argument"
+msgstr ""
+
+msgid "${SRC_FILE} - Source File"
+msgstr ""
+
+msgid "${SRC_FOLDER} - Source Folder"
+msgstr ""
+
+msgid "${SRC_URL} - Source URL"
+msgstr ""
+
+msgid "${SRC_URL_PROTOCOL} - Source URL Protocol"
+msgstr ""
+
+msgid "${SRC_URL_SUFFIX} - Source URL Suffix"
+msgstr ""
+
+msgid "${DST_FILE} - Destination File"
+msgstr ""
+
+msgid "${DST_FOLDER} - Destination Folder"
+msgstr ""
+
+msgid "${DST_URL} - Destination URL"
+msgstr ""
+
+msgid "${DST_URL_PROTOCOL} - Destination URL Protocol"
+msgstr ""
+
+msgid "${DST_URL_SUFFIX} - Destination URL Suffix"
+msgstr ""
+
+msgid "${WINMERGE_HOME} - WinMerge Home Directory"
+msgstr ""
+
+msgid "${SCRIPT_FILE} - Script File"
+msgstr ""
+
+msgid "Add &Unpacker Plugin..."
+msgstr ""
+
+msgid "Add &Prediffer Plugin..."
+msgstr ""
+
+msgid "&Duplicate Plugin..."
+msgstr ""
+
+msgid "Clear &All"
+msgstr ""
+
+msgid "About WinMerge"
+msgstr "O aplikácii WinMerge"
+
+msgid "Visit the WinMerge Homepage!"
+msgstr "Navštívte domovskú programu WinMerge!"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Contributors"
+msgstr "Prispievatelia"
+
+msgid "Select Files or Folders"
+msgstr "Vybrať súbory alebo priečinky"
+
+msgid "&1st File or Folder"
+msgstr "&1. súbor alebo priečinok"
+
+msgid "Re&ad-only"
+msgstr "Len na čít&anie"
+
+msgid "Swap 1st | 2nd"
+msgstr "Prehodiť 1. | 2."
+
+msgid "&Browse..."
+msgstr "&Prehľadávať..."
+
+msgid "&2nd File or Folder"
+msgstr "&2. súbor alebo priečinok"
+
+msgid "Rea&d-only"
+msgstr "Iba na čí&tanie"
+
+msgid "Swap 2nd | 3rd"
+msgstr "Prehodiť 2. | 3."
+
+msgid "B&rowse..."
+msgstr "P&rehľadávať..."
+
+msgid "&3rd File or Folder (Optional)"
+msgstr "&3. súbor alebo priečinok (voliteľné)"
+
+msgid "Read-o&nly"
+msgstr "Iba na číta&nie"
+
+msgid "Swap 1st | 3rd"
+msgstr "Prehodiť 1. | 3."
+
+msgid "Browse..."
+msgstr "Prehľadávať..."
+
+msgid " Folder: Filter"
+msgstr " Priečinok: Filter"
+
+msgid "&Include subfolders"
+msgstr "&Zahrnúť podpriečinky"
+
+msgid " File: Prediffer Plugin"
+msgstr ""
+
+msgid " File: Unpacker Plugin"
+msgstr " File: Rozšírenie rozbaľovača"
+
+msgid "Se&lect..."
+msgstr "Vy&brať..."
+
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgid "Status:"
+msgstr "Stav:"
+
+msgid "Help"
+msgstr "Pomoc"
+
+msgid "&Options..."
+msgstr "&Nastavenia..."
+
+msgid "General"
+msgstr "Všeobecné"
+
+msgid "Automatically &scroll to first difference"
+msgstr "Automaticky &rolovať na prvý rozdiel"
+
+msgid "Automatically s&croll to first inline difference"
+msgstr "&Automatické rolovať na prvý rozdiel v riadku"
+
+msgid "Cl&ose windows with 'Esc':"
+msgstr "Zat&várať okná klávesou 'Esc':"
+
+msgid "&Automatically verify paths in Open dialog"
+msgstr "&Automaticky overovať cestu v dialógu Otvoriť"
+
+msgid "Single instance mode:"
+msgstr "Režim jednej inštancie:"
+
+msgid "As&k when closing multiple windows"
+msgstr "&Pýtať sa pred zatvorením viacerých okien"
+
+msgid "&Preserve file time in file compare"
+msgstr "&Zachovávať čas súboru pri porovnaní"
+
+msgid "Show \"Select Files or Folders\" dialog on startup"
+msgstr "Zobraziť pri spustení dialóg „Vybrať súbory alebo priečinky“"
+
+msgid "Close \"Select Files or Folders\" dialog on clicking Compare button"
+msgstr "Kliknutím na tlačidlo Porovnať zatvoriť dialógové okno „Vybrať súbory alebo priečinky“"
+
+msgid "Op&en dialog Auto completion:"
+msgstr "Automatické dopĺňanie v dialógu &Otvoriť:"
+
+msgid "Auto-&reload modified files:"
+msgstr ""
+
+msgid "Language:"
+msgstr "Jazyk:"
+
+msgid "Defaults"
+msgstr "Predvolené"
+
+msgid "Find"
+msgstr "Hľadať"
+
+msgid "Fi&nd what:"
+msgstr "&Hľadať:"
+
+msgid "Match &whole word only"
+msgstr "Iba celé &slová"
+
+msgid "Match &case"
+msgstr "Rozlišovať &veľké/malé"
+
+msgid "Regular &expression"
+msgstr "&Regulárny výraz"
+
+msgid "D&on't wrap end of file"
+msgstr "&Nezalamovať koniec súboru"
+
+msgid "&Don't close this dialog"
+msgstr "&Nezatvárať toto dialógové okno"
+
+msgid "&Find Next"
+msgstr "Nájsť ďalší"
+
+msgid "Find &Prev"
+msgstr "Nájsť &predošlý"
+
+msgid "&Ok"
+msgstr "&OK"
+
+msgid "Replace"
+msgstr "Nahradiť"
+
+msgid "Re&place with:"
+msgstr "Nahradiť čím:"
+
+msgid "&Don't wrap at end of file"
+msgstr "&Nezalamovať koniec súboru"
+
+msgid "Replace in"
+msgstr "Nahradiť v"
+
+msgid "&Selection"
+msgstr "&výber"
+
+msgid "Wh&ole file"
+msgstr "&celý súbor"
+
+msgid "Find Pre&v"
+msgstr "Nájsť pre&došlý"
+
+msgid "&Replace"
+msgstr "Nahraďiť"
+
+msgid "Replace &All"
+msgstr "Nahraďiť všetko"
+
+msgid "Markers"
+msgstr "Značky"
+
+msgid "Enable &markers"
+msgstr "Povoliť &značky"
+
+msgid "New"
+msgstr "Nový"
+
+msgid "&Background color:"
+msgstr "Farba &pozadia:"
+
+msgid "&Apply"
+msgstr "&Použiť"
+
+msgid "Line Filters"
+msgstr "Filtre riadkov"
+
+msgid "Enable Line Filters"
+msgstr "Povoliť riadkové filtre"
+
+msgid "Regular Expressions (one per line):"
+msgstr "Regulárne výrazy (jeden na riadok):"
+
+msgid "Edit"
+msgstr "Upraviť"
+
+msgid "Remove"
+msgstr "Odstrániť"
+
+msgid "Substitution Filters"
+msgstr "Filtre nahradenia"
+
+msgid "Changes to the listed pairs below will be ignored or marked as insignificant. Patches are unaffected."
+msgstr "Zmeny, ktoré sa na paneloch zobrazia ako nižšie uvedené dvojice, sa budú ignorovať alebo označia ako nevýznamné. Záplaty nie sú ovplyvnené."
+
+msgid "Enable"
+msgstr "Povoliť"
+
+msgid "Add"
+msgstr "Sčítanie"
+
+msgid "Clear"
+msgstr "Vyčistiť"
+
+msgid "Colors"
+msgstr "Farby"
+
+msgid "Color Scheme:"
+msgstr "Farebná schéma:"
+
+msgid "Background"
+msgstr "Pozadie"
+
+msgid "Deleted"
+msgstr "Odstránené"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Difference:"
+msgstr "Rozdiel:"
+
+msgid "Selected Difference:"
+msgstr "Vybraný rozdiel:"
+
+msgid "Ignored Difference:"
+msgstr "Ignorovaný rozdiel:"
+
+msgid "Moved:"
+msgstr "Presunutý:"
+
+msgid "Selected Moved:"
+msgstr "Presunutý výber:"
+
+msgid "Same As Next (3 panes):"
+msgstr "Rovnaké ako ďalšie (3 panely):"
+
+msgid "Same As Next (Selected):"
+msgstr "Rovnaké ako ďalšie (vybrané):"
+
+msgid "Word Difference:"
+msgstr "Rozdiel slova:"
+
+msgid "Selected Word Diff:"
+msgstr "Rozdiel vybraného slova:"
+
+msgid "Dialog"
+msgstr "Dialóg"
+
+msgid "Keywords:"
+msgstr "Kľúčové slová:"
+
+msgid "Function names:"
+msgstr "Názvy funkcií:"
+
+msgid "Comments:"
+msgstr "Komentáre:"
+
+msgid "Numbers:"
+msgstr "Čísla:"
+
+msgid "Operators:"
+msgstr "Operátory:"
+
+msgid "Strings:"
+msgstr "Reťazce:"
+
+msgid "Preprocessor:"
+msgstr "Preprocesor:"
+
+msgid "User 1:"
+msgstr "Užívateľ 1:"
+
+msgid "User 2:"
+msgstr "Užívateľ 2:"
+
+msgid "Bold"
+msgstr "Tučné"
+
+msgid "&Use customized text colors"
+msgstr "&Použiť prispôsobené farby textu"
+
+msgid "Whitespace:"
+msgstr "Netlačiteľné znaky:"
+
+msgid "Regular text:"
+msgstr "Bežný text:"
+
+msgid "Selection:"
+msgstr "Výber:"
+
+msgid "Margin:"
+msgstr "Okraj:"
+
+msgid "Search Marker:"
+msgstr "Značka hľadania:"
+
+msgid "User Defined Marker 1:"
+msgstr "Užívateľom definovaná značka1:"
+
+msgid "User Defined Marker 2:"
+msgstr "Užívateľom definovaná značka2:"
+
+msgid "User Defined Marker 3:"
+msgstr "Užívateľom definovaná značka3:"
+
+msgid "&Use folder compare colors"
+msgstr "&Použiť priečinky porovnania farieb"
+
+msgid "Items equal:"
+msgstr "Rovnaké položky:"
+
+msgid "Items different:"
+msgstr "Rozdielne položky:"
+
+msgid "Items missing:"
+msgstr "Všetky neexistujúce položky:"
+
+msgid "Items filtered:"
+msgstr "Filtrované položky:"
+
+msgid "&Use custom system colors"
+msgstr ""
+
+msgid "System"
+msgstr "Systém"
+
+msgid "&Use Recycle Bin"
+msgstr "&Posielať odstránené súbory do koša"
+
+msgid "&External editor:"
+msgstr "&Externý editor:"
+
+msgid "&Filter folder:"
+msgstr "Priečinok &filtrov:"
+
+msgid "Temporary files folder"
+msgstr "Priečinok dočasných súborov"
+
+msgid "S&ystem temp folder"
+msgstr "Priečinok dočasných súborov s&ystému"
+
+msgid "C&ustom folder:"
+msgstr "&Vlastný priečinok:"
+
+msgid "Br&owse..."
+msgstr "Pre&hľadávať..."
+
+msgid "Patch Generator"
+msgstr "Generátor opravných záplat"
+
+msgid "File&1:"
+msgstr "Súbor&1:"
+
+msgid "File&2:"
+msgstr "Súbor&2:"
+
+msgid "&Swap"
+msgstr "&Prehodiť"
+
+msgid "&Copy to clipboard"
+msgstr "&Kopírovať do schránky"
+
+msgid "&Append to existing file"
+msgstr "&Rozšíriť existujúci súbor"
+
+msgid "&Result:"
+msgstr "&Výsledok:"
+
+msgid "Bro&wse..."
+msgstr "&Prechádzať..."
+
+msgid "&Format"
+msgstr "&Formát"
+
+msgid "St&yle:"
+msgstr "Š&týl:"
+
+msgid "&Context:"
+msgstr "&Kontext:"
+
+msgid "Inclu&de command line"
+msgstr "Zahrnúť príkazový ria&dok"
+
+msgid "Open in e&xternal editor"
+msgstr "Otvoriť v e&xternom editore"
+
+msgid "Display Columns"
+msgstr "Zobrazovať stĺpce"
+
+msgid "Move &Up"
+msgstr "Posunúť &hore"
+
+msgid "Move &Down"
+msgstr "Posunúť &dole"
+
+msgid "&Additional Properties"
+msgstr "&Prídavné vlastnosti"
+
+msgid "Additional Properties"
+msgstr "Prídavné vlastnosti"
+
+msgid "Select Plugin"
+msgstr "Vybrať rozšírenie"
+
+msgid "Plugin &name:"
+msgstr "&Názov rozšírenia:"
+
+msgid "&Target files:"
+msgstr ""
+
+msgid "Extensions list:"
+msgstr "Zoznam prípon:"
+
+msgid "Description:"
+msgstr "Popis:"
+
+msgid "Default arguments:"
+msgstr "Predvolené argumenty:"
+
+msgid "Display all plugins (Ignore extension)"
+msgstr "Zobrazí všetky rozšírenia, nekontroluje príponu"
+
+msgid "&Open files in same window type after unpacking"
+msgstr "Po rozbalení &otvoriť súbory v rovnakom type okna"
+
+msgid "&Plugin pipeline:"
+msgstr "Rozšírenie &potrubia:"
+
+msgid "&Alias..."
+msgstr ""
+
+msgid "Stop"
+msgstr "Zastaviť"
+
+msgid "Pause"
+msgstr "Pozastaviť"
+
+msgid "Continue"
+msgstr "Pokračovať"
+
+msgid "C&PU cores to use:"
+msgstr ""
+
+msgid "Items total:"
+msgstr "Položky celkom:"
+
+msgid "Items compared:"
+msgstr "Porovnané položky:"
+
+msgid "Go to"
+msgstr "Prejsť na"
+
+msgid "G&o to:"
+msgstr "&Prejsť na:"
+
+msgid "File"
+msgstr "Súbor"
+
+msgid "Go to what"
+msgstr "Prejsť na čo"
+
+msgid "Li&ne"
+msgstr "Riad&ok"
+
+msgid "&Difference"
+msgstr "&Rozdiel"
+
+msgid "&Go to"
+msgstr "&Prejsť na"
+
+msgid "Compare"
+msgstr "Porovnať"
+
+msgid "Whitespaces"
+msgstr "Netlačiteľné znaky"
+
+msgid "&Compare"
+msgstr "Porovnávať &netlačiteľné znaky"
+
+msgid "&Ignore change"
+msgstr "&Ignorovať zmeny"
+
+msgid "I&gnore all"
+msgstr "I&gnorovať všetko"
+
+msgid "Ignore blan&k lines"
+msgstr "Ignorovať prázdne riad&ky"
+
+msgid "Ignore &case"
+msgstr "Ignorovať m&alé/VEĽKÉ"
+
+msgid "Igno&re EOL differences (Windows/Unix/Mac)"
+msgstr ""
+
+msgid "Ignore num&bers"
+msgstr "Ignorovať čí&sla"
+
+msgid "Ignore codepage &differences"
+msgstr "Ignorovať rozdiely kódových stránok"
+
+msgid "Ignore c&omment differences"
+msgstr "Ignorovať rozdielne &komentáre"
+
+msgid "Ignore &missing trailing EOL"
+msgstr ""
+
+msgid "E&nable moved block detection"
+msgstr "Povoliť &zisťovanie presunu bloku"
+
+msgid "Align &similar lines"
+msgstr ""
+
+msgid "Diff &algorithm:"
+msgstr "&Algoritmus rozdielov:"
+
+msgid "Enable indent &heuristic"
+msgstr "Povoliť &heuristické odsadenie"
+
+msgid "Completely unhighlight the ignored differences"
+msgstr "Úplne odlíšiť ignorované rozdiely"
+
+msgid "Editor"
+msgstr "Editor"
+
+msgid "&Highlight syntax"
+msgstr "Zvýrazňovanie syntaxe"
+
+msgid "&Preserve original EOL"
+msgstr "&Zachovávať pôvodné znaky zakončenia riadkov"
+
+msgid "Tabs"
+msgstr "Tabelátory"
+
+msgid "&Tab size:"
+msgstr "&Nastavenie tabelátorov:"
+
+msgid "&Insert tabs"
+msgstr "Vkladať &tabelátory"
+
+msgid "Insert &spaces"
+msgstr "Vkladať &medzery"
+
+msgid "&Rendering mode:"
+msgstr "&Režim vytvárania prevodu:"
+
+msgid "&Automatic rescan"
+msgstr "Automatické p&reskenovanie"
+
+msgid "Copy &granularity for selected differences:"
+msgstr ""
+
+msgid "Line Difference Coloring"
+msgstr "Farebné odlíšenie riadkových rozdielov"
+
+msgid "View line differences"
+msgstr "Zobrazovať rozdiely riadkov"
+
+msgid "&Character-level"
+msgstr "Úroveň &znaku"
+
+msgid "&Word-level:"
+msgstr "Úroveň &slova:"
+
+msgid "W&ord break characters:"
+msgstr "Zalam&ovať slová:"
+
+msgid "Some messages can be hidden by the user. Press Reset to make all messages visible again."
+msgstr "WinMerge umožňuje skryť niektoré bežné okienka so správami. Stlačením tlačidla Obnoviť znova zviditeľníte všetky okienka správ."
+
+msgid "Reset"
+msgstr "Vynulovať"
+
+msgid "File Filters"
+msgstr "Filtre súborov"
+
+msgid "Test..."
+msgstr "Testovať..."
+
+msgid "Install..."
+msgstr "Inštalovať..."
+
+msgid "New..."
+msgstr "Nový..."
+
+msgid "Edit..."
+msgstr "Upravovať..."
+
+msgid "Delete..."
+msgstr "Zmazať..."
+
+msgid "Save Modified Files?"
+msgstr "Uložiť zmenené súbory?"
+
+msgid "Left side file"
+msgstr "Súbor vľavo"
+
+msgid "&Save changes"
+msgstr "&Uložiť zmeny"
+
+msgid "&Discard changes"
+msgstr "&Zahodiť zmeny"
+
+msgid "Middle side file"
+msgstr "Súbor v stredne"
+
+msgid "Sa&ve changes"
+msgstr "U&ložiť zmeny"
+
+msgid "Discard c&hanges"
+msgstr "Za&hodiť zmeny"
+
+msgid "Right side file"
+msgstr "Súbor vpravo"
+
+msgid "S&ave changes"
+msgstr "Ul&ožiť zmeny"
+
+msgid "Dis&card changes"
+msgstr "Z&ahodiť zmeny"
+
+msgid "Disca&rd All"
+msgstr "Zahodiť &všetky"
+
+msgid "Codepage"
+msgstr "Kódová stránka"
+
+msgid "Default Codepage"
+msgstr "Predvolená kódová stránka"
+
+msgid "Select the default codepage for non-Unicode files:"
+msgstr "Zvoľte predvolenú kódovú stránku, ktorá sa použije pri načítaní ne-Unicode súborov:"
+
+msgid "System codepage"
+msgstr "Systémová kódová stránka"
+
+msgid "According to WinMerge User Interface"
+msgstr "Podľa užívateľského rozhrania WinMerge"
+
+msgid "Custom codepage:"
+msgstr "Vlastná kódová stránka:"
+
+msgid ""
+"Detect codepage for: .html, .rc, .xml\n"
+"Restart required."
+msgstr ""
+"Zisťovať informácie o kódovej stránke pre tieto súbory: .html, .rc, .xml\n"
+"Potrebný reštart relácie."
+
+msgid ""
+"Detect codepage for files with mlang.dll\n"
+"Restart required."
+msgstr ""
+"Zisťovať kódovú stránku pre textové súbory pomocou súboru mlang.dll\n"
+"Potrebný reštart relácie."
+
+msgid "Options"
+msgstr "Možnosti"
+
+msgid "Import..."
+msgstr "Importovať..."
+
+msgid "Export..."
+msgstr "Exportovať..."
+
+msgid "Folder Compare Report"
+msgstr "Správa o porovnaní priečinkov"
+
+msgid "Report &file:"
+msgstr "&Súbor správy:"
+
+msgid "&Style:"
+msgstr "&Štýl:"
+
+msgid "&Include file compare report"
+msgstr "&Zahrnúť správu o porovnaní súborov"
+
+msgid "Shared or Private Filter"
+msgstr "Zdieľaný alebo súkromný filter"
+
+msgid "What type of filter do you want?"
+msgstr "Aký typ filtra chcete vytvoriť?"
+
+msgid "Shared Filter (for all users)"
+msgstr "Zdieľaný filter (pre všetkých užívateľov tohto počítača)"
+
+msgid "Private Filter (current user only)"
+msgstr "Súkromný filter (len pre aktuálneho užívateľa)"
+
+msgid "Archive Support"
+msgstr "Podpora archívov"
+
+msgid "&Enable archive file support"
+msgstr "&Zapnúť podporu archívov"
+
+msgid "&Detect archive type from file signature"
+msgstr "&Detekovať typ archívu z hlavičky súboru"
+
+msgid "Items saved to or restored from the project file:"
+msgstr "Položky uložené do súboru projektu alebo obnovené zo súboru projektu:"
+
+msgid "Compare Statistics"
+msgstr "Štatistika porovnania"
+
+msgid "Folders:"
+msgstr "Priečinky:"
+
+msgid "Files:"
+msgstr "Súbory:"
+
+msgid "Different"
+msgstr "Rozdielne"
+
+msgid "Binary:"
+msgstr "Binárne:"
+
+msgid "Unique"
+msgstr "Jedinečné"
+
+msgid "Left:"
+msgstr "Ľavý:"
+
+msgid "Right:"
+msgstr "Pravý:"
+
+msgid "Identical"
+msgstr "Identické"
+
+msgid "Total:"
+msgstr "Celkom:"
+
+msgid "Close"
+msgstr "Zatvoriť"
+
+msgid "Middle:"
+msgstr "Stredný:"
+
+msgid "Missing Left:"
+msgstr "Chýbajúce vľavo:"
+
+msgid "Missing Middle:"
+msgstr "Chýbajúce v strede:"
+
+msgid "Missing Right:"
+msgstr "Chýbajúce vpravo:"
+
+msgid "Affects"
+msgstr "Ovplyvniť"
+
+msgid "(Affects)"
+msgstr "(Ovplyvniť)"
+
+msgid "Select Codepage for"
+msgstr "Vybrať kódovú stránku pre"
+
+msgid "&File Loading:"
+msgstr "&Načítanie súboru:"
+
+msgid "File &Saving:"
+msgstr "&Uloženie súboru:"
+
+msgid "&Use same codepage for both"
+msgstr "&Použiť pre obe rovnakú kódovú stránku"
+
+msgid "&Cancel"
+msgstr "&Zrušiť"
+
+msgid "Test Filter"
+msgstr "Test filtra"
+
+msgid "Testing filter:"
+msgstr "Testovanie filtra:"
+
+msgid "&Enter text to test:"
+msgstr "&Zadajte testovací reťazec:"
+
+msgid "&Folder Name"
+msgstr "&Názov priečinka"
+
+msgid "Result:"
+msgstr "Výsledok:"
+
+msgid "&Test"
+msgstr "&Testovať"
+
+msgid "&Close"
+msgstr "&Zatvoriť"
+
+msgid "Table"
+msgstr "Karta"
+
+msgid "File type"
+msgstr "Typ súboru"
+
+msgid "&CSV"
+msgstr "&CSV"
+
+msgid "&TSV"
+msgstr "&TSV"
+
+msgid "Custom &Delimiter-Separated Values"
+msgstr "Vlastné &obmedzovačom oddelené hodnoty"
+
+msgid "D&elimiter character:"
+msgstr "Znak o&bmedzovača:"
+
+msgid "&Allow newlines in quotes"
+msgstr "&Povoliť nové riadky v úvodzovkách"
+
+msgid "&Quote character:"
+msgstr "Znak ú&vodzovky:"
+
+msgid "Backup Files"
+msgstr "Záložné súbory"
+
+msgid "Create backup files for:"
+msgstr "Vytvárať záložné súbory v:"
+
+msgid "&Folder compare"
+msgstr "Porovnávanie &priečinkov"
+
+msgid "Fil&e compare"
+msgstr "Porovnávanie &súborov"
+
+msgid "Create backup files in:"
+msgstr "Vytvárať záložné súbory do:"
+
+msgid "&Original file's folder"
+msgstr "Priečinok &originálneho súboru"
+
+msgid "&Global backup folder:"
+msgstr "&Globálny priečinok pre zálohy:"
+
+msgid "Backup filename:"
+msgstr "Názov záložného súboru:"
+
+msgid "&Append .bak extension"
+msgstr "&Pripojiť príponu .bak"
+
+msgid "A&ppend timestamp"
+msgstr "P&ripojiť časovú pečiatku"
+
+msgid "Confirm Copy"
+msgstr "Potvrdiť kopírovanie"
+
+msgid "Are you sure you want to copy XXX items?"
+msgstr "Ste si istý, že chcete skopírovať XXX položiek?"
+
+msgid "From left"
+msgstr "Zľava"
+
+msgid "To right"
+msgstr "Doprava"
+
+msgid "Don't ask this &question again."
+msgstr "Už sa túto otázku nepýtať."
+
+msgid "Yes"
+msgstr "Áno"
+
+msgid "No"
+msgstr "Nie"
+
+msgid "Plugins"
+msgstr "Rozšírenia"
+
+msgid "&Enable plugins"
+msgstr "&Povoliť rozšírenia"
+
+msgid "Plugin &type:"
+msgstr ""
+
+msgid "File filters:"
+msgstr "Filtre súborov:"
+
+msgid "&Plugin arguments:"
+msgstr "Argumenty &rozšírenia:"
+
+msgid "Enable &automatic unpacking/prediffing"
+msgstr "Povoliť &automatické rozbalenie/predspracovanie rozdielov pre rozšírenie"
+
+msgid "Shell Integration"
+msgstr "Integrácia prostredia"
+
+msgid "Explorer"
+msgstr "Prieskumník"
+
+msgid "&Add to context menu"
+msgstr "Prid&ať do ponuky súvislosti"
+
+msgid "E&nable advanced menu"
+msgstr "Po&voliť rozšírenú ponuku"
+
+msgid "Enable &Compare As menu"
+msgstr ""
+
+msgid "&Register Shell Extension"
+msgstr "Za&registrovať rozšírenie prostredia"
+
+msgid "&Unregister Shell Extension"
+msgstr "&Zrušiť registráciu rozšírenia prostredia"
+
+msgid "Register Shell Extension for Current User &Only"
+msgstr "Zaregistruje rozšírenie prostredia iba pre aktuálneho užívateľa"
+
+msgid "Unregister Shell Extension for Current User On&ly"
+msgstr "Zruší registráciu rozšírenia prostredia pre súčasného užívateľa"
+
+msgid "Register Shell Extension for &Windows 11"
+msgstr "Registrovať rozšírenia vzhľadu pre &Windows 11 alebo novšie"
+
+msgid "Unregister Shell Extension for W&indows 11"
+msgstr "Zrušenie registrácie rozšírenia vzhľadu pre W&indows 11 alebo novšie"
+
+msgid "Jump List"
+msgstr ""
+
+msgid "Clear all recent items"
+msgstr ""
+
+msgctxt "Options dialog|Categories"
+msgid "Folder"
+msgstr "Priečinok"
+
+msgid "&Compare method:"
+msgstr "Metóda &porovnania:"
+
+msgid "S&top after first difference"
+msgstr "&Zastaviť po prvom rozdiele"
+
+msgid "Ign&ore time differences less than 3 seconds"
+msgstr "Ign&orovať časové rozdiely menšie ako 3 sekundy"
+
+msgid "Expand subfolders &after comparison:"
+msgstr ""
+
+msgid "Include &unique subfolders contents"
+msgstr "&Zahrnúť jedinečný obsah podpriečinkov"
+
+msgid "Ignore &reparse points"
+msgstr "Ignorovať &opravné body"
+
+msgid "Switch to &quick compare when size exceeds (MB):"
+msgstr "Prahová hodnota pre prepnutie pre &rýchle porovnanie (MB):"
+
+msgid "Switch to &binary compare when size exceeds (MB):"
+msgstr "Prahová hodnota pre prepnutie na &binárne porovnanie (MB):"
+
+msgid "File patterns:"
+msgstr "Vzory súborov:"
+
+msgid "Custom Delimiter-Separated Values"
+msgstr "Vlastné &obmedzovačom oddelené hodnoty"
+
+msgctxt "Options dialog|Categories"
+msgid "Binary"
+msgstr "Binárny"
+
+msgid "Binary file &patterns:"
+msgstr "Vzory &binárnych súborov:"
+
+msgid "Frhed settings"
+msgstr "Nastavenia Frhed"
+
+msgid "View &Settings..."
+msgstr "Nastavenia &zobrazenia..."
+
+msgid "&Binary Mode..."
+msgstr "&Binárny režim..."
+
+msgid "&Character Set..."
+msgstr "&Znaková sústava..."
+
+msgid "Image"
+msgstr "Obrázok"
+
+msgid "Image file &patterns:"
+msgstr "Vzory súborov &obrázkov:"
+
+msgid "&Enable image compare in folder compare"
+msgstr "&Povoliť porovnanie obrázkov pri porovnaní priečinkov"
+
+msgid "OCR result:"
+msgstr "Výsledok OCR:"
+
+msgid "Webpage"
+msgstr ""
+
+msgid "URL pattern to &include (Regular expression):"
+msgstr ""
+
+msgid "URL pattern to &exclude (Regular expression):"
+msgstr ""
+
+msgid "&User data folder location:"
+msgstr ""
+
+msgid "&Separate user data folders for each pane"
+msgstr ""
+
+msgid "&Hex View"
+msgstr "Zobraziť &hexadecimálne"
+
+msgid "Edit Plugin"
+msgstr ""
+
+msgid "&Category:"
+msgstr ""
+
+msgid "&Menu caption:"
+msgstr ""
+
+msgid "&Window type:"
+msgstr ""
+
+msgid "&Unpacked file extension:"
+msgstr ""
+
+msgid "&Require arguments"
+msgstr ""
+
+msgid "&Generate editor script"
+msgstr ""
+
+msgid "Command &line:"
+msgstr ""
+
+msgid "&Script file extension:"
+msgstr ""
+
+msgid "Script &body:"
+msgstr ""
+
+msgid "EXT"
+msgstr "EXT"
+
+msgid "CAP"
+msgstr "CAP"
+
+msgid "NUM"
+msgstr "NUM"
+
+msgid "SCRL"
+msgstr "SCRL"
+
+msgid "OVR"
+msgstr "OVR"
+
+msgid "REC"
+msgstr "REC"
+
+msgid ""
+"\n"
+"New Documents (Ctrl+N)"
+msgstr ""
+"\n"
+"Nové dokumenty (Ctrl+N)"
+
+msgid ""
+"\n"
+"Open (Ctrl+O)"
+msgstr ""
+"\n"
+"Otvoriť (Ctrl+O)"
+
+msgid ""
+"\n"
+"Save (Ctrl+S)"
+msgstr ""
+"\n"
+"Uložiť (Ctrl+S)"
+
+msgid "Unknown error opening project file."
+msgstr "Neznáma chyba pri pokuse otvoriť súbor projektu."
+
+msgid "Unknown error saving project file."
+msgstr "Neznáma chyba pri pokuse uložiť súbor projektu."
+
+msgid "Project file loaded."
+msgstr "Súbor projektu úspešne načítaný."
+
+msgid "Project file saved."
+msgstr "Súbor projektu úspešne uložený."
+
+msgid ""
+"\n"
+"Undo (Ctrl+Z)"
+msgstr ""
+"\n"
+"Späť (Ctrl+Z)"
+
+msgid ""
+"\n"
+"Redo (Ctrl+Y)"
+msgstr ""
+"\n"
+"Vpred (Ctrl+Y)"
+
+msgid ""
+"\n"
+"FileCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"WinMerge File Compare"
+msgstr ""
+"\n"
+"FileCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FileCompare\n"
+"Porovnanie súborov WinMerge"
+
+msgid ""
+"\n"
+"FolderCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"WinMerge Folder Compare"
+msgstr ""
+"\n"
+"FolderCompare\n"
+"\n"
+"\n"
+"\n"
+"WinMerge.FolderCompare\n"
+"Porovnanie priečinkov WinMerge"
+
+msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. It is free software and can be redistributed under the conditions of the GNU General Public License - see the Help menu for details."
+msgstr "WinMerge sa dodáva BEZ AKEJKOĽVEK ZÁRUKY. Toto je slobodný softvér a môžete ho ďalej šíriť za určitých podmienok; podrobnosti nájdete v menu pomocníka pod GNU General Public License."
+
+msgid "&Abort"
+msgstr "&Zrušiť"
+
+msgid "&Retry"
+msgstr "&Zopakovať"
+
+msgid "&Ignore"
+msgstr "&Ignorovať"
+
+msgid "Ignore &all"
+msgstr "Ignorovať &všetky"
+
+msgid "&Yes"
+msgstr "Á&no"
+
+msgid "Yes to &all"
+msgstr "Áno &pre všetky"
+
+msgid "&No"
+msgstr "&Nie"
+
+msgid "No to a&ll"
+msgstr "Nie pre &všetky"
+
+msgid "&Continue"
+msgstr "Po&kračovať"
+
+msgid "&Skip"
+msgstr "Pre&skočiť"
+
+msgid "Skip &all"
+msgstr "Preskočiť vš&etky"
+
+msgid "Don't display this &message again."
+msgstr "Už túto správu nezobrazovať."
+
+msgid "To make this message box visible, press Reset on the Message Boxes page in Options."
+msgstr "Ak chcete, aby sa toto okno správ opäť zobrazilo, stlačte tlačidlo Obnoviť na stránke Okienka správ v dialógovom okne Možnosti."
+
+msgid "Compare/Merge"
+msgstr ""
+
+msgid "Syntax"
+msgstr "Syntax"
+
+msgid "Color Schemes"
+msgstr "Farebné schémy"
+
+msgid "Folder Compare"
+msgstr "Porovnávanie priečinkov"
+
+msgid "Project"
+msgstr "Premietnuť"
+
+msgid "Differences"
+msgstr "Rozdiely"
+
+msgid "Message Boxes"
+msgstr "Okienka správ"
+
+msgid "To:"
+msgstr "Do:"
+
+msgid "From left:"
+msgstr "Zľava:"
+
+msgid "To left:"
+msgstr "Vľavo:"
+
+msgid "From right:"
+msgstr "Sprava:"
+
+msgid "To right:"
+msgstr "Vpravo:"
+
+msgid "From middle:"
+msgstr "Zo stredu:"
+
+msgid "To middle:"
+msgstr "Na stred:"
+
+#, c-format
+msgid "Version %1"
+msgstr "Verzia %1"
+
+msgid "X64"
+msgstr "X64 - Slovenský preklad"
+
+#, c-format
+msgid "Options (%1)"
+msgstr "Vlastnosti (%1)"
+
+msgid "All message boxes are now displayed again."
+msgstr "Znova sa zobrazujú všetky okná so správami."
+
+#, c-format
+msgid "Tab size value is out of range. Please use 1 - %1."
+msgstr ""
+"Hodnota v poli Tab size nie je v rozsahu, ktorý WinMerge akceptuje.\n"
+"\n"
+"Použite hodnoty 1 - %1."
+
+msgid "Open"
+msgstr "Otvoriť"
+
+msgid "Programs|*.exe;*.bat;*.cmd|All Files (*.*)|*.*||"
+msgstr "Programy|*.exe;*.bat;*.cmd|Všetky súbory (*.*)|*.*||"
+
+msgid "All Files (*.*)|*.*||"
+msgstr "Všetky súbory (*.*)|*.*||"
+
+msgid "WinMerge Project Files (*.WinMerge)|*.WinMerge||"
+msgstr "WinMerge projekty (*.WinMerge)|*.WinMerge||"
+
+msgid "Options files (*.ini)|*.ini|All Files (*.*)|*.*||"
+msgstr "Súbory s nastavením (*.ini)|*.ini|Všetky súbory (*.*)|*.*||"
+
+msgid "Text Files (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|All Files (*.*)|*.*||"
+msgstr "Textové súbory (*.csv;*.asc;*.rpt;*.txt)|*.csv;*.asc;*.rpt;*.txt|Všetky súbory (*.*)|*.*||"
+
+msgid "HTML Files (*.htm,*.html)|*.htm;*.html|All Files (*.*)|*.*||"
+msgstr "HTML súbory (*.htm,*.html)|*.htm;*.html|Všetky súbory (*.*)|*.*||"
+
+msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
+msgstr "XML súbory (*.xml)|*.xml|Všetky súbory (*.*)|*.*||"
+
+msgid "Do not expand"
+msgstr ""
+
+msgid "Expand all subfolders"
+msgstr ""
+
+msgid "Expand different subfolders"
+msgstr ""
+
+msgid "Expand identical subfolders"
+msgstr ""
+
+msgid "File Type"
+msgstr "Typ súboru"
+
+msgid "Extension"
+msgstr "Prípona"
+
+msgid "Message"
+msgstr "Správa"
+
+msgid "Answer"
+msgstr "Odpoveď"
+
+msgid "Item"
+msgstr "Položka"
+
+msgid "Load"
+msgstr "Načítať"
+
+msgid "Save"
+msgstr "Uložiť"
+
+msgid "Include Subfolders"
+msgstr "Zahrnúť podpriečinky"
+
+msgid "Compare Options"
+msgstr "Možnosti porovnania"
+
+msgid "Hidden Items"
+msgstr ""
+
+msgid "Name"
+msgstr "Názov"
+
+msgid "Location"
+msgstr "Umiestnenie"
+
+msgid "Filters"
+msgstr "Filtre"
+
+msgid "[F] "
+msgstr "[F] "
+
+msgid "Description"
+msgstr "Popis"
+
+msgid "Select Filename for New Filter"
+msgstr "Zvoľte názov súboru pre nový filter"
+
+msgid "File Filters (*.flt)|*.flt|All Files (*.*)|*.*||"
+msgstr "Filtre súborov (*.flt)|*.flt|Všetky súbory (*.*)|*.*||"
+
+#, c-format
+msgid "Cannot find filter template!\n\nCopy %1 to WinMerge/Filters Folder:\n%2."
+msgstr ""
+"Nemožno nájsť súbor šablóny filtra súborov!\n"
+"\n"
+"Skopírujte, prosím, súbor %1 do priečinka WinMerge/Filters :\n"
+"%2."
+
+#, c-format
+msgid ""
+"Cannot copy filter template:\n"
+"%1\n"
+"\n"
+"Make sure the folder exists and is writable."
+msgstr ""
+"Nebolo možné skopírovať šablónu filtrov súborov do priečinka s filtrami:\n"
+"%1\n"
+"\n"
+"Uistite sa, prosím, že priečinok existuje a dá sa doňho zapisovať."
+
+msgid ""
+"User's filter folder is not defined!\n"
+"\n"
+"Select filter folder in Options/System."
+msgstr ""
+"Užívateľský priečinok so súbormi filtrov nie je definovaný!\n"
+"\n"
+"Vyberte, prosím, priečinok pre filtre v dialógu Nastavenia/Systém."
+
+#, c-format
+msgid ""
+"Failed to delete filter:\n"
+"%1\n"
+"\n"
+"File may be read-only."
+msgstr ""
+"Nepodarilo sa odstrániť súbor filtra:\n"
+"%1\n"
+"\n"
+"Možno je súbor len na čítanie?"
+
+msgid "Locate Filter File to Install"
+msgstr "Nájsť súbor filtra pre nainštaláciu"
+
+msgid ""
+"Installing filter file failed.\n"
+"\n"
+"Could not copy new filter to folder."
+msgstr ""
+"Inštalácia súboru filtra sa nepodarila.\n"
+"\n"
+"Nepodarilo sa skopírovať nový súbor do priečinka s filtrami."
+
+msgid "Filter file exists. Overwrite?"
+msgstr "Filter už existuje. Prepísať existujúci filter?"
+
+msgid "Regular expression"
+msgstr "Regulárny výraz"
+
+msgid ""
+"Filters updated. Refresh all open folder compares?\n"
+"\n"
+"Select 'No' to refresh later."
+msgstr ""
+"Filtre boli aktualizované. Chcete obnoviť všetky porovnania otvorených priečinkov?\n"
+"\n"
+"Ak nechcete teraz obnovovať všetky porovnania, môžete zvoliť možnosť „Nie“ a obnoviť porovnania neskôr."
+
+msgid "Folder Comparison Results"
+msgstr "Výsledok porovnania priečinkov"
+
+msgid "File Comparison"
+msgstr "Porovnávanie súborov"
+
+msgid "Untitled Left"
+msgstr "Nepomenovaný ľavý"
+
+msgid "Untitled Middle"
+msgstr "Nepomenovanmý stredný"
+
+msgid "Untitled Right"
+msgstr "Nepomenovaný pravý"
+
+msgid "Base File"
+msgstr "Základný súbor"
+
+msgid "Theirs File"
+msgstr "Ich súbor"
+
+msgid "Mine File"
+msgstr "Môj súbor"
+
+msgid "Original File"
+msgstr "Pôvodný súbor"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
+msgstr "Riad: %s  Stĺ: %d/%d  Zn: %d/%d  EOL: %s"
+
+#, c-format
+msgid "Line: %s"
+msgstr "Riadok: %s"
+
+#, c-format
+msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
+msgstr "Riad: %s  Stĺ: %d/%d  Zn: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr "  Vyb: %d | %d"
+
+msgid "Merge"
+msgstr "Zlúčiť"
+
+#, c-format
+msgid "Difference %1 of %2"
+msgstr "Rozdiel %1 z %2"
+
+#, c-format
+msgid "%1 Differences Found"
+msgstr "nájdených %1 rozdielov"
+
+msgid "1 Difference Found"
+msgstr "nájdený jeden rozdiel"
+
+#, c-format
+msgid "%1 Errors Found"
+msgstr ""
+
+msgid "1 Error Found"
+msgstr ""
+
+#. Abbreviation from "Read Only"
+msgid "RO"
+msgstr "RO"
+
+#, c-format
+msgid "Item %1 of %2"
+msgstr "Položka %1 of %2"
+
+#, c-format
+msgid "Items: %1"
+msgstr "Položky: %1"
+
+msgid "Comparing items..."
+msgstr "Porovnávanie položiek..."
+
+#, c-format
+msgid "%.1f[items/sec]"
+msgstr ""
+
+msgid "Select two existing folders/files to compare."
+msgstr "Vyberte dva existujúce priečinky alebo súbory na porovnanie."
+
+msgid "Folder Selection"
+msgstr "Výber priečinka"
+
+msgid "Select two (or three) folders/files to compare."
+msgstr "Vyberte dva (alebo tri) priečinky alebo dva (alebo tri) súbory na porovnanie."
+
+msgid "Left (1st) path is invalid!"
+msgstr "Ľavá (1.) cesta je neplatná!"
+
+msgid "Middle (2nd) path is invalid!"
+msgstr "Stredná (2.) cesta je neplatná!"
+
+msgid "Right (2nd) path is invalid!"
+msgstr "Pravá (2.) cesta je neplatná!"
+
+msgid "Right (3rd) path is invalid!"
+msgstr "Pravá (3.) cesta je neplatná!"
+
+msgid "Both paths are invalid!"
+msgstr "Obe cesty sú neplatné!"
+
+msgid "Left (1st) and Middle (2nd) paths are invalid!"
+msgstr "Ľavá (1.) a stredná (2.) cesta sú neplatné!"
+
+msgid "Left (1st) and Right (3rd) paths are invalid!"
+msgstr "Ľavá (1.) a pravá (3.) cesta sú neplatné!"
+
+msgid "Middle (2nd) and Right (3rd) paths are invalid!"
+msgstr "Stredná (2.) a pravá (3.) cesta sú neplatné!"
+
+msgid "All paths are invalid!"
+msgstr "Všetky cesty sú neplatné!"
+
+msgid "Only enabled for file comparisons"
+msgstr "Povolené iba na porovnanie súborov"
+
+msgid "Cannot compare file and folder!"
+msgstr "Nemožno porovnať súbor a priečinok!"
+
+#, c-format
+msgid "File not found: %1"
+msgstr "Súbor nenájdený: %1"
+
+#, c-format
+msgid "File not unpacked: %1"
+msgstr "Súbor nerozbalený: %1"
+
+#, c-format
+msgid ""
+"Cannot open file\n"
+"%1\n"
+"\n"
+"%2"
+msgstr ""
+"Nemožno otvoriť súbor\n"
+"%1\n"
+"\n"
+"%2"
+
+msgid "Failed to parse conflict file."
+msgstr "Nepodarilo sa spracovať súbor konfliktov."
+
+#, c-format
+msgid "The file\n%1\nis not a conflict file."
+msgstr ""
+"Súbor\n"
+"%1\n"
+"nie je súbor konfliktov."
+
+msgid "Comparing large files requires significant memory.\nShow only comparison results (not file contents)?"
+msgstr ""
+"Chystáte sa porovnať veľmi veľké súbory.\n"
+"Zobrazenie obsahu súborov vyžaduje veľmi veľké množstvo pamäte.\n"
+"Chcete zobraziť iba výsledky porovnania, nie obsah súborov?\n"
+"\n"
+
+msgid "Save As"
+msgstr "Uložiť ako"
+
+#, c-format
+msgid "Save changes to %1?"
+msgstr "Uložiť zmeny do %1?"
+
+#, c-format
+msgid "%1 is read-only. Override? Or 'No' to save as new filename?"
+msgstr "%1 je označený iba na čítanie. Prajete si prepísať súbor iba na čítanie? (Nie, ak chcete uložiť ako nový názov súboru.)"
+
+msgid "Error backing up file"
+msgstr "Chyba pri zálohovaní súboru"
+
+#, c-format
+msgid ""
+"Unable to backup original file:\n"
+"%1\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+"Nepodarilo sa zálohovať originálny súbor:\n"
+"%1\n"
+"\n"
+"Pokračovať napriek tomu?"
+
+#, c-format
+msgid "Saving file failed.\n%1\n%2\n\t- Use different filename (OK)\n\t- Abort (Cancel)?"
+msgstr ""
+"Uloženie súboru zlyhalo.\n"
+"%1\n"
+"%2\n"
+"Chceš:\n"
+"- použiť iný názov súboru (stlačte tlačidlo OK)\n"
+"- prerušiť aktuálnu operáciu (stlačte Zrušiť)?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to left file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"Rozšírenie „%2“ nemohlo zapracovať vaše zmeny v ľavom súbore späť do „%1“.\n"
+"\n"
+"Originálny súbor nebude zmenený.\n"
+"\n"
+"Želáte si uložiť rozbalenú verziu do iného súboru?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to middle file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"Rozšírenie '%2' nemôže zapakovať vaše zmeny v strednom súbore späť do '%1'.\n"
+"\n"
+"Pôvodný súbor sa nezmení.\n"
+"\n"
+"Chcete rozbalenú verziu uložiť do iného súboru?"
+
+#, c-format
+msgid "Plugin '%2' cannot pack changes to right file into '%1'.\n\nOriginal unchanged. Save unpacked version?"
+msgstr ""
+"Rozšírenie „%2“ nemohlo zapracovať vaše zmeny v pravom súbore späť do „%1“.\n"
+"\n"
+"Originálny súbor nebude zmenený.\n"
+"\n"
+"Želáte si uložiť rozbalenú verziu do iného súboru?"
+
+#, c-format
+msgid ""
+"Another application updated\n"
+"%1\n"
+"since WinMerge loaded it.\n"
+"\n"
+"Overwrite?"
+msgstr ""
+"Iná aplikácia aktualizovala súbor\n"
+"%1\n"
+"odkedy ho WinMerge načítal.\n"
+"\n"
+"Prepísať zmenený súbor?"
+
+#, c-format
+msgid ""
+"%1\n"
+"is read-only. Override?"
+msgstr ""
+"%1\n"
+"je označený len na čítanie. Želáte si prepísať položku len na čítanie?"
+
+#, c-format
+msgid "Another application updated\n%1\nsince last scan.\n\nReload?"
+msgstr ""
+"Iná aplikácia zmenila súbor\n"
+"%1\n"
+"odkedy ho WinMerge naposledy načítal.\n"
+"\n"
+"Chcete znovu načítať súbor?"
+
+msgid "Save Left File As"
+msgstr "Uložiť ľavý súbor ako"
+
+msgid "Save Middle File As"
+msgstr "Uložiť stredný súbor ako"
+
+msgid "Save Right File As"
+msgstr "Uložiť pravý súbor ako"
+
+#, c-format
+msgid ""
+"File\n"
+"%1\n"
+"not found. Save a copy to continue."
+msgstr ""
+"Súbor\n"
+"%1\n"
+"sa stratil. Pokračujte, prosím, uložením kópie súboru."
+
+msgid ""
+"Cannot merge unsynched documents.\n"
+"\n"
+"Refresh before continuing."
+msgstr ""
+"Nebolo možné zlúčiť rozdiely, keďže dokumenty nie sú synchronizované.\n"
+"\n"
+"Obnovte dokumenty, než budete pokračovať."
+
+msgid "Break at whitespace"
+msgstr "Prerušiť na netlačiteľnom znaku"
+
+msgid "Break at whitespace or punctuation"
+msgstr "Prerušiť na netlačiteľnom znaku alebo vetnej diakritike"
+
+msgid "Copy to &Middle\tAlt+Right"
+msgstr "Kopírovať do &stredného\tAlt+→"
+
+msgid "Copy to &Middle\tAlt+Left"
+msgstr "Kopírovať do &stredného\tAlt+←"
+
+msgid "Copy from Middle\tAlt+Shift+Right"
+msgstr "Kopírovať zo stredného\tAlt+Shift+→"
+
+msgid "Copy from Middle\tAlt+Shift+Left"
+msgstr "Kopírovať zo stredného Alt+Shift+←"
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Right"
+msgstr "Kopírovať do stredného a posunúť\tCtrl+Alt+→"
+
+msgid "Copy to Middle and Advance\tCtrl+Alt+Left"
+msgstr "Kopírovať do stredného a posunúť\tCtrl+Alt+←"
+
+msgid "Copy All to Middle"
+msgstr "Kopírovať všetko do stredu"
+
+#, c-format
+msgid "Right to Left (%1)"
+msgstr "Z pravého do ľavého (%1)"
+
+#, c-format
+msgid "Right to Middle (%1)"
+msgstr "Z pravého do stredného (%1)"
+
+#, c-format
+msgid "Middle to Left (%1)"
+msgstr "Zo stredného do ľavého (% 1)"
+
+#, c-format
+msgid "Middle to Right (%1)"
+msgstr "Zo stredného do pravého (% 1)"
+
+#, c-format
+msgid "Left to Right (%1)"
+msgstr "Z ľavého do pravého (%1)"
+
+#, c-format
+msgid "Left to Middle (%1)"
+msgstr "Z ľavého do stredého (%1)"
+
+#, c-format
+msgid "Left to... (%1)"
+msgstr "Z ľavého do... (%1)"
+
+#, c-format
+msgid "Middle to... (%1)"
+msgstr "Zo stredného do... (%1)"
+
+#, c-format
+msgid "Right to... (%1)"
+msgstr "Z pravého do... (%1)"
+
+#, c-format
+msgid "Both to... (%1)"
+msgstr "Z oboch do... (%1)"
+
+#, c-format
+msgid "All to... (%1)"
+msgstr "Všetky do... (%1)"
+
+#, c-format
+msgid "Differences to... (%1)"
+msgstr "Rozdiely do... (%1)"
+
+msgid "Some selected items are identical or skipped.\nCopy only items with differences?"
+msgstr ""
+
+#, c-format
+msgid "Left (%1)"
+msgstr "Ľavého (%1)"
+
+#, c-format
+msgid "Middle (%1)"
+msgstr "Stredného (%1)"
+
+#, c-format
+msgid "Right (%1)"
+msgstr "Pravého (%1)"
+
+#, c-format
+msgid "Both (%1)"
+msgstr "Oboch (%1)"
+
+#, c-format
+msgid "All (%1)"
+msgstr "Všetkých (%1)"
+
+msgid "Left Side - Select Destination Folder:"
+msgstr "Ľavá strana - vyberte cieľový priečinok:"
+
+msgid "Middle Side - Select Destination Folder:"
+msgstr "Stredný - vyberte cieľový priečinok:"
+
+msgid "Right Side - Select Destination Folder:"
+msgstr "Pravá strana - vyberte cieľový priečinok:"
+
+#, c-format
+msgid "(%1 Files Affected)"
+msgstr "(%1 ovplyvnených súborov)"
+
+#, c-format
+msgid "(%1 of %2 Files Affected)"
+msgstr "(%1 ovplyvnených súborov z %2)"
+
+#, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\n"
+"%1 ?"
+msgstr ""
+"Chcete naozaj odstrániť\n"
+"\n"
+"%1 ?"
+
+msgid "Are you sure you want to copy?"
+msgstr "Naozaj chcete kopírovať?"
+
+#, c-format
+msgid "Are you sure you want to copy %d items?"
+msgstr "Naozaj chcete skopírovať %d položky?"
+
+#, c-format
+msgid ""
+"Operation aborted!\n"
+"\n"
+"Folder contents changed, path\n"
+"%1\n"
+"not found.\n"
+"\n"
+"Refresh the compare."
+msgstr ""
+"Operácia zrušená!\n"
+"\n"
+"Obsah priečinka na disku sa zmenil, cesta\n"
+"%1\n"
+"nebol nájdená.\n"
+"\n"
+"Obnovte, prosím, porovnanie."
+
+msgid "Are you sure you want to move?"
+msgstr "Naozaj chcete presunúť?"
+
+#, c-format
+msgid "Are you sure you want to move %d items?"
+msgstr "Naozaj chcete presunúť %d položiek?"
+
+msgid "Confirm Move"
+msgstr "Potvrdiť presun"
+
+msgid "Close the folder comparison window?"
+msgstr "Chystáte sa zavrieť okno s porovnaním priečinkov. Naozaj chcete zavrieť okno?"
+
+msgid "Close the folder comparison window, which took a long time?"
+msgstr ""
+
+msgid "The file or folder name is invalid."
+msgstr ""
+
+#, c-format
+msgid "Failed to execute external editor: %1"
+msgstr "Nepodarilo sa spustiť externý editor: %1"
+
+msgid "Unknown archive format"
+msgstr "Neznámy formát archívu"
+
+msgid "Failed to extract archive.\nCompare as text file?"
+msgstr ""
+
+msgid "Filename"
+msgstr "Názov súboru"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Folder"
+msgstr "Priečinok"
+
+msgid "Comparison Result"
+msgstr "Výsledok porovnania"
+
+msgid "Left Date"
+msgstr "Dátum ľavého"
+
+msgid "Right Date"
+msgstr "Dátum pravého"
+
+msgid "Middle Date"
+msgstr "Dátum stredného"
+
+msgid "Left Size"
+msgstr "Veľkosť ľavého"
+
+msgid "Right Size"
+msgstr "Veľkosť pravého"
+
+msgid "Middle Size"
+msgstr "Veľkosť stredného"
+
+msgid "Right Size (Short)"
+msgstr "Veľkosť pravého (krátka)"
+
+msgid "Left Size (Short)"
+msgstr "Veľkosť ľavého (krátka)"
+
+msgid "Middle Size (Short)"
+msgstr "Veľkosť stredného (krátka)"
+
+msgid "Left Creation Time"
+msgstr "Čas vzniku ľavého"
+
+msgid "Right Creation Time"
+msgstr "Čas vzniku pravého"
+
+msgid "Middle Creation Time"
+msgstr "Čas vzniku stredného"
+
+msgid "Newer File"
+msgstr "Novší súbor"
+
+msgid "Left File Version"
+msgstr "Verzia ľavého súboru"
+
+msgid "Right File Version"
+msgstr "Verzia pravého súboru"
+
+msgid "Middle File Version"
+msgstr "Verzia stredného súboru"
+
+msgid "Short Result"
+msgstr "Krátky výsledok"
+
+msgid "Left Attributes"
+msgstr "Atribúty ľavého"
+
+msgid "Right Attributes"
+msgstr "Atribúty pravého"
+
+msgid "Middle Attributes"
+msgstr "Atribúty stredného"
+
+msgid "Left EOL"
+msgstr "Znak konca riadku ľavého"
+
+msgid "Middle EOL"
+msgstr "Znak konca riadku stredného"
+
+msgid "Right EOL"
+msgstr "Znak konca riadku pravého"
+
+msgid "Left Encoding"
+msgstr "Kódovanie ľavého"
+
+msgid "Right Encoding"
+msgstr "Kódovanie pravého"
+
+msgid "Middle Encoding"
+msgstr "Kódovanie stredného"
+
+msgid "Ignored Diff"
+msgstr "Ignorovaný rozdiel"
+
+msgctxt "DirView|ColumnHeader"
+msgid "Binary"
+msgstr "Binárny"
+
+msgid "Unpacker"
+msgstr "Rozbaľovač"
+
+msgid "Prediffer"
+msgstr "Predbežný spracovateľ rozdielov"
+
+msgid "Left"
+msgstr "←"
+
+msgid "Middle"
+msgstr "Stred"
+
+msgid "Right"
+msgstr "→"
+
+msgid "Diff"
+msgstr "Rozdiel"
+
+msgid "Left Duplicate Count"
+msgstr "Počet vytvorených kópií vľavo"
+
+msgid "Right Duplicate Count"
+msgstr "Počet vytvorených kópií vpravo"
+
+msgid "Middle Duplicate Count"
+msgstr "Počet vytvorených kópií v strede"
+
+msgid "Move"
+msgstr "Presunúť"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Calendar"
+msgstr "Kalendár"
+
+msgid "Communication"
+msgstr "Komunikácia"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Devices"
+msgstr "Zariadenia"
+
+msgid "Document"
+msgstr "Dokument"
+
+msgid "Home"
+msgstr "Domov"
+
+msgid "Journal"
+msgstr "Denník"
+
+msgid "Link"
+msgstr "Odkaz"
+
+msgid "Media"
+msgstr "Média"
+
+msgid "Music"
+msgstr "Hudba"
+
+msgid "Note"
+msgstr "Poznámka"
+
+msgid "Photo"
+msgstr "Fotografia"
+
+msgid "RecordedTV"
+msgstr "Prehrávaná TV"
+
+msgid "Search"
+msgstr "Hľadať"
+
+msgid "Security"
+msgstr "Ochrana"
+
+msgid "Software"
+msgstr "Softvér"
+
+msgid "Task"
+msgstr "Úloha"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Hash"
+msgstr "Haš súčet"
+
+msgid "Unable to compare files"
+msgstr "Nemožno porovnať súbory"
+
+msgid "Item aborted"
+msgstr "Položka zrušená"
+
+msgid "File skipped"
+msgstr "Súbor preskočený"
+
+msgid "Folder skipped"
+msgstr "Priečinok preskočený"
+
+#, c-format
+msgid "Left only: %1"
+msgstr "Iba ľavý: %1"
+
+#, c-format
+msgid "Middle only: %1"
+msgstr "Iba stredný: %1"
+
+#, c-format
+msgid "Right only: %1"
+msgstr "Iba pravý: %1"
+
+#, c-format
+msgid "Does not exist in %1"
+msgstr "Neexistuje v %1"
+
+msgid "Binary files are identical"
+msgstr "Binárne súbory sú identické"
+
+msgid "Binary files are different"
+msgstr "Binárne súbory sú rozdielne"
+
+msgid "Files are different"
+msgstr "Súbory sú rozdielne"
+
+msgid "Folders are different"
+msgstr "Priečinky sú rozdielne"
+
+msgid "Left Only"
+msgstr "Len ľavý"
+
+msgid "Right Only"
+msgstr "Len pravý"
+
+msgid "Middle Only"
+msgstr "Len stredný"
+
+msgid "No item in left"
+msgstr "Žiadna položka vľavo"
+
+msgid "No item in right"
+msgstr "Žiadna položka vpravo"
+
+msgid "No item in middle"
+msgstr "Žiadna položka v strede"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "Text files are identical"
+msgstr "Textové súbory sú identické"
+
+msgid " (Middle and right are identical)"
+msgstr " (Stredný a pravý sú identické)"
+
+msgid " (Left and right are identical)"
+msgstr " (Ľavý a pravý sú identické)"
+
+msgid " (Left and middle are identical)"
+msgstr " (Ľavý a stredný sú identické)"
+
+msgid "Text files are different"
+msgstr "Textové súbory sú rozdielne"
+
+msgid "Image files are identical"
+msgstr "Súbory obrázkov sú identické"
+
+msgid "Image files are different"
+msgstr "Súbory obrázkov sú rozdielne"
+
+#, c-format
+msgid "Group%d"
+msgstr "Skupina%d"
+
+#, c-format
+msgid "Elapsed time: %ld ms"
+msgstr "Uplynulý čas: %ld ms"
+
+msgid "1 item selected"
+msgstr "1 vybraná položka"
+
+#, c-format
+msgid "%1 items selected"
+msgstr "%1 vybraných položiek"
+
+msgid "Filename or folder name."
+msgstr "Názov súboru alebo priečinka."
+
+msgid "Subfolder name when subfolders are included."
+msgstr "Názov podpriečinka, keď obsahuje aj podpriečinky."
+
+msgid "Comparison result, long form."
+msgstr "Výsledok porovnania, dlhá forma."
+
+msgid "Left side modification date."
+msgstr "Dátum poslednej zmeny ľavého."
+
+msgid "Right side modification date."
+msgstr "Dátum poslednej zmeny pravého."
+
+msgid "Middle side modification date."
+msgstr "Dátum poslednej zmeny stredného."
+
+msgid "File's extension."
+msgstr "Prípona súboru."
+
+msgid "Left file size in bytes."
+msgstr "Veľkosť ľavého súboru v bajtoch."
+
+msgid "Right file size in bytes."
+msgstr "Veľkosť pravého súboru v bajtoch."
+
+msgid "Middle file size in bytes."
+msgstr "Veľkosť stredného súboru v bajtoch."
+
+msgid "Left file size abbreviated."
+msgstr "Veľkosť ľavého súboru skrátená."
+
+msgid "Right file size abbreviated."
+msgstr "Veľkosť pravého súboru skrátená."
+
+msgid "Middle file size abbreviated."
+msgstr "Veľkosť streného súboru skrátená."
+
+msgid "Left side creation time."
+msgstr "Dátum vytvorenia ľavého."
+
+msgid "Right side creation time."
+msgstr "Dátum vytvorenia na pravého."
+
+msgid "Middle side creation time."
+msgstr "Dátum vytvorenia na stredného."
+
+msgid "Tells which side has newer modification date."
+msgstr "Hovorí, na ktorej strane je novší dátum zmeny."
+
+msgid "Left side file version, only for some file types."
+msgstr "Verzia súboru ľavého, iba pre niektoré typy súborov."
+
+msgid "Right side file version, only for some file types."
+msgstr "Verzia súboru pravého, iba pre niektoré typy súborov."
+
+msgid "Middle side file version, only for some file types."
+msgstr "Verzia súboru stredného, iba pre niektoré typy súborov."
+
+msgid "Short comparison result."
+msgstr "Krátky výsledok porovnania."
+
+msgid "Left side attributes."
+msgstr "Atribúty ľavého."
+
+msgid "Right side attributes."
+msgstr "Atribúty pravého."
+
+msgid "Middle side attributes."
+msgstr "Atribúty stredného."
+
+msgid "Left side file EOL type."
+msgstr "Typ znaku zakončenia riadka ľavého súboru."
+
+msgid "Right side file EOL type."
+msgstr "Typ znaku zakončenia riadka pravého súboru."
+
+msgid "Middle side file EOL type."
+msgstr "Typ znaku zakončenia riadka stredného súboru."
+
+msgid "Left side encoding."
+msgstr "Kódovanie ľavého."
+
+msgid "Right side encoding."
+msgstr "Kódovanie pravého."
+
+msgid "Middle side encoding."
+msgstr "Kódovanie stredného."
+
+msgid "Number of ignored differences in file. Ignored and cannot be merged."
+msgstr "Počet ignorovaných rozdielov v súbore. Tieto rozdiely WinMerge ignoruje a nemožno ich zlúčiť."
+
+msgid "Number of differences in file (excluding ignored)."
+msgstr "Počet rozdielov v súbore. V tomto čísle nie sú zahrnuté ignorované rozdiely."
+
+msgid "Shows an asterisk (*) if the file is binary."
+msgstr "Zobrazí hviezdičku (*) ak je súbor binárny."
+
+msgid "Unpacker plugin name or pipeline."
+msgstr "Názov rozšírenia rozbaľovača alebo potrubia."
+
+msgid "Prediffer plugin name or pipeline."
+msgstr "Názov rozšírenia predbežného spracovateľa rozdielov alebo potrubia."
+
+#, c-format
+msgid "Compare %1 with %2"
+msgstr "Porovnať %1 s %2"
+
+#, c-format
+msgid "Compare %1 with %2 and %3"
+msgstr ""
+
+msgid "Comma-separated list"
+msgstr "Zoznam oddelený čiarkami"
+
+msgid "Tab-separated list"
+msgstr "Zoznam oddelený tabulátormi"
+
+msgid "Simple HTML"
+msgstr "Jednoduché HTML"
+
+msgid "Simple XML"
+msgstr "Jednoduché XML"
+
+msgid "Report file already exists. Overwrite?"
+msgstr "Súbor so správou už existuje. Chcete prepísať existujúci súbor?"
+
+#, c-format
+msgid ""
+"Error creating the report:\n"
+"%1"
+msgstr ""
+"Chyba pri vytváraní správy:\n"
+"%1"
+
+msgid "Report created successfully."
+msgstr "Správa bola úspešne vytvorená."
+
+msgid "Cannot add a synchronization point at this line."
+msgstr "Na tento riadok nemožno pridať synchronizačný bod."
+
+msgid "Same file is opened in both panes."
+msgstr "Na oboch paneloch sa otvorí rovnaký súbor."
+
+msgid "Selected files are identical."
+msgstr "Vybraté súbory sú identické."
+
+msgid "An error occurred while comparing files."
+msgstr "Počas porovnávania sa vyskytla chyba."
+
+msgid "Could not create temporary files. Check your temporary path settings."
+msgstr "Dočasné súbory sa nepodarilo vytvoriť. Skontrolujte dočasné nastavenia cesty."
+
+msgid "Files use different EOL.\n\nTreat all EOL as equivalent?\n\nSet 'Ignore EOL differences (Windows/Unix/Mac)' in Compare section of Options."
+msgstr ""
+"Tieto súbory používajú rôzne typy návratov vozíka.\n"
+"\n"
+"Chcete pre toto porovnanie považovať všetky typy návratov vozíka za rovnocenné?\n"
+"\n"
+"Poznámka: Ak chcete vždy zaobchádzať so všetkými typmi návratov vozíka ako s ekvivalentnými, nastavte možnosť „Ignorovať rozdiely návratov vozíka (Windows/Unix/Mac)“ na karte Porovnať v dialógovom okne možností (k dispozícii v časti Upraviť/Možnosti)."
+
+msgid "Selected folder is invalid."
+msgstr "Vybraný priečinok je neplatný."
+
+msgid "Cannot open a binary file in Editor."
+msgstr "Nemožno otvoriť binárny súbor v editore."
+
+#, c-format
+msgid "Create matching folder:\n%1\non the other side and open?"
+msgstr ""
+"Priečinok existuje len na druhej strane a nie je možné ho otvoriť.\n"
+"\n"
+"Chcete vytvoriť zodpovedajúci priečinok:\n"
+"%1\n"
+"na druhej strane a otvoriť tieto priečinky?"
+
+msgid "Copy all differences to other file?"
+msgstr ""
+
+msgid "Move to next file?"
+msgstr "Chcete prejsť na nasledujúci súbor?"
+
+msgid "Move to previous file?"
+msgstr "Chcete prejsť na predošlý súbor?"
+
+msgid "Move to next page?"
+msgstr "Chcete prejsť na ďalšiu stránku?"
+
+msgid "Move to previous page?"
+msgstr "Chcete prejsť na predošlú stránku?"
+
+msgid "Move to first file?"
+msgstr "Chcete prejsť na prvý súbor?"
+
+msgid "Move to last file?"
+msgstr "Chcete prejsť na posledný súbor?"
+
+#, c-format
+msgid "Different codepages: left (cp%d), right (cp%d).\nDisplay in codepage (better display) or default Windows codepage (safer merging)?\n(Recommended: default Windows codepage)"
+msgstr ""
+"V ľavom (cp%d) a pravom (cp%d) sa nachádzajú rôzne kódové stránky.\n"
+"Zobrazenie každého súboru na jeho kódovej stránke zabezpečí lepšie zobrazenie, ale zlúčenie/kopírovanie bude nebezpečné.\n"
+"Prajete si, aby sa s obidvomi súbormi zaobchádzalo ako s predvolenou kódovou stránkou systému Windows (odporúčané)?"
+
+msgid "Information lost due to encoding errors: both files"
+msgstr "Informácie sa stratili kvôli chybám v kódovaní: oba súbory"
+
+msgid "Information lost due to encoding errors: first file"
+msgstr "Informácie stratené v dôsledku chýb kódovania: prvý súbor"
+
+msgid "Information lost due to encoding errors: second file"
+msgstr "Informácie stratené v dôsledku chýb kódovania: druhý súbor"
+
+msgid "Information lost due to encoding errors: third file"
+msgstr "Informácie stratené v dôsledku chýb kódovania: tretí súbor"
+
+msgid "No difference"
+msgstr "Bez rozdielu"
+
+msgid "Line difference"
+msgstr "Rozdiely v riadkoch"
+
+#, c-format
+msgid "Replaced %1 string(s)."
+msgstr "Nahradených %1 reťazcov."
+
+#, c-format
+msgid "Cannot find string \"%s\"."
+msgstr "Nemožno nájsť reťazec „%s“."
+
+msgid "Entering Merge Mode. Press F9 to turn off."
+msgstr "Teraz vstupujete do režimu zlúčenia. Ak chcete vypnúť režim zlúčenia, stlačte kláves F9."
+
+#, c-format
+msgid ""
+"Automatic merges: %1\n"
+"Unresolved conflicts: %2"
+msgstr ""
+"Počet automaticky zlúčených zmien: %1\n"
+"Počet nevyriešených konfliktov: %2"
+
+msgid "Codepage change merged."
+msgstr "Zmena kódovej stránky bola zlúčená."
+
+msgid "Codepage changes are conflicting."
+msgstr "Zmeny kódovej stránky sú konfliktné."
+
+msgid "EOL change merged."
+msgstr "Zmena znaku EOL bola zlúčená."
+
+msgid "EOL changes are conflicting."
+msgstr "Zmeny znakov EOL sú protichodné."
+
+msgid "Location Pane"
+msgstr "Panel polohy"
+
+msgid "Diff Pane"
+msgstr "Panel rozdielu"
+
+msgid "Patch file written."
+msgstr "Súbor so záplatou bol úspešne zapísaný."
+
+msgid "First item not found!"
+msgstr "1. položka sa nenašla!"
+
+msgid "Second item not found!"
+msgstr "2. položka sa nenašla!"
+
+msgid "Patch file already exists. Overwrite?"
+msgstr "Súbor so záplatou už existuje. Chcete ho prepísať?"
+
+#, c-format
+msgid "[%1 files selected]"
+msgstr "[vybrané %1 súbory]"
+
+msgid "Normal"
+msgstr "Normálny"
+
+msgid "Context"
+msgstr "Kontextový"
+
+msgid "Unified"
+msgstr "Zjednotený"
+
+#, c-format
+msgid "Could not write to file %1."
+msgstr "Nepodarilo sa zapísať do súboru %1."
+
+#, c-format
+msgid "Output path is not absolute: %1"
+msgstr "Zadaná výstupná cesta nie je absolútna cesta: %1"
+
+msgid "Specify an output file."
+msgstr "Zadajte výstupný súbor."
+
+msgid "Cannot create patch from binary files."
+msgstr "Nemožno vytvoriť súbor so záplatou z binárnych súborov."
+
+msgid ""
+"Save all files first.\n"
+"\n"
+"Creating a patch requires no unsaved changes."
+msgstr ""
+"Uložte, prosím, najprv všetky súbory.\n"
+"\n"
+"Vytvorenie záplaty vyžaduje, aby v súboroch neboli žiadne neuložené zmeny."
+
+msgid "Folder does not exist."
+msgstr "Priečinok neexistuje."
+
+msgid ""
+"Archive support not enabled.\n"
+"7-Zip and/or Merge7z*.dll not found.\n"
+"See manual for archive support."
+msgstr ""
+"Podpora archívov nie je povolená.\n"
+"Všetky potrebné komponenty (7-Zip alebo Merge7z *.dll) pre podporu archívu nemožno nájsť.\n"
+"V príručke nájdete ďalšie informácie o podpore archívov a o tom, ako ich povoliť."
+
+msgid "Select file for export"
+msgstr "Vyberte súbor pre export"
+
+msgid "Select file for import"
+msgstr "Vyberte súbor pre import"
+
+msgid "Options imported from file."
+msgstr "Možnosti importované zo súboru."
+
+msgid "Options exported to file."
+msgstr "Možnosti exportované do súboru."
+
+msgid "Failed to import options from file."
+msgstr "Nepodarilo sa importovať nastavenia zo súboru."
+
+msgid "Failed to write options to file."
+msgstr "Nepodarilo sa zapísať nastavenia do súboru."
+
+msgid ""
+"Close multiple compare windows?\n"
+"\n"
+"Continue?"
+msgstr ""
+"Chystáte sa zatvoriť niekoľko okien s porovnaním.\n"
+"\n"
+"Chcete pokračovať?"
+
+msgid "Mixed"
+msgstr "Zmiešaný"
+
+msgctxt "EOL Type"
+msgid "Binary"
+msgstr "Binárny"
+
+msgid "None"
+msgstr "Žiadny"
+
+#, c-format
+msgid "Marker Color %d"
+msgstr "Farba značky %d"
+
+msgid "New Pattern"
+msgstr "Nový vzor"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Editor script"
+msgstr "Skript editora"
+
+msgid ""
+"\n"
+"Difference in Current Line (F4)"
+msgstr ""
+"\n"
+"Rozdiel v aktuálnom riadku (F4)"
+
+msgid ""
+"\n"
+"Options"
+msgstr ""
+"\n"
+"Možnosti"
+
+msgid ""
+"\n"
+"Refresh (F5)"
+msgstr ""
+"\n"
+"Obnoviť (F5)"
+
+msgid ""
+"\n"
+"Previous Difference (Alt+Up)"
+msgstr ""
+"\n"
+"Predchádzajúci rozdiel (Alt+↑)"
+
+msgid ""
+"\n"
+"Next Difference (Alt+Down)"
+msgstr ""
+"\n"
+"Ďalší rozdiel (Alt+­↓)"
+
+msgid ""
+"\n"
+"Previous Conflict (Alt+Shift+Up)"
+msgstr ""
+"\n"
+"Predošlý konflikt (Alt+Shift+↑)"
+
+msgid ""
+"\n"
+"Next Conflict (Alt+Shift+Down)"
+msgstr ""
+"\n"
+"Ďalší konflikt (Alt+Shift+↓)"
+
+msgid ""
+"\n"
+"First Difference (Alt+Home)"
+msgstr ""
+"\n"
+"Prvý rozdiel (Alt+Home)"
+
+msgid ""
+"\n"
+"Current Difference (Alt+Enter)"
+msgstr ""
+"\n"
+"Aktuálny rozdiel (Alt+Enter)"
+
+msgid ""
+"\n"
+"Last Difference (Alt+End)"
+msgstr ""
+"\n"
+"Posledný rozdiel (Alt+End)"
+
+msgid "\nCopy to Right (Alt+Right)"
+msgstr ""
+"\n"
+"Kopírovať vpravo (Alt+→)"
+
+msgid "\nCopy to Left (Alt+Left)"
+msgstr ""
+"\n"
+"Kopírovať doľava (Alt+←)"
+
+msgid "\nCopy to Right and Advance (Ctrl+Alt+Right)"
+msgstr ""
+"\n"
+"Kopírovať vpravo a dopredu (Ctrl+Alt+→)"
+
+msgid "\nCopy to Left and Advance (Ctrl+Alt+Left)"
+msgstr ""
+"\n"
+"Kopírovať vľavo a dopredu (Ctrl+Alt+←)"
+
+msgid "\nCopy All to Right"
+msgstr "\nKopírovať všetko vpravo"
+
+msgid "\nCopy All to Left"
+msgstr "\nKopírovať všetko vľavo"
+
+msgid ""
+"\n"
+"Auto Merge (Ctrl+Alt+M)"
+msgstr ""
+"\n"
+"Automatické zlúčenie (Ctrl+Alt+M)"
+
+msgid ""
+"\n"
+"First File"
+msgstr ""
+"\n"
+"Prvý súbor"
+
+msgid ""
+"\n"
+"Next File (Ctrl+F8)"
+msgstr ""
+"\n"
+"Ďalší súbor (Ctrl+F8)"
+
+msgid ""
+"\n"
+"Last File"
+msgstr ""
+"\n"
+"Posledný súbor"
+
+msgid ""
+"\n"
+"Previous File (Ctrl+F7)"
+msgstr ""
+"\n"
+"Predošlý súbor (Ctrl+F7)"
+
+msgid "Adapted unpacker applied to both files (one needs extension)."
+msgstr "Rozbaľovač sa použije na oba súbory (pri jednom súbore stačí prípona)"
+
+msgid "No Prediffer (Normal)"
+msgstr "Bez predspracovania rozdielov (bežné)"
+
+msgid "Suggested Plugins"
+msgstr "Odporúčané rozšírenia"
+
+msgid "All Plugins"
+msgstr "Všetky rozšírenia"
+
+#, c-format
+msgid "Private Build: %1"
+msgstr "Súkromná zostava: %1"
+
+msgid "Your software is up to date."
+msgstr "Váš softvér je aktuálny."
+
+#, c-format
+msgid ""
+"WinMerge update available.\n"
+"%1 available (you have %2). Download now?"
+msgstr ""
+"K dispozícii je nová verzia programu WinMerge.\n"
+"Teraz je k dispozícii %1 (máte %2). Prajete si ho stiahnuť teraz?"
+
+msgid "Failed to download latest version information"
+msgstr "Nepodarilo sa stiahnuť informácie o najnovšej verzii"
+
+msgid "Plugin Settings"
+msgstr "Nastavenia rozšírení"
+
+msgid "WSH not found - .sct scripts disabled"
+msgstr "WSH nenájdené - .sct skripty sú zakázané"
+
+#, c-format
+msgid "G&o to Line %1"
+msgstr "Ch&oď na riadok %1"
+
+msgid "Go to Moved Line\tCtrl+Shift+G"
+msgstr "Prejsť na presunutý riadok\tCtrl+Shift+G"
+
+msgid "Disabled"
+msgstr "Zakázané"
+
+msgid "From file system"
+msgstr "Zo súborového systému"
+
+msgid "From Most Recently Used list"
+msgstr "Zo zoznamu nedávno otvorených"
+
+msgid "No Highlighting"
+msgstr "Bez zvýrazňovania"
+
+msgid "Batch"
+msgstr "Dávkový"
+
+msgid "Portable Object"
+msgstr "Prenosný objekt"
+
+msgid "Resources"
+msgstr "Zdroje"
+
+msgid "Shell"
+msgstr "Vzhľad prostredia"
+
+msgid "Close &Left Tabs"
+msgstr "Zavrieť karty vľ&avo"
+
+msgid "Close R&ight Tabs"
+msgstr "Zavrieť karty v&pravo"
+
+msgid "Close &Other Tabs"
+msgstr "Zavrieť ďa&lšie karty"
+
+msgid "Enable &Auto Max Width"
+msgstr "Povoliť &automaticky maximalizovať šírku"
+
+msgid "We&bpage"
+msgstr ""
+
+msgid "W&rap Text"
+msgstr ""
+
+msgid "%1 is not installed."
+msgstr "%1 nie je nainštalovaný."
+
+#, c-format
+msgid "%1 does not exist. Create it?"
+msgstr "%1 neexistuje. Chcete ho vytvoriť?"
+
+msgid "Failed to create folder."
+msgstr "Priečinok sa nepodarilo vytvoriť."
+
+msgid ""
+"Parameters:\n"
+"$file: Current file path\n"
+"$linenum: Current cursor line number"
+msgstr ""
+"Môžete zadať nasledujúce parametre cesty:\n"
+"$ file: Názov cesty aktuálneho súboru\n"
+"$ linenum: Číslo riadku aktuálnej polohy kurzora"
+
+msgid "default"
+msgstr "pôvodné"
+
+msgid "minimal"
+msgstr "minimálne"
+
+msgid "patience"
+msgstr "trpezlivosť"
+
+msgid "histogram"
+msgstr "histogram"
+
+msgid "none"
+msgstr ""
+
+msgid "GDI"
+msgstr "GDI"
+
+msgid "DirectWrite Default"
+msgstr "DirectWrite Default"
+
+msgid "DirectWrite Aliased"
+msgstr "DirectWrite Aliased"
+
+msgid "DirectWrite GDI Classic"
+msgstr "DirectWrite GDI Classic"
+
+msgid "DirectWrite GDI Natural"
+msgstr "DirectWrite GDI Natural"
+
+msgid "DirectWrite Natural"
+msgstr "DirectWrite Natural"
+
+msgid "DirectWrite Natural Symmetric"
+msgstr "DirectWrite Natural Symmetric"
+
+msgid "MDI child window or main window"
+msgstr "MDI okno potomka alebo hlavné okno"
+
+msgid "MDI child window only"
+msgstr "Iba MDI okno potomka"
+
+msgid "Close main window if only one MDI child window"
+msgstr "Zatvorí hlavné okno, ak existuje len jedno okno potomka MDI"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Diff"
+msgstr "Rozdiel"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Highlight"
+msgstr "Zvýrazniť"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Blink"
+msgstr "Blikať"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Size"
+msgstr "Veľkosť bloku"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Block Alpha"
+msgstr "Blokovať alfa"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "CD Threshold"
+msgstr "Prahová hodnota CD"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Ins/Del Detection"
+msgstr "Detekcia Insert/Delete"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "None"
+msgstr "Žiadny"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Vertical"
+msgstr "Vertikálna"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Horizontal"
+msgstr "Horizontálna"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Overlay"
+msgstr "Prekrytie"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha"
+msgstr "Alfa"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "XOR"
+msgstr "XOR"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Blend"
+msgstr "Alfa zmiešavanie"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Alpha Animation"
+msgstr "Alfa animácia"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Zoom"
+msgstr "Priblíženie"
+
+msgctxt "ImgMergeFrame|LocationPane"
+msgid "Page:"
+msgstr "Stránka:"
+
+#, c-format
+msgid "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+msgstr "Pt: (%d, %d)  RGBA: (%d, %d, %d, %d)  "
+
+#, c-format
+msgid "Dist: %g  "
+msgstr "Vzdialenosť: %g  "
+
+#, c-format
+msgid "Dist: %g, %g  "
+msgstr "Vzdialenosť: %g, %g  "
+
+#, c-format
+msgid "Page: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+msgstr "Stránka: %d/%d  Priblíženie: %d%%  %dx%dpx  %dbpp  "
+
+#, c-format
+msgid "Rc: (%d, %d)  "
+msgstr "Rc: (%d, %d)  "
+
+#, c-format
+msgid "Flipped: %s  "
+msgstr "Preklopené: %s  "
+
+#, c-format
+msgid "Rotated: %d  "
+msgstr "Otočené: %d  "
+
+msgid "All pages"
+msgstr "Všetky stránky"
+
+msgid "<Edit here>"
+msgstr "<Upraviť tu>"
+
+msgid "No differences found to select"
+msgstr "Neboli nájdené žiadne rozdiely"
+
+msgid "No differences found to add as substitution filter"
+msgstr "Nenašli sa žiadne rozdiely, ktoré by sa dali pridať ako filter nahradenia"
+
+msgid "The pair is already in the Substitution Filters list"
+msgstr "Táto dvojica sa už nachádza v zozname filtrov nahradenia"
+
+msgid "Add this change to Substitution Filters?"
+msgstr "Pridať túto zmenu do položky Filtre nahradenia?"
+
+msgid "Text only"
+msgstr "Len text"
+
+msgid "Line-by-line position and text"
+msgstr "Pozícia po riadkoch a text"
+
+msgid "Word-by-word position and text"
+msgstr "Pozícia a text po slovách"
+
+msgid "AppData folder"
+msgstr ""
+
+msgid "Install folder"
+msgstr ""
+
+msgid "Allow only one instance to run"
+msgstr "Povoliť spustenie iba jednej inštancie"
+
+msgid "Allow only one instance; wait for termination"
+msgstr "Povolí spustenie iba jednej inštancie a počká, kým sa inštancia ukončí"
+
+msgid "Only on window activated"
+msgstr ""
+
+msgid "Immediately"
+msgstr ""
+
+msgid "Al&l"
+msgstr "Al&l"
+
+msgid "&Others"
+msgstr "&Ostatné"
+
+#, c-format
+msgid "Missing plugin name in pipeline: %1"
+msgstr "Chýbajúci názov rozšírenia v potrubí rozšírení: %1"
+
+#, c-format
+msgid "Missing quote in plugin pipeline: %1"
+msgstr "Chýbajúca úvodzovka v rozšírení: %1"
+
+#, c-format
+msgid "Plugin name '%1' already exists."
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr "Určenie argumentov rozšírenia"
+
+#, c-format
+msgid "Plugin not found or invalid: %1"
+msgstr ""
+
+#, c-format
+msgid "'%1' is not an unpacker plugin"
+msgstr ""
+
+#, c-format
+msgid "'%1' is not a prediffer plugin"
+msgstr ""
+
+#, c-format
+msgid "Error prediffing '%1' with '%2'. Prediffing disabled."
+msgstr ""
+
+#, c-format
+msgid "Circular reference in plugin pipeline: %1"
+msgstr ""
+
+msgid "URL Handler"
+msgstr ""
+
+msgid "File Unpacker"
+msgstr ""
+
+msgid "File or Folder Unpacker"
+msgstr ""
+
+msgid "Alias for Unpacker"
+msgstr ""
+
+msgid "Alias for Prediffer"
+msgstr ""
+
+msgid "Alias for Editor script"
+msgstr ""
+
+#, c-format
+msgid "Alias for plugin pipeline '%1'"
+msgstr ""
+
+msgid "New plugin description"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "1st"
+msgstr ""
+
+msgid "2nd"
+msgstr ""
+
+msgid "3rd"
+msgstr ""
+
+msgid "1st and 2nd"
+msgstr ""
+
+msgid "1st and 3rd"
+msgstr ""
+
+msgid "2nd and 3rd"
+msgstr ""
+
+msgid "Filter applied"
+msgstr "Použitý filter"
+
+#, c-format
+msgid "Clipboard at %s"
+msgstr "Schránka na %s"
+
+msgid ""
+"Clipboard history disabled.\r\n"
+"Enable: Windows logo key + V, then Turn on."
+msgstr ""
+"História schránky je vypnutá.\r\n"
+"Ak chcete zapnúť históriu schránky, stlačte kláves s logom Windows + V a potom kliknite na tlačidlo Zapnúť."
+
+msgid "This system does not support clipboard history."
+msgstr "Tento systém nepodporuje históriu schránky."
+
+msgid "32-bit WinMerge does not support Clipboard Compare"
+msgstr "32-bitová verzia WinMerge nepodporuje porovnávanie schránky"
+
+msgid "WebView2 runtime not installed. Download it?"
+msgstr ""
+
+msgid "New Text Compare"
+msgstr ""
+
+msgid "New Table Compare"
+msgstr ""
+
+msgid "New Binary Compare"
+msgstr ""
+
+msgid "New Image Compare"
+msgstr ""
+
+msgid "New Webpage Compare"
+msgstr ""
+
+msgid "Clipboard Compare"
+msgstr ""
+
+msgid "&Print..."
+msgstr ""
+
+msgid "Pre&v Page"
+msgstr ""
+
+msgid "&Two Page"
+msgstr ""
+
+msgid "&One Page"
+msgstr ""
+
+msgid "Zoom &In"
+msgstr ""
+
+msgid "Zoom &Out"
+msgstr ""
+
+msgid "Comparing..."
+msgstr ""
+
+msgid "Zoom:"
+msgstr ""
+
+msgid "Diff hunk"
+msgstr ""
+
+msgid "Inline diff"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Character"
+msgstr ""
+
+msgid "\nPrevious Difference (Alt+Up)\n(Right Button+Wheel Up)\n(Alt+Wheel Up)"
+msgstr ""
+
+msgid "\nNext Difference (Alt+Down)\n(Right Button+Wheel Down)\n(Alt+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Right (Alt+Right)\n(Right Button+Wheel Right)\n(Alt+Wheel Right)\n(Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left (Alt+Left)\n(Right Button+Wheel Left)\n(Alt+Wheel Left)\n(Alt+Shift+Wheel Up)"
+msgstr ""
+
+msgid "\nCopy to Right and Advance (Ctrl+Alt+Right)\n(Ctrl+Alt+Wheel Right)\n(Ctrl+Alt+Shift+Wheel Down)"
+msgstr ""
+
+msgid "\nCopy to Left and Advance (Ctrl+Alt+Left)\n(Ctrl+Alt+Wheel Left)\n(Ctrl+Alt+Shift+Wheel Up)"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2"
+msgstr ""
+
+#, c-format
+msgid "Comparing %1 with %2 and %3"
+msgstr ""
+
+msgid "Comparison completed"
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2: "
+msgstr ""
+
+#, c-format
+msgid "Failed to compare %1 with %2 and %3: "
+msgstr ""
+
+msgid "File saved"
+msgstr ""
+
+msgid "Copying files..."
+msgstr ""
+
+msgid "Moving files..."
+msgstr ""
+
+msgid "Deleting files..."
+msgstr ""
+
+msgid "Recycle Bin"
+msgstr ""
+
+msgid "Permanently deleted"
+msgstr ""
+
+msgid "File operation completed successfully"
+msgstr ""
+
+msgid "File operation canceled"
+msgstr ""
+
+msgid "Prettification"
+msgstr "Prikrášlenie"
+
+msgid "Content Extraction"
+msgstr "Rozbalenie obsahu"
+
+msgid "Preview"
+msgstr ""
+
+msgid "Data Query"
+msgstr "Vyhľadávanie údajov"
+
+msgid "Validation"
+msgstr "Overenie"
+
+msgid "Decompilation"
+msgstr "Dekompilácia"
+
+msgid "URL Handling"
+msgstr ""
+
+msgid "Decoding / Encoding"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr "Vytvoriť veľké písmená"
+
+msgid "Make Lowercase"
+msgstr "Vytvoriť malé písmená"
+
+msgid "Remove Duplicate Lines"
+msgstr "Odstrániť duplicitné riadky"
+
+msgid "Count Duplicate Lines"
+msgstr "Počet duplicitných riadkov"
+
+msgid "Sort Lines Ascending"
+msgstr "Zoradiť riadky vzostupne"
+
+msgid "Sort Lines Descending"
+msgstr "Zoradiť riadky zostupne"
+
+msgid "Reverse Columns"
+msgstr "Prevrátiť stĺpce"
+
+msgid "Reverse Lines"
+msgstr "Prevrátiť riadky"
+
+msgid "Replace..."
+msgstr "Nahradiť..."
+
+msgid "Apply Filter Command..."
+msgstr "Použiť príkaz Filter..."
+
+msgid "Tokenize..."
+msgstr "Tokenizácia..."
+
+msgid "Trim Spaces"
+msgstr "Priestory na orezávanie"
+
+msgid "Select Columns..."
+msgstr "Výber stĺpcov..."
+
+msgid "Select Lines..."
+msgstr "Výber riadkov..."
+
+msgid "Insert Date"
+msgstr "Vložiť dátum"
+
+msgid "Insert Time"
+msgstr "Vložiť čas"
+
+msgid "Apply Patch..."
+msgstr "Použiť záplatu..."
+
+msgid "Ignore Columns"
+msgstr "Ignorovať stĺpce"
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr "Ignorovať komentáre (príbuzné jazyku C)"
+
+msgid "Ignore CSV Fields"
+msgstr "Ignorovanie polí CSV"
+
+msgid "Ignore TSV Fields"
+msgstr "Ignorovanie polí TSV"
+
+msgid "Ignore Leading Line Numbers"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr "Použitie filtrov nahradenia predbežného spracovania rozdielov"
+
+msgid "Prettify HTML"
+msgstr "Skrášliť HTML"
+
+msgid "Prettify JSON"
+msgstr "Skrášliť JSON"
+
+msgid "Prettify XML"
+msgstr "Skrášliť XML"
+
+msgid "Prettify YAML"
+msgstr "Skrášliť YAML"
+
+msgid "Preview Graphviz"
+msgstr ""
+
+msgid "Preview Markdown"
+msgstr ""
+
+msgid "Preview PlantUML"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr "Vyhľadávanie údajov CSV..."
+
+msgid "Query TSV Data..."
+msgstr "Vyhľadávanie údajov TSV..."
+
+msgid "Query JSON Data..."
+msgstr "Vyhľadávanie údajov JSON..."
+
+msgid "Query YAML Data..."
+msgstr "Vyhľadávanie údajov YAML..."
+
+msgid "Validate HTML"
+msgstr "Overenie HTML"
+
+msgid "Disassemble JVM Bytecode"
+msgstr "Rozloženie bytového JVM kódu"
+
+msgid "Disassemble IL Code"
+msgstr "Rozloženie IL kódu"
+
+msgid "Disassemble Native Code"
+msgstr "Rozloženie pôvodného kódu"
+
+msgid "Convert Text with AI..."
+msgstr ""
+
+msgid "Unescape Java properties files"
+msgstr ""
+
+msgid "Make characters uppercase"
+msgstr "Vytvoriť znaky veľkými písmenami"
+
+msgid "Make characters lowercase"
+msgstr "Vytvoriť znaky malými písmenami"
+
+msgid "Remove duplicate lines"
+msgstr "Odstrániť duplicitné riadky"
+
+msgid "Count duplicate lines"
+msgstr "Počet duplicitných riadkov"
+
+msgid "Sort lines ascending"
+msgstr "Zoradiť riadky vzostupne"
+
+msgid "Sort lines descending"
+msgstr "Zoradiť riadky zostupne"
+
+msgid "Reverse columns"
+msgstr "Prevrátiť stĺpce"
+
+msgid "Reverse lines"
+msgstr "Prevrátiť riadky"
+
+msgid "Replace text.\r\nUsage: Replace [-i] [-e] FIND REPLACE\r\n or: Replace -s\r\n FIND - text to find\r\n REPLACE - text to replace\r\n -i - ignore case (only for -e)\r\n -e - regex\r\n -s - use Substitution Filters"
+msgstr ""
+"Nahradenie textu iným textom.\r\n"
+"Použitie: Replace [-i] [-e] FIND REPLACE\r\n"
+" or: Replace -s\r\n"
+"  FIND - text, ktorý sa má nájsť\r\n"
+"  REPLACE - text, ktorý sa má nahradiť\r\n"
+"  -i - ignorovať veľké a malé písmená (len pre -e)\r\n"
+"  -e - spracovať zadaný text ako regulárny výraz\r\n"
+" -s - use Substitution Filters"
+
+#, c-format
+msgid ""
+"Apply filter. \r\n"
+"Usage: ExecFilterCommand COMMAND\r\n"
+" COMMAND - command to execute. %1 = filename."
+msgstr ""
+"Príkaz použiť filter\r\n"
+"Použitie: ExecFilterCommand COMMAND\r\n"
+"  COMMAND - príkaz na vykonanie. %1 v príkaze sa nahradí názvom súboru."
+
+msgid ""
+"Tokenize. \r\n"
+"Usage: Tokenize PATTERNS\r\n"
+" PATTERNS - regex (e.g. [^\\w]+)"
+msgstr ""
+"Výber tokenov\r\n"
+"Použitie: Tokenize (PATTERNS)\r\n"
+"  PATTERNS - regulárny výraz na tokenizáciu. (napr. [^\\w]+)"
+
+msgid "Trim spaces"
+msgstr "Priestory orezu"
+
+msgid ""
+"Select columns.\r\n"
+"Usage: SelectColumns RANGES\r\n"
+" or: SelectColumns [-v] [-i] [-g] -e PATTERNS\r\n"
+" RANGES - column ranges (-3,5-10,30-)\r\n"
+" PATTERNS - regex\r\n"
+" -v - select non-matching\r\n"
+" -i - ignore case\r\n"
+" -g - enable global flag\r\n"
+" -e - use PATTERNS"
+msgstr ""
+"Vyberte niektoré stĺpce.\r\n"
+"Použitie: SelectColumns RANGES\r\n"
+"   alebo: SelectColumns [-v] [-i] [-g] -e PATTERNS\r\n"
+"  RANGES - zoznam rozsahov stĺpcov na výber. (napr. -3,5-10,30-)\r\n"
+"  PATTERNS - regulárny výraz\r\n"
+"  -v - výber nezhodujúcich sa stĺpcov\r\n"
+"  -i - ignorovať veľkosť písmen\r\n"
+"  -g - zapnúť globálny príznak\r\n"
+"  -e - použiť PATTERNS na porovnávanie"
+
+msgid ""
+"Select lines.\r\n"
+"Usage: SelectLines RANGES\r\n"
+" or: SelectLines [-v] [-i] -e PATTERNS\r\n"
+" RANGES - line ranges (-3,5-10,30-)\r\n"
+" PATTERNS - regex\r\n"
+" -v - select non-matching\r\n"
+" -i - ignore case\r\n"
+" -e - use PATTERNS"
+msgstr ""
+"Vyberte niekoľko riadkov.\r\n"
+"Použitie: SelectLines RANGES\r\n"
+"   alebo: SelectLines [-v] [-i] -e PATTERNS\r\n"
+"  RANGES - zoznam rozsahov riadkov na výber. (napr. -3,5-10,30-)\r\n"
+"  PATTERNS - regulárny výraz\r\n"
+"  -v - výber nezhodujúcich sa riadkov\r\n"
+"  -i - ignorovať veľkosť písmen\r\n"
+"  -e - na porovnávanie použite PATTERNS"
+
+msgid ""
+"HTML Prettier (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"HTML skrášlemé tidy-html5\r\n"
+"Argumenty: Možnosti príkazového riadku odovzdané príkazu tidy."
+
+msgid ""
+"JSON Prettier (jq).\r\n"
+"Arguments: jq filter/command line options."
+msgstr ""
+"JSON skrášlené príkazom jq\r\n"
+"Argumenty: Argumenty: Možnosti filtra alebo príkazového riadka odovzdané príkazu jq."
+
+msgid ""
+"XML Prettier (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"XML skrášlené tidy-html5\r\n"
+"Argumenty: Možnosti príkazového riadku odovzdané príkazu tidy."
+
+msgid ""
+"YAML Prettier (yq).\r\n"
+"Arguments: yq filter/command line options."
+msgstr ""
+"YAML skrášlené príkazom yq\r\n"
+"Argumenty: Možnosti filtra alebo príkazového riadka odovzdané príkazu yq."
+
+msgid "Graphviz Previewer.\r\nArguments: dot command line options."
+msgstr ""
+
+msgid "Markdown Previewer.\r\nArguments: md2html command line options."
+msgstr ""
+
+msgid "PlantUML Previewer.\r\nArguments: plantuml.jar command line options."
+msgstr ""
+
+msgid ""
+"CSV Querier (q).\r\n"
+"Arguments: SQL statement/q comannd line options."
+msgstr ""
+"CSV dopyt príkazom q\r\n"
+"Argumenty: Príkaz SQL alebo možnosti príkazového riadka odovzdané príkazu q."
+
+msgid ""
+"TSV Querier (q).\r\n"
+"Arguments: SQL statement/q comannd line options."
+msgstr ""
+"TSV dopyt príkazom q\r\n"
+"Argumenty: SQL príkaz alebo možnosti príkazového riadka odovzdané príkazu q."
+
+msgid ""
+"JSON Querier (jq).\r\n"
+"Arguments: jq filter/command line options."
+msgstr ""
+"JSON dopyt príkazom jq\r\n"
+"Argumenty: Príkaz jq: Možnosti filtra alebo príkazového riadka."
+
+msgid ""
+"YAML Querier (yq).\r\n"
+"Arguments: yq filter/command line options."
+msgstr ""
+"YAML dopyt príkazom yq\r\n"
+"Argumenty: Príkazy: Filter alebo možnosti príkazového riadka odovzdané príkazu yq."
+
+msgid ""
+"HTML Validator (tidy-html5).\r\n"
+"Arguments: tidy command line options."
+msgstr ""
+"Validátor HTML s tidy-html5\r\n"
+"Argumenty: Možnosti príkazového riadku odovzdané príkazu tidy."
+
+msgid ""
+"JVM bytecode disassembler (javap).\r\n"
+"Arguments: javap command line options."
+msgstr ""
+"Rozkladač bytového kódu JVM pomocou javap\r\n"
+"Argumenty: Možnosti príkazového riadku odovzdané príkazu javap."
+
+msgid ""
+"IL disassembler (ildasm).\r\n"
+"Arguments: ildasm command line options."
+msgstr ""
+"IL disassembler s ildasm\r\n"
+"Argumenty: Možnosti príkazového riadku odovzdané príkazu ildasm."
+
+msgid ""
+"Native code disassembler (dumpbin).\r\n"
+"Arguments: dumpbin command line options."
+msgstr ""
+"Rozkladač natívneho kódu príkazom dumpbin\r\n"
+"Argumenty: Možnosti príkazového riadku odovzdané príkazu dumpbin."
+
+msgid ""
+"Content extractor (Apache Tika).\r\n"
+"Arguments: tika-app.jar command line options."
+msgstr ""
+"Všeobecný rozbaľovač obsahu pomocou Apache Tika\r\n"
+"Argumenty: Príkazového riadku odovzdané tika-app.jar."
+
+msgid "Apply patch (GNU patch)"
+msgstr ""
+
+msgid "Display MS Excel text content"
+msgstr "Zobrazenie textového obsahu súborov MS Excel"
+
+msgid "Display MS PowerPoint text content"
+msgstr "Zobrazenie textového obsahu súborov MS PowerPoint"
+
+msgid "Display MS Visio text content"
+msgstr "Zobrazenie textového obsahu súborov MS Visio"
+
+msgid "Display MS Word text content"
+msgstr "Zobrazenie textového obsahu súborov MS Word"
+
+msgid "Ignore columns - list from plugin name/argument"
+msgstr "Ignorovať niektoré stĺpce - zoznam ignorovaných stĺpcov z názvu rozšírenia alebo argumentu rozšírenia"
+
+msgid "Ignore C, C++, PHP, and JavaScript comments (//... and /* ... */)."
+msgstr "Rozšírenie ignoruje komentáre (//... a /* ... */) v súboroch C, C++, PHP a JavaScript."
+
+msgid "Ignore fields - list from plugin name/argument"
+msgstr "Ignorovať niektoré polia - zoznam ignorovaných polí z názvu rozšírenia alebo argumentu rozšírenia"
+
+msgid "Ignore leading line numbers (e.g., NC, BASIC)."
+msgstr ""
+
+msgid "Prediff Line Filter"
+msgstr "Filter predbežného spracovania rozdielov riadku"
+
+msgid "Date and time insertion"
+msgstr ""
+
+msgid "HTTP URL Scheme Handler (curl).\r\nArguments: curl command line options."
+msgstr ""
+
+msgid "Windows Registry URL Scheme Handler.\r\nArguments: reg.exe command line options."
+msgstr ""
+
+msgid "Basic text functions"
+msgstr ""
+
+msgid "AI-assisted text conversion"
+msgstr ""
+
+msgid "Text converter (OpenAI API).\r\nUsage: AIConvertText PROMPT"
+msgstr ""
+
+msgid "Unescape and display escaped Java properties files."
+msgstr ""
+
+msgid "CompareMSExcelFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract workbook data to multiple files"
+msgstr ""
+
+msgid "Update external references (links)"
+msgstr ""
+
+msgid "Compare document properties"
+msgstr ""
+
+msgid "Compare names"
+msgstr ""
+
+msgid "Compare cell values"
+msgstr ""
+
+msgid "Compare worksheets as image (very slow)"
+msgstr ""
+
+msgid " - Image split size: "
+msgstr ""
+
+msgid "Compare worksheets as HTML"
+msgstr ""
+
+msgid "Compare formulas"
+msgstr ""
+
+msgid "Compare texts in shapes"
+msgstr ""
+
+msgid "Compare headers and footers"
+msgstr ""
+
+msgid "Cannot get Macros.\r\nEnable 'Trust access to Visual Basic Project' in MS Office Macro Security."
+msgstr ""
+
+msgid "Compare VBA macros"
+msgstr ""
+
+msgid "CompareMSWordFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract document data to multiple files"
+msgstr ""
+
+msgid "Compare bookmarks"
+msgstr ""
+
+msgid "Compare text contents of documents"
+msgstr ""
+
+msgid "Compare documents as HTML file (very slow)"
+msgstr ""
+
+msgid "CompareMSPowerPointFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract slide data to multiple files"
+msgstr ""
+
+msgid "Compare slides as image (very slow)"
+msgstr ""
+
+msgid "Compare texts in notes page"
+msgstr ""
+
+msgid "CompareMSVisioFiles.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Extract page data to multiple files"
+msgstr ""
+
+msgid "Compare pages as image (very slow)"
+msgstr ""
+
+msgid "PrediffLineFilter.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Ignore Case"
+msgstr ""
+
+msgid "Use RegExp"
+msgstr ""
+
+msgid "Find what"
+msgstr ""
+
+msgid "Replace with"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Column Ranges to Ignore:\ne.g.) 3,10-20,32-33\n"
+msgstr ""
+
+#, c-format
+msgid "Enter filename for patch '%1'"
+msgstr ""
+
+#, c-format
+msgid "File '%1' does not exist"
+msgstr ""
+
+msgid "Enter command line arguments for patch"
+msgstr ""
+
+#, c-format
+msgid "Enter folder name for patch '%1'"
+msgstr ""
+
+#, c-format
+msgid "Folder '%1' does not exist"
+msgstr ""
+
+msgid "Do not use '-p0' for patch files with absolute paths"
+msgstr ""
+
+msgid "AI.sct WinMerge Plugin Options"
+msgstr ""
+
+msgid "Enter prompt"
+msgstr ""
+
+#, c-format
+msgid "Enter OpenAI API key.\r\n- Requires OpenAI registration (fees may apply).\r\n- Key stored in env var %1."
+msgstr ""
+
+msgid "Environment variable name for OpenAI API key"
+msgstr ""
+
+msgid "OpenAI API key"
+msgstr ""
+
+msgid "Temperature"
+msgstr ""
+
+msgid "Maximum length"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "OpenAI API key changed. Restart to apply."
+msgstr ""

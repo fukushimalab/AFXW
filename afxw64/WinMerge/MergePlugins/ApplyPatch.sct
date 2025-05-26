@@ -1,0 +1,584 @@
+<scriptlet>
+<implements type="Automation" id="dispatcher">
+  <property name="PluginEvent">
+    <get/>
+  </property>
+  <property name="PluginDescription">
+    <get/>
+  </property>
+  <property name="PluginFileFilters">
+    <get/>
+  </property>
+  <property name="PluginIsAutomatic">
+    <get/>
+  </property>
+  <property name="PluginExtendedProperties">
+    <get/>
+  </property>
+  <method name="PluginOnEvent"/>
+  <method name="UnpackFile"/>
+  <method name="PackFile"/>
+  <method name="IsFolder"/>
+  <method name="UnpackFolder"/>
+  <method name="PackFolder"/>
+  <method name="ShowSettingsDialog"/>
+</implements>
+
+<script language="JScript">
+
+/*
+    This is a plugin for WinMerge.
+    It will apply selected patch to specified file or folder using GNU patch.
+    Copyright (C) 2015-2024 Takashi Sawanaka
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*/
+
+
+var REGKEY_PATH = "Plugins\\ApplyPatch.sct/";
+var PLUGIN_NAME = "ApplyPatch.sct WinMerge Plugin";
+
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var wsh = new ActiveXObject("WScript.Shell");
+var PrevFileName = "";
+var mergeApp;
+
+function regRead(Key, DefaultValue) {
+  return mergeApp.GetOption(Key, DefaultValue);
+}
+
+function regWrite(Key, Value, TypeNm) {
+  mergeApp.SaveOption(Key, (TypeNm === "REG_DWORD") ? parseInt(Value, 10) : String(Value));
+}
+
+function fmt(formatString, args) {
+  for (var i = 0; i < args.length; i++) {
+    formatString = formatString.replace("%" + (i + 1), args[i]);
+  }
+  return formatString;
+}
+
+function get_PluginEvent() {
+  return "FILE_FOLDER_PACK_UNPACK";
+}
+
+function get_PluginDescription() {
+  return "Apply patch (GNU patch)";
+}
+
+function get_PluginFileFilters() {
+  return "\\.diff$;\\.patch$";
+}
+
+function get_PluginIsAutomatic() {
+  return false;
+}
+
+function get_PluginExtendedProperties() {
+  return "MenuCaption=Apply Patch...";
+}
+
+function PluginOnEvent(eventType, obj) {
+  mergeApp = obj;
+}
+
+function UnpackFile(fileSrc, fileDst, pbChanged, pSubcode) {
+  if (!isPatchFile(fileSrc)) {
+    // FIXME:
+    PrevFileName = fileSrc;
+    fso.CopyFile(fileSrc, fileDst);
+    pbChanged = true;
+    pSubcode = 1;
+
+    var result = new ActiveXObject("Scripting.Dictionary");
+    result.Add(0, true);
+    result.Add(1, pbChanged);
+    result.Add(2, pSubcode);
+    return result.Items();
+  }
+
+  var filePatched = (PrevFileName !== "") ? PrevFileName : regRead("Files\\Left/Item_0", "");
+  if (isPatchFile(filePatched)) {
+    filePatched = regRead("Files\\Right/Item_0", "");
+  }
+
+  var msg = fmt(translate("${Enter filename for patch '%1'}"), [ fso.GetFileName(fileSrc) ]);
+  while (true) {
+    filePatched = mergeApp.InputBox(msg, PLUGIN_NAME, filePatched);
+    if (filePatched === "") {
+      return false;
+    }
+    if (fso.FileExists(filePatched)) { break; }
+    mergeApp.MsgBox(fmt(translate("${File '%1' does not exist}"), [ filePatched ]), 48/*vbExclamation*/);
+  }
+
+  var cmdLine = "type \"" + fileSrc + "\" | patch --binary $FILE";
+  msg = translate("${Enter command line arguments for patch}");
+  cmdLine = mergeApp.InputBox(msg, PLUGIN_NAME, cmdLine);
+  if (cmdLine === "") { return false; }
+  cmdLine = cmdLine.replace("$FILE", fileDst);
+      
+  fso.CopyFile(filePatched, fileDst);
+
+  run(wsh, "cmd.exe /s /c \"set PATH=" + getPatchExeFolder() + ";%PATH% & " + cmdLine + " & pause\"");
+
+  pbChanged = true;
+  pSubcode = 0;
+
+  var result = new ActiveXObject("Scripting.Dictionary");
+  result.Add(0, true);
+  result.Add(1, pbChanged);
+  result.Add(2, pSubcode);
+  return result.Items();
+}
+
+function PackFile(fileSrc, fileDst, pbChanged, pSubcode) {
+  if (pSubcode !== 0) {
+    // FIXME:
+    fso.CopyFile(fileSrc, fileDst);
+    var result = new ActiveXObject("Scripting.Dictionary");
+    result.Add(0, true);
+    result.Add(1, pbChanged);
+    result.Add(2, pSubcode);
+    return result.Items();
+  }
+  return false;
+}
+
+function IsFolder(file) {
+  return isPatchFile(file);
+}
+
+function UnpackFolder(fileSrc, folderDst, pbChanged, pSubcode) {
+  if (!fso.FolderExists(folderDst)) { fso.CreateFolder(folderDst); }
+
+  var dirPatched = regRead("Files\\Left/Item_0", "");
+  if (!fso.FolderExists(dirPatched)) {
+    dirPatched = regRead("Files\\Right/Item_0", "");
+  }
+
+  var msg = fmt(translate("${Enter folder name for patch '%1'}"), [ fso.GetFileName(fileSrc) ]);
+  while (true) {
+    dirPatched = mergeApp.InputBox(msg, PLUGIN_NAME, dirPatched);
+    if (dirPatched === "") {
+      fso.CopyFile(fileSrc, fso.BuildPath(folderDst, fso.GetFileName(fileSrc)) + ".txt");
+      return false;
+    }
+    if (fso.FolderExists(dirPatched)) { break; }
+    mergeApp.MsgBox(fmt(translate("${Folder '%1' does not exist}"), dirPatched), 48/*vbExclamation*/);
+  }
+
+  var files = getFileNamesInPatch(fileSrc);
+  var stripCount = guessStripCount(files, dirPatched);
+
+  var cmdLine = "type \"" + fileSrc + "\" | patch --binary -p" + stripCount;
+  msg = translate("${Enter command line arguments for patch}");
+  cmdLine = mergeApp.InputBox(msg, PLUGIN_NAME, cmdLine);
+  if (cmdLine === "") {
+    fso.CopyFile(fileSrc, fso.BuildPath(folderDst, fso.GetFileName(fileSrc)) + ".txt");
+    return false;
+  }
+      
+  stripCount = getStripCountFromCmdLine(cmdLine);
+  if (stripCount === 0) {
+    if (hasAbsolutePathInList(files)) {
+      msg = translate("${Should not specify the '-p0' command line option for the patch file which includes absolute paths}");
+      mergeApp.MsgBox(msg, 48/*vbExclamation*/);
+      return false;
+    }
+  }
+
+  copyOriginalFiles(dirPatched, folderDst, files, stripCount);
+
+  run(wsh, "cmd.exe /s /c \"set PATH=" + getPatchExeFolder() + ";%PATH% & cd /d " + folderDst + " & " + cmdLine + " & pause\"");
+
+  pbChanged = true;
+  pSubcode = 0;
+
+  var result = new ActiveXObject("Scripting.Dictionary");
+  result.Add(0, true);
+  result.Add(1, pbChanged);
+  result.Add(2, pSubcode);
+  return result.Items();
+}
+
+function PackFolder(folderSrc, fileDst, pbChanged, pSubcode) {
+  return false;
+}
+
+function translate(text) {
+  var re = /\${([^}]+)}/g;
+  var matches;
+  while ((matches = re.exec(text)) != null) {
+    text = text.replace(matches[0], mergeApp.Translate(matches[1]));
+  }
+  return text;
+}
+
+function ShowSettingsDialog() {
+  var tname = fso.BuildPath(fso.GetSpecialFolder(2), fso.GetTempName() + ".hta");
+  var xmlfile = fso.BuildPath(fso.GetSpecialFolder(2), fso.GetTempName() + ".xml");
+  var tfile = fso.CreateTextFile(tname, true, true);
+  tfile.Write(translate(getResource("dialog1")));
+  tfile.Close();
+  exportSettingsToXMLFile(xmlfile);
+  var mshta = wsh.ExpandEnvironmentStrings("%SystemRoot%\\System32\\mshta.exe");
+  if (!fso.FileExists(mshta)) {
+    mshta = wsh.ExpandEnvironmentStrings("%SystemRoot%\\SysWOW64\\mshta.exe");
+  }
+  run(wsh, "\"" + mshta + "\" \"" + tname + "\"  \"" + xmlfile + "\"");
+  importSettingsFromXMLFile(xmlfile);
+  fso.DeleteFile(tname);
+  fso.DeleteFile(xmlfile);
+}
+
+function run(sh, cmd) {
+  sh.Run(cmd, 1, true);
+}
+
+function getPatchExeFolder() {
+  var winMergeExePath = "C:\\Program Files\\WinMerge\\WinMergeU.exe";
+  try {
+    winMergeExePath = wsh.RegRead("Executable");
+  } catch (e) {}
+  return fso.BuildPath(fso.GetParentFolderName(winMergeExePath), "Commands\\msys2\\usr\\bin");
+}
+
+function isPatchFile(path) {
+  var patterns = get_PluginFileFilters().split(";");
+  for (var i = 0; i < patterns.length; i++) {
+    var re = new RegExp(patterns[i], "gi");
+    if (re.test(path)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function isWindowsTextFormat(path) {
+  return (readAllText(path).indexOf("\r\n") >= 0);
+}
+
+function isAbsolutePath(path) {
+  return (path.length > 1) && (path.charAt(1) === ":" || path.charAt(0) === "/" || path.charAt(0) === "\\");
+}
+
+function hasAbsolutePathInList(files) {
+  for (var i = 0; i < files.length; i++) {
+    if (isAbsolutePath(files[i][0])) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function isNullDevice(path) {
+  return (path === "/dev/null" || path.toUpperCase() === "NUL");
+}
+
+function stripDir(fileName, stripCount) {
+  if (stripCount === -1) {
+    return fso.GetFileName(fileName);
+  } else if (stripCount === 0) {
+    return fileName;
+  }
+  var pos = 0;
+  for (var i = 0; i < stripCount; i++) {
+    var posNext1 = fileName.indexOf("/", pos);
+    var posNext2 = fileName.indexOf("\\", pos);
+    if (posNext1 >= 0 && (posNext1 < posNext2 || posNext2 === -1)) {
+      pos = posNext1 + 1;
+    } else if (posNext2 >= 0 && (posNext2 < posNext1 || posNext1 === -1)) {
+      pos = posNext2 + 1;
+    } else {
+      pos = -1;
+      break;
+    }
+  }
+  if (pos === -1) {
+    return "";
+  }
+  return fileName.substring(pos);
+}
+
+function makePatchedFileName(destDir, fileName, stripCount) {
+  if (!isNullDevice(fileName)) {
+    var strippedFileName = stripDir(fileName, stripCount);
+    if (strippedFileName === "") {
+      return "";
+    }
+    if (!isAbsolutePath(strippedFileName)) {
+      return fso.BuildPath(destDir, strippedFileName);
+    }
+    return strippedFileName;
+  }
+  return fileName;
+}
+
+function guessStripCount(fileNamesInPatch, destDir) {
+  var guessedStripCount = 0;
+  var stripCount = 0;
+  var maxMatchCount = 0;
+  if (fileNamesInPatch.length === 0) { return guessedStripCount; }
+  while (true) {
+    var matchCount = 0;
+    for (var i = 0; i < fileNamesInPatch.length; i++) {
+      for (var j = 0; j < 2; j++) {
+        if (!isNullDevice(fileNamesInPatch[i][j])) {
+          var fileName = makePatchedFileName(destDir, fileNamesInPatch[i][j], stripCount);
+          if (fso.FileExists(fileName)) {
+            matchCount++;
+          }
+        }
+      }
+    }
+    if (matchCount > maxMatchCount) {
+      guessedStripCount = stripCount;
+    }
+    stripCount++;
+    if (stripCount > 64) { break; }
+  }
+  return guessedStripCount;
+}
+
+function createFolderEx(dirName) {
+  var parent = fso.GetParentFolderName(dirName);
+  if (fso.FolderExists(parent)) {
+    if (!fso.FolderExists(dirName)) {
+      fso.CreateFolder(dirName);
+    }
+  } else {
+    createFolderEx(parent);
+    fso.CreateFolder(dirName);
+  }
+}
+
+function copyOriginalFiles(srcDir, destDir, fileNamesInPatch, stripCount) {
+  for (var i = 0; i < fileNamesInPatch.length; i++) {
+    if (!isNullDevice(fileNamesInPatch[i][0])) {
+      var fileNameSrc = makePatchedFileName(srcDir, fileNamesInPatch[i][0], stripCount);
+      var fileNameDest = makePatchedFileName(destDir, fileNamesInPatch[i][0], stripCount);
+      if (fso.FileExists(fileNameSrc)) {
+        if (!fso.FolderExists(fso.GetParentFolderName(fileNameDest))) {
+          createFolderEx(fso.GetParentFolderName(fileNameDest));
+        }
+        fso.CopyFile(fileNameSrc, fileNameDest);
+      }
+    }
+  }
+}
+
+function readAllText(fileName) {
+  var stream = new ActiveXObject("ADODB.Stream");
+  stream.Open();
+  stream.Charset = "_autodetect_all";
+  stream.LoadFromFile(fileName);
+  var result = stream.ReadText();
+  stream.Close();
+  return result;
+}
+
+function getFileNamesInPatch(fileName) {
+  var ary = new Array();
+  var re = new RegExp("^(---|\\+\\+\\+|\\*\\*\\*) ([^\\t\\r\\n]+)");
+  var text = readAllText(fileName);
+  var i = 0;
+  var eol = text.match(/\r\n|\n|\r/);
+  var lines = text.split(eol);
+  while (i < lines.length) {
+    var line = lines[i];
+    var ml = re.exec(line);
+    if (ml) {
+      i++;
+      if (i < lines.length) {
+        line = lines[i];
+        var mr = re.exec(line);
+        if (mr) {
+          ary.push([ml[2], mr[2]]);
+        }
+      }
+    }
+    i++;
+  }
+  return ary;
+}
+
+function getStripCountFromCmdLine(cmdLine) {
+  var re = new RegExp("( -p(\\d+)| --strip=(\\d+))");
+  var m = re.exec(cmdLine);
+  if (m) {
+    if (m[2]) {
+      return parseInt(m[2], 10);
+    }
+    return parseInt(m[3], 10);
+  }
+  return -1;
+}
+
+function exportSettingsToXMLFile(filepath) {
+  var key_defvalues = {
+    "Dummy" : true
+  };
+  var doc = new ActiveXObject("MSXML2.DOMDocument");
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+  var ts = fso.OpenTextFile(filepath, 2, true, -1);
+  var root = doc.createElement("properties");
+  for (var key in key_defvalues) {
+    var el = doc.createElement("property");
+    var val = regRead(REGKEY_PATH + key, key_defvalues[key]);
+    var cdata = doc.createCDATASection(val);
+    el.appendChild(cdata);
+    el.setAttribute("name", REGKEY_PATH + key);
+    el.setAttribute("type", typeof val);
+    root.appendChild(el);
+  }
+  doc.appendChild(root);
+  ts.Write(doc.xml);
+  ts.Close();
+}
+
+function importSettingsFromXMLFile(filepath) {
+  var fso = new ActiveXObject("Scripting.FileSystemObject");
+  var ts = fso.OpenTextFile(filepath, 1, true, -1);
+  var xml = ts.ReadAll();
+  var doc = new ActiveXObject("MSXML2.DOMDocument");
+  doc.async = false;
+  doc.loadXML(xml);
+  ts.Close();
+  var nodes = doc.documentElement.childNodes;
+  for (var i = 0; i < nodes.length; i++) {
+    regWrite(nodes[i].getAttribute("name"), nodes[i].text, (nodes[i].getAttribute("type") === "string") ? "REG_SZ" : "REG_DWORD");
+  }
+}
+
+</script>
+
+<resource id="dialog1">
+<![CDATA[
+<!DOCTYPE html>
+<html>
+  <head>
+    <HTA:APPLICATION ID="objHTA">
+    <title>${ApplyPatch.sct WinMerge Plugin Options}</title>
+    <meta content="text/html" charset="UTF-16">
+    <style>
+    body { background-color: #f2f2f2; font-family: Arial, sans-serif; }
+    .container { margin: 2em; }
+    ul { list-style-type: none; margin: 0; padding: 0; }
+    li ul li { padding-left: 2em }
+    .btn-container { margin-top: 1.5em; text-align: right; }
+    input[type="button"] { border: none; padding: 0.6em 2em; height: 2.5em; text-align: center; }
+    .btn-ok { color: #fff; background-color: #05c; }
+    .btn-ok:hover { background-color: #04b; }
+    .btn-cancel { color: #333; background-color: #ddd; }
+    .btn-cancel:hover { background-color: #ccc; }
+    </style>
+    <script type="text/javascript">
+      var REGKEY_PATH = "Plugins\\ApplyPatch.sct/";
+      var xmlFilePath;
+      var settings = {};
+
+      function regRead(key, defaultValue) {
+        return settings.hasOwnProperty(key) ? settings[key] : defaultValue;
+      }
+
+      function regWrite(key, value, type) {
+        settings[key] = (type === "REG_DWORD") ? Number(value) : String(value);
+      }
+
+      function loadSettingsFromXMLFile(filepath) {
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        var ts = fso.OpenTextFile(filepath, 1, true, -1);
+        var xml = ts.ReadAll();
+        var doc = new ActiveXObject("MSXML2.DOMDocument");
+        doc.async = false;
+        doc.loadXML(xml);
+        ts.Close();
+        var nodes = doc.documentElement.childNodes;
+        for (var i = 0; i < nodes.length; i++) {
+          regWrite(nodes[i].getAttribute("name"), nodes[i].text, (nodes[i].getAttribute("type") === "string") ? "REG_SZ" : "REG_DWORD");
+        }
+        return settings;
+      }
+
+      function saveSettingsToXMLFile(filepath, settings) {
+        var doc = new ActiveXObject("MSXML2.DOMDocument");
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        var ts = fso.OpenTextFile(filepath, 2, true, -1);
+        var root = doc.createElement("properties");
+        for (var key in settings) {
+          if (settings.hasOwnProperty(key)) {
+            var el = doc.createElement("property");
+            var val = settings[key];
+            var cdata = doc.createCDATASection(val);
+            el.appendChild(cdata);
+            el.setAttribute("name", key);
+            el.setAttribute("type", typeof val);
+            root.appendChild(el);
+          }
+        }
+        doc.appendChild(root);
+        ts.Write(doc.xml);
+        ts.Close();
+      }
+
+      function onload() {
+        xmlFilePath = objHTA.commandLine.split('"')[3];
+        settings = loadSettingsFromXMLFile(xmlFilePath);
+
+        var dpi = window.screen.deviceXDPI;
+        var w = 600 * dpi / 96, h = 400 * dpi / 96;
+        window.resizeTo(w, h);
+        window.moveTo((screen.width - w) / 2, (screen.height - h) / 2);
+
+        document.onkeydown = onkeydown;
+      }
+
+      function onkeydown() {
+        var k = event.keyCode;
+        if (k == 13/*Enter*/) {
+          btnOk_onclick();
+        } else if (k == 27/*Escape*/) {
+          btnCancel_onclick();
+        }
+      }
+
+      function btnOk_onclick() {
+        saveSettingsToXMLFile(xmlFilePath, settings);
+
+        window.close();
+      }
+
+      function btnCancel_onclick() {
+        saveSettingsToXMLFile(xmlFilePath, {});
+
+        window.close();
+      }
+
+    </script>
+  </head>
+  <body onload="onload();">
+    <div class="container">
+      <div class="btn-container">
+        <input type="button" class="btn-ok" onclick="btnOk_onclick();" value="${OK}" />
+        <input type="button" class="btn-cancel" onclick="btnCancel_onclick();" value="${Cancel}" />
+      </div>
+    </div>
+  </body>
+</html>
+]]>
+</resource>
+
+</scriptlet>
